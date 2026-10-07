@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#14212a">
+  <meta name="description" content="돌을 밀고, 숨을 고르고, 다시 시작하는 게임. 시지프스를 브라우저에서 플레이하세요.">
+  <title>SISYPHUS · 시지프스</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #101a21; color: #e8e1cc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; }
+    header, footer, .controls { width: min(1440px, 100%); margin: 0 auto; padding: 14px 22px; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+    h1 { font-size: 20px; font-weight: 500; letter-spacing: .18em; margin: 0; }
+    header span, footer { color: #a6b1b1; font-size: 13px; }
+    main { width: min(1440px, 100%); margin: 0 auto; }
+    #stage { position: relative; aspect-ratio: 16 / 9; background: #14212a; overflow: hidden; }
+    #stage:fullscreen { width: 100vw; height: 100vh; aspect-ratio: auto; display: flex; align-items: center; justify-content: center; }
+    #stage:fullscreen canvas { width: min(100vw, 177.7778vh); height: min(100vh, 56.25vw); }
+    canvas { display: block; width: 100%; height: 100%; outline: none; }
+    #loading { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; padding: 24px; background: #14212a; }
+    #loading[hidden] { display: none; }
+    .eyebrow { color: #d8b678; letter-spacing: .3em; font-size: 13px; }
+    h2 { font-size: clamp(24px, 4vw, 42px); font-weight: 400; margin: 16px 0; }
+    #message { color: #b5bfbe; max-width: 480px; line-height: 1.7; min-height: 3em; white-space: pre-line; }
+    button { border: 1px solid #d8b678; background: #d8b678; color: #14212a; border-radius: 3px; padding: 13px 22px; cursor: pointer; font: inherit; }
+    button:hover { filter: brightness(1.08); }
+    button:focus-visible, a:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+    button:disabled { opacity: .6; cursor: wait; }
+    #start { justify-self: center; margin: 12px; }
+    progress { width: min(360px, 70vw); height: 6px; accent-color: #d8b678; justify-self: center; margin: 18px; }
+    .controls { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 14px; line-height: 1.9; }
+    kbd { color: #d8b678; font-family: inherit; }
+    #fullscreen { font-size: 13px; background: transparent; color: #e8e1cc; border-color: #526269; padding: 7px 12px; }
+    footer { margin-top: 0; line-height: 1.7; }
+    a { color: #a6b1b1; }
+    @media (max-width: 640px) { header { align-items: flex-start; flex-direction: column; } .controls, footer { font-size: 12px; } #message { font-size: 13px; } }
+  </style>
+  $GODOT_HEAD_INCLUDE
+</head>
+<body>
+  <header><h1>SISYPHUS</h1><span>시지프스 · v0.2 플레이 테스트</span></header>
+  <main>
+    <div id="stage">
+      <canvas id="canvas" width="1920" height="1080" tabindex="0" aria-label="시지프스 게임 화면. Enter로 시작하고 D 또는 오른쪽 방향키로 돌을 밉니다."></canvas>
+      <section id="loading" aria-labelledby="intro-title">
+        <div class="eyebrow">ONE STONE. ANOTHER BEGINNING.</div>
+        <h2 id="intro-title">천천히, 한 걸음.</h2>
+        <p id="message" role="status">PC 키보드로 플레이합니다.<br>처음 실행할 때 게임을 불러오는 데 잠시 걸립니다.</p>
+        <progress id="progress" hidden aria-label="게임 불러오기"></progress>
+        <button id="start" type="button">산에 들어가기</button>
+      </section>
+    </div>
+    <div class="controls">
+      <div><kbd>D / →</kbd> 밀기 &nbsp; <kbd>Shift</kbd> 힘주기 &nbsp; <kbd>Space</kbd> 버티기 &nbsp; <kbd>Esc</kbd> 메뉴 &nbsp; <kbd>M</kbd> 소리</div>
+      <button id="fullscreen" type="button">전체 화면</button>
+    </div>
+  </main>
+  <footer>진행 상황은 이 브라우저에 저장됩니다. 탭을 닫기 전 Esc 메뉴에서 저장하세요. 사이트 데이터를 지우면 기록도 지워집니다.<br>
+    <a href="GODOT-LICENSE.txt">Godot 라이선스</a> · <a href="GODOT-COPYRIGHT.txt">제3자 고지</a> · <a href="FONT-LICENSE.txt">글꼴 라이선스</a>
+  </footer>
+  <script src="$GODOT_URL"></script>
+  <script>
+    const canvas = document.getElementById('canvas');
+    const stage = document.getElementById('stage');
+    const overlay = document.getElementById('loading');
+    const message = document.getElementById('message');
+    const progress = document.getElementById('progress');
+    const start = document.getElementById('start');
+    let started = false;
+    canvas.addEventListener('contextmenu', event => event.preventDefault());
+    canvas.addEventListener('keydown', event => {
+      if (['Space', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.code)) event.preventDefault();
+    });
+    document.getElementById('fullscreen').addEventListener('click', async () => {
+      try {
+        if (document.fullscreenElement) await document.exitFullscreen();
+        else await stage.requestFullscreen();
+        canvas.focus();
+      } catch (error) { console.warn('Fullscreen unavailable:', error); }
+    });
+    start.addEventListener('click', async () => {
+      if (started) { location.reload(); return; }
+      started = true;
+      start.disabled = true;
+      progress.hidden = false;
+      message.textContent = '산을 불러오고 있습니다…';
+      try {
+        if (typeof Engine === 'undefined') throw new Error('게임 파일을 불러오지 못했습니다.');
+        const engine = new Engine($GODOT_CONFIG);
+        await engine.startGame({
+          canvas,
+          canvasResizePolicy: 0,
+          onProgress(current, total) {
+            if (total > 0) { progress.max = total; progress.value = current; }
+            else progress.removeAttribute('value');
+          },
+          onExit() {
+            overlay.hidden = false;
+            progress.hidden = true;
+            message.textContent = '게임이 종료되었습니다. 다시 불러올 수 있습니다.';
+            start.textContent = '다시 불러오기';
+            start.disabled = false;
+          }
+        });
+        overlay.hidden = true;
+        canvas.focus();
+      } catch (error) {
+        console.error(error);
+        progress.hidden = true;
+        message.textContent = '게임을 시작하지 못했습니다.\n최신 Chrome 또는 Edge에서 다시 시도해 주세요.';
+        start.textContent = '다시 불러오기';
+        start.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

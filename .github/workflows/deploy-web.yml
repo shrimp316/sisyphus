@@ -1,0 +1,71 @@
+name: Build and deploy browser game
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - name: Download and verify Godot 4.5.1
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .tools/godot .tools/export-templates builds/web
+          cd .tools
+          base='https://github.com/godotengine/godot-builds/releases/download/4.5.1-stable'
+          curl --fail --location --retry 3 "$base/Godot_v4.5.1-stable_linux.x86_64.zip" -o Godot_v4.5.1-stable_linux.x86_64.zip
+          curl --fail --location --retry 3 "$base/Godot_v4.5.1-stable_export_templates.tpz" -o Godot_v4.5.1-stable_export_templates.tpz
+          # SHA-512 values published in this official release's SHA512-SUMS.txt.
+          printf '%s  %s\n' \
+            '5bccbed65a94b82c7c319fdb15719ee8113a6e503976cc54e16f1c61fe95f3d74e5e40b8449b5bb89ff7f424574c20af01a4f5ef08b389e4dc338b245185b0b9' 'Godot_v4.5.1-stable_linux.x86_64.zip' \
+            '8a65c73541184fbcf1a7afedb37c9c15ed0f3babdaafe36ff47ccc515548ac84bc7563ba5b94c253e6085b121ac608b7e03d35dfc0b2c8c690a646a8755b57e5' 'Godot_v4.5.1-stable_export_templates.tpz' | sha512sum --check -
+          unzip -q Godot_v4.5.1-stable_linux.x86_64.zip -d godot
+          unzip -j -q Godot_v4.5.1-stable_export_templates.tpz templates/web_nothreads_debug.zip templates/web_nothreads_release.zip -d export-templates
+          chmod +x godot/Godot_v4.5.1-stable_linux.x86_64
+      - name: Import and export release Web build
+        shell: bash
+        run: |
+          set -euo pipefail
+          .tools/godot/Godot_v4.5.1-stable_linux.x86_64 --headless --path . --editor --import
+          .tools/godot/Godot_v4.5.1-stable_linux.x86_64 --headless --path . --export-release 'Web' builds/web/index.html
+          test -s builds/web/index.html
+          test -s builds/web/index.js
+          test -s builds/web/index.wasm
+          test -s builds/web/index.pck
+          cp third_party/godot/LICENSE.txt builds/web/GODOT-LICENSE.txt
+          cp third_party/godot/COPYRIGHT.txt builds/web/GODOT-COPYRIGHT.txt
+          cp assets/fonts/OFL.txt builds/web/FONT-LICENSE.txt
+          touch builds/web/.nojekyll
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: builds/web
+
+  deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

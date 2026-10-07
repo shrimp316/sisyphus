@@ -1,0 +1,9 @@
+.godot/
+.tools/
+builds/
+exports/
+captures/
+playtest-results/
+*.log
+*.tmp
+
