@@ -1,0 +1,499 @@
+너는 Godot 4 기반 2D 게임 프로젝트의 에셋 구현 담당이다.
+
+프로젝트명: SISYPHUS / 시지프스
+장르: 2D 사이드뷰 등반 로그라이트
+현재 상태: ver.0.2 시스템 구현 완료, 테스트 직전 단계
+목표: 첨부된 레퍼런스 시트를 바탕으로 “게임에 바로 넣을 수 있는 실제 에셋 세트”를 제작/정리하고, Godot에서 바로 연결 가능한 형태로 구성하라.
+
+중요:
+- 첨부된 이미지는 “컨셉/레퍼런스 시트”이며 최종 게임용 원본 에셋이 아니다.
+- 한 장짜리 시트를 그대로 쓰지 말고, 실제 사용 가능한 개별 PNG / sprite sheet / metadata 형태로 분리된 에셋을 만들어라.
+- 모든 최종 에셋은 배경이 투명해야 한다.
+- 모든 캐릭터 프레임은 동일 캔버스 크기와 동일 기준점(발 위치, 중심축)을 유지해야 한다.
+- 가능한 한 현재 프로젝트 구조를 존중하되, 없다면 아래 제안 구조를 기준으로 생성하라.
+
+참고 레퍼런스 파일:
+1. 시시포스_2d_게임_스프라이트_시트.png
+2. 시지푸스_2d_산악_환경_에셋_시트.png
+3. 시지푸스_2d_게임_에셋_시트.png
+
+====================================
+1. 게임 아트 방향
+====================================
+
+아트 스타일:
+- 반실사풍 2D 페인터리 스타일
+- 횡스크롤 사이드뷰
+- 신화적 / 고독한 / 거칠고 무거운 분위기
+- 과장된 만화풍보다는 묵직한 질감
+- 전체적으로 바위, 먼지, 바람, 피로, 긴장감이 느껴져야 함
+- 색감은 자연스러운 흙/돌/회색/갈색/안개색 계열 중심
+- UI 아이콘은 돌에 새긴 듯한 느낌 또는 바위 질감 느낌
+- 모든 실사용 에셋에는 설명 텍스트를 넣지 말 것
+- 에셋 안에 제목, 숫자, 캡션 같은 문구를 삽입하지 말 것
+
+카메라/뷰 기준:
+- 전부 “좌→우 진행” 기준의 측면 사이드뷰
+- 캐릭터는 기본적으로 오른쪽을 향하는 프레임으로 제작
+- 필요시 좌우 반전으로 사용 가능해야 함
+
+====================================
+2. 1차 구현 범위 (테스트용 필수 에셋)
+====================================
+
+우선 테스트에 바로 필요한 핵심 에셋만 구현한다.
+
+필수 세트:
+A. 캐릭터 애니메이션
+B. 돌(Boulder)
+C. 지형/바닥/경사 에셋
+D. 소형 환경 소품
+E. FX
+F. UI 아이콘
+G. Godot 연결용 리소스/메타데이터
+
+목표는 “고퀄 완전체”가 아니라 “지금 ver.0.2 테스트에 바로 넣을 수 있는 일관된 에셋 팩”이다.
+
+====================================
+3. 디렉토리 구조
+====================================
+
+프로젝트 내에 다음 구조를 기본으로 사용하라.
+기존 구조가 있다면 최대한 맞추되, 없으면 아래대로 생성하라.
+
+assets/
+  character/
+    sisyphus/
+      idle/
+      push/
+      heavy_push/
+      brace/
+      exhausted/
+      spriteframes/
+  boulder/
+  terrain/
+  props/
+  fx/
+    dust/
+    gravel/
+    impact/
+    wind/
+    breath/
+    snow/
+  ui/
+    icons/
+    markers/
+  metadata/
+
+godot/
+  resources/
+    spriteframes/
+    atlases/
+  scenes/
+    preview/
+
+====================================
+4. 캐릭터 에셋 상세 명세
+====================================
+
+캐릭터명: Sisyphus
+
+비주얼 특징:
+- 근육질 성인 남성
+- 긴 머리 또는 중간 길이의 거친 머리
+- 짧은 수염 또는 거친 얼굴
+- 누더기 천/허리천 정도의 간단한 의상
+- 맨발 또는 매우 단순한 발 표현
+- 전체적으로 바위와 싸우는 듯한 육체적 긴장감
+
+중요:
+- 캐릭터 프레임은 “게임 애니메이션용”으로 제작한다.
+- 각 프레임은 같은 크기의 캔버스에 놓여야 한다.
+- 발바닥 기준선이 최대한 일정해야 한다.
+- 캐릭터의 크기 비율이 프레임마다 튀지 않게 한다.
+- 모든 모션은 오른쪽 방향(side view) 기준으로 제작한다.
+- 배경 투명 PNG로 저장한다.
+
+기본 캔버스 권장:
+- 512x512 PNG 투명 배경
+- 필요 시 384x384 또는 프로젝트 기존 규격에 맞춰도 되지만 전 애니메이션 통일 필수
+
+필수 애니메이션:
+1) idle
+- 6프레임
+- 가볍게 숨쉬고 체중이 실리는 미세한 움직임
+- 완전 정지처럼 보이지 않게 할 것
+
+2) push
+- 8프레임
+- 일반 밀기
+- 몸이 앞으로 기울고 발이 지면을 미는 느낌
+- 손은 “앞의 돌을 미는 위치”와 자연스럽게 맞는 동작
+- 전 프레임에서 손의 높이/접점이 크게 튀지 않게 할 것
+
+3) heavy_push
+- 6프레임
+- 강하게 밀기 / burst
+- 힘이 더 많이 들어가는 모션
+- 다리와 등 근육 긴장감 강조
+- 흙/먼지가 살짝 일어나는 연출 가능하나 캐릭터 본체와 분리 가능한 경우 분리하는 것을 우선
+
+4) brace
+- 6프레임
+- 뒤로 미끄러지는 돌을 버티는 모션
+- 상체는 뒤로 젖고, 다리는 버티며, 팔은 앞으로 밀어내는 느낌
+- “밀기”와 실루엣 차이가 분명해야 함
+
+5) exhausted
+- 6프레임
+- 지친 상태 / 휴식 / 숨 고르기
+- 허리를 숙이거나 무릎을 짚거나 잠시 주저앉는 흐름
+- 너무 쓰러진 상태 말고 “게임 중 잠깐 회복 가능한 상태” 느낌
+
+출력 형식:
+- 개별 프레임 PNG
+- 각 애니메이션별 spritesheet PNG 1개
+- Godot SpriteFrames 리소스(.tres 또는 .res) 가능하면 함께 생성
+- metadata json 생성
+
+파일명 예시:
+assets/character/sisyphus/idle/idle_01.png
+assets/character/sisyphus/idle/idle_02.png
+...
+assets/character/sisyphus/push/push_01.png
+...
+assets/character/sisyphus/spriteframes/sisyphus_idle_sheet.png
+assets/metadata/sisyphus_animations.json
+
+metadata 예시 내용:
+- animation_name
+- frame_count
+- fps
+- frame_size
+- pivot_x
+- pivot_y
+- baseline_y
+- loop 여부
+
+권장 fps:
+- idle: 6 fps
+- push: 8 fps
+- heavy_push: 8 fps
+- brace: 8 fps
+- exhausted: 6 fps
+
+====================================
+5. 돌(Boulder) 에셋 상세 명세
+====================================
+
+돌은 플레이어가 미는 핵심 오브젝트다.
+크고 무겁고 질감이 살아 있어야 한다.
+
+필수 종류:
+1) default_boulder
+2) rough_boulder
+3) wet_boulder
+4) snow_boulder
+
+조건:
+- 배경 투명 PNG
+- 동일한 기준 크기 유지
+- 프로젝트 내 collision과 맞추기 쉽게 원형에 가까운 실루엣
+- 지나치게 삐죽한 실루엣은 피할 것
+- 캐릭터 손 위치와 맞춰 쓰기 쉽게 측면에서 일관성 유지
+
+권장 출력:
+- 개별 PNG
+- 필요하다면 8방향 회전처럼 보이는 “rolling frame” 세트 추가 가능
+- 단, 테스트 우선이므로 최소한 static sprite는 반드시 제공
+
+권장 크기:
+- 256x256 또는 384x384 투명 PNG
+- 프로젝트 기존 스케일이 있다면 그에 맞춤
+
+파일명 예시:
+assets/boulder/boulder_default.png
+assets/boulder/boulder_rough.png
+assets/boulder/boulder_wet.png
+assets/boulder/boulder_snow.png
+
+선택 사항:
+- rolling_01 ~ rolling_08 프레임 생성 가능 시 생성
+
+====================================
+6. 지형 / 바닥 / 경사 에셋 상세 명세
+====================================
+
+ver.0.2에서 테스트할 핵심 지형을 우선 구현한다.
+지형은 타일맵보다 “모듈 조각” 느낌이어도 좋다.
+중요한 것은 반복 사용 가능성과 시각적 식별성이다.
+
+필수 기본 지형:
+1) rock_ground
+2) gravel_ground
+3) mud_ground
+4) wet_rock
+5) snow_ground
+
+필수 특수 지형:
+6) steep_slope_up
+7) convex_slope_up
+8) concave_slope_down
+9) ledge
+10) foothold_rest_platform
+11) small_stone_step
+
+조건:
+- 배경 투명 PNG
+- 좌우 연결 시 큰 이질감이 없도록
+- 상단 보행면이 명확하게 보이게
+- Godot에서 배치하기 쉽게 기준 방향 통일
+- 가능하면 바닥 두께/하부 암반도 같이 표현하여 월드 배치가 쉬워지게
+- 지나치게 복잡한 원근감 금지. 사이드뷰 일관성 유지
+
+권장 크기:
+- 512x256 또는 기존 프로젝트 규격
+- slope 계열은 동일 높이계열로 맞추기
+- rest platform은 돌이 잠깐 걸릴 수 있는 “안정적인 홈” 느낌 강조
+
+파일명 예시:
+assets/terrain/rock_ground.png
+assets/terrain/gravel_ground.png
+assets/terrain/mud_ground.png
+assets/terrain/wet_rock.png
+assets/terrain/snow_ground.png
+assets/terrain/steep_slope_up.png
+assets/terrain/convex_slope_up.png
+assets/terrain/concave_slope_down.png
+assets/terrain/ledge.png
+assets/terrain/foothold_rest_platform.png
+assets/terrain/small_stone_step.png
+
+추가 권장:
+- cliff_wall_l / cliff_wall_m / cliff_wall_r
+- arch_rock
+- pillar_rock
+- rock_cluster
+
+====================================
+7. 소품(Props) 상세 명세
+====================================
+
+필수 props:
+1) cairn_checkpoint
+2) broken_signpost
+3) dead_tree
+4) small_tree
+5) ruin_pillar
+6) shrine_fragment
+7) simple_arch_ruin
+
+조건:
+- 배경 투명 PNG
+- 장면 배치에 바로 사용할 수 있게 개별 분리
+- 지나치게 큰 원근 왜곡 없이 측면/약한 3/4 사이드뷰 허용
+- 시지프스 세계관에 맞는 고독하고 풍화된 느낌
+
+파일명 예시:
+assets/props/cairn_checkpoint.png
+assets/props/broken_signpost.png
+assets/props/dead_tree.png
+assets/props/small_tree.png
+assets/props/ruin_pillar.png
+assets/props/shrine_fragment.png
+assets/props/simple_arch_ruin.png
+
+====================================
+8. FX 에셋 상세 명세
+====================================
+
+필수 FX:
+1) dust_puff
+2) slipping_gravel_spray
+3) boulder_impact_burst
+4) wind_gust
+5) breath_puff
+6) snow_spray (선택이 아니라 가능하면 포함)
+
+각 FX는 최소 6프레임 이상 권장.
+투명 배경 PNG 또는 sprite sheet로 구성.
+
+용도:
+- dust_puff: 발걸음 / 이동 / 정지 시작
+- slipping_gravel_spray: 자갈에서 미끄러질 때
+- boulder_impact_burst: 돌턱, ledge, 바위 충돌
+- wind_gust: 바람 경고 / 환경 연출
+- breath_puff: 추운 환경이나 exhausted 상태
+- snow_spray: 눈 지형 이동 시
+
+권장 크기:
+- 256x256 또는 512x256
+- 프레임마다 캔버스 통일
+
+파일명 예시:
+assets/fx/dust/dust_01.png
+...
+assets/fx/gravel/gravel_01.png
+...
+assets/fx/impact/impact_01.png
+...
+assets/fx/wind/wind_01.png
+...
+assets/fx/breath/breath_01.png
+...
+assets/fx/snow/snow_01.png
+...
+
+가능하면 각 FX별 spritesheet도 함께 생성:
+assets/fx/dust/dust_sheet.png
+...
+
+====================================
+9. UI 아이콘 / 마커 상세 명세
+====================================
+
+필수 UI 아이콘:
+1) stamina_icon
+2) slip_icon
+3) brace_icon
+4) push_burst_icon
+5) checkpoint_icon
+6) height_marker_icon
+7) warning_wind_icon
+8) warning_rockfall_icon
+
+필수 월드 마커:
+1) previous_record_marker
+2) event_marker
+3) rest_point_marker
+
+조건:
+- 투명 배경
+- 게임 UI에 바로 넣을 수 있게 단독 아이콘 형태
+- 시트 전체 이미지 금지, 개별 파일로 분리
+- 시인성이 좋아야 함
+- “돌 조각에 새겨진 심볼” 느낌이면 좋음
+- 너무 복잡한 디테일은 피하고 64x64에서도 읽히게 단순화
+
+권장 크기:
+- 아이콘: 128x128 PNG
+- 월드 마커: 256x256 PNG
+
+파일명 예시:
+assets/ui/icons/stamina_icon.png
+assets/ui/icons/slip_icon.png
+...
+assets/ui/markers/previous_record_marker.png
+assets/ui/markers/event_marker.png
+assets/ui/markers/rest_point_marker.png
+
+====================================
+10. Godot 연결 작업
+====================================
+
+에셋만 생성하지 말고, Godot에서 바로 확인 가능하도록 연결도 도와라.
+
+해야 할 일:
+1) 캐릭터 애니메이션용 SpriteFrames 리소스 생성
+2) 테스트용 preview scene 생성
+3) 가능하면 AnimatedSprite2D 또는 AnimationPlayer에 연결된 예시 scene 생성
+4) FX preview scene 생성
+5) 아이콘/마커 프리뷰 scene 생성
+
+예시 파일:
+godot/resources/spriteframes/sisyphus_idle.tres
+godot/resources/spriteframes/sisyphus_push.tres
+godot/resources/spriteframes/sisyphus_heavy_push.tres
+godot/resources/spriteframes/sisyphus_brace.tres
+godot/resources/spriteframes/sisyphus_exhausted.tres
+
+godot/scenes/preview/character_preview.tscn
+godot/scenes/preview/fx_preview.tscn
+godot/scenes/preview/ui_preview.tscn
+
+가능하면 간단한 preview script도 작성:
+- 애니메이션 전환
+- FPS 확인
+- frame pivot 확인
+- 좌우 반전 확인
+
+====================================
+11. 구현 우선순위
+====================================
+
+반드시 아래 순서로 진행하라.
+
+1순위:
+- 캐릭터 5개 애니메이션
+- 기본 돌 4종
+- 핵심 지형 8~11종
+
+2순위:
+- FX
+- props
+
+3순위:
+- UI icons
+- world markers
+- preview scenes / metadata / SpriteFrames
+
+즉, 테스트 플레이에 바로 영향 주는 것부터 우선 처리한다.
+
+====================================
+12. 품질 기준
+====================================
+
+반드시 충족할 것:
+- 모든 실사용 에셋은 투명 배경
+- 캐릭터 프레임 기준점 통일
+- 프레임별 크기 튐 최소화
+- 애니메이션 시 “몸이 흔들려 보이는 문제” 최소화
+- push / heavy_push / brace 실루엣 차이 명확
+- terrain은 배치했을 때 경사 방향과 용도가 즉시 읽혀야 함
+- 아이콘은 64~128 px에서도 식별 가능해야 함
+- 파일명 규칙 일관성 유지
+- Godot import 후 즉시 사용 가능해야 함
+
+가능하면 추가:
+- metadata json
+- README_ASSETS.md
+- 어떤 에셋이 어떤 씬/시스템에 연결되는지 문서화
+
+====================================
+13. 최종 산출물
+====================================
+
+최종적으로 아래를 제공하라.
+
+1) 생성/정리된 에셋 파일 전체
+2) 디렉토리 트리 요약
+3) 생성한 파일 목록
+4) Godot 리소스 연결 파일
+5) README_ASSETS.md
+
+README_ASSETS.md에는 다음 포함:
+- 폴더 구조
+- 에셋 설명
+- 권장 사용 노드
+- 애니메이션 fps
+- pivot/baseline 기준
+- 남은 TODO
+- 나중에 고도화할 항목
+
+====================================
+14. 출력 방식
+====================================
+
+작업이 끝나면 다음 형식으로 보고하라.
+
+1. 생성한 폴더 구조
+2. 생성/수정한 파일 목록
+3. 캐릭터 애니메이션 명세 요약
+4. terrain/props/fx/ui 생성 요약
+5. Godot 연결 상태
+6. 남은 개선 포인트
+
+중요:
+- 설명만 하지 말고 실제 파일 생성/구성 중심으로 작업하라.
+- 레퍼런스 시트 그대로 재사용하지 말고, 실사용 가능한 개별 에셋 세트로 재구성하라.
+- 테스트용이므로 “완벽한 풀 콘텐츠”보다 “지금 플레이 테스트 가능한 일관성”을 우선하라.

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "game-spec-v0.1-original.txt",
+    "sha256": "6c0c89246de9a8d8b552d22c79043c60d4921621f220d1077a63ef7ad96f45ec",
+    "bytes": 25052
+  },
+  {
+    "file": "game-spec-v0.2-original.txt",
+    "sha256": "51467d6231738ce1e898c7df95378f4fe7b5d0219f6f6af963d8c42702acbde5",
+    "bytes": 34584
+  },
+  {
+    "file": "asset-brief-01.txt",
+    "sha256": "338fc9cdcf31b2c03b5b620dc5e12c57b0a8dc5dfcc7b47532bdd578c392c98b",
+    "bytes": 15083
+  },
+  {
+    "file": "asset-brief-02.txt",
+    "sha256": "338fc9cdcf31b2c03b5b620dc5e12c57b0a8dc5dfcc7b47532bdd578c392c98b",
+    "bytes": 15083
+  },
+  {
+    "file": "asset-brief-03.txt",
+    "sha256": "338fc9cdcf31b2c03b5b620dc5e12c57b0a8dc5dfcc7b47532bdd578c392c98b",
+    "bytes": 15083
+  },
+  {
+    "file": "asset-brief-04.txt",
+    "sha256": "338fc9cdcf31b2c03b5b620dc5e12c57b0a8dc5dfcc7b47532bdd578c392c98b",
+    "bytes": 15083
+  },
+  {
+    "file": "concept-reference.png",
+    "sha256": "3ce93ee7533dce7f1c2dcdbd543018f9831b1c4ace7a96c06edd2186ff74b763",
+    "bytes": 3548206
+  },
+  {
+    "file": "character-reference.png",
+    "sha256": "3fdc47601a92aba22b5abe1c363adb3d6e1daa94e131367e85977b2eac2d7c81",
+    "bytes": 2322191
+  },
+  {
+    "file": "environment-reference.png",
+    "sha256": "ba20885fc1e76800ef1200ff9ebff110172b163f7e55b4edd9de300088474c9e",
+    "bytes": 2599067
+  },
+  {
+    "file": "fx-ui-reference.png",
+    "sha256": "4548d28e924573555353f28e6b1a149d0708429dbc8b2075c00f0650be08bca7",
+    "bytes": 2291829
+  }
+]

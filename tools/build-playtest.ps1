@@ -11,6 +11,7 @@ $required = @(
     (Join-Path $projectRoot 'Playtest.cmd'),
     (Join-Path $projectRoot 'tools/playtest.ps1'),
     (Join-Path $projectRoot 'docs/playtest-participant.ko.md'),
+    (Join-Path $projectRoot 'assets/fonts/OFL.txt'),
     (Join-Path $projectRoot '.tools/GODOT-LICENSE.txt'),
     (Join-Path $projectRoot '.tools/GODOT-COPYRIGHT.txt')
 )
@@ -39,6 +40,7 @@ Copy-Item -LiteralPath (Join-Path $projectRoot 'tools/playtest.ps1') -Destinatio
 Copy-Item -LiteralPath (Join-Path $projectRoot 'docs/playtest-participant.ko.md') -Destination (Join-Path $packagePath 'START-HERE.txt')
 Copy-Item -LiteralPath (Join-Path $projectRoot '.tools/GODOT-LICENSE.txt') -Destination $packagePath
 Copy-Item -LiteralPath (Join-Path $projectRoot '.tools/GODOT-COPYRIGHT.txt') -Destination $packagePath
+Copy-Item -LiteralPath (Join-Path $projectRoot 'assets/fonts/OFL.txt') -Destination (Join-Path $packagePath 'FONT-LICENSE.txt')
 $utf8 = New-Object System.Text.UTF8Encoding($true)
 $metadata = [ordered]@{
     build_id = $buildId

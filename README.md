@@ -2,6 +2,8 @@
 
 **[브라우저에서 플레이](https://shrimp316.github.io/sisyphus/)** · [GitHub 저장소](https://github.com/shrimp316/sisyphus)
 
+**[Windows 실행본·에셋 ZIP·전체 백업 다운로드](https://github.com/shrimp316/sisyphus/releases/tag/v0.2-full-backup-20261007)** · [백업 구성과 복원 안내](docs/full-backup.ko.md) · [작업 경과](docs/work-history.ko.md)
+
 돌을 밀고, 숨을 고르고, 다시 시작하는 2D 물리 게임의 **v0.2 핵심 조작 MVP**입니다. Godot 4.5 이상 / GDScript / Compatibility 렌더러를 사용합니다. 기준 해상도는 1920×1080입니다.
 
 새 [상세 명세 v0.2](docs/game-system-v0.2.ko.md)를 기준으로 관성·부분 추락·돌턱을 먼저 검증합니다. 기존 산 조합과 날씨는 유지합니다. 기억·성장·이벤트·철학 엔딩은 10명 플레이 테스트를 통한 재미 검증 이후 단계로 보류했습니다. 전체 명세의 반영 범위는 [v0.2 반영 안내](docs/v02-alignment.ko.md)에 있습니다.
