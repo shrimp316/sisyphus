@@ -1,0 +1,208 @@
+{
+  "generator": "built-in image_gen",
+  "format": "RGBA PNG",
+  "processing": "alpha crop, proportional resize, transparent padding only",
+  "prompts": "docs/image-prompts-ui.json",
+  "icons": [
+    {
+      "name": "stamina_icon",
+      "file": "assets/ui/icons/stamina_icon.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "pivot_x": 64,
+      "pivot_y": 64,
+      "baseline_y": null,
+      "alpha_bounds": [
+        11,
+        6,
+        122,
+        119
+      ],
+      "recommended_display_size": 64
+    },
+    {
+      "name": "slip_icon",
+      "file": "assets/ui/icons/slip_icon.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "pivot_x": 64,
+      "pivot_y": 64,
+      "baseline_y": null,
+      "alpha_bounds": [
+        8,
+        6,
+        122,
+        117
+      ],
+      "recommended_display_size": 64
+    },
+    {
+      "name": "brace_icon",
+      "file": "assets/ui/icons/brace_icon.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "pivot_x": 64,
+      "pivot_y": 64,
+      "baseline_y": null,
+      "alpha_bounds": [
+        9,
+        6,
+        122,
+        120
+      ],
+      "recommended_display_size": 64
+    },
+    {
+      "name": "push_burst_icon",
+      "file": "assets/ui/icons/push_burst_icon.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "pivot_x": 64,
+      "pivot_y": 64,
+      "baseline_y": null,
+      "alpha_bounds": [
+        9,
+        6,
+        122,
+        120
+      ],
+      "recommended_display_size": 64
+    },
+    {
+      "name": "checkpoint_icon",
+      "file": "assets/ui/icons/checkpoint_icon.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "pivot_x": 64,
+      "pivot_y": 64,
+      "baseline_y": null,
+      "alpha_bounds": [
+        10,
+        8,
+        122,
+        119
+      ],
+      "recommended_display_size": 64
+    },
+    {
+      "name": "height_marker_icon",
+      "file": "assets/ui/icons/height_marker_icon.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "pivot_x": 64,
+      "pivot_y": 64,
+      "baseline_y": null,
+      "alpha_bounds": [
+        10,
+        8,
+        120,
+        116
+      ],
+      "recommended_display_size": 64
+    },
+    {
+      "name": "warning_wind_icon",
+      "file": "assets/ui/icons/warning_wind_icon.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "pivot_x": 64,
+      "pivot_y": 64,
+      "baseline_y": null,
+      "alpha_bounds": [
+        9,
+        6,
+        122,
+        121
+      ],
+      "recommended_display_size": 64
+    },
+    {
+      "name": "warning_rockfall_icon",
+      "file": "assets/ui/icons/warning_rockfall_icon.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "pivot_x": 64,
+      "pivot_y": 64,
+      "baseline_y": null,
+      "alpha_bounds": [
+        8,
+        6,
+        119,
+        119
+      ],
+      "recommended_display_size": 64
+    }
+  ],
+  "markers": [
+    {
+      "name": "previous_record_marker",
+      "file": "assets/ui/markers/previous_record_marker.png",
+      "frame_size": [
+        256,
+        256
+      ],
+      "pivot_x": 128,
+      "pivot_y": 232,
+      "baseline_y": 232,
+      "alpha_bounds": [
+        49,
+        21,
+        221,
+        222
+      ],
+      "recommended_display_size": 128
+    },
+    {
+      "name": "event_marker",
+      "file": "assets/ui/markers/event_marker.png",
+      "frame_size": [
+        256,
+        256
+      ],
+      "pivot_x": 128,
+      "pivot_y": 232,
+      "baseline_y": 232,
+      "alpha_bounds": [
+        47,
+        16,
+        229,
+        232
+      ],
+      "recommended_display_size": 128
+    },
+    {
+      "name": "rest_point_marker",
+      "file": "assets/ui/markers/rest_point_marker.png",
+      "frame_size": [
+        256,
+        256
+      ],
+      "pivot_x": 128,
+      "pivot_y": 232,
+      "baseline_y": 232,
+      "alpha_bounds": [
+        36,
+        26,
+        233,
+        232
+      ],
+      "recommended_display_size": 128
+    }
+  ]
+}

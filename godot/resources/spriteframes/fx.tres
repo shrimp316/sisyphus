@@ -1,0 +1,179 @@
+[gd_resource type="SpriteFrames" load_steps=37 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_01.png" id="1_bbg80"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_02.png" id="2_g5opl"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_03.png" id="3_n7aum"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_04.png" id="4_yw170"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_05.png" id="5_7ye05"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_06.png" id="6_uf60e"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_01.png" id="7_rdpcn"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_02.png" id="8_bhim8"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_03.png" id="9_n7ub0"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_04.png" id="10_f40ij"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_05.png" id="11_w8j75"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_06.png" id="12_dx2jo"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_01.png" id="13_bfw4j"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_02.png" id="14_hn182"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_03.png" id="15_lge5u"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_04.png" id="16_irbv4"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_05.png" id="17_xlj0h"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_06.png" id="18_j33hp"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_01.png" id="19_oxm1k"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_02.png" id="20_lx6s0"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_03.png" id="21_3hf8j"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_04.png" id="22_41v4n"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_05.png" id="23_kjwrg"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_06.png" id="24_q3boh"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_01.png" id="25_kdakp"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_02.png" id="26_aqe5l"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_03.png" id="27_evbth"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_04.png" id="28_cmg85"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_05.png" id="29_23c36"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_06.png" id="30_qs1t1"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_01.png" id="31_us6kd"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_02.png" id="32_485g2"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_03.png" id="33_kp0ks"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_04.png" id="34_txyx5"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_05.png" id="35_qddyk"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_06.png" id="36_531wg"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_bbg80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_g5opl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n7aum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_yw170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7ye05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_uf60e")
+}],
+"loop": true,
+"name": &"breath",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_rdpcn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_bhim8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_n7ub0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_f40ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_w8j75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_dx2jo")
+}],
+"loop": true,
+"name": &"dust",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_bfw4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hn182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_lge5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_irbv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_xlj0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_j33hp")
+}],
+"loop": true,
+"name": &"gravel",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_oxm1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_lx6s0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_3hf8j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_41v4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_kjwrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_q3boh")
+}],
+"loop": false,
+"name": &"impact",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_kdakp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_aqe5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_evbth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_cmg85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_23c36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_qs1t1")
+}],
+"loop": true,
+"name": &"snow",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_us6kd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_485g2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_kp0ks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_txyx5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_qddyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_531wg")
+}],
+"loop": true,
+"name": &"wind",
+"speed": 6.0
+}]

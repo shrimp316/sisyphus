@@ -1,0 +1,42 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/push/push_01.png" id="1_f5mp2"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/push/push_02.png" id="2_84v0t"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/push/push_03.png" id="3_mp8yq"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/push/push_04.png" id="4_wnfho"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/push/push_05.png" id="5_oovwu"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/push/push_06.png" id="6_pk7q4"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/push/push_07.png" id="7_06vbv"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/push/push_08.png" id="8_h3m4r"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_f5mp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_84v0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_mp8yq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_wnfho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_oovwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_pk7q4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_06vbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_h3m4r")
+}],
+"loop": true,
+"name": &"push",
+"speed": 8.0
+}]

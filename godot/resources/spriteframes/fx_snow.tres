@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_01.png" id="1_ywgwy"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_02.png" id="2_ot4tj"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_03.png" id="3_pq1j1"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_04.png" id="4_iyfs4"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_05.png" id="5_x6j2m"]
+[ext_resource type="Texture2D" path="res://assets/fx/snow/snow_06.png" id="6_5vkg0"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ywgwy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ot4tj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pq1j1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_iyfs4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_x6j2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5vkg0")
+}],
+"loop": true,
+"name": &"snow",
+"speed": 8.0
+}]

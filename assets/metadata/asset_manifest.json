@@ -1,0 +1,1801 @@
+{
+  "schema_version": 1,
+  "asset_count": 112,
+  "individual_pngs": 101,
+  "spritesheets": 11,
+  "total_bytes": 12797010,
+  "files": [
+    {
+      "path": "assets/character/sisyphus/idle/idle_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 68409,
+      "sha256": "687b821195f1c41cd7baab42f85e572368ec857f28493325731020820f01ea22",
+      "transparent_pixel_fraction": 0.8987,
+      "alpha_bounds": [
+        207,
+        70,
+        304,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/idle/idle_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 70543,
+      "sha256": "c9d281dd8ab6ce550eda8f5f0086cc87e231d6dba600ba0dde40408171d99b5d",
+      "transparent_pixel_fraction": 0.896,
+      "alpha_bounds": [
+        204,
+        70,
+        308,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/idle/idle_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 68663,
+      "sha256": "6b68c776c62a515415b612ac122f12d811f6a377c8ea4b034a51fa071e07df08",
+      "transparent_pixel_fraction": 0.8993,
+      "alpha_bounds": [
+        208,
+        70,
+        304,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/idle/idle_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 69445,
+      "sha256": "95a665859ab91e051a8b5926bc86add5b85e2b196f68e727947d143d005a0898",
+      "transparent_pixel_fraction": 0.8978,
+      "alpha_bounds": [
+        207,
+        72,
+        305,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/idle/idle_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 69746,
+      "sha256": "14d7ab815214f88360022ddc1010db78146f17eecae9a401d1c13b078fba2753",
+      "transparent_pixel_fraction": 0.897,
+      "alpha_bounds": [
+        206,
+        71,
+        305,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/idle/idle_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 70204,
+      "sha256": "62706c5554f5b677e22d8db8e66dfb2b102be9c7778a360fac16ec2dfb501100",
+      "transparent_pixel_fraction": 0.8963,
+      "alpha_bounds": [
+        206,
+        68,
+        306,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/spriteframes/sisyphus_idle_sheet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 411406,
+      "sha256": "c1fbab2647c49a1c022e1db0eebd6fa0d46e293a0bcdddd24e5c00195db16509",
+      "transparent_pixel_fraction": 0.8975,
+      "alpha_bounds": [
+        207,
+        70,
+        1330,
+        976
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/push/push_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 83108,
+      "sha256": "64d69787a8dd578ae58ab74bd68454a0a7299a7cafe58e9eb4d1dcb53cb82b90",
+      "transparent_pixel_fraction": 0.8852,
+      "alpha_bounds": [
+        155,
+        146,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/push/push_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 84044,
+      "sha256": "92cc043639900a9f42131d4bb5ce93d6f4352564021ffae9683eb8a18bff1524",
+      "transparent_pixel_fraction": 0.8831,
+      "alpha_bounds": [
+        143,
+        153,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/push/push_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 82303,
+      "sha256": "bd7adf9aa9d453c432484c4c475d5a93851ac963dbbcbde908bfcb51d22f9785",
+      "transparent_pixel_fraction": 0.882,
+      "alpha_bounds": [
+        139,
+        160,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/push/push_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 80906,
+      "sha256": "8e987be7a60894e216fd82a46c4091b8388d7cd88b2d9deb5e6d1b3583574470",
+      "transparent_pixel_fraction": 0.8848,
+      "alpha_bounds": [
+        144,
+        155,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/push/push_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 83888,
+      "sha256": "174f5c774ad5a747179541a6e542a22616fa0d7f2ee441846c7d6bc4c7a639cb",
+      "transparent_pixel_fraction": 0.8835,
+      "alpha_bounds": [
+        149,
+        151,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/push/push_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 84333,
+      "sha256": "6aa3c336ba8b1221c3d5134183f58ef8a2632a673573e195b947475838f5f2af",
+      "transparent_pixel_fraction": 0.8814,
+      "alpha_bounds": [
+        154,
+        156,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/push/push_07.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 84739,
+      "sha256": "c42d1021039f4dc0d8b5b27f8469fe20d9cae9a0b0c4d0c5b0f4bb394953fda8",
+      "transparent_pixel_fraction": 0.8806,
+      "alpha_bounds": [
+        150,
+        155,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/push/push_08.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 82449,
+      "sha256": "162fe38370dddec619bff36ea8a93fa83f6388310afb8ae0c789daecb09fa6c0",
+      "transparent_pixel_fraction": 0.8837,
+      "alpha_bounds": [
+        153,
+        154,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/spriteframes/sisyphus_push_sheet.png",
+      "size": [
+        2048,
+        1024
+      ],
+      "bytes": 656629,
+      "sha256": "7ea766276e1ce9c6e7c15bd654fcc33591bf78b7d7024fda07a5919825a6d472",
+      "transparent_pixel_fraction": 0.883,
+      "alpha_bounds": [
+        149,
+        146,
+        1976,
+        976
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/heavy_push/heavy_push_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 93900,
+      "sha256": "1a849bfd6e5938b0b13925b4a66e64ec7d2129574090ba52e7bea919464f419c",
+      "transparent_pixel_fraction": 0.8562,
+      "alpha_bounds": [
+        63,
+        173,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/heavy_push/heavy_push_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 92967,
+      "sha256": "59e672e742cd4e98cbb45b48031153caa228c9853639d453ad087ebd39a4feb1",
+      "transparent_pixel_fraction": 0.8588,
+      "alpha_bounds": [
+        72,
+        172,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/heavy_push/heavy_push_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 92527,
+      "sha256": "75e7f73ead768daa737c7d9a15287a04d8cec1594460a0f51fd807911068bca6",
+      "transparent_pixel_fraction": 0.8561,
+      "alpha_bounds": [
+        77,
+        172,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/heavy_push/heavy_push_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 92234,
+      "sha256": "c16860e5d657a3565c9d191d5ef170301b87f9a67282b22c3cc0fa7022409c6d",
+      "transparent_pixel_fraction": 0.8566,
+      "alpha_bounds": [
+        74,
+        174,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/heavy_push/heavy_push_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 92746,
+      "sha256": "fb6f8c9548f030f2b232ec896b85c3ba20dc599a0593b543ad5f8b75fa7a72bc",
+      "transparent_pixel_fraction": 0.8587,
+      "alpha_bounds": [
+        76,
+        173,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/heavy_push/heavy_push_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 94113,
+      "sha256": "ccab777026bfb6475b56d65d70b1952ce0dd9d421944b4d749bfcc7995c4742f",
+      "transparent_pixel_fraction": 0.8561,
+      "alpha_bounds": [
+        68,
+        172,
+        440,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/spriteframes/sisyphus_heavy_push_sheet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 552053,
+      "sha256": "c543167a2c7f5b80448d269a7d54693a2e192aa75f9868da5eb2b9d582e73f06",
+      "transparent_pixel_fraction": 0.8571,
+      "alpha_bounds": [
+        63,
+        172,
+        1464,
+        976
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/brace/brace_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 105895,
+      "sha256": "8cd8378486140477ef583e054045d2a84f9629a8618b46d53d9917b7c2b7243d",
+      "transparent_pixel_fraction": 0.8399,
+      "alpha_bounds": [
+        98,
+        116,
+        413,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/brace/brace_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 105414,
+      "sha256": "4f46b3fd62d85e2abdfe48296a2d8f4a9fee433510be46d5bae0e1be968c05a5",
+      "transparent_pixel_fraction": 0.8421,
+      "alpha_bounds": [
+        98,
+        132,
+        413,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/brace/brace_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 103183,
+      "sha256": "6ca03160974cde7d9fc6447f3f0ba5d17297e0c9546ca645eee475f9568386e4",
+      "transparent_pixel_fraction": 0.843,
+      "alpha_bounds": [
+        99,
+        129,
+        413,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/brace/brace_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 108431,
+      "sha256": "e8c4be84b82fb245b9f0163bbd879b12984c991c87c9be9e0e1a2830e8e9eeda",
+      "transparent_pixel_fraction": 0.8319,
+      "alpha_bounds": [
+        99,
+        125,
+        413,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/brace/brace_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 104743,
+      "sha256": "cda9abf49802bb652cc0b24694791ad5cb5e5f29fb3fd2582e422f4adf287c98",
+      "transparent_pixel_fraction": 0.8391,
+      "alpha_bounds": [
+        96,
+        131,
+        416,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/brace/brace_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 105562,
+      "sha256": "912acc1a77fb979dcdc9332733b8452f460d3d2bb43c03e1268068aea174a2b9",
+      "transparent_pixel_fraction": 0.8365,
+      "alpha_bounds": [
+        99,
+        132,
+        413,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/spriteframes/sisyphus_brace_sheet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 626378,
+      "sha256": "d0313b842e8ef19d2cdf492a1d27d842f98d91753ae85e65d868e923c3faec88",
+      "transparent_pixel_fraction": 0.8388,
+      "alpha_bounds": [
+        98,
+        116,
+        1437,
+        976
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/exhausted/exhausted_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 71227,
+      "sha256": "63e60cc605a7c955d44ce63d72b29cf34909dc1e25e1188b17fc6ab439a23242",
+      "transparent_pixel_fraction": 0.896,
+      "alpha_bounds": [
+        157,
+        182,
+        355,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/exhausted/exhausted_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 69256,
+      "sha256": "75049a3690b8af92231ac1a1074903b5729adc3cde6b49bb975e1100a0fb25e4",
+      "transparent_pixel_fraction": 0.8999,
+      "alpha_bounds": [
+        163,
+        169,
+        349,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/exhausted/exhausted_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 69536,
+      "sha256": "71237f503658577d24fbb30a143c9a48ade5dbd717d6afec3495ac37b628aa1a",
+      "transparent_pixel_fraction": 0.8993,
+      "alpha_bounds": [
+        167,
+        154,
+        344,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/exhausted/exhausted_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 69427,
+      "sha256": "271605e00ed0c6f8d98a0846154b3d911d9a91956f66af2ad91b006f62c186de",
+      "transparent_pixel_fraction": 0.8998,
+      "alpha_bounds": [
+        162,
+        169,
+        350,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/exhausted/exhausted_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 68694,
+      "sha256": "c753d4a81ac268f87f5e878984ecb6ee7d37b2c1511209c3b545c62a2ff6ad3f",
+      "transparent_pixel_fraction": 0.9004,
+      "alpha_bounds": [
+        160,
+        180,
+        351,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/exhausted/exhausted_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 68750,
+      "sha256": "9163a722f9b8b7924967ecaf49b8c7a0ddcdb512097e2ffde1f8bc10550904a6",
+      "transparent_pixel_fraction": 0.8996,
+      "alpha_bounds": [
+        158,
+        191,
+        353,
+        464
+      ]
+    },
+    {
+      "path": "assets/character/sisyphus/spriteframes/sisyphus_exhausted_sheet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 411116,
+      "sha256": "fc3a52241e18e06435bd777b4587ebebe9c43c1bbfd1bc94b9e84fc2ed5d737c",
+      "transparent_pixel_fraction": 0.8992,
+      "alpha_bounds": [
+        157,
+        154,
+        1377,
+        976
+      ]
+    },
+    {
+      "path": "assets/boulder/boulder_default.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 246982,
+      "sha256": "8f556acfe62d21df18c382b50a32fb36be96a914d3cc6395630a1a4834c9071e",
+      "transparent_pixel_fraction": 0.353,
+      "alpha_bounds": [
+        16,
+        17,
+        368,
+        366
+      ]
+    },
+    {
+      "path": "assets/boulder/boulder_rough.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 247228,
+      "sha256": "fcd9c364aee87c22338060cc171dc7c485566feb6e7914526a61ec9c3e2a77ca",
+      "transparent_pixel_fraction": 0.3554,
+      "alpha_bounds": [
+        16,
+        18,
+        368,
+        366
+      ]
+    },
+    {
+      "path": "assets/boulder/boulder_wet.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 239182,
+      "sha256": "02f8dd9d47488ce396fc337ce14dfa4ddee12cc762640ed4b6055c508642b7cc",
+      "transparent_pixel_fraction": 0.3472,
+      "alpha_bounds": [
+        17,
+        16,
+        367,
+        368
+      ]
+    },
+    {
+      "path": "assets/boulder/boulder_snow.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 225526,
+      "sha256": "6e06ef3ab0bd006dec8a11fad6d6b4ff3d87edd804499d4d1fc576f435382efd",
+      "transparent_pixel_fraction": 0.3488,
+      "alpha_bounds": [
+        18,
+        16,
+        366,
+        368
+      ]
+    },
+    {
+      "path": "assets/terrain/rock_ground.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 204696,
+      "sha256": "4e08b962b4aa346ceb03b4c77436bac3d43e662c66a67417c25654ed1458267d",
+      "transparent_pixel_fraction": 0.3661,
+      "alpha_bounds": [
+        0,
+        64,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/gravel_ground.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 212208,
+      "sha256": "0471bf23777b541b67ed754f21dee75068f64f416fe43909021f084482c3f538",
+      "transparent_pixel_fraction": 0.3648,
+      "alpha_bounds": [
+        0,
+        64,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/mud_ground.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 213085,
+      "sha256": "6a59e9dc677d9f44444208f34d552bbaafd59b75b41c75d31558f39a66091560",
+      "transparent_pixel_fraction": 0.3217,
+      "alpha_bounds": [
+        0,
+        64,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/wet_rock.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 200628,
+      "sha256": "9ed124e23d31ba69e77f5ec022c13cb1838739ccd599751d13b07299f9f70716",
+      "transparent_pixel_fraction": 0.3352,
+      "alpha_bounds": [
+        0,
+        64,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/snow_ground.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 178506,
+      "sha256": "8eeacba115705d21488a1ac4ea3f980ffe44e29ef4c3ae8fb87998f05404ac99",
+      "transparent_pixel_fraction": 0.414,
+      "alpha_bounds": [
+        0,
+        64,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/steep_slope_up.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 153290,
+      "sha256": "baaee02adbec4f05f4ec7af7e2b78a1022cdd9c2cbd2a0bdb89994dc034d756c",
+      "transparent_pixel_fraction": 0.5512,
+      "alpha_bounds": [
+        0,
+        32,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/convex_slope_up.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 148719,
+      "sha256": "fcc7e7a784a369fc2356c32ad7d64feb59906d70af0255565412bec18b2c63cb",
+      "transparent_pixel_fraction": 0.5491,
+      "alpha_bounds": [
+        0,
+        32,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/concave_slope_down.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 136111,
+      "sha256": "d1ff21b7ca163bfc26c5f425bc2105e24ee27afba4b98f125b8b02b9373bea0d",
+      "transparent_pixel_fraction": 0.6046,
+      "alpha_bounds": [
+        0,
+        32,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/ledge.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 159615,
+      "sha256": "e90c4597bc69b85b54652ddc7cdd9567849afd3725cbd1cb0b0c205d4616f610",
+      "transparent_pixel_fraction": 0.4991,
+      "alpha_bounds": [
+        0,
+        32,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/foothold_rest_platform.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 149849,
+      "sha256": "51a839a8e8be391ed37d27990de10b4764bf94be53d60cb5e0fcc4891deed448",
+      "transparent_pixel_fraction": 0.4919,
+      "alpha_bounds": [
+        0,
+        32,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/terrain/small_stone_step.png",
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 192877,
+      "sha256": "63b311c2df316f8c859b2c47c5412a0fa09d44e05ac7a80315771fbf9a637b4e",
+      "transparent_pixel_fraction": 0.3775,
+      "alpha_bounds": [
+        0,
+        32,
+        512,
+        240
+      ]
+    },
+    {
+      "path": "assets/props/cairn_checkpoint.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 158891,
+      "sha256": "ffcd60806fb51a86fe6f928832080411372cf846e4f53355b0c65a74a51f9fe8",
+      "transparent_pixel_fraction": 0.6294,
+      "alpha_bounds": [
+        49,
+        24,
+        334,
+        352
+      ]
+    },
+    {
+      "path": "assets/props/broken_signpost.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 62209,
+      "sha256": "bb5a52ccf0f16c1232f9677c680b8533d226b1afd9eefbd32015d99273ca8984",
+      "transparent_pixel_fraction": 0.8719,
+      "alpha_bounds": [
+        108,
+        24,
+        275,
+        352
+      ]
+    },
+    {
+      "path": "assets/props/dead_tree.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 71408,
+      "sha256": "a400ed2941431178ccd570e5d704f117053f37c102f50f2a9714202478fd0371",
+      "transparent_pixel_fraction": 0.8654,
+      "alpha_bounds": [
+        78,
+        24,
+        306,
+        352
+      ]
+    },
+    {
+      "path": "assets/props/small_tree.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 135465,
+      "sha256": "ee932c1c449ada4013693e36e3869352b0bb98112e0f96dbcdb955c9aea43312",
+      "transparent_pixel_fraction": 0.7384,
+      "alpha_bounds": [
+        37,
+        24,
+        347,
+        352
+      ]
+    },
+    {
+      "path": "assets/props/ruin_pillar.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 98714,
+      "sha256": "a6ffb9ea54a1f89fa040616f5160c8dec43153e778527797c4019bed870ecf4e",
+      "transparent_pixel_fraction": 0.7522,
+      "alpha_bounds": [
+        107,
+        24,
+        276,
+        352
+      ]
+    },
+    {
+      "path": "assets/props/shrine_fragment.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 141625,
+      "sha256": "d7cbf0168e64869edac595c7630c8dfd97c422b97979daa4035c1f57e27234ae",
+      "transparent_pixel_fraction": 0.6681,
+      "alpha_bounds": [
+        59,
+        24,
+        324,
+        352
+      ]
+    },
+    {
+      "path": "assets/props/simple_arch_ruin.png",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 141414,
+      "sha256": "e8ca7de480354d6679a8883d052167f3b502d67e80fbe012846bdffd211ce301",
+      "transparent_pixel_fraction": 0.6581,
+      "alpha_bounds": [
+        30,
+        24,
+        354,
+        352
+      ]
+    },
+    {
+      "path": "assets/fx/dust/dust_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 13714,
+      "sha256": "ff88b4be3db26a1b89470b7430df5ad453a4453252cf4b8dca174e4cbf6d1b43",
+      "transparent_pixel_fraction": 0.9013,
+      "alpha_bounds": [
+        0,
+        93,
+        250,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/dust/dust_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 34449,
+      "sha256": "72c9a42f0e36bb74478e4480a55caf366e7bae69882c33a84fa3900f005ec2a8",
+      "transparent_pixel_fraction": 0.7473,
+      "alpha_bounds": [
+        13,
+        13,
+        254,
+        252
+      ]
+    },
+    {
+      "path": "assets/fx/dust/dust_03.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 57646,
+      "sha256": "99cc8897df9bba38a18dfd37a8ece2ccb7ba3f3910be6633c353c19be33a1724",
+      "transparent_pixel_fraction": 0.5628,
+      "alpha_bounds": [
+        4,
+        16,
+        245,
+        255
+      ]
+    },
+    {
+      "path": "assets/fx/dust/dust_04.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 64954,
+      "sha256": "d58cc1d234a69f2e97a25bbbdefa5f84d9d77893ee26e11612ab347b32025baf",
+      "transparent_pixel_fraction": 0.4973,
+      "alpha_bounds": [
+        23,
+        4,
+        256,
+        237
+      ]
+    },
+    {
+      "path": "assets/fx/dust/dust_05.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 54067,
+      "sha256": "a75acac9dcb2f659ca8c7f08f5dc6ac4b9087a2033f03175c020523a32513650",
+      "transparent_pixel_fraction": 0.5768,
+      "alpha_bounds": [
+        2,
+        5,
+        256,
+        240
+      ]
+    },
+    {
+      "path": "assets/fx/dust/dust_06.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 28269,
+      "sha256": "5f7f5231b7d23c0e1cc17967d9b0add230c2cb52963b5bedeaaf7ad53e237559",
+      "transparent_pixel_fraction": 0.74,
+      "alpha_bounds": [
+        0,
+        4,
+        250,
+        247
+      ]
+    },
+    {
+      "path": "assets/fx/dust/dust_sheet.png",
+      "size": [
+        768,
+        512
+      ],
+      "bytes": 254788,
+      "sha256": "014ccce355c1f36e699f65d1229ab2fc1180047368bef4ba65f5c315721ff6a1",
+      "transparent_pixel_fraction": 0.6709,
+      "alpha_bounds": [
+        0,
+        13,
+        762,
+        503
+      ]
+    },
+    {
+      "path": "assets/fx/gravel/gravel_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 10871,
+      "sha256": "a143d2b477ba74e5f2ef60c10c1956018c16131d96cfda1b2d50d36328acff68",
+      "transparent_pixel_fraction": 0.9271,
+      "alpha_bounds": [
+        33,
+        105,
+        253,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/gravel/gravel_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 24548,
+      "sha256": "80dd344ab1d57cf217a5fedd0148b2a38af8a6fbc72a7c0205c45ed9a05b9ceb",
+      "transparent_pixel_fraction": 0.8298,
+      "alpha_bounds": [
+        0,
+        22,
+        254,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/gravel/gravel_03.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 43605,
+      "sha256": "a0f6c2efb95922ec68f4c03045236949010f22d59d2274cab9b02f7be13e47fb",
+      "transparent_pixel_fraction": 0.687,
+      "alpha_bounds": [
+        5,
+        9,
+        238,
+        251
+      ]
+    },
+    {
+      "path": "assets/fx/gravel/gravel_04.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 70998,
+      "sha256": "ec72f66271f52e04d935cd0fb9c368a39d226df90d025afe92a9dce81050ea80",
+      "transparent_pixel_fraction": 0.4706,
+      "alpha_bounds": [
+        0,
+        6,
+        254,
+        253
+      ]
+    },
+    {
+      "path": "assets/fx/gravel/gravel_05.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 49869,
+      "sha256": "ed24db0d42e5e2e13ee836f7c81aa1b4e011d188754c90582c4c6e29707bb881",
+      "transparent_pixel_fraction": 0.6224,
+      "alpha_bounds": [
+        13,
+        4,
+        256,
+        241
+      ]
+    },
+    {
+      "path": "assets/fx/gravel/gravel_06.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 31393,
+      "sha256": "d7d384632e6838f6a1c557979dfd442e8d20a27a8ebb54f8ac27007812afdada",
+      "transparent_pixel_fraction": 0.7406,
+      "alpha_bounds": [
+        0,
+        4,
+        247,
+        249
+      ]
+    },
+    {
+      "path": "assets/fx/gravel/gravel_sheet.png",
+      "size": [
+        768,
+        512
+      ],
+      "bytes": 231123,
+      "sha256": "a302c4343fc714b5e621ce692b8cbb8a195e63cd3582907a478d4bdf57ac451d",
+      "transparent_pixel_fraction": 0.7129,
+      "alpha_bounds": [
+        0,
+        9,
+        759,
+        509
+      ]
+    },
+    {
+      "path": "assets/fx/impact/impact_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 35297,
+      "sha256": "af84e144994f905c6aaddbcf815127ab54abbb1a1e9d65d9c0416e9b2be6f45c",
+      "transparent_pixel_fraction": 0.7518,
+      "alpha_bounds": [
+        0,
+        11,
+        239,
+        254
+      ]
+    },
+    {
+      "path": "assets/fx/impact/impact_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 65085,
+      "sha256": "1e74bc4b89704584bf4cf29dc484c455057a05d93d3dd1a79e1bec3c6251d81c",
+      "transparent_pixel_fraction": 0.514,
+      "alpha_bounds": [
+        16,
+        13,
+        256,
+        250
+      ]
+    },
+    {
+      "path": "assets/fx/impact/impact_03.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 92659,
+      "sha256": "5028b1d2a11d0ad478afc416264cda0c594d3e174d98fbd4f1ffe52b9a633e03",
+      "transparent_pixel_fraction": 0.3167,
+      "alpha_bounds": [
+        0,
+        8,
+        255,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/impact/impact_04.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 79195,
+      "sha256": "0d3e0e72d091e765e3fb4af5d34b980fb5a67d0bcf1123fe391e90d638d41b95",
+      "transparent_pixel_fraction": 0.3733,
+      "alpha_bounds": [
+        11,
+        4,
+        256,
+        246
+      ]
+    },
+    {
+      "path": "assets/fx/impact/impact_05.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 71216,
+      "sha256": "f2a4cef340b097cf21e3ac208fe98f380807e19a6b5bac96aa64f76a596fc029",
+      "transparent_pixel_fraction": 0.3884,
+      "alpha_bounds": [
+        0,
+        5,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/impact/impact_06.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 59985,
+      "sha256": "222a22dd4341dd5e2c4203d2e52c0459a32ac43b127d2c6d3883622b0e641374",
+      "transparent_pixel_fraction": 0.4333,
+      "alpha_bounds": [
+        0,
+        4,
+        245,
+        250
+      ]
+    },
+    {
+      "path": "assets/fx/impact/impact_sheet.png",
+      "size": [
+        768,
+        512
+      ],
+      "bytes": 405374,
+      "sha256": "c35a17d5b4169285ded3ca4ce50dac71de1ad7bc3a8ca72a16ebc4b36ea7aa8b",
+      "transparent_pixel_fraction": 0.4629,
+      "alpha_bounds": [
+        0,
+        8,
+        767,
+        512
+      ]
+    },
+    {
+      "path": "assets/fx/wind/wind_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 10573,
+      "sha256": "b0a565b5715fb3b99c8351d1b1c8d0b2e8ef9c659cc93f5af1f1efdd17e4d3f8",
+      "transparent_pixel_fraction": 0.9346,
+      "alpha_bounds": [
+        45,
+        62,
+        247,
+        252
+      ]
+    },
+    {
+      "path": "assets/fx/wind/wind_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 30270,
+      "sha256": "99ebafa5d45cf557125f71d9ae0ded287ad189845fa76756cb0b7cc21326badc",
+      "transparent_pixel_fraction": 0.8006,
+      "alpha_bounds": [
+        1,
+        88,
+        256,
+        254
+      ]
+    },
+    {
+      "path": "assets/fx/wind/wind_03.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 52253,
+      "sha256": "eda43eb7e7613f1ec75cf1d558dc6278d0fc8caa71ca2a71e428802d562f33d2",
+      "transparent_pixel_fraction": 0.6488,
+      "alpha_bounds": [
+        0,
+        48,
+        250,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/wind/wind_04.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 47562,
+      "sha256": "44fbd40cf70044d9312485531b9cfdad8c0b5bc0055a065c5dcef2aa96fe20a8",
+      "transparent_pixel_fraction": 0.684,
+      "alpha_bounds": [
+        21,
+        9,
+        256,
+        212
+      ]
+    },
+    {
+      "path": "assets/fx/wind/wind_05.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 42331,
+      "sha256": "22f894937bd09336f6807874004ce1db485ec7428555636d27d5959d607143ed",
+      "transparent_pixel_fraction": 0.7037,
+      "alpha_bounds": [
+        0,
+        64,
+        256,
+        220
+      ]
+    },
+    {
+      "path": "assets/fx/wind/wind_06.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 36558,
+      "sha256": "c6a5c78ab5b83144b88e2ef79b159726a551d300b532a8434c1f7d6dd45d783b",
+      "transparent_pixel_fraction": 0.715,
+      "alpha_bounds": [
+        0,
+        2,
+        242,
+        200
+      ]
+    },
+    {
+      "path": "assets/fx/wind/wind_sheet.png",
+      "size": [
+        768,
+        512
+      ],
+      "bytes": 216237,
+      "sha256": "d80f7ad2ffd60549cde1f799d4da3373447b5347e5c751cd76e5884447a079bc",
+      "transparent_pixel_fraction": 0.7478,
+      "alpha_bounds": [
+        21,
+        48,
+        762,
+        476
+      ]
+    },
+    {
+      "path": "assets/fx/breath/breath_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 12847,
+      "sha256": "5248c6783bd37d4df225774bb27e388ebce5778d249c1bd0a7d6e42b7d322108",
+      "transparent_pixel_fraction": 0.8978,
+      "alpha_bounds": [
+        0,
+        50,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/breath/breath_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 34331,
+      "sha256": "336db3dd6a8a7501f6e292217d4623edf5111a78cc49eb9a02d34e6f5b2dae45",
+      "transparent_pixel_fraction": 0.7269,
+      "alpha_bounds": [
+        0,
+        4,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/breath/breath_03.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 51186,
+      "sha256": "77c8cd33ce50f0aa6d3f0fe248b24951d6101b579c10b5f571c7a805b948e993",
+      "transparent_pixel_fraction": 0.5768,
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/breath/breath_04.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 49032,
+      "sha256": "c141341f2c95ce2d2d8b59e53fc65bcaeee9be55d990750a06c6c4e754f13796",
+      "transparent_pixel_fraction": 0.6099,
+      "alpha_bounds": [
+        0,
+        2,
+        256,
+        244
+      ]
+    },
+    {
+      "path": "assets/fx/breath/breath_05.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 43689,
+      "sha256": "869194625df89266ac49cab2861ed872e947e647d54dc233b2b6209bc64462f7",
+      "transparent_pixel_fraction": 0.6422,
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        237
+      ]
+    },
+    {
+      "path": "assets/fx/breath/breath_06.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 30797,
+      "sha256": "f2ade4430b966ae18cb6fd64b1f4208c097ce03985ace9e495b3d06609f7bc30",
+      "transparent_pixel_fraction": 0.7194,
+      "alpha_bounds": [
+        0,
+        0,
+        250,
+        247
+      ]
+    },
+    {
+      "path": "assets/fx/breath/breath_sheet.png",
+      "size": [
+        768,
+        512
+      ],
+      "bytes": 219875,
+      "sha256": "c6897ad9dc17c0e657d3f701c4959e9682f14ea7b3c9824a4afb6d92975183a6",
+      "transparent_pixel_fraction": 0.6955,
+      "alpha_bounds": [
+        0,
+        0,
+        768,
+        503
+      ]
+    },
+    {
+      "path": "assets/fx/snow/snow_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 19192,
+      "sha256": "ecff77d47711353fbb0b2915b847a2ccc45e84b27726c1b1893dd5f22ea5afbd",
+      "transparent_pixel_fraction": 0.8775,
+      "alpha_bounds": [
+        0,
+        94,
+        251,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/snow/snow_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 40415,
+      "sha256": "34a714e98177f7e70bb75926c6f690219ec4de7bbc5430a14468756f2d8a1204",
+      "transparent_pixel_fraction": 0.7387,
+      "alpha_bounds": [
+        17,
+        69,
+        256,
+        252
+      ]
+    },
+    {
+      "path": "assets/fx/snow/snow_03.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 80852,
+      "sha256": "7e2ea32bb3575f3f726bb8ab51484eaebd367c52c35d1b2380ff0adcf08b7f18",
+      "transparent_pixel_fraction": 0.4689,
+      "alpha_bounds": [
+        0,
+        48,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/snow/snow_04.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 78094,
+      "sha256": "cbbf9198800aa7780253bcb2995b834060fe31be92c702a4bc29dd7d5786d622",
+      "transparent_pixel_fraction": 0.4797,
+      "alpha_bounds": [
+        0,
+        4,
+        256,
+        254
+      ]
+    },
+    {
+      "path": "assets/fx/snow/snow_05.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 66502,
+      "sha256": "386dddec8b14122ff56363b22617a7a0e8d303789163f00db3d494ab66f4fae2",
+      "transparent_pixel_fraction": 0.5283,
+      "alpha_bounds": [
+        0,
+        4,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "assets/fx/snow/snow_06.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 54276,
+      "sha256": "264276b845e812a2ba547790442cb2278944b423df91ad9d1835de0185fd759e",
+      "transparent_pixel_fraction": 0.5465,
+      "alpha_bounds": [
+        0,
+        21,
+        246,
+        253
+      ]
+    },
+    {
+      "path": "assets/fx/snow/snow_sheet.png",
+      "size": [
+        768,
+        512
+      ],
+      "bytes": 338278,
+      "sha256": "9dc0da3316b9038b6e87c733070e2cca60f2dc3469c5b359831f31f1e9817e3a",
+      "transparent_pixel_fraction": 0.6066,
+      "alpha_bounds": [
+        0,
+        48,
+        768,
+        512
+      ]
+    },
+    {
+      "path": "assets/ui/icons/stamina_icon.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 29009,
+      "sha256": "86368af5f67419b46ddcc256ad2b7907a5600e177cf9e7df82ed4d4c908be934",
+      "transparent_pixel_fraction": 0.4229,
+      "alpha_bounds": [
+        11,
+        6,
+        122,
+        119
+      ]
+    },
+    {
+      "path": "assets/ui/icons/slip_icon.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 28885,
+      "sha256": "99260600837eb82544d5e16ebed5f5b1f81e3641a1985190886895176c22856e",
+      "transparent_pixel_fraction": 0.4119,
+      "alpha_bounds": [
+        8,
+        6,
+        122,
+        117
+      ]
+    },
+    {
+      "path": "assets/ui/icons/brace_icon.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 27654,
+      "sha256": "94b20475ee9eb3def5e26dee6c357388de2058c1dab4527b0713a6e54814f764",
+      "transparent_pixel_fraction": 0.3984,
+      "alpha_bounds": [
+        9,
+        6,
+        122,
+        120
+      ]
+    },
+    {
+      "path": "assets/ui/icons/push_burst_icon.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 29234,
+      "sha256": "c4e21924f67edbf18d3a509b14dc70a9d856690590c02819660f2bae8f5085b2",
+      "transparent_pixel_fraction": 0.4062,
+      "alpha_bounds": [
+        9,
+        6,
+        122,
+        120
+      ]
+    },
+    {
+      "path": "assets/ui/icons/checkpoint_icon.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 28337,
+      "sha256": "5f2d99f12d0181d79d2bb8a64b7890bd7a0861d9ff826a031ce8f225a3f91423",
+      "transparent_pixel_fraction": 0.4156,
+      "alpha_bounds": [
+        10,
+        8,
+        122,
+        119
+      ]
+    },
+    {
+      "path": "assets/ui/icons/height_marker_icon.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 26831,
+      "sha256": "e004bd18be23f61fa80a2c2fa79aaa1312dada1fa5823f0ecd1794daf3363a45",
+      "transparent_pixel_fraction": 0.4489,
+      "alpha_bounds": [
+        10,
+        8,
+        120,
+        116
+      ]
+    },
+    {
+      "path": "assets/ui/icons/warning_wind_icon.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 29161,
+      "sha256": "f2101a6a8523236de8fac5fa73d59f1aad99161e17155854724e69801fa240af",
+      "transparent_pixel_fraction": 0.4003,
+      "alpha_bounds": [
+        9,
+        6,
+        122,
+        121
+      ]
+    },
+    {
+      "path": "assets/ui/icons/warning_rockfall_icon.png",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 29141,
+      "sha256": "f86fe0134d94aa391dc6a8df645042c7de1c9890e18266a729166fd2b70eef78",
+      "transparent_pixel_fraction": 0.4097,
+      "alpha_bounds": [
+        8,
+        6,
+        119,
+        119
+      ]
+    },
+    {
+      "path": "assets/ui/markers/previous_record_marker.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 47590,
+      "sha256": "3ca48ca2874bbbbe19ea48579bf8ffdb557a37cb159304981522b495a33e8bf3",
+      "transparent_pixel_fraction": 0.7753,
+      "alpha_bounds": [
+        49,
+        21,
+        221,
+        222
+      ]
+    },
+    {
+      "path": "assets/ui/markers/event_marker.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 47371,
+      "sha256": "7d47fcbf7e1cd838ab71834f25dd9ad396ce1e6170946847a79866922d17295a",
+      "transparent_pixel_fraction": 0.778,
+      "alpha_bounds": [
+        47,
+        16,
+        229,
+        232
+      ]
+    },
+    {
+      "path": "assets/ui/markers/rest_point_marker.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 72347,
+      "sha256": "d57b3d6f0fc9c768d6c7e2f1b623509c80cbefdf0de2940ed10797b908797a3b",
+      "transparent_pixel_fraction": 0.6255,
+      "alpha_bounds": [
+        36,
+        26,
+        233,
+        232
+      ]
+    }
+  ]
+}

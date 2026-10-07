@@ -1,0 +1,27 @@
+[
+  {
+    "asset": "idle",
+    "prompt": "SISYPHUS idle breathing six-frame transparent 3x2 sheet. Painterly Greek muscular man, consistent feet baseline.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "push",
+    "prompt": "Production transparent animation spritesheet push for SISYPHUS. Character design identity from prior idle sheet: semi-realistic painterly muscular Greek adult, shoulder-length dark wavy hair and beard, ragged brown waistcloth, barefoot. Strict right-facing SIDE VIEW. NORMAL PUSH: arms extending forward, palms held at constant contact on an invisible boulder; forward-leaning torso, alternating left/right legs with real distinct step phases, continuous smooth weight transfer; not merely identical poses. EXACTLY 8 complete full-body sequential loop frames in 4 columns and 2 rows equal cells. Each cell512x512 if possible. All characters consistent anatomical size and lighting, all bodyparts within cell generous transparent padding, feet baseline464 and center256 percell. Invisible boulder not drawn. No dust, no shadows, no text, no numbering or lines, no props. Real alpha0 empty background. Each frame different distinct coherent motion phase and loop. Reference existing idle appearance but create requested motion.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "heavy_push",
+    "prompt": "Production 2D game animation spritesheet HEAVY PUSH loop for Sisyphus. EXACT SIX equally sized sprites in rigid 3 columns x2 rows grid, whole1536x1024. Every character MUST fit in its512x512cell with40px margin. All6 sprites are SAME heavily leaning forward pose, torso low almost horizontal, both arms strongly pushing RIGHT, palms fixed at same local x430,y230 IN EVERY CELL, feet soles at y464 in EVERY CELL, body width390px, body topy150. Alternate backleg heel lifting and knee flexing subtly over6frames but NO CHANGE IN BODY SCALE OR OVERALL STANCE. Muscular Greek adult with dark shoulder length hair, beard, ragged brown waistcloth, barefoot. Painterly semi realism natural tan skin and deep brown cloth. Side profile facesRIGHT. Loop phase progression, stable shoulder and hand anchor. Isolated real transparent alpha0 background. No boulder, no dust, no shadow, no text, labels or lines. Consistent narrow head scale50px high and same anatomy everyframe. Fullbody everyframe no cropping or overlapping.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "brace",
+    "prompt": "One production-ready animation spritesheet: brace. EXACTLY SIX frames laid out THREE columns TWO rows evenly, eachcell512square whole1536x1024. BRACING against a rolling stone: straight extended arms held forward at chest height, torso leans BACK away from hands, hips low, wide planted feet with FRONT RIGHT leg nearly straight forward and BACK LEFT leg bent, strong resisting posture quite different from forward push. Subtle weight shift and straining breathing only; never walking or lunging forward. Muscular ancient Greek adult man, long dark wavy hair, short beard, ragged brown waistcloth, bare feet, muted painterly realism. Strict SIDE VIEW facing RIGHT. Same camera and same anatomical dimensions in all6frames, no perspective changes. Visible height310px within each512cell, generous transparent margins at least60px all sides, no overlaps. Feet rest on same baseline localy450. Seamless breathing loop, visibly distinct but subtle sequential poses. Every character fully inside its owncell. Clean real transparent alpha background, no ground or shadows, no text no numbers no captions no lines. No boulder or scenery.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "exhausted",
+    "prompt": "One production-ready animation spritesheet: exhausted. EXACTLY SIX frames laid out THREE columns TWO rows evenly, eachcell512square whole1536x1024. EXHAUSTED recovering breath: standing with both feet planted, bent-over torso with hands braced on knees, gentle inhale and exhale and slight head lift. Do not kneel, sit or collapse; keep constant posture height for a loop. Muscular ancient Greek adult man, long dark wavy hair, short beard, ragged brown waistcloth, bare feet, muted painterly realism. Strict SIDE VIEW facing RIGHT. Same camera and same anatomical dimensions in all6frames, no perspective changes. Visible height310px within each512cell, generous transparent margins at least60px all sides, no overlaps. Feet rest on same baseline localy450. Seamless breathing loop, visibly distinct but subtle sequential poses. Every character fully inside its owncell. Clean real transparent alpha background, no ground or shadows, no text no numbers no captions no lines. No boulder or scenery.",
+    "tool": "built-in image_gen"
+  }
+]

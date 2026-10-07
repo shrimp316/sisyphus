@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/exhausted/exhausted_01.png" id="1_cs612"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/exhausted/exhausted_02.png" id="2_pkeed"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/exhausted/exhausted_03.png" id="3_fibm7"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/exhausted/exhausted_04.png" id="4_xcbxq"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/exhausted/exhausted_05.png" id="5_nnn2k"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/exhausted/exhausted_06.png" id="6_y8pqt"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cs612")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pkeed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_fibm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xcbxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nnn2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_y8pqt")
+}],
+"loop": true,
+"name": &"exhausted",
+"speed": 6.0
+}]

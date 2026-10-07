@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_01.png" id="1_sxlad"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_02.png" id="2_0lm6h"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_03.png" id="3_op8lc"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_04.png" id="4_45swe"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_05.png" id="5_4jc7s"]
+[ext_resource type="Texture2D" path="res://assets/fx/gravel/gravel_06.png" id="6_08450"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_sxlad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0lm6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_op8lc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_45swe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4jc7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_08450")
+}],
+"loop": true,
+"name": &"gravel",
+"speed": 12.0
+}]

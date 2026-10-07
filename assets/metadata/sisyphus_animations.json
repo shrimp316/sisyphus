@@ -1,0 +1,293 @@
+{
+  "frame_size": [
+    512,
+    512
+  ],
+  "pivot_x": 256,
+  "pivot_y": 464,
+  "baseline_y": 464,
+  "animations": [
+    {
+      "animation_name": "idle",
+      "frame_count": 6,
+      "fps": 6,
+      "loop": true,
+      "frame_size": [
+        512,
+        512
+      ],
+      "pivot_x": 256,
+      "pivot_y": 464,
+      "baseline_y": 464,
+      "sheet_columns": 3,
+      "sheet_rows": 2,
+      "bounds": [
+        [
+          207,
+          70,
+          304,
+          464
+        ],
+        [
+          204,
+          70,
+          308,
+          464
+        ],
+        [
+          208,
+          70,
+          304,
+          464
+        ],
+        [
+          207,
+          72,
+          305,
+          464
+        ],
+        [
+          206,
+          71,
+          305,
+          464
+        ],
+        [
+          206,
+          68,
+          306,
+          464
+        ]
+      ],
+      "sheet": "res://assets/character/sisyphus/spriteframes/sisyphus_idle_sheet.png"
+    },
+    {
+      "animation_name": "push",
+      "frame_count": 8,
+      "fps": 8,
+      "loop": true,
+      "frame_size": [
+        512,
+        512
+      ],
+      "pivot_x": 256,
+      "pivot_y": 464,
+      "baseline_y": 464,
+      "sheet_columns": 4,
+      "sheet_rows": 2,
+      "bounds": [
+        [
+          155,
+          146,
+          440,
+          464
+        ],
+        [
+          143,
+          153,
+          440,
+          464
+        ],
+        [
+          139,
+          160,
+          440,
+          464
+        ],
+        [
+          144,
+          155,
+          440,
+          464
+        ],
+        [
+          149,
+          151,
+          440,
+          464
+        ],
+        [
+          154,
+          156,
+          440,
+          464
+        ],
+        [
+          150,
+          155,
+          440,
+          464
+        ],
+        [
+          153,
+          154,
+          440,
+          464
+        ]
+      ],
+      "sheet": "res://assets/character/sisyphus/spriteframes/sisyphus_push_sheet.png"
+    },
+    {
+      "animation_name": "heavy_push",
+      "frame_count": 6,
+      "fps": 8,
+      "loop": true,
+      "frame_size": [
+        512,
+        512
+      ],
+      "pivot_x": 256,
+      "pivot_y": 464,
+      "baseline_y": 464,
+      "sheet_columns": 3,
+      "sheet_rows": 2,
+      "bounds": [
+        [
+          63,
+          173,
+          440,
+          464
+        ],
+        [
+          72,
+          172,
+          440,
+          464
+        ],
+        [
+          77,
+          172,
+          440,
+          464
+        ],
+        [
+          74,
+          174,
+          440,
+          464
+        ],
+        [
+          76,
+          173,
+          440,
+          464
+        ],
+        [
+          68,
+          172,
+          440,
+          464
+        ]
+      ],
+      "sheet": "res://assets/character/sisyphus/spriteframes/sisyphus_heavy_push_sheet.png"
+    },
+    {
+      "animation_name": "brace",
+      "frame_count": 6,
+      "fps": 8,
+      "loop": true,
+      "frame_size": [
+        512,
+        512
+      ],
+      "pivot_x": 256,
+      "pivot_y": 464,
+      "baseline_y": 464,
+      "sheet_columns": 3,
+      "sheet_rows": 2,
+      "bounds": [
+        [
+          98,
+          116,
+          413,
+          464
+        ],
+        [
+          98,
+          132,
+          413,
+          464
+        ],
+        [
+          99,
+          129,
+          413,
+          464
+        ],
+        [
+          99,
+          125,
+          413,
+          464
+        ],
+        [
+          96,
+          131,
+          416,
+          464
+        ],
+        [
+          99,
+          132,
+          413,
+          464
+        ]
+      ],
+      "sheet": "res://assets/character/sisyphus/spriteframes/sisyphus_brace_sheet.png"
+    },
+    {
+      "animation_name": "exhausted",
+      "frame_count": 6,
+      "fps": 6,
+      "loop": true,
+      "frame_size": [
+        512,
+        512
+      ],
+      "pivot_x": 256,
+      "pivot_y": 464,
+      "baseline_y": 464,
+      "sheet_columns": 3,
+      "sheet_rows": 2,
+      "bounds": [
+        [
+          157,
+          182,
+          355,
+          464
+        ],
+        [
+          163,
+          169,
+          349,
+          464
+        ],
+        [
+          167,
+          154,
+          344,
+          464
+        ],
+        [
+          162,
+          169,
+          350,
+          464
+        ],
+        [
+          160,
+          180,
+          351,
+          464
+        ],
+        [
+          158,
+          191,
+          353,
+          464
+        ]
+      ],
+      "sheet": "res://assets/character/sisyphus/spriteframes/sisyphus_exhausted_sheet.png"
+    }
+  ]
+}

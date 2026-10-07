@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "dust",
+    "prompt": "A production 2D game VFX animation sprite sheet for SISYPHUS. small warm gray-brown footstep DUST PUFF evolving: small initial cloud, expands, rises, thins and dissipates. EXACT SIX sequential frames in rigid THREE columns TWO rows grid, eachcell512x512. Sideview natural painterly realistic particles, muted stone/earth palette. Same stationary emissionpoint localx256,y440 throughout. Everything within respective cell with60pixel transparent margins, no overlap. Frame1 smallstart, frames2-3growth,frame4spread,frame5dissipating,frame6nearlygone. Actual transparent alpha0 background, semitransparent edges. NO floor, NO objects besides the effect, NO text numbers labels separators. Total1536x1024 image.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "gravel",
+    "prompt": "A production 2D game VFX animation sprite sheet for SISYPHUS. SLIPPING GRAVEL SPRAY: small angular earthy pebbles fly diagonally left from ground impact on right, rise spread then fall, subtle dust. EXACT SIX sequential frames in rigid THREE columns TWO rows grid, eachcell512x512. Sideview natural painterly realistic particles, muted stone/earth palette. Same stationary emissionpoint localx256,y440 throughout. Everything within respective cell with60pixel transparent margins, no overlap. Frame1 smallstart, frames2-3growth,frame4spread,frame5dissipating,frame6nearlygone. Actual transparent alpha0 background, semitransparent edges. NO floor, NO objects besides the effect, NO text numbers labels separators. Total1536x1024 image.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "impact",
+    "prompt": "Production 2D game VFX animation sprite sheet, BOULDER IMPACT BURST: dense initial low stone dust impact erupts with tiny gray rock chips, expands outward, debris falls then dust disperses. Emission local256,440 groundcontact. EXACT SIX sequential frames in rigid THREE columns TWO rows grid, equalcells, total1536x1024. Sideview realistic painterly effects for Greek mountain game, muted natural colors. Everything in respectivecell512x512 with60px transparentpadding, no overlap, sameorigin. Temporal progression starts small, expands, spreads, fades; not six identical pictures. Actual transparent alpha0 background and soft semitransparent edges. NO floor or boulder, no props, NO text numbers captions separators.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "wind",
+    "prompt": "Production 2D game VFX animation sprite sheet, WIND GUST: pale silver translucent wind ribbons and soft wisps blow horizontally to the right. Six evolving phases form one animated gust. Emissionpoint center256,256. Keep shape narrow and horizontal, avoid solid cloud. EXACT SIX sequential frames in rigid THREE columns TWO rows grid, equalcells, total1536x1024. Sideview realistic painterly effects for Greek mountain game, muted natural colors. Everything in respectivecell512x512 with60px transparentpadding, no overlap, sameorigin. Temporal progression starts small, expands, spreads, fades; not six identical pictures. Actual transparent alpha0 background and soft semitransparent edges. NO floor or boulder, no props, NO text numbers captions separators.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "breath",
+    "prompt": "Production 2D game VFX animation sprite sheet, small BREATH PUFF in cold air, soft pale-white translucent condensation expands rightward then dissolves, no snowflakes. Centered localorigin256,256. EXACT SIX sequential frames in rigid THREE columns TWO rows grid, equal512cells, total1536x1024. Sideview realistic painterly soft particles. Everything in itscell with60px empty padding. Sameorigin. Temporal progression begins small, expands, spreads, fades nearlyclear by frame6. Actual transparent alpha0 background and semitransparent edges. NO floor person or boulder, no props, NO text numbers captions separators.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "snow",
+    "prompt": "Production 2D game VFX animation sprite sheet, SNOW SPRAY from foot and rolling stone, soft white powder and tiny ice grains burst low leftward off ground then disperse and fall. Stationary emissionlocal256,440. EXACT SIX sequential frames in rigid THREE columns TWO rows grid, equal512cells, total1536x1024. Sideview realistic painterly soft particles. Everything in itscell with60px empty padding. Sameorigin. Temporal progression begins small, expands, spreads, fades nearlyclear by frame6. Actual transparent alpha0 background and semitransparent edges. NO floor person or boulder, no props, NO text numbers captions separators.",
+    "tool": "built-in image_gen"
+  }
+]

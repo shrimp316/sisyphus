@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_01.png" id="1_o1k7y"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_02.png" id="2_lr3me"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_03.png" id="3_1nvda"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_04.png" id="4_ksjx6"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_05.png" id="5_yv1uy"]
+[ext_resource type="Texture2D" path="res://assets/fx/wind/wind_06.png" id="6_olrp0"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_o1k7y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_lr3me")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1nvda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ksjx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yv1uy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_olrp0")
+}],
+"loop": true,
+"name": &"wind",
+"speed": 6.0
+}]

@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_01.png" id="1_knfc7"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_02.png" id="2_g5y26"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_03.png" id="3_tr65e"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_04.png" id="4_46sam"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_05.png" id="5_ovine"]
+[ext_resource type="Texture2D" path="res://assets/fx/dust/dust_06.png" id="6_1bsam"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_knfc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_g5y26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tr65e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_46sam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ovine")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1bsam")
+}],
+"loop": true,
+"name": &"dust",
+"speed": 10.0
+}]

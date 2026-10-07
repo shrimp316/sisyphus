@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/heavy_push/heavy_push_01.png" id="1_in020"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/heavy_push/heavy_push_02.png" id="2_tl044"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/heavy_push/heavy_push_03.png" id="3_2mund"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/heavy_push/heavy_push_04.png" id="4_785s2"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/heavy_push/heavy_push_05.png" id="5_58mcv"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/heavy_push/heavy_push_06.png" id="6_1bnt4"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_in020")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_tl044")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2mund")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_785s2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_58mcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1bnt4")
+}],
+"loop": true,
+"name": &"heavy_push",
+"speed": 8.0
+}]

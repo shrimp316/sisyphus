@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_01.png" id="1_k7qvl"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_02.png" id="2_j30u5"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_03.png" id="3_bdpos"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_04.png" id="4_8v0rr"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_05.png" id="5_yw2vl"]
+[ext_resource type="Texture2D" path="res://assets/fx/impact/impact_06.png" id="6_3qhq8"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_k7qvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_j30u5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_bdpos")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_8v0rr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yw2vl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3qhq8")
+}],
+"loop": false,
+"name": &"impact",
+"speed": 14.0
+}]

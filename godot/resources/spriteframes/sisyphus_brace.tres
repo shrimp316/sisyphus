@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/brace/brace_01.png" id="1_u001n"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/brace/brace_02.png" id="2_bidc6"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/brace/brace_03.png" id="3_glom2"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/brace/brace_04.png" id="4_47hwp"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/brace/brace_05.png" id="5_tm018"]
+[ext_resource type="Texture2D" path="res://assets/character/sisyphus/brace/brace_06.png" id="6_hsshs"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_u001n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_bidc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_glom2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_47hwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_tm018")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_hsshs")
+}],
+"loop": true,
+"name": &"brace",
+"speed": 8.0
+}]

@@ -1,0 +1,34 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_01.png" id="1_5p37a"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_02.png" id="2_pslyc"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_03.png" id="3_pplwc"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_04.png" id="4_ovlif"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_05.png" id="5_0cp4b"]
+[ext_resource type="Texture2D" path="res://assets/fx/breath/breath_06.png" id="6_0syp8"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5p37a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pslyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pplwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ovlif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_0cp4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0syp8")
+}],
+"loop": true,
+"name": &"breath",
+"speed": 6.0
+}]

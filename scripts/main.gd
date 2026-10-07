@@ -2,6 +2,10 @@ extends Node2D
 
 const Mountain = preload("res://scripts/mountain_manager.gd")
 const Boulder = preload("res://scripts/boulder_controller.gd")
+const Art = preload("res://scripts/asset_visuals.gd")
+var art: AssetVisuals = Art.new()
+var impact_age: float = 10.0
+
 const Audio = preload("res://scripts/soundscape.gd")
 const INK: Color = Color("e8e1cc")
 const MUTED: Color = Color("9ba8a4")
@@ -113,6 +117,8 @@ func _physics_process(delta: float) -> void:
 	last_state = boulder.state
 
 func _process(delta: float) -> void:
+	if not paused:
+		impact_age += delta
 	clock_time += delta
 	if web_mode and screen == "game" and not paused:
 		web_save_elapsed += delta
@@ -203,11 +209,13 @@ func _install_world(world: MountainManager) -> void:
 		boulder.connect("ledge_crossed", _ledge_feedback)
 
 func _recovery_feedback() -> void:
+	impact_age = 0.0
 	feedback_text = "돌을 다시 붙잡았다"
 	feedback_time = 2.0
 	sound.impact()
 
 func _ledge_feedback(_distance: float) -> void:
+	impact_age = 0.0
 	feedback_text = "턱을 넘었다"
 	feedback_time = 1.2
 	sound.impact()
@@ -423,6 +431,7 @@ func _draw() -> void:
 	_draw_terrain(size)
 	_draw_character()
 	_draw_stone()
+	_draw_asset_effects()
 	_draw_weather(size)
 	_draw_foreground(size)
 	if screen == "title":
@@ -515,6 +524,7 @@ func _draw_terrain(size: Vector2) -> void:
 			draw_line(edge[sample_index], edge[sample_index + 1], local_color, 4.0 * zoom, true)
 			if mountain.wet_at(sample_distance):
 				draw_line(edge[sample_index], edge[sample_index + 1], Color(0.65, 0.78, 0.83, 0.58), 2.0 * zoom, true)
+	_draw_asset_ground(from, to)
 	for index: int in range(int(from), int(to), 3):
 		var p: Vector2 = _world(mountain.sample(float(index)))
 		var spread: float = 15.0 + fposmod(sin(float(index) * 78.13) * 998.0, 80.0)
@@ -532,6 +542,7 @@ func _draw_terrain(size: Vector2) -> void:
 		var shelf_start: float = float(segment.start)
 		if shelf_start >= from and shelf_start <= to:
 			var p: Vector2 = _world(mountain.sample(shelf_start + minf(5.0, (float(segment.end) - shelf_start) * 0.5)))
+			_draw_shelf_art(p, int(shelf_start))
 			draw_line(p, p + Vector2(0.0, -42.0) * zoom, Color("726e56"), 2.0 * zoom)
 			draw_line(p + Vector2(-10.0, -31.0) * zoom, p + Vector2(10.0, -31.0) * zoom, GOLD.darkened(0.2), 3.0 * zoom)
 			if zoom > 0.8:
@@ -539,22 +550,85 @@ func _draw_terrain(size: Vector2) -> void:
 	for rest_distance: float in mountain.rest_points:
 		if rest_distance >= from and rest_distance <= to:
 			var rest: Vector2 = _world(mountain.sample(rest_distance))
+			Art.draw_at(self, art.texture("res://assets/terrain/foothold_rest_platform.png"), rest, Vector2(256, 106), 0.16 * zoom)
+			Art.draw_at(self, art.texture("res://assets/ui/markers/rest_point_marker.png"), rest, Vector2(128, 232), 0.13 * zoom)
 			draw_polyline(PackedVector2Array([rest + Vector2(-15, -5) * zoom, rest + Vector2(-6, 3) * zoom, rest + Vector2(7, 3) * zoom, rest + Vector2(15, -5) * zoom]), Color("8fa79a"), 3.0 * zoom, true)
 	for ledge: Dictionary in mountain.ledges:
 		var distance: float = float(ledge.distance)
 		if distance >= from and distance <= to:
 			var p: Vector2 = _world(mountain.sample(distance))
+			Art.draw_at(self, art.texture("res://assets/terrain/small_stone_step.png"), p, Vector2(256, 99), 0.11 * zoom)
 			draw_colored_polygon(PackedVector2Array([p + Vector2(-13, 0) * zoom, p + Vector2(-3, -15) * zoom, p + Vector2(14, -9) * zoom, p + Vector2(20, 2) * zoom]), Color("a7aaa1"))
 			draw_line(p + Vector2(-3, -15) * zoom, p + Vector2(14, -9) * zoom, INK, 2.0 * zoom)
 	if previous_best > 0.0 and previous_best < mountain.total_length and previous_best >= from and previous_best <= to:
 		var p: Vector2 = _world(mountain.sample(previous_best))
-		for rock: int in range(3):
-			draw_circle(p + Vector2(0.0, -5.0 - float(rock) * 6.0) * zoom, (8.0 - float(rock) * 2.0) * zoom, GOLD.darkened(float(rock) * 0.1))
+		var cairn_drawn: bool = Art.draw_at(self, art.texture("res://assets/props/cairn_checkpoint.png"), p, Vector2(192, 352), 0.20 * zoom)
+		Art.draw_at(self, art.texture("res://assets/ui/markers/previous_record_marker.png"), p + Vector2(0, -65) * zoom, Vector2(128, 232), 0.16 * zoom)
+		if not cairn_drawn:
+			for rock: int in range(3):
+				draw_circle(p + Vector2(0.0, -5.0 - float(rock) * 6.0) * zoom, (8.0 - float(rock) * 2.0) * zoom, GOLD.darkened(float(rock) * 0.1))
 	for marker: int in range(0, int(mountain.total_length) + 1, 100):
 		if float(marker) >= from and float(marker) <= to:
 			var p: Vector2 = _world(mountain.sample(float(marker)))
 			draw_rect(Rect2(p + Vector2(-13.0, -22.0) * zoom, Vector2(26.0, 22.0) * zoom), Color("48504a"))
 			_text(str(marker), p + Vector2(-11.0, -6.0) * zoom, int(11.0 * zoom), INK)
+
+func _draw_asset_ground(from: float, to: float) -> void:
+	# Repeat flat artwork on the authored slope; rendering never changes its path.
+	var wet_edges: Array[float] = []
+	var chunk_origin: float = 0.0
+	if mountain.weather_id == "rain":
+		for chunk: Dictionary in mountain.chunks:
+			for interval: Variant in chunk.get("wet_ranges", []):
+				wet_edges.append(chunk_origin + float(interval[0]))
+				wet_edges.append(chunk_origin + float(interval[1]))
+			chunk_origin += float(chunk.length)
+	if from == 0.0:
+		var base_tex: Texture2D = art.terrain(str(mountain.surface_at(0.0).id), mountain.wet_at(0.0))
+		for tile: int in range(1, 10):
+			Art.draw_at(self, base_tex, _world(Vector2(-216.0 * tile, 0)), Vector2(0, 64), 216.0 / 512.0 * zoom)
+	for segment: Dictionary in mountain.segments:
+		var origin: float = float(segment.start)
+		# Anchor tile phase to the mountain, so the texture never swims with the camera.
+		var start: float = origin + maxf(0.0, floorf((from - origin) / 12.0)) * 12.0
+		var end: float = minf(to, float(segment.end))
+		var cursor: float = start
+		while cursor < end:
+			var phase: float = fposmod(cursor - origin, 12.0)
+			var finish: float = minf(cursor + 12.0 - phase, end)
+			for wet_edge: float in wet_edges:
+				if wet_edge > cursor + 0.001 and wet_edge < finish:
+					finish = wet_edge
+			var tex: Texture2D = art.terrain(str(mountain.surface_at((cursor + finish) * 0.5).id), mountain.wet_at((cursor + finish) * 0.5))
+			if tex != null:
+				var a: Vector2 = _world(mountain.sample(cursor))
+				var b: Vector2 = _world(mountain.sample(finish))
+				var tangent: Vector2 = (b - a).normalized()
+				var normal: Vector2 = Vector2(-tangent.y, tangent.x)
+				var scale_value: float = 216.0 / 512.0 * zoom
+				var top: Vector2 = normal * -64.0 * scale_value
+				var bottom: Vector2 = normal * 192.0 * scale_value
+				var uv_start: float = phase / 12.0
+				var uv_end: float = uv_start + (finish - cursor) / 12.0
+				draw_polygon(PackedVector2Array([a + top, b + top, b + bottom, a + bottom]), PackedColorArray([Color.WHITE]), PackedVector2Array([Vector2(uv_start, 0), Vector2(uv_end, 0), Vector2(uv_end, 1), Vector2(uv_start, 1)]), tex)
+			cursor = finish
+
+func _draw_shelf_art(position: Vector2, index: int) -> void:
+	var names: Array[String] = ["broken_signpost", "dead_tree", "small_tree", "ruin_pillar", "shrine_fragment", "simple_arch_ruin"]
+	var name: String = names[absi(index / 50) % names.size()]
+	Art.draw_at(self, art.texture("res://assets/props/%s.png" % name), position + Vector2(45, 1) * zoom, Vector2(192, 352), 0.26 * zoom, 0.0, Color(0.80, 0.84, 0.83, 0.85))
+
+func _draw_asset_effects() -> void:
+	var ground: Vector2 = _world(mountain.sample(boulder.distance))
+	var feet: Vector2 = _world(mountain.sample(maxf(0.0, boulder.distance - 3.7)))
+	if boulder.state == "climbing" and boulder.action in ["push", "exert", "brace", "slip"]:
+		var effect: String = "gravel" if str(mountain.surface_at(boulder.distance).id).to_lower() == "gravel" else "dust"
+		Art.draw_at(self, art.frame("fx", effect, boulder.elapsed), feet, Vector2(128, 224), 0.25 * zoom, 0.0, Color(1, 1, 1, 0.7))
+	if impact_age < 6.0 / 14.0:
+		Art.draw_at(self, art.frame("fx", "impact", impact_age, false), ground, Vector2(128, 224), 0.38 * zoom)
+	if boulder.stamina < 30.0 and boulder.state == "climbing":
+		Art.draw_at(self, art.frame("fx", "breath", boulder.elapsed), feet + Vector2(14, -54) * zoom, Vector2(128, 128), 0.17 * zoom)
+	Art.draw_at(self, art.frame("fx", "wind", clock_time), ground + Vector2(130, -125) * zoom, Vector2(128, 128), 0.65 * zoom, 0.0, Color(1, 1, 1, 0.16))
 
 func _draw_weather(size: Vector2) -> void:
 	if mountain.weather_id != "rain":
@@ -569,6 +643,9 @@ func _draw_stone() -> void:
 	var angle: float = mountain.angle_at(boulder.distance)
 	var center: Vector2 = _world(mountain.sample(boulder.distance) + Vector2(-sin(angle), -cos(angle)) * 43.0)
 	var rotation: float = boulder.distance * MountainManager.PIXELS_PER_METER / 43.0
+	var variant: String = "wet" if mountain.wet_at(boulder.distance) else ("rough" if str(mountain.surface_at(boulder.distance).id).to_lower() == "gravel" else "default")
+	if Art.draw_at(self, art.texture("res://assets/boulder/boulder_%s.png" % variant), center, Vector2(192, 192), 43.0 / 176.0 * zoom, rotation):
+		return
 	var shape: PackedVector2Array = PackedVector2Array()
 	for p: Vector2 in stone_shape:
 		shape.append(center + p.rotated(rotation) * zoom)
@@ -594,6 +671,9 @@ func _draw_character() -> void:
 	var d: float = boulder.distance - 3.7
 	var ground: Vector2 = mountain.sample(d) if d >= 0.0 else mountain.sample(0.0) + Vector2(d * MountainManager.PIXELS_PER_METER, 0.0)
 	var base: Vector2 = _world(ground)
+	var animation: String = Art.character_animation(boulder.action, boulder.stamina)
+	if Art.draw_at(self, art.frame("sisyphus", animation, boulder.elapsed), base, Vector2(256, 464), 0.18 * zoom):
+		return
 	if boulder.slip > 40.0 and not paused:
 		for grain: int in range(7):
 			var drift: float = fposmod(boulder.elapsed * 1.8 + float(grain) * 0.17, 1.0)
@@ -629,6 +709,7 @@ func _bar(point: Vector2, width: float, value: float, color: Color) -> void:
 	draw_rect(Rect2(point, Vector2(width * clampf(value, 0.0, 1.0), 4.0)), color)
 
 func _draw_hud(size: Vector2) -> void:
+	Art.draw_at(self, art.texture("res://assets/ui/icons/height_marker_icon.png"), Vector2(30, 65), Vector2(64, 64), 0.22)
 	_text("%d m" % int(boulder.distance), Vector2(54, 82), 44, GOLD if record_flash > 0.0 else INK)
 	_text("시도 %02d  ·  %s" % [run_number, mountain.zone(boulder.distance)], Vector2(56, 113), 15, MUTED)
 	var terrain: Dictionary = mountain.surface_at(boulder.distance)
@@ -636,15 +717,20 @@ func _draw_hud(size: Vector2) -> void:
 	if mountain.wet_at(boulder.distance):
 		_text("젖은 구간 · 접지력 감소", Vector2(56, 171), 14, GOLD)
 	var y: float = size.y - 115.0
+	Art.draw_at(self, art.texture("res://assets/ui/icons/stamina_icon.png"), Vector2(26, y - 6), Vector2(64, 64), 0.20)
 	_text("STAMINA", Vector2(42, y), 15, MUTED)
 	_bar(Vector2(42, y + 12.0), 248.0, boulder.stamina / 100.0, RED if boulder.stamina < 20.0 else GOLD)
 	if slip_alpha > 0.01:
 		var slip_color: Color = RED if boulder.slip > 70.0 else GOLD
 		slip_color.a = slip_alpha
+		Art.draw_at(self, art.texture("res://assets/ui/icons/slip_icon.png"), Vector2(316, y - 6), Vector2(64, 64), 0.20, 0.0, slip_color)
 		_text("SLIP", Vector2(332, y), 15, slip_color)
 		draw_rect(Rect2(332, y + 12.0, 200.0, 4.0), Color(1.0, 1.0, 1.0, 0.12 * slip_alpha))
 		draw_rect(Rect2(332, y + 12.0, 200.0 * boulder.slip / 100.0, 4.0), slip_color)
 	var sweet: bool = boulder.velocity >= 0.45 and boulder.velocity <= 1.2
+	if boulder.action in ["brace", "exert"]:
+		var action_icon: String = "brace" if boulder.action == "brace" else "push_burst"
+		Art.draw_at(self, art.texture("res://assets/ui/icons/%s_icon.png" % action_icon), Vector2(size.x - 274, y - 6), Vector2(64, 64), 0.24)
 	var pace: String = "좋은 흐름" if sweet else ("속도를 줄이세요" if boulder.velocity > 1.5 else ("뒤로 밀립니다" if boulder.velocity < -0.08 else "천천히, 한 걸음"))
 	_text(pace, Vector2(size.x - 250.0, y), 17, GOLD if sweet else MUTED)
 	var hint: String = "쉼터까지 %d m" % ceili(mountain.distance_to_shelf(boulder.distance))

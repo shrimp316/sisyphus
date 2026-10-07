@@ -1,0 +1,137 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "name": "boulder_default",
+      "category": "boulder",
+      "source": "exec-6a2d1a42-41fb-4b57-a961-da64ea616828.png",
+      "prompt": "Use case: stylized-concept. Production game sprite for SISYPHUS, isolated single large near-circular stone boulder in exact orthographic side view, centered whole object with generous transparent margin. Painterly semi-realistic weathered Greek mountain limestone, muted warm gray, heavy massive granular stone texture, shallow natural cracks, gentle upper-left illumination, round silhouette with slightly irregular but not spiky rim. No ground, no floor, no scenery, no cast shadow outside silhouette, no lettering, no numbers, no watermark. Transparent alpha background. One object only. This is a static rolling boulder sprite, circular silhouette diameter roughly 85% of square canvas."
+    },
+    {
+      "name": "boulder_rough",
+      "category": "boulder",
+      "source": "exec-636c0601-31e4-4268-be87-f9f355dbc31b.png",
+      "prompt": "Use case: stylized-concept. Production game sprite for SISYPHUS, isolated single large near-circular ROUGH stone boulder in exact orthographic side view, centered whole object with generous transparent margin. Painterly semi-realistic weathered Greek mountain dark warm-gray granite, heavy rugged granular texture with pronounced fissures and a few broad chipped facets, rounded silhouette still suitable for rolling, no spikes. Gentle upper-left illumination. No ground, no floor, no scenery, no cast shadow outside silhouette, no lettering, no numbers, no watermark. Transparent alpha background. One object only. Static rolling boulder sprite, circular silhouette diameter roughly85% of square canvas."
+    },
+    {
+      "name": "boulder_wet",
+      "category": "boulder",
+      "source": "exec-24dcf3a9-94bd-4f13-8dc5-0d337dcefbb2.png",
+      "prompt": "Use case: stylized-concept. Production sprite for SISYPHUS side-scrolling Greek myth mountain game. One isolated near-circular huge rolling boulder, exact orthographic side view, entire object centered with transparent margin. Painterly semi-realistic, muted natural gray stone, weathered heavy cracked limestone, soft upper-left light. No ground, no floor, no surroundings, no external shadow, no lettering/numbers/watermark. Genuine transparent alpha background. Round silhouette suitable for circle collision, no spikes. Variant: WET BOULDER. Dark slate-gray surface soaked in rain, small specular silver wet highlights across facets and cracks, subtle water sheen, no falling raindrops or puddle. Circular object fills85% of squarecanvas."
+    },
+    {
+      "name": "boulder_snow",
+      "category": "boulder",
+      "source": "exec-0269261d-feb3-45d6-a4c5-a49d84a76165.png",
+      "prompt": "Use case: stylized-concept. Production sprite for SISYPHUS side-scrolling Greek myth mountain game. One isolated near-circular huge rolling boulder, exact orthographic side view, entire object centered with transparent margin. Painterly semi-realistic, muted natural gray stone, weathered heavy cracked limestone, soft upper-left light. No ground, no floor, no surroundings, no external shadow, no lettering/numbers/watermark. Genuine transparent alpha background. Round silhouette suitable for circle collision, no spikes. Variant: SNOW BOULDER. Same rounded gray stone with irregular pale snow crust and powder accumulated on its upper rim and broad upper facets, stone remains visible below, faint cold blue shadow. No falling snow, no floor. Circular object fills85%of squarecanvas."
+    },
+    {
+      "name": "rock_ground",
+      "category": "terrain",
+      "source": "exec-9aeba114-8b80-4dce-841e-a3205f6141b6.png",
+      "prompt": "Use case: stylized-concept. One standalone modular ground tile for a painterly semi-realistic 2D SIDE-VIEW Greek myth mountain game. Genuine transparent background, no scenery. Wide horizontal rectangular cross-section, 2:1 landscape canvas. PERFECTLY LEVEL horizontal walkable upper rim, substantial visible rocky thickness below, lower edge slightly naturally broken. Orthographic elevation view, NOT isometric, NOT top-down, no deep perspective, do not show large top plane. Left and right edges nearly vertical and same height for chaining tiles. Whole isolated module visible with clear transparent margin. Muted earthy stone palette, heavy weathered texture, upper-left lighting. No text/labels/numbers/watermark, no separate props. Material: dry gray mountain limestone, large weathered horizontal strata, fine cracks and small mineral flecks. Upper rim mostly smooth stable stone."
+    },
+    {
+      "name": "gravel_ground",
+      "category": "terrain",
+      "source": "exec-f502c128-33f2-40a3-9051-d0d5835f0a2b.png",
+      "prompt": "Use case: stylized-concept. One standalone modular ground tile for a painterly semi-realistic 2D SIDE-VIEW Greek myth mountain game. Genuine transparent background, no scenery. Wide horizontal rectangular cross-section, 2:1 landscape canvas. PERFECTLY LEVEL horizontal walkable upper rim, substantial visible rocky thickness below, lower edge slightly naturally broken. Orthographic elevation view, NOT isometric, NOT top-down, no deep perspective, do not show large top plane. Left and right edges nearly vertical and same height for chaining tiles. Whole isolated module visible with clear transparent margin. Muted earthy stone palette, heavy weathered texture, upper-left lighting. No text/labels/numbers/watermark, no separate props. Material: loose gray-taupe gravel packed above a darker fractured stone base. Upper rim is a level walking bed of clearly visible tiny irregular pebbles, distinct crumbly texture; do not scatter particles outside tile."
+    },
+    {
+      "name": "mud_ground",
+      "category": "terrain",
+      "source": "exec-ee10f191-4aa3-4e29-bff8-4f081bd2847e.png",
+      "prompt": "Use case: stylized-concept. A single wide modular ground strip game sprite, 2:1 landscape composition, transparent alpha background. Orthographic SIDE ELEVATION of terrain for a 2D platform climbing game, not isometric or top-down. The walkable TOP EDGE is a clean LEVEL HORIZONTAL LINE; show primarily vertical front face with thick broken stone base below. Left/right edges sameheight, nearlyvertical, chainable. Muted semi-realistic painterly weathered Greek mountain art, rough tactile texture, soft upper-left light. Entire tile visible and isolated, nothing behind or underneath it. No ground outside module, no castshadow, no writing/numbers/labels/watermark. DARK BROWN MUD GROUND: thick damp compact earth atop fractured gray rock, uneven clotted brown clay and subtle horizontal muddy ruts across uppermost narrowrim, no plants. The muddy layer is clearly distinct fromstone/gravel."
+    },
+    {
+      "name": "wet_rock",
+      "category": "terrain",
+      "source": "exec-584988b6-a5c1-4e5a-a10f-6ef171642f7b.png",
+      "prompt": "Use case: stylized-concept. A single wide modular ground strip game sprite, 2:1 landscape composition, transparent alpha background. Orthographic SIDE ELEVATION of terrain for a 2D platform climbing game, not isometric or top-down. The walkable TOP EDGE is a clean LEVEL HORIZONTAL LINE; show primarily vertical front face with thick broken stone base below. Left/right edges sameheight, nearlyvertical, chainable. Muted semi-realistic painterly weathered Greek mountain art, rough tactile texture, soft upper-left light. Entire tile visible and isolated, nothing behind or underneath it. No ground outside module, no castshadow, no writing/numbers/labels/watermark. WET ROCK GROUND: very dark slate-gray rock, smooth slick horizontal top edge, small silver-blue reflective moisture streaks and wet sheen, fissured thick stone crosssectionbelow. No rainparticles or separate puddle outside thetile."
+    },
+    {
+      "name": "snow_ground",
+      "category": "terrain",
+      "source": "exec-b3a23591-7361-495a-9129-83131c5e6f4b.png",
+      "prompt": "Use case: stylized-concept. One modular SNOW GROUND tile sprite, wide2:1landscape, isolated on genuine transparent alpha. Painterlysemi-realistic Greek mountain terrain. Orthographic side elevation, notisometric; clearly flat horizontal walkable top edge with shallow white snow crust, subtle coolblue shadows, rough gray stratified thickrock underlayer. Left/right edges sameheight nearlyvertical forchaining, bottomnaturallybroken. Entireobject visible withtransparentmargin. No scenery, no horizon, no floor outsideobject, no text/numbers/labels/watermark."
+    },
+    {
+      "name": "steep_slope_up",
+      "category": "terrain",
+      "source": "exec-be50ec18-2afe-452c-b42e-b5d1c0682dd9.png",
+      "prompt": "Use case: stylized-concept. One isolated STEEP UPHILL ROCK RAMP terrain module for a 2D side-view Greek mountain game. Genuine transparent alpha background. Wide2:1landscape composition. Orthographic side elevation. Walkable upper contour is a straight pronounced diagonal rising from LOW LEFT to HIGH RIGHT, with thick solidroughrockbody below thewalkingline and broad roughlyhorizontal underside. Obvious rising wedge silhouette, not a flat slab rotated; visibly upwardright route. Painterly semi-realistic weathered graylimestone, deepstrata/cracks, gentleupperleftlight. Entiremoduleinsidecanvas, nootherobjects/scenery/floor/shadowsoutsideobject, no text/labels/numbers/watermark."
+    },
+    {
+      "name": "convex_slope_up",
+      "category": "terrain",
+      "source": "exec-30e1724e-7be7-4868-8458-485fe7989820.png",
+      "prompt": "Use case: stylized-concept. One isolated rocky terrain module for a 2D side-view Greek myth mountain climbing game. Transparent alpha background. Wide2:1landscape composition. Orthographic SIDE ELEVATION, primarily vertical rock face, no topdown/isometric perspective. Heavy painterly semi-realistic graylimestone withcracks/layers, naturalmutedcolors, upperleftlight. Whole module visible withmargin. Clear readable upper walkable contour, thick rockybody underneath. No scenery, no outsidefloor, no castsadowoutside, no text/numbers/labels/watermark. Shape: CONVEX UPHILL ramp, low atLEFT then steeply rising and smoothlyflattening into a short highhorizontal crest atRIGHT. A rounded outward-bulging hill-shoulder profile, not a straight triangle and notstairs. Rockbodyunderside roughlyhorizontal. The crest offers a tiny flat top."
+    },
+    {
+      "name": "concave_slope_down",
+      "category": "terrain",
+      "source": "exec-9a598b53-a2bc-4505-af8c-6e1b330e6a72.png",
+      "prompt": "Use case: stylized-concept. One isolated rocky terrain module for a 2D side-view Greek myth mountain climbing game. Transparent alpha background. Wide2:1landscape composition. Orthographic SIDE ELEVATION, primarily vertical rock face, no topdown/isometric perspective. Heavy painterly semi-realistic graylimestone withcracks/layers, naturalmutedcolors, upperleftlight. Whole module visible withmargin. Clear readable upper walkable contour, thick rockybody underneath. No scenery, no outsidefloor, no castsadowoutside, no text/numbers/labels/watermark. Shape: CONCAVE DOWNHILL ramp, highatLEFT, smoothly descending rightward into a shallow low bowl and a short almostflat exit atRIGHT. Concave curvedupperprofile like the downhillhalf of a shallow valley, not a straight triangle. Thickroughstonebody undercurve, rounded lowrestinghollow obvious."
+    },
+    {
+      "name": "ledge",
+      "category": "terrain",
+      "source": "exec-150c2b13-4446-47c4-b5d4-f3b92ebe91d4.png",
+      "prompt": "Use case: stylized-concept. One individual terrain module for a 2D side-view mythic Greek mountain climbinggame, semi-realistic painterly grayweatheredstone, naturalcrackedstrata, softupperleftlight. Wide2:1landscapecanvas, genuine transparentalpha background. Orthographic sideelevation, minimaldepthperspective. Wholeobjectalone withcleartransparentmargin, no surroundings/floor/shadowoutside, no text/numbers/labels/watermark. ROCK LEDGE: a short sharp rock lip/ledge that rises by one single abrupt step from a low left shelf to a higher right shelf. Clearlyreadable vertical riser near thecenter; higher right side projects as a heavy slab, thickfracturedrockbody below. Not a staircase, onlyONEstep, not a floatingisolatedpebble. Surfacegrittygray, intended obstacle for pushing a largeboulder upandright."
+    },
+    {
+      "name": "foothold_rest_platform",
+      "category": "terrain",
+      "source": "exec-07c58ec8-d47c-4696-ac73-86c7840a341d.png",
+      "prompt": "Use case: stylized-concept. One individual terrain module for a 2D side-view mythic Greek mountain climbinggame, semi-realistic painterly grayweatheredstone, naturalcrackedstrata, softupperleftlight. Wide2:1landscapecanvas, genuine transparentalpha background. Orthographic sideelevation, minimaldepthperspective. Wholeobjectalone withcleartransparentmargin, no surroundings/floor/shadowoutside, no text/numbers/labels/watermark. RESTING PLATFORM: broad almostlevel stoneresting shelf with a shallow smooth U-shapedcradle depression acrossmiddle, raised low stonelips atbothends to catch arollingboulder safely. Clear gentle concave walkingsurface, substantial layeredrockbody below, stable refuge feeling. Profile dipvisible butnotdeepbowl, no props."
+    },
+    {
+      "name": "small_stone_step",
+      "category": "terrain",
+      "source": "exec-ac503cb4-ff41-4884-a234-e31fc02d30c5.png",
+      "prompt": "Use case: stylized-concept. One SMALL STONE STEP terrain module for a 2D side-view Greek mountain climbing game. Transparent alpha background. Wide2:1landscapecanvas. Orthographic side elevation, notisometric. A low broad rock shelf with a single SMALL raised stonelip at middle-right, easily readable short upward step for a boulder; left approach isalmostflat andright isonlyslightlyhigher. Thick rough graystone body below, chippededges, clearwalkableupperprofile. Semirealistic painterly mutedweatheredlimestone, upperleftlight. Wholemoduleinsidecanvaswithmargin, no otherobjects, noflooroutside, no castshadowoutside, no text/numbers/labels/watermark."
+    },
+    {
+      "name": "cairn_checkpoint",
+      "category": "props",
+      "source": "exec-9d5a6ee9-5f07-4547-a6d2-fa568a1e47f3.png",
+      "prompt": "Use case: stylized-concept. One isolated environmental prop sprite for SISYPHUS, painterly semi-realistic weathered Greek myth mountain setting, mutedstone/earthcolors, heavy tactile wornmaterials, softupperleftlight. Sideview or extremelyslight3/4sideview only, minimalperspective. Wholeobjectcenteredinside squarecanvas withampletransparentmargin, genuinealpha background. No scenery, nofloor, no externalcastshadow, no people, no text/numbers/letters/watermark. A small solitary cairn made of five irregular flat gray stones carefully stacked largestatbottom smallestattop. Stable slimroughrocksilhouette, a quiet previous-record landmark. Base isonebroadstone, no surroundingdebris."
+    },
+    {
+      "name": "broken_signpost",
+      "category": "props",
+      "source": "exec-f2daccb4-08e5-400f-b65d-14cd70db680f.png",
+      "prompt": "Use case: stylized-concept. One isolated environmental prop sprite for SISYPHUS, painterly semi-realistic weathered Greek myth mountain setting, mutedstone/earthcolors, heavy tactile wornmaterials, softupperleftlight. Sideview or extremelyslight3/4sideview only, minimalperspective. Wholeobjectcenteredinside squarecanvas withampletransparentmargin, genuinealpha background. No scenery, nofloor, no externalcastshadow, no people, no text/numbers/letters/watermark. A single broken weathered wooden signpost: a crooked roughwoodupright with one short wornarrowshapedboard pointingRIGHT, boardcompletelyblank withNOletters, chippedwood andtwinebinding, splinteredemptyedge. Agedgraybrownwood, simple readable silhouette, no surroundingground."
+    },
+    {
+      "name": "dead_tree",
+      "category": "props",
+      "source": "exec-1faeec9e-ce0e-4a74-92cd-756f9a1ed3d8.png",
+      "prompt": "Use case: stylized-concept. One isolated environmental prop sprite for SISYPHUS, painterly semi-realistic weathered Greek myth mountain setting, muted stone and earth colors, tactile worn materials, soft upper left light. Side view with minimal perspective. Whole object centered inside square canvas with ample transparent margin, genuine alpha transparent background. No scenery, no floor, no external cast shadow, no people, no text, numbers, letters, watermark. Subject: one small dead mountain tree, twisted dry gray-brown trunk with a handful of broken bare branches, exposed roots at bottom, sparse silhouette, no leaves. Entire tree visible."
+    },
+    {
+      "name": "small_tree",
+      "category": "props",
+      "source": "exec-9e3e85d1-436b-4dfe-a99d-c5ed12d056a1.png",
+      "prompt": "Use case: stylized-concept. One isolated environmental prop sprite for SISYPHUS, painterly semi-realistic weathered Greek myth mountain setting, muted stone and earth colors, tactile worn materials, soft upper left light. Side view with minimal perspective. Whole object centered inside square canvas with ample transparent margin, genuine alpha transparent background. No scenery, no floor, no external cast shadow, no people, no text, numbers, letters, watermark. Subject: one small resilient mountain olive tree, short crooked weathered brown trunk with modest sparse dusty muted olive-green foliage, exposed root base. Graceful small silhouette, not lush tropical, whole tree visible."
+    },
+    {
+      "name": "ruin_pillar",
+      "category": "props",
+      "source": "exec-d4734e1a-9fa7-4fef-aae1-3b2f4fd7d4f2.png",
+      "prompt": "Use case: stylized-concept. One isolated environmental prop sprite for SISYPHUS, painterly semi-realistic weathered ancient Greek myth mountain setting, muted gray and earthy stone palette, tactile worn limestone with subtle cracks, soft upper left light. Orthographic side view with minimal perspective. Whole object centered inside square canvas with ample transparent margin, genuine alpha transparent background. No scenery, no floor, no external cast shadow, no people, no text, numbers, letters, inscriptions, watermark. Subject: one broken ancient Greek Doric fluted stone pillar, short standing truncated column on a modest chipped base, broken jagged upper end. Restrained weathering, not ornate. Entire object visible."
+    },
+    {
+      "name": "shrine_fragment",
+      "category": "props",
+      "source": "exec-e5b03eed-a524-4ed5-8ada-34509d7b5454.png",
+      "prompt": "Use case: stylized-concept. One isolated environmental prop sprite for SISYPHUS, painterly semi-realistic weathered ancient Greek myth mountain setting, muted gray and earthy stone palette, tactile worn limestone with subtle cracks, soft upper left light. Orthographic side view with minimal perspective. Whole object centered inside square canvas with ample transparent margin, genuine alpha transparent background. No scenery, no floor, no external cast shadow, no people, no text, numbers, letters, inscriptions, watermark. Subject: one small ruined ancient Greek wayside shrine fragment, broken low altar-like rectangular limestone base with remnant of a simple triangular pediment and one short damaged support. Modest and abandoned, no idols, no symbols, no offerings, no candles. Entire object visible, compact readable silhouette."
+    },
+    {
+      "name": "simple_arch_ruin",
+      "category": "props",
+      "source": "exec-a4ea565c-e52b-4e60-928e-739f0426f1f3.png",
+      "prompt": "Use case: stylized-concept. One isolated environmental prop sprite for SISYPHUS, painterly semi-realistic weathered ancient Greek myth mountain setting, muted gray and warm earth limestone palette, tactile worn materials with subtle cracks and chipped edges, soft upper left light. Subject: a modest simple ancient stone arch ruin made from large worn stone blocks, two short supports and a rounded arched opening, a few broken edge stones but arch intact enough to read. No surrounding wall. Orthographic front/side elevation suitable for a side scrolling game, minimal perspective. Entire object centered in square canvas with ample transparent margin, genuine alpha transparent background INCLUDING the opening. No scenery, no floor, no external cast shadow, no people, no text, letters, inscriptions, symbols, watermark."
+    }
+  ]
+}

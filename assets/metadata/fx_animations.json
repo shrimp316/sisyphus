@@ -1,0 +1,92 @@
+[
+  {
+    "animation_name": "dust",
+    "frame_count": 6,
+    "fps": 10,
+    "frame_size": [
+      256,
+      256
+    ],
+    "pivot_x": 128,
+    "pivot_y": 224,
+    "loop": true,
+    "sheet_columns": 3,
+    "sheet_rows": 2,
+    "source_alpha_preserved": true
+  },
+  {
+    "animation_name": "gravel",
+    "frame_count": 6,
+    "fps": 12,
+    "frame_size": [
+      256,
+      256
+    ],
+    "pivot_x": 128,
+    "pivot_y": 224,
+    "loop": true,
+    "sheet_columns": 3,
+    "sheet_rows": 2,
+    "source_alpha_preserved": true
+  },
+  {
+    "animation_name": "impact",
+    "frame_count": 6,
+    "fps": 14,
+    "frame_size": [
+      256,
+      256
+    ],
+    "pivot_x": 128,
+    "pivot_y": 224,
+    "loop": false,
+    "sheet_columns": 3,
+    "sheet_rows": 2,
+    "source_alpha_preserved": true
+  },
+  {
+    "animation_name": "wind",
+    "frame_count": 6,
+    "fps": 6,
+    "frame_size": [
+      256,
+      256
+    ],
+    "pivot_x": 128,
+    "pivot_y": 128,
+    "loop": true,
+    "sheet_columns": 3,
+    "sheet_rows": 2,
+    "source_alpha_preserved": true
+  },
+  {
+    "animation_name": "breath",
+    "frame_count": 6,
+    "fps": 6,
+    "frame_size": [
+      256,
+      256
+    ],
+    "pivot_x": 128,
+    "pivot_y": 128,
+    "loop": true,
+    "sheet_columns": 3,
+    "sheet_rows": 2,
+    "source_alpha_preserved": true
+  },
+  {
+    "animation_name": "snow",
+    "frame_count": 6,
+    "fps": 8,
+    "frame_size": [
+      256,
+      256
+    ],
+    "pivot_x": 128,
+    "pivot_y": 224,
+    "loop": true,
+    "sheet_columns": 3,
+    "sheet_rows": 2,
+    "source_alpha_preserved": true
+  }
+]
