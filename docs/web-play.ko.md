@@ -44,4 +44,4 @@ Node.js가 설치된 개발 PC에서는 `node tools/serve-web.cjs`를 실행하�
 
 참가자 결과, 로컬 저장, 실행 로그, `.tools`, Windows 배포 파일은 웹 아티팩트에 포함하지 않는다. 게임 패키지에는 테스트·문서·도구·배포 원본 HTML 폴더를 제외한다. 웹 페이지 자체는 별도 HTML 셸로 생성된다.
 
-배포 성공 여부와 주소는 Actions의 배포 작업 및 Pages 설정에서 확인한다. 저장소 공개 여부와 Pages 제공 범위는 계정·저장소 설정에 따라 결정된다. 이 문서 자체는 사이트 게시 완료를 의미하지 않는다. 작업 구성은 [GitHub Pages 공식 워크플로 안내](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)를 참고한다.
+2026-10-07에 공개 저장소와 Pages 배포를 완료했다. [첫 배포 작업](https://github.com/shrimp316/sisyphus/actions/runs/37604845759)이 성공했으며 실제 HTTPS 페이지에서 실행·저장·새로고침 후 이어하기를 확인했다. 이후 `main`에 변경을 푸시하면 같은 워크플로가 웹 빌드를 갱신한다. 배포 성공 여부와 주소는 Actions의 배포 작업 및 Pages 설정에서 확인한다. 작업 구성은 [GitHub Pages 공식 워크플로 안내](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)를 참고한다.
