@@ -4,6 +4,8 @@ const Mountain = preload("res://scripts/mountain_manager.gd")
 const Boulder = preload("res://scripts/boulder_controller.gd")
 const Art = preload("res://scripts/asset_visuals.gd")
 var art: AssetVisuals = Art.new()
+const Scenery = preload("res://scripts/scenery_visuals.gd")
+var scenery: Node2D
 var impact_age: float = 10.0
 
 const Audio = preload("res://scripts/soundscape.gd")
@@ -55,6 +57,9 @@ var web_visibility_callback: JavaScriptObject
 
 func _ready() -> void:
 	get_tree().auto_accept_quit = false
+	scenery = Scenery.new()
+	scenery.name = "Scenery"
+	add_child(scenery)
 	if web_mode:
 		var web_font: FontVariation = FontVariation.new()
 		web_font.base_font = KOREAN_FONT
@@ -455,52 +460,41 @@ func _draw() -> void:
 		_center(web_notice, size.y - 76.0, 16, MUTED)
 
 func _draw_sky(size: Vector2) -> void:
-	var progress: float = boulder.distance / mountain.total_length
-	var top: Color = Color("111e29").lerp(Color("273947"), progress)
-	var bottom: Color = Color("7b8583").lerp(Color("d5bb93"), progress)
-	if mountain.weather_id == "rain":
-		top = top.lerp(Color("303d48"), 0.65)
-		bottom = bottom.lerp(Color("657782"), 0.80)
-	for stripe: int in range(48):
-		var amount: float = float(stripe) / 47.0
-		draw_rect(Rect2(0.0, size.y * amount, size.x, size.y / 47.0 + 1.0), top.lerp(bottom, amount))
-	var sun: Vector2 = Vector2(size.x * 0.79, size.y * 0.27)
-	draw_circle(sun, 72.0, Color(0.88, 0.79, 0.59, 0.025))
-	draw_circle(sun, 50.0, Color(0.88, 0.79, 0.59, 0.035))
-	draw_circle(sun, 32.0, Color(0.83, 0.77, 0.62, 0.12 if mountain.weather_id == "rain" else 0.4))
-	for layer: int in range(3):
-		var ridge: PackedVector2Array = PackedVector2Array()
-		ridge.append(Vector2(-40.0, size.y))
-		for index: int in range(40):
-			var x: float = float(index) / 37.0 * size.x - 30.0
-			var scroll: float = camera_position.x * (0.0009 + float(layer) * 0.0003)
-			var wave: float = sin(float(index) * 0.47 + scroll) * 76.0 + sin(float(index) * 1.19 + float(layer) * 4.0) * 30.0
-			ridge.append(Vector2(x, size.y * (0.43 + float(layer) * 0.09) + wave))
-		ridge.append(Vector2(size.x + 40.0, size.y))
-		draw_colored_polygon(ridge, [Color("52656a"), Color("3c5157"), Color("293e46")][layer])
-	for index: int in range(16):
-		var x: float = fposmod(float(index) * 149.0 - clock_time * (8.0 + float(index % 3) * 5.0), size.x + 100.0) - 50.0
-		var y: float = 100.0 + fposmod(float(index) * 97.0, size.y * 0.55)
-		draw_line(Vector2(x, y), Vector2(x + 18.0, y - 1.5), Color(0.85, 0.86, 0.76, 0.08), 1.0)
+	scenery.configure_view(art, size, camera_position, zoom, camera_shake, boulder.distance / mountain.total_length, mountain.weather_id == "rain", clock_time)
+
+func _distance_at_world_x(target: float) -> float:
+	# The authored climbing path is monotonic in X, including horizontal shelves.
+	if target <= mountain.sample(0.0).x:
+		return 0.0
+	if target >= mountain.sample(mountain.total_length).x:
+		return mountain.total_length
+	var low: float = 0.0
+	var high: float = mountain.total_length
+	for iteration: int in range(20):
+		var middle: float = (low + high) * 0.5
+		if mountain.sample(middle).x < target:
+			low = middle
+		else:
+			high = middle
+	return (low + high) * 0.5
 
 func _draw_terrain(size: Vector2) -> void:
-	var polygon: PackedVector2Array = PackedVector2Array()
 	var line: PackedVector2Array = PackedVector2Array()
-	var from: float = maxf(0.0, boulder.distance - 120.0)
-	var to: float = minf(mountain.total_length, boulder.distance + 180.0)
+	var anchor_x: float = size.x * 0.36 + camera_shake.x
+	var from: float = _distance_at_world_x(camera_position.x + (-300.0 - anchor_x) / zoom)
+	var to: float = _distance_at_world_x(camera_position.x + (size.x + 300.0 - anchor_x) / zoom)
 	if from == 0.0:
-		line.append(_world(Vector2(-1800.0, 0.0)))
+		var start: Vector2 = _world(mountain.sample(0.0))
+		line.append(Vector2(minf(-300.0, start.x - 1.0), start.y))
 	var d: float = from
 	while d < to:
 		line.append(_world(mountain.sample(d)))
 		d += 0.5
 	line.append(_world(mountain.sample(to)))
 	if to == mountain.total_length:
-		line.append(_world(mountain.sample(mountain.total_length) + Vector2(1800.0, 0.0)))
-	polygon.append_array(line)
-	polygon.append(Vector2(line[-1].x, size.y + 2000.0))
-	polygon.append(Vector2(line[0].x, size.y + 2000.0))
-	draw_colored_polygon(polygon, Color("1b2a30"))
+		var summit: Vector2 = _world(mountain.sample(mountain.total_length))
+		line.append(Vector2(maxf(size.x + 300.0, summit.x + 1.0), summit.y))
+	scenery.set_ground(line)
 	draw_polyline(line, Color("aca184"), 3.0 * zoom, true)
 	# A shallow material layer follows each slope and shelf. Transitions are
 	# visible before the stone reaches them, matching the physics boundary.
@@ -585,8 +579,10 @@ func _draw_asset_ground(from: float, to: float) -> void:
 			chunk_origin += float(chunk.length)
 	if from == 0.0:
 		var base_tex: Texture2D = art.terrain(str(mountain.surface_at(0.0).id), mountain.wet_at(0.0))
-		for tile: int in range(1, 10):
-			Art.draw_at(self, base_tex, _world(Vector2(-216.0 * tile, 0)), Vector2(0, 64), 216.0 / 512.0 * zoom)
+		_draw_ground_extension(mountain.sample(0.0), -1.0, base_tex)
+	if to == mountain.total_length:
+		var summit_tex: Texture2D = art.terrain(str(mountain.surface_at(to).id), mountain.wet_at(to))
+		_draw_ground_extension(mountain.sample(to), 1.0, summit_tex)
 	for segment: Dictionary in mountain.segments:
 		var origin: float = float(segment.start)
 		# Anchor tile phase to the mountain, so the texture never swims with the camera.
@@ -612,6 +608,13 @@ func _draw_asset_ground(from: float, to: float) -> void:
 				var uv_end: float = uv_start + (finish - cursor) / 12.0
 				draw_polygon(PackedVector2Array([a + top, b + top, b + bottom, a + bottom]), PackedColorArray([Color.WHITE]), PackedVector2Array([Vector2(uv_start, 0), Vector2(uv_end, 0), Vector2(uv_end, 1), Vector2(uv_start, 1)]), tex)
 			cursor = finish
+
+func _draw_ground_extension(origin: Vector2, direction: float, tex: Texture2D) -> void:
+	var screen_edge: float = -300.0 if direction < 0.0 else get_viewport_rect().size.x + 300.0
+	var span: float = maxf(0.0, (screen_edge - _world(origin).x) * direction / zoom)
+	for tile: int in range(ceili(span / 216.0) + 1):
+		var x: float = -216.0 * float(tile + 1) if direction < 0.0 else 216.0 * float(tile)
+		Art.draw_at(self, tex, _world(origin + Vector2(x, 0.0)), Vector2(0, 64), 216.0 / 512.0 * zoom)
 
 func _draw_shelf_art(position: Vector2, index: int) -> void:
 	var names: Array[String] = ["broken_signpost", "dead_tree", "small_tree", "ruin_pillar", "shrine_fragment", "simple_arch_ruin"]

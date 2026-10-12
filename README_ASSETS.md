@@ -10,7 +10,8 @@ assets/
     idle/ push/ heavy_push/ brace/ exhausted/  # 개별 512×512 PNG 32장
     spriteframes/                            # 애니메이션별 시트 5장
   boulder/                                   # 384×384, 돌 4종
-  terrain/                                   # 512×256, 지형 11종
+  terrain/                                   # 512×256 지형 11종 + 1024×1024 지하 암반
+  background/                                # 2048×1024 원경 2종 + 투명 중경 1종
   props/                                     # 384×384, 소품 7종
   fx/dust/ gravel/ impact/ wind/ breath/ snow/ # 256×256 프레임 36장 + 시트 6장
   ui/icons/                                  # 128×128 아이콘 8종
@@ -20,10 +21,11 @@ godot/
   resources/spriteframes/                     # 통합 2개 + 개별 11개 .tres
   scenes/preview/                             # character / fx / ui / environment
 scripts/asset_visuals.gd                      # 게임의 텍스처·애니메이션 연결
+scripts/scenery_visuals.gd                    # 배경과 지면 아래 암반 렌더링
 scripts/asset_preview.gd                      # 독립 프리뷰
 ```
 
-필수 아트는 개별 PNG 101장과 시트 11장, 총 112장이다. 기존 폰트 등은 이 수량에서 제외한다. 정확한 경로·크기·SHA-256은 `assets/metadata/asset_manifest.json`을 참고한다.
+필수 아트는 개별 PNG 105장과 시트 11장, 총 116장이다. 기존 폰트 등은 이 수량에서 제외한다. 정확한 경로·크기·SHA-256은 `assets/metadata/asset_manifest.json`을 참고한다. 원경 2장과 지하 암반 1장은 빈 공간을 채우는 완전 불투명 RGBA 이미지이며, 나머지 에셋은 투명 배경을 유지한다.
 
 ## 캐릭터 애니메이션
 
@@ -49,6 +51,19 @@ scripts/asset_preview.gd                      # 독립 프리뷰
 - 소품: cairn_checkpoint / broken_signpost / dead_tree / small_tree / ruin_pillar / shrine_fragment / simple_arch_ruin.
 
 기본 지형의 보행면 기준은 y=64다. 실제 게임은 기존 경사선을 따라 텍스처를 변형해 그리므로 시각 교체 때문에 충돌 경로가 달라지지 않는다. 특수 모듈의 배치 기준·상단 윤곽은 `environment_assets.json`에 기록한다. `Sprite2D`/`Polygon2D`에서 사용할 수 있으며, 새로운 스테이지에 배치할 때는 별도 충돌 형상을 설계해야 한다. 소품은 하단 기준점 (192,352)을 쓴다. 돌탑/쉼터 그림 자체가 새 부활 체크포인트를 만들지는 않는다.
+
+## 배경과 지면 아래 공간
+
+| 파일 | 크기 | 배경 | 용도 |
+|---|---|---|---|
+| `assets/background/sky_mountains.png` | 2048×1024 | 불투명 | 낮은 고도의 하늘과 먼 산 |
+| `assets/background/sky_summit.png` | 2048×1024 | 불투명 | 정상 부근의 하늘과 산악 원경 |
+| `assets/background/midground_ridge.png` | 2048×1024 | 투명 | 원경과 플레이 지형 사이의 능선 |
+| `assets/terrain/rock_subsurface.png` | 1024×1024 | 불투명 | 보행면 아래를 채우는 암반 질감 |
+
+이 네 장은 화면 장식용이며 충돌 형상이나 저장된 산의 경사를 정의하지 않는다. 원경과 중경은 카메라에 따라 서로 다른 속도로 이동하고, 지하 암반은 기존 보행면 아래에만 그린다. 맑음·비와 고도에 따른 색조는 렌더러에서 처리한다.
+
+`tests/scenery_verification.gd`는 에셋의 크기·불투명/투명 조건과 렌더링 전후 산·돌·난수 상태의 보존을 검사한다. `--capture`로 실행하면 시작점·175m·440m·800m·정상 부근의 맑음/비 화면, 축소·세로 화면, 에셋을 사용할 수 없을 때의 대체 렌더링까지 13장을 `.tools/scenery-captures/`에 저장한다. 대체 렌더링 검사는 메모리의 텍스처 캐시만 바꾸며 원본 PNG를 건드리지 않는다. 캡처는 지형 가장자리, 하단 빈 공간, 반복 경계 등을 육안 검토하는 자료다.
 
 ## FX와 UI
 

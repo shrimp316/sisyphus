@@ -25,6 +25,14 @@ for name in ['stamina','slip','brace','push_burst','checkpoint','height_marker',
     expected[f'assets/ui/icons/{name}_icon.png']=(128,128)
 for name in ['previous_record','event','rest_point']:
     expected[f'assets/ui/markers/{name}_marker.png']=(256,256)
+for name in ['sky_mountains', 'sky_summit', 'midground_ridge']:
+    expected[f'assets/background/{name}.png']=(2048,1024)
+expected['assets/terrain/rock_subsurface.png']=(1024,1024)
+opaque_paths={
+    'assets/background/sky_mountains.png',
+    'assets/background/sky_summit.png',
+    'assets/terrain/rock_subsurface.png',
+}
 
 records=[]
 errors=[]
@@ -39,7 +47,10 @@ for path,size in expected.items():
         continue
     alpha=image.getchannel('A')
     hist=alpha.histogram()
-    if hist[0]==0 or alpha.getextrema()[1]<32:
+    if path in opaque_paths:
+        if alpha.getextrema()!=(255,255):
+            errors.append(f'Background/fill must be fully opaque: {path}')
+    elif hist[0]==0 or alpha.getextrema()[1]<32:
         errors.append(f'Missing transparent background or visible pixels: {path}')
     if '/character/' in path and '/spriteframes/' not in path:
         bounds=alpha.point(lambda a:255 if a>32 else 0).getbbox()
@@ -56,8 +67,8 @@ for name,count in animations.items():
     hashes=[r['sha256'] for r in records if r['path'].startswith(f'assets/character/sisyphus/{name}/')]
     if len(set(hashes))!=count:
         raise SystemExit(f'Duplicate animation frame: {name}')
-manifest={'schema_version':1,'asset_count':len(records),'individual_pngs':101,'spritesheets':11,
+manifest={'schema_version':1,'asset_count':len(records),'individual_pngs':105,'spritesheets':11,
           'total_bytes':sum(r['bytes'] for r in records),'files':records}
 (ROOT/'assets/metadata/asset_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
-print(f'PASS: {len(records)} RGBA PNGs; sizes, transparency, character baselines and distinct frames verified.')
+print(f'PASS: {len(records)} RGBA PNGs; sizes, per-asset opacity, character baselines and distinct frames verified.')
 print(f'Total PNG bytes: {manifest["total_bytes"]:,}')

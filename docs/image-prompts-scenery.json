@@ -1,0 +1,42 @@
+[
+  {
+    "asset": "assets/background/sky_mountains.png",
+    "size": [
+      2048,
+      1024
+    ],
+    "alpha": "opaque",
+    "prompt": "Use case stylized-concept. Asset type production background panorama for SISYPHUS 2D sideview climbing game. Create ONE full-bleed landscape scenic background, 2048x1024, no panels. Art direction semi-realistic hand-painted mythic ancient Greek mountains, muted slate blue grey and warm ash ochre, delicate atmospheric perspective, textured stone like classical realist game concept art. View across vast remote ranges in the early morning: upper HALF is spacious soft blue-grey sky with finely painted wispy clouds and a faint pale apricot light toward upper right, no huge sun. Lower HALF has multiple staggered distant craggy mountains receding into mist, nearest range occupies only bottom quarter. Varied organic rocky ridge shapes, some sparse dark alpine trees low in frame. All mountains are DISTANT BACKGROUND, softened low contrast with cool atmospheric haze. Avoid pitch black mountains and avoid large prominent nearby rocks. Wide calm composition readable behind a small foreground character and platform around lower third. Paint edge-to-edge whole rectangle, opaque. No playable platform, no ground crosssection, no people, no boulder, no structures, no UI, no text, no borders. Production background not an asset reference board.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "assets/background/sky_summit.png",
+    "size": [
+      2048,
+      1024
+    ],
+    "alpha": "opaque",
+    "prompt": "Use case stylized-concept. Asset type second high-altitude background panorama for SISYPHUS 2D climbing game. Image1 is STYLE REFERENCE only; create a NEW matching scenic background for the summit. One fullbleed2048x1024panorama. Semi-realistic painterly mountainous ancientGreekmyth atmosphere, quiet awe, slate blue gray and palegold, muted detail suited distant background. Upperhalf expansive sky with delicate sweeping cirrus, pale warm morning light upperright withoutaheavycircularsun. Lowerhalf: soaring remote jagged peaks with light snow dusting emerging above a vast softly rolling sea of clouds; distant peaks recede with mist. Middle horizon nearhalfheight matchingreference, mountains no taller thanhalfimage, no foregroundground/ledge. Cloud ocean should dominate lower-right andlowestband, nearest peaks towardleft/bottomleft but mutedandmisty. Calm softcontrast for foregroundsprite readability, detailednaturalstonefacets notfacetedlowpoly. Opaqueedge-to-edge rectangle, no people no boulder no ruins no gameplatform no UI no captions no border. Consistentlightingandpaintingmedium asreference; compositiondifferent highaltitude landscape.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "assets/background/midground_ridge.png",
+    "size": [
+      2048,
+      1024
+    ],
+    "alpha": "transparent",
+    "prompt": "Use case stylized-concept. Production 2D game PARALLAX MOUNTAIN RIDGE layer, single 2048x1024 wide transparent PNG. Semi-realistic painterly craggy Greek alpine stone mountain range, muted cool charcoal slate gray with sparse dusty olive vegetation in crevices, softened by blue atmospheric haze. One CONTINUOUS connected range fills the entire bottom 55 percent, varied jagged mountain silhouettes rising from bottom edge, tallest peak only reaches y400, empty transparent sky across all upper space. A solid land mass continues to bottom and left/right edges; not a floating island, not isolated individual rocks. Horizontal side-on view distant mountainous backdrop, richly painted natural facets with low medium contrast, consistent diffuse illumination from upper right. Left and right edges have a matching low ridge height at y650 and similar rock colors for horizontal repeating, no vegetation cutoffs. Range extends beyond both side edges and beyond bottom edge. No floor platform, no game character, no boulder, no sky color, no sunlight disk, no clouds painted around cutout, no cast shadow, no glow halo, no text or asset labels. Genuine transparent alpha0 background above the ridge, fully opaque stone under silhouette. Separate clean parallax layer to place over a full scenic panorama.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "asset": "assets/terrain/rock_subsurface.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "alpha": "opaque",
+    "prompt": "Use case stylized-concept. Production 2D game environment texture, ONE square1024x1024 seamless repeatable OPAQUE ROCK SUBSURFACE texture for the interior below a mountain path. Front-on orthographic view of a continuous natural cliff cross-section of weathered fractured dark limestone and slate. Dense solid rock fills all pixels edge-to-edge; rough irregular medium-sized strata and angular stone slabs, deep fine fissures, compressed mineral seams and small patches of dark brown earth. Semi-realistic hand-painted high quality game material matching a mythic Greek mountainside, subdued slate-gray, charcoal and muted brown with tiny restrained ochre flecks. Overall medium-dark diffuse illumination, fine relief detail but NO directional dramatic lighting, no blackvoids, no central focal feature, no overall gradient. Broadscale irregular horizontal stratification with breaks and diagonal fault cracks; NOT uniform masonry bricks, NOT cobblestone paving. Seamlessly tile BOTH horizontal and vertical axes with matching borders, uniform material density, no obvious repeating signature large shape. The image is only stone material, no sky, no uppergroundsurface grass soilcap, no horizon, no platform silhouette, no isolated rocks, no objects, no symbols, no treasure, no skulls, no text, no border. Flat front-facing 2D cliff wall texture, no topdownfloor perspective. Opaque everywhere.",
+    "tool": "built-in image_gen"
+  }
+]

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "asset_count": 112,
-  "individual_pngs": 101,
+  "asset_count": 116,
+  "individual_pngs": 105,
   "spritesheets": 11,
-  "total_bytes": 12865098,
+  "total_bytes": 22433276,
   "files": [
     {
       "path": "assets/character/sisyphus/idle/idle_01.png",
@@ -1795,6 +1795,70 @@
         26,
         233,
         232
+      ]
+    },
+    {
+      "path": "assets/background/sky_mountains.png",
+      "size": [
+        2048,
+        1024
+      ],
+      "bytes": 2645177,
+      "sha256": "66d496909ea6317de9af95f3a6925500431468f6eff7a492d11154225a5cf8f5",
+      "transparent_pixel_fraction": 0.0,
+      "alpha_bounds": [
+        0,
+        0,
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "assets/background/sky_summit.png",
+      "size": [
+        2048,
+        1024
+      ],
+      "bytes": 2545081,
+      "sha256": "c144b03c4a16b7d368c4c7fade43c31167622daa00a6bdd36caeb019bcf8d654",
+      "transparent_pixel_fraction": 0.0,
+      "alpha_bounds": [
+        0,
+        0,
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "assets/background/midground_ridge.png",
+      "size": [
+        2048,
+        1024
+      ],
+      "bytes": 1819557,
+      "sha256": "9b75a8c0860d72661e3cd24d1342135703c76e3955ea6d30099caa2bafc2d340",
+      "transparent_pixel_fraction": 0.5867,
+      "alpha_bounds": [
+        0,
+        84,
+        2048,
+        1024
+      ]
+    },
+    {
+      "path": "assets/terrain/rock_subsurface.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 2558363,
+      "sha256": "e98ecd59ae74cc53b35f2ed9c8b0e8fa93cc4cbb02abe176bf39d2f1777c9153",
+      "transparent_pixel_fraction": 0.0,
+      "alpha_bounds": [
+        0,
+        0,
+        1024,
+        1024
       ]
     }
   ]

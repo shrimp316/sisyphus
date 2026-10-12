@@ -8,7 +8,7 @@ manifest=json.loads((root/'assets/metadata/asset_manifest.json').read_text(encod
 files={root/record['path'] for record in manifest['files']}
 for folder in ['assets/metadata','godot/resources/spriteframes','godot/scenes/preview']:
     files.update(p for p in (root/folder).rglob('*') if p.is_file() and p.suffix!='.import')
-files.update(root/p for p in ['scripts/asset_visuals.gd','scripts/asset_preview.gd','README_ASSETS.md'])
+files.update(root/p for p in ['scripts/asset_visuals.gd','scripts/scenery_visuals.gd','scripts/asset_preview.gd','README_ASSETS.md'])
 files.update((root/'docs').glob('image-prompts-*.json'))
 files.add(root/'tools/generate-godot-assets.gd')
 project='''config_version=5
