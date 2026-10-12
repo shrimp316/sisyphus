@@ -38,6 +38,15 @@ func run() -> void:
 			check(frames.has_animation(animation) and frames.get_frame_count(animation) == int(definitions[animation][0]) and frames.get_animation_speed(animation) == float(definitions[animation][1]), kind + "/" + animation + " count and fps")
 			check(art.frame(kind, animation, 0.0) != art.frame(kind, animation, 1.0 / float(definitions[animation][1]) + 0.001), animation + " advances to distinct frame")
 	check(Art.character_animation("push", 0) == "push" and Art.character_animation("exert", 1) == "heavy_push" and Art.character_animation("brace", 1) == "brace" and Art.character_animation("rest", 10) == "exhausted" and Art.character_animation("rest", 100) == "idle", "animation follows existing simulation action")
+	var character_frames: SpriteFrames = art.frames("sisyphus")
+	if character_frames != null:
+		for animation: String in ["push", "heavy_push"]:
+			if not character_frames.has_animation(animation): continue
+			var count: int = character_frames.get_frame_count(animation)
+			var fps: float = character_frames.get_animation_speed(animation)
+			for index: int in range(count):
+				check(art.frame("sisyphus", animation, (float(index) + 0.5) / fps) == character_frames.get_frame_texture(animation, index), "%s cycle frame %02d in order" % [animation, index + 1])
+			check(art.frame("sisyphus", animation, (float(count) + 0.5) / fps) == character_frames.get_frame_texture(animation, 0), animation + " wraps to first frame")
 	for mode: String in ["character", "fx", "ui", "environment"]:
 		var preview: Node2D = load("res://godot/scenes/preview/%s_preview.tscn" % mode).instantiate()
 		root.add_child(preview)
@@ -71,6 +80,18 @@ func run() -> void:
 		game.boulder.stamina = 80
 		await snap("game-" + action)
 	if capture:
+		# Freeze presentation time as well as physics for comparable full-cycle captures.
+		game.set_process(false)
+		for action: String in ["push", "exert"]:
+			var animation: String = Art.character_animation(action, 80)
+			var definition: Array = Art.CHARACTER_ANIMATIONS[animation]
+			game.boulder.action = action
+			game.boulder.stamina = 80
+			for index: int in range(int(definition[0])):
+				game.boulder.elapsed = (float(index) + 0.5) / float(definition[1])
+				game.queue_redraw()
+				await snap("game-%s-%02d" % [action, index + 1])
+		game.set_process(true)
 		for distance: float in [175.0, 440.0, 800.0]:
 			game.boulder.distance = minf(distance, game.mountain.total_length)
 			game.boulder.action = "push"

@@ -16,6 +16,10 @@ for source in sources:
     name = source['name']
     count = 8 if name == 'push' else 6
     cols = 4 if name == 'push' else 3
+    overrides = source.get('frame_overrides', {})
+    invalid_indices = set(overrides) - {str(i) for i in range(1, count + 1)}
+    if invalid_indices:
+        raise ValueError(f'{name} frame_overrides indices must be 1..{count}: {sorted(invalid_indices)}')
     src = Image.open(source['path']).convert('RGBA')
     frames = []
     for i in range(count):
@@ -25,7 +29,17 @@ for source in sources:
         bbox = cell.getchannel('A').point(lambda a: 255 if a > 16 else 0).getbbox()
         if not bbox:
             raise ValueError(f'{name} frame {i+1} has no artwork')
-        frames.append(cell.crop(bbox))
+        frame = cell.crop(bbox)
+        override = overrides.get(str(i + 1))
+        if override is not None:
+            replacement = Image.open(override['path']).convert('RGBA')
+            replacement_bbox = replacement.getchannel('A').point(lambda a: 255 if a > 16 else 0).getbbox()
+            if not replacement_bbox:
+                raise ValueError(f'{name} frame {i+1} override has no artwork')
+            replacement = replacement.crop(replacement_bbox)
+            replacement_width = max(1, round(replacement.width * frame.height / replacement.height))
+            frame = replacement.resize((replacement_width, frame.height), Image.Resampling.LANCZOS)
+        frames.append(frame)
     # Use one scale per animation to preserve pose/size differences, never fit each frame independently.
     target_height = {'idle': 396, 'push': 318, 'heavy_push': 292, 'brace': 348, 'exhausted': 310}[name]
     scale = min(target_height / max(f.height for f in frames), 432 / max(f.width for f in frames))
@@ -55,4 +69,8 @@ dest = ROOT / 'assets/metadata'
 dest.mkdir(parents=True,exist_ok=True)
 (dest/'sisyphus_animations.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 prompts = [{'asset':s['name'],'prompt':s['prompt'],'tool':'built-in image_gen'} for s in sources]
+for source, prompt in zip(sources, prompts):
+    if source.get('frame_overrides'):
+        prompt['frame_overrides'] = {index: {'prompt': override['prompt']}
+                                     for index, override in source['frame_overrides'].items()}
 (ROOT/'docs/image-prompts-character.json').write_text(json.dumps(prompts,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

@@ -3,7 +3,7 @@
   "asset_count": 112,
   "individual_pngs": 101,
   "spritesheets": 11,
-  "total_bytes": 12797010,
+  "total_bytes": 12865098,
   "files": [
     {
       "path": "assets/character/sisyphus/idle/idle_01.png",
@@ -123,12 +123,12 @@
         512,
         512
       ],
-      "bytes": 83108,
-      "sha256": "64d69787a8dd578ae58ab74bd68454a0a7299a7cafe58e9eb4d1dcb53cb82b90",
-      "transparent_pixel_fraction": 0.8852,
+      "bytes": 100634,
+      "sha256": "96f68ca65e13c149b5a12b6f86cd4ebdb8437697045a8cb8c6c4ecd7c3396582",
+      "transparent_pixel_fraction": 0.8449,
       "alpha_bounds": [
-        155,
-        146,
+        122,
+        147,
         440,
         464
       ]
@@ -139,12 +139,12 @@
         512,
         512
       ],
-      "bytes": 84044,
-      "sha256": "92cc043639900a9f42131d4bb5ce93d6f4352564021ffae9683eb8a18bff1524",
-      "transparent_pixel_fraction": 0.8831,
+      "bytes": 84725,
+      "sha256": "cc22f11a930442bda982d6c6468fac70266376ea2c068714e08cbbbc2ec424c7",
+      "transparent_pixel_fraction": 0.8754,
       "alpha_bounds": [
-        143,
-        153,
+        146,
+        146,
         440,
         464
       ]
@@ -155,12 +155,12 @@
         512,
         512
       ],
-      "bytes": 82303,
-      "sha256": "bd7adf9aa9d453c432484c4c475d5a93851ac963dbbcbde908bfcb51d22f9785",
-      "transparent_pixel_fraction": 0.882,
+      "bytes": 90517,
+      "sha256": "5b15591e0c7985b205deccbda69729860577693260b29e4edd17ea8d68b5f403",
+      "transparent_pixel_fraction": 0.8665,
       "alpha_bounds": [
-        139,
-        160,
+        180,
+        147,
         440,
         464
       ]
@@ -171,12 +171,12 @@
         512,
         512
       ],
-      "bytes": 80906,
-      "sha256": "8e987be7a60894e216fd82a46c4091b8388d7cd88b2d9deb5e6d1b3583574470",
-      "transparent_pixel_fraction": 0.8848,
+      "bytes": 99685,
+      "sha256": "4b8bc8037c6a4fdc2d432c78db232009890896141b8aedb3810d00ac0e11faf2",
+      "transparent_pixel_fraction": 0.8506,
       "alpha_bounds": [
-        144,
-        155,
+        132,
+        147,
         440,
         464
       ]
@@ -187,12 +187,12 @@
         512,
         512
       ],
-      "bytes": 83888,
-      "sha256": "174f5c774ad5a747179541a6e542a22616fa0d7f2ee441846c7d6bc4c7a639cb",
-      "transparent_pixel_fraction": 0.8835,
+      "bytes": 97403,
+      "sha256": "f02a87e74548b835b58aaef3b4a60c5bce2bd786fa7a12926a51bc2a23f10109",
+      "transparent_pixel_fraction": 0.8513,
       "alpha_bounds": [
-        149,
-        151,
+        124,
+        157,
         440,
         464
       ]
@@ -203,11 +203,11 @@
         512,
         512
       ],
-      "bytes": 84333,
-      "sha256": "6aa3c336ba8b1221c3d5134183f58ef8a2632a673573e195b947475838f5f2af",
-      "transparent_pixel_fraction": 0.8814,
+      "bytes": 87156,
+      "sha256": "53f18b2bfe8b210b0eede5fbdee561b154ffc84b5d666863527db4649f3808db",
+      "transparent_pixel_fraction": 0.8708,
       "alpha_bounds": [
-        154,
+        146,
         156,
         440,
         464
@@ -219,12 +219,12 @@
         512,
         512
       ],
-      "bytes": 84739,
-      "sha256": "c42d1021039f4dc0d8b5b27f8469fe20d9cae9a0b0c4d0c5b0f4bb394953fda8",
-      "transparent_pixel_fraction": 0.8806,
+      "bytes": 85133,
+      "sha256": "53c8341c2dbab199e7b2f82f439d96ca45d40c9e97b4820b521f666645f83b43",
+      "transparent_pixel_fraction": 0.8763,
       "alpha_bounds": [
-        150,
-        155,
+        202,
+        156,
         440,
         464
       ]
@@ -235,12 +235,12 @@
         512,
         512
       ],
-      "bytes": 82449,
-      "sha256": "162fe38370dddec619bff36ea8a93fa83f6388310afb8ae0c789daecb09fa6c0",
-      "transparent_pixel_fraction": 0.8837,
+      "bytes": 97261,
+      "sha256": "75950b5b749acee4341adb95a887d2dd86a7d86554b7b91e0ba118eb1c309e2c",
+      "transparent_pixel_fraction": 0.8552,
       "alpha_bounds": [
-        153,
-        154,
+        125,
+        157,
         440,
         464
       ]
@@ -251,11 +251,11 @@
         2048,
         1024
       ],
-      "bytes": 656629,
-      "sha256": "7ea766276e1ce9c6e7c15bd654fcc33591bf78b7d7024fda07a5919825a6d472",
-      "transparent_pixel_fraction": 0.883,
+      "bytes": 735094,
+      "sha256": "0dd0819798023c5a967aa8fc91e5b28b532ab4f045753ad9938ead3ddea1fddd",
+      "transparent_pixel_fraction": 0.8614,
       "alpha_bounds": [
-        149,
+        122,
         146,
         1976,
         976
@@ -267,12 +267,12 @@
         512,
         512
       ],
-      "bytes": 93900,
-      "sha256": "1a849bfd6e5938b0b13925b4a66e64ec7d2129574090ba52e7bea919464f419c",
-      "transparent_pixel_fraction": 0.8562,
+      "bytes": 89854,
+      "sha256": "cd24c5c2f6dc16962e4f5dd3370fee143ea2f278c9674bb3e122be8f37d28400",
+      "transparent_pixel_fraction": 0.8591,
       "alpha_bounds": [
-        63,
-        173,
+        104,
+        177,
         440,
         464
       ]
@@ -283,12 +283,12 @@
         512,
         512
       ],
-      "bytes": 92967,
-      "sha256": "59e672e742cd4e98cbb45b48031153caa228c9853639d453ad087ebd39a4feb1",
-      "transparent_pixel_fraction": 0.8588,
+      "bytes": 83824,
+      "sha256": "9f2d31437c06583659c853aba770ca73b79a9105a523fbf85c367c935290e051",
+      "transparent_pixel_fraction": 0.8708,
       "alpha_bounds": [
-        72,
-        172,
+        188,
+        174,
         440,
         464
       ]
@@ -299,12 +299,12 @@
         512,
         512
       ],
-      "bytes": 92527,
-      "sha256": "75e7f73ead768daa737c7d9a15287a04d8cec1594460a0f51fd807911068bca6",
-      "transparent_pixel_fraction": 0.8561,
+      "bytes": 87740,
+      "sha256": "159df2747217fb6c738289f99723dc60f02c7675016c6f1e2eec61c3c0d9aff6",
+      "transparent_pixel_fraction": 0.865,
       "alpha_bounds": [
-        77,
-        172,
+        105,
+        177,
         440,
         464
       ]
@@ -315,12 +315,12 @@
         512,
         512
       ],
-      "bytes": 92234,
-      "sha256": "c16860e5d657a3565c9d191d5ef170301b87f9a67282b22c3cc0fa7022409c6d",
-      "transparent_pixel_fraction": 0.8566,
+      "bytes": 83876,
+      "sha256": "7ea1c95dd0ebf8f430beebfe4aed94cf773841e1ea5aa61985160536a0a569f9",
+      "transparent_pixel_fraction": 0.8708,
       "alpha_bounds": [
-        74,
-        174,
+        128,
+        180,
         440,
         464
       ]
@@ -331,12 +331,12 @@
         512,
         512
       ],
-      "bytes": 92746,
-      "sha256": "fb6f8c9548f030f2b232ec896b85c3ba20dc599a0593b543ad5f8b75fa7a72bc",
-      "transparent_pixel_fraction": 0.8587,
+      "bytes": 78403,
+      "sha256": "dcc7e839e594985f4536dd34d2f97c24bc44fe2a440d041d12857fdb48ee4678",
+      "transparent_pixel_fraction": 0.8795,
       "alpha_bounds": [
-        76,
-        173,
+        207,
+        179,
         440,
         464
       ]
@@ -347,11 +347,11 @@
         512,
         512
       ],
-      "bytes": 94113,
-      "sha256": "ccab777026bfb6475b56d65d70b1952ce0dd9d421944b4d749bfcc7995c4742f",
-      "transparent_pixel_fraction": 0.8561,
+      "bytes": 90454,
+      "sha256": "986c30d10661ad07c8dbaf2cbb1a62a9ddf526f457df9b48b9d03e4c34d14940",
+      "transparent_pixel_fraction": 0.862,
       "alpha_bounds": [
-        68,
+        112,
         172,
         440,
         464
@@ -363,12 +363,12 @@
         1536,
         1024
       ],
-      "bytes": 552053,
-      "sha256": "c543167a2c7f5b80448d269a7d54693a2e192aa75f9868da5eb2b9d582e73f06",
-      "transparent_pixel_fraction": 0.8571,
+      "bytes": 509268,
+      "sha256": "5cb93505386882b07f0b39f1722f57dbd1cdd7eb29616298b6faeada92eede96",
+      "transparent_pixel_fraction": 0.8679,
       "alpha_bounds": [
-        63,
-        172,
+        104,
+        174,
         1464,
         976
       ]
