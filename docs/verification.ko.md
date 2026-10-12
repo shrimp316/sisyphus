@@ -2,6 +2,21 @@
 
 검증일: 2026-10-07. Godot `4.5.1.stable.official.f62fdbde1`, Windows, Compatibility 렌더러.
 
+## 2026-10-12: 암반 음영의 카메라 이동 회귀 검사
+
+`tests/scenery_motion_verification.gd`는 암반 텍스처를 메모리에서 불투명 흰색 1×1 이미지로 바꾸어 그림의 무늬와 필터링을 제외하고 음영 변화만 측정한다. 시드 42의 175m·440m에서 경사와 쉼터 주변의 고정 월드 좌표 6곳을 선택하고, 맑음·비 각각 카메라 수평/수직 ±80px 이동과 줌 0.8 이후 같은 지점을 화면에 재투영한다. RGB 채널의 최대 차이 허용치는 `3/255`다. 플레이 저장이나 원본 PNG는 변경하지 않는다.
+
+수정 전 렌더러는 이동 20개 조합 중 8개가 실패했으며 최대 차이는 `17/255`였다. 수정 후에는 **20개 조합 모두 통과**했다. 평행이동 16개 조합의 차이는 0, 줌 변경 4개 조합은 `1/255`였다. 별도 `scenery_verification.gd`의 정적·세로·축소·대체 렌더링 검사도 51개 검사와 13개 캡처에서 실패 0이었다. 이는 검사한 지점의 음영 안정성에 대한 근거이며 모든 장치에서 장시간 플레이를 검증한 결과는 아니다.
+
+프로젝트 루트에서 GPU가 있는 환경으로 실행한다. 픽셀을 읽으므로 `--headless`를 붙이지 않는다. `--capture`를 생략해도 측정은 수행하며, 추가하면 비교 화면 24장을 저장한다.
+
+```powershell
+$sceneryEngine = Join-Path $PWD '.tools/godot/Godot_v4.5.1-stable_win64_console.exe'
+& $sceneryEngine --path . --resolution 1280x720 --rendering-method gl_compatibility --log-file .tools/scenery-motion.log --script res://tests/scenery_motion_verification.gd -- --capture
+```
+
+측정값은 `.tools/scenery-motion-fixed/measurements.json`에 저장된다. `--baseline`은 개발 중 수정 전 코드와 비교하는 선택적 내부 모드다. 이 모드는 Git에 포함되지 않는 `.tools/scenery_visuals-motion-baseline.gd`가 필요하며, 해당 파일은 커밋 `2b0a388`의 `scripts/scenery_visuals.gd`에서 첫 줄 `class_name SceneryVisuals`만 제거한 복사본이다. 기본 실행에는 이 파일이 필요하지 않다. 내부 비교 결과는 `.tools/scenery-motion-baseline/`에 별도로 저장된다.
+
 ## 브라우저 Web 빌드
 
 단일 스레드 Web Release 빌드를 로컬 HTTP 서버의 `/sisyphus/` 하위 경로에서 검증했다. 독립 웹 호환성 검사 24개와 데스크톱 UI 13개·저장 오류 처리 10개·별도 프로세스 재개 3개가 통과했다. 웹 저장·라이프사이클 처리와 기존 Windows 동작을 함께 확인했다.

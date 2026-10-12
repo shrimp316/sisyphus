@@ -2,6 +2,8 @@ class_name SceneryVisuals
 extends Node2D
 ## A separate canvas keeps world texture repetition away from character and UI art.
 
+const SUBSURFACE_FADE_DEPTH: float = 720.0
+
 var art: AssetVisuals
 var view_size: Vector2 = Vector2.ZERO
 var camera_position: Vector2 = Vector2.ZERO
@@ -84,25 +86,42 @@ func _draw_ridge(tex: Texture2D) -> void:
 func _draw_subsurface() -> void:
 	if ground_outline.size() < 2:
 		return
-	var polygon: PackedVector2Array = ground_outline.duplicate()
 	var bottom: float = maxf(view_size.y + 320.0 * view_zoom, maxf(ground_outline[0].y + 1.0, ground_outline[-1].y + 1.0))
-	polygon.append(Vector2(ground_outline[-1].x, bottom))
-	polygon.append(Vector2(ground_outline[0].x, bottom))
 	var rock: Texture2D = art.texture("res://assets/terrain/rock_subsurface.png")
 	if rock == null:
+		var polygon: PackedVector2Array = ground_outline.duplicate()
+		polygon.append(Vector2(ground_outline[-1].x, bottom))
+		polygon.append(Vector2(ground_outline[0].x, bottom))
 		draw_colored_polygon(polygon, Color("1b2a30"))
 		return
+	var points: PackedVector2Array = PackedVector2Array()
 	var uvs: PackedVector2Array = PackedVector2Array()
 	var colors: PackedColorArray = PackedColorArray()
+	var indices: PackedInt32Array = PackedInt32Array()
 	var camera_anchor: Vector2 = Vector2(view_size.x * 0.36, view_size.y * 0.67) + camera_shake
-	for index: int in range(polygon.size()):
+	var surface_color: Color = Color(0.63, 0.65, 0.65) if rainy else Color(0.77, 0.74, 0.68)
+	var deep_color: Color = Color(0.13, 0.17, 0.20)
+	for index: int in range(ground_outline.size()):
+		var surface: Vector2 = ground_outline[index]
+		var fade_end: Vector2 = surface + Vector2(0.0, SUBSURFACE_FADE_DEPTH * view_zoom)
+		points.append(surface)
+		points.append(fade_end)
+		points.append(Vector2(surface.x, maxf(bottom, fade_end.y)))
+		colors.append(surface_color)
+		colors.append(deep_color)
+		colors.append(deep_color)
+		if index > 0:
+			var left: int = (index - 1) * 3
+			var right: int = index * 3
+			# Fixed adjacent columns avoid re-triangulating the entire visible mountain.
+			# Each fade spans the same world depth; extending coverage cannot change it.
+			indices.append_array(PackedInt32Array([left, right, right + 1, left, right + 1, left + 1,
+				left + 1, right + 1, right + 2, left + 1, right + 2, left + 2]))
+	for point: Vector2 in points:
 		# Invert the game's camera transform: texture grains stay attached to rock.
-		var world_point: Vector2 = (polygon[index] - camera_anchor) / view_zoom + camera_position
+		var world_point: Vector2 = (point - camera_anchor) / view_zoom + camera_position
 		uvs.append(world_point / 600.0)
-		colors.append(Color(0.63, 0.65, 0.65) if rainy else Color(0.77, 0.74, 0.68))
-		if index >= ground_outline.size():
-			colors[index] = Color(0.13, 0.17, 0.20)
-	draw_polygon(polygon, colors, uvs, rock)
+	RenderingServer.canvas_item_add_triangle_array(get_canvas_item(), indices, points, colors, uvs, PackedInt32Array(), PackedFloat32Array(), rock.get_rid())
 
 func _draw_fallback_sky() -> void:
 	var top: Color = Color("111e29").lerp(Color("273947"), progress)
