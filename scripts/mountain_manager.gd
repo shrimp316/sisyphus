@@ -5,11 +5,13 @@ const LENGTH: float = 1000.0
 const PIXELS_PER_METER: float = 18.0
 const ZONES: Array[String] = ["황량한 산기슭", "오래된 돌길", "바람의 능선", "침묵의 고지", "마지막 오르막"]
 const SURFACE_IDS: Array[String] = ["STONE", "SOIL", "GRAVEL"]
+const REST_SHELF_LENGTH: float = 8.0
+const SLOPE_VARIATION: float = 4.0
 var curve: Curve2D = Curve2D.new()
 var segments: Array[Dictionary] = []
 var chunks: Array[Dictionary] = []
 var seed_value: int = 1
-var generation_version: int = 2
+var generation_version: int = 4
 var total_length: float = LENGTH
 var debug_mode: bool = false
 var rest_points: Array[float] = []
@@ -22,7 +24,7 @@ var surfaces: Dictionary = {
 	"GRAVEL": {"id": "GRAVEL", "label": "자갈", "grip": 0.75, "resistance": 1.3, "slipperiness": 1.2, "color": Color("a1adb1")}
 }
 
-func _init(run_seed: int = 1, legacy_mode: bool = false, generation: int = 3) -> void:
+func _init(run_seed: int = 1, legacy_mode: bool = false, generation: int = 4) -> void:
 	seed_value = run_seed
 	legacy = legacy_mode
 	generation_version = 1 if legacy else generation
@@ -82,6 +84,32 @@ func _generate_chunks() -> void:
 					selected.surface_type = override_surface
 			chunks.append(selected)
 			hard_streak = hard_streak + 1 if int(selected.difficulty) >= hard_threshold else 0
+	if generation_version >= 4:
+		_randomize_geometry()
+
+func _randomize_geometry() -> void:
+	# Geometry draws never change the authored bag order or the weather draw.
+	var random: RandomNumberGenerator = RandomNumberGenerator.new()
+	random.seed = seed_value ^ 0x53495359
+	for chunk: Dictionary in chunks:
+		var length: float = float(chunk.length)
+		var old_climb: float = float(chunk.climb_length)
+		var climb: float = length - REST_SHELF_LENGTH
+		# Shelf obstacles retain their relative position on the shorter flat.
+		var offsets: Array = []
+		for offset: Variant in chunk.get("ledge_offsets", []):
+			var position: float = float(offset)
+			if position >= old_climb:
+				position = climb + (position - old_climb) / (length - old_climb) * REST_SHELF_LENGTH
+			offsets.append(position)
+		chunk.ledge_offsets = offsets
+		chunk.climb_length = climb
+		# A long, low-grip wet climb needs a lower ceiling than dry ground.
+		var ceiling: float = 20.0 if str(chunk.surface_type) == "WET_STONE" else 32.0
+		var base: float = clampf(float(chunk.start_angle), 4.0, ceiling)
+		var angle: float = random.randf_range(maxf(4.0, base - SLOPE_VARIATION), minf(ceiling, base + SLOPE_VARIATION))
+		chunk.start_angle = angle
+		chunk.end_angle = angle
 
 func _build_curve() -> void:
 	curve.clear_points()
@@ -94,7 +122,7 @@ func _build_curve() -> void:
 	curve.add_point(point)
 	for chunk: Dictionary in chunks:
 		var climb: float = float(chunk.climb_length)
-		# Phase 2 resources author a constant slope (equal start/end angles).
+		# Each generated chunk has a constant slope shared by drawing and physics.
 		var angle: float = deg_to_rad(float(chunk.start_angle))
 		var common: Dictionary = {"surface": str(chunk.surface_type), "chunk_id": str(chunk.id), "difficulty": int(chunk.difficulty), "zone_index": int(chunk.zone_index)}
 		var uphill: Dictionary = common.duplicate()
@@ -188,7 +216,7 @@ func snapshot() -> Dictionary:
 	return {"generation_version": generation_version, "seed": seed_value, "legacy": legacy, "weather": weather_id, "chunks": chunks.duplicate(true), "surfaces": saved_surfaces, "total_length": total_length, "debug_mode": debug_mode}
 
 static func from_snapshot(data: Dictionary) -> MountainManager:
-	if int(data.get("generation_version", 0)) not in [1, 2, 3] or not data.get("chunks") is Array or not data.get("surfaces") is Dictionary:
+	if int(data.get("generation_version", 0)) not in [1, 2, 3, 4] or not data.get("chunks") is Array or not data.get("surfaces") is Dictionary:
 		return null
 	var ordered: Array = data.chunks as Array
 	var debug: bool = bool(data.get("debug_mode", false)) and int(data.generation_version) == 3
