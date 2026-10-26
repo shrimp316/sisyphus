@@ -47,7 +47,7 @@ scripts/asset_preview.gd                      # 독립 프리뷰
 
 ## 지형·돌·소품
 
-- 돌: default / rough / wet / snow. 중심 (192,192), 기준 반지름 176px. 게임에서는 기존 43px 반지름에 맞춰 표시하고 이동량에 따라 회전한다.
+- 돌: default / rough / wet / snow. 중심 (192,192), 기준 반지름 176px. 게임에서는 43px 반지름에서 시작해 이번 회차의 최고 고도에 따라 최대 49.45px(+15%)까지 표시한다. 저장된 회차 최고점을 사용하므로 왕복 이동으로 중복 성장하지 않으며 다음 회차에 초기화된다. 외형만 바뀌고 물리는 유지한다. 회전은 기존 이동 거리 기준을 유지해 성장·재개 시 각도가 튀지 않도록 한다.
 - 기본 지형: rock_ground / gravel_ground / mud_ground / wet_rock / snow_ground.
 - 특수 지형: steep_slope_up / convex_slope_up / concave_slope_down / ledge / foothold_rest_platform / small_stone_step.
 - 소품: cairn_checkpoint / broken_signpost / dead_tree / small_tree / ruin_pillar / shrine_fragment / simple_arch_ruin.

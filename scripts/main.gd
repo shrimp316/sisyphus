@@ -13,6 +13,8 @@ var scenery: Node2D
 var impact_age: float = 10.0
 # A complete left/right step cycle covers 36 world pixels at the current scale.
 const GAIT_STRIDE_METERS: float = 2.0
+const BOULDER_BASE_RADIUS: float = 43.0
+const BOULDER_MAX_GROWTH: float = 0.15
 var gait_phase: float = 0.0
 var character_travel: float = 0.0
 
@@ -744,7 +746,7 @@ func _draw_shelf_art(position: Vector2, index: int) -> void:
 
 func _draw_asset_effects() -> void:
 	var ground: Vector2 = _world(mountain.sample(boulder.distance))
-	var feet: Vector2 = _world(mountain.sample(maxf(0.0, boulder.distance - 3.7)))
+	var feet: Vector2 = _world(character_ground_position())
 	if level_flash > 0.0 and screen == "game" and not upgrade_open:
 		var fade: float = clampf(level_flash / 2.4, 0.0, 1.0)
 		for index: int in range(12):
@@ -770,38 +772,75 @@ func _draw_weather(size: Vector2) -> void:
 		var y: float = fposmod(float(index) * 91.73 + clock_time * speed, size.y + 80.0) - 40.0
 		draw_line(Vector2(x, y), Vector2(x - 4.5, y + 19.0), Color(0.72, 0.83, 0.88, 0.16), 1.0)
 
-func _draw_stone() -> void:
+func boulder_visual_scale() -> float:
+	# Run peak is already saved; appearance grows only with new altitude records.
+	var start_y: float = mountain.sample(0.0).y
+	var summit_height: float = start_y - mountain.sample(mountain.total_length).y
+	if summit_height <= 0.0:
+		return 1.0
+	var peak_height: float = start_y - mountain.sample(clampf(boulder.peak, 0.0, mountain.total_length)).y
+	return 1.0 + BOULDER_MAX_GROWTH * clampf(peak_height / summit_height, 0.0, 1.0)
+
+func boulder_visual_radius() -> float:
+	return BOULDER_BASE_RADIUS * boulder_visual_scale()
+
+func boulder_visual_center() -> Vector2:
 	var angle: float = mountain.angle_at(boulder.distance)
-	var center: Vector2 = _world(mountain.sample(boulder.distance) + Vector2(-sin(angle), -cos(angle)) * 43.0)
-	var rotation: float = boulder.distance * MountainManager.PIXELS_PER_METER / 43.0
+	return mountain.sample(boulder.distance) + Vector2(-sin(angle), -cos(angle)) * boulder_visual_radius()
+
+func character_ground_position() -> Vector2:
+	# Find rear hand contact against the actual path, including slope/shelf joins.
+	var hand: Vector2 = Vector2(23.6, -43.0)
+	var angle: float = mountain.angle_at(boulder.distance)
+	var tangent: Vector2 = Vector2(cos(angle), -sin(angle))
+	var radius: float = boulder_visual_radius()
+	var center: Vector2 = boulder_visual_center()
+	var near_gap: float = tangent.dot(hand)
+	var far_gap: float = near_gap + 2.0 * radius
+	for _iteration: int in range(14):
+		var gap: float = (near_gap + far_gap) * 0.5
+		var feet: Vector2 = _character_foot_at_distance(boulder.distance - gap / MountainManager.PIXELS_PER_METER)
+		if (feet + hand).distance_squared_to(center) < radius * radius:
+			near_gap = gap
+		else:
+			far_gap = gap
+	return _character_foot_at_distance(boulder.distance - (near_gap + far_gap) * 0.5 / MountainManager.PIXELS_PER_METER)
+
+func _character_foot_at_distance(d: float) -> Vector2:
+	return mountain.sample(d) if d >= 0.0 else mountain.sample(0.0) + Vector2(d * MountainManager.PIXELS_PER_METER, 0.0)
+
+func _draw_stone() -> void:
+	var growth: float = boulder_visual_scale()
+	var center: Vector2 = _world(boulder_visual_center())
+	# Keep rotation anchored to distance so gaining size cannot jump its phase.
+	var rotation: float = boulder.distance * MountainManager.PIXELS_PER_METER / BOULDER_BASE_RADIUS
 	var variant: String = "wet" if mountain.wet_at(boulder.distance) else ("rough" if str(mountain.surface_at(boulder.distance).id).to_lower() == "gravel" else "default")
-	if Art.draw_at(self, art.texture("res://assets/boulder/boulder_%s.png" % variant), center, Vector2(192, 192), 43.0 / 176.0 * zoom, rotation):
+	if Art.draw_at(self, art.texture("res://assets/boulder/boulder_%s.png" % variant), center, Vector2(192, 192), BOULDER_BASE_RADIUS * growth / 176.0 * zoom, rotation):
 		return
+	var stone_zoom: float = zoom * growth
 	var shape: PackedVector2Array = PackedVector2Array()
 	for p: Vector2 in stone_shape:
-		shape.append(center + p.rotated(rotation) * zoom)
-	draw_circle(center + Vector2(4.0, 32.0) * zoom, 39.0 * zoom, Color(0.02, 0.03, 0.04, 0.25))
+		shape.append(center + p.rotated(rotation) * stone_zoom)
+	draw_circle(center + Vector2(4.0, 32.0) * stone_zoom, 39.0 * stone_zoom, Color(0.02, 0.03, 0.04, 0.25))
 	draw_colored_polygon(shape, Color("8d9287"))
 	for index: int in range(18):
 		var a: Vector2 = shape[index]
 		var b: Vector2 = shape[(index + 1) % 18]
-		var light: float = clampf((center.y - (a.y + b.y) * 0.5) / (90.0 * zoom) + 0.35, 0.1, 0.7)
-		draw_colored_polygon(PackedVector2Array([center + Vector2(-8.0, -6.0) * zoom, a, b]), Color("c3c2a9").lerp(Color("4e5b59"), 1.0 - light))
+		var light: float = clampf((center.y - (a.y + b.y) * 0.5) / (90.0 * stone_zoom) + 0.35, 0.1, 0.7)
+		draw_colored_polygon(PackedVector2Array([center + Vector2(-8.0, -6.0) * stone_zoom, a, b]), Color("c3c2a9").lerp(Color("4e5b59"), 1.0 - light))
 	for index: int in range(32):
 		var local: Vector2 = Vector2(sin(float(index) * 8.11), cos(float(index) * 4.71)) * (10.0 + float(index % 5) * 5.0)
-		var p: Vector2 = center + local.rotated(rotation) * zoom
-		draw_circle(p, (0.8 + float(index % 3) * 0.5) * zoom, Color(0.15, 0.23, 0.24, 0.23))
+		var p: Vector2 = center + local.rotated(rotation) * stone_zoom
+		draw_circle(p, (0.8 + float(index % 3) * 0.5) * stone_zoom, Color(0.15, 0.23, 0.24, 0.23))
 	var crack: PackedVector2Array = PackedVector2Array()
 	for p: Vector2 in [Vector2(-18, -28), Vector2(-6, -12), Vector2(-12, 2), Vector2(5, 11), Vector2(11, 33)]:
-		crack.append(center + p.rotated(rotation) * zoom)
-	draw_polyline(crack, Color("4a5754"), 1.5 * zoom, true)
+		crack.append(center + p.rotated(rotation) * stone_zoom)
+	draw_polyline(crack, Color("4a5754"), 1.5 * stone_zoom, true)
 
 func _draw_character() -> void:
 	if boulder.state == "runaway" or boulder.state == "result":
 		return
-	var d: float = boulder.distance - 3.7
-	var ground: Vector2 = mountain.sample(d) if d >= 0.0 else mountain.sample(0.0) + Vector2(d * MountainManager.PIXELS_PER_METER, 0.0)
-	var base: Vector2 = _world(ground)
+	var base: Vector2 = _world(character_ground_position())
 	if Art.draw_at(self, character_frame(), base, Vector2(256, 464), 0.18 * zoom):
 		return
 	if boulder.slip > 40.0 and not paused:
