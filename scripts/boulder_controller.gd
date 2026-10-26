@@ -18,6 +18,9 @@ var distance: float = 0.0
 var velocity: float = 0.0
 var acceleration: float = 0.0
 var stamina: float = 100.0
+var max_stamina: float = 100.0
+var push_multiplier: float = 1.0
+var recovery_multiplier: float = 1.0
 var slip: float = 0.0
 var slip_remaining: float = 0.0
 var peak: float = 0.0
@@ -40,10 +43,16 @@ var ledge_blocked: bool = false
 func _init(terrain: MountainManager = null) -> void:
 	mountain = terrain if terrain != null else MountainManager.new()
 
+func apply_progression(ranks: Dictionary) -> void:
+	push_multiplier = 1.0 + clampi(int(ranks.get("strength", 0)), 0, 10) * 0.02
+	max_stamina = 100.0 * (1.0 + clampi(int(ranks.get("endurance", 0)), 0, 10) * 0.02)
+	recovery_multiplier = 1.0 + clampi(int(ranks.get("recovery", 0)), 0, 10) * 0.02
+	stamina = clampf(stamina, 0.0, max_stamina)
+
 func stamina_multiplier() -> float:
-	if stamina >= 50.0:
+	if stamina >= max_stamina * 0.5:
 		return 1.0
-	if stamina >= 20.0:
+	if stamina >= max_stamina * 0.2:
 		return 0.85
 	if stamina > 0.0:
 		return 0.65
@@ -94,7 +103,7 @@ func _step_legacy(dt: float, push: bool, exert: bool, brace: bool) -> void:
 	slip_remaining = maxf(0.0, slip_remaining - dt)
 	var braking: bool = brace and velocity < 0.0 and not slipping
 	var pushing: bool = push and not brace and not slipping
-	var force: float = 2.0 * stamina_multiplier() * grip * (1.65 if exert else 1.0) if pushing else 0.0
+	var force: float = 2.0 * push_multiplier * stamina_multiplier() * grip * (1.65 if exert else 1.0) if pushing else 0.0
 	push_force = force
 	gravity_force = gravity
 	surface_resistance = resisting
@@ -118,9 +127,9 @@ func _step_legacy(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		stamina -= (0.75 + rad_to_deg(angle) / 35.0) * (3.0 if exert else 1.0) * dt
 		action = "exert" if exert else "push"
 	else:
-		stamina += (8.0 if absf(velocity) < 0.05 else 5.0) * dt
+		stamina += (8.0 if absf(velocity) < 0.05 else 5.0) * recovery_multiplier * dt
 		action = "slip" if slipping else "rest"
-	stamina = clampf(stamina, 0.0, 100.0)
+	stamina = clampf(stamina, 0.0, max_stamina)
 	if pushing and angle > 0.01:
 		slip += (rad_to_deg(angle) / 35.0) * (3.8 if exert else 0.85) * mountain.slip_multiplier_at(distance) * dt
 	else:
@@ -161,7 +170,7 @@ func snapshot() -> Dictionary:
 func restore(data: Dictionary) -> void:
 	distance = clampf(float(data.get("distance", 0.0)), 0.0, mountain.total_length)
 	velocity = clampf(float(data.get("velocity", 0.0)), -65.0, V02_MAX_SPEED if mountain.generation_version >= 3 else MAX_SPEED)
-	stamina = clampf(float(data.get("stamina", 100.0)), 0.0, 100.0)
+	stamina = clampf(float(data.get("stamina", max_stamina)), 0.0, max_stamina)
 	slip = clampf(float(data.get("slip", 0.0)), 0.0, 99.999)
 	slip_remaining = clampf(float(data.get("slip_remaining", 0.0)), 0.0, 1.0)
 	peak = clampf(float(data.get("peak", distance)), distance, mountain.total_length)
@@ -239,7 +248,7 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 	slip_remaining = maxf(0.0, slip_remaining - dt)
 	momentum = 1.1 if sweet else 1.0
 	control_multiplier = 0.9 if velocity > 1.5 else 1.0
-	push_force = BASE_PUSH * stamina_multiplier() * grip * (1.65 if exert else 1.0) * momentum * control_multiplier if pushing else 0.0
+	push_force = BASE_PUSH * push_multiplier * stamina_multiplier() * grip * (1.65 if exert else 1.0) * momentum * control_multiplier if pushing else 0.0
 	if slipping:
 		push_force *= 0.1
 	gravity_force = GRAVITY * sin(angle)
@@ -263,9 +272,9 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		action = "slip" if slipping else ("exert" if exert else "push")
 	else:
 		var recovery: float = 10.0 if safe else (7.0 if absf(velocity) < 0.01 else (3.0 if degrees <= 10.0 else 0.0))
-		stamina += recovery * dt
+		stamina += recovery * recovery_multiplier * dt
 		action = "slip" if slipping else "rest"
-	stamina = clampf(stamina, 0.0, 100.0)
+	stamina = clampf(stamina, 0.0, max_stamina)
 	var slip_gain: float = 0.0
 	if pushing and not slipping:
 		slip_gain = 4.0 * degrees / 35.0 * mountain.slip_multiplier_at(distance) * (1.8 if exert else 1.0)

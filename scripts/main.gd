@@ -2,6 +2,10 @@ extends Node2D
 
 const Mountain = preload("res://scripts/mountain_manager.gd")
 const Boulder = preload("res://scripts/boulder_controller.gd")
+const Growth = preload("res://scripts/progression.gd")
+var progression: Progression = Growth.new()
+var upgrade_open: bool = false
+var level_flash: float = 0.0
 const Art = preload("res://scripts/asset_visuals.gd")
 var art: AssetVisuals = Art.new()
 const Scenery = preload("res://scripts/scenery_visuals.gd")
@@ -108,7 +112,11 @@ func _notification(what: int) -> void:
 func _physics_process(delta: float) -> void:
 	if screen != "game" or paused:
 		return
+	_refresh_upgrade_choice()
+	if upgrade_open:
+		return
 	boulder.advance(delta, Input.is_physical_key_pressed(KEY_D) or Input.is_physical_key_pressed(KEY_RIGHT), Input.is_physical_key_pressed(KEY_SHIFT), Input.is_physical_key_pressed(KEY_SPACE))
+	update_progression()
 	if previous_best > 0.0 and not record_crossed and boulder.distance > previous_best:
 		record_crossed = true
 		record_flash = 0.5
@@ -130,6 +138,7 @@ func _process(delta: float) -> void:
 		if web_save_elapsed >= 5.0:
 			_save_for_web()
 	if not paused and screen == "game":
+		level_flash = maxf(0.0, level_flash - delta)
 		record_flash = maxf(0.0, record_flash - delta)
 		feedback_time = maxf(0.0, feedback_time - delta)
 	slip_alpha = move_toward(slip_alpha, 1.0 if boulder.slip > 40.0 else 0.0, delta * 3.0)
@@ -143,10 +152,18 @@ func _process(delta: float) -> void:
 	zoom = lerpf(zoom, fall_zoom if falling else 1.0, 1.0 - exp(-delta * 2.0))
 	var risk: float = clampf((boulder.slip - 70.0) / 30.0, 0.0, 1.0) if screen == "game" and not paused and not falling else 0.0
 	camera_shake = Vector2(sin(boulder.elapsed * 43.0), cos(boulder.elapsed * 37.0)) * risk * 1.8
-	sound.fill(boulder.velocity, falling, paused or screen != "game", boulder.state == "summit", str(mountain.surface_at(boulder.distance).id).to_lower(), mountain.wet_at(boulder.distance), boulder.stamina, boulder.slip, boulder.elapsed, boulder.action)
+	sound.fill(boulder.velocity, falling, paused or upgrade_open or screen != "game", boulder.state == "summit", str(mountain.surface_at(boulder.distance).id).to_lower(), mountain.wet_at(boulder.distance), _stamina_percent(), boulder.slip, boulder.elapsed, boulder.action)
 	queue_redraw()
 
 func _unhandled_input(event: InputEvent) -> void:
+	if upgrade_open and screen == "game" and not paused and event is InputEventKey and event.pressed and not event.echo:
+		if event.keycode in [KEY_1, KEY_2, KEY_3]:
+			choose_upgrade(["strength", "endurance", "recovery"][event.keycode - KEY_1])
+			get_viewport().set_input_as_handled()
+			return
+		if event.keycode not in [KEY_ESCAPE, KEY_F11, KEY_M, KEY_F3]:
+			get_viewport().set_input_as_handled()
+			return
 	if event is InputEventKey and event.pressed and not event.echo:
 		if event.keycode == KEY_F11:
 			DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED if DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN else DisplayServer.WINDOW_MODE_FULLSCREEN)
@@ -178,6 +195,11 @@ func _unhandled_input(event: InputEvent) -> void:
 				break
 
 func _button_action(action: String) -> void:
+	if action.begins_with("upgrade_"):
+		choose_upgrade(action.trim_prefix("upgrade_"))
+		return
+	if upgrade_open and screen == "game" and not paused and action != "mute":
+		return
 	match action:
 		"begin": _begin()
 		"resume": paused = false
@@ -190,6 +212,7 @@ func _begin() -> void:
 		return
 	screen = "game"
 	paused = false
+	_refresh_upgrade_choice()
 	web_notice = ""
 	if web_mode:
 		_save_for_web()
@@ -209,6 +232,9 @@ func _install_world(world: MountainManager) -> void:
 	mountain = world
 	path.curve = world.curve
 	boulder = Boulder.new(mountain)
+	boulder.apply_progression(progression.ranks)
+	boulder.stamina = boulder.max_stamina
+	upgrade_open = false
 	boulder.recovered.connect(_recovery_feedback)
 	if boulder.has_signal("ledge_crossed"):
 		boulder.connect("ledge_crossed", _ledge_feedback)
@@ -234,14 +260,59 @@ func _new_run() -> void:
 	record_flash = 0.0
 	feedback_time = 0.0
 	run_number += 1
+	progression.begin_run()
 	_install_world(_fresh_world())
 	last_state = "climbing"
 	summit_quiet = 0.0
 	camera_position = mountain.sample(0.0)
 	screen = "game"
 	paused = false
+	_save_progression()
+
+func _safe_for_upgrade() -> bool:
+	return boulder != null and boulder.state == "climbing" and mountain.is_shelf(boulder.distance) and absf(boulder.velocity) <= 0.05
+
+func _refresh_upgrade_choice() -> void:
+	upgrade_open = not save_blocked and screen == "game" and progression.pending_points() > 0 and _safe_for_upgrade()
+
+func update_progression() -> int:
+	if save_blocked:
+		return 0
+	var old_level: int = progression.level()
+	var awarded: int = progression.award_distance(boulder.peak, mountain.total_length)
+	if progression.level() > old_level:
+		level_flash = 2.4
+	_refresh_upgrade_choice()
+	if awarded > 0:
+		best = maxf(best, boulder.peak)
+		_save_progression()
+	return awarded
+
+func choose_upgrade(kind: String) -> bool:
+	if save_blocked or screen != "game" or paused or not _safe_for_upgrade():
+		return false
+	if not progression.choose(kind):
+		return false
+	boulder.apply_progression(progression.ranks)
+	level_flash = 2.4
+	_refresh_upgrade_choice()
+	_save_progression()
+	buttons.clear()
+	queue_redraw()
+	return true
+
+func _save_progression() -> bool:
+	if save_blocked:
+		return false
 	if web_mode:
-		_save_for_web()
+		return _save_for_web()
+	var failure: Error = _write_save_file(_save_payload())
+	if failure != OK:
+		save_error = "성장을 저장하지 못했습니다. 저장 위치를 확인한 뒤 메뉴에서 다시 저장해 주세요."
+		push_warning("Could not save SISYPHUS progression: " + error_string(failure))
+		return false
+	save_error = ""
+	return true
 
 func _load_save() -> void:
 	var source: String = FileAccess.get_file_as_string(save_path) if FileAccess.file_exists(save_path) else ""
@@ -268,15 +339,33 @@ func _load_save() -> void:
 		return
 	var saved: Dictionary = data as Dictionary
 	var version: int = int(saved.get("version", 1))
+	if float(saved.get("version", 1)) != float(version):
+		save_blocked = true
+		save_error = "저장 형식을 확인할 수 없습니다. 기존 파일을 보존했습니다."
+		return
 	var restored_world: MountainManager = null
 	if version == 1:
 		restored_world = Mountain.new(1, true)
-	elif version in [2, 3] and saved.get("world") is Dictionary:
+	elif version in [2, 3, 4] and saved.get("world") is Dictionary:
 		restored_world = Mountain.from_snapshot(saved.world as Dictionary)
 	if restored_world == null or not saved.get("run") is Dictionary or restored_world.debug_mode != debug_course_enabled:
 		save_blocked = true
 		save_error = "저장된 산을 복원할 수 없습니다. 기존 파일을 보존했습니다."
 		return
+	var restored_progression: Progression = Growth.new()
+	if version == 4:
+		if not saved.get("progression") is Dictionary or not restored_progression.restore(saved.progression as Dictionary):
+			save_blocked = true
+			save_error = "저장된 성장 기록을 복원할 수 없습니다. 기존 파일을 보존했습니다."
+			return
+	else:
+		var legacy_distance: float = clampf(float(saved.run.get("distance", 0.0)), 0.0, restored_world.total_length)
+		if not is_finite(legacy_distance):
+			legacy_distance = 0.0
+		var legacy_peak: float = float(saved.run.get("peak", legacy_distance))
+		legacy_peak = maxf(legacy_distance, legacy_peak) if is_finite(legacy_peak) else legacy_distance
+		restored_progression.migrate_legacy(legacy_peak, float(saved.get("best", 0.0)))
+	progression = restored_progression
 	_install_world(restored_world)
 	best = maxf(0.0, float(saved.get("best", 0.0)))
 	previous_best = maxf(0.0, float(saved.get("previous_best", best)))
@@ -320,7 +409,7 @@ func _save_and_quit() -> void:
 	get_tree().quit()
 
 func _save_payload() -> Dictionary:
-	return {"version": 3, "saved_at_unix_msec": Time.get_unix_time_from_system() * 1000.0, "best": best, "previous_best": previous_best, "record_crossed": record_crossed, "record_flash": record_flash, "run_number": run_number, "falls_seen": falls_seen, "world": mountain.snapshot(), "run": boulder.snapshot()}
+	return {"version": 4, "saved_at_unix_msec": Time.get_unix_time_from_system() * 1000.0, "best": best, "previous_best": previous_best, "record_crossed": record_crossed, "record_flash": record_flash, "run_number": run_number, "falls_seen": falls_seen, "world": mountain.snapshot(), "run": boulder.snapshot(), "progression": progression.snapshot()}
 
 func _write_save_file(payload: Dictionary) -> Error:
 	var temporary_path: String = save_path + ".tmp"
@@ -450,6 +539,8 @@ func _draw() -> void:
 			_draw_result(size)
 		elif boulder.state == "summit" and summit_quiet >= 3.0:
 			_draw_summit(size)
+		if upgrade_open and not paused:
+			_draw_upgrade_choice(size)
 		if paused:
 			_draw_pause(size)
 	if debug_overlay and OS.is_debug_build():
@@ -624,12 +715,19 @@ func _draw_shelf_art(position: Vector2, index: int) -> void:
 func _draw_asset_effects() -> void:
 	var ground: Vector2 = _world(mountain.sample(boulder.distance))
 	var feet: Vector2 = _world(mountain.sample(maxf(0.0, boulder.distance - 3.7)))
+	if level_flash > 0.0 and screen == "game" and not upgrade_open:
+		var fade: float = clampf(level_flash / 2.4, 0.0, 1.0)
+		for index: int in range(12):
+			var angle: float = TAU * float(index) / 12.0
+			var ray: Vector2 = Vector2.from_angle(angle)
+			var center: Vector2 = feet + Vector2(0, -35) * zoom
+			draw_line(center + ray * (24.0 + (1.0 - fade) * 30.0) * zoom, center + ray * (34.0 + (1.0 - fade) * 30.0) * zoom, Color(GOLD, fade * 0.65), 2.0, true)
 	if boulder.state == "climbing" and boulder.action in ["push", "exert", "brace", "slip"]:
 		var effect: String = "gravel" if str(mountain.surface_at(boulder.distance).id).to_lower() == "gravel" else "dust"
 		Art.draw_at(self, art.frame("fx", effect, boulder.elapsed), feet, Vector2(128, 224), 0.25 * zoom, 0.0, Color(1, 1, 1, 0.7))
 	if impact_age < 6.0 / 14.0:
 		Art.draw_at(self, art.frame("fx", "impact", impact_age, false), ground, Vector2(128, 224), 0.38 * zoom)
-	if boulder.stamina < 30.0 and boulder.state == "climbing":
+	if _stamina_percent() < 30.0 and boulder.state == "climbing":
 		Art.draw_at(self, art.frame("fx", "breath", boulder.elapsed), feet + Vector2(14, -54) * zoom, Vector2(128, 128), 0.17 * zoom)
 	Art.draw_at(self, art.frame("fx", "wind", clock_time), ground + Vector2(130, -125) * zoom, Vector2(128, 128), 0.65 * zoom, 0.0, Color(1, 1, 1, 0.16))
 
@@ -674,7 +772,7 @@ func _draw_character() -> void:
 	var d: float = boulder.distance - 3.7
 	var ground: Vector2 = mountain.sample(d) if d >= 0.0 else mountain.sample(0.0) + Vector2(d * MountainManager.PIXELS_PER_METER, 0.0)
 	var base: Vector2 = _world(ground)
-	var animation: String = Art.character_animation(boulder.action, boulder.stamina)
+	var animation: String = Art.character_animation(boulder.action, _stamina_percent())
 	if Art.draw_at(self, art.frame("sisyphus", animation, boulder.elapsed), base, Vector2(256, 464), 0.18 * zoom):
 		return
 	if boulder.slip > 40.0 and not paused:
@@ -682,12 +780,12 @@ func _draw_character() -> void:
 			var drift: float = fposmod(boulder.elapsed * 1.8 + float(grain) * 0.17, 1.0)
 			var dust: Vector2 = Vector2(-drift * 30.0 - float(grain % 3) * 3.0, -sin(drift * PI) * 12.0)
 			draw_circle(base + dust * zoom, 1.2 * zoom, Color(0.7, 0.65, 0.52, (1.0 - drift) * 0.35))
-	var movement: float = sin(boulder.elapsed * (5.0 if boulder.stamina < 20.0 else 8.0)) * minf(absf(boulder.velocity), 1.0)
+	var movement: float = sin(boulder.elapsed * (5.0 if _stamina_percent() < 20.0 else 8.0)) * minf(absf(boulder.velocity), 1.0)
 	var leaning: float = 11.0 if boulder.action in ["push", "exert", "brace"] else 2.0
 	var hip: Vector2 = base + Vector2(-4.0, -25.0) * zoom
 	var breath_phase: float = fmod(boulder.elapsed, 6.0)
 	var breath_lift: float = breath_phase / 2.0 if breath_phase < 2.0 else (1.0 if breath_phase < 3.0 else (6.0 - breath_phase) / 3.0)
-	var exhaustion: float = clampf((30.0 - boulder.stamina) / 30.0, 0.0, 1.0)
+	var exhaustion: float = clampf((30.0 - _stamina_percent()) / 30.0, 0.0, 1.0)
 	var shoulder: Vector2 = base + Vector2(leaning + exhaustion * 5.0, -49.0 + exhaustion * 6.0 - breath_lift * (2.0 + exhaustion * 2.0)) * zoom
 	var skin: Color = Color("c0a480")
 	draw_line(base + Vector2(-12.0 - movement * 7.0, -1.0) * zoom, hip, Color("1b2023"), 7.0 * zoom, true)
@@ -711,7 +809,11 @@ func _bar(point: Vector2, width: float, value: float, color: Color) -> void:
 	draw_rect(Rect2(point, Vector2(width, 4.0)), Color(1.0, 1.0, 1.0, 0.12))
 	draw_rect(Rect2(point, Vector2(width * clampf(value, 0.0, 1.0), 4.0)), color)
 
+func _stamina_percent() -> float:
+	return boulder.stamina / boulder.max_stamina * 100.0
+
 func _draw_hud(size: Vector2) -> void:
+	_draw_progression_hud(size)
 	Art.draw_at(self, art.texture("res://assets/ui/icons/height_marker_icon.png"), Vector2(30, 65), Vector2(64, 64), 0.22)
 	_text("%d m" % int(boulder.distance), Vector2(54, 82), 44, GOLD if record_flash > 0.0 else INK)
 	_text("시도 %02d  ·  %s" % [run_number, mountain.zone(boulder.distance)], Vector2(56, 113), 15, MUTED)
@@ -722,7 +824,7 @@ func _draw_hud(size: Vector2) -> void:
 	var y: float = size.y - 115.0
 	Art.draw_at(self, art.texture("res://assets/ui/icons/stamina_icon.png"), Vector2(26, y - 6), Vector2(64, 64), 0.20)
 	_text("STAMINA", Vector2(42, y), 15, MUTED)
-	_bar(Vector2(42, y + 12.0), 248.0, boulder.stamina / 100.0, RED if boulder.stamina < 20.0 else GOLD)
+	_bar(Vector2(42, y + 12.0), 248.0, _stamina_percent() / 100.0, RED if _stamina_percent() < 20.0 else GOLD)
 	if slip_alpha > 0.01:
 		var slip_color: Color = RED if boulder.slip > 70.0 else GOLD
 		slip_color.a = slip_alpha
@@ -754,6 +856,46 @@ func _draw_hud(size: Vector2) -> void:
 	_text("M  " + ("소리 꺼짐" if sound.muted else "소리 켜짐") + "     Esc  메뉴", Vector2(size.x - 265.0, size.y - 36.0), 13, MUTED)
 	if boulder.state == "climbing" and boulder.distance < 12.0 and boulder.elapsed < 25.0:
 		_center("돌을 밀어 보세요. 힘보다 중요한 것은, 멈출 때를 아는 일.", size.y * 0.30, 18, INK)
+	if level_flash > 0.0 and not upgrade_open:
+		_center("이번 등반이 남긴 힘", size.y * 0.23, 21, Color(GOLD, minf(1.0, level_flash)))
+
+func _draw_progression_hud(size: Vector2) -> void:
+	var origin: Vector2 = Vector2(size.x - 350.0, 42.0)
+	_text("LV. %02d" % progression.level(), origin + Vector2(0, 25), 24, GOLD)
+	var required: int = progression.xp_for_next_level()
+	var xp: int = progression.xp_in_level()
+	var label: String = "%d / %d XP" % [xp, required] if required > 0 else "성장 완료"
+	_text(label, origin + Vector2(132, 24), 14, MUTED)
+	_bar(origin + Vector2(0, 39), 300.0, float(xp) / float(required) if required > 0 else 1.0, GOLD)
+	if progression.pending_points() > 0:
+		_text("강화 %d회 · 쉼터에서 멈추세요" % progression.pending_points(), origin + Vector2(0, 72), 14, INK)
+	else:
+		_text("50 m마다 경험치 · 추락해도 유지", origin + Vector2(0, 72), 13, MUTED)
+
+func _draw_upgrade_choice(size: Vector2) -> void:
+	buttons.clear()
+	draw_rect(Rect2(Vector2.ZERO, size), Color(0.025, 0.045, 0.06, 0.89))
+	var top: float = (size.y - 470.0) * 0.5
+	_center("이번 등반이 남긴 힘", top + 42.0, 30, GOLD)
+	_center("레벨 %d · 남은 강화 %d회" % [progression.level(), progression.pending_points()], top + 80.0, 17, INK)
+	_center("하나를 선택하세요. 이 힘은 추락해도 남습니다.", top + 113.0, 15, MUTED)
+	var kinds: Array[String] = ["strength", "endurance", "recovery"]
+	var labels: Array[String] = ["밀기 힘", "최대 스태미나", "회복 속도"]
+	var width: float = minf(670.0, size.x - 64.0)
+	for index: int in range(kinds.size()):
+		var kind: String = kinds[index]
+		var rank: int = int(progression.ranks[kind])
+		var rect: Rect2 = Rect2((size.x - width) * 0.5, top + 142.0 + float(index) * 88.0, width, 74.0)
+		var enabled: bool = rank < 10
+		var hovered: bool = enabled and rect.has_point(get_global_mouse_position())
+		draw_rect(rect, Color(0.82, 0.73, 0.54, 0.19 if hovered else 0.07))
+		draw_rect(rect, GOLD if enabled else Color("56605d"), false, 1.0)
+		_text("%d  ·  %s" % [index + 1, labels[index]], rect.position + Vector2(24, 29), 19, INK if enabled else MUTED)
+		var detail: String = "현재 +%d%%  →  +%d%%   ·   %d / 10" % [rank * 2, (rank + 1) * 2, rank] if enabled else "최대 강화 +20% · 10 / 10"
+		_text(detail, rect.position + Vector2(24, 58), 14, GOLD if enabled else MUTED)
+		if enabled:
+			buttons.append({"rect": rect, "action": "upgrade_" + kind})
+	_center("1 / 2 / 3 또는 클릭으로 선택   ·   Esc 메뉴", top + 447.0, 14, MUTED)
 
 func _draw_debug(size: Vector2) -> void:
 	var telemetry: Dictionary = boulder.telemetry()

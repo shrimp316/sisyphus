@@ -2,6 +2,19 @@
 
 검증일: 2026-10-07. Godot `4.5.1.stable.official.f62fdbde1`, Windows, Compatibility 렌더러.
 
+## 2026-10-26: 구간 경험치와 영구 성장
+
+- 성장·물리 강화·선택 입력·저장 이전 검사 50개 통과. 회차 내 중복 XP, 미사용 선택권 재접속, 강화 상한, 최대 스태미나 100 초과 복원, 버전 1~3에서 누락되거나 낮은 peak 처리도 확인했다.
+- 기존 v0.2 물리 27개, UI 11개, 웹 저장 호환성 24개, 별도 프로세스 저장 이전·복원 9개 검사 통과.
+- 실제 Compatibility GPU에서 경험치 HUD와 쉼터 선택 화면을 캡처해 확인했다. Web Release 빌드 성공. 실제 참가자의 성장 속도와 손맛은 추가 플레이 테스트 대상이다.
+
+```powershell
+$growthEngine = Join-Path $PWD '.tools/godot/Godot_v4.5.1-stable_win64_console.exe'
+& $growthEngine --headless --path . --script tests/progression_verification.gd
+# GPU 화면 확인: headless 없이 실행한다. 테스트 저장은 자동 격리된다.
+& $growthEngine --path . --rendering-method gl_compatibility --script tests/progression_verification.gd -- --capture
+```
+
 ## 2026-10-12: 암반 음영의 카메라 이동 회귀 검사
 
 `tests/scenery_motion_verification.gd`는 암반 텍스처를 메모리에서 불투명 흰색 1×1 이미지로 바꾸어 그림의 무늬와 필터링을 제외하고 음영 변화만 측정한다. 시드 42의 175m·440m에서 경사와 쉼터 주변의 고정 월드 좌표 6곳을 선택하고, 맑음·비 각각 카메라 수평/수직 ±80px 이동과 줌 0.8 이후 같은 지점을 화면에 재투영한다. RGB 채널의 최대 차이 허용치는 `3/255`다. 플레이 저장이나 원본 PNG는 변경하지 않는다.
