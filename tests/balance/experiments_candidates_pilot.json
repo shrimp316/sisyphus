@@ -1,0 +1,597 @@
+{
+  "schema_version": 2,
+  "phase": "pilot",
+  "notes": [
+    "Current implemented Progression only: cumulative XP grants upgrade points at shelters; no direct XP spending or unimplemented abilities.",
+    "Synthetic input policies, not calibrated human players.",
+    "Fixed-rank single runs isolate effects; campaigns start with zero ranks and earn actual levels.",
+    "Time limits are censoring, not natural falls. Campaign time excludes menus/loading/human downtime."
+  ],
+  "planned_seed_replicates": 72,
+  "jobs": [
+    {
+      "id": "candidate_conservative_novice_0",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_conservative_novice_8",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_conservative_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_conservative_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_conservative_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_conservative_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_conservative_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_conservative_optimized_8",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_balanced_novice_0",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_balanced_novice_8",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_balanced_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_balanced_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_balanced_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_balanced_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_balanced_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_balanced_optimized_8",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_hard_novice_0",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_hard_novice_8",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_hard_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_hard_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_hard_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_hard_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_hard_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "candidate_hard_optimized_8",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    }
+  ]
+}

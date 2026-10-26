@@ -1,0 +1,614 @@
+{
+  "schema_version": 2,
+  "phase": "pilot",
+  "notes": [
+    "Current implemented Progression only: cumulative XP grants upgrade points at shelters; no direct XP spending or unimplemented abilities.",
+    "Synthetic input policies, not calibrated human players.",
+    "Fixed-rank single runs isolate effects; campaigns start with zero ranks and earn actual levels.",
+    "Time limits are censoring, not natural falls. Campaign time excludes menus/loading/human downtime.",
+    "Pilot isolates ranks5/10; rank0 controls come from baseline. Intermediate isolated ranks3/8 are configured in full sweep only."
+  ],
+  "planned_seed_replicates": 72,
+  "jobs": [
+    {
+      "id": "isolated_novice_strength_5",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "strength_5",
+      "ranks": {
+        "strength": 5,
+        "endurance": 0,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_novice_strength_10",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "strength_10",
+      "ranks": {
+        "strength": 10,
+        "endurance": 0,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_novice_endurance_5",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "endurance_5",
+      "ranks": {
+        "strength": 0,
+        "endurance": 5,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_novice_endurance_10",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "endurance_10",
+      "ranks": {
+        "strength": 0,
+        "endurance": 10,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_novice_recovery_5",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "recovery_5",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 5
+      }
+    },
+    {
+      "id": "isolated_novice_recovery_10",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "recovery_10",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 10
+      }
+    },
+    {
+      "id": "isolated_regular_strength_5",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "strength_5",
+      "ranks": {
+        "strength": 5,
+        "endurance": 0,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_regular_strength_10",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "strength_10",
+      "ranks": {
+        "strength": 10,
+        "endurance": 0,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_regular_endurance_5",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "endurance_5",
+      "ranks": {
+        "strength": 0,
+        "endurance": 5,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_regular_endurance_10",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "endurance_10",
+      "ranks": {
+        "strength": 0,
+        "endurance": 10,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_regular_recovery_5",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "recovery_5",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 5
+      }
+    },
+    {
+      "id": "isolated_regular_recovery_10",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "recovery_10",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 10
+      }
+    },
+    {
+      "id": "isolated_skilled_strength_5",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "strength_5",
+      "ranks": {
+        "strength": 5,
+        "endurance": 0,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_skilled_strength_10",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "strength_10",
+      "ranks": {
+        "strength": 10,
+        "endurance": 0,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_skilled_endurance_5",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "endurance_5",
+      "ranks": {
+        "strength": 0,
+        "endurance": 5,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_skilled_endurance_10",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "endurance_10",
+      "ranks": {
+        "strength": 0,
+        "endurance": 10,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_skilled_recovery_5",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "recovery_5",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 5
+      }
+    },
+    {
+      "id": "isolated_skilled_recovery_10",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "recovery_10",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 10
+      }
+    },
+    {
+      "id": "isolated_optimized_strength_5",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "strength_5",
+      "ranks": {
+        "strength": 5,
+        "endurance": 0,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_optimized_strength_10",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "strength_10",
+      "ranks": {
+        "strength": 10,
+        "endurance": 0,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_optimized_endurance_5",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "endurance_5",
+      "ranks": {
+        "strength": 0,
+        "endurance": 5,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_optimized_endurance_10",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "endurance_10",
+      "ranks": {
+        "strength": 0,
+        "endurance": 10,
+        "recovery": 0
+      }
+    },
+    {
+      "id": "isolated_optimized_recovery_5",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "recovery_5",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 5
+      }
+    },
+    {
+      "id": "isolated_optimized_recovery_10",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": "",
+      "growth_id": "recovery_10",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 10
+      }
+    }
+  ]
+}

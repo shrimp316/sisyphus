@@ -1,0 +1,6640 @@
+{
+	"cases": [
+		{
+			"candidate": {
+				"push_scale": 0.95
+			},
+			"original_final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 245.983388146543,
+				"elapsed": 1800.00000000911,
+				"falling_active": false,
+				"partial_falls": 0.0,
+				"peak": 245.999939962915,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0.0,
+				"stamina": 97.2400000000207,
+				"state": "climbing",
+				"velocity": 0.148058395145959
+			},
+			"seed": 101.0,
+			"source_job_id": "sensitivity_push_minus_5pct_regular_0",
+			"source_record_sha256": "7ddaa9f01f93f3c7afb23b5af582e8cc25ac0def46496ffd6121ae16cddf346f",
+			"terrain_snapshot": {
+				"chunks": [
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 14.7924871444702,
+						"id": "zone_1_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 14.7924871444702,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 14.5613565444946,
+						"id": "zone_1_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 14.5613565444946,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 15.533239364624,
+						"id": "zone_1_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 15.533239364624,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 13.538215637207,
+						"id": "zone_1_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 13.538215637207,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 17.1922397613525,
+						"id": "zone_2_stone",
+						"ledge_offsets": [
+							46.0
+						],
+						"length": 50.0,
+						"start_angle": 17.1922397613525,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 20.5231990814209,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 20.5231990814209,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 15.0620746612549,
+						"id": "zone_2_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 15.0620746612549,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 20.0758838653564,
+						"id": "zone_2_stone",
+						"ledge_offsets": [
+							46.0
+						],
+						"length": 50.0,
+						"start_angle": 20.0758838653564,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 19.7375869750977,
+						"id": "zone_3_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.7375869750977,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 23.422815322876,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 23.422815322876,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 17.4122505187988,
+						"id": "zone_3_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.4122505187988,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 29.2913284301758,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 29.2913284301758,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 21.7789573669434,
+						"id": "zone_4_stone",
+						"ledge_offsets": [
+							47.1428571428571
+						],
+						"length": 50.0,
+						"start_angle": 21.7789573669434,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 23.0620384216309,
+						"id": "zone_4_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 23.0620384216309,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 21.1894187927246,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 21.1894187927246,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 24.2258796691895,
+						"id": "zone_4_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 24.2258796691895,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 28.9735488891602,
+						"id": "zone_5_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 28.9735488891602,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 26.5429401397705,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 26.5429401397705,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 18.2314205169678,
+						"id": "zone_5_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.2314205169678,
+						"surface_type": "WET_STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "WET_STONE",
+						"wet_ranges": [],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 22.2738380432129,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 22.2738380432129,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					}
+				],
+				"debug_mode": false,
+				"generation_version": 6.0,
+				"legacy": false,
+				"seed": 101.0,
+				"surfaces": {
+					"GRAVEL": {
+						"color": "a1adb1ff",
+						"grip": 0.75,
+						"id": "GRAVEL",
+						"label": "자갈",
+						"resistance": 1.15,
+						"slipperiness": 1.3
+					},
+					"MUD": {
+						"color": "89694fff",
+						"grip": 0.9,
+						"id": "MUD",
+						"label": "진흙",
+						"resistance": 1.5,
+						"slipperiness": 1.1
+					},
+					"SOIL": {
+						"color": "ae805dff",
+						"grip": 0.85,
+						"id": "SOIL",
+						"label": "흙",
+						"resistance": 1.15,
+						"slipperiness": 0.8
+					},
+					"STONE": {
+						"color": "9ba5a3ff",
+						"grip": 1.0,
+						"id": "STONE",
+						"label": "돌",
+						"resistance": 1.0,
+						"slipperiness": 1.0
+					},
+					"WET_STONE": {
+						"color": "7ca6aaff",
+						"grip": 0.55,
+						"id": "WET_STONE",
+						"label": "젖은 바위",
+						"resistance": 0.85,
+						"slipperiness": 1.5
+					}
+				},
+				"total_length": 1000.0,
+				"weather": "rain"
+			},
+			"trials": [
+				{
+					"block_events": 43,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.981186166346,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 85.2400000000231,
+						"state": "climbing",
+						"velocity": 0.0843000618126253
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.983388146543,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2400000000207,
+						"state": "climbing",
+						"velocity": 0.148058395145959
+					},
+					"is_state_fixture": false,
+					"method": "held_exert",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812626,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 7
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 21
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 35
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 49
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 63
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 77
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 91
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 105
+						}
+					]
+				},
+				{
+					"block_events": 41,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.980483665831,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 88.2366666666895,
+						"state": "climbing",
+						"velocity": 0.0524208951459586
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.983388146543,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2400000000207,
+						"state": "climbing",
+						"velocity": 0.148058395145959
+					},
+					"is_state_fixture": false,
+					"method": "coast_after_block",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812626,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 7
+						},
+						{
+							"before_velocity": 0.4177625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 50
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 64
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 78
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 92
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 106
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 120
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 134
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.005964100694,
+						"elapsed": 1800.00833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.005964100694,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.984,
+						"state": "climbing",
+						"velocity": 0.735409033333333
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.999,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.8
+					},
+					"is_state_fixture": true,
+					"method": "sweet_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.00833333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.8,
+							"distance_m": 246.005964100694,
+							"event": "cleared",
+							"push_force": 4.48305,
+							"step": 0
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.003873336806,
+						"elapsed": 1800.22500000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.003873336806,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.512,
+						"state": "climbing",
+						"velocity": 0.804368766666666
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.9,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.0
+					},
+					"is_state_fixture": true,
+					"method": "runup_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.225,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.878363333333333,
+							"distance_m": 246.003873336806,
+							"event": "cleared",
+							"push_force": 4.48305,
+							"step": 26
+						}
+					]
+				},
+				{
+					"block_events": 46,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.985049157682,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 85.2400000000231,
+						"state": "climbing",
+						"velocity": 0.185102169495064
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.983388146543,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2400000000207,
+						"state": "climbing",
+						"velocity": 0.148058395145959
+					},
+					"is_state_fixture": false,
+					"method": "strength_1",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.378467311812626,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 7
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 20
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 33
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 46
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 59
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 72
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 85
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 98
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.003327228442,
+						"elapsed": 1800.06666667578,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.003327228442,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.0800000000207,
+						"state": "climbing",
+						"velocity": 0.366851227728444
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.983388146543,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2400000000207,
+						"state": "climbing",
+						"velocity": 0.148058395145959
+					},
+					"is_state_fixture": false,
+					"method": "strength_2",
+					"shelf": true,
+					"simulated_seconds": 0.0666666666666667,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.383222061812626,
+							"distance_m": 246.003327228442,
+							"event": "cleared",
+							"push_force": 4.23852,
+							"step": 7
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.000804208482,
+						"elapsed": 1800.05833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.000804208482,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.1000000000207,
+						"state": "climbing",
+						"velocity": 0.362340494395111
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.983388146543,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2400000000207,
+						"state": "climbing",
+						"velocity": 0.148058395145959
+					},
+					"is_state_fixture": false,
+					"method": "strength_8",
+					"shelf": true,
+					"simulated_seconds": 0.0583333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.374020728479292,
+							"distance_m": 246.000804208482,
+							"event": "cleared",
+							"push_force": 4.72758,
+							"step": 6
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidate": {
+				"ledge_scale": 1.05
+			},
+			"original_final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 245.989373316196,
+				"elapsed": 1800.00000000911,
+				"falling_active": false,
+				"partial_falls": 0.0,
+				"peak": 245.999996496481,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0.0,
+				"stamina": 97.3500000000207,
+				"state": "climbing",
+				"velocity": 0.261016110128255
+			},
+			"seed": 101.0,
+			"source_job_id": "sensitivity_ledge_plus_5pct_regular_0",
+			"source_record_sha256": "6fe8bec535dc63c6486fa2142bf4778248069c10d63937867925c390446bbf2e",
+			"terrain_snapshot": {
+				"chunks": [
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 14.7924871444702,
+						"id": "zone_1_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 14.7924871444702,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 14.5613565444946,
+						"id": "zone_1_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 14.5613565444946,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 15.533239364624,
+						"id": "zone_1_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 15.533239364624,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 13.538215637207,
+						"id": "zone_1_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 13.538215637207,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 17.1922397613525,
+						"id": "zone_2_stone",
+						"ledge_offsets": [
+							46.0
+						],
+						"length": 50.0,
+						"start_angle": 17.1922397613525,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 20.5231990814209,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 20.5231990814209,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 15.0620746612549,
+						"id": "zone_2_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 15.0620746612549,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 20.0758838653564,
+						"id": "zone_2_stone",
+						"ledge_offsets": [
+							46.0
+						],
+						"length": 50.0,
+						"start_angle": 20.0758838653564,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 19.7375869750977,
+						"id": "zone_3_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.7375869750977,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 23.422815322876,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 23.422815322876,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 17.4122505187988,
+						"id": "zone_3_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.4122505187988,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 29.2913284301758,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 29.2913284301758,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 21.7789573669434,
+						"id": "zone_4_stone",
+						"ledge_offsets": [
+							47.1428571428571
+						],
+						"length": 50.0,
+						"start_angle": 21.7789573669434,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 23.0620384216309,
+						"id": "zone_4_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 23.0620384216309,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 21.1894187927246,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 21.1894187927246,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 24.2258796691895,
+						"id": "zone_4_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 24.2258796691895,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 28.9735488891602,
+						"id": "zone_5_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 28.9735488891602,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 26.5429401397705,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 26.5429401397705,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 18.2314205169678,
+						"id": "zone_5_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.2314205169678,
+						"surface_type": "WET_STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "WET_STONE",
+						"wet_ranges": [],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 22.2738380432129,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 22.2738380432129,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					}
+				],
+				"debug_mode": false,
+				"generation_version": 6.0,
+				"legacy": false,
+				"seed": 101.0,
+				"surfaces": {
+					"GRAVEL": {
+						"color": "a1adb1ff",
+						"grip": 0.75,
+						"id": "GRAVEL",
+						"label": "자갈",
+						"resistance": 1.15,
+						"slipperiness": 1.3
+					},
+					"MUD": {
+						"color": "89694fff",
+						"grip": 0.9,
+						"id": "MUD",
+						"label": "진흙",
+						"resistance": 1.5,
+						"slipperiness": 1.1
+					},
+					"SOIL": {
+						"color": "ae805dff",
+						"grip": 0.85,
+						"id": "SOIL",
+						"label": "흙",
+						"resistance": 1.15,
+						"slipperiness": 0.8
+					},
+					"STONE": {
+						"color": "9ba5a3ff",
+						"grip": 1.0,
+						"id": "STONE",
+						"label": "돌",
+						"resistance": 1.0,
+						"slipperiness": 1.0
+					},
+					"WET_STONE": {
+						"color": "7ca6aaff",
+						"grip": 0.55,
+						"id": "WET_STONE",
+						"label": "젖은 바위",
+						"resistance": 0.85,
+						"slipperiness": 1.5
+					}
+				},
+				"total_length": 1000.0,
+				"weather": "rain"
+			},
+			"trials": [
+				{
+					"block_events": 46,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.994575668032,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 85.3500000000231,
+						"state": "climbing",
+						"velocity": 0.329182776794922
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.989373316196,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.3500000000207,
+						"state": "climbing",
+						"velocity": 0.261016110128255
+					},
+					"is_state_fixture": false,
+					"method": "held_exert",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 3
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 16
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 29
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 42
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 55
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 68
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 81
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 94
+						}
+					]
+				},
+				{
+					"block_events": 44,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.985307075472,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 88.3466666666895,
+						"state": "climbing",
+						"velocity": 0.192849443461589
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.989373316196,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.3500000000207,
+						"state": "climbing",
+						"velocity": 0.261016110128255
+					},
+					"is_state_fixture": false,
+					"method": "coast_after_block",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 3
+						},
+						{
+							"before_velocity": 0.441,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 46
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 59
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 72
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 85
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 98
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 111
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 245.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 124
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.005980486111,
+						"elapsed": 1800.00833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.005980486111,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.984,
+						"state": "climbing",
+						"velocity": 0.737139333333333
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.999,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.8
+					},
+					"is_state_fixture": true,
+					"method": "sweet_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.00833333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.8,
+							"distance_m": 246.005980486111,
+							"event": "cleared",
+							"push_force": 4.719,
+							"step": 0
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.001600833333,
+						"elapsed": 1800.21666667578,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.001600833333,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.528,
+						"state": "climbing",
+						"velocity": 0.815745333333334
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.9,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.0
+					},
+					"is_state_fixture": true,
+					"method": "runup_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.216666666666667,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.889325,
+							"distance_m": 246.001600833333,
+							"event": "cleared",
+							"push_force": 4.719,
+							"step": 25
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.000973714311,
+						"elapsed": 1800.03333334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.000973714311,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2700000000207,
+						"state": "climbing",
+						"velocity": 0.352184310246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.989373316196,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.3500000000207,
+						"state": "climbing",
+						"velocity": 0.261016110128255
+					},
+					"is_state_fixture": false,
+					"method": "strength_1",
+					"shelf": true,
+					"simulated_seconds": 0.0333333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.365411110128255,
+							"distance_m": 246.000973714311,
+							"event": "cleared",
+							"push_force": 4.3758,
+							"step": 3
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.001033297645,
+						"elapsed": 1800.03333334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.001033297645,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2700000000207,
+						"state": "climbing",
+						"velocity": 0.354701110246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.989373316196,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.3500000000207,
+						"state": "climbing",
+						"velocity": 0.261016110128255
+					},
+					"is_state_fixture": false,
+					"method": "strength_2",
+					"shelf": true,
+					"simulated_seconds": 0.0333333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.367556110128255,
+							"distance_m": 246.001033297645,
+							"event": "cleared",
+							"push_force": 4.4616,
+							"step": 3
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@200": true
+						},
+						"distance": 246.001390797645,
+						"elapsed": 1800.03333334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 246.001390797645,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2700000000207,
+						"state": "climbing",
+						"velocity": 0.369801910246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 245.989373316196,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 245.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.3500000000207,
+						"state": "climbing",
+						"velocity": 0.261016110128255
+					},
+					"is_state_fixture": false,
+					"method": "strength_8",
+					"shelf": true,
+					"simulated_seconds": 0.0333333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 246.0,
+						"id": "zone_2_stone@200",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.380426110128255,
+							"distance_m": 246.001390797645,
+							"event": "cleared",
+							"push_force": 4.9764,
+							"step": 3
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidate": {
+				"push_scale": 0.95
+			},
+			"original_final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 345.980046825038,
+				"elapsed": 1800.00000000911,
+				"falling_active": false,
+				"partial_falls": 0.0,
+				"peak": 345.999939962915,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0.0,
+				"stamina": 99.0900000000058,
+				"state": "climbing",
+				"velocity": 0.020541728479292
+			},
+			"seed": 202.0,
+			"source_job_id": "sensitivity_push_minus_5pct_regular_0",
+			"source_record_sha256": "4a77f64b279377992b0186666fa0f719950b6dda939f254cd3747149753ff5f3",
+			"terrain_snapshot": {
+				"chunks": [
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 13.9551620483398,
+						"id": "zone_1_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 13.9551620483398,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 18.2664947509766,
+						"id": "zone_1_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.2664947509766,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 13.353063583374,
+						"id": "zone_1_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 13.353063583374,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 17.9840030670166,
+						"id": "zone_1_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.9840030670166,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 17.096004486084,
+						"id": "zone_2_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.096004486084,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 18.704158782959,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.704158782959,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 18.3475475311279,
+						"id": "zone_2_stone",
+						"ledge_offsets": [
+							46.0
+						],
+						"length": 50.0,
+						"start_angle": 18.3475475311279,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 15.3141441345215,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 15.3141441345215,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 18.414758682251,
+						"id": "zone_3_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.414758682251,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 16.3226356506348,
+						"id": "zone_3_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 16.3226356506348,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 23.5218334197998,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 23.5218334197998,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 21.1401309967041,
+						"id": "zone_3_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 21.1401309967041,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 21.021276473999,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 21.021276473999,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 26.9742546081543,
+						"id": "zone_4_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 26.9742546081543,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 33.9732627868652,
+						"id": "zone_4_stone",
+						"ledge_offsets": [
+							47.1428571428571
+						],
+						"length": 50.0,
+						"start_angle": 33.9732627868652,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 19.3572120666504,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.3572120666504,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 19.9411735534668,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.9411735534668,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 29.5132293701172,
+						"id": "zone_5_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 29.5132293701172,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 19.2156925201416,
+						"id": "zone_5_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.2156925201416,
+						"surface_type": "WET_STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "WET_STONE",
+						"wet_ranges": [],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 22.6774291992188,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 22.6774291992188,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					}
+				],
+				"debug_mode": false,
+				"generation_version": 6.0,
+				"legacy": false,
+				"seed": 202.0,
+				"surfaces": {
+					"GRAVEL": {
+						"color": "a1adb1ff",
+						"grip": 0.75,
+						"id": "GRAVEL",
+						"label": "자갈",
+						"resistance": 1.15,
+						"slipperiness": 1.3
+					},
+					"MUD": {
+						"color": "89694fff",
+						"grip": 0.9,
+						"id": "MUD",
+						"label": "진흙",
+						"resistance": 1.5,
+						"slipperiness": 1.1
+					},
+					"SOIL": {
+						"color": "ae805dff",
+						"grip": 0.85,
+						"id": "SOIL",
+						"label": "흙",
+						"resistance": 1.15,
+						"slipperiness": 0.8
+					},
+					"STONE": {
+						"color": "9ba5a3ff",
+						"grip": 1.0,
+						"id": "STONE",
+						"label": "돌",
+						"resistance": 1.0,
+						"slipperiness": 1.0
+					},
+					"WET_STONE": {
+						"color": "7ca6aaff",
+						"grip": 0.55,
+						"id": "WET_STONE",
+						"label": "젖은 바위",
+						"resistance": 0.85,
+						"slipperiness": 1.5
+					}
+				},
+				"total_length": 1000.0,
+				"weather": "clear"
+			},
+			"trials": [
+				{
+					"block_events": 43,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.98,
+						"elapsed": 1805.00000000917,
+						"falling_active": true,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 87.0900000000082,
+						"state": "climbing",
+						"velocity": -0.05
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.980046825038,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.020541728479292
+					},
+					"is_state_fixture": false,
+					"method": "held_exert",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 11
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 25
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 39
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 53
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 67
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 81
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 95
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 109
+						}
+					]
+				},
+				{
+					"block_events": 40,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.999536275148,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 88.8200000000022,
+						"state": "climbing",
+						"velocity": 0.373712561812625
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.980046825038,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.020541728479292
+					},
+					"is_state_fixture": false,
+					"method": "coast_after_block",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 11
+						},
+						{
+							"before_velocity": 0.4177625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 54
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 68
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 82
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 96
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 110
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 124
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 138
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.005964100694,
+						"elapsed": 1800.00833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.005964100694,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.984,
+						"state": "climbing",
+						"velocity": 0.735409033333333
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.999,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.8
+					},
+					"is_state_fixture": true,
+					"method": "sweet_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.00833333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.8,
+							"distance_m": 346.005964100694,
+							"event": "cleared",
+							"push_force": 4.48305,
+							"step": 0
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.003873336806,
+						"elapsed": 1800.22500000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.003873336806,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.512,
+						"state": "climbing",
+						"velocity": 0.804368766666666
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.9,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.0
+					},
+					"is_state_fixture": true,
+					"method": "runup_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.225,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.878363333333333,
+							"distance_m": 346.003873336806,
+							"event": "cleared",
+							"push_force": 4.48305,
+							"step": 26
+						}
+					]
+				},
+				{
+					"block_events": 46,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.980517422866,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 87.0900000000082,
+						"state": "climbing",
+						"velocity": 0.0544518361617304
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.980046825038,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.020541728479292
+					},
+					"is_state_fixture": false,
+					"method": "strength_1",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.381600978479292,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 11
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 24
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 37
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 50
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 63
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 76
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 89
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 102
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.000307755704,
+						"elapsed": 1800.09166667578,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.000307755704,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 98.8700000000058,
+						"state": "climbing",
+						"velocity": 0.342384001061777
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.980046825038,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.020541728479292
+					},
+					"is_state_fixture": false,
+					"method": "strength_2",
+					"shelf": true,
+					"simulated_seconds": 0.0916666666666667,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.355418395145959,
+							"distance_m": 346.000307755704,
+							"event": "cleared",
+							"push_force": 4.23852,
+							"step": 10
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.002549280704,
+						"elapsed": 1800.09166667578,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.002549280704,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 98.8700000000058,
+						"state": "climbing",
+						"velocity": 0.381834841061777
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.980046825038,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.020541728479292
+					},
+					"is_state_fixture": false,
+					"method": "strength_8",
+					"shelf": true,
+					"simulated_seconds": 0.0916666666666667,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.396173395145959,
+							"distance_m": 346.002549280704,
+							"event": "cleared",
+							"push_force": 4.72758,
+							"step": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidate": {
+				"ledge_scale": 1.05
+			},
+			"original_final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 345.981334450496,
+				"elapsed": 1800.00000000911,
+				"falling_active": false,
+				"partial_falls": 0.0,
+				"peak": 345.999996496481,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0.0,
+				"stamina": 99.0900000000058,
+				"state": "climbing",
+				"velocity": 0.0914327767949219
+			},
+			"seed": 202.0,
+			"source_job_id": "sensitivity_ledge_plus_5pct_regular_0",
+			"source_record_sha256": "99b6b6a3f75386d3ce5079ef597ebc13ddeb227ddb34d48a5fd36dcf60d86ff4",
+			"terrain_snapshot": {
+				"chunks": [
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 13.9551620483398,
+						"id": "zone_1_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 13.9551620483398,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 18.2664947509766,
+						"id": "zone_1_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.2664947509766,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 13.353063583374,
+						"id": "zone_1_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 13.353063583374,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 17.9840030670166,
+						"id": "zone_1_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.9840030670166,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 17.096004486084,
+						"id": "zone_2_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.096004486084,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 18.704158782959,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.704158782959,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 18.3475475311279,
+						"id": "zone_2_stone",
+						"ledge_offsets": [
+							46.0
+						],
+						"length": 50.0,
+						"start_angle": 18.3475475311279,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 15.3141441345215,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 15.3141441345215,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 18.414758682251,
+						"id": "zone_3_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.414758682251,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 16.3226356506348,
+						"id": "zone_3_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 16.3226356506348,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 23.5218334197998,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 23.5218334197998,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 21.1401309967041,
+						"id": "zone_3_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 21.1401309967041,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 21.021276473999,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 21.021276473999,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 26.9742546081543,
+						"id": "zone_4_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 26.9742546081543,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 33.9732627868652,
+						"id": "zone_4_stone",
+						"ledge_offsets": [
+							47.1428571428571
+						],
+						"length": 50.0,
+						"start_angle": 33.9732627868652,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 19.3572120666504,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.3572120666504,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 19.9411735534668,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.9411735534668,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 29.5132293701172,
+						"id": "zone_5_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 29.5132293701172,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 19.2156925201416,
+						"id": "zone_5_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.2156925201416,
+						"surface_type": "WET_STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "WET_STONE",
+						"wet_ranges": [],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 22.6774291992188,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 22.6774291992188,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					}
+				],
+				"debug_mode": false,
+				"generation_version": 6.0,
+				"legacy": false,
+				"seed": 202.0,
+				"surfaces": {
+					"GRAVEL": {
+						"color": "a1adb1ff",
+						"grip": 0.75,
+						"id": "GRAVEL",
+						"label": "자갈",
+						"resistance": 1.15,
+						"slipperiness": 1.3
+					},
+					"MUD": {
+						"color": "89694fff",
+						"grip": 0.9,
+						"id": "MUD",
+						"label": "진흙",
+						"resistance": 1.5,
+						"slipperiness": 1.1
+					},
+					"SOIL": {
+						"color": "ae805dff",
+						"grip": 0.85,
+						"id": "SOIL",
+						"label": "흙",
+						"resistance": 1.15,
+						"slipperiness": 0.8
+					},
+					"STONE": {
+						"color": "9ba5a3ff",
+						"grip": 1.0,
+						"id": "STONE",
+						"label": "돌",
+						"resistance": 1.0,
+						"slipperiness": 1.0
+					},
+					"WET_STONE": {
+						"color": "7ca6aaff",
+						"grip": 0.55,
+						"id": "WET_STONE",
+						"label": "젖은 바위",
+						"resistance": 0.85,
+						"slipperiness": 1.5
+					}
+				},
+				"total_length": 1000.0,
+				"weather": "clear"
+			},
+			"trials": [
+				{
+					"block_events": 46,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.983699996776,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 87.0900000000082,
+						"state": "climbing",
+						"velocity": 0.158766110128255
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.981334450496,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.0914327767949219
+					},
+					"is_state_fixture": false,
+					"method": "held_exert",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 8
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 21
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 34
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 47
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 60
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 73
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 86
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 99
+						}
+					]
+				},
+				{
+					"block_events": 44,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.980091126439,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 88.7600000000022,
+						"state": "climbing",
+						"velocity": 0.0240994434615886
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.981334450496,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.0914327767949219
+					},
+					"is_state_fixture": false,
+					"method": "coast_after_block",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 8
+						},
+						{
+							"before_velocity": 0.441,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 51
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 64
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 77
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 90
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 103
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 116
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 345.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 129
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.005980486111,
+						"elapsed": 1800.00833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.005980486111,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.984,
+						"state": "climbing",
+						"velocity": 0.737139333333333
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.999,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.8
+					},
+					"is_state_fixture": true,
+					"method": "sweet_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.00833333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.8,
+							"distance_m": 346.005980486111,
+							"event": "cleared",
+							"push_force": 4.719,
+							"step": 0
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.001600833333,
+						"elapsed": 1800.21666667578,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.001600833333,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.528,
+						"state": "climbing",
+						"velocity": 0.815745333333334
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.9,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.0
+					},
+					"is_state_fixture": true,
+					"method": "runup_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.216666666666667,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.889325,
+							"distance_m": 346.001600833333,
+							"event": "cleared",
+							"push_force": 4.719,
+							"step": 25
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.001182255978,
+						"elapsed": 1800.07500000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.001182255978,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 98.9100000000058,
+						"state": "climbing",
+						"velocity": 0.355330310246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.981334450496,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.0914327767949219
+					},
+					"is_state_fixture": false,
+					"method": "strength_1",
+					"shelf": true,
+					"simulated_seconds": 0.075,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.368986110128255,
+							"distance_m": 346.001182255978,
+							"event": "cleared",
+							"push_force": 4.3758,
+							"step": 8
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.001450380978,
+						"elapsed": 1800.07500000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.001450380978,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 98.9100000000058,
+						"state": "climbing",
+						"velocity": 0.360993110246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.981334450496,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.0914327767949219
+					},
+					"is_state_fixture": false,
+					"method": "strength_2",
+					"shelf": true,
+					"simulated_seconds": 0.075,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.374706110128255,
+							"distance_m": 346.001450380978,
+							"event": "cleared",
+							"push_force": 4.4616,
+							"step": 8
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@300": true
+						},
+						"distance": 346.003059130978,
+						"elapsed": 1800.07500000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 346.003059130978,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 98.9100000000058,
+						"state": "climbing",
+						"velocity": 0.394969910246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 345.981334450496,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 345.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.0900000000058,
+						"state": "climbing",
+						"velocity": 0.0914327767949219
+					},
+					"is_state_fixture": false,
+					"method": "strength_8",
+					"shelf": true,
+					"simulated_seconds": 0.075,
+					"surface": "STONE",
+					"target": {
+						"distance": 346.0,
+						"id": "zone_2_stone@300",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.409026110128255,
+							"distance_m": 346.003059130978,
+							"event": "cleared",
+							"push_force": 4.9764,
+							"step": 8
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidate": {
+				"push_scale": 0.95
+			},
+			"original_final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 295.999536275148,
+				"elapsed": 1800.00000000911,
+				"falling_active": false,
+				"partial_falls": 0.0,
+				"peak": 295.999939962915,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0.0,
+				"stamina": 97.2600000000754,
+				"state": "climbing",
+				"velocity": 0.373712561812625
+			},
+			"seed": 303.0,
+			"source_job_id": "sensitivity_push_minus_5pct_regular_0",
+			"source_record_sha256": "d25ba408edf6f7073e37622496eaeec3a1331b29815f29689a416a4b4e36b2e6",
+			"terrain_snapshot": {
+				"chunks": [
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 11.0228281021118,
+						"id": "zone_1_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 11.0228281021118,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 16.6145305633545,
+						"id": "zone_1_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 16.6145305633545,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 8.19071578979492,
+						"id": "zone_1_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 8.19071578979492,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 9.15926361083984,
+						"id": "zone_1_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 9.15926361083984,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 17.9227981567383,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.9227981567383,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 23.0653839111328,
+						"id": "zone_2_stone",
+						"ledge_offsets": [
+							46.0
+						],
+						"length": 50.0,
+						"start_angle": 23.0653839111328,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 17.1726951599121,
+						"id": "zone_2_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.1726951599121,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 20.4888362884521,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 20.4888362884521,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 26.5983047485352,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 26.5983047485352,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 22.2815074920654,
+						"id": "zone_3_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 22.2815074920654,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 15.4881248474121,
+						"id": "zone_3_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 15.4881248474121,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 27.7309474945068,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 27.7309474945068,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 19.3986206054688,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.3986206054688,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 23.165735244751,
+						"id": "zone_4_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 23.165735244751,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 28.5508213043213,
+						"id": "zone_4_stone",
+						"ledge_offsets": [
+							47.1428571428571
+						],
+						"length": 50.0,
+						"start_angle": 28.5508213043213,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 24.2984428405762,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 24.2984428405762,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 18.417459487915,
+						"id": "zone_5_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.417459487915,
+						"surface_type": "WET_STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "WET_STONE",
+						"wet_ranges": [],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 26.4404525756836,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 26.4404525756836,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 24.329662322998,
+						"id": "zone_5_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 24.329662322998,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 19.3769607543945,
+						"id": "zone_5_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.3769607543945,
+						"surface_type": "WET_STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "WET_STONE",
+						"wet_ranges": [],
+						"zone_index": 4.0
+					}
+				],
+				"debug_mode": false,
+				"generation_version": 6.0,
+				"legacy": false,
+				"seed": 303.0,
+				"surfaces": {
+					"GRAVEL": {
+						"color": "a1adb1ff",
+						"grip": 0.75,
+						"id": "GRAVEL",
+						"label": "자갈",
+						"resistance": 1.15,
+						"slipperiness": 1.3
+					},
+					"MUD": {
+						"color": "89694fff",
+						"grip": 0.9,
+						"id": "MUD",
+						"label": "진흙",
+						"resistance": 1.5,
+						"slipperiness": 1.1
+					},
+					"SOIL": {
+						"color": "ae805dff",
+						"grip": 0.85,
+						"id": "SOIL",
+						"label": "흙",
+						"resistance": 1.15,
+						"slipperiness": 0.8
+					},
+					"STONE": {
+						"color": "9ba5a3ff",
+						"grip": 1.0,
+						"id": "STONE",
+						"label": "돌",
+						"resistance": 1.0,
+						"slipperiness": 1.0
+					},
+					"WET_STONE": {
+						"color": "7ca6aaff",
+						"grip": 0.55,
+						"id": "WET_STONE",
+						"label": "젖은 바위",
+						"resistance": 0.85,
+						"slipperiness": 1.5
+					}
+				},
+				"total_length": 1000.0,
+				"weather": "clear"
+			},
+			"trials": [
+				{
+					"block_events": 43,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.993576864396,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 85.2600000000778,
+						"state": "climbing",
+						"velocity": 0.309120895145959
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.999536275148,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2600000000754,
+						"state": "climbing",
+						"velocity": 0.373712561812625
+					},
+					"is_state_fixture": false,
+					"method": "held_exert",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 0
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 14
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 28
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 42
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 56
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 70
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 84
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 98
+						}
+					]
+				},
+				{
+					"block_events": 41,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.991000856936,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 88.2566666667442,
+						"state": "climbing",
+						"velocity": 0.276825061812625
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.999536275148,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2600000000754,
+						"state": "climbing",
+						"velocity": 0.373712561812625
+					},
+					"is_state_fixture": false,
+					"method": "coast_after_block",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 0
+						},
+						{
+							"before_velocity": 0.4177625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 43
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 57
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 71
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 85
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 99
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 113
+						},
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.0755,
+							"required_force": 4.16,
+							"step": 127
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.005964100694,
+						"elapsed": 1800.00833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.005964100694,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.984,
+						"state": "climbing",
+						"velocity": 0.735409033333333
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.999,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.8
+					},
+					"is_state_fixture": true,
+					"method": "sweet_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.00833333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.8,
+							"distance_m": 296.005964100694,
+							"event": "cleared",
+							"push_force": 4.48305,
+							"step": 0
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.003873336806,
+						"elapsed": 1800.22500000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.003873336806,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.512,
+						"state": "climbing",
+						"velocity": 0.804368766666666
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.9,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.0
+					},
+					"is_state_fixture": true,
+					"method": "runup_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.225,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.878363333333333,
+							"distance_m": 296.003873336806,
+							"event": "cleared",
+							"push_force": 4.48305,
+							"step": 26
+						}
+					]
+				},
+				{
+					"block_events": 47,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.979881212402,
+						"elapsed": 1805.00000000917,
+						"falling_active": true,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 85.2600000000778,
+						"state": "climbing",
+						"velocity": -0.0142545117708333
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.999536275148,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2600000000754,
+						"state": "climbing",
+						"velocity": 0.373712561812625
+					},
+					"is_state_fixture": false,
+					"method": "strength_1",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 0
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 13
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 26
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 39
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 52
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 65
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 78
+						},
+						{
+							"before_velocity": 0.34997758616173,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.15701,
+							"required_force": 4.16,
+							"step": 91
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.002930999274,
+						"elapsed": 1800.00833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.002930999274,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2400000000754,
+						"state": "climbing",
+						"velocity": 0.358482867728443
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.999536275148,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2600000000754,
+						"state": "climbing",
+						"velocity": 0.373712561812625
+					},
+					"is_state_fixture": false,
+					"method": "strength_2",
+					"shelf": true,
+					"simulated_seconds": 0.00833333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 296.002930999274,
+							"event": "cleared",
+							"push_force": 4.23852,
+							"step": 0
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.002964961774,
+						"elapsed": 1800.00833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.002964961774,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2400000000754,
+						"state": "climbing",
+						"velocity": 0.362069307728443
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.999536275148,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999939962915,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 97.2600000000754,
+						"state": "climbing",
+						"velocity": 0.373712561812625
+					},
+					"is_state_fixture": false,
+					"method": "strength_8",
+					"shelf": true,
+					"simulated_seconds": 0.00833333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.6
+					},
+					"trace": [
+						{
+							"before_velocity": 0.373712561812625,
+							"distance_m": 296.002964961774,
+							"event": "cleared",
+							"push_force": 4.72758,
+							"step": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidate": {
+				"ledge_scale": 1.05
+			},
+			"original_final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 295.985307075472,
+				"elapsed": 1800.00000000911,
+				"falling_active": false,
+				"partial_falls": 0.0,
+				"peak": 295.999996496481,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0.0,
+				"stamina": 96.6700000000326,
+				"state": "climbing",
+				"velocity": 0.192849443461589
+			},
+			"seed": 303.0,
+			"source_job_id": "sensitivity_ledge_plus_5pct_regular_0",
+			"source_record_sha256": "9726726ec9efb08b9586e50359522f5d65ce30b13eae48bf9aa14b886b606a46",
+			"terrain_snapshot": {
+				"chunks": [
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 11.0228281021118,
+						"id": "zone_1_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 11.0228281021118,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 16.6145305633545,
+						"id": "zone_1_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 16.6145305633545,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 8.19071578979492,
+						"id": "zone_1_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 8.19071578979492,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 1.0,
+						"end_angle": 9.15926361083984,
+						"id": "zone_1_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 9.15926361083984,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_1"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 0.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 17.9227981567383,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.9227981567383,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 23.0653839111328,
+						"id": "zone_2_stone",
+						"ledge_offsets": [
+							46.0
+						],
+						"length": 50.0,
+						"start_angle": 23.0653839111328,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 17.1726951599121,
+						"id": "zone_2_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 17.1726951599121,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 2.0,
+						"end_angle": 20.4888362884521,
+						"id": "zone_2_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 20.4888362884521,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_2"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 1.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 26.5983047485352,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 26.5983047485352,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 22.2815074920654,
+						"id": "zone_3_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 22.2815074920654,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 15.4881248474121,
+						"id": "zone_3_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 15.4881248474121,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 27.7309474945068,
+						"id": "zone_3_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 27.7309474945068,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_3"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [],
+						"zone_index": 2.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 19.3986206054688,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.3986206054688,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 23.165735244751,
+						"id": "zone_4_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 23.165735244751,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 4.0,
+						"end_angle": 28.5508213043213,
+						"id": "zone_4_stone",
+						"ledge_offsets": [
+							47.1428571428571
+						],
+						"length": 50.0,
+						"start_angle": 28.5508213043213,
+						"surface_type": "STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								12.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 24.2984428405762,
+						"id": "zone_4_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 24.2984428405762,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_4"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 3.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 18.417459487915,
+						"id": "zone_5_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 18.417459487915,
+						"surface_type": "WET_STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "WET_STONE",
+						"wet_ranges": [],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 3.0,
+						"end_angle": 26.4404525756836,
+						"id": "zone_5_gravel",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 26.4404525756836,
+						"surface_type": "GRAVEL",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 3.0,
+						"v02_surface_type": "",
+						"wet_ranges": [
+							[
+								8.0,
+								14.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 24.329662322998,
+						"id": "zone_5_soil",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 24.329662322998,
+						"surface_type": "MUD",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "MUD",
+						"wet_ranges": [
+							[
+								10.0,
+								16.0
+							]
+						],
+						"zone_index": 4.0
+					},
+					{
+						"climb_length": 42.0,
+						"difficulty": 5.0,
+						"end_angle": 19.3769607543945,
+						"id": "zone_5_stone",
+						"ledge_offsets": [],
+						"length": 50.0,
+						"start_angle": 19.3769607543945,
+						"surface_type": "WET_STONE",
+						"tags": [
+							"authored",
+							"rest_shelf",
+							"zone_5"
+						],
+						"v02_difficulty": 0.0,
+						"v02_surface_type": "WET_STONE",
+						"wet_ranges": [],
+						"zone_index": 4.0
+					}
+				],
+				"debug_mode": false,
+				"generation_version": 6.0,
+				"legacy": false,
+				"seed": 303.0,
+				"surfaces": {
+					"GRAVEL": {
+						"color": "a1adb1ff",
+						"grip": 0.75,
+						"id": "GRAVEL",
+						"label": "자갈",
+						"resistance": 1.15,
+						"slipperiness": 1.3
+					},
+					"MUD": {
+						"color": "89694fff",
+						"grip": 0.9,
+						"id": "MUD",
+						"label": "진흙",
+						"resistance": 1.5,
+						"slipperiness": 1.1
+					},
+					"SOIL": {
+						"color": "ae805dff",
+						"grip": 0.85,
+						"id": "SOIL",
+						"label": "흙",
+						"resistance": 1.15,
+						"slipperiness": 0.8
+					},
+					"STONE": {
+						"color": "9ba5a3ff",
+						"grip": 1.0,
+						"id": "STONE",
+						"label": "돌",
+						"resistance": 1.0,
+						"slipperiness": 1.0
+					},
+					"WET_STONE": {
+						"color": "7ca6aaff",
+						"grip": 0.55,
+						"id": "WET_STONE",
+						"label": "젖은 바위",
+						"resistance": 0.85,
+						"slipperiness": 1.5
+					}
+				},
+				"total_length": 1000.0,
+				"weather": "clear"
+			},
+			"trials": [
+				{
+					"block_events": 46,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.989373316196,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 84.670000000035,
+						"state": "climbing",
+						"velocity": 0.261016110128255
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.985307075472,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 96.6700000000326,
+						"state": "climbing",
+						"velocity": 0.192849443461589
+					},
+					"is_state_fixture": false,
+					"method": "held_exert",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.363266110128256,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 5
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 18
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 31
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 44
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 57
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 70
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 83
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 96
+						}
+					]
+				},
+				{
+					"block_events": 44,
+					"cleared": false,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.982376945859,
+						"elapsed": 1805.00000000917,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 87.6666666667014,
+						"state": "climbing",
+						"velocity": 0.125099443461589
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.985307075472,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 96.6700000000326,
+						"state": "climbing",
+						"velocity": 0.192849443461589
+					},
+					"is_state_fixture": false,
+					"method": "coast_after_block",
+					"shelf": true,
+					"simulated_seconds": 5.0,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.363266110128256,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 5
+						},
+						{
+							"before_velocity": 0.441,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 48
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 61
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 74
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 87
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 100
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 113
+						},
+						{
+							"before_velocity": 0.363266110128255,
+							"distance_m": 295.98,
+							"event": "blocked",
+							"push_force": 4.29,
+							"required_force": 4.368,
+							"step": 126
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.005980486111,
+						"elapsed": 1800.00833334244,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.005980486111,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.984,
+						"state": "climbing",
+						"velocity": 0.737139333333333
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.999,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.8
+					},
+					"is_state_fixture": true,
+					"method": "sweet_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.00833333333333333,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.8,
+							"distance_m": 296.005980486111,
+							"event": "cleared",
+							"push_force": 4.719,
+							"step": 0
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.001600833333,
+						"elapsed": 1800.21666667578,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.001600833333,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 99.528,
+						"state": "climbing",
+						"velocity": 0.815745333333334
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.9,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 100.0,
+						"state": "climbing",
+						"velocity": 0.0
+					},
+					"is_state_fixture": true,
+					"method": "runup_fixture",
+					"shelf": true,
+					"simulated_seconds": 0.216666666666667,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.889325,
+							"distance_m": 296.001600833333,
+							"event": "cleared",
+							"push_force": 4.719,
+							"step": 25
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.001039255978,
+						"elapsed": 1800.05000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.001039255978,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 96.5500000000326,
+						"state": "climbing",
+						"velocity": 0.353442710246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.985307075472,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 96.6700000000326,
+						"state": "climbing",
+						"velocity": 0.192849443461589
+					},
+					"is_state_fixture": false,
+					"method": "strength_1",
+					"shelf": true,
+					"simulated_seconds": 0.05,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.366841110128256,
+							"distance_m": 296.001039255978,
+							"event": "cleared",
+							"push_force": 4.3758,
+							"step": 5
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.001164380978,
+						"elapsed": 1800.05000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.001164380978,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 96.5500000000326,
+						"state": "climbing",
+						"velocity": 0.357217910246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.985307075472,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 96.6700000000326,
+						"state": "climbing",
+						"velocity": 0.192849443461589
+					},
+					"is_state_fixture": false,
+					"method": "strength_2",
+					"shelf": true,
+					"simulated_seconds": 0.05,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.370416110128256,
+							"distance_m": 296.001164380978,
+							"event": "cleared",
+							"push_force": 4.4616,
+							"step": 5
+						}
+					]
+				},
+				{
+					"block_events": 0,
+					"cleared": true,
+					"final_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+							"zone_2_stone@250": true
+						},
+						"distance": 296.001915130978,
+						"elapsed": 1800.05000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 296.001915130978,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 96.5500000000326,
+						"state": "climbing",
+						"velocity": 0.379869110246198
+					},
+					"grip": 1.0,
+					"initial_state": {
+						"accumulator": 0.0,
+						"cleared_ledges": {
+
+						},
+						"distance": 295.985307075472,
+						"elapsed": 1800.00000000911,
+						"falling_active": false,
+						"partial_falls": 0,
+						"peak": 295.999996496481,
+						"runaway_elapsed": 0.0,
+						"slip": 0.0,
+						"slip_remaining": 0.0,
+						"slips": 0,
+						"stamina": 96.6700000000326,
+						"state": "climbing",
+						"velocity": 0.192849443461589
+					},
+					"is_state_fixture": false,
+					"method": "strength_8",
+					"shelf": true,
+					"simulated_seconds": 0.05,
+					"surface": "STONE",
+					"target": {
+						"distance": 296.0,
+						"id": "zone_2_stone@250",
+						"required_push": 1.68
+					},
+					"trace": [
+						{
+							"before_velocity": 0.391866110128256,
+							"distance_m": 296.001915130978,
+							"event": "cleared",
+							"push_force": 4.9764,
+							"step": 5
+						}
+					]
+				}
+			]
+		}
+	],
+	"engine": "4.5.1-stable (official)",
+	"method": "Production physics replay of actual final states. held_exert/coast_after_block use ordinary inputs from measured states; strength trials change only existing rank. sweet/runup fixtures deliberately change initial state and demonstrate local passability, not a legal recovery from the blocked state. Failed bounded trials do not prove universal impossibility.",
+	"source": "res://tests/balance/results/current-pilot/results.jsonl"
+}

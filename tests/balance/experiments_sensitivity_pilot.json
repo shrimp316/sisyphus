@@ -1,0 +1,685 @@
+{
+  "schema_version": 2,
+  "phase": "pilot",
+  "notes": [
+    "Current implemented Progression only: cumulative XP grants upgrade points at shelters; no direct XP spending or unimplemented abilities.",
+    "Synthetic input policies, not calibrated human players.",
+    "Fixed-rank single runs isolate effects; campaigns start with zero ranks and earn actual levels.",
+    "Time limits are censoring, not natural falls. Campaign time excludes menus/loading/human downtime."
+  ],
+  "planned_seed_replicates": 96,
+  "jobs": [
+    {
+      "id": "sensitivity_push_minus_5pct_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.95
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_push_minus_5pct_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.95
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_push_minus_5pct_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.95
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_push_minus_5pct_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.95
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_slope_plus_1deg_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 1.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_slope_plus_1deg_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 1.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_slope_plus_1deg_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 1.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_slope_plus_1deg_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 1.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_grip_minus_5pct_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "grip_scale": 0.95
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_grip_minus_5pct_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "grip_scale": 0.95
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_grip_minus_5pct_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "grip_scale": 0.95
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_grip_minus_5pct_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "grip_scale": 0.95
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_slip_plus_10pct_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slip_scale": 1.1
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_slip_plus_10pct_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slip_scale": 1.1
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_slip_plus_10pct_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slip_scale": 1.1
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_slip_plus_10pct_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slip_scale": 1.1
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_drain_plus_10pct_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "drain_scale": 1.1
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_drain_plus_10pct_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "drain_scale": 1.1
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_drain_plus_10pct_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "drain_scale": 1.1
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_drain_plus_10pct_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "drain_scale": 1.1
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_ledge_plus_5pct_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "ledge_scale": 1.05
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_ledge_plus_5pct_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "ledge_scale": 1.05
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_ledge_plus_5pct_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "ledge_scale": 1.05
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_ledge_plus_5pct_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "ledge_scale": 1.05
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_shelf_6m_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_shelf_6m_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_shelf_6m_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_shelf_6m_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_grooves_none_regular_0",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "grooves": "none"
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_grooves_none_regular_8",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "grooves": "none"
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_grooves_none_skilled_0",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "grooves": "none"
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "sensitivity_grooves_none_skilled_8",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 8,
+      "strategy": "balanced",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "grooves": "none"
+      },
+      "generation": 6,
+      "weather": ""
+    }
+  ]
+}

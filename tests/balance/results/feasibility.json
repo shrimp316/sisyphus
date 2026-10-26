@@ -1,0 +1,95 @@
+{
+	"engine": "4.5.1-stable (official)",
+	"generation": 6,
+	"method": "Production controller one-step full-stamina exert probes. Local full-stamina probes only; no assertion of global reachability or human feasibility.",
+	"rows": [
+		{
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"ledge_probes": 259,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds_first": 1001,
+			"seeds_last": 1100,
+			"slope_probes": 84000,
+			"weather": "clear",
+			"worst_ledge": {
+				"distance": 246.0,
+				"force_margin": 0.559,
+				"seed": 1001
+			},
+			"worst_start": {
+				"acceleration": 0.743914632034176,
+				"distance": 800.25,
+				"seed": 1015,
+				"slope_degrees": 21.9721641540527,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"ledge_probes": 259,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds_first": 1001,
+			"seeds_last": 1100,
+			"slope_probes": 84000,
+			"weather": "rain",
+			"worst_ledge": {
+				"distance": 246.0,
+				"force_margin": 0.559,
+				"seed": 1001
+			},
+			"worst_start": {
+				"acceleration": 0.389433383165141,
+				"distance": 708.25,
+				"seed": 1087,
+				"slope_degrees": 21.9813289642334,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"ledge_probes": 259,
+			"level": 10,
+			"nonpositive_start_acceleration": 0,
+			"seeds_first": 1001,
+			"seeds_last": 1100,
+			"slope_probes": 84000,
+			"weather": "clear",
+			"worst_ledge": {
+				"distance": 246.0,
+				"force_margin": 1.5028,
+				"seed": 1001
+			},
+			"worst_start": {
+				"acceleration": 1.21581463203418,
+				"distance": 800.25,
+				"seed": 1015,
+				"slope_degrees": 21.9721641540527,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"ledge_probes": 259,
+			"level": 10,
+			"nonpositive_start_acceleration": 0,
+			"seeds_first": 1001,
+			"seeds_last": 1100,
+			"slope_probes": 84000,
+			"weather": "rain",
+			"worst_ledge": {
+				"distance": 246.0,
+				"force_margin": 1.5028,
+				"seed": 1001
+			},
+			"worst_start": {
+				"acceleration": 0.790548383165141,
+				"distance": 708.25,
+				"seed": 1087,
+				"slope_degrees": 21.9813289642334,
+				"surface": "WET_STONE"
+			}
+		}
+	]
+}

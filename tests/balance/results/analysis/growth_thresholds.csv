@@ -1,0 +1,16 @@
+job_id,policy,growth_mode,growth_id,level,strategy,campaign_id,completed,end_ranks,all_3_seconds,all_5_seconds,all_7_seconds,all_8_seconds,all_9_seconds
+campaign_actual_novice_balanced,novice,actual,balanced_0,0,balanced,campaign_actual_novice_balanced:101,True,"{""endurance"": 7, ""recovery"": 7, ""strength"": 7}",1611.27499999955,3434.24166666552,5756.33333333106,,
+campaign_actual_regular_balanced,regular,actual,balanced_0,0,balanced,campaign_actual_regular_balanced:101,True,"{""endurance"": 2, ""recovery"": 2, ""strength"": 2}",,,,,
+campaign_actual_skilled_balanced,skilled,actual,balanced_0,0,balanced,campaign_actual_skilled_balanced:101,True,"{""endurance"": 2, ""recovery"": 2, ""strength"": 2}",,,,,
+campaign_actual_optimized_balanced,optimized,actual,balanced_0,0,balanced,campaign_actual_optimized_balanced:101,True,"{""endurance"": 2, ""recovery"": 2, ""strength"": 2}",,,,,
+campaign_actual_novice_strength,novice,actual,balanced_0,0,strength,campaign_actual_novice_strength:101,False,"{""endurance"": 10, ""recovery"": 9, ""strength"": 10}",6746.49166666384,7769.49166666337,8885.14166666286,9513.9166666625,10041.6416666623
+campaign_actual_regular_strength,regular,actual,balanced_0,0,strength,campaign_actual_regular_strength:101,True,"{""endurance"": 0, ""recovery"": 0, ""strength"": 6}",,,,,
+campaign_actual_skilled_strength,skilled,actual,balanced_0,0,strength,campaign_actual_skilled_strength:101,True,"{""endurance"": 0, ""recovery"": 0, ""strength"": 6}",,,,,
+campaign_actual_optimized_strength,optimized,actual,balanced_0,0,strength,campaign_actual_optimized_strength:101,True,"{""endurance"": 0, ""recovery"": 0, ""strength"": 6}",,,,,
+campaign_actual_novice_stability,novice,actual,balanced_0,0,stability,campaign_actual_novice_stability:101,False,"{""endurance"": 10, ""recovery"": 10, ""strength"": 9}",3465.43333333202,5889.9833333311,8927.40833332949,9546.93333332925,10140.3666666622
+campaign_actual_regular_stability,regular,actual,balanced_0,0,stability,campaign_actual_regular_stability:101,True,"{""endurance"": 3, ""recovery"": 3, ""strength"": 0}",,,,,
+campaign_actual_skilled_stability,skilled,actual,balanced_0,0,stability,campaign_actual_skilled_stability:101,True,"{""endurance"": 3, ""recovery"": 3, ""strength"": 0}",,,,,
+campaign_actual_optimized_stability,optimized,actual,balanced_0,0,stability,campaign_actual_optimized_stability:101,True,"{""endurance"": 3, ""recovery"": 3, ""strength"": 0}",,,,,
+followup_campaign_conservative_regular_0,regular,actual,balanced_0,0,balanced,followup_campaign_conservative_regular_0:101,True,"{""endurance"": 2, ""recovery"": 2, ""strength"": 2}",,,,,
+followup_campaign_balanced_regular_0,regular,actual,balanced_0,0,balanced,followup_campaign_balanced_regular_0:101,True,"{""endurance"": 2, ""recovery"": 2, ""strength"": 2}",,,,,
+followup_campaign_hard_regular_0,regular,actual,balanced_0,0,balanced,followup_campaign_hard_regular_0:101,False,"{""endurance"": 0, ""recovery"": 0, ""strength"": 1}",,,,,

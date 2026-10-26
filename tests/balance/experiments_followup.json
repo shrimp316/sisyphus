@@ -1,0 +1,132 @@
+{
+  "schema_version": 2,
+  "phase": "diagnostic_followup",
+  "notes": [
+    "Current implemented Progression only: cumulative XP grants upgrade points at shelters; no direct XP spending or unimplemented abilities.",
+    "Synthetic input policies, not calibrated human players.",
+    "Fixed-rank single runs isolate effects; campaigns start with zero ranks and earn actual levels.",
+    "Time limits are censoring, not natural falls. Campaign time excludes menus/loading/human downtime.",
+    "Post-hoc diagnostic: candidates under earned actual growth, plus fixed novice ranks on the campaign success seed. Not independent confirmation or unbiased completion estimate."
+  ],
+  "planned_seed_replicates": 6,
+  "jobs": [
+    {
+      "id": "followup_campaign_conservative_regular_0",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "slope_offset_deg": 0.3,
+        "drain_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "followup_campaign_balanced_regular_0",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.98,
+        "slope_offset_deg": 0.7,
+        "drain_scale": 1.05,
+        "slip_scale": 1.05,
+        "ledge_scale": 1.03
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "followup_campaign_hard_regular_0",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "push_scale": 0.96,
+        "slope_offset_deg": 1.2,
+        "drain_scale": 1.1,
+        "slip_scale": 1.1,
+        "ledge_scale": 1.05,
+        "shelf_length": 6.0
+      },
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "followup_novice_success_seed_0",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        1780494
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "followup_novice_success_seed_7",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 7,
+      "strategy": "balanced",
+      "seeds": [
+        1780494
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "followup_novice_success_seed_10",
+      "mode": "single",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 10,
+      "strategy": "balanced",
+      "seeds": [
+        1780494
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    }
+  ]
+}

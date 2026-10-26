@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "phase": "smoke",
+  "notes": [
+    "Current implemented Progression only: cumulative XP grants upgrade points at shelters; no direct XP spending or unimplemented abilities.",
+    "Synthetic input policies, not calibrated human players.",
+    "Fixed-rank single runs isolate effects; campaigns start with zero ranks and earn actual levels.",
+    "Time limits are censoring, not natural falls. Campaign time excludes menus/loading/human downtime."
+  ],
+  "planned_seed_replicates": 1,
+  "jobs": [
+    {
+      "id": "smoke_actual_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    }
+  ]
+}

@@ -1,0 +1,1951 @@
+{
+	"engine": "4.5.1-stable (official)",
+	"generation": 6,
+	"growth_system": "current actual upgrades only",
+	"method": "Meter-spaced uphill stationary full-stamina exert one-step probes; sweet-speed 0.8m/s full-stamina exert ledge crossings. Production integration inherited unchanged. Failure indicates local limitation, not global impossibility; passing does not prove sustained reachability.",
+	"probe_count": 122256,
+	"rows": [
+		{
+			"candidate": {
+
+			},
+			"candidate_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"baseline"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.850201967662652,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+
+			},
+			"candidate_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"baseline"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.401724455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+
+			},
+			"candidate_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"baseline"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.22772196766265,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+
+			},
+			"candidate_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"baseline"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.722616455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.03,
+				"slope_offset_deg": 0.3
+			},
+			"candidate_sha256": "3235a0b53c83c0d2cc41e500192d17522a38c55fbabb9e046bcc105938d5c774",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_conservative_novice_0",
+				"candidate_conservative_novice_8",
+				"candidate_conservative_regular_0",
+				"candidate_conservative_regular_8",
+				"candidate_conservative_skilled_0",
+				"candidate_conservative_skilled_8",
+				"candidate_conservative_optimized_0",
+				"candidate_conservative_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.831796281438027,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.5314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.03,
+				"slope_offset_deg": 0.3
+			},
+			"candidate_sha256": "3235a0b53c83c0d2cc41e500192d17522a38c55fbabb9e046bcc105938d5c774",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_conservative_novice_0",
+				"candidate_conservative_novice_8",
+				"candidate_conservative_regular_0",
+				"candidate_conservative_regular_8",
+				"candidate_conservative_skilled_0",
+				"candidate_conservative_skilled_8",
+				"candidate_conservative_optimized_0",
+				"candidate_conservative_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.383510157964089,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 22.0789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.03,
+				"slope_offset_deg": 0.3
+			},
+			"candidate_sha256": "3235a0b53c83c0d2cc41e500192d17522a38c55fbabb9e046bcc105938d5c774",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_conservative_novice_0",
+				"candidate_conservative_novice_8",
+				"candidate_conservative_regular_0",
+				"candidate_conservative_regular_8",
+				"candidate_conservative_skilled_0",
+				"candidate_conservative_skilled_8",
+				"candidate_conservative_optimized_0",
+				"candidate_conservative_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.20931628143803,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.5314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.03,
+				"slope_offset_deg": 0.3
+			},
+			"candidate_sha256": "3235a0b53c83c0d2cc41e500192d17522a38c55fbabb9e046bcc105938d5c774",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_conservative_novice_0",
+				"candidate_conservative_novice_8",
+				"candidate_conservative_regular_0",
+				"candidate_conservative_regular_8",
+				"candidate_conservative_skilled_0",
+				"candidate_conservative_skilled_8",
+				"candidate_conservative_optimized_0",
+				"candidate_conservative_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.704402157964089,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 22.0789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.05,
+				"ledge_scale": 1.03,
+				"push_scale": 0.98,
+				"slip_scale": 1.05,
+				"slope_offset_deg": 0.7
+			},
+			"candidate_sha256": "31b478f63288312730caffe9df3d8ac202f41076d01f65d340b8ee2cb2d430a9",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_balanced_novice_0",
+				"candidate_balanced_novice_8",
+				"candidate_balanced_regular_0",
+				"candidate_balanced_regular_8",
+				"candidate_balanced_skilled_0",
+				"candidate_balanced_skilled_8",
+				"candidate_balanced_optimized_0",
+				"candidate_balanced_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.33982,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.760121542171479,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.9314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.05,
+				"ledge_scale": 1.03,
+				"push_scale": 0.98,
+				"slip_scale": 1.05,
+				"slope_offset_deg": 0.7
+			},
+			"candidate_sha256": "31b478f63288312730caffe9df3d8ac202f41076d01f65d340b8ee2cb2d430a9",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_balanced_novice_0",
+				"candidate_balanced_novice_8",
+				"candidate_balanced_regular_0",
+				"candidate_balanced_regular_8",
+				"candidate_balanced_skilled_0",
+				"candidate_balanced_skilled_8",
+				"candidate_balanced_optimized_0",
+				"candidate_balanced_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.33982,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.319173126564679,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 22.4789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.05,
+				"ledge_scale": 1.03,
+				"push_scale": 0.98,
+				"slip_scale": 1.05,
+				"slope_offset_deg": 0.7
+			},
+			"candidate_sha256": "31b478f63288312730caffe9df3d8ac202f41076d01f65d340b8ee2cb2d430a9",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_balanced_novice_0",
+				"candidate_balanced_novice_8",
+				"candidate_balanced_regular_0",
+				"candidate_balanced_regular_8",
+				"candidate_balanced_skilled_0",
+				"candidate_balanced_skilled_8",
+				"candidate_balanced_optimized_0",
+				"candidate_balanced_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.0797592,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.13009114217148,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.9314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.05,
+				"ledge_scale": 1.03,
+				"push_scale": 0.98,
+				"slip_scale": 1.05,
+				"slope_offset_deg": 0.7
+			},
+			"candidate_sha256": "31b478f63288312730caffe9df3d8ac202f41076d01f65d340b8ee2cb2d430a9",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_balanced_novice_0",
+				"candidate_balanced_novice_8",
+				"candidate_balanced_regular_0",
+				"candidate_balanced_regular_8",
+				"candidate_balanced_skilled_0",
+				"candidate_balanced_skilled_8",
+				"candidate_balanced_optimized_0",
+				"candidate_balanced_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.0797592,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.633647286564679,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 22.4789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.1,
+				"ledge_scale": 1.05,
+				"push_scale": 0.96,
+				"shelf_length": 6.0,
+				"slip_scale": 1.1,
+				"slope_offset_deg": 1.2
+			},
+			"candidate_sha256": "02012e940cad02140fec3fb759932d454726c02f21d00bbf414d38e3ab3d37c4",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_hard_novice_0",
+				"candidate_hard_novice_8",
+				"candidate_hard_regular_0",
+				"candidate_hard_regular_8",
+				"candidate_hard_skilled_0",
+				"candidate_hard_skilled_8",
+				"candidate_hard_optimized_0",
+				"candidate_hard_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2640,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 247.0,
+				"force_margin": 0.16224,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.682417578058377,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 21.4314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.1,
+				"ledge_scale": 1.05,
+				"push_scale": 0.96,
+				"shelf_length": 6.0,
+				"slip_scale": 1.1,
+				"slope_offset_deg": 1.2
+			},
+			"candidate_sha256": "02012e940cad02140fec3fb759932d454726c02f21d00bbf414d38e3ab3d37c4",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_hard_novice_0",
+				"candidate_hard_novice_8",
+				"candidate_hard_regular_0",
+				"candidate_hard_regular_8",
+				"candidate_hard_skilled_0",
+				"candidate_hard_skilled_8",
+				"candidate_hard_optimized_0",
+				"candidate_hard_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2640,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 247.0,
+				"force_margin": 0.16224,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.248878120401146,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 22.9789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.1,
+				"ledge_scale": 1.05,
+				"push_scale": 0.96,
+				"shelf_length": 6.0,
+				"slip_scale": 1.1,
+				"slope_offset_deg": 1.2
+			},
+			"candidate_sha256": "02012e940cad02140fec3fb759932d454726c02f21d00bbf414d38e3ab3d37c4",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_hard_novice_0",
+				"candidate_hard_novice_8",
+				"candidate_hard_regular_0",
+				"candidate_hard_regular_8",
+				"candidate_hard_skilled_0",
+				"candidate_hard_skilled_8",
+				"candidate_hard_optimized_0",
+				"candidate_hard_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2640,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 247.0,
+				"force_margin": 0.887078399999999,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.04483677805838,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 21.4314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.1,
+				"ledge_scale": 1.05,
+				"push_scale": 0.96,
+				"shelf_length": 6.0,
+				"slip_scale": 1.1,
+				"slope_offset_deg": 1.2
+			},
+			"candidate_sha256": "02012e940cad02140fec3fb759932d454726c02f21d00bbf414d38e3ab3d37c4",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"candidate_hard_novice_0",
+				"candidate_hard_novice_8",
+				"candidate_hard_regular_0",
+				"candidate_hard_regular_8",
+				"candidate_hard_skilled_0",
+				"candidate_hard_skilled_8",
+				"candidate_hard_optimized_0",
+				"candidate_hard_optimized_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2640,
+			"sources": [
+				"res://tests/balance/experiments_candidates_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 247.0,
+				"force_margin": 0.887078399999999,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.556934440401146,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 22.9789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"push_scale": 0.95
+			},
+			"candidate_sha256": "e48343861fed896b096b048209d34b8b3db54eaeea8327b1669b3188aa64afb8",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_push_minus_5pct_regular_0",
+				"sensitivity_push_minus_5pct_regular_8",
+				"sensitivity_push_minus_5pct_skilled_0",
+				"sensitivity_push_minus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.323049999999999,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.732226967662651,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"push_scale": 0.95
+			},
+			"candidate_sha256": "e48343861fed896b096b048209d34b8b3db54eaeea8327b1669b3188aa64afb8",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_push_minus_5pct_regular_0",
+				"sensitivity_push_minus_5pct_regular_8",
+				"sensitivity_push_minus_5pct_skilled_0",
+				"sensitivity_push_minus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.323049999999999,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.301445705718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"push_scale": 0.95
+			},
+			"candidate_sha256": "e48343861fed896b096b048209d34b8b3db54eaeea8327b1669b3188aa64afb8",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_push_minus_5pct_regular_0",
+				"sensitivity_push_minus_5pct_regular_8",
+				"sensitivity_push_minus_5pct_skilled_0",
+				"sensitivity_push_minus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.040338,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.09087096766265,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"push_scale": 0.95
+			},
+			"candidate_sha256": "e48343861fed896b096b048209d34b8b3db54eaeea8327b1669b3188aa64afb8",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_push_minus_5pct_regular_0",
+				"sensitivity_push_minus_5pct_regular_8",
+				"sensitivity_push_minus_5pct_skilled_0",
+				"sensitivity_push_minus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.040338,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.606293105718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"slope_offset_deg": 1.0
+			},
+			"candidate_sha256": "c553d3b6a7e2ce064f7089d2c52a32972a9584f4c5e7e3c19ef7ffdb2797d5e3",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_slope_plus_1deg_regular_0",
+				"sensitivity_slope_plus_1deg_regular_8",
+				"sensitivity_slope_plus_1deg_skilled_0",
+				"sensitivity_slope_plus_1deg_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.788990772111557,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 21.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"slope_offset_deg": 1.0
+			},
+			"candidate_sha256": "c553d3b6a7e2ce064f7089d2c52a32972a9584f4c5e7e3c19ef7ffdb2797d5e3",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_slope_plus_1deg_regular_0",
+				"sensitivity_slope_plus_1deg_regular_8",
+				"sensitivity_slope_plus_1deg_skilled_0",
+				"sensitivity_slope_plus_1deg_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.341161272925874,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 22.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"slope_offset_deg": 1.0
+			},
+			"candidate_sha256": "c553d3b6a7e2ce064f7089d2c52a32972a9584f4c5e7e3c19ef7ffdb2797d5e3",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_slope_plus_1deg_regular_0",
+				"sensitivity_slope_plus_1deg_regular_8",
+				"sensitivity_slope_plus_1deg_skilled_0",
+				"sensitivity_slope_plus_1deg_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.16651077211156,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 21.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"slope_offset_deg": 1.0
+			},
+			"candidate_sha256": "c553d3b6a7e2ce064f7089d2c52a32972a9584f4c5e7e3c19ef7ffdb2797d5e3",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_slope_plus_1deg_regular_0",
+				"sensitivity_slope_plus_1deg_regular_8",
+				"sensitivity_slope_plus_1deg_skilled_0",
+				"sensitivity_slope_plus_1deg_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.662053272925874,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 22.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"grip_scale": 0.95
+			},
+			"candidate_sha256": "0d6b99e622162997f90d7201923ffd997409dee6da1e3059e793878e43709aff",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_grip_minus_5pct_regular_0",
+				"sensitivity_grip_minus_5pct_regular_8",
+				"sensitivity_grip_minus_5pct_skilled_0",
+				"sensitivity_grip_minus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.53105,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.732226967662651,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"grip_scale": 0.95
+			},
+			"candidate_sha256": "0d6b99e622162997f90d7201923ffd997409dee6da1e3059e793878e43709aff",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_grip_minus_5pct_regular_0",
+				"sensitivity_grip_minus_5pct_regular_8",
+				"sensitivity_grip_minus_5pct_skilled_0",
+				"sensitivity_grip_minus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.53105,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.301445705718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"grip_scale": 0.95
+			},
+			"candidate_sha256": "0d6b99e622162997f90d7201923ffd997409dee6da1e3059e793878e43709aff",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_grip_minus_5pct_regular_0",
+				"sensitivity_grip_minus_5pct_regular_8",
+				"sensitivity_grip_minus_5pct_skilled_0",
+				"sensitivity_grip_minus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.248338,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.09087096766265,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"grip_scale": 0.95
+			},
+			"candidate_sha256": "0d6b99e622162997f90d7201923ffd997409dee6da1e3059e793878e43709aff",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_grip_minus_5pct_regular_0",
+				"sensitivity_grip_minus_5pct_regular_8",
+				"sensitivity_grip_minus_5pct_skilled_0",
+				"sensitivity_grip_minus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.248338,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.606293105718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"slip_scale": 1.1
+			},
+			"candidate_sha256": "74dc6458b2a9b8f480032d4592569f692c09d0208199b87d36607b942f943b1e",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_slip_plus_10pct_regular_0",
+				"sensitivity_slip_plus_10pct_regular_8",
+				"sensitivity_slip_plus_10pct_skilled_0",
+				"sensitivity_slip_plus_10pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.850201967662652,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"slip_scale": 1.1
+			},
+			"candidate_sha256": "74dc6458b2a9b8f480032d4592569f692c09d0208199b87d36607b942f943b1e",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_slip_plus_10pct_regular_0",
+				"sensitivity_slip_plus_10pct_regular_8",
+				"sensitivity_slip_plus_10pct_skilled_0",
+				"sensitivity_slip_plus_10pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.401724455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"slip_scale": 1.1
+			},
+			"candidate_sha256": "74dc6458b2a9b8f480032d4592569f692c09d0208199b87d36607b942f943b1e",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_slip_plus_10pct_regular_0",
+				"sensitivity_slip_plus_10pct_regular_8",
+				"sensitivity_slip_plus_10pct_skilled_0",
+				"sensitivity_slip_plus_10pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.22772196766265,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"slip_scale": 1.1
+			},
+			"candidate_sha256": "74dc6458b2a9b8f480032d4592569f692c09d0208199b87d36607b942f943b1e",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_slip_plus_10pct_regular_0",
+				"sensitivity_slip_plus_10pct_regular_8",
+				"sensitivity_slip_plus_10pct_skilled_0",
+				"sensitivity_slip_plus_10pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.722616455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.1
+			},
+			"candidate_sha256": "a6151a6cbfaeeb5e8dacabac39a72954dcc56eb7dd99873b3db57c734b828111",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_drain_plus_10pct_regular_0",
+				"sensitivity_drain_plus_10pct_regular_8",
+				"sensitivity_drain_plus_10pct_skilled_0",
+				"sensitivity_drain_plus_10pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.850201967662652,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.1
+			},
+			"candidate_sha256": "a6151a6cbfaeeb5e8dacabac39a72954dcc56eb7dd99873b3db57c734b828111",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_drain_plus_10pct_regular_0",
+				"sensitivity_drain_plus_10pct_regular_8",
+				"sensitivity_drain_plus_10pct_skilled_0",
+				"sensitivity_drain_plus_10pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.401724455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.1
+			},
+			"candidate_sha256": "a6151a6cbfaeeb5e8dacabac39a72954dcc56eb7dd99873b3db57c734b828111",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_drain_plus_10pct_regular_0",
+				"sensitivity_drain_plus_10pct_regular_8",
+				"sensitivity_drain_plus_10pct_skilled_0",
+				"sensitivity_drain_plus_10pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.22772196766265,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"drain_scale": 1.1
+			},
+			"candidate_sha256": "a6151a6cbfaeeb5e8dacabac39a72954dcc56eb7dd99873b3db57c734b828111",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_drain_plus_10pct_regular_0",
+				"sensitivity_drain_plus_10pct_regular_8",
+				"sensitivity_drain_plus_10pct_skilled_0",
+				"sensitivity_drain_plus_10pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.722616455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"ledge_scale": 1.05
+			},
+			"candidate_sha256": "f7071d3288713c87594a6c52b5f145ef2182d06c72a10cf6dc214272e0965662",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_ledge_plus_5pct_regular_0",
+				"sensitivity_ledge_plus_5pct_regular_8",
+				"sensitivity_ledge_plus_5pct_skilled_0",
+				"sensitivity_ledge_plus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.351,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.850201967662652,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"ledge_scale": 1.05
+			},
+			"candidate_sha256": "f7071d3288713c87594a6c52b5f145ef2182d06c72a10cf6dc214272e0965662",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_ledge_plus_5pct_regular_0",
+				"sensitivity_ledge_plus_5pct_regular_8",
+				"sensitivity_ledge_plus_5pct_skilled_0",
+				"sensitivity_ledge_plus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.351,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.401724455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"ledge_scale": 1.05
+			},
+			"candidate_sha256": "f7071d3288713c87594a6c52b5f145ef2182d06c72a10cf6dc214272e0965662",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_ledge_plus_5pct_regular_0",
+				"sensitivity_ledge_plus_5pct_regular_8",
+				"sensitivity_ledge_plus_5pct_skilled_0",
+				"sensitivity_ledge_plus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.10604,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.22772196766265,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"ledge_scale": 1.05
+			},
+			"candidate_sha256": "f7071d3288713c87594a6c52b5f145ef2182d06c72a10cf6dc214272e0965662",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_ledge_plus_5pct_regular_0",
+				"sensitivity_ledge_plus_5pct_regular_8",
+				"sensitivity_ledge_plus_5pct_skilled_0",
+				"sensitivity_ledge_plus_5pct_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.10604,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.722616455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"shelf_length": 6.0
+			},
+			"candidate_sha256": "06b04fea25f81423c00332a254d9b46f33ee271c070386714a020d60a57098bc",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_shelf_6m_regular_0",
+				"sensitivity_shelf_6m_regular_8",
+				"sensitivity_shelf_6m_skilled_0",
+				"sensitivity_shelf_6m_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2640,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 247.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.850201967662652,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"shelf_length": 6.0
+			},
+			"candidate_sha256": "06b04fea25f81423c00332a254d9b46f33ee271c070386714a020d60a57098bc",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_shelf_6m_regular_0",
+				"sensitivity_shelf_6m_regular_8",
+				"sensitivity_shelf_6m_skilled_0",
+				"sensitivity_shelf_6m_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2640,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 247.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.401724455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"shelf_length": 6.0
+			},
+			"candidate_sha256": "06b04fea25f81423c00332a254d9b46f33ee271c070386714a020d60a57098bc",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_shelf_6m_regular_0",
+				"sensitivity_shelf_6m_regular_8",
+				"sensitivity_shelf_6m_skilled_0",
+				"sensitivity_shelf_6m_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2640,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 247.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.22772196766265,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"shelf_length": 6.0
+			},
+			"candidate_sha256": "06b04fea25f81423c00332a254d9b46f33ee271c070386714a020d60a57098bc",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_shelf_6m_regular_0",
+				"sensitivity_shelf_6m_regular_8",
+				"sensitivity_shelf_6m_skilled_0",
+				"sensitivity_shelf_6m_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2640,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 247.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.722616455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"grooves": "none"
+			},
+			"candidate_sha256": "290dddae45c477b400a67a03a208c98d26c4ac370ff2ea8e0e0e28b1e88ad79b",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_grooves_none_regular_0",
+				"sensitivity_grooves_none_regular_8",
+				"sensitivity_grooves_none_skilled_0",
+				"sensitivity_grooves_none_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.850201967662652,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"grooves": "none"
+			},
+			"candidate_sha256": "290dddae45c477b400a67a03a208c98d26c4ac370ff2ea8e0e0e28b1e88ad79b",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_grooves_none_regular_0",
+				"sensitivity_grooves_none_regular_8",
+				"sensitivity_grooves_none_skilled_0",
+				"sensitivity_grooves_none_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 0,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 0.559,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.401724455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"grooves": "none"
+			},
+			"candidate_sha256": "290dddae45c477b400a67a03a208c98d26c4ac370ff2ea8e0e0e28b1e88ad79b",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_grooves_none_regular_0",
+				"sensitivity_grooves_none_regular_8",
+				"sensitivity_grooves_none_skilled_0",
+				"sensitivity_grooves_none_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "clear",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 1.22772196766265,
+				"distance_m": 900.25,
+				"seed": 101,
+				"slope_degrees": 20.2314205169678,
+				"surface": "WET_STONE"
+			}
+		},
+		{
+			"candidate": {
+				"grooves": "none"
+			},
+			"candidate_sha256": "290dddae45c477b400a67a03a208c98d26c4ac370ff2ea8e0e0e28b1e88ad79b",
+			"failed_full_stamina_sweet_speed_ledge_probes": 0,
+			"job_ids": [
+				"sensitivity_grooves_none_regular_0",
+				"sensitivity_grooves_none_regular_8",
+				"sensitivity_grooves_none_skilled_0",
+				"sensitivity_grooves_none_skilled_8"
+			],
+			"ledge_probes": 7,
+			"level": 8,
+			"nonpositive_start_acceleration": 0,
+			"seeds": [
+				101,
+				202,
+				303
+			],
+			"slope_probes": 2520,
+			"sources": [
+				"res://tests/balance/experiments_sensitivity_pilot.json"
+			],
+			"weather": "rain",
+			"worst_ledge": {
+				"distance_m": 246.0,
+				"force_margin": 1.31404,
+				"seed": 101,
+				"surface": "STONE"
+			},
+			"worst_start": {
+				"acceleration": 0.722616455718039,
+				"distance_m": 608.25,
+				"seed": 101,
+				"slope_degrees": 21.7789573669434,
+				"surface": "WET_STONE"
+			}
+		}
+	],
+	"schema_version": 1,
+	"unique_settings": 12
+}

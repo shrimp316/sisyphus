@@ -1,0 +1,217 @@
+{
+  "schema_version": 2,
+  "phase": "pilot",
+  "notes": [
+    "Current implemented Progression only: cumulative XP grants upgrade points at shelters; no direct XP spending or unimplemented abilities.",
+    "Synthetic input policies, not calibrated human players.",
+    "Fixed-rank single runs isolate effects; campaigns start with zero ranks and earn actual levels.",
+    "Time limits are censoring, not natural falls. Campaign time excludes menus/loading/human downtime."
+  ],
+  "planned_seed_replicates": 12,
+  "jobs": [
+    {
+      "id": "campaign_actual_novice_balanced",
+      "mode": "campaign",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_novice_strength",
+      "mode": "campaign",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_novice_stability",
+      "mode": "campaign",
+      "policy": "novice",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "stability",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_regular_balanced",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_regular_strength",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_regular_stability",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "stability",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_skilled_balanced",
+      "mode": "campaign",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_skilled_strength",
+      "mode": "campaign",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_skilled_stability",
+      "mode": "campaign",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "stability",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_optimized_balanced",
+      "mode": "campaign",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_optimized_strength",
+      "mode": "campaign",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    },
+    {
+      "id": "campaign_actual_optimized_stability",
+      "mode": "campaign",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "stability",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {},
+      "generation": 6,
+      "weather": ""
+    }
+  ]
+}

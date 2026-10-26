@@ -2,6 +2,8 @@
 
 **[브라우저에서 플레이](https://sisyphus.hjuns.com/)** · [GitHub 저장소](https://github.com/shrimp316/sisyphus)
 
+**[1막 난이도·성장 테스트 결과](docs/act1-balance-report.ko.md)** · [자동 테스트 도구와 재현 안내](tests/balance/README.md) — 현재 구현 기준 393회 자동 등반 분석과 난이도 후보 비교입니다.
+
 **[Windows 실행본·에셋 ZIP·전체 백업 다운로드](https://github.com/shrimp316/sisyphus/releases/tag/v0.2-full-backup-20261007)** · [백업 구성과 복원 안내](docs/full-backup.ko.md) · [작업 경과](docs/work-history.ko.md)
 
 새 등반의 경사를 높이고, 후퇴 중 밀기 전달력과 SLIP의 관성·스태미나 페널티를 조정했습니다. 빠르게 내려오는 돌은 Space로 제동한 뒤 다시 밀어 올리세요. [경사·후퇴·미끄러짐 변경 사항](docs/physics-balance.ko.md)
