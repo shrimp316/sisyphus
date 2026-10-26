@@ -189,8 +189,7 @@ func verify_traversal() -> void:
 	check(float(held.max_slip) > float(controlled.max_slip) + 20.0 or int(held.slips) > int(controlled.slips) or float(held.min_stamina) < float(controlled.min_stamina) - 20.0, "holdingShift has observable slip/stamina cost versus controlledpace")
 	for seed_value: int in ([42] if "--quick" in OS.get_cmdline_user_args() else [1, 42, 1547]):
 		for weather: String in ["clear", "rain"]:
-			var world := MountainManager.new(seed_value)
-			world.weather_id = weather
+			var world := MountainManager.new(seed_value, false, MountainManager.CURRENT_GENERATION, weather)
 			var result: Dictionary = traverse(world)
 			print("NORMAL%d %s %s" % [seed_value, weather, JSON.stringify(result)])
 			check(result.state == "summit", "base-stat controlled climb reaches normal summit seed%d %s" % [seed_value, weather])

@@ -13,6 +13,12 @@ const RUNAWAY_THRESHOLD: float = -4.0
 const V02_MAX_SPEED: float = 1.8
 const BASE_PUSH: float = 2.6
 const GRAVITY: float = 3.0
+const ROLLBACK_PUSH_MIN_MULTIPLIER: float = 0.35
+const ROLLBACK_PUSH_FULL_SPEED: float = 2.0
+const SLIP_DURATION: float = 0.7
+const SLIP_ROLLBACK_IMPULSE: float = 0.65
+const SLIP_STAMINA_COST: float = 8.0
+const SLIP_IMPULSE_SPEED_LIMIT: float = 3.5
 var mountain: MountainManager
 var distance: float = 0.0
 var velocity: float = 0.0
@@ -253,8 +259,31 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 	var braking: bool = brace and velocity < 0.0 and has_stamina
 	var braced_stance: bool = brace and angle > 0.0 and has_stamina
 	slip_remaining = maxf(0.0, slip_remaining - dt)
+	var slip_gain: float = 0.0
+	if pushing:
+		slip_gain = 4.0 * degrees / 35.0 * mountain.slip_multiplier_at(distance) * (1.8 if exert else 1.0)
+		if exert and str(material.id) == "GRAVEL":
+			slip_gain *= 1.3
+		slip_gain *= 0.9 if sweet else (1.4 if velocity > 1.5 else 1.0)
+	var slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))
+	slip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)
+	if not slipping and slip >= 100.0:
+		slip = 0.0
+		slip_remaining = SLIP_DURATION
+		slips += 1
+		# Losing footing removes uphill momentum once, before this step's forces.
+		# The impulse alone cannot cause runaway or rescue an already faster retreat.
+		velocity = maxf(minf(velocity, 0.0) - SLIP_ROLLBACK_IMPULSE, minf(velocity, -SLIP_IMPULSE_SPEED_LIMIT))
+		stamina = maxf(0.0, stamina - SLIP_STAMINA_COST)
+		slipping = true
+		pushing = false
+		has_stamina = stamina > 0.0
+		braking = brace and velocity < 0.0 and has_stamina
+		braced_stance = brace and angle > 0.0 and has_stamina
 	momentum = 1.1 if sweet else 1.0
 	control_multiplier = 0.9 if velocity > 1.5 else 1.0
+	# Retreating footing limits push transmission; Space remains the full brake.
+	control_multiplier *= lerpf(1.0, ROLLBACK_PUSH_MIN_MULTIPLIER, clampf(-velocity / ROLLBACK_PUSH_FULL_SPEED, 0.0, 1.0))
 	push_force = BASE_PUSH * push_multiplier * stamina_multiplier() * grip * (1.65 if exert else 1.0) * momentum * control_multiplier if pushing else 0.0
 	gravity_force = GRAVITY * sin(angle)
 	surface_resistance = mountain.resistance_at(distance)
@@ -282,19 +311,6 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 			stamina += recovery * recovery_multiplier * dt
 		action = "slip" if slipping else "rest"
 	stamina = clampf(stamina, 0.0, max_stamina)
-	var slip_gain: float = 0.0
-	if pushing and not slipping:
-		slip_gain = 4.0 * degrees / 35.0 * mountain.slip_multiplier_at(distance) * (1.8 if exert else 1.0)
-		if exert and str(material.id) == "GRAVEL":
-			slip_gain *= 1.3
-		slip_gain *= 0.9 if sweet else (1.4 if velocity > 1.5 else 1.0)
-	var slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))
-	slip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)
-	if slip >= 100.0:
-		slip = 0.0
-		slip_remaining = 0.7
-		slips += 1
-		action = "slip"
 	velocity = clampf(velocity + acceleration * dt, -65.0, V02_MAX_SPEED)
 	if braking and velocity > 0.0:
 		velocity = 0.0

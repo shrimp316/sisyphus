@@ -253,10 +253,7 @@ func _fresh_world() -> MountainManager:
 	var seed_value: int = test_seed if test_seed >= 0 else world_random.randi_range(1, 2147483646)
 	if mountain != null and test_seed < 0 and seed_value == mountain.seed_value:
 		seed_value = (seed_value % 2147483646) + 1
-	var world: MountainManager = Mountain.new(seed_value)
-	if test_weather in ["clear", "rain"]:
-		world.weather_id = test_weather
-	return world
+	return Mountain.new(seed_value, false, Mountain.CURRENT_GENERATION, test_weather)
 
 func _install_world(world: MountainManager) -> void:
 	mountain = world

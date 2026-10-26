@@ -1,5 +1,34 @@
 # 검증 기록
 
+## 2026-10-26 경사·후퇴·SLIP 강화
+
+세대 6 새 산의 경사 증가, 후퇴 속도별 밀기 전달력 감소, SLIP의 1회 하강 충격·스태미나 손실을 검증했다. 상세 동작은 [밸런스 변경 안내](physics-balance.ko.md)를 참고한다. 기존 작업의 선택 쉼터 받침 배치를 보존했다.
+
+신규 `physics_balance_verification.gd`는 115개 검사를 통과했다. 입력 해제 시 경사에 따른 가속, 역방향 관성 유지, Space 우선, SLIP 발동 프레임의 밀기 차단, 0.7초 잠금과 단발 비용, 소진, 폭주 전후 경계, 저장 복원 및 30/144 FPS 결과 일치를 확인했다. 48개 시드의 정상 높이 증가와 세대 1~6 저장, 명시적인 맑음·비 각각 16개 시드의 경사 상한·재현성도 확인했다. 변경 전 컨트롤러로 첫 103개 검사를 실행하면 28개가 실패해 새 동작을 구별함을 확인했다.
+
+독립 검토에서 강제 날씨를 지형 생성 뒤에 적용하던 문제를 발견했다. 날씨를 생성 전에 확정하도록 수정하고 테스트를 추가했다. 지형 21개, 쉼터 통합 37개, 스태미나·버티기 124개, v0.2 핵심 25개, 성장 50개, 모션 29개, 웹 호환 24개도 통과했다. 잘못된 JSON을 주입하는 웹 저장 검사는 예상된 오류 로그를 포함한다.
+
+GPU 돌 성장 검사 106개가 통과했으며, 경사와 쉼터 경계에서 캐릭터·돌의 표시를 캡처로 확인했다. 로컬 Web 릴리스 내보내기도 성공했다. 로그는 `.tools/balance-*.log`, `.tools/physics-balance-new.log`, 캡처는 `.tools/boulder-growth/`에 있다. 게임 난도의 체감은 실제 플레이로 추가 조정할 수 있다.
+
+독립 검증자가 강제 날씨 수정 이후 v0.2 종합 검사를 다시 실행해 27개 모두 통과했다(`.tools/balance-final-v02.log`). 기본 능력치로 시드 1·42·1547의 맑음·비 여섯 경우 모두 정상 1000m에 도달했다. 위 최종 검사 집계는 GPU 검사를 채택하고 같은 항목의 헤드리스 중복 실행을 제외해 **558개 통과, 실패 0개**다.
+
+## 2026-10-26 선택 쉼터 받침
+
+새 산 생성 세대 5는 받침을 49.75m부터 100m 간격으로 949.75m까지 10개 배치한다. 쉼터 20개와 기존 경사는 유지한다. `shelter_verification.gd` 33개, `terrain_generation_tests.gd` 19개, `boulder_growth_verification.gd` 90개가 통과했다. 96개 시드의 배치·기존 지형 일치, 맑음·비와 기본·최대 강화에서 회수·일반 쉼터 통과·자연 감속·회복·폭주 우선순위, 모든 쉼터의 레벨업 선택, 생성 세대 1~5의 저장 복원, 새 등반 적용과 기존 돌 성장 보존을 확인했다.
+
+```powershell
+$shelterEngine = Join-Path $PWD '.tools/godot/Godot_v4.5.1-stable_win64_console.exe'
+& $shelterEngine --headless --path . --script res://tests/shelter_verification.gd
+& $shelterEngine --headless --path . --script res://tests/terrain_generation_tests.gd
+& $shelterEngine --headless --path . --script res://tests/boulder_growth_verification.gd
+```
+
+로그는 `.tools/selective-*.log`에 저장했다. 새 통합 검사의 저장은 매번 `.tools/shelters-*`에 격리한다. `shelter_verification.gd`를 GPU에서 `--capture`로 실행하면 받침·일반 쉼터와 현재·최대 돌 크기의 화면 4장을 해당 폴더에 저장한다. 최초 저장 비교 검사에서 JSON 숫자 문자열 표현 차이에 따른 실패를 파싱값 비교로 수정했으며 재실행은 모두 통과했다. 실제 플레이의 난도·손맛은 별도 검증 대상이다.
+
+별도 검증자가 v0.2 종합 quick 23개, 영구 성장 50개, 돌 성장 90개, 쉼터 GPU 37개를 직접 실행해 **200개 모두 통과**했다. 위 구현자 표적 검사 142개와는 일부 중복되는 별도 실행 결과다. 시드 42의 맑음·비 자동 등반은 모두 정상 1000m에 도달했으며 시뮬레이션 시간은 각각 912.28초·913.24초였다. GPU 화면 4장에서 받침 유무와 돌 확대 표시를 직접 확인했다. 캡처는 `.tools/shelters-9111077/`, 로그는 `.tools/verifier-shelter-gpu.log`에 있다.
+
+Windows 실행 ZIP `builds/SISYPHUS-v0.2-Windows-20261026-203601-188230.zip`(55,187,295바이트)을 생성했다. 내보낸 실행 파일의 헤드리스 시작 검사도 오류 없이 통과했다(`.tools/shelter-package-smoke.log`). 공개 웹 배포는 이번 작업에 포함하지 않았다.
+
 ## 2026-10-26 회차 최고 고도에 따른 돌 외형 성장
 
 돌의 외형을 이번 회차 최고 고도에 따라 최대 15% 확대한다. 저장된 `peak`를 이용하므로 저장 형식과 물리는 바뀌지 않는다. 캐릭터의 명목 손 접점은 실제 지면을 따라 탐색하며 발과 FX는 같은 지면 좌표를 사용한다. 프레임별 관절 변형을 추가한 것은 아니다.
@@ -34,7 +63,7 @@ $motionEngine = Join-Path $PWD '.tools/godot/Godot_v4.5.1-stable_win64_console.e
 & $motionEngine --path . --rendering-method gl_compatibility --script tests/motion_sync_verification.gd -- --capture
 ```
 
-저장은 `.tools/motion-sync-*`에 자동 격리된다. 쉼터·받침 배치와 물리는 변경하지 않았으며 [받침 배치 검토안](shelter-balance-notes.ko.md)은 별도 제안이다.
+저장은 `.tools/motion-sync-*`에 자동 격리된다. 이 모션 변경 당시 쉼터·받침 배치와 물리는 변경하지 않았다. 이후 적용한 [선택 받침 배치](shelter-balance-notes.ko.md)는 위 검증 기록을 참고한다.
 
 ## 2026-10-26: 구간 경험치와 영구 성장
 

@@ -40,10 +40,10 @@ func verify_new_courses() -> void:
 	var repeatable: bool = true
 	var same_id_angles: Dictionary = {}
 	for run_seed: int in range(1, 97):
-		var world := MountainManager.new(run_seed)
+		var world := MountainManager.new(run_seed, false, 5)
 		var old_world := MountainManager.new(run_seed, false, 3)
-		repeatable = repeatable and world.snapshot() == MountainManager.new(run_seed).snapshot()
-		dimensions = dimensions and world.generation_version == 4 and world.chunks.size() == 20 and is_equal_approx(world.total_length, 1000.0)
+		repeatable = repeatable and world.snapshot() == MountainManager.new(run_seed, false, 5).snapshot()
+		dimensions = dimensions and world.generation_version == 5 and world.chunks.size() == 20 and is_equal_approx(world.total_length, 1000.0)
 		bags = bags and world.weather_id == old_world.weather_id
 		for index: int in range(world.chunks.size()):
 			var chunk: Dictionary = world.chunks[index]
@@ -95,7 +95,7 @@ func verify_history_and_saves() -> void:
 			var authored: MountainChunk = load("res://data/chunks/%s.tres" % str(chunk.id)) as MountainChunk
 			unchanged = unchanged and is_equal_approx(float(chunk.start_angle), authored.start_angle) and is_equal_approx(float(chunk.climb_length), authored.climb_length)
 	check(unchanged, "version 3 keeps original authored inclines and shelf lengths")
-	for version: int in [1, 2, 3, 4]:
+	for version: int in [1, 2, 3, 4, 5, 6]:
 		var world := MountainManager.new(1547, version == 1, version)
 		var saved: Dictionary = JSON.parse_string(JSON.stringify(world.snapshot()))
 		var restored := MountainManager.from_snapshot(saved)
@@ -105,7 +105,7 @@ func verify_history_and_saves() -> void:
 			for meter: int in range(1000):
 				roundtrip = roundtrip and world.sample(float(meter)).is_equal_approx(restored.sample(float(meter)))
 		check(roundtrip, "version %d JSON save/load preserves full course without rerolling" % version)
-		if version == 4 and restored != null:
+		if version >= 4 and restored != null:
 			var sim := BoulderController.new(world)
 			sim.distance = 460.0
 			sim.advance(0.013, true, true, false)
@@ -114,7 +114,7 @@ func verify_history_and_saves() -> void:
 			for step: int in range(150):
 				sim.advance(0.013, true, false, false)
 				clone.advance(0.013, true, false, false)
-			check(equivalent(sim.snapshot(), clone.snapshot()), "version 4 resumes fractional-step physics exactly after save/load")
+			check(equivalent(sim.snapshot(), clone.snapshot()), "version %d resumes fractional-step physics exactly after save/load" % version)
 	var debug := MountainManager.debug_course()
 	var restored_debug := MountainManager.from_snapshot(JSON.parse_string(JSON.stringify(debug.snapshot())))
 	check(debug.generation_version == 3 and debug.chunks.size() == 5 and is_equal_approx(debug.total_length, 98.0) and restored_debug != null and equivalent(debug.snapshot(), restored_debug.snapshot()), "authored debug course stays unchanged and reloadable")
