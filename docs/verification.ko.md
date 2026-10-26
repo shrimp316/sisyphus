@@ -2,6 +2,18 @@
 
 검증일: 2026-10-07. Godot `4.5.1.stable.official.f62fdbde1`, Windows, Compatibility 렌더러.
 
+## 2026-10-26: 돌 이동과 발동작 동기화
+
+`tests/motion_sync_verification.gd` 29개 검사 통과. 실제 이동량 비례, 정지·턱 막힘, 8/6프레임 동작 전환, 물리 결과 보존, 강화 선택 중 정지, 추락·회수·새 회차·저장 복원과 정상의 마지막 자세를 확인했다. GPU 실행은 속도 0/0.3/1/1.8m/s의 전후 화면 8장까지 총 37개 검사 통과. 기존 성장 50개와 에셋 59개 검사도 통과했다.
+
+```powershell
+$motionEngine = Join-Path $PWD '.tools/godot/Godot_v4.5.1-stable_win64_console.exe'
+& $motionEngine --headless --path . --script tests/motion_sync_verification.gd
+& $motionEngine --path . --rendering-method gl_compatibility --script tests/motion_sync_verification.gd -- --capture
+```
+
+저장은 `.tools/motion-sync-*`에 자동 격리된다. 쉼터·받침 배치와 물리는 변경하지 않았으며 [받침 배치 검토안](shelter-balance-notes.ko.md)은 별도 제안이다.
+
 ## 2026-10-26: 구간 경험치와 영구 성장
 
 - 성장·물리 강화·선택 입력·저장 이전 검사 50개 통과. 회차 내 중복 XP, 미사용 선택권 재접속, 강화 상한, 최대 스태미나 100 초과 복원, 버전 1~3에서 누락되거나 낮은 peak 처리도 확인했다.

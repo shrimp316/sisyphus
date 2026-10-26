@@ -89,6 +89,7 @@ func run() -> void:
 			game.boulder.stamina = 80
 			for index: int in range(int(definition[0])):
 				game.boulder.elapsed = (float(index) + 0.5) / float(definition[1])
+				game.gait_phase = (float(index) + 0.5) / float(definition[0])
 				game.queue_redraw()
 				await snap("game-%s-%02d" % [action, index + 1])
 		game.set_process(true)

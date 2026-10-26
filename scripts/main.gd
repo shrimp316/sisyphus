@@ -11,6 +11,10 @@ var art: AssetVisuals = Art.new()
 const Scenery = preload("res://scripts/scenery_visuals.gd")
 var scenery: Node2D
 var impact_age: float = 10.0
+# A complete left/right step cycle covers 36 world pixels at the current scale.
+const GAIT_STRIDE_METERS: float = 2.0
+var gait_phase: float = 0.0
+var character_travel: float = 0.0
 
 const Audio = preload("res://scripts/soundscape.gd")
 const INK: Color = Color("e8e1cc")
@@ -115,7 +119,11 @@ func _physics_process(delta: float) -> void:
 	_refresh_upgrade_choice()
 	if upgrade_open:
 		return
+	var previous_distance: float = boulder.distance
+	var previous_state: String = boulder.state
+	var previous_partial_falls: int = boulder.partial_falls
 	boulder.advance(delta, Input.is_physical_key_pressed(KEY_D) or Input.is_physical_key_pressed(KEY_RIGHT), Input.is_physical_key_pressed(KEY_SHIFT), Input.is_physical_key_pressed(KEY_SPACE))
+	advance_character_motion(previous_distance, previous_state, previous_partial_falls)
 	update_progression()
 	if previous_best > 0.0 and not record_crossed and boulder.distance > previous_best:
 		record_crossed = true
@@ -128,6 +136,24 @@ func _physics_process(delta: float) -> void:
 	if web_mode and boulder.state != last_state:
 		_save_for_web()
 	last_state = boulder.state
+
+func advance_character_motion(previous_distance: float, previous_state: String, previous_partial_falls: int) -> void:
+	character_travel = 0.0
+	if previous_state == "summit" and boulder.state == "summit":
+		return
+	if previous_state != "climbing" or boulder.state not in ["climbing", "summit"] or boulder.partial_falls != previous_partial_falls:
+		gait_phase = 0.0
+		return
+	# Integrate displacement, not elapsed * current speed: acceleration and action
+	# changes then keep the same foot phase, and a blocked stone holds its pose.
+	character_travel = absf(boulder.distance - previous_distance)
+	gait_phase = fposmod(gait_phase + character_travel / GAIT_STRIDE_METERS, 1.0)
+
+func character_frame() -> Texture2D:
+	var animation: String = Art.character_animation(boulder.action, _stamina_percent())
+	if animation in ["push", "heavy_push", "brace"]:
+		return art.frame_at_phase("sisyphus", animation, gait_phase)
+	return art.frame("sisyphus", animation, boulder.elapsed)
 
 func _process(delta: float) -> void:
 	if not paused:
@@ -234,6 +260,8 @@ func _install_world(world: MountainManager) -> void:
 	boulder = Boulder.new(mountain)
 	boulder.apply_progression(progression.ranks)
 	boulder.stamina = boulder.max_stamina
+	gait_phase = 0.0
+	character_travel = 0.0
 	upgrade_open = false
 	boulder.recovered.connect(_recovery_feedback)
 	if boulder.has_signal("ledge_crossed"):
@@ -722,7 +750,7 @@ func _draw_asset_effects() -> void:
 			var ray: Vector2 = Vector2.from_angle(angle)
 			var center: Vector2 = feet + Vector2(0, -35) * zoom
 			draw_line(center + ray * (24.0 + (1.0 - fade) * 30.0) * zoom, center + ray * (34.0 + (1.0 - fade) * 30.0) * zoom, Color(GOLD, fade * 0.65), 2.0, true)
-	if boulder.state == "climbing" and boulder.action in ["push", "exert", "brace", "slip"]:
+	if boulder.state == "climbing" and character_travel > 0.00001 and boulder.action in ["push", "exert", "brace", "slip"]:
 		var effect: String = "gravel" if str(mountain.surface_at(boulder.distance).id).to_lower() == "gravel" else "dust"
 		Art.draw_at(self, art.frame("fx", effect, boulder.elapsed), feet, Vector2(128, 224), 0.25 * zoom, 0.0, Color(1, 1, 1, 0.7))
 	if impact_age < 6.0 / 14.0:
@@ -772,15 +800,14 @@ func _draw_character() -> void:
 	var d: float = boulder.distance - 3.7
 	var ground: Vector2 = mountain.sample(d) if d >= 0.0 else mountain.sample(0.0) + Vector2(d * MountainManager.PIXELS_PER_METER, 0.0)
 	var base: Vector2 = _world(ground)
-	var animation: String = Art.character_animation(boulder.action, _stamina_percent())
-	if Art.draw_at(self, art.frame("sisyphus", animation, boulder.elapsed), base, Vector2(256, 464), 0.18 * zoom):
+	if Art.draw_at(self, character_frame(), base, Vector2(256, 464), 0.18 * zoom):
 		return
 	if boulder.slip > 40.0 and not paused:
 		for grain: int in range(7):
 			var drift: float = fposmod(boulder.elapsed * 1.8 + float(grain) * 0.17, 1.0)
 			var dust: Vector2 = Vector2(-drift * 30.0 - float(grain % 3) * 3.0, -sin(drift * PI) * 12.0)
 			draw_circle(base + dust * zoom, 1.2 * zoom, Color(0.7, 0.65, 0.52, (1.0 - drift) * 0.35))
-	var movement: float = sin(boulder.elapsed * (5.0 if _stamina_percent() < 20.0 else 8.0)) * minf(absf(boulder.velocity), 1.0)
+	var movement: float = sin(gait_phase * TAU) if boulder.action in ["push", "exert", "brace", "slip"] else 0.0
 	var leaning: float = 11.0 if boulder.action in ["push", "exert", "brace"] else 2.0
 	var hip: Vector2 = base + Vector2(-4.0, -25.0) * zoom
 	var breath_phase: float = fmod(boulder.elapsed, 6.0)

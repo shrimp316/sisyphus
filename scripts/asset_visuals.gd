@@ -29,6 +29,15 @@ func frame(kind: String, animation: String, elapsed: float, loop: bool = true) -
 	index = index % count if loop else mini(index, count - 1)
 	return resource.get_frame_texture(animation, index)
 
+func frame_at_phase(kind: String, animation: String, cycle_phase: float) -> Texture2D:
+	var resource: SpriteFrames = frames(kind)
+	if resource == null or not resource.has_animation(animation):
+		return null
+	var count: int = resource.get_frame_count(animation)
+	if count == 0:
+		return null
+	return resource.get_frame_texture(animation, mini(int(fposmod(cycle_phase, 1.0) * count), count - 1))
+
 static func character_animation(action: String, stamina: float) -> String:
 	match action:
 		"brace", "slip": return "brace"
