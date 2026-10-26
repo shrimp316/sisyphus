@@ -64,7 +64,7 @@ func run() -> void:
 	slipping.advance(BoulderController.FIXED_DT, true, true, false)
 	check(slipping.slips == 1 and is_equal_approx(slipping.slip_remaining, 0.7), "Slip starts a deterministic0.7second control loss")
 	slipping.advance(BoulderController.FIXED_DT, true, true, false)
-	check(slipping.push_force > 0.0 and slipping.push_force < 0.5, "Slipping retains10percent push instead of disabling control")
+	check(slipping.push_force == 0.0 and slipping.action == "slip", "Slipping disables push and Shift thrust until the existing timer expires")
 	var ledge: Dictionary = world.ledges[0]
 	var blocked: BoulderController = sim_at(world, float(ledge.distance) - 0.002, 0.8)
 	blocked.advance(BoulderController.FIXED_DT, true, false, false)

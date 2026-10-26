@@ -131,6 +131,37 @@ func verify_slip_brace(version: int) -> void:
 	lost.advance(DT, true, true, true)
 	check(lost.state == "runaway", label + "brace cannot rescue an already runaway stone")
 
+func verify_slip_push_lock(version: int) -> void:
+	var label := "v%d " % version
+	var triggering: Variant = fixture(version)
+	triggering.slip = 99.999
+	triggering.velocity = 0.8
+	triggering.advance(DT, true, true, false)
+	check(triggering.slips == 1 and is_equal_approx(triggering.slip_remaining, 0.7 if version >= 3 else 1.0), label + "triggered slip preserves the existing generation-specific duration")
+	for strong: bool in [false, true]:
+		var locked: Variant = fixture(version)
+		locked.slip_remaining = 0.6
+		locked.velocity = -0.2
+		var blocked := true
+		var frames: int = 0
+		while locked.slip_remaining > 0.0 and frames < 100:
+			locked.advance(DT, true, strong, false)
+			blocked = blocked and locked.push_force == 0.0 and locked.action == "slip"
+			frames += 1
+		check(blocked and frames >= 72 and frames <= 73 and locked.slip_remaining == 0.0, label + "held %s supplies no thrust throughout slip including expiry substep" % ("Shift push" if strong else "push"))
+		locked.advance(DT, true, strong, false)
+		check(locked.push_force > 0.0 and locked.action == ("exert" if strong else "push"), label + "held %s resumes normally after slip expires" % ("Shift push" if strong else "push"))
+	var fine: Variant = fixture(version)
+	var coarse: Variant = fixture(version)
+	for sim: Variant in [fine, coarse]:
+		sim.slip_remaining = 0.6
+		sim.velocity = -0.2
+	for frame: int in range(30):
+		coarse.advance(1.0 / 30.0, true, true, false)
+	for frame: int in range(144):
+		fine.advance(1.0 / 144.0, true, true, false)
+	check(equal_snapshot(fine.snapshot(), coarse.snapshot()) and fine.push_force > 0.0 and coarse.push_force > 0.0, label + "slip lock and automatic held-input resumption agree at 30 and 144 FPS")
+
 func verify_saves_and_timing(version: int) -> void:
 	var label := "v%d " % version
 	for empty: bool in [false, true]:
@@ -161,10 +192,17 @@ func verify_saves_and_timing(version: int) -> void:
 
 func run() -> void:
 	var baseline := "--baseline" in OS.get_cmdline_user_args()
-	controller = load("res://.tools/stamina-brace-baseline.gd" if baseline else "res://scripts/boulder_controller.gd")
+	var slip_baseline := "--slip-baseline" in OS.get_cmdline_user_args()
+	var path := "res://scripts/boulder_controller.gd"
+	if baseline:
+		path = "res://.tools/stamina-brace-baseline.gd"
+	elif slip_baseline:
+		path = "res://.tools/slip-hold-baseline.gd"
+	controller = load(path)
 	for version: int in [1, 2, 3, 4]:
 		verify_exhaustion(version)
 		verify_slip_brace(version)
+		verify_slip_push_lock(version)
 		verify_saves_and_timing(version)
-	print("Stamina/brace%s: %d checks, %d failures" % [" BASELINE" if baseline else "", checks, failures])
+	print("Stamina/brace%s: %d checks, %d failures" % [" BASELINE" if baseline or slip_baseline else "", checks, failures])
 	quit(1 if failures > 0 else 0)

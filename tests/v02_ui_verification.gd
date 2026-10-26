@@ -108,6 +108,35 @@ func run() -> void:
 	await frames()
 	check(text_has("SLIP") and app.slip_alpha > 0.99, "Slip above40 fades in")
 	await snap("03-slip-warning")
+	app.boulder.slip = 0.0
+	app.boulder.slip_remaining = 0.5
+	app.boulder.stamina = 80.0
+	app.boulder.velocity = -0.5
+	app.boulder.action = "exert"
+	app.feedback_text = "SLIP_PRIORITY_SENTINEL"
+	app.feedback_time = 2.0
+	app._process(1.0)
+	await frames()
+	check(text_has("SLIP") and app.slip_alpha > 0.99, "active slip remains visible after the risk meter resets to zero")
+	check(app.character_frame() == app.art.frame_at_phase("sisyphus", "brace", app.gait_phase), "active slip overrides a stale exert action with a resisting pose")
+	check(text_has("미끄러짐") and text_has("밀기 불가") and text_has("0.5초 남음") and text_has("Space 유지") and not text_has("SLIP_PRIORITY_SENTINEL"), "active slip countdown and Space guidance override feedback and rollback hints")
+	await snap("03a-slip-countdown")
+	app.boulder.action = "brace"
+	await frames()
+	check(text_has("0.5초 남음") and text_has("Space 유지"), "bracing during slip preserves the countdown and held-Space instruction")
+	app.boulder.stamina = 0.0
+	app.boulder.action = "rest"
+	await frames()
+	check(text_has("0.5초 남음") and text_has("스태미나 소진") and text_has("키를 놓고 회복") and not text_has("Space 유지"), "exhausted slip retains its countdown and replaces unusable brace guidance with recovery")
+	check(app.character_frame() == app.art.frame("sisyphus", "exhausted", app.boulder.elapsed), "exhausted slip displays the exhausted animation")
+	app.boulder.slip_remaining = 0.0
+	app.boulder.stamina = 80.0
+	app.boulder.slip = 41.0
+	app.boulder.velocity = 0.8
+	app.boulder.action = "push"
+	app.feedback_time = 0.0
+	await frames()
+	check(not text_has("초 남음") and not text_has("밀기 불가"), "normal HUD returns immediately after slip expires")
 	app.record_crossed = false
 	app._physics_process(1.0 / 120.0)
 	check(app.record_crossed and app.record_flash > 0.0 and app.record_flash <= 0.5, "passing prior record highlights altitude briefly")

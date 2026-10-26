@@ -142,6 +142,7 @@ func _step_legacy(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		slip = 0.0
 		slip_remaining = 1.0
 		slips += 1
+		action = "slip"
 	var old_velocity: float = velocity
 	velocity = clampf(velocity + acceleration * dt, -65.0, MAX_SPEED)
 	# A brake can stop a retreat, never propel the stone uphill.
@@ -248,15 +249,13 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 	var slipping: bool = slip_remaining > 0.0
 	var has_stamina: bool = stamina > 0.0
 	var effort_requested: bool = (push and not brace) or (brace and (angle > 0.0 or velocity < 0.0))
-	var pushing: bool = push and not brace and has_stamina
+	var pushing: bool = push and not brace and not slipping and has_stamina
 	var braking: bool = brace and velocity < 0.0 and has_stamina
 	var braced_stance: bool = brace and angle > 0.0 and has_stamina
 	slip_remaining = maxf(0.0, slip_remaining - dt)
 	momentum = 1.1 if sweet else 1.0
 	control_multiplier = 0.9 if velocity > 1.5 else 1.0
 	push_force = BASE_PUSH * push_multiplier * stamina_multiplier() * grip * (1.65 if exert else 1.0) * momentum * control_multiplier if pushing else 0.0
-	if slipping:
-		push_force *= 0.1
 	gravity_force = GRAVITY * sin(angle)
 	surface_resistance = mountain.resistance_at(distance)
 	if str(material.id) == "MUD":
@@ -275,7 +274,7 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		action = "brace"
 	elif pushing:
 		stamina -= (3.0 if exert else 1.0) * drain_multiplier * (0.8 if sweet else 1.0) * dt
-		action = "slip" if slipping else ("exert" if exert else "push")
+		action = "exert" if exert else "push"
 	else:
 		var recovery: float = 10.0 if safe else (7.0 if absf(velocity) < 0.01 else (3.0 if degrees <= 10.0 else 0.0))
 		# Releasing effort is required to recover; holding an exhausted input is not rest.
@@ -295,6 +294,7 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		slip = 0.0
 		slip_remaining = 0.7
 		slips += 1
+		action = "slip"
 	velocity = clampf(velocity + acceleration * dt, -65.0, V02_MAX_SPEED)
 	if braking and velocity > 0.0:
 		velocity = 0.0

@@ -151,6 +151,8 @@ func advance_character_motion(previous_distance: float, previous_state: String, 
 
 func character_frame() -> Texture2D:
 	var animation: String = Art.character_animation(boulder.action, _stamina_percent())
+	if boulder.slip_remaining > 0.0:
+		animation = "brace" if boulder.stamina > 0.0 else "exhausted"
 	if animation in ["push", "heavy_push", "brace"]:
 		return art.frame_at_phase("sisyphus", animation, gait_phase)
 	return art.frame("sisyphus", animation, boulder.elapsed)
@@ -167,7 +169,7 @@ func _process(delta: float) -> void:
 		level_flash = maxf(0.0, level_flash - delta)
 		record_flash = maxf(0.0, record_flash - delta)
 		feedback_time = maxf(0.0, feedback_time - delta)
-	slip_alpha = move_toward(slip_alpha, 1.0 if boulder.slip > 40.0 else 0.0, delta * 3.0)
+	slip_alpha = move_toward(slip_alpha, 1.0 if boulder.slip > 40.0 or boulder.slip_remaining > 0.0 else 0.0, delta * 3.0)
 	if boulder.state == "summit" and not paused and screen == "game":
 		summit_quiet += delta
 	var falling: bool = boulder.state == "runaway"
@@ -872,14 +874,15 @@ func _draw_hud(size: Vector2) -> void:
 		hint = "쉼터 · 손을 놓고 호흡을 고르세요"
 	if boulder.slip >= 75.0:
 		hint = "발밑이 불안합니다 · 힘주기를 멈추고 균형을 되찾으세요"
-	if boulder.slip_remaining > 0.0:
-		hint = "미끄러짐을 버티고 있습니다 · Space 유지" if boulder.action == "brace" else "발이 미끄러집니다 · 지금 Space로 버티세요"
-	elif boulder.velocity < -0.08:
+	if boulder.velocity < -0.08:
 		hint = boulder.rollback_stage()
 	if feedback_time > 0.0:
 		hint = feedback_text
 	if boulder.state == "climbing" and boulder.stamina <= 0.0:
 		hint = "스태미나 소진 · 키를 놓고 회복하세요"
+	if boulder.state == "climbing" and boulder.slip_remaining > 0.0:
+		var slip_instruction: String = "Space 유지" if boulder.stamina > 0.0 else "스태미나 소진 · 키를 놓고 회복"
+		hint = "미끄러짐 · 밀기 불가 · %.1f초 남음 · %s" % [ceilf(boulder.slip_remaining * 10.0) / 10.0, slip_instruction]
 	_center(hint, size.y - 164.0, 19, RED if boulder.velocity < -1.0 else INK)
 	_text("D / →  밀기     Shift + 밀기  힘주기     Space  버티기", Vector2(42, size.y - 36.0), 14, INK)
 	_text("M  " + ("소리 꺼짐" if sound.muted else "소리 켜짐") + "     Esc  메뉴", Vector2(size.x - 265.0, size.y - 36.0), 13, MUTED)
