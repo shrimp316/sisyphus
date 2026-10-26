@@ -1,6 +1,6 @@
 # SISYPHUS · 시지프스
 
-**[브라우저에서 플레이](https://shrimp316.github.io/sisyphus/)** · [GitHub 저장소](https://github.com/shrimp316/sisyphus)
+**[브라우저에서 플레이](https://sisyphus.hjuns.com/)** · [GitHub 저장소](https://github.com/shrimp316/sisyphus)
 
 **[Windows 실행본·에셋 ZIP·전체 백업 다운로드](https://github.com/shrimp316/sisyphus/releases/tag/v0.2-full-backup-20261007)** · [백업 구성과 복원 안내](docs/full-backup.ko.md) · [작업 경과](docs/work-history.ko.md)
 

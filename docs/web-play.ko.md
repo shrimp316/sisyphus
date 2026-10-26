@@ -1,6 +1,6 @@
 # 브라우저에서 시지프스 플레이
 
-게임 주소: **https://shrimp316.github.io/sisyphus/**
+게임 주소: **https://sisyphus.hjuns.com/**
 
 공개 저장소: https://github.com/shrimp316/sisyphus
 
@@ -17,6 +17,8 @@
 페이지를 한 번 클릭하면 게임에 키보드 입력과 소리가 전달된다. 소리가 없으면 게임 영역을 클릭하고 M 설정을 확인한다. 사용 브라우저가 WebAssembly와 WebGL 2.0을 지원해야 한다. 우선 데스크톱 Chrome·Edge·Firefox에서 확인하며 모든 기기에서의 실행을 보장하지 않는다.
 
 진행 기록은 해당 브라우저에 저장되며 다른 PC나 Windows 실행 파일과 자동으로 공유되지 않는다. 비공개 모드나 사이트 데이터 삭제 후에는 기록이 유지되지 않을 수 있다. 종료 전에 게임의 저장 기능으로 저장 완료를 확인한다.
+
+브라우저 저장은 사이트 주소(origin)별로 분리된다. 기존 `https://shrimp316.github.io/sisyphus/`의 진행 기록은 새 도메인으로 자동 이전되지 않는다. 도메인 연결이 기존 데이터를 삭제하지는 않지만 새 주소에서 그 기록을 읽을 수는 없다.
 
 ## 개발용 Web 빌드
 
@@ -35,6 +37,8 @@ Web 프리셋은 Compatibility 렌더러, 단일 스레드, 확장 기능 끄기
 Node.js가 설치된 개발 PC에서는 `node tools/serve-web.cjs`를 실행하고 `http://127.0.0.1:8765/sisyphus/`를 연다. 이 미리보기 서버는 이 PC에서만 접근할 수 있으며, GitHub 프로젝트 페이지와 같은 하위 경로에서 파일을 제공한다.
 
 ## GitHub Pages 배포
+
+사용자 지정 도메인은 `sisyphus.hjuns.com`이다. GitHub 저장소의 Settings → Pages → Custom domain에 이 주소를 설정하고, Cloudflare의 `hjuns.com` DNS에는 이름 `sisyphus`, 대상 `shrimp316.github.io`인 CNAME 레코드를 **DNS only**로 유지한다. CNAME 대상에는 프로토콜이나 `/sisyphus/` 경로를 넣지 않는다. DNS는 Cloudflare에서 관리하고 게임 파일은 기존 GitHub Pages에서 제공한다.
 
 저장소의 Settings → Pages에서 **GitHub Actions**를 배포 소스로 선택한다. `.github/workflows/deploy-web.yml`은 `main`에 푸시하거나 수동 실행하면 다음 작업을 수행한다.
 
