@@ -45,7 +45,7 @@ func run() -> void:
 	var exhausted: BoulderController = sim_at(world, 3.0)
 	exhausted.stamina = 0.0
 	exhausted.advance(BoulderController.FIXED_DT, true, false, false)
-	check(exhausted.push_force > 0.0 and exhausted.velocity > 0.0, "Exhaustion retains45percent push and input control")
+	check(exhausted.push_force == 0.0 and exhausted.stamina == 0.0 and exhausted.stamina_multiplier() == 0.0, "Exhaustion disables active thrust and held input cannot regenerate stamina")
 	for boundary: Array in [[0.0, 0], [-0.001, 1], [-0.8, 2], [-2.0, 3], [-4.0, 4]]:
 		var sim: BoulderController = sim_at(world, 20.0, float(boundary[0]))
 		check(sim.fall_stage() == int(boundary[1]), "Fall-stage inclusive boundary")

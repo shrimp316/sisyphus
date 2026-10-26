@@ -56,7 +56,7 @@ func stamina_multiplier() -> float:
 		return 0.85
 	if stamina > 0.0:
 		return 0.65
-	return 0.45 if mountain.generation_version >= 3 else 0.5
+	return 0.0
 
 func rollback_stage() -> String:
 	if mountain.generation_version >= 3:
@@ -101,8 +101,10 @@ func _step_legacy(dt: float, push: bool, exert: bool, brace: bool) -> void:
 	var grip: float = mountain.grip_at(distance)
 	var slipping: bool = slip_remaining > 0.0
 	slip_remaining = maxf(0.0, slip_remaining - dt)
-	var braking: bool = brace and velocity < 0.0 and not slipping
-	var pushing: bool = push and not brace and not slipping
+	var has_stamina: bool = stamina > 0.0
+	var effort_requested: bool = (push and not brace) or (brace and (angle > 0.0 or velocity < 0.0))
+	var braking: bool = brace and velocity < 0.0 and has_stamina
+	var pushing: bool = push and not brace and not slipping and has_stamina
 	var force: float = 2.0 * push_multiplier * stamina_multiplier() * grip * (1.65 if exert else 1.0) if pushing else 0.0
 	push_force = force
 	gravity_force = gravity
@@ -118,7 +120,7 @@ func _step_legacy(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		acceleration += 5.8 * stamina_multiplier() * grip
 		stamina -= 5.5 * dt
 		action = "brace"
-	elif brace and angle > 0.0 and not slipping:
+	elif brace and angle > 0.0 and has_stamina:
 		# Keeping a braced stance costs effort even on the frame we stop.
 		# Otherwise alternating tiny backward/zero steps regenerates stamina.
 		stamina -= 5.5 * dt
@@ -127,7 +129,9 @@ func _step_legacy(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		stamina -= (0.75 + rad_to_deg(angle) / 35.0) * (3.0 if exert else 1.0) * dt
 		action = "exert" if exert else "push"
 	else:
-		stamina += (8.0 if absf(velocity) < 0.05 else 5.0) * recovery_multiplier * dt
+		# Exhaustion cannot alternate recovery and powered steps while effort is held.
+		if not effort_requested:
+			stamina += (8.0 if absf(velocity) < 0.05 else 5.0) * recovery_multiplier * dt
 		action = "slip" if slipping else "rest"
 	stamina = clampf(stamina, 0.0, max_stamina)
 	if pushing and angle > 0.01:
@@ -242,9 +246,11 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 	var sweet: bool = velocity >= 0.45 and velocity <= 1.2
 	var starting: bool = velocity >= 0.0 and velocity <= 0.15
 	var slipping: bool = slip_remaining > 0.0
-	var pushing: bool = push and not brace
-	var braking: bool = brace and velocity < 0.0 and not slipping
-	var braced_stance: bool = brace and angle > 0.0 and not slipping
+	var has_stamina: bool = stamina > 0.0
+	var effort_requested: bool = (push and not brace) or (brace and (angle > 0.0 or velocity < 0.0))
+	var pushing: bool = push and not brace and has_stamina
+	var braking: bool = brace and velocity < 0.0 and has_stamina
+	var braced_stance: bool = brace and angle > 0.0 and has_stamina
 	slip_remaining = maxf(0.0, slip_remaining - dt)
 	momentum = 1.1 if sweet else 1.0
 	control_multiplier = 0.9 if velocity > 1.5 else 1.0
@@ -272,7 +278,9 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		action = "slip" if slipping else ("exert" if exert else "push")
 	else:
 		var recovery: float = 10.0 if safe else (7.0 if absf(velocity) < 0.01 else (3.0 if degrees <= 10.0 else 0.0))
-		stamina += recovery * recovery_multiplier * dt
+		# Releasing effort is required to recover; holding an exhausted input is not rest.
+		if not effort_requested:
+			stamina += recovery * recovery_multiplier * dt
 		action = "slip" if slipping else "rest"
 	stamina = clampf(stamina, 0.0, max_stamina)
 	var slip_gain: float = 0.0
@@ -281,7 +289,7 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		if exert and str(material.id) == "GRAVEL":
 			slip_gain *= 1.3
 		slip_gain *= 0.9 if sweet else (1.4 if velocity > 1.5 else 1.0)
-	var slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not exert else 0.0))
+	var slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))
 	slip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)
 	if slip >= 100.0:
 		slip = 0.0

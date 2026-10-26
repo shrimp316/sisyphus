@@ -61,7 +61,7 @@ func verify_mechanics() -> void:
 	zero.stamina = 0.0
 	zero.distance = 2.0
 	zero.advance(0.1, true, false, false)
-	check(zero.velocity > 0.0 and zero.stamina == 0.0 and zero.stamina_multiplier() == 0.45, "zero stamina still allows reduced pushing")
+	check(zero.push_force == 0.0 and zero.stamina == 0.0 and zero.stamina_multiplier() == 0.0, "zero stamina disables active pushing without recovering while input is held")
 	var world := MountainManager.debug_course()
 	world.chunks[1].surface_type = "MUD"
 	world._build_curve()
