@@ -492,6 +492,8 @@ func _load_save() -> void:
 	prestige_phase = selected.prestige_phase
 	phase_elapsed = float(selected.phase_elapsed)
 	modal_milestone = selected.modal_milestone.duplicate(true)
+	if not modal_milestone.is_empty():
+		modal_milestone.distance = Mastery.normalized_unlock_distance(int(modal_milestone.distance))
 	preferences = selected.settings.duplicate()
 	save_revision = int(selected.revision)
 	last_state = boulder.state

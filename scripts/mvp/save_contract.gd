@@ -169,7 +169,10 @@ static func _validate_modal(value: Variant, profile: RefCounted) -> bool:
 		return false
 	if value.is_empty():
 		return true
-	if not _exact_keys(value, ["distance", "node_ids"]) or not _integer(value.distance, 250, 750) or int(value.distance) not in [250, 500, 750]:
+	if not _exact_keys(value, ["distance", "node_ids"]) or not _integer(value.distance, 150, 750):
+		return false
+	var distance: int = Profile.normalized_unlock_distance(int(value.distance))
+	if distance not in [150, 400, 700] or float(value.distance) > profile.highest_distance:
 		return false
 	if not value.node_ids is Array or value.node_ids.size() != 10:
 		return false
@@ -177,7 +180,7 @@ static func _validate_modal(value: Variant, profile: RefCounted) -> bool:
 	for id: Variant in value.node_ids:
 		if not id is String or seen.has(id) or id not in profile.permanent_mastery_unlocks:
 			return false
-		if int(profile.get_node_definition(id).unlock_milestone) != int(value.distance):
+		if int(profile.get_node_definition(id).unlock_milestone) != distance:
 			return false
 		seen[id] = true
 	return true

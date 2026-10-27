@@ -1,0 +1,163 @@
+{
+	"captures": [
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/zero-1920x1080.png",
+			"sha256": "a84815508454ac38f8f8f304472a26d56f5bc4547c0cee337ff0012275250819",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/150-1920x1080.png",
+			"sha256": "e65966259312484a160b99d5f5e1c67364ebcec8e1943ce870312e780cac94c7",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/400-1920x1080.png",
+			"sha256": "0a329c1a4171636de1934710428caecd9368e481f7b07f96693b53b47af3ba09",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/700-1920x1080.png",
+			"sha256": "8cf8a4622dca3900d0ed16801a8eeeaef7cb6aaa3b9687cba9689edee85e2c7f",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/first_summit-1920x1080.png",
+			"sha256": "7d43246969478e2c57058af6471f1a9eb38a2277a8a490864e4ae9dd17af10a2",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/next_run-1920x1080.png",
+			"sha256": "50cd2f100afefb173bd6d208b4a1d839892fb7077f8b3490712a8cf06d2e74cc",
+			"width": 1920
+		},
+		{
+			"height": 720,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/zero-1280x720.png",
+			"sha256": "ca398bafb9aac7b822cec051e0cf63ef42fe357eb1b347f81939ca80d772eac7",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/150-1280x720.png",
+			"sha256": "699cd34b20a6826261b590735ef168e352560f9949e476230abdafa1893d5d45",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/400-1280x720.png",
+			"sha256": "8acf9997f4a5f146161fc554edaa677f9ebd7b74bf9f58e7311c26afcf79ba49",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/700-1280x720.png",
+			"sha256": "68590439da8c70993f7b79c0e35fd502d4aef612509f9666201d38c3df2f0082",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/first_summit-1280x720.png",
+			"sha256": "43af849e017135f5dd01d34f182e4088c4e2417900e4c4517a555efff4b47b45",
+			"width": 1280
+		},
+		{
+			"height": 720,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/next_run-1280x720.png",
+			"sha256": "58f9c731b94b1762380ef6b99c0bf4014707720bc5a641355c55c1b429819d1e",
+			"width": 1280
+		},
+		{
+			"height": 600,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/zero-960x600.png",
+			"sha256": "c5fdc43eb099fb0c10e9ffd935a731e4e89fdeb42cef7afe4888e9db9ee64009",
+			"width": 960
+		},
+		{
+			"height": 600,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/150-960x600.png",
+			"sha256": "77bf32eb25aa83da697dc40b8f28be617c466f3ba02e1866a6a80972f8e37459",
+			"width": 960
+		},
+		{
+			"height": 600,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/400-960x600.png",
+			"sha256": "2923ea146838ee42fbeaab435268f5cd9ec5ed6d2896ab16a37f7dcdd59fae88",
+			"width": 960
+		},
+		{
+			"height": 600,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/700-960x600.png",
+			"sha256": "4a3228e4de980eee47ed673fff1522fcdd68fc5dc379a5cc86c9144656a6934e",
+			"width": 960
+		},
+		{
+			"height": 600,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/first_summit-960x600.png",
+			"sha256": "cdfa27e14cc16f8ad00da90410980a1f4ab64eed52af69159bbe86a7016480dc",
+			"width": 960
+		},
+		{
+			"height": 600,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/next_run-960x600.png",
+			"sha256": "f68a190662f2769b8d2ec463083c0303dff5a8ba8eab592cb1088fd5024f712b",
+			"width": 960
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/mixed-states-1920x1080.png",
+			"sha256": "3e0e88ec4197b30e83e95131f6afee81918867a0752dc66d59869b5451decb65",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/all-normal-purchased-1920x1080.png",
+			"sha256": "9dfbc496d268dfaeb60a67ce2be9dfea501e6caa65a54d7ec5d4e4285276c036",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/gate-push-1920x1080.png",
+			"sha256": "dcf023d1c57b975a0abf6ae967b570ea98ba351519887ac20ec9f9936ceba917",
+			"width": 1920
+		},
+		{
+			"height": 1080,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/preview-controls-next-run-1920x1080.png",
+			"sha256": "77e730a1c68c2c49cebd51b0eadbee3609039521834b224ec3e272b911700fec",
+			"width": 1920
+		},
+		{
+			"height": 720,
+			"path": "res://tests/mastery/results/unlock-150-400-700/preview/captures/preview-controls-next-run-1280x720.png",
+			"sha256": "d415dfb144ef991c02b733719ae262cf208d11ea0b5f9ac465293de6ba754f2e",
+			"width": 1280
+		}
+	],
+	"checks": 3710,
+	"display": "Windows",
+	"engine": "4.5.1-stable (official)",
+	"failures": [],
+	"passed": true,
+	"resolutions": [
+		[
+			1920,
+			1080
+		],
+		[
+			1280,
+			720
+		],
+		[
+			960,
+			600
+		]
+	],
+	"scope": "Windows native OpenGL-rendered SubViewport screenshots; real mouse and key InputEvents dispatched through viewport; not an OS-window automation or Linux/Web validation",
+	"suite": "visual_capture"
+}

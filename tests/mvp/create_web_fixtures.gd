@@ -2,7 +2,7 @@ extends SceneTree
 
 const Scene = preload("res://scenes/mvp/main_mvp.tscn")
 const Contract = preload("res://scripts/mvp/save_contract.gd")
-const OUTPUT: String = "res://tests/mvp/fixtures/web/"
+const OUTPUT: String = "res://tests/mvp/fixtures/web-unlock-150-400-700/"
 var failures: Array = []
 
 func _initialize() -> void:
@@ -38,15 +38,15 @@ func run() -> void:
 	await process_frame
 	main._reset_game()
 	# Artificial browser-QA arrival fixture; no claim of a played climb.
-	main.boulder.distance = 250.0
-	main.boulder.peak = 250.0
+	main.boulder.distance = 150.0
+	main.boulder.peak = 150.0
 	main.boulder.velocity = 0.9
 	main.boulder.stamina = 71.0
-	main.boulder.ability.inertia_frontier = 250.0
+	main.boulder.ability.inertia_frontier = 150.0
 	main.update_progression()
-	if main.mastery.available_exp != 150 or main.modal_milestone.get("distance") != 250:
+	if main.mastery.available_exp != 90 or main.modal_milestone.get("distance") != 150:
 		failures.append("milestone setup")
-	export_fixture(main, "milestone250")
+	export_fixture(main, "milestone150")
 	main._close_board()
 	main.boulder.distance = 1000.0
 	main.boulder.peak = 1000.0

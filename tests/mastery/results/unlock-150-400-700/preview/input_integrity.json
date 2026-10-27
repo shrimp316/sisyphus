@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "checks": 180,
+  "failures": [],
+  "changed_csv_fields": [
+    {
+      "node_id": "act1_strength_01",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_strength_02",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_strength_03",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_strength_04",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_strength_05",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_strength_06",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_strength_07",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_strength_08",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_strength_09",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_strength_10",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_endurance_01",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_endurance_02",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_endurance_03",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_endurance_04",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_endurance_05",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_endurance_06",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_endurance_07",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_endurance_08",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_endurance_09",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_endurance_10",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_breath_01",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_breath_02",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_breath_03",
+      "field": "milestone_m",
+      "before": "250",
+      "after": "150"
+    },
+    {
+      "node_id": "act1_breath_04",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_breath_05",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_breath_06",
+      "field": "milestone_m",
+      "before": "500",
+      "after": "400"
+    },
+    {
+      "node_id": "act1_breath_07",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_breath_08",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_breath_09",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    },
+    {
+      "node_id": "act1_breath_10",
+      "field": "milestone_m",
+      "before": "750",
+      "after": "700"
+    }
+  ],
+  "mapping_sha256": "9fa516a5f67e4756f4c6cfab226e7e7e1517d9e21742604f4d85593eb55d277a",
+  "png_count": 131,
+  "scope": "Compare current layout against supplied original CSV with only explicit milestone substitution; all authorized patched/unpatched PNG bytes retained."
+}

@@ -204,7 +204,7 @@ func apply_fixture(id: String, animate: bool = true) -> void:
 	adapter.apply_fixture(id)
 	# State is committed before any presentation-only animation starts.
 	if not animate or id == "zero": return
-	if id in ["250", "500", "750"]:
+	if id in ["150", "400", "700"]:
 		for i in 3: gate_views[i].play()
 	else: gate_views[3].play(true)
 

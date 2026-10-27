@@ -28,11 +28,16 @@ func run() -> void:
 		var x: int = 555 + 147 * (index - 1) if is_special else 425 + 96 * (index - 1)
 		report.check(int(node.x) == x and int(node.y) == int(ys[track]), "authoritative CSV center " + id)
 		if is_special:
+			report.check(int(node.milestone_m) == 1000, "special summit requirement unchanged " + id)
 			report.check(str(node.greek_letter).is_empty() and str(node.greek_codepoint).is_empty(), "special has no inscription " + id)
 			for state: String in ["engraved", "ready", "active"]:
 				report.check(str(node["glyph_%s_png" % state]).is_empty(), "special has no " + state + " glyph " + id)
 			report.check(str(node.icon_asset).ends_with("special_placeholder_%02d.png" % index), "special retains supplied placeholder " + id)
 		else:
+			var first_count: int = 4 if track == "strength" else 3
+			var second_count: int = 6 if track == "breath" else 7
+			var expected_milestone: int = 150 if index <= first_count else (400 if index <= second_count else 700)
+			report.check(int(node.milestone_m) == expected_milestone, "updated 150/400/700 tier mapping " + id)
 			var letter: String = str(node.greek_letter)
 			words[track] += letter
 			report.check(letter.length() == 1 and letter == str(expected_words[track])[index - 1], "indexed core letter " + id)
@@ -65,6 +70,9 @@ func run() -> void:
 	for track: String in expected_counts:
 		report.check(int(schema.nodes_per_act.get(track, -1)) == expected_counts[track], "future act component count " + track)
 	for act: Dictionary in schema.acts:
-		if int(act.act) == 1: continue
+		if int(act.act) == 1:
+			var thresholds: Array = act.normal_unlock_milestones
+			report.check(thresholds.size() == 3 and int(thresholds[0]) == 150 and int(thresholds[1]) == 400 and int(thresholds[2]) == 700, "act one schema records new unlock thresholds")
+			continue
 		report.check(not act.implemented and act.layout == null and act.effects == null and act.costs == null and act.gates == null, "future act rules remain undefined " + str(act.act))
 	quit(report.finish("data_validation", {"nodes": nodes.size(), "counts": counts, "inscriptions": words, "scope": "Godot CSV loader, imported PNGs, 90 normal node-state mappings and 12 preserved act-track cores"}))

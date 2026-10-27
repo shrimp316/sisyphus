@@ -37,12 +37,12 @@ jobs:
           unzip -q Godot_v4.5.1-stable_linux.x86_64.zip -d godot
           unzip -j -q Godot_v4.5.1-stable_export_templates.tpz templates/web_nothreads_debug.zip templates/web_nothreads_release.zip -d export-templates
           chmod +x godot/Godot_v4.5.1-stable_linux.x86_64
-      - name: Import and export release Web build
+      - name: Import and export release MVP Web build
         shell: bash
         run: |
           set -euo pipefail
           .tools/godot/Godot_v4.5.1-stable_linux.x86_64 --headless --path . --editor --import
-          .tools/godot/Godot_v4.5.1-stable_linux.x86_64 --headless --path . --export-release 'Web' builds/web/index.html
+          .tools/godot/Godot_v4.5.1-stable_linux.x86_64 --headless --path . --export-release 'MVP Web' builds/web/index.html
           test -s builds/web/index.html
           test -s builds/web/index.js
           test -s builds/web/index.wasm
@@ -50,6 +50,24 @@ jobs:
           cp third_party/godot/LICENSE.txt builds/web/GODOT-LICENSE.txt
           cp third_party/godot/COPYRIGHT.txt builds/web/GODOT-COPYRIGHT.txt
           cp assets/fonts/OFL.txt builds/web/FONT-LICENSE.txt
+          cp assets/fonts/licenses/Hahmlet-OFL.txt builds/web/HAHMLET-LICENSE.txt
+          cp assets/fonts/licenses/Pretendard-OFL.txt builds/web/PRETENDARD-LICENSE.txt
+          cp assets/fonts/licenses/GFSDidot-OFL.txt builds/web/GFS-DIDOT-LICENSE.txt
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          nodes = json.loads(Path('data/mastery/nodes.json').read_text(encoding='utf-8'))['nodes']
+          metadata = {
+              'commit': os.environ['GITHUB_SHA'],
+              'preset': 'MVP Web',
+              'godot_version': '4.5.1',
+              'main_scene': 'res://scenes/mvp/main_mvp.tscn',
+              'normal_unlock_distances_m': sorted({node['unlock_milestone'] for node in nodes if node['category'] != 'SPC'}),
+          }
+          Path('builds/web/version.json').write_text(json.dumps(metadata, indent=2) + '\n', encoding='utf-8')
+          PY
           touch builds/web/.nojekyll
       - uses: actions/upload-pages-artifact@v4
         with:
