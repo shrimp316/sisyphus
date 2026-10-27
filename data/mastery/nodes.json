@@ -11,7 +11,7 @@
       "effect_type": "push_bonus",
       "effect_value": 0.03,
       "exp_cost": 30,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [],
       "enabled": true,
       "icon_id": "STR01"
@@ -26,7 +26,7 @@
       "effect_type": "start_requirement",
       "effect_value": 1.23,
       "exp_cost": 40,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [
         "STR01"
       ],
@@ -43,7 +43,7 @@
       "effect_type": "push_bonus",
       "effect_value": 0.03,
       "exp_cost": 50,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [
         "STR02"
       ],
@@ -60,7 +60,7 @@
       "effect_type": "exert_multiplier",
       "effect_value": 1.68,
       "exp_cost": 70,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [
         "STR03"
       ],
@@ -77,7 +77,7 @@
       "effect_type": "push_bonus",
       "effect_value": 0.03,
       "exp_cost": 90,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "STR04"
       ],
@@ -94,7 +94,7 @@
       "effect_type": "ledge_push_bonus",
       "effect_value": 0.03,
       "exp_cost": 120,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "STR05"
       ],
@@ -111,7 +111,7 @@
       "effect_type": "push_bonus",
       "effect_value": 0.03,
       "exp_cost": 150,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "STR06"
       ],
@@ -128,7 +128,7 @@
       "effect_type": "sweet_push_multiplier",
       "effect_value": 1.12,
       "exp_cost": 190,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "STR07"
       ],
@@ -145,7 +145,7 @@
       "effect_type": "push_bonus",
       "effect_value": 0.03,
       "exp_cost": 240,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "STR08"
       ],
@@ -162,7 +162,7 @@
       "effect_type": "post_exert_push_bonus",
       "effect_value": 0.05,
       "exp_cost": 300,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "STR09"
       ],
@@ -179,7 +179,7 @@
       "effect_type": "capacity_bonus",
       "effect_value": 0.04,
       "exp_cost": 30,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [],
       "enabled": true,
       "icon_id": "END01"
@@ -194,7 +194,7 @@
       "effect_type": "normal_drain_reduction",
       "effect_value": 0.03,
       "exp_cost": 40,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [
         "END01"
       ],
@@ -211,7 +211,7 @@
       "effect_type": "capacity_bonus",
       "effect_value": 0.04,
       "exp_cost": 50,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [
         "END02"
       ],
@@ -228,7 +228,7 @@
       "effect_type": "exert_drain_reduction",
       "effect_value": 0.04,
       "exp_cost": 70,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "END03"
       ],
@@ -245,7 +245,7 @@
       "effect_type": "capacity_bonus",
       "effect_value": 0.04,
       "exp_cost": 90,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "END04"
       ],
@@ -262,7 +262,7 @@
       "effect_type": "low_stamina_push_multiplier",
       "effect_value": 0.7,
       "exp_cost": 120,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "END05"
       ],
@@ -279,7 +279,7 @@
       "effect_type": "capacity_bonus",
       "effect_value": 0.04,
       "exp_cost": 150,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "END06"
       ],
@@ -296,7 +296,7 @@
       "effect_type": "sweet_normal_drain_reduction",
       "effect_value": 0.05,
       "exp_cost": 190,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "END07"
       ],
@@ -313,7 +313,7 @@
       "effect_type": "capacity_bonus",
       "effect_value": 0.04,
       "exp_cost": 240,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "END08"
       ],
@@ -330,7 +330,7 @@
       "effect_type": "low_stamina_drain_reduction",
       "effect_value": 0.05,
       "exp_cost": 300,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "END09"
       ],
@@ -347,7 +347,7 @@
       "effect_type": "recovery_bonus",
       "effect_value": 0.05,
       "exp_cost": 30,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [],
       "enabled": true,
       "icon_id": "BRE01"
@@ -362,7 +362,7 @@
       "effect_type": "brace_drain_reduction",
       "effect_value": 0.05,
       "exp_cost": 40,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [
         "BRE01"
       ],
@@ -379,7 +379,7 @@
       "effect_type": "stationary_recovery_bonus",
       "effect_value": 0.1,
       "exp_cost": 50,
-      "unlock_milestone": 250,
+      "unlock_milestone": 150,
       "prerequisites": [
         "BRE02"
       ],
@@ -396,7 +396,7 @@
       "effect_type": "gentle_coast_recovery",
       "effect_value": 1,
       "exp_cost": 70,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "BRE03"
       ],
@@ -413,7 +413,7 @@
       "effect_type": "steep_stationary_recovery",
       "effect_value": 1,
       "exp_cost": 90,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "BRE04"
       ],
@@ -430,7 +430,7 @@
       "effect_type": "non_exert_slip_decay_bonus",
       "effect_value": 0.1,
       "exp_cost": 120,
-      "unlock_milestone": 500,
+      "unlock_milestone": 400,
       "prerequisites": [
         "BRE05"
       ],
@@ -447,7 +447,7 @@
       "effect_type": "inertia_recovery_rate",
       "effect_value": 2,
       "exp_cost": 150,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "BRE06"
       ],
@@ -464,7 +464,7 @@
       "effect_type": "retreat_brace_drain_reduction",
       "effect_value": 0.05,
       "exp_cost": 190,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "BRE07"
       ],
@@ -481,7 +481,7 @@
       "effect_type": "steep_stationary_recovery",
       "effect_value": 1.5,
       "exp_cost": 240,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "BRE08"
       ],
@@ -498,7 +498,7 @@
       "effect_type": "exhaustion_rescue_fraction",
       "effect_value": 0.1,
       "exp_cost": 300,
-      "unlock_milestone": 750,
+      "unlock_milestone": 700,
       "prerequisites": [
         "BRE09"
       ],

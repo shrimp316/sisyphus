@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "engine": "Godot 4.5.1 stable",
+  "checks": 244,
+  "save_path": "user://mvp-integration-unlock150-cc3099c4b58b439ebb7962ca23834f88.json",
+  "suite": "mvp_integration",
+  "failures": [],
+  "manual_arrival_fixtures": true,
+  "evidence": "Actual headless test execution; saved terminal JSON, no historical result overwrite"
+}

@@ -3,7 +3,11 @@ extends RefCounted
 ## EXP wallet and permanent eligibility. UI owns safe purchase context and durable writes.
 const SAVE_VERSION: int = 2
 const MAX_SAFE_INTEGER: int = 9007199254740991
-const UNLOCK_DISTANCES: Array[int] = [250, 500, 750, 1000]
+const UNLOCK_DISTANCES: Array[int] = [150, 400, 700, 1000]
+
+static func normalized_unlock_distance(distance: int) -> int:
+	# Existing v2 saves retain their schema; old event distances identify the same node groups.
+	return int({250: 150, 500: 400, 750: 700}.get(distance, distance))
 
 var definitions: Array[Dictionary] = []
 var balance: Dictionary = {}
@@ -173,7 +177,7 @@ func import_legacy_record(distance: float) -> bool:
 		return false
 	highest_distance = distance
 	record_milestones = int(floor(distance / float(balance.milestone_distance)))
-	_unlock_distance(minf(distance, 750.0), false)
+	_unlock_distance(minf(distance, 700.0), false)
 	return true
 
 func snapshot() -> Dictionary:
@@ -209,6 +213,11 @@ func restore(data: Dictionary) -> bool:
 	record_milestones = int(data.record_milestones)
 	_committed_run_tokens.assign(data.committed_run_tokens)
 	_pending_milestones.assign(data.pending_milestones.duplicate(true))
+	for event: Dictionary in _pending_milestones:
+		event.distance = normalized_unlock_distance(int(event.distance))
+	# Grant newly eligible normal nodes silently: loading is not a new climb milestone.
+	# Cap at the last normal group so legacy record imports never gain special eligibility.
+	_unlock_distance(minf(highest_distance, 700.0), false)
 	return true
 
 func _validate_snapshot(data: Dictionary) -> bool:
@@ -258,9 +267,12 @@ func _validate_snapshot(data: Dictionary) -> bool:
 		return false
 	var seen: Array[int] = []
 	for event: Variant in data.pending_milestones:
-		if not event is Dictionary or event.size() != 2 or not _integer(event.get("distance"), 250, 1000):
+		if not event is Dictionary or event.size() != 2 or not _integer(event.get("distance"), 150, 1000):
 			return false
-		var distance: int = int(event.distance)
+		# Validate the original distance before normalizing legacy events to an earlier gate.
+		if float(event.distance) > float(data.highest_distance):
+			return false
+		var distance: int = normalized_unlock_distance(int(event.distance))
 		if distance not in UNLOCK_DISTANCES or distance in seen or not _unique_strings(event.get("node_ids"), true) or event.node_ids.is_empty():
 			return false
 		seen.append(distance)

@@ -3,7 +3,7 @@ extends SceneTree
 const Scene = preload("res://scenes/mvp/main_mvp.tscn")
 const Profile = preload("res://scripts/mastery_progression.gd")
 const Contract = preload("res://scripts/mvp/save_contract.gd")
-const OUTPUT := "res://tests/mastery/results/v12-patch/verification"
+const OUTPUT := "res://tests/mastery/results/unlock-150-400-700/live"
 var checks := 0
 var failures: Array[String] = []
 var captures: Array = []
@@ -94,6 +94,7 @@ func run() -> void:
 	check(main.board.node_views.size() == 35 and main.board.slots.size() == 35, "35 real mapped nodes")
 	check(main.board.profile == main.mastery, "live model identity, not mock")
 	check(main.mastery.available_exp == 0 and not main.board.purchase_allowed, "title readonly actual empty wallet")
+	check(main.board.detail_requirement.text.contains("150 m"), "first live requirement shows150m")
 	check(not main.board.exp_label.text.contains("강화점"), "MVP wallet never mislabeled rank points")
 	check(button_named(main.board, "30점 시연") == null, "no developer funding control in game")
 	check(button_named(main.board, "구매 초기화") == null, "no developer reset control in game")
@@ -107,14 +108,14 @@ func run() -> void:
 	main._reset_game()
 	await frames()
 	check(main.screen == "game" and Contract.validate(main._save_payload()), "real fresh run save contract")
-	main.mastery.award_distance(250,1000)
-	main.boulder.distance = 250
-	main.boulder.peak = 250
+	main.mastery.award_distance(150,1000)
+	main.boulder.distance = 150
+	main.boulder.peak = 150
 	main.boulder.velocity = 1.0
 	main.update_progression()
 	await frames()
-	check(main.modal_milestone.get("distance") == 250 and main.board.visible, "real milestone opens new board")
-	check(main.mastery.available_exp == 150 and main.board.purchase_allowed, "existing milestone permission and EXP150")
+	check(main.modal_milestone.get("distance") == 150 and main.board.visible, "real milestone opens new board")
+	check(main.mastery.available_exp == 90 and main.board.purchase_allowed, "existing milestone permission and EXP90")
 	main.board.select_node("STR01")
 	await frames()
 	var definition: Dictionary = main.mastery.get_node_definition("STR01")
@@ -124,15 +125,15 @@ func run() -> void:
 	main.advance_gameplay(1.0,[true,true,true])
 	check(main.boulder.snapshot() == frozen, "open tablet freezes entire climbing state")
 	await click(main.board.purchase_button)
-	check(main.ui_mode == "confirm_board" and main.mastery.available_exp == 150, "purchase request opens confirmation without spending")
+	check(main.ui_mode == "confirm_board" and main.mastery.available_exp == 90, "purchase request opens confirmation without spending")
 	await click(button_named(main.overlay, "취소"))
-	check(main.mastery.available_exp == 150 and "STR01" not in main.mastery.purchased_mastery_nodes, "cancel never buys")
+	check(main.mastery.available_exp == 90 and "STR01" not in main.mastery.purchased_mastery_nodes, "cancel never buys")
 	await click(main.board.purchase_button)
 	await key(KEY_ESCAPE)
-	check(main.ui_mode == "board" and main.board.visible and main.mastery.available_exp == 150, "Escape dismisses confirmation before board")
+	check(main.ui_mode == "board" and main.board.visible and main.mastery.available_exp == 90, "Escape dismisses confirmation before board")
 	await click(main.board.purchase_button)
 	await click(button_named(main.overlay, "확인"))
-	check(main.mastery.available_exp == 150-int(definition.exp_cost) and "STR01" in main.mastery.purchased_mastery_nodes, "confirmed real purchase spends existing cost once")
+	check(main.mastery.available_exp == 90-int(definition.exp_cost) and "STR01" in main.mastery.purchased_mastery_nodes, "confirmed real purchase spends existing cost once")
 	check(is_equal_approx(main.boulder.push_multiplier,1.03), "existing modifier applied unchanged")
 	check(main.board.purchase_button.disabled, "purchased node button disabled")
 	var spent: int = main.mastery.available_exp
@@ -142,10 +143,10 @@ func run() -> void:
 	await capture("mvp-purchase-1920")
 	await key(KEY_ESCAPE)
 	check(not main.board.visible and not main.paused and main.screen == "game", "Escape resumes live climb")
-	main.boulder.distance = 260
-	main.boulder.peak = 260
+	main.boulder.distance = 160
+	main.boulder.peak = 160
 	main.boulder.velocity = 1.0
-	main.mastery.award_distance(260,1000)
+	main.mastery.award_distance(160,1000)
 	main.modal_milestone = {}
 	await key(KEY_TAB)
 	check(main.board.visible and not main.board.purchase_allowed, "Tab opens readonly on moving slope")
@@ -204,6 +205,9 @@ func run() -> void:
 		for id: String in main.board.slots:
 			main.board.select_node(id)
 			await frames(1)
+			if not id.begins_with("SPC"):
+				var threshold: int = int(main.mastery.get_node_definition(id).unlock_milestone)
+				check(threshold in [150,400,700] and main.board.detail_requirement.text.contains("%d m" % threshold), "new unlock requirement matches model " + id)
 			for label: Label in [main.board.detail_name,main.board.detail_effect,main.board.detail_requirement,main.board.detail_cost,main.board.detail_state]:
 				var height: float = label.get_line_count() * label.get_theme_font("font").get_height(label.get_theme_font_size("font_size"))
 				check(height <= label.size.y + 1, "all live descriptions fit " + str(dimensions) + id + str(label.name))

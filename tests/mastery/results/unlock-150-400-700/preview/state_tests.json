@@ -1,0 +1,77 @@
+{
+	"checks": 505,
+	"display": "headless",
+	"engine": "4.5.1-stable (official)",
+	"failures": [],
+	"fixtures": [
+		{
+			"eligible": {
+				"breath": 0,
+				"endurance": 0,
+				"special": 0,
+				"strength": 0
+			},
+			"fixture": "zero",
+			"purchased": 0,
+			"total_xp": 0
+		},
+		{
+			"eligible": {
+				"breath": 3,
+				"endurance": 3,
+				"special": 0,
+				"strength": 4
+			},
+			"fixture": "150",
+			"purchased": 0,
+			"total_xp": 90
+		},
+		{
+			"eligible": {
+				"breath": 6,
+				"endurance": 7,
+				"special": 0,
+				"strength": 7
+			},
+			"fixture": "400",
+			"purchased": 0,
+			"total_xp": 240
+		},
+		{
+			"eligible": {
+				"breath": 10,
+				"endurance": 10,
+				"special": 0,
+				"strength": 10
+			},
+			"fixture": "700",
+			"purchased": 0,
+			"total_xp": 420
+		},
+		{
+			"eligible": {
+				"breath": 10,
+				"endurance": 10,
+				"special": 0,
+				"strength": 10
+			},
+			"fixture": "first_summit",
+			"purchased": 0,
+			"total_xp": 600
+		},
+		{
+			"eligible": {
+				"breath": 10,
+				"endurance": 10,
+				"special": 5,
+				"strength": 10
+			},
+			"fixture": "next_run",
+			"purchased": 0,
+			"total_xp": 600
+		}
+	],
+	"passed": true,
+	"scope": "in-memory mock adapter, unchanged Progression, resolver states and permanent-eligibility semantics; no game integration",
+	"suite": "state_tests"
+}

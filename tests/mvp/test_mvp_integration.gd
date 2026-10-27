@@ -135,35 +135,35 @@ func run() -> void:
 	check("밀기 키를 놓고" in main._slip_recovery_hint(), "MVP Slip hint instructs releasing normal push too")
 	check(main._ui_font_size(main._distance_hud_font_size()) == 28, "MVP distance HUD resolves to the shared 28px role")
 	check(Contract.validate(main._save_payload()), "initial save contract")
-	main.mastery.award_distance(249.999, 1000.0)
-	main.boulder.distance = 249.999
-	main.boulder.peak = 249.999
+	main.mastery.award_distance(149.999, 1000.0)
+	main.boulder.distance = 149.999
+	main.boulder.peak = 149.999
 	main.boulder.velocity = 1.0
 	main.boulder.stamina = 71.0
 	main.boulder.slip = 42.0
 	main.boulder.slip_remaining = 0.4
 	main.advance_gameplay(DT, [true, false, false])
-	check(main.paused and main.modal_milestone.get("distance") == 250, "fixed step crossing opens milestone pause")
-	check(main.mastery.available_exp == 150, "250m awards exact first record EXP")
+	check(main.paused and main.modal_milestone.get("distance") == 150, "fixed step crossing opens milestone pause")
+	check(main.mastery.available_exp == 90, "150m awards exact first record EXP")
 	var frozen: Dictionary = main.boulder.snapshot()
 	main.advance_gameplay(4.0, [true, true, true])
 	check(same(frozen, main.boulder.snapshot()), "position velocity stamina Slip timer and elapsed freeze")
-	check(main.update_progression() == 0 and main.mastery.available_exp == 150, "paused milestone does not duplicate EXP")
+	check(main.update_progression() == 0 and main.mastery.available_exp == 90, "paused milestone does not duplicate EXP")
 	check(main.board.purchase_allowed, "milestone permits purchase while moving")
 	main._confirm_purchase("STR01")
 	check(main.ui_mode == "confirm_board", "purchase confirmation UI")
 	press("확인")
-	check(main.mastery.available_exp == 120 and "STR01" in main.mastery.purchased_mastery_nodes, "purchase spends once")
+	check(main.mastery.available_exp == 60 and "STR01" in main.mastery.purchased_mastery_nodes, "purchase spends once")
 	check(absf(main.boulder.push_multiplier - 1.03) < 0.000001 and main.boulder.stamina == frozen.stamina, "purchase applies modifier without free refill")
 	main._purchase("STR01")
-	check(main.mastery.available_exp == 120, "duplicate purchase rejected")
+	check(main.mastery.available_exp == 60, "duplicate purchase rejected")
 	main._close_board()
 	main.advance_gameplay(DT, [true, false, false])
 	check(main.boulder.elapsed > frozen.elapsed and main.boulder.slip_remaining < frozen.slip_remaining, "closing milestone resumes one fixed step")
 	main._open_board(false)
 	check(not main.board.purchase_allowed, "moving slope disables board purchase")
 	main._purchase("STR02")
-	check(main.mastery.available_exp == 120 and "STR02" not in main.mastery.purchased_mastery_nodes, "unsafe direct purchase blocked")
+	check(main.mastery.available_exp == 60 and "STR02" not in main.mastery.purchased_mastery_nodes, "unsafe direct purchase blocked")
 	main._close_board()
 	for segment: Dictionary in main.mountain.segments:
 		if bool(segment.shelf) and float(segment.start) > main.boulder.distance:

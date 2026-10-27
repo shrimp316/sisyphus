@@ -1,0 +1,8 @@
+{
+	"checks": 13,
+	"failures": [],
+	"passed": true,
+	"scope": "actual scene host load/continue/close/save calls in headless; no browser or new visual capture",
+	"source": "res://tests/mvp/fixtures/web/milestone250.json",
+	"source_sha256": "4db9de03b061b08a73633917d6b7e67b9e7999733858596bd75f535b8701056b"
+}

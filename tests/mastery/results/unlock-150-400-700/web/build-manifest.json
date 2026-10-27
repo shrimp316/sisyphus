@@ -1,0 +1,71 @@
+{
+  "exit_code": 0,
+  "files": [
+    {
+      "name": "FONT-LICENSE.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "name": "GFS-DIDOT-LICENSE.txt",
+      "bytes": 4543,
+      "sha256": "9e19c0d2e7e7adcbe9dfd0749e34dda41e7e356e0f2cc082d61d2fc9b6e0cef7"
+    },
+    {
+      "name": "GODOT-COPYRIGHT.txt",
+      "bytes": 97253,
+      "sha256": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d"
+    },
+    {
+      "name": "GODOT-LICENSE.txt",
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    {
+      "name": "HAHMLET-LICENSE.txt",
+      "bytes": 4477,
+      "sha256": "ddadb10d28a303e3ef3b1f7ec55d3027903b9ec566d2f87d3ee03f3c87c91711"
+    },
+    {
+      "name": "index.audio.position.worklet.js",
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "name": "index.audio.worklet.js",
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "name": "index.html",
+      "bytes": 7351,
+      "sha256": "08be47f261f9d0ff5033135e554a7803f415487390b5dc57141aa898ae6696ac"
+    },
+    {
+      "name": "index.js",
+      "bytes": 272262,
+      "sha256": "123651c35cbaaad10f02630aa8eeb46ad3c488d75eb1ddba5e234e5e3d531ce8"
+    },
+    {
+      "name": "index.pck",
+      "bytes": 45686316,
+      "sha256": "ce79153767784f6f35e00a06a79f62650c20aad9ce5cd048f38191f24acf3345"
+    },
+    {
+      "name": "index.png",
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "name": "index.wasm",
+      "bytes": 36145869,
+      "sha256": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+    },
+    {
+      "name": "PRETENDARD-LICENSE.txt",
+      "bytes": 4816,
+      "sha256": "82e9c8a4b203261f10ddba1296422d64914ff3d4b7bd8a12896d03f0f088d70a"
+    }
+  ],
+  "source_nodes_sha256": "8bdc906aa97238d686e5058ce995f90d910978c6b895f8ad1e4e5091fff9a161"
+}

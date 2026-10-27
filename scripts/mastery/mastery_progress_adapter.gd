@@ -11,7 +11,7 @@ var best := 0
 var current_distance := 0
 var current_run_number := 1
 var first_summit_run_number := -1
-var first_reach_flags: Dictionary = {"250": false, "500": false, "750": false}
+var first_reach_flags: Dictionary = {"150": false, "400": false, "700": false}
 var fixture_id := "zero"
 var purchase_busy := false
 
@@ -34,7 +34,7 @@ func apply_fixture(id: String) -> void:
 		progression.record_milestones = int(best / 50)
 		current_run_number = int(fixture.current_run_number)
 		first_summit_run_number = int(fixture.first_summit_run_number)
-		first_reach_flags = {"250": best >= 250, "500": best >= 500, "750": best >= 750}
+		first_reach_flags = {"150": best >= 150, "400": best >= 400, "700": best >= 700}
 		changed.emit()
 		return
 	push_error("Unknown preview fixture: " + id)
@@ -53,7 +53,7 @@ func record_reach(distance: int) -> void:
 	current_distance = clampi(distance, 0, 1000)
 	best = maxi(best, current_distance)
 	progression.award_distance(current_distance, 1000.0)
-	for milestone in [250, 500, 750]:
+	for milestone in [150, 400, 700]:
 		if best >= milestone: first_reach_flags[str(milestone)] = true
 	if current_distance >= 1000 and first_summit_run_number < 0: first_summit_run_number = current_run_number
 	changed.emit()

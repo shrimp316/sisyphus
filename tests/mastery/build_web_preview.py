@@ -11,8 +11,8 @@ import time
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output-dir', default='builds/mastery-v12')
-    parser.add_argument('--results', default='tests/mastery/results/v12/web')
+    parser.add_argument('--output-dir', default='builds/mastery-unlock-150-400-700')
+    parser.add_argument('--results', default='tests/mastery/results/unlock-150-400-700/preview-web')
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[2]
     output = root / args.output_dir

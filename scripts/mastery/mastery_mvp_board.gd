@@ -102,7 +102,7 @@ func purchase_selected() -> bool:
 
 func play_unlock(distance: int) -> void:
 	skip_animations()
-	if distance in [250, 500, 750]:
+	if distance in [150, 400, 700]:
 		for i in 3: gate_views[i].play()
 
 func _unhandled_key_input(_event: InputEvent) -> void:

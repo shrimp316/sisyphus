@@ -7,7 +7,7 @@ var report = Report.new()
 var viewport: SubViewport
 var screen
 var captures: Array = []
-var output := "res://tests/mastery/results/v12/verification/captures"
+var output: String = Report.output_directory().path_join("captures")
 
 func _initialize() -> void:
 	call_deferred("run")
@@ -105,7 +105,7 @@ func run() -> void:
 			for previous: Rect2 in node_rects: report.check(not rect.intersects(previous), "separate node hit areas " + name)
 			node_rects.append(rect)
 		await check_detail(name)
-		for fixture: String in ["zero","250","500","750","first_summit","next_run"]:
+		for fixture: String in ["zero","150","400","700","first_summit","next_run"]:
 			screen.apply_fixture(fixture,false)
 			screen.select_node("act1_special_01" if fixture in ["first_summit","next_run"] else "act1_strength_01")
 			await capture(fixture + "-" + name)
@@ -115,7 +115,7 @@ func run() -> void:
 		report.check(screen.selected_id == "act1_breath_10" and screen.node_views.act1_breath_10.selection_overlay.visible, "mouse selects locked node " + name)
 		report.check(screen.node_views.act1_breath_10.state.base_state == "STORY_LOCKED", "locked selection keeps base state " + name)
 	viewport.size = Vector2i(1920,1080)
-	screen.apply_fixture("250",false)
+	screen.apply_fixture("150",false)
 	await frames()
 	await click_control(screen.node_views.act1_strength_01.hit_target)
 	report.check(not screen.purchase_button.disabled, "mouse selection enables valid purchase")
@@ -136,7 +136,7 @@ func run() -> void:
 	await click_control(screen.node_views.act1_endurance_01.hit_target)
 	report.check(screen.node_views.act1_endurance_01.state.base_state == "INSUFFICIENT_EXP" and screen.node_views.act1_endurance_01.selection_overlay.visible and screen.purchase_button.disabled, "mouse selects unfunded node independently")
 	await capture("mixed-states-1920x1080")
-	screen.apply_fixture("750",false)
+	screen.apply_fixture("700",false)
 	screen.adapter.fund_preview()
 	for view in screen.node_views.values():
 		if view.data.track != "special": screen.adapter.purchase(view.data)
@@ -146,7 +146,7 @@ func run() -> void:
 	for view in screen.node_views.values():
 		if view.data.track != "special": report.check(view.glyph.modulate == track_colors[view.data.track], "active glyph track color " + str(view.data.node_id))
 	await capture("all-normal-purchased-1920x1080")
-	screen.apply_fixture("250",true)
+	screen.apply_fixture("150",true)
 	report.check(screen.progress_label.text.contains("10 / 35"), "gate state committed before animation")
 	report.check(screen.gate_views[0].playing and screen.gate_views[0].wall.texture.resource_path.ends_with("stone_wall_closed.png"), "gate plays provided rectangular stone wall")
 	await create_timer(0.32).timeout
@@ -155,7 +155,7 @@ func run() -> void:
 	screen.skip_animations()
 	report.check(screen.adapter.snapshot() == before_skip, "skipping visual gate cannot change progression")
 	for gate in screen.gate_views: report.check(not gate.playing and not gate.blocker.visible, "skip releases gate-only blocker")
-	screen.apply_fixture("500",true)
+	screen.apply_fixture("400",true)
 	await key(KEY_ESCAPE)
 	report.check(not screen.visible, "Escape actually closes screen")
 	for gate in screen.gate_views: report.check(not gate.playing and not gate.blocker.visible, "close releases in-flight gate")

@@ -1,0 +1,37 @@
+{
+  "base_commit": "5041f21a1d9f0f1986f331f67ff04584eedb4a38",
+  "protected_sha256_unchanged": {
+    "data/mastery/balance.json": true,
+    "data/mastery/difficulty.json": true,
+    "scripts/mastery_effects.gd": true,
+    "scripts/boulder_controller.gd": true,
+    "scripts/mastery_boulder.gd": true,
+    "scripts/mvp/climb_boulder.gd": true,
+    "scripts/mountain_manager.gd": true,
+    "scripts/progression.gd": true,
+    "project.godot": true
+  },
+  "all_node_fields_except_unlock_unchanged": true,
+  "runtime_groups": {
+    "150": 10,
+    "400": 10,
+    "700": 10,
+    "1000": 5
+  },
+  "layout_model_mismatch": [],
+  "independent_migration": {
+    "checks": 158,
+    "failures": [],
+    "passed": true
+  },
+  "source_sha256": {
+    "scripts/mastery_progression.gd": "0d35fb5fce541333d96daca66086e2407c7929158a293b733e3c75f8d4ada872",
+    "scripts/mvp/save_contract.gd": "151e397b546b5b0960a9eb0ecd803728bd3a05963c1f335b0d8076bf4259e38c",
+    "scripts/mvp/mastery_main.gd": "d542009cab5ceda28b935f224f654919507485177be5690968c8c47f555a008a",
+    "scripts/mastery/mastery_mvp_board.gd": "a73439777b7fc6cb5a9fba5d23a1d8583e84e856fb71ec6e3d9d4ca98994df54",
+    "data/mastery/nodes.json": "8bdc906aa97238d686e5058ce995f90d910978c6b895f8ad1e4e5091fff9a161"
+  },
+  "findings": [],
+  "scope": "Independent review of runtime threshold and save compatibility; UI/web capture testing performed separately",
+  "passed": true
+}

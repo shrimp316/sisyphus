@@ -21,7 +21,7 @@ func run() -> void:
 	nodes = Loader.load_nodes()
 	for node: Dictionary in nodes: node_by_id[node.node_id] = node
 	var adapter = Adapter.new()
-	var cases: Array = [["zero", [0,0,0,0], 0], ["250", [4,3,3,0], 150], ["500", [7,7,6,0], 300], ["750", [10,10,10,0], 450], ["first_summit", [10,10,10,0], 600], ["next_run", [10,10,10,5], 600]]
+	var cases: Array = [["zero", [0,0,0,0], 0], ["150", [4,3,3,0], 90], ["400", [7,7,6,0], 240], ["700", [10,10,10,0], 420], ["first_summit", [10,10,10,0], 600], ["next_run", [10,10,10,5], 600]]
 	var fixture_results: Array = []
 	for test_case: Array in cases:
 		adapter.apply_fixture(test_case[0])
@@ -43,7 +43,7 @@ func run() -> void:
 		fixture_results.append({"fixture": test_case[0], "eligible": counts, "purchased": bought, "total_xp": snapshot.total_xp})
 		adapter.record_reach(int(snapshot.current_distance))
 		report.check(adapter.snapshot().total_xp == snapshot.total_xp, "revisiting fixture distance does not duplicate XP " + str(test_case[0]))
-	adapter.apply_fixture("250")
+	adapter.apply_fixture("150")
 	var first: Dictionary = node_by_id.act1_strength_01
 	var second: Dictionary = node_by_id.act1_strength_02
 	report.check(Resolver.resolve(first, adapter.snapshot()).base_state == "AVAILABLE", "first eligible strength available")
@@ -54,27 +54,31 @@ func run() -> void:
 	report.check(adapter.snapshot().total_xp == before.total_xp and adapter.snapshot().pending_points == before.pending_points - 1, "purchase consumes one point, does not subtract XP")
 	before = adapter.snapshot()
 	report.check(not adapter.purchase(first) and adapter.snapshot() == before, "same node cannot be purchased twice")
-	report.check(Resolver.resolve(second, adapter.snapshot()).base_state == "AVAILABLE", "successor available after prerequisite purchase")
+	report.check(Resolver.resolve(second, adapter.snapshot()).base_state == "INSUFFICIENT_EXP", "150m earns only one existing upgrade point")
+	# Further distance earns existing XP; it does not open a new mastery tier.
+	adapter.record_reach(250)
+	report.check(adapter.snapshot().total_xp == 150 and count_eligible(adapter.snapshot()) == 10, "250m earns more existing XP without a second unlock tier")
+	report.check(Resolver.resolve(second, adapter.snapshot()).base_state == "AVAILABLE", "successor available after earning another point")
 	report.check(adapter.purchase(second), "second point purchases")
 	var breath: Dictionary = node_by_id.act1_breath_01
 	report.check(Resolver.resolve(breath, adapter.snapshot()).base_state == "INSUFFICIENT_EXP", "zero pending points displayed as legacy insufficient state")
 	before = adapter.snapshot()
 	report.check(not adapter.purchase(breath) and adapter.snapshot() == before, "unfunded purchase changes nothing")
 	var contradictory: Dictionary = adapter.snapshot()
-	contradictory.first_reach_flags = {"250":false,"500":false,"750":false}
+	contradictory.first_reach_flags = {"150":false,"400":false,"700":false}
 	contradictory.best = 0
 	contradictory.current_distance = 0
 	report.check(Resolver.resolve(first, contradictory).base_state == "PURCHASED", "existing saved rank takes precedence over distance lock")
 	var detached: Dictionary = adapter.snapshot()
 	detached.ranks.strength = 10
-	detached.first_reach_flags["750"] = true
-	report.check(adapter.snapshot().ranks.strength == 2 and not adapter.snapshot().first_reach_flags["750"], "snapshot mutation cannot alter adapter ranks or flags")
+	detached.first_reach_flags["700"] = true
+	report.check(adapter.snapshot().ranks.strength == 2 and not adapter.snapshot().first_reach_flags["700"], "snapshot mutation cannot alter adapter ranks or flags")
 	adapter.fund_preview()
 	report.check(adapter.purchase(breath) and adapter.snapshot().ranks.recovery == 1 and not adapter.snapshot().ranks.has("breath"), "breath maps to current recovery rank")
 	adapter.apply_fixture("zero")
-	adapter.record_reach(749)
-	report.check(count_eligible(adapter.snapshot()) == 20, "749m does not prematurely unlock 750 milestone")
-	adapter.record_reach(750)
+	for boundary: Array in [[149,0], [150,10], [399,10], [400,20], [699,20], [700,30]]:
+		adapter.record_reach(boundary[0])
+		report.check(count_eligible(adapter.snapshot()) == boundary[1], "exact new unlock boundary %dm" % boundary[0])
 	adapter.record_reach(0)
 	report.check(count_eligible(adapter.snapshot()) == 30, "backtracking does not relock first-reach milestones")
 	adapter.record_reach(1000)
@@ -95,7 +99,7 @@ func run() -> void:
 	report.check(reset.ranks == {"strength":0,"endurance":0,"recovery":0}, "preview reset clears purchased ranks")
 	report.check(reset.first_reach_flags == before.first_reach_flags and reset.first_summit_run_number == before.first_summit_run_number and count_eligible(reset) == 35, "preview reset preserves permanent eligibility")
 	report.check(reset.total_xp == before.total_xp and reset.current_run_number == before.current_run_number, "preview reset is not a fabricated prestige economy")
-	adapter.apply_fixture("250")
+	adapter.apply_fixture("400")
 	adapter.purchase_succeeded.connect(func(_id: String): recursive_purchase_result = adapter.purchase(second))
 	report.check(adapter.purchase(first), "first purchase succeeds with reentrant callback")
 	report.check(not recursive_purchase_result and adapter.snapshot().ranks.strength == 1, "reentrant purchase callback cannot double-spend")

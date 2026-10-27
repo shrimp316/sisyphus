@@ -1,0 +1,13 @@
+{
+  "url": "http://127.0.0.1:8774/index.html",
+  "checks": [
+    "MVP startup",
+    "menu tablet opens",
+    "STR01 requirement150m",
+    "STR05 requirement400m",
+    "STR08 requirement700m"
+  ],
+  "console_errors_or_warnings": [],
+  "passed": true,
+  "scope": "Read-only browser UI selection; boundary/purchase/legacy-save behavior tested natively"
+}
