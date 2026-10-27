@@ -1,0 +1,188 @@
+{
+  "jobs": [
+    {
+      "id": "gate_route_zero",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "growth_id": "zero",
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "seeds": [
+        101
+      ],
+      "weather": "clear",
+      "max_run_seconds": 1500,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 23,
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "experiment_case": "full_route_witness"
+    },
+    {
+      "id": "gate_route_balanced9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "growth_id": "balanced9",
+      "ranks": {
+        "strength": 9,
+        "endurance": 9,
+        "recovery": 9
+      },
+      "seeds": [
+        101
+      ],
+      "weather": "clear",
+      "max_run_seconds": 1500,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 23,
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "experiment_case": "full_route_witness"
+    },
+    {
+      "id": "gate_route_strength10_endurance8",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "growth_id": "strength10_endurance8",
+      "ranks": {
+        "strength": 10,
+        "endurance": 8,
+        "recovery": 0
+      },
+      "seeds": [
+        101
+      ],
+      "weather": "clear",
+      "max_run_seconds": 1500,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 23,
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "experiment_case": "full_route_witness"
+    },
+    {
+      "id": "gate_route_strength8_endurance10",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "growth_id": "strength8_endurance10",
+      "ranks": {
+        "strength": 8,
+        "endurance": 10,
+        "recovery": 0
+      },
+      "seeds": [
+        101
+      ],
+      "weather": "clear",
+      "max_run_seconds": 1500,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 23,
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "experiment_case": "full_route_witness"
+    }
+  ]
+}

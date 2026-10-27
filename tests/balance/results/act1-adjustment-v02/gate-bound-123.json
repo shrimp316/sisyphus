@@ -1,0 +1,716 @@
+{
+	"certificates": [
+		{
+			"angle_degrees": 45.0,
+			"assumptions": "Constant dry STONE gate; no stamina recovery inside; no positive external impulses; no purchase inside; initial stamina <= capacity, speed <=1.8. Discrete semi-implicit integration; all ordinary input combinations, arbitrary timing and retreat included. Bound cannot certify feasibility when its margin is positive.",
+			"drain_multiplier": 1.7,
+			"entry_kinetic_energy_upper": 1.62,
+			"impossible_if_negative_margin": -6.7962207308689,
+			"length_m": 123.0,
+			"min_retarding_acceleration": 1.92132034355964,
+			"necessary_work_lower": 236.293582452683,
+			"optimistic_budget_upper": 229.497361721814,
+			"ranks": {
+				"endurance": 0,
+				"strength": 0
+			},
+			"weighted_stamina_upper": 88.5425,
+			"work_per_weighted_stamina_upper": 2.57364950980392,
+			"zero_input_space_certificate": true
+		},
+		{
+			"angle_degrees": 45.0,
+			"assumptions": "Constant dry STONE gate; no stamina recovery inside; no positive external impulses; no purchase inside; initial stamina <= capacity, speed <=1.8. Discrete semi-implicit integration; all ordinary input combinations, arbitrary timing and retreat included. Bound cannot certify feasibility when its margin is positive.",
+			"drain_multiplier": 1.7,
+			"entry_kinetic_energy_upper": 1.62,
+			"impossible_if_negative_margin": 72.8932629917192,
+			"length_m": 123.0,
+			"min_retarding_acceleration": 1.92132034355964,
+			"necessary_work_lower": 236.293582452683,
+			"optimistic_budget_upper": 309.186845444402,
+			"ranks": {
+				"endurance": 8,
+				"strength": 8
+			},
+			"weighted_stamina_upper": 102.7025,
+			"work_per_weighted_stamina_upper": 2.99473572156863,
+			"zero_input_space_certificate": false
+		},
+		{
+			"angle_degrees": 45.0,
+			"assumptions": "Constant dry STONE gate; no stamina recovery inside; no positive external impulses; no purchase inside; initial stamina <= capacity, speed <=1.8. Discrete semi-implicit integration; all ordinary input combinations, arbitrary timing and retreat included. Bound cannot certify feasibility when its margin is positive.",
+			"drain_multiplier": 1.7,
+			"entry_kinetic_energy_upper": 1.62,
+			"impossible_if_negative_margin": 83.711786595212,
+			"length_m": 123.0,
+			"min_retarding_acceleration": 1.92132034355964,
+			"necessary_work_lower": 236.293582452683,
+			"optimistic_budget_upper": 320.005369047895,
+			"ranks": {
+				"endurance": 9,
+				"strength": 9
+			},
+			"weighted_stamina_upper": 104.4725,
+			"work_per_weighted_stamina_upper": 3.04755193039216,
+			"zero_input_space_certificate": false
+		},
+		{
+			"angle_degrees": 45.0,
+			"assumptions": "Constant dry STONE gate; no stamina recovery inside; no positive external impulses; no purchase inside; initial stamina <= capacity, speed <=1.8. Discrete semi-implicit integration; all ordinary input combinations, arbitrary timing and retreat included. Bound cannot certify feasibility when its margin is positive.",
+			"drain_multiplier": 1.7,
+			"entry_kinetic_energy_upper": 1.62,
+			"impossible_if_negative_margin": 83.7460943326114,
+			"length_m": 123.0,
+			"min_retarding_acceleration": 1.92132034355964,
+			"necessary_work_lower": 236.293582452683,
+			"optimistic_budget_upper": 320.039676785294,
+			"ranks": {
+				"endurance": 8,
+				"strength": 10
+			},
+			"weighted_stamina_upper": 102.7025,
+			"work_per_weighted_stamina_upper": 3.10040823529412,
+			"zero_input_space_certificate": false
+		},
+		{
+			"angle_degrees": 45.0,
+			"assumptions": "Constant dry STONE gate; no stamina recovery inside; no positive external impulses; no purchase inside; initial stamina <= capacity, speed <=1.8. Discrete semi-implicit integration; all ordinary input combinations, arbitrary timing and retreat included. Bound cannot certify feasibility when its margin is positive.",
+			"drain_multiplier": 1.7,
+			"entry_kinetic_energy_upper": 1.62,
+			"impossible_if_negative_margin": 83.4946274460723,
+			"length_m": 123.0,
+			"min_retarding_acceleration": 1.92132034355964,
+			"necessary_work_lower": 236.293582452683,
+			"optimistic_budget_upper": 319.788209898755,
+			"ranks": {
+				"endurance": 10,
+				"strength": 8
+			},
+			"weighted_stamina_upper": 106.2425,
+			"work_per_weighted_stamina_upper": 2.99473572156863,
+			"zero_input_space_certificate": false
+		},
+		{
+			"angle_degrees": 45.0,
+			"assumptions": "Constant dry STONE gate; no stamina recovery inside; no positive external impulses; no purchase inside; initial stamina <= capacity, speed <=1.8. Discrete semi-implicit integration; all ordinary input combinations, arbitrary timing and retreat included. Bound cannot certify feasibility when its margin is positive.",
+			"drain_multiplier": 1.7,
+			"entry_kinetic_energy_upper": 1.62,
+			"impossible_if_negative_margin": 94.7215394855527,
+			"length_m": 123.0,
+			"min_retarding_acceleration": 1.92132034355964,
+			"necessary_work_lower": 236.293582452683,
+			"optimistic_budget_upper": 331.015121938235,
+			"ranks": {
+				"endurance": 10,
+				"strength": 10
+			},
+			"weighted_stamina_upper": 106.2425,
+			"work_per_weighted_stamina_upper": 3.10040823529412,
+			"zero_input_space_certificate": false
+		}
+	],
+	"method": "Independent discrete potential bound plus deliberately ideal fixed-state gate entry witnesses. Not a population completion rate.",
+	"source_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+	"witnesses": [
+		{
+			"crossed": false,
+			"distance_gain_m": 86.2162354119428,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 832.03312860127,
+				"elapsed": 77.7416666666746,
+				"falling_active": true,
+				"partial_falls": 0,
+				"peak": 836.216235411943,
+				"runaway_elapsed": 0.0,
+				"slip": 33.9472380952387,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00126112556594
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 100.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"seconds": 77.7416666666667,
+			"state": "runaway",
+			"target_speed": 1.15
+		},
+		{
+			"crossed": false,
+			"distance_gain_m": 89.5857816515246,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 835.402674840852,
+				"elapsed": 77.7416666666746,
+				"falling_active": true,
+				"partial_falls": 0,
+				"peak": 839.585781651525,
+				"runaway_elapsed": 0.0,
+				"slip": 33.8753333333339,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00126112556594
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 100.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"seconds": 77.7416666666667,
+			"state": "runaway",
+			"target_speed": 1.195
+		},
+		{
+			"crossed": false,
+			"distance_gain_m": 115.961755122054,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 861.777031660404,
+				"elapsed": 103.625000000029,
+				"falling_active": true,
+				"partial_falls": 0,
+				"peak": 865.961755122054,
+				"runaway_elapsed": 0.0,
+				"slip": 24.9520952380949,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00203711803494
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 116.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 8,
+				"recovery": 8,
+				"strength": 8
+			},
+			"seconds": 103.625,
+			"state": "runaway",
+			"target_speed": 1.15
+		},
+		{
+			"crossed": false,
+			"distance_gain_m": 120.496016381314,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 866.311292919664,
+				"elapsed": 103.625000000029,
+				"falling_active": true,
+				"partial_falls": 0,
+				"peak": 870.496016381314,
+				"runaway_elapsed": 0.0,
+				"slip": 24.8801904761901,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00203711803494
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 116.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 8,
+				"recovery": 8,
+				"strength": 8
+			},
+			"seconds": 103.625,
+			"state": "runaway",
+			"target_speed": 1.195
+		},
+		{
+			"crossed": false,
+			"distance_gain_m": 119.980158719585,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 865.798208522666,
+				"elapsed": 107.116666666698,
+				"falling_active": true,
+				"partial_falls": 0,
+				"peak": 869.980158719585,
+				"runaway_elapsed": 0.0,
+				"slip": 24.9158095238091,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.000705950964
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 118.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 9,
+				"recovery": 9,
+				"strength": 9
+			},
+			"seconds": 107.116666666667,
+			"state": "runaway",
+			"target_speed": 1.15
+		},
+		{
+			"crossed": true,
+			"distance_gain_m": 123.004879715726,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 873.004879715726,
+				"elapsed": 103.375000000028,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 873.004879715726,
+				"runaway_elapsed": 0.0,
+				"slip": 30.8122857142853,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 2.98933333330259,
+				"state": "climbing",
+				"velocity": 1.20062080118836
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 118.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 9,
+				"recovery": 9,
+				"strength": 9
+			},
+			"seconds": 103.375,
+			"state": "climbing",
+			"target_speed": 1.195
+		},
+		{
+			"crossed": false,
+			"distance_gain_m": 119.985829055015,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 865.799936474193,
+				"elapsed": 107.100000000031,
+				"falling_active": true,
+				"partial_falls": 0,
+				"peak": 869.985829055015,
+				"runaway_elapsed": 0.0,
+				"slip": 23.7468571428565,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00259829523781
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 116.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 8,
+				"recovery": 0,
+				"strength": 10
+			},
+			"seconds": 107.1,
+			"state": "runaway",
+			"target_speed": 1.15
+		},
+		{
+			"crossed": true,
+			"distance_gain_m": 123.008886447357,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 873.008886447357,
+				"elapsed": 103.358333333362,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 873.008886447357,
+				"runaway_elapsed": 0.0,
+				"slip": 29.751333333333,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 2.92733333330376,
+				"state": "climbing",
+				"velocity": 1.18441415691453
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 116.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 8,
+				"recovery": 0,
+				"strength": 10
+			},
+			"seconds": 103.358333333333,
+			"state": "climbing",
+			"target_speed": 1.195
+		},
+		{
+			"crossed": false,
+			"distance_gain_m": 119.925074182064,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 865.738241209067,
+				"elapsed": 107.091666666698,
+				"falling_active": true,
+				"partial_falls": 0,
+				"peak": 869.925074182064,
+				"runaway_elapsed": 0.0,
+				"slip": 26.138476190476,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00304849237505
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 120.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 10,
+				"recovery": 0,
+				"strength": 8
+			},
+			"seconds": 107.091666666667,
+			"state": "runaway",
+			"target_speed": 1.15
+		},
+		{
+			"crossed": true,
+			"distance_gain_m": 123.000372404295,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 873.000372404295,
+				"elapsed": 103.391666666695,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 873.000372404295,
+				"runaway_elapsed": 0.0,
+				"slip": 32.0790476190472,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 2.91533333330139,
+				"state": "climbing",
+				"velocity": 1.20251314546231
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 120.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 10,
+				"recovery": 0,
+				"strength": 8
+			},
+			"seconds": 103.391666666667,
+			"state": "climbing",
+			"target_speed": 1.195
+		},
+		{
+			"crossed": true,
+			"distance_gain_m": 123.006730209443,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 873.006730209443,
+				"elapsed": 107.408333333365,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 873.006730209443,
+				"runaway_elapsed": 0.0,
+				"slip": 32.6087619047615,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 1.7933333333014,
+				"state": "climbing",
+				"velocity": 1.14620626549798
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 120.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 10,
+				"recovery": 10,
+				"strength": 10
+			},
+			"seconds": 107.408333333333,
+			"state": "climbing",
+			"target_speed": 1.15
+		},
+		{
+			"crossed": true,
+			"distance_gain_m": 123.003296339023,
+			"final_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 873.003296339023,
+				"elapsed": 103.358333333362,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 873.003296339023,
+				"runaway_elapsed": 0.0,
+				"slip": 17.3944761904763,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 12.1633333333015,
+				"state": "climbing",
+				"velocity": 1.19213615691452
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"cleared_ledges": {
+
+				},
+				"distance": 750.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"partial_falls": 0,
+				"peak": 750.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 120.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"is_entry_fixture": true,
+			"policy": "ideal120Hz normal/coast speed target; exert when normal force cannot overcome grade or starting; no state mutation after initial fixture",
+			"ranks": {
+				"endurance": 10,
+				"recovery": 10,
+				"strength": 10
+			},
+			"seconds": 103.358333333333,
+			"state": "climbing",
+			"target_speed": 1.195
+		}
+	]
+}

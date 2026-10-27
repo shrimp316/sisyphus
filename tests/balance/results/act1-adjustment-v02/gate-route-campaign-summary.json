@@ -1,0 +1,1055 @@
+{
+  "source": "tests\\balance\\results\\act1-adjustment-v02\\gate-route-campaigns-ledge-aware\\results.jsonl",
+  "scope": "Ideal 120Hz gate oracle, direct source-derived production integration; excludes UI/loading/purchase deliberation time. Fixed zero does not spend earned XP. Campaigns use actual Progression and natural fall retries; timeout stops the campaign.",
+  "run_count": 72,
+  "campaign_count": 6,
+  "trace_and_economy_checks": [
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 101,
+      "run_index": 1,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 104830,
+      "run_index": 2,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 209559,
+      "run_index": 3,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 314288,
+      "run_index": 4,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 419017,
+      "run_index": 5,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 523746,
+      "run_index": 6,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 628475,
+      "run_index": 7,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 733204,
+      "run_index": 8,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 837933,
+      "run_index": 9,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 942662,
+      "run_index": 10,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1047391,
+      "run_index": 11,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1152120,
+      "run_index": 12,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1256849,
+      "run_index": 13,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1361578,
+      "run_index": 14,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_strength",
+      "seed": 101,
+      "run_index": 1,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_strength",
+      "seed": 104830,
+      "run_index": 2,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_strength",
+      "seed": 209559,
+      "run_index": 3,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_strength",
+      "seed": 314288,
+      "run_index": 4,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_strength",
+      "seed": 419017,
+      "run_index": 5,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_strength",
+      "seed": 523746,
+      "run_index": 6,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_strength",
+      "seed": 628475,
+      "run_index": 7,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_strength",
+      "seed": 733204,
+      "run_index": 8,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 202,
+      "run_index": 1,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 104931,
+      "run_index": 2,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 209660,
+      "run_index": 3,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 314389,
+      "run_index": 4,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 419118,
+      "run_index": 5,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 523847,
+      "run_index": 6,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 628576,
+      "run_index": 7,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 733305,
+      "run_index": 8,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 838034,
+      "run_index": 9,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 942763,
+      "run_index": 10,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1047492,
+      "run_index": 11,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1152221,
+      "run_index": 12,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1256950,
+      "run_index": 13,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1361679,
+      "run_index": 14,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_endurance",
+      "seed": 101,
+      "run_index": 1,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_endurance",
+      "seed": 104830,
+      "run_index": 2,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_endurance",
+      "seed": 209559,
+      "run_index": 3,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_endurance",
+      "seed": 314288,
+      "run_index": 4,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_endurance",
+      "seed": 419017,
+      "run_index": 5,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_endurance",
+      "seed": 523746,
+      "run_index": 6,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_endurance",
+      "seed": 628475,
+      "run_index": 7,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_endurance",
+      "seed": 733204,
+      "run_index": 8,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 303,
+      "run_index": 1,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 105032,
+      "run_index": 2,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 209761,
+      "run_index": 3,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 314490,
+      "run_index": 4,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 419219,
+      "run_index": 5,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 523948,
+      "run_index": 6,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 628677,
+      "run_index": 7,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 733406,
+      "run_index": 8,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 838135,
+      "run_index": 9,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 942864,
+      "run_index": 10,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1047593,
+      "run_index": 11,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1152322,
+      "run_index": 12,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1257051,
+      "run_index": 13,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_balanced",
+      "seed": 1361780,
+      "run_index": 14,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 101,
+      "run_index": 1,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 104830,
+      "run_index": 2,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 209559,
+      "run_index": 3,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 314288,
+      "run_index": 4,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 419017,
+      "run_index": 5,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 523746,
+      "run_index": 6,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 628475,
+      "run_index": 7,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 733204,
+      "run_index": 8,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 837933,
+      "run_index": 9,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 942662,
+      "run_index": 10,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 1047391,
+      "run_index": 11,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 1152120,
+      "run_index": 12,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 1256849,
+      "run_index": 13,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    },
+    {
+      "job_id": "gate_route_campaign_recovery",
+      "seed": 1361578,
+      "run_index": 14,
+      "trace_matches": true,
+      "xp_conserved": true,
+      "early_250_passed": true
+    }
+  ],
+  "all_checks_pass": true,
+  "campaigns": [
+    {
+      "campaign_id": "gate_route_campaign_balanced:101",
+      "seed": 101,
+      "strategy": "balanced",
+      "status": "timeout",
+      "completed": false,
+      "censored": true,
+      "end_ranks": {
+        "endurance": 8,
+        "recovery": 8,
+        "strength": 9
+      },
+      "total_xp": 4750,
+      "runs": 14,
+      "minutes": 179.999999999875,
+      "all_8_minutes": 159.74291666655483,
+      "all_9_minutes": null,
+      "xp_and_rank_continuity": true,
+      "natural_falls": 13,
+      "timeout_attempts": 1,
+      "maximum_peak_m": 872.586602439982,
+      "first_attempt": {
+        "status": "fall",
+        "seconds": 787.008333332782,
+        "peak_m": 846.884721104007,
+        "earned_xp": 480,
+        "end_ranks": {
+          "endurance": 2,
+          "recovery": 1,
+          "strength": 2
+        },
+        "early_250_passed": true
+      },
+      "first_attempt_pre_gate_rest": {
+        "event": "pre_gate_full_heal",
+        "max_stamina": 104.0,
+        "safe_for_upgrade": true,
+        "state": {
+          "accumulator": 0.0,
+          "cleared_ledges": {
+            "zone_2_stone@200": true,
+            "zone_2_stone@350": true,
+            "zone_4_stone@600": true
+          },
+          "distance": 744.862818274542,
+          "elapsed": 683.674999999543,
+          "falling_active": false,
+          "partial_falls": 0,
+          "peak": 744.862818274542,
+          "runaway_elapsed": 0.0,
+          "slip": 0.0,
+          "slip_remaining": 0.0,
+          "slips": 0,
+          "stamina": 104.0,
+          "state": "climbing",
+          "velocity": 0.00209369964143276
+        }
+      },
+      "first_post_fall_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 144.166918337827,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 918.958333332826,
+        "total_xp": 520
+      },
+      "successful_gate_entry": null
+    },
+    {
+      "campaign_id": "gate_route_campaign_strength:101",
+      "seed": 101,
+      "strategy": "strength",
+      "status": "summit",
+      "completed": true,
+      "censored": false,
+      "end_ranks": {
+        "endurance": 9,
+        "recovery": 0,
+        "strength": 10
+      },
+      "total_xp": 2960,
+      "runs": 8,
+      "minutes": 108.07680555547917,
+      "all_8_minutes": null,
+      "all_9_minutes": null,
+      "xp_and_rank_continuity": true,
+      "natural_falls": 7,
+      "timeout_attempts": 0,
+      "maximum_peak_m": 1000.0,
+      "first_attempt": {
+        "status": "fall",
+        "seconds": 787.491666666115,
+        "peak_m": 848.571619734596,
+        "earned_xp": 480,
+        "end_ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 5
+        },
+        "early_250_passed": true
+      },
+      "first_attempt_pre_gate_rest": {
+        "event": "pre_gate_full_heal",
+        "max_stamina": 100.0,
+        "safe_for_upgrade": true,
+        "state": {
+          "accumulator": 0.0,
+          "cleared_ledges": {
+            "zone_2_stone@200": true,
+            "zone_2_stone@350": true,
+            "zone_4_stone@600": true
+          },
+          "distance": 744.817639696259,
+          "elapsed": 682.783333332877,
+          "falling_active": false,
+          "partial_falls": 0,
+          "peak": 744.817639696259,
+          "runaway_elapsed": 0.0,
+          "slip": 0.0,
+          "slip_remaining": 0.0,
+          "slips": 0,
+          "stamina": 100.0,
+          "state": "climbing",
+          "velocity": 0.0496777382978578
+        }
+      },
+      "first_post_fall_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 144.168520440635,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 6
+        },
+        "seconds": 919.324999999493,
+        "total_xp": 520
+      },
+      "successful_gate_entry": {
+        "ranks": {
+          "endurance": 8,
+          "recovery": 0,
+          "strength": 10
+        },
+        "stamina": 116.0,
+        "seconds": 6256.5249999956295,
+        "seed": 733204,
+        "run_index": 8
+      }
+    },
+    {
+      "campaign_id": "gate_route_campaign_balanced:202",
+      "seed": 202,
+      "strategy": "balanced",
+      "status": "timeout",
+      "completed": false,
+      "censored": true,
+      "end_ranks": {
+        "endurance": 8,
+        "recovery": 8,
+        "strength": 9
+      },
+      "total_xp": 4750,
+      "runs": 14,
+      "minutes": 179.999999999875,
+      "all_8_minutes": 159.86930555544367,
+      "all_9_minutes": null,
+      "xp_and_rank_continuity": true,
+      "natural_falls": 13,
+      "timeout_attempts": 1,
+      "maximum_peak_m": 872.586259939367,
+      "first_attempt": {
+        "status": "fall",
+        "seconds": 787.049999999449,
+        "peak_m": 846.881082691162,
+        "earned_xp": 480,
+        "end_ranks": {
+          "endurance": 2,
+          "recovery": 1,
+          "strength": 2
+        },
+        "early_250_passed": true
+      },
+      "first_attempt_pre_gate_rest": {
+        "event": "pre_gate_full_heal",
+        "max_stamina": 104.0,
+        "safe_for_upgrade": true,
+        "state": {
+          "accumulator": 0.0,
+          "cleared_ledges": {
+            "zone_2_stone@300": true,
+            "zone_4_stone@700": true
+          },
+          "distance": 747.4723654461,
+          "elapsed": 685.324999999541,
+          "falling_active": false,
+          "partial_falls": 0,
+          "peak": 747.4723654461,
+          "runaway_elapsed": 0.0,
+          "slip": 0.0,
+          "slip_remaining": 0.0,
+          "slips": 0,
+          "stamina": 104.0,
+          "state": "climbing",
+          "velocity": 0.0493491694369549
+        }
+      },
+      "first_post_fall_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 144.140149139784,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 916.458333332828,
+        "total_xp": 520
+      },
+      "successful_gate_entry": null
+    },
+    {
+      "campaign_id": "gate_route_campaign_endurance:101",
+      "seed": 101,
+      "strategy": "endurance",
+      "status": "summit",
+      "completed": true,
+      "censored": false,
+      "end_ranks": {
+        "endurance": 10,
+        "recovery": 0,
+        "strength": 9
+      },
+      "total_xp": 2960,
+      "runs": 8,
+      "minutes": 108.25347222214567,
+      "all_8_minutes": null,
+      "all_9_minutes": null,
+      "xp_and_rank_continuity": true,
+      "natural_falls": 7,
+      "timeout_attempts": 0,
+      "maximum_peak_m": 1000.0,
+      "first_attempt": {
+        "status": "fall",
+        "seconds": 789.274999999447,
+        "peak_m": 848.468369706378,
+        "earned_xp": 480,
+        "end_ranks": {
+          "endurance": 5,
+          "recovery": 0,
+          "strength": 0
+        },
+        "early_250_passed": true
+      },
+      "first_attempt_pre_gate_rest": {
+        "event": "pre_gate_full_heal",
+        "max_stamina": 110.0,
+        "safe_for_upgrade": true,
+        "state": {
+          "accumulator": 0.0,
+          "cleared_ledges": {
+            "zone_2_stone@200": true,
+            "zone_2_stone@350": true,
+            "zone_4_stone@600": true
+          },
+          "distance": 744.89584546598,
+          "elapsed": 684.541666666208,
+          "falling_active": false,
+          "partial_falls": 0,
+          "peak": 744.89584546598,
+          "runaway_elapsed": 0.0,
+          "slip": 0.0,
+          "slip_remaining": 0.0,
+          "slips": 0,
+          "stamina": 110.0,
+          "state": "climbing",
+          "velocity": 0.00357915109657054
+        }
+      },
+      "first_post_fall_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 144.108651164849,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 6,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 921.241666666157,
+        "total_xp": 520
+      },
+      "successful_gate_entry": {
+        "ranks": {
+          "endurance": 10,
+          "recovery": 0,
+          "strength": 8
+        },
+        "stamina": 120.0,
+        "seconds": 6266.866666662282,
+        "seed": 733204,
+        "run_index": 8
+      }
+    },
+    {
+      "campaign_id": "gate_route_campaign_balanced:303",
+      "seed": 303,
+      "strategy": "balanced",
+      "status": "timeout",
+      "completed": false,
+      "censored": true,
+      "end_ranks": {
+        "endurance": 8,
+        "recovery": 8,
+        "strength": 9
+      },
+      "total_xp": 4770,
+      "runs": 14,
+      "minutes": 179.999999999875,
+      "all_8_minutes": 159.57513888877716,
+      "all_9_minutes": null,
+      "xp_and_rank_continuity": true,
+      "natural_falls": 13,
+      "timeout_attempts": 1,
+      "maximum_peak_m": 872.593862678847,
+      "first_attempt": {
+        "status": "fall",
+        "seconds": 782.808333332786,
+        "peak_m": 846.881082691162,
+        "earned_xp": 480,
+        "end_ranks": {
+          "endurance": 2,
+          "recovery": 1,
+          "strength": 2
+        },
+        "early_250_passed": true
+      },
+      "first_attempt_pre_gate_rest": {
+        "event": "pre_gate_full_heal",
+        "max_stamina": 104.0,
+        "safe_for_upgrade": true,
+        "state": {
+          "accumulator": 0.0,
+          "cleared_ledges": {
+            "zone_2_stone@250": true,
+            "zone_4_stone@700": true
+          },
+          "distance": 747.4723654461,
+          "elapsed": 681.083333332878,
+          "falling_active": false,
+          "partial_falls": 0,
+          "peak": 747.4723654461,
+          "runaway_elapsed": 0.0,
+          "slip": 0.0,
+          "slip_remaining": 0.0,
+          "slips": 0,
+          "stamina": 104.0,
+          "state": "climbing",
+          "velocity": 0.0493491694369549
+        }
+      },
+      "first_post_fall_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 145.315055257954,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 915.908333332829,
+        "total_xp": 520
+      },
+      "successful_gate_entry": null
+    },
+    {
+      "campaign_id": "gate_route_campaign_recovery:101",
+      "seed": 101,
+      "strategy": "recovery",
+      "status": "timeout",
+      "completed": false,
+      "censored": true,
+      "end_ranks": {
+        "endurance": 5,
+        "recovery": 10,
+        "strength": 10
+      },
+      "total_xp": 4710,
+      "runs": 14,
+      "minutes": 179.999999999875,
+      "all_8_minutes": null,
+      "all_9_minutes": null,
+      "xp_and_rank_continuity": true,
+      "natural_falls": 13,
+      "timeout_attempts": 1,
+      "maximum_peak_m": 866.128098571673,
+      "first_attempt": {
+        "status": "fall",
+        "seconds": 780.924999999454,
+        "peak_m": 839.593796215642,
+        "earned_xp": 480,
+        "end_ranks": {
+          "endurance": 0,
+          "recovery": 5,
+          "strength": 0
+        },
+        "early_250_passed": true
+      },
+      "first_attempt_pre_gate_rest": {
+        "event": "pre_gate_full_heal",
+        "max_stamina": 100.0,
+        "safe_for_upgrade": true,
+        "state": {
+          "accumulator": 0.0,
+          "cleared_ledges": {
+            "zone_2_stone@200": true,
+            "zone_2_stone@350": true,
+            "zone_4_stone@600": true
+          },
+          "distance": 744.820931242908,
+          "elapsed": 683.791666666209,
+          "falling_active": false,
+          "partial_falls": 0,
+          "peak": 744.820931242908,
+          "runaway_elapsed": 0.0,
+          "slip": 0.0,
+          "slip_remaining": 0.0,
+          "slips": 0,
+          "stamina": 100.0,
+          "state": "climbing",
+          "velocity": 0.0495450788639494
+        }
+      },
+      "first_post_fall_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 144.108651164849,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 6,
+          "strength": 0
+        },
+        "seconds": 912.891666666165,
+        "total_xp": 520
+      },
+      "successful_gate_entry": null
+    }
+  ]
+}

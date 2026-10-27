@@ -1,0 +1,92 @@
+{
+  "jobs": [
+    {
+      "id": "gate_route_campaign_balanced",
+      "mode": "campaign",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "weather": "",
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 23,
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "experiment_case": "repeat_campaign_actual_xp_gate_oracle"
+    },
+    {
+      "id": "gate_route_campaign_strength",
+      "mode": "campaign",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "seeds": [
+        101
+      ],
+      "weather": "",
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 50,
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "angle": 45,
+            "surface": "STONE",
+            "climb_length": 23,
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "experiment_case": "repeat_campaign_actual_xp_gate_oracle"
+    }
+  ]
+}

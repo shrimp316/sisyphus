@@ -1,0 +1,129 @@
+{
+  "review_status": "scope_qualified_acceptance_of_diagnostics",
+  "original_artifact_sha256": {
+    "tests\\balance\\results\\act1-adjustment-v02\\ledge-v02-diagnostics.json": "348cdb5cd653c5b2f735e1bc18a19a4b7dbdae536fa0969ed26b630a351d4ade",
+    "tests\\balance\\results\\act1-adjustment-v02\\gate-growth-search.json": "57f030efa841f8545954efbffb223ef1fd912edc074553e2e7cc36c9e055ebdf",
+    "tests\\balance\\adjustment_v02\\verify_ledge_v02.gd": "5b26387e6dace20049ccfa6255f734a1b193dd81b5d5aebb23c9dde0cdb2aacb",
+    "tests\\balance\\adjustment_v02\\verify_gate_bound.gd": "eb43210b720fa5e8b2b109f37571343a47d74f1c193055d8a146dee1871fc4f5"
+  },
+  "ledge_trials": 50,
+  "structural_failures": 0,
+  "methods": {
+    "slow_normal": {
+      "n": 5,
+      "cleared": 0,
+      "blocked_steps": 1122,
+      "full_recovery_seen": 0
+    },
+    "sweet_normal": {
+      "n": 5,
+      "cleared": 0,
+      "blocked_steps": 1122,
+      "full_recovery_seen": 0
+    },
+    "fast_normal": {
+      "n": 5,
+      "cleared": 0,
+      "blocked_steps": 1122,
+      "full_recovery_seen": 0
+    },
+    "slow_shift": {
+      "n": 5,
+      "cleared": 5,
+      "blocked_steps": 0,
+      "full_recovery_seen": 0
+    },
+    "sweet_shift": {
+      "n": 5,
+      "cleared": 5,
+      "blocked_steps": 0,
+      "full_recovery_seen": 0
+    },
+    "fast_shift": {
+      "n": 5,
+      "cleared": 5,
+      "blocked_steps": 5,
+      "full_recovery_seen": 0
+    },
+    "low_stamina_shift": {
+      "n": 5,
+      "cleared": 0,
+      "blocked_steps": 73,
+      "full_recovery_seen": 0
+    },
+    "post_slip_shift": {
+      "n": 5,
+      "cleared": 5,
+      "blocked_steps": 5,
+      "full_recovery_seen": 0
+    },
+    "release_to_full_then_shift": {
+      "n": 5,
+      "cleared": 5,
+      "blocked_steps": 0,
+      "full_recovery_seen": 5
+    },
+    "blocked_release_reapproach": {
+      "n": 5,
+      "cleared": 5,
+      "blocked_steps": 5,
+      "full_recovery_seen": 0
+    }
+  },
+  "growth_search": [
+    {
+      "equal_rank": 0,
+      "policy_targets_tested": 5,
+      "crossed": 0,
+      "best_peak_gain_m": 89.5857816515246,
+      "successful_targets": []
+    },
+    {
+      "equal_rank": 3,
+      "policy_targets_tested": 5,
+      "crossed": 0,
+      "best_peak_gain_m": 100.632001408831,
+      "successful_targets": []
+    },
+    {
+      "equal_rank": 5,
+      "policy_targets_tested": 5,
+      "crossed": 0,
+      "best_peak_gain_m": 108.351877894695,
+      "successful_targets": []
+    },
+    {
+      "equal_rank": 8,
+      "policy_targets_tested": 5,
+      "crossed": 0,
+      "best_peak_gain_m": 120.496016381314,
+      "successful_targets": []
+    },
+    {
+      "equal_rank": 9,
+      "policy_targets_tested": 5,
+      "crossed": 1,
+      "best_peak_gain_m": 123.004879715726,
+      "successful_targets": [
+        1.195
+      ]
+    },
+    {
+      "equal_rank": 10,
+      "policy_targets_tested": 5,
+      "crossed": 2,
+      "best_peak_gain_m": 123.006730209443,
+      "successful_targets": [
+        1.15,
+        1.195
+      ]
+    }
+  ],
+  "limitations": [
+    "Zero structural failures only checks target existence/unchanged required_push=1.6, not all trials clearing. Normal/low-stamina failures are intentional observations.",
+    "One selected ledge per candidate at seed101; D1/D3 target686m relocated, BASE/D2/G123 target647.142857m; G123 test is before the gate, not a test of every post-gate ledge.",
+    "All entry states are fixtures; post-slip method initializes a 0.7s lock, not a sampled natural Slip incident.",
+    "5/5 full recovery+Shift and 5/5 actual block+released retreat+reapproach succeeded through legal inputs after fixture. Retreat observed0.020953-0.025028m; not proof of long retreat from exhausted G123.",
+    "Growth search tests only five ideal speed targets from full-stamina1.8m/s gate entry. Failures at3/5/8 are not physical impossibility or population completion rates."
+  ]
+}

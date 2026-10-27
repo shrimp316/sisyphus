@@ -26,7 +26,7 @@ func run() -> void:
 		quit(2)
 		return
 	var config: Variant = JSON.parse_string(FileAccess.get_file_as_string(config_path))
-	var policy_data: Variant = JSON.parse_string(FileAccess.get_file_as_string("res://tests/balance/policies.json"))
+	var policy_data: Variant = JSON.parse_string(FileAccess.get_file_as_string(policy_path()))
 	if not config is Dictionary or not config.get("jobs") is Array or not policy_data is Dictionary:
 		printerr("Invalid configuration or policies JSON")
 		quit(2)
@@ -53,6 +53,9 @@ func run() -> void:
 	OS.execute("git", ["rev-parse", "HEAD"], revision_output)
 	var revision: String = str(revision_output[0]).strip_edges() if not revision_output.is_empty() else "unavailable"
 	emit({"type": "metadata", "schema_version": 2, "fixed_dt": DT, "godot_version": Engine.get_version_info().string, "code_revision": revision, "config": config, "policies": policies, "growth_system": "existing Progression only: cumulative nonspend EXP grants upgrade points; each existing stat rank adds 2%", "timeout_handling": "right-censored; campaigns stop at first run timeout, never reinterpret timeout as fall", "clock_semantics": "controller elapsed includes runaway descent; excludes menus, purchase selection, retry UI and loading time", "candidate_semantics": "push_scale multiplies player push_multiplier only, not BASE_PUSH constant/ledge threshold; slip_scale multiplies material slip gain only, recovery unchanged; drain_scale overrides slope drain multiplier only", "controller": "production BoulderController inherited without copied integration"})
+	var additional_metadata: Dictionary = metadata_additions()
+	if not additional_metadata.is_empty():
+		emit(additional_metadata)
 	for job: Dictionary in config.jobs:
 		for seed_variant: Variant in job.seeds:
 			if str(job.get("mode", "single")) == "campaign":
@@ -95,6 +98,22 @@ func valid_job(job: Dictionary) -> bool:
 func fixture_ranks(job: Dictionary) -> Dictionary:
 	var rank: int = int(job.get("level", 0))
 	return job.get("ranks", {"strength": rank, "endurance": rank, "recovery": rank}).duplicate()
+
+# Extension points for isolated experiments; default behavior is unchanged.
+func policy_path() -> String:
+	return "res://tests/balance/policies.json"
+
+func metadata_additions() -> Dictionary:
+	return {}
+
+func create_controller(world: MountainManager, _candidate: Dictionary) -> BoulderController:
+	return Controller.new(world)
+
+func create_world(seed_value: int, job: Dictionary) -> MountainManager:
+	return MountainManager.new(seed_value, false, int(job.get("generation", 6)), str(job.get("weather", "")))
+
+func augment_result(_result: Dictionary, _boulder: BoulderController, _job: Dictionary) -> void:
+	pass
 
 func emit(record: Dictionary) -> void:
 	output.store_line(JSON.stringify(record))
@@ -257,10 +276,10 @@ func decide(boulder: BoulderController, policy: Dictionary, memory: Dictionary, 
 	return command
 
 func simulate_run(job: Dictionary, seed_value: int, profile: Dictionary, run_index: int, campaign_id: String) -> Dictionary:
-	var world := MountainManager.new(seed_value, false, int(job.get("generation", 6)), str(job.get("weather", "")))
+	var world := create_world(seed_value, job)
 	var candidate: Dictionary = job.get("candidate", {})
 	configure_world(world, candidate)
-	var boulder = Controller.new(world)
+	var boulder = create_controller(world, candidate)
 	apply_growth(boulder, profile.ranks, candidate)
 	boulder.stamina = boulder.max_stamina
 	var start_ranks: Dictionary = profile.ranks.duplicate()
@@ -387,5 +406,6 @@ func simulate_run(job: Dictionary, seed_value: int, profile: Dictionary, run_ind
 	result.shelter_rest_seconds = shelf_rest_seconds
 	result.fall_animation_seconds = fall_animation_seconds
 	result.fall_descent_m = fall_descent_m
+	augment_result(result, boulder, job)
 	emitted_runs += 1
 	return result

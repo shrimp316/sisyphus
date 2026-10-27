@@ -1,0 +1,34 @@
+{
+	"failures": 0,
+	"results": [
+		{
+			"job_id": "gate_route_zero",
+			"match": true,
+			"replayed_steps": 93722,
+			"run_index": 1.0,
+			"seed": 101.0
+		},
+		{
+			"job_id": "gate_route_balanced9",
+			"match": true,
+			"replayed_steps": 109337,
+			"run_index": 1.0,
+			"seed": 101.0
+		},
+		{
+			"job_id": "gate_route_strength10_endurance8",
+			"match": true,
+			"replayed_steps": 109506,
+			"run_index": 1.0,
+			"seed": 101.0
+		},
+		{
+			"job_id": "gate_route_strength8_endurance10",
+			"match": true,
+			"replayed_steps": 109592,
+			"run_index": 1.0,
+			"seed": 101.0
+		}
+	],
+	"source": "tests/balance/results/act1-adjustment-v02/gate-route-fixed-efficient-entry.jsonl"
+}

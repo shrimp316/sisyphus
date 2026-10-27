@@ -1,0 +1,2850 @@
+{
+  "schema_version": 2,
+  "phase": "gate_heldout_100seed_validation",
+  "selection_dataset_sha256": "9a5299d30cab5c7cf998e22afcfc4b300bc2f9735a2f74c50016b98076029078",
+  "notes": [
+    "Selected after existing optimized policy completed3/3 at9/9/9 and0/3 at0/0/0. This is an unrealistic exact-state120Hz controller, not a human cohort.",
+    "100newpairednatural-weather seeds per growth condition, disjoint frompilot. No policy changes.",
+    "Physicalzeroimpossibilitycertificate remains separate from observedfailure rate."
+  ],
+  "jobs": [
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2003
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2006
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2009
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2012
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2015
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2018
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2021
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2024
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2027
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2030
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2033
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2036
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2039
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2042
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2045
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2048
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2051
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2054
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2057
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2060
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2063
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2066
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2069
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2072
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2075
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2078
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2081
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2084
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2087
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2090
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2093
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2096
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_0",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        2099
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_zero"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2002
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2005
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2008
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2011
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2014
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2017
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2020
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2023
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2026
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2029
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2032
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2035
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2038
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2041
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2044
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2047
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2050
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2053
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2056
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2059
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2062
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2065
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2068
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2071
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2074
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2077
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2080
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2083
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2086
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2089
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2092
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2095
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "gate_expanded_optimized_9",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 9,
+      "strategy": "balanced",
+      "seeds": [
+        2098
+      ],
+      "max_run_seconds": 1800,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "fixed_growth"
+    }
+  ]
+}

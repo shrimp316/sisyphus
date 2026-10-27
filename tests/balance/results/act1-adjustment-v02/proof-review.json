@@ -1,0 +1,119 @@
+{
+  "review_status": "conditional_acceptance",
+  "source_controller_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+  "gate_certificate": {
+    "angle_degrees": 45.0,
+    "assumptions": "Constant dry STONE gate; no stamina recovery inside; no positive external impulses; no purchase inside; initial stamina <= capacity, speed <=1.8. Discrete semi-implicit integration; all ordinary input combinations, arbitrary timing and retreat included. Bound cannot certify feasibility when its margin is positive.",
+    "drain_multiplier": 1.7,
+    "entry_kinetic_energy_upper": 1.62,
+    "impossible_if_negative_margin": -6.7962207308689,
+    "length_m": 123.0,
+    "min_retarding_acceleration": 1.92132034355964,
+    "necessary_work_lower": 236.293582452683,
+    "optimistic_budget_upper": 229.497361721814,
+    "ranks": {
+      "endurance": 0,
+      "strength": 0
+    },
+    "weighted_stamina_upper": 88.5425,
+    "work_per_weighted_stamina_upper": 2.57364950980392,
+    "zero_input_space_certificate": true
+  },
+  "one_step_boundary_audit": {
+    "checks": 5760,
+    "failures": 0,
+    "kind": "independent_boundary_fixture_audit_not_gameplay_sampling",
+    "limitation": "Finite boundary-state grid corroborates algebra; not exhaustive proof over continuous states",
+    "max_violation": 0.0,
+    "source_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+    "tolerance": 1e-08,
+    "worst": {
+      "command": [
+        false,
+        false,
+        true
+      ],
+      "final": {
+        "accumulator": 0.0,
+        "cleared_ledges": {},
+        "distance": 800.0,
+        "elapsed": 0.00833333333333333,
+        "falling_active": false,
+        "partial_falls": 0,
+        "peak": 800.0,
+        "runaway_elapsed": 0.0,
+        "slip": 0.0,
+        "slip_remaining": 0.0,
+        "slips": 0,
+        "stamina": 0.0,
+        "state": "climbing",
+        "velocity": 0.0
+      },
+      "potential_delta": 0.0,
+      "slip": 0.0,
+      "slip_remaining": 0.0,
+      "stamina": 1e-06,
+      "velocity": -0.01,
+      "work_bound": 0.0
+    }
+  },
+  "weighted_stamina_exact_DP": [
+    {
+      "capacity": 100,
+      "exact_relaxed_push_budget": "10625051/120000",
+      "relaxed_push_budget": 88.54209166666666,
+      "certificate_bound": 88.5425,
+      "margin": 0.00040833333333333336,
+      "passes": true
+    },
+    {
+      "capacity": 116,
+      "exact_relaxed_push_budget": "12324167/120000",
+      "relaxed_push_budget": 102.70139166666667,
+      "certificate_bound": 102.7025,
+      "margin": 0.0011083333333333333,
+      "passes": true
+    },
+    {
+      "capacity": 118,
+      "exact_relaxed_push_budget": "522359/5000",
+      "relaxed_push_budget": 104.4718,
+      "certificate_bound": 104.4725,
+      "margin": 0.0007,
+      "passes": true
+    },
+    {
+      "capacity": 120,
+      "exact_relaxed_push_budget": "3187211/30000",
+      "relaxed_push_budget": 106.24036666666667,
+      "certificate_bound": 106.2425,
+      "margin": 0.0021333333333333334,
+      "passes": true
+    }
+  ],
+  "reproduction_command": [
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+    "--script",
+    "tests/balance/adjustment_v02/verify_proof_review.gd",
+    "--",
+    "--output",
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\results\\act1-adjustment-v02\\proof-review-step.json"
+  ],
+  "artifact_sha256": {
+    "scripts/boulder_controller.gd": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+    "tests/balance/adjustment_v02/verify_proof_review.py": "43a880384a7b33d28928d9b9c57a8778b1be23e619a07c82e777ac1753d0f841",
+    "tests/balance/adjustment_v02/verify_proof_review.gd": "6057a53f84623c83005bf663a6644a8d8ddc684351b2a07be30036d4684cbc44",
+    "tests/balance/results/act1-adjustment-v02/gate-bound-123.json": "4a7d56a4d219b0fea5a7bf95a0f4d3a12743ee830cb603158119e13ccaa668b8",
+    "tests/balance/results/act1-adjustment-v02/generated_controller.gd": "ddb8320a3279ba65a4f78ca2f4f0514a4e5acf31f8df5ad489fbe7c949fd74a5"
+  },
+  "DP_assumptions": "Exact push-only relaxed schedules use quanta [4,5,12,15]*(17/6000); no recovery. This corroborates the analytic bound, not an exhaustive audit of non-push losses or all physics states.",
+  "excluded_claims": [
+    "No conclusion about original game or A/B/C without the no-recovery gate",
+    "Entry fixtures do not establish full-route or human reachability",
+    "No proof of safe retreat or campaign duration",
+    "IEEE floating-point formal verification not performed"
+  ]
+}

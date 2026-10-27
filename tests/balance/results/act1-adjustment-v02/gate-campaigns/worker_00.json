@@ -1,0 +1,144 @@
+{
+  "schema_version": 2,
+  "phase": "gate_regular_campaign_pilot",
+  "notes": [
+    "Three independent actual-XP campaigns; first run is the first-attempt-growth observation. Run timeout remains censored and stops campaign; no forced failure/retry."
+  ],
+  "jobs": [
+    {
+      "id": "gate_campaign_regular_balanced",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "repeat_campaign"
+    },
+    {
+      "id": "gate_campaign_regular_balanced",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        202
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "repeat_campaign"
+    },
+    {
+      "id": "gate_campaign_regular_balanced",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seeds": [
+        303
+      ],
+      "max_run_seconds": 1800,
+      "max_campaign_seconds": 10800,
+      "max_runs": 30,
+      "candidate": {
+        "id": "G123",
+        "geometry_overrides": [
+          {
+            "chunk_index": 15,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 16,
+            "climb_length": 50,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          },
+          {
+            "chunk_index": 17,
+            "climb_length": 23,
+            "angle": 45,
+            "surface": "STONE",
+            "wet_ranges": []
+          }
+        ],
+        "uphill_recovery_after_m": 750,
+        "uphill_recovery_scale": 0
+      },
+      "generation": 6,
+      "weather": "",
+      "experiment_case": "repeat_campaign"
+    }
+  ]
+}

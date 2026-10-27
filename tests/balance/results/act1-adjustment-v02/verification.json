@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "engine": "Godot 4.5.1.stable.official.f62fdbde1",
+  "engine_sha256": "f0336c8b2ae039d39767a64c416f01b1b49d95d8dde87724012874dd4be1c1a8",
+  "total_godot_checks": 400,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "physics_balance_verification",
+      "checks": 115,
+      "failures": 0,
+      "exit_code": 0,
+      "exit_code_evidence": "Verified original process completed successfully; raw pass summary retained. Exit code is not encoded inside stdout.",
+      "script": "tests/physics_balance_verification.gd",
+      "script_sha256": "e7d40b723ee170b8c55ac441fb6b4e39f22cbc03dc49db4a154a3272cb629812",
+      "raw_log": "verification-logs/physics_balance_verification.txt",
+      "raw_log_sha256": "e296a20ced3f652d46cd27576494d78f1b6e015a79d22b15a584465f7a71c544",
+      "reproduction_command": [
+        ".tools/godot/Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        "tests/physics_balance_verification.gd"
+      ]
+    },
+    {
+      "name": "stamina_brace_verification",
+      "checks": 124,
+      "failures": 0,
+      "exit_code": 0,
+      "exit_code_evidence": "Verified original process completed successfully; raw pass summary retained. Exit code is not encoded inside stdout.",
+      "script": "tests/stamina_brace_verification.gd",
+      "script_sha256": "94ce701c037228184e75a8e91ebb61e39ef0f91d1971c8d6d80d2cc15460a56e",
+      "raw_log": "verification-logs/stamina_brace_verification.txt",
+      "raw_log_sha256": "c70dfdea8c80ad20cfe589203828133bdb389771d36f6d98f32b81d50ab9c1e0",
+      "reproduction_command": [
+        ".tools/godot/Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        "tests/stamina_brace_verification.gd"
+      ]
+    },
+    {
+      "name": "progression_verification",
+      "checks": 50,
+      "failures": 0,
+      "exit_code": 0,
+      "exit_code_evidence": "Verified original process completed successfully; raw pass summary retained. Exit code is not encoded inside stdout.",
+      "script": ".tools/balance-audit/verification/progression_verification.gd",
+      "script_sha256": "24e369678d3a39b1126851a4241996db4680a1d8db2d8ce49643e69b4150e1a2",
+      "raw_log": "verification-logs/progression_verification.txt",
+      "raw_log_sha256": "9ccb6ffba4a59a2e34e7cb6c39dac6c3eb4851a5b973638519aeb66723e3750a",
+      "reproduction_command": [
+        ".tools/godot/Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        ".tools/balance-audit/verification/progression_verification.gd"
+      ],
+      "exact_script_archive": "verification-logs/progression_verification.gd.txt",
+      "fixture_isolation": "Only fixture prefix differs from tests/progression_verification.gd; copied script runs under .tools/balance-audit/verification; real save untouched.",
+      "original_test_sha256": "5abc65163223b1cd0d73d8b303ffdd45fcc1534013ddc4ccdc866f3771ededdd"
+    },
+    {
+      "name": "web_compatibility_tests",
+      "checks": 24,
+      "failures": 0,
+      "exit_code": 0,
+      "exit_code_evidence": "Verified original process completed successfully; raw pass summary retained. Exit code is not encoded inside stdout.",
+      "script": ".tools/balance-audit/verification/web_compatibility_tests.gd",
+      "script_sha256": "3e49b7a5962899b9c1d13bdfffdef63345f675a68c86d100f5ccf71fb5f829ac",
+      "raw_log": "verification-logs/web_compatibility_tests.txt",
+      "raw_log_sha256": "a3aacb197f6c69c74be072e824fa47f150b74d35802aede037e8d4b6be94e339",
+      "reproduction_command": [
+        ".tools/godot/Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        ".tools/balance-audit/verification/web_compatibility_tests.gd"
+      ],
+      "exact_script_archive": "verification-logs/web_compatibility_tests.gd.txt",
+      "fixture_isolation": "Only fixture prefix differs from tests/web_compatibility_tests.gd; copied script runs under .tools/balance-audit/verification; real save untouched.",
+      "original_test_sha256": "b2339eba972a9a05b16845758452c846e9643ed0806609ece1b50b0aa90a374e"
+    },
+    {
+      "name": "v02_verification",
+      "checks": 23,
+      "failures": 0,
+      "exit_code": 0,
+      "exit_code_evidence": "Verified original process completed successfully; raw pass summary retained. Exit code is not encoded inside stdout.",
+      "script": "tests/v02_verification.gd",
+      "script_sha256": "2dbae194db69051930f6e910d37c4b6e4bb1ea01c76101f8d575fd659c23b3ab",
+      "raw_log": "verification-logs/v02_verification.txt",
+      "raw_log_sha256": "65190622f796403bb64d8fe82dd63a854026a49d9028efcdc93917141823af87",
+      "reproduction_command": [
+        ".tools/godot/Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        "tests/v02_verification.gd",
+        "--",
+        "--quick"
+      ]
+    },
+    {
+      "name": "prior_balance_harness",
+      "checks": 43,
+      "failures": 0,
+      "exit_code": 0,
+      "exit_code_evidence": "Verified original process completed successfully; raw pass summary retained. Exit code is not encoded inside stdout.",
+      "script": "tests/balance/verify_harness.gd",
+      "script_sha256": "9af7f50c0be32167108dbc2f2d9fd891c825a9294372dda69d255bf14d9033b6",
+      "raw_log": "verification-logs/prior_balance_harness.txt",
+      "raw_log_sha256": "753d58c27465ba3eea5f1963855bb9454f853189ada78fd9214680505981471a",
+      "reproduction_command": [
+        ".tools/godot/Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        "tests/balance/verify_harness.gd"
+      ]
+    },
+    {
+      "name": "v02_instrumentation",
+      "checks": 21,
+      "failures": 0,
+      "exit_code": 0,
+      "exit_code_evidence": "Verified original process completed successfully; raw pass summary retained. Exit code is not encoded inside stdout.",
+      "script": "tests/balance/adjustment_v02/verify_instrumentation.gd",
+      "script_sha256": "2021b92dc4165898b45a7ab66e075030b246c41863a60ec9f3fdd67532dbaa28",
+      "raw_log": "verification-logs/v02_instrumentation.txt",
+      "raw_log_sha256": "48b9c9dbefdc3f27247cce2705f60eba35117f6ac0ce22eea7ba92c88b394f2d",
+      "reproduction_command": [
+        ".tools/godot/Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        "tests/balance/adjustment_v02/verify_instrumentation.gd"
+      ]
+    }
+  ],
+  "commands_note": "Canonical reproduction commands, without original stdout/engine-log redirection. For two isolated fixtures restore .gd.txt bytes at the listed script path before running. Source hashes read at archival time; runtime production files unchanged.",
+  "expected_stderr": "Web compatibility intentionally feeds two corrupt JSON values; prior harness intentionally rejects unknown growth mode. Their error text is part of successful negative tests.",
+  "production_source_sha256": {
+    "scripts/asset_preview.gd": "e550feb7585f972c0dc59408dc3d7623c4255a78d3e756fd95d4c4e64243ef83",
+    "scripts/asset_visuals.gd": "a16d83980281ede7acef72bc3d4289209719debcabd003ca03e627588056f01c",
+    "scripts/boulder_controller.gd": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+    "scripts/main.gd": "f3623c003d3a85a719bcab6659152629db2d61700fc9849c9c67ef7a454ec5b6",
+    "scripts/mountain_chunk.gd": "4c783aaad3ce4e335cbb538500e01ff21e959916c6822de067060b105e30b6a3",
+    "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+    "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7",
+    "scripts/scenery_visuals.gd": "3c4ae8930bad1089f86be267528a8a9f0f975f60c94ee8b2ac7ca758247106d8",
+    "scripts/soundscape.gd": "9d3bfa84bf6832107d7b88dcb65b51ecd3f18bbb71f7c194e4473b2132be9df8"
+  },
+  "independent_review_scope": "Code-review approval excludes verifier-authored bound/ledge/growth probes; those receive a separate reviewer. 50 ledge trials and 30 growth probes are not added to the 400-check count."
+}

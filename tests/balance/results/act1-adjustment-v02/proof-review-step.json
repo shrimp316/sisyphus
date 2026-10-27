@@ -1,0 +1,40 @@
+{
+	"checks": 5760,
+	"failures": 0,
+	"kind": "independent_boundary_fixture_audit_not_gameplay_sampling",
+	"limitation": "Finite boundary-state grid corroborates algebra; not exhaustive proof over continuous states",
+	"max_violation": 0.0,
+	"source_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+	"tolerance": 0.00000001,
+	"worst": {
+		"command": [
+			false,
+			false,
+			true
+		],
+		"final": {
+			"accumulator": 0.0,
+			"cleared_ledges": {
+
+			},
+			"distance": 800.0,
+			"elapsed": 0.00833333333333333,
+			"falling_active": false,
+			"partial_falls": 0,
+			"peak": 800.0,
+			"runaway_elapsed": 0.0,
+			"slip": 0.0,
+			"slip_remaining": 0.0,
+			"slips": 0,
+			"stamina": 0.0,
+			"state": "climbing",
+			"velocity": 0.0
+		},
+		"potential_delta": 0.0,
+		"slip": 0.0,
+		"slip_remaining": 0.0,
+		"stamina": 0.000001,
+		"velocity": -0.01,
+		"work_bound": 0.0
+	}
+}

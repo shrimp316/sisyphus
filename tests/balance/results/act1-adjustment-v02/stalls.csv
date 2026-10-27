@@ -1,0 +1,1 @@
+job_id,candidate_id,experiment_case,policy,policy_variant,growth_id,growth_mode,level,strategy,seed,campaign_id,run_index,event_index,start_seconds,detected_seconds,end_seconds,distance_m,duration_seconds,outcome,replay_file,classification,physical_proof_status

@@ -1,0 +1,160 @@
+{
+	"failures": 0,
+	"results": [
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 94441,
+			"run_index": 1.0,
+			"seed": 101.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 94687,
+			"run_index": 2.0,
+			"seed": 104830.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 94214,
+			"run_index": 3.0,
+			"seed": 209559.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 94994,
+			"run_index": 4.0,
+			"seed": 314288.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 95239,
+			"run_index": 5.0,
+			"seed": 419017.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 95178,
+			"run_index": 6.0,
+			"seed": 523746.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 95675,
+			"run_index": 7.0,
+			"seed": 628475.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 96133,
+			"run_index": 8.0,
+			"seed": 733204.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 96091,
+			"run_index": 9.0,
+			"seed": 837933.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 96261,
+			"run_index": 10.0,
+			"seed": 942662.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 95823,
+			"run_index": 11.0,
+			"seed": 1047391.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 96610,
+			"run_index": 12.0,
+			"seed": 1152120.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 96678,
+			"run_index": 13.0,
+			"seed": 1256849.0
+		},
+		{
+			"job_id": "gate_route_campaign_balanced",
+			"match": true,
+			"replayed_steps": 53976,
+			"run_index": 14.0,
+			"seed": 1361578.0
+		},
+		{
+			"job_id": "gate_route_campaign_strength",
+			"match": true,
+			"replayed_steps": 94499,
+			"run_index": 1.0,
+			"seed": 101.0
+		},
+		{
+			"job_id": "gate_route_campaign_strength",
+			"match": true,
+			"replayed_steps": 94861,
+			"run_index": 2.0,
+			"seed": 104830.0
+		},
+		{
+			"job_id": "gate_route_campaign_strength",
+			"match": true,
+			"replayed_steps": 94554,
+			"run_index": 3.0,
+			"seed": 209559.0
+		},
+		{
+			"job_id": "gate_route_campaign_strength",
+			"match": true,
+			"replayed_steps": 95636,
+			"run_index": 4.0,
+			"seed": 314288.0
+		},
+		{
+			"job_id": "gate_route_campaign_strength",
+			"match": true,
+			"replayed_steps": 95942,
+			"run_index": 5.0,
+			"seed": 419017.0
+		},
+		{
+			"job_id": "gate_route_campaign_strength",
+			"match": true,
+			"replayed_steps": 96102,
+			"run_index": 6.0,
+			"seed": 523746.0
+		},
+		{
+			"job_id": "gate_route_campaign_strength",
+			"match": true,
+			"replayed_steps": 96683,
+			"run_index": 7.0,
+			"seed": 628475.0
+		},
+		{
+			"job_id": "gate_route_campaign_strength",
+			"match": true,
+			"replayed_steps": 109876,
+			"run_index": 8.0,
+			"seed": 733204.0
+		}
+	],
+	"source": "tests/balance/results/act1-adjustment-v02/gate-route-campaigns-ledge-aware/worker_00.jsonl"
+}

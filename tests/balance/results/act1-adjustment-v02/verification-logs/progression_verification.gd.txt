@@ -1,0 +1,244 @@
+extends SceneTree
+
+const Growth = preload("res://scripts/progression.gd")
+const Main = preload("res://scripts/main.gd")
+var checks: int = 0
+var failures: int = 0
+var sequence: int = 0
+var fixture: String
+var capture: bool = false
+
+func _init() -> void:
+	call_deferred("run")
+
+func check(ok: bool, label: String) -> void:
+	checks += 1
+	print(("PASS: " if ok else "FAIL: ") + label)
+	if not ok:
+		failures += 1
+
+func fresh() -> Node2D:
+	sequence += 1
+	var app: Node2D = Main.new()
+	app.save_path = fixture.path_join("save-%d.json" % sequence)
+	root.add_child(app)
+	app.set_process(false)
+	app.set_physics_process(false)
+	app._install_world(MountainManager.new(42))
+	return app
+
+func put(app: Node2D, data: Dictionary) -> void:
+	var file := FileAccess.open(app.save_path, FileAccess.WRITE)
+	file.store_string(JSON.stringify(data))
+	file.close()
+
+func dispose(app: Node2D) -> void:
+	app.sound.shutdown()
+	app.free()
+
+func verify_core() -> void:
+	var profile := Growth.new()
+	check(profile.level() == 1 and profile.pending_points() == 0 and profile.xp_for_next_level() == 60, "new profile starts at level 1 without an upgrade")
+	check(profile.award_distance(49.99, 1000.0) == 0, "49.99m does not reach the first marker")
+	check(profile.award_distance(50.0, 1000.0) == 30 and profile.total_xp == 30, "exactly 50m awards 20 run XP plus 10 record XP")
+	check(profile.award_distance(100.0, 1000.0) == 30 and profile.level() == 2 and profile.pending_points() == 1, "exactly 100m earns the first level and one choice")
+	check(profile.xp_in_level() == 0 and profile.xp_for_next_level() == 70, "second level requires 70 new XP")
+	check(profile.award_distance(250.0, 1000.0) == 90 and profile.level() == 3 and profile.xp_in_level() == 20, "one update can cross several markers and levels")
+	check(profile.award_distance(50.0, 1000.0) == 0 and profile.award_distance(250.0, 1000.0) == 0, "backtracking and recrossing cannot duplicate same-run XP")
+	check(not profile.choose("invalid") and profile.choose("strength") and profile.choose("endurance") and not profile.choose("recovery"), "only valid choices with an unspent point succeed")
+	profile.begin_run()
+	check(profile.total_xp == 150 and profile.ranks.strength == 1 and profile.record_milestones == 5 and profile.run_milestones == 0, "new run keeps experience, upgrades and records")
+	check(profile.award_distance(250.0, 1000.0) == 100, "new run awards run XP again without duplicate personal-record XP")
+	check(profile.award_distance(300.0, 1000.0) == 30, "exceeding the old lifetime record awards its bonus once")
+	check(profile.award_distance(NAN, 1000.0) == 0 and profile.award_distance(INF, 1000.0) == 0 and profile.award_distance(900.0, -1.0) == 0, "nonfinite distance and invalid course length cannot grant XP")
+	var saved: Dictionary = profile.snapshot()
+	var restored := Growth.new()
+	check(restored.restore(JSON.parse_string(JSON.stringify(saved))) and restored.snapshot() == saved, "JSON round trip preserves XP, ranks and marker claims")
+	saved.ranks.strength = 9
+	check(profile.ranks.strength == 1, "snapshot rank edits cannot mutate the live profile")
+	var invalid_cases: Array[Dictionary] = []
+	for pair: Array in [["total_xp", -1], ["total_xp", 1.5], ["total_xp", "600"], ["total_xp", INF], ["total_xp", 6151], ["run_milestones", 21], ["record_milestones", 0], ["version", 2]]:
+		var bad: Dictionary = profile.snapshot()
+		bad[pair[0]] = pair[1]
+		invalid_cases.append(bad)
+	var excessive: Dictionary = profile.snapshot()
+	excessive.ranks = {"strength": 10, "endurance": 10, "recovery": 10}
+	invalid_cases.append(excessive)
+	var unknown: Dictionary = profile.snapshot()
+	unknown.ranks["speed"] = 0
+	invalid_cases.append(unknown)
+	invalid_cases.append({})
+	var atomic: bool = true
+	for bad: Dictionary in invalid_cases:
+		var before: Dictionary = restored.snapshot()
+		atomic = atomic and not restored.restore(bad) and restored.snapshot() == before
+	check(atomic, "malformed profile restores reject atomically without altering existing progression")
+	var maximum := Growth.new()
+	for index: int in range(30):
+		maximum.begin_run()
+		maximum.award_distance(1000.0, 1000.0)
+	check(maximum.total_xp == 6150 and maximum.level() == 31 and maximum.pending_points() == 30 and maximum.xp_for_next_level() == 0, "long-term XP stops at level 31 with 30 available upgrades")
+	var capped: bool = true
+	for kind: String in ["strength", "endurance", "recovery"]:
+		for index: int in range(10):
+			capped = capped and maximum.choose(kind)
+		capped = capped and not maximum.choose(kind)
+	check(capped and maximum.pending_points() == 0, "each ability caps at ten upgrades and no extra choice is consumed")
+	var legacy := Growth.new()
+	legacy.migrate_legacy(175.0, 525.0)
+	check(legacy.total_xp == 0 and legacy.run_milestones == 3 and legacy.record_milestones == 10 and legacy.award_distance(175.0, 1000.0) == 0, "legacy save establishes marker baselines without retroactive XP")
+	check(legacy.award_distance(200.0, 1000.0) == 20 and legacy.award_distance(550.0, 1000.0) == 150, "legacy records grant only newly crossed run markers and a new lifetime record")
+
+func verify_physics() -> void:
+	var world := MountainManager.new(42)
+	var plain := BoulderController.new(world)
+	var improved := BoulderController.new(world)
+	improved.apply_progression({"strength": 10, "endurance": 10, "recovery": 10})
+	check(plain.max_stamina == 100.0 and plain.push_multiplier == 1.0 and plain.recovery_multiplier == 1.0, "unupgraded physics retains base values")
+	check(is_equal_approx(improved.max_stamina, 120.0) and is_equal_approx(improved.push_multiplier, 1.2) and is_equal_approx(improved.recovery_multiplier, 1.2), "maximum upgrades give 20 percent in each ability")
+	plain.distance = 10.0
+	improved.distance = 10.0
+	plain.advance(BoulderController.FIXED_DT, true, false, false)
+	improved.advance(BoulderController.FIXED_DT, true, false, false)
+	check(improved.velocity > plain.velocity and is_equal_approx(improved.push_force / plain.push_force, 1.2), "strength raises real push force and forward acceleration")
+	for sim: BoulderController in [plain, improved]:
+		sim.distance = 45.0
+		sim.velocity = 0.0
+		sim.stamina = 50.0
+		sim.advance(0.5, false, false, false)
+	check(is_equal_approx((improved.stamina - 50.0) / (plain.stamina - 50.0), 1.2), "recovery raises actual stamina restored on a shelf")
+	improved.stamina = 119.0
+	improved.advance(10.0, false, false, false)
+	check(is_equal_approx(improved.stamina, 120.0), "resting fills endurance capacity above 100 without exceeding its cap")
+
+func verify_integration() -> void:
+	var app := fresh()
+	app._begin()
+	app.boulder.peak = 100.0
+	app.boulder.distance = 20.0
+	check(app.update_progression() == 60 and not app.upgrade_open and not app.choose_upgrade("strength"), "level earned on a slope waits for a safe shelf")
+	check(FileAccess.file_exists(app.save_path), "earned experience is saved immediately")
+	var resumed := fresh()
+	put(resumed, JSON.parse_string(FileAccess.get_file_as_string(app.save_path)))
+	resumed._load_save()
+	resumed._begin()
+	check(resumed.has_resume and resumed.progression.total_xp == 60 and resumed.progression.pending_points() == 1 and resumed.progression.run_milestones == 2 and resumed.progression.record_milestones == 2 and resumed.update_progression() == 0, "fresh app restores unspent choice and claimed markers without duplicating XP")
+	resumed.boulder.distance = 45.0
+	resumed.boulder.velocity = 0.0
+	resumed.boulder.stamina = 73.0
+	resumed._refresh_upgrade_choice()
+	var menu_key := InputEventKey.new()
+	menu_key.pressed = true
+	menu_key.keycode = KEY_ESCAPE
+	resumed._unhandled_input(menu_key)
+	check(resumed.paused and resumed.upgrade_open and resumed.progression.pending_points() == 1, "Escape pauses without discarding a pending choice")
+	menu_key.keycode = KEY_ENTER
+	resumed._unhandled_input(menu_key)
+	resumed._unhandled_input(menu_key)
+	check(not resumed.paused and resumed.upgrade_open and resumed.progression.pending_points() == 1, "Enter resumes the pause menu but cannot bypass upgrade selection")
+	menu_key.keycode = KEY_2
+	resumed._unhandled_input(menu_key)
+	check(resumed.progression.ranks.endurance == 1 and is_equal_approx(resumed.boulder.max_stamina, 102.0) and resumed.boulder.stamina == 73.0 and not resumed.upgrade_open, "key 2 raises endurance capacity without refilling current stamina")
+	dispose(resumed)
+	app.boulder.distance = 45.0
+	app.boulder.velocity = 0.2
+	app._refresh_upgrade_choice()
+	check(not app.upgrade_open, "moving through a shelf does not interrupt play")
+	app.boulder.velocity = 0.0
+	app._refresh_upgrade_choice()
+	check(app.upgrade_open, "stopping on a shelf opens the pending upgrade")
+	var before: Dictionary = app.boulder.snapshot()
+	app._physics_process(1.0)
+	check(app.boulder.snapshot() == before, "upgrade selection freezes all boulder simulation")
+	app.paused = true
+	check(not app.choose_upgrade("strength"), "pause menu cannot spend an upgrade point")
+	app.paused = false
+	var key := InputEventKey.new()
+	key.keycode = KEY_1
+	key.pressed = true
+	app._unhandled_input(key)
+	check(app.progression.ranks.strength == 1 and not app.upgrade_open and is_equal_approx(app.boulder.push_multiplier, 1.02), "key 1 selects strength, applies it, and dismisses the completed choice")
+	var stored: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(app.save_path))
+	check(int(stored.version) == 4 and int(stored.progression.ranks.strength) == 1, "selected upgrade is saved in the version 4 envelope")
+	app.boulder.finish_fall()
+	check(app.progression.total_xp == 60 and app.progression.ranks.strength == 1, "finishing a fall retains progression")
+	app._new_run()
+	check(app.progression.total_xp == 60 and app.progression.run_milestones == 0 and app.progression.record_milestones == 2 and is_equal_approx(app.boulder.push_multiplier, 1.02), "retry resets only run claims and reapplies persistent upgrades")
+	var full: Dictionary = app.progression.snapshot()
+	full.total_xp = 6150
+	full.ranks = {"strength": 10, "endurance": 10, "recovery": 9}
+	app.progression.restore(full)
+	app.boulder.apply_progression(app.progression.ranks)
+	app.boulder.stamina = 117.5
+	app.boulder.distance = 45.0
+	app.boulder.velocity = 0.0
+	app._refresh_upgrade_choice()
+	app._button_action("upgrade_recovery")
+	check(app.progression.ranks.recovery == 10 and not app.upgrade_open, "UI button action spends the remaining recovery point")
+	app._load_save()
+	check(not app.save_blocked and app.has_resume and is_equal_approx(app.boulder.stamina, 117.5) and is_equal_approx(app.boulder.max_stamina, 120.0), "save reload applies endurance before restoring stamina above 100")
+	var bad: Dictionary = app._save_payload()
+	bad.progression.ranks.strength = 99
+	put(app, bad)
+	var file_before: String = FileAccess.get_file_as_string(app.save_path)
+	app._load_save()
+	check(app.save_blocked and not app._save_progression() and FileAccess.get_file_as_string(app.save_path) == file_before, "invalid saved growth blocks overwrite and preserves the original file")
+	dispose(app)
+	for version: int in [1, 2, 3]:
+		app = fresh()
+		var legacy: Dictionary = app._save_payload()
+		legacy.version = version
+		legacy.erase("progression")
+		legacy.best = 525.0
+		legacy.run.distance = 170.0
+		legacy.run.peak = 175.0
+		put(app, legacy)
+		app._load_save()
+		check(app.has_resume and not app.save_blocked and app.boulder.distance == 170.0 and app.progression.total_xp == 0 and app.update_progression() == 0 and app.progression.record_milestones == 10, "legacy v%d keeps run/record and does not auto-award old distance" % version)
+		dispose(app)
+		for omit_peak: bool in [true, false]:
+			app = fresh()
+			var incomplete: Dictionary = app._save_payload()
+			incomplete.version = version
+			incomplete.erase("progression")
+			incomplete.best = 525.0
+			incomplete.run.distance = 170.0
+			if omit_peak:
+				incomplete.run.erase("peak")
+			else:
+				incomplete.run.peak = 20.0
+			put(app, incomplete)
+			app._load_save()
+			check(app.has_resume and not app.save_blocked and app.boulder.peak == 170.0 and app.progression.run_milestones == 3 and app.progression.record_milestones == 10 and app.update_progression() == 0 and app.progression.total_xp == 0, "legacy v%d %s peak uses current distance as migration baseline without retroactive XP" % [version, "missing" if omit_peak else "low"])
+			dispose(app)
+
+func capture_view(app: Node2D, name: String) -> void:
+	app.camera_position = app.mountain.sample(app.boulder.distance)
+	app.queue_redraw()
+	for frame: int in range(4):
+		await process_frame
+	await RenderingServer.frame_post_draw
+	check(root.get_texture().get_image().save_png(fixture.path_join(name + ".png")) == OK, "capture " + name)
+
+func run() -> void:
+	fixture = "res://.tools/balance-audit/verification/progression-%d" % Time.get_ticks_usec()
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(fixture))
+	capture = "--capture" in OS.get_cmdline_user_args()
+	verify_core()
+	verify_physics()
+	verify_integration()
+	if capture and DisplayServer.get_name() != "headless":
+		root.content_scale_size = Vector2i(1920, 1080)
+		root.size = Vector2i(1920, 1080)
+		var app := fresh()
+		app._begin()
+		app.boulder.distance = 125.0
+		app.boulder.peak = 125.0
+		app.update_progression()
+		await capture_view(app, "growth-hud")
+		app.boulder.distance = 145.0
+		app._refresh_upgrade_choice()
+		await capture_view(app, "growth-choice")
+		dispose(app)
+	print("PROGRESSION VERIFICATION: %d checks, %d failures; fixtures: %s" % [checks, failures, fixture])
+	quit(1 if failures else 0)
