@@ -1,9 +1,8 @@
 extends RefCounted
 
-const FONT = preload("res://assets/fonts/NotoSansKR.ttf")
-const GOLD = Color("d6b777")
-const TEXT = Color("ede5d5")
-const MUTED = Color("b5b4a6")
+const GOLD = Color("f0c781")
+const TEXT = Color("dfd0af")
+const MUTED = Color("81796d")
 static var textures: Dictionary = {}
 static var catalog: Dictionary = {}
 
@@ -27,19 +26,17 @@ static func image(parent: Node, id: String, rect: Rect2) -> TextureRect:
 	parent.add_child(node)
 	return node
 
-static func label(parent: Node, value: String, rect: Rect2, font_size: int = 28, color: Color = TEXT) -> Label:
+static func label(parent: Node, value: String, rect: Rect2, font_size: int = 28, color: Color = TEXT, variation: StringName = &"") -> Label:
 	var node := Label.new()
 	node.text = value
 	node.position = rect.position
 	node.size = rect.size
-	node.add_theme_font_override("font", FONT)
-	node.add_theme_font_size_override("font_size", font_size)
-	node.add_theme_color_override("font_color", color)
-	node.add_theme_color_override("font_outline_color", Color(0.0,0.0,0.0,0.85))
-	node.add_theme_constant_override("outline_size", 1)
-	node.add_theme_color_override("font_shadow_color", Color(0.0,0.0,0.0,0.65))
-	node.add_theme_constant_override("shadow_offset_x", 1)
-	node.add_theme_constant_override("shadow_offset_y", 1)
+	# Existing overlay calls retain their explicit sizes and colors; role-based
+	# calls inherit the shared Theme's font, size, color, and engraving effects.
+	node.theme_type_variation = variation if variation != &"" else &"SisyphusBodyLabel"
+	if variation == &"":
+		node.add_theme_font_size_override("font_size", font_size)
+		node.add_theme_color_override("font_color", color)
 	node.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	parent.add_child(node)
 	return node
@@ -60,17 +57,12 @@ static func style(id: String) -> StyleBox:
 	flat.set_corner_radius_all(8)
 	return flat
 
-static func button(parent: Node, text: String, rect: Rect2, callback: Callable, primary: bool = false) -> Button:
+static func button(parent: Node, text: String, rect: Rect2, callback: Callable, primary: bool = false, variation: StringName = &"") -> Button:
 	var node := Button.new()
 	node.text = text
 	node.position = rect.position
 	node.size = rect.size
-	node.add_theme_font_override("font", FONT)
-	node.add_theme_font_size_override("font_size", 28)
-	node.add_theme_color_override("font_color", TEXT)
-	for state: String in ["hover", "focus", "pressed"]:
-		node.add_theme_color_override("font_"+state+"_color", GOLD)
-	node.add_theme_color_override("font_disabled_color", MUTED)
+	node.theme_type_variation = variation if variation != &"" else (&"SisyphusPrimaryButton" if primary else &"SisyphusSecondaryButton")
 	var prefix: String = "primary" if primary else "secondary"
 	for state: String in ["normal", "hover", "pressed", "disabled", "focus"]:
 		var suffix: String = "base" if state == "normal" else ("hover" if state == "focus" else state)

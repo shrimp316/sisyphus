@@ -1,0 +1,149 @@
+{
+  "source_before": {
+    "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+    "scripts/mvp/design_canvas.gd": "192e171cc1a91dae7a1e87c730f4f85c39a4eb1dfc770b844aec4a4458bc8239",
+    "scripts/mvp/main_menu.gd": "be72cb13f4afc4f20e8a34c06bc360753964548b6cb373478a398d8c1567fdaa",
+    "scripts/mvp/mastery_board.gd": "a8c72a6611d6d8919e2bacbd8a324221d7bd44324bc453ef5d6236aa0cd97f63",
+    "scripts/mvp/mastery_main.gd": "0b7051a0c6d2f54ffe8dd1d4cfccc4113176be2586322bd5565ca4ce0c3366ed",
+    "scripts/mvp/mastery_node.gd": "6f4458a5f076c11332057e61c97d61be56d70614224027e696897751754654ad",
+    "scripts/mvp/save_contract.gd": "c87015799e0b092506af0e5493c0d00437ea5c50cd8ab39af387e7c49f2e4e8a",
+    "scripts/mvp/ui_theme.gd": "9667ba2145322b0e82f637333fd84442dc69cd26021ff5f68aad68daabf42c63",
+    "ui/themes/sisyphus_theme.tres": "4ce784caf783fc98f7a933520c3aa2f707b688754776ad39311032a2e89069fa",
+    "ui/themes/typography/body.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "ui/themes/typography/greek.tres": "aa9e3aae05ae2cbc884a05f7a26890e814ea220030811b5b27614d13989fcebb",
+    "ui/themes/typography/hud.tres": "3b4a52e430f3135e4b35e941cd7fa2ddada190c15589ced2765f8d70ee6a155b",
+    "ui/themes/typography/menu.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/narrative.tres": "b1e6520ba4acf35d5143b5ce1df56382fa4f4d26892d4b859fcea0ad45f09d85",
+    "ui/themes/typography/node.tres": "7e2c5a10fc7ae96fb04cb35766f140a88690b84f28077a6557aa81e738801cf5",
+    "ui/themes/typography/section.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/title.tres": "76f5044dc027eb692c073deae0b14b3285a8481be8d97a573397a4c2786912ab",
+    "ui/themes/typography/tooltip.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "assets/fonts/hahmlet/Hahmlet-Bold.otf": "4b83314171c07740758237ebca8cec2f562a919e49285bf7e0734dd7e3bba78f",
+    "assets/fonts/hahmlet/Hahmlet-Medium.otf": "13437f1cceef43b74ec6ed14a571f7588d8a56321864c9668d29aeaf40e65cf2",
+    "assets/fonts/hahmlet/Hahmlet-Regular.otf": "fe98c86906c382ac4ca99ac2b6e9f44dc2cbf4ccac285f44e9790360242c826e",
+    "assets/fonts/hahmlet/Hahmlet-SemiBold.otf": "a0f213f655ba969f7484514f75f5a737c8cc63c9e144643a4a77b0208cece289",
+    "assets/fonts/pretendard/Pretendard-Medium.otf": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0",
+    "assets/fonts/pretendard/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+    "assets/fonts/pretendard/Pretendard-SemiBold.otf": "c89bc43027dc7cde5726e96223376f8eec09302b2fc1f8147fd5b57cfc376118",
+    "assets/fonts/NotoSansKR.ttf": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+    "assets/fonts/gfs_didot/GFSDidot-Regular.ttf": "4fc784ab824e8866eeef8ad55976b93e7e170fb1b8237fd4f8781b5b4dd297f9",
+    "project.godot": "be4edb70e182475965a038872d1ab00280b539b33a44a8030d43d008b8a507d4"
+  },
+  "suites": [
+    {
+      "name": "typography_fonts",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_typography_fonts.gd"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 930,
+        "failures": [],
+        "scope": "font coverage and theme configuration; visual shaping and platform rendering require screenshots",
+        "suite": "typography_fonts"
+      },
+      "log_sha256": "66b20662399b7ebbcae495529db5d105df3f4cf789b4c7e0278228cffb5e1373"
+    },
+    {
+      "name": "typography_layout",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_typography_layout.gd"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 970,
+        "failures": [],
+        "resolutions": [
+          "1920x1080",
+          "1600x900",
+          "1280x720"
+        ],
+        "scope": "1920 design canvas uniformly scaled; bindings and font metrics, not screenshots or OS-specific rendering",
+        "suite": "typography_layout"
+      },
+      "log_sha256": "4ae08f273a52a2987cd4fdb02025ad91e6e866ecd91fb34d313104f2c1d1438e"
+    },
+    {
+      "name": "mvp_ui",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_mvp_ui.gd"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 265,
+        "failures": 0
+      },
+      "log_sha256": "a0161a438e2866b1d02fb21abc60726b970091957fc9c0426df250b6a849e9c6"
+    },
+    {
+      "name": "mvp_integration",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_mvp_integration.gd",
+        "--",
+        "--save-path=user://mvp-integration-typography-independent-7f3022dd32a14a35877acc4f524ec1a0.json"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 243,
+        "failures": [],
+        "manual_arrival_fixtures": true,
+        "save_path": "user://mvp-integration-typography-independent-7f3022dd32a14a35877acc4f524ec1a0.json",
+        "suite": "mvp_integration"
+      },
+      "log_sha256": "84f13a62cab190e80973becbe64ba2b2ef62b3f2b04e2e79244e742cda1fa893"
+    }
+  ],
+  "platform": "Windows native headless Godot4.5.1; no Linux execution",
+  "previous_ui_result_preserved": true,
+  "source_after": {
+    "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+    "scripts/mvp/design_canvas.gd": "192e171cc1a91dae7a1e87c730f4f85c39a4eb1dfc770b844aec4a4458bc8239",
+    "scripts/mvp/main_menu.gd": "be72cb13f4afc4f20e8a34c06bc360753964548b6cb373478a398d8c1567fdaa",
+    "scripts/mvp/mastery_board.gd": "a8c72a6611d6d8919e2bacbd8a324221d7bd44324bc453ef5d6236aa0cd97f63",
+    "scripts/mvp/mastery_main.gd": "0b7051a0c6d2f54ffe8dd1d4cfccc4113176be2586322bd5565ca4ce0c3366ed",
+    "scripts/mvp/mastery_node.gd": "6f4458a5f076c11332057e61c97d61be56d70614224027e696897751754654ad",
+    "scripts/mvp/save_contract.gd": "c87015799e0b092506af0e5493c0d00437ea5c50cd8ab39af387e7c49f2e4e8a",
+    "scripts/mvp/ui_theme.gd": "9667ba2145322b0e82f637333fd84442dc69cd26021ff5f68aad68daabf42c63",
+    "ui/themes/sisyphus_theme.tres": "4ce784caf783fc98f7a933520c3aa2f707b688754776ad39311032a2e89069fa",
+    "ui/themes/typography/body.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "ui/themes/typography/greek.tres": "aa9e3aae05ae2cbc884a05f7a26890e814ea220030811b5b27614d13989fcebb",
+    "ui/themes/typography/hud.tres": "3b4a52e430f3135e4b35e941cd7fa2ddada190c15589ced2765f8d70ee6a155b",
+    "ui/themes/typography/menu.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/narrative.tres": "b1e6520ba4acf35d5143b5ce1df56382fa4f4d26892d4b859fcea0ad45f09d85",
+    "ui/themes/typography/node.tres": "7e2c5a10fc7ae96fb04cb35766f140a88690b84f28077a6557aa81e738801cf5",
+    "ui/themes/typography/section.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/title.tres": "76f5044dc027eb692c073deae0b14b3285a8481be8d97a573397a4c2786912ab",
+    "ui/themes/typography/tooltip.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "assets/fonts/hahmlet/Hahmlet-Bold.otf": "4b83314171c07740758237ebca8cec2f562a919e49285bf7e0734dd7e3bba78f",
+    "assets/fonts/hahmlet/Hahmlet-Medium.otf": "13437f1cceef43b74ec6ed14a571f7588d8a56321864c9668d29aeaf40e65cf2",
+    "assets/fonts/hahmlet/Hahmlet-Regular.otf": "fe98c86906c382ac4ca99ac2b6e9f44dc2cbf4ccac285f44e9790360242c826e",
+    "assets/fonts/hahmlet/Hahmlet-SemiBold.otf": "a0f213f655ba969f7484514f75f5a737c8cc63c9e144643a4a77b0208cece289",
+    "assets/fonts/pretendard/Pretendard-Medium.otf": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0",
+    "assets/fonts/pretendard/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+    "assets/fonts/pretendard/Pretendard-SemiBold.otf": "c89bc43027dc7cde5726e96223376f8eec09302b2fc1f8147fd5b57cfc376118",
+    "assets/fonts/NotoSansKR.ttf": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+    "assets/fonts/gfs_didot/GFSDidot-Regular.ttf": "4fc784ab824e8866eeef8ad55976b93e7e170fb1b8237fd4f8781b5b4dd297f9",
+    "project.godot": "be4edb70e182475965a038872d1ab00280b539b33a44a8030d43d008b8a507d4"
+  },
+  "changed_sources": []
+}

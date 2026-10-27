@@ -133,6 +133,7 @@ func run() -> void:
 	press("확인")
 	check(main.screen == "game" and main.has_resume, "confirmed new game starts")
 	check("밀기 키를 놓고" in main._slip_recovery_hint(), "MVP Slip hint instructs releasing normal push too")
+	check(main._ui_font_size(main._distance_hud_font_size()) == 28, "MVP distance HUD resolves to the shared 28px role")
 	check(Contract.validate(main._save_payload()), "initial save contract")
 	main.mastery.award_distance(249.999, 1000.0)
 	main.boulder.distance = 249.999

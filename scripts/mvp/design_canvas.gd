@@ -1,8 +1,10 @@
 extends Control
 
+const Typography = preload("res://scripts/mvp/typography.gd")
 var canvas: Control
 
 func _ready() -> void:
+	theme = Typography.load_theme()
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	canvas = Control.new()
 	canvas.size = Vector2(1920, 1080)

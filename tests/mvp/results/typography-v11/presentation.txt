@@ -1,0 +1,3 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+{"checks":8,"failures":[],"scope":"actual scene with artificial profile, no progression or save writes","suite":"typography_presentation"}

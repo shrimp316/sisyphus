@@ -1,0 +1,55 @@
+{
+  "source_before": {
+    "scripts/main.gd": "d941b85bc9ca1114e4da937d028a3bfebf96d3e856b0e11ad0cfc286575df16b",
+    "scripts/mvp/mastery_main.gd": "6faedf6b9fd71a74c9da8ebbe8858fff7c471f6cb7226c44358ad5fde50f4764",
+    "scripts/mvp/typography.gd": "260142f1bdb3d35aaf6526dbc082bc79089f179eb2323b2ee061282de31ff702",
+    "tests/web_compatibility_tests.gd": "551cb09c4b714044e4c0d0c435972453eb413b53b32ca16eb1fd96970f2de967",
+    "tests/mvp/test_typography_fonts.gd": "ef9d59b2f3d274bab64f48e662fe790ad790fa5310a6ffc968744b9e11ee1668"
+  },
+  "suites": [
+    {
+      "name": "web",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/web_compatibility_tests.gd"
+      ],
+      "exit_code": 0,
+      "summary": [
+        "WEB COMPATIBILITY: 24 checks, 0 failures"
+      ],
+      "expected_invalid_json_errors": 2,
+      "unexpected_errors": [],
+      "log_sha256": "d78e00ddf907b9490e3be1e8f5a3213959ca9f40203a12fc4874090e155d6802"
+    },
+    {
+      "name": "fonts",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_typography_fonts.gd"
+      ],
+      "exit_code": 0,
+      "summary": [
+        "{\"checks\":937,\"failures\":[],\"scope\":\"font coverage and theme configuration; visual shaping and platform rendering require screenshots\",\"suite\":\"typography_fonts\"}"
+      ],
+      "expected_invalid_json_errors": 0,
+      "unexpected_errors": [],
+      "log_sha256": "86d5cfb60a651e50ddbda5489a9581170d0ae3826c141ffb08405ae81a80997a"
+    }
+  ],
+  "source_after": {
+    "scripts/main.gd": "d941b85bc9ca1114e4da937d028a3bfebf96d3e856b0e11ad0cfc286575df16b",
+    "scripts/mvp/mastery_main.gd": "6faedf6b9fd71a74c9da8ebbe8858fff7c471f6cb7226c44358ad5fde50f4764",
+    "scripts/mvp/typography.gd": "260142f1bdb3d35aaf6526dbc082bc79089f179eb2323b2ee061282de31ff702",
+    "tests/web_compatibility_tests.gd": "551cb09c4b714044e4c0d0c435972453eb413b53b32ca16eb1fd96970f2de967",
+    "tests/mvp/test_typography_fonts.gd": "ef9d59b2f3d274bab64f48e662fe790ad790fa5310a6ffc968744b9e11ee1668"
+  },
+  "changed_sources": []
+}

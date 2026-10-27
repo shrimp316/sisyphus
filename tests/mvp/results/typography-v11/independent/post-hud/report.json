@@ -1,0 +1,62 @@
+{
+  "source_before": {
+    "scripts/main.gd": "94335d8b078f8b4924f866a91fa278326dda02bcfb405ee7aab0ed81a58a1455",
+    "scripts/mvp/mastery_main.gd": "18592c134d020ebd7dd07cd1d1781e4ae46c45c36d89adad2bf86f609eb1e4aa",
+    "tests/mvp/test_mvp_ui.gd": "1c2eeac107edcfdf49acace6d67a865b0a35eb8e24e5f35f5da5e24eecc0f2e4",
+    "tests/mvp/test_mvp_integration.gd": "e10063729cf5441ed1bf7fb9837d72b890e82ad751a153aed5887bb96e8ad1c4",
+    "tests/mvp/run_checks.py": "8d5ddef5b6b5d5ce1ea30009d45452814af7ff3daa4b832eb24f3917ddf5cc97"
+  },
+  "suites": [
+    {
+      "name": "mvp_ui",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_mvp_ui.gd"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 265,
+        "failures": 0
+      },
+      "log_sha256": "a0161a438e2866b1d02fb21abc60726b970091957fc9c0426df250b6a849e9c6",
+      "unexpected_errors": false
+    },
+    {
+      "name": "mvp_integration",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_mvp_integration.gd",
+        "--",
+        "--save-path=user://mvp-integration-typography-hud-b07e4db65a6840d0afab9a158e2c37e6.json"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 244,
+        "failures": [],
+        "manual_arrival_fixtures": true,
+        "save_path": "user://mvp-integration-typography-hud-b07e4db65a6840d0afab9a158e2c37e6.json",
+        "suite": "mvp_integration"
+      },
+      "log_sha256": "81483adcb4049dfe92e2e17eefe9b17274472679a7fa2bdd03ef59809383d318",
+      "unexpected_errors": false
+    }
+  ],
+  "previous_ui_bytes_preserved": true,
+  "source_after": {
+    "scripts/main.gd": "94335d8b078f8b4924f866a91fa278326dda02bcfb405ee7aab0ed81a58a1455",
+    "scripts/mvp/mastery_main.gd": "18592c134d020ebd7dd07cd1d1781e4ae46c45c36d89adad2bf86f609eb1e4aa",
+    "tests/mvp/test_mvp_ui.gd": "1c2eeac107edcfdf49acace6d67a865b0a35eb8e24e5f35f5da5e24eecc0f2e4",
+    "tests/mvp/test_mvp_integration.gd": "e10063729cf5441ed1bf7fb9837d72b890e82ad751a153aed5887bb96e8ad1c4",
+    "tests/mvp/run_checks.py": "8d5ddef5b6b5d5ce1ea30009d45452814af7ff3daa4b832eb24f3917ddf5cc97"
+  },
+  "changed_sources": [],
+  "scope": "After distance and EXP HUD28px display-only patch. Prior2,415suite evidence is preserved, not a new full2,416run."
+}

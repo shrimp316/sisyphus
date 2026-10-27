@@ -1,0 +1,113 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started 액션 스캔 중... (9 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | GFSDidot-Regular.ttf[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | Hahmlet-Bold.otf[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | Hahmlet-Medium.otf[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | Hahmlet-Regular.otf[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | Hahmlet-SemiBold.otf[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | Pretendard-Medium.otf[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | Pretendard-Regular.otf[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | Pretendard-SemiBold.otf[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | NotoSansKR.ttf[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (9 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  10% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  20% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  30% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  40% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  50% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  60% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  70% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  80% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 전 작업을 수행 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | GFSDidot-Regular.ttf[39m[0m
+[  10% ] [90m[1mreimport[22m | Hahmlet-Bold.otf[39m[0m
+[  20% ] [90m[1mreimport[22m | Hahmlet-Medium.otf[39m[0m
+[  30% ] [90m[1mreimport[22m | Hahmlet-Regular.otf[39m[0m
+[  40% ] [90m[1mreimport[22m | Hahmlet-SemiBold.otf[39m[0m
+[  50% ] [90m[1mreimport[22m | Pretendard-Medium.otf[39m[0m
+[  60% ] [90m[1mreimport[22m | Pretendard-Regular.otf[39m[0m
+[  70% ] [90m[1mreimport[22m | Pretendard-SemiBold.otf[39m[0m
+[  80% ] [90m[1mreimport[22m | NotoSansKR.ttf[39m[0m
+[  90% ] [90m[1mreimport[22m | 애셋 가져오기 마무리 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (9 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 후 작업을 수행 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 편집기를 불러오는 중 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 편집기 레이아웃을 불러오는 중...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 패킹 중 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/GFSDidot-Regular.ttf-bdf0694ff9af06b622c8cb87234b8b9d.fontdata[39m[0m
+[   1% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/gfs_didot/GFSDidot-Regular.ttf.import[39m[0m
+[   5% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Hahmlet-Bold.otf-5e95d401d05234ba7a855ae445f7081f.fontdata[39m[0m
+[   5% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/hahmlet/Hahmlet-Bold.otf.import[39m[0m
+[  10% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Hahmlet-Medium.otf-a95e502b71b11f4a19ee04fa3530a277.fontdata[39m[0m
+[  10% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/hahmlet/Hahmlet-Medium.otf.import[39m[0m
+[  15% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Hahmlet-Regular.otf-dbf2d5ebc009ea8919e637f55a22a3b2.fontdata[39m[0m
+[  15% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/hahmlet/Hahmlet-Regular.otf.import[39m[0m
+[  20% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Hahmlet-SemiBold.otf-050fcfb892efff726bf8315ff135cd99.fontdata[39m[0m
+[  20% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/hahmlet/Hahmlet-SemiBold.otf.import[39m[0m
+[  24% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/licenses/font-manifest.json[39m[0m
+[  29% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Pretendard-Medium.otf-f6d8dd2845227346867f38bec02c89ec.fontdata[39m[0m
+[  29% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/pretendard/Pretendard-Medium.otf.import[39m[0m
+[  33% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Pretendard-Regular.otf-182bd636265bcd954c5f39540ae23a5a.fontdata[39m[0m
+[  33% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/pretendard/Pretendard-Regular.otf.import[39m[0m
+[  38% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Pretendard-SemiBold.otf-8d36bec2addc22ccfa47eb54611064a0.fontdata[39m[0m
+[  38% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/pretendard/Pretendard-SemiBold.otf.import[39m[0m
+[  42% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/NotoSansKR.ttf-3ae954ae8c14792ea34daf89520c1713.fontdata[39m[0m
+[  42% ] [90m[1msavepack[22m | 파일 저장 중: res://assets/fonts/NotoSansKR.ttf.import[39m[0m
+[  47% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-0953f8d644ea66356dd5b22f62489986-body.res[39m[0m
+[  52% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-ce043f5e9452818557f393c586693a4f-greek.res[39m[0m
+[  57% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-543415fa3538f2cf98bee17af8cc94cf-hud.res[39m[0m
+[  61% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-694a2c3118c02053e7b05cad37401a13-menu.res[39m[0m
+[  66% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-b28dc9f614388916fd2a9509ac85bbec-narrative.res[39m[0m
+[  70% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-69ebda25d52ed586065cf058bb9405c6-node.res[39m[0m
+[  75% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-0e5f95c8d1cb0e50a0c136090f654ddc-section.res[39m[0m
+[  79% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-8ffd4264128f8448d2cf87667a9e322a-title.res[39m[0m
+[  84% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-ec156e776ee7c85d3864f80d03844ceb-tooltip.res[39m[0m
+[  89% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-772f53e3c81972db5af164c30a9887d4-sisyphus_theme.res[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-0cd8b464a28f765dda6e7891004c3ce8-typography_sample.scn[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/body.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/greek.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/hud.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/menu.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/narrative.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/node.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/section.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/title.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/typography/tooltip.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://ui/themes/sisyphus_theme.tres.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://typography_sample.tscn.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/global_script_class_cache.cfg[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/uid_cache.bin[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+C:\Users\PMS\Documents\ChatGPT\������\builds\typography-sample\index.html

@@ -1,0 +1,3 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+{"checks":970,"failures":[],"resolutions":["1920x1080","1600x900","1280x720"],"scope":"1920 design canvas uniformly scaled; bindings and font metrics, not screenshots or OS-specific rendering","suite":"typography_layout"}

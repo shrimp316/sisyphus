@@ -1,0 +1,3 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+{"empty_font_has_hangul":true,"empty_font_returned_path":"res://assets/fonts/NotoSansKR.ttf","empty_theme_default_font_is_null":false,"empty_theme_returned_path":""}

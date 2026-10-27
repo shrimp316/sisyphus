@@ -1,0 +1,29 @@
+{
+  "reviewed_at_utc": "2026-10-27T06:36:07.063361+00:00",
+  "status": "approved_for_display_only_HUD_followup",
+  "source_sha256": {
+    "scripts/main.gd": "94335d8b078f8b4924f866a91fa278326dda02bcfb405ee7aab0ed81a58a1455",
+    "scripts/mvp/mastery_main.gd": "18592c134d020ebd7dd07cd1d1781e4ae46c45c36d89adad2bf86f609eb1e4aa",
+    "tests/mvp/test_mvp_ui.gd": "1c2eeac107edcfdf49acace6d67a865b0a35eb8e24e5f35f5da5e24eecc0f2e4",
+    "tests/mvp/test_mvp_integration.gd": "e10063729cf5441ed1bf7fb9837d72b890e82ad751a153aed5887bb96e8ad1c4",
+    "tests/mvp/run_checks.py": "8d5ddef5b6b5d5ce1ea30009d45452814af7ff3daa4b832eb24f3917ddf5cc97"
+  },
+  "report_sha256": "2d933848b803e09eeb641eb7c8b7fd5741d3d79dff753b2ac95786826e2413b3",
+  "ui_checks": 265,
+  "integration_checks": 244,
+  "prior_final_review_preserved": true,
+  "prior_full2415_not_overwritten_or_relabelled": true,
+  "blocking_findings": [],
+  "scope": [
+    "Legacy main distance HUD keeps original44via neutral hook. MVPoverride22resolves to28logicalfontpx through existing1.25scale; EXPuses22input likewise.",
+    "Other manual game text retains existing per-field sizes. Physical font pixels may scale with the viewport.",
+    "No physical simulation, progression, save or typography resource changes in this followup.",
+    "Existing native sample/menu/board screenshots remain relevant because their resources and layout are unchanged. Final Web HUD screenshot is parent lane."
+  ],
+  "verification": [
+    "UI265and integration244allpass",
+    "No unexpected error lines",
+    "Source unchanged throughout final targetedrun and current SHA matches",
+    "Original UI result restored byte-for-byte"
+  ]
+}

@@ -1,0 +1,4 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+FAIL: partially loaded theme uses bundled backup
+{"checks":937,"failures":["partially loaded theme uses bundled backup"],"scope":"font coverage and theme configuration; visual shaping and platform rendering require screenshots","suite":"typography_fonts"}

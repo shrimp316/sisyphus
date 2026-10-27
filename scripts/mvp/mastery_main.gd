@@ -265,14 +265,14 @@ func _purchase(id: String) -> void:
 	_clear_overlay()
 	_open_board(not modal_milestone.is_empty())
 
-func _new_overlay(title: String, body: String = "") -> Control:
+func _new_overlay(title: String, body: String = "", title_style: StringName = &"SisyphusTitleLabel", body_style: StringName = &"SisyphusBodyLabel") -> Control:
 	_clear_overlay()
 	paused = true
 	overlay = Canvas.new()
 	ui_layer.add_child(overlay)
 	UI.backdrop(overlay.canvas,Rect2(0,0,1920,1080),Color(0.01,0.02,0.02,0.92))
-	UI.label(overlay.canvas,title,Rect2(420,170,1100,90),48,UI.GOLD)
-	var text: Label = UI.label(overlay.canvas,body,Rect2(420,300,1080,370),30)
+	UI.label(overlay.canvas,title,Rect2(420,170,1100,90),48,UI.GOLD,title_style)
+	var text: Label = UI.label(overlay.canvas,body,Rect2(420,300,1080,370),30,UI.TEXT,body_style)
 	text.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	return overlay.canvas
 
@@ -371,7 +371,12 @@ func _backup_existing(source_path: String) -> bool:
 func _sephirot() -> void:
 	if not mastery.sephirot_unlocked: return
 	ui_mode = "sephirot"
-	var area: Control = _new_overlay("운명의 직조", "말쿠트 · 왕국\n\n발이 닿는 대지에 첫 실이 걸렸습니다.\nEXP 획득량 ×5 · 영구 활성\n\n운명의 실 %d개\n다른 세피라는 아직 구매할 수 없습니다." % mastery.threads_balance)
+	var area: Control = _new_overlay("운명의 직조")
+	UI.label(area,"MALKUTH — 왕국",Rect2(420,290,850,60),32,UI.TEXT,&"SisyphusSectionLabel")
+	UI.label(area,"첫 번째 실이 이어졌다.",Rect2(420,370,850,60),30,UI.TEXT,&"SisyphusNarrativeLabel")
+	UI.label(area,"EXP 획득량 ×5 · 영구 활성",Rect2(420,450,850,50),28,UI.GOLD,&"SisyphusHUDLabel")
+	UI.label(area,"운명의 실 %d개" % mastery.threads_balance,Rect2(420,520,850,50),28,UI.GOLD,&"SisyphusHUDLabel")
+	UI.label(area,"다른 세피라는 아직 구매할 수 없습니다.",Rect2(420,590,850,50),21,UI.TEXT,&"SisyphusBodyLabel")
 	UI.image(area,"node_core",Rect2(1300,300,240,240))
 	UI.button(area,"돌아가기",Rect2(420,820,450,85),_dismiss_overlay).grab_focus()
 
@@ -387,7 +392,12 @@ func _start_prestige() -> void:
 func _present_prestige() -> void:
 	ui_mode = "prestige"
 	var captions: Dictionary = {"SUMMIT_REACHED":"마침내, 정상", "FIRST_SUMMIT_SEQUENCE":"끝에 닿은 손이 돌을 놓는다.","BOULDER_ROLLS_AWAY":"돌은 다시 아래로 굴러간다.","PRESTIGE_COMMIT":"숙련은 지워져도, 기억은 남는다.","SEPHIROT_REVEAL":"운명의 직조가 모습을 드러낸다.","MALKUTH_UNLOCK":"말쿠트 · 대지에 새겨진 첫 실", "NEW_RUN":"다시, 첫 발을 내딛는다."}
-	var area: Control = _new_overlay(str(captions.get(prestige_phase,"")),"EXP와 구매한 숙련은 초기화됩니다.\n개방한 구매 자격과 운명의 실은 영구히 남습니다." if not mastery.first_summit_completed else "말쿠트 활성 · 다음 등반부터 EXP ×5\n특별 숙련의 구매 자격이 열렸습니다.")
+	var first_reveal: bool = prestige_phase == "MALKUTH_UNLOCK" and mastery.prestige_count == 1
+	var area: Control = _new_overlay("운명의 직조" if first_reveal else str(captions.get(prestige_phase,"")), "" if first_reveal else ("EXP와 구매한 숙련은 초기화됩니다.\n개방한 구매 자격과 운명의 실은 영구히 남습니다." if not mastery.first_summit_completed else "말쿠트 활성 · 다음 등반부터 EXP ×5\n특별 숙련의 구매 자격이 열렸습니다."), &"SisyphusTitleLabel" if first_reveal else &"SisyphusNarrativeLabel")
+	if first_reveal:
+		UI.label(area,"MALKUTH — 왕국",Rect2(420,300,900,55),32,UI.TEXT,&"SisyphusSectionLabel")
+		UI.label(area,"첫 번째 실이 이어졌다.",Rect2(420,375,900,55),30,UI.TEXT,&"SisyphusNarrativeLabel")
+		UI.label(area,"EXP 획득량 ×5",Rect2(420,450,900,50),28,UI.GOLD,&"SisyphusHUDLabel")
 	rolling_stone = UI.image(area,"boulder",Rect2(750,680,180,180))
 
 func _advance_prestige() -> void:
@@ -514,12 +524,16 @@ func slip_warning_active() -> bool:
 func _slip_recovery_hint() -> String:
 	return "발밑이 불안합니다 · 밀기 키를 놓고 자세를 회복하세요"
 
+func _distance_hud_font_size() -> int:
+	# Parent applies 1.25x to canvas text: 22 resolves to the Theme's 28 px.
+	return 22
+
 func _draw_progression_hud(size: Vector2) -> void:
 	if boulder.has_method("environment_info"):
 		var environment: Dictionary = boulder.call("environment_info")
 		if bool(environment.get("enabled",false)):
 			_text(str(environment.get("note","")),Vector2(56,201),18,GOLD)
-	_text("%d EXP  ·  숙련 %d/35  ·  Tab 석판" % [mastery.available_exp,mastery.purchased_mastery_nodes.size()],Vector2(40,size.y-55),24,GOLD)
+	_text("%d EXP  ·  숙련 %d/35  ·  Tab 석판" % [mastery.available_exp,mastery.purchased_mastery_nodes.size()],Vector2(40,size.y-55),22,GOLD)
 	var ahead: Dictionary = ahead_information()
 	if not ahead.is_empty():
 		_text("앞길 50m · %.0f~%.0f° · %s · 돌턱 %d" % [ahead.angle_min,ahead.angle_max,"/".join(ahead.surfaces),ahead.ledges],Vector2(40,size.y-95),22,MUTED)

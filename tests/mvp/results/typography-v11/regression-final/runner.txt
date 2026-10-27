@@ -1,0 +1,17 @@
+physics: passed, checks=115, exit=0
+stamina: passed, checks=124, exit=0
+progression: passed, checks=50, exit=0
+web: passed, checks=24, exit=0
+v02_quick: passed, checks=23, exit=0
+harness: passed, checks=43, exit=0
+instrumentation: expected_rejection, checks=0, exit=1
+mastery_progression: passed, checks=113, exit=0
+mastery_save: passed, checks=109, exit=0
+mastery_physics: passed, checks=155, exit=0
+climb_difficulty: passed, checks=37, exit=0
+save_contract: passed, checks=167, exit=0
+ui: passed, checks=265, exit=0
+integration: passed, checks=244, exit=0
+storage_faults: passed, checks=18, exit=0
+s190_verify: passed, checks=15, exit=0
+All expectations met: True; checks: 1502; report: C:\Users\PMS\Documents\ChatGPT\Ω√¡ˆ«¡\tests\mvp\results\typography-v11\regression-final\report.json

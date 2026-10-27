@@ -1,0 +1,2 @@
+# Preserve the upstream OFL license files, including their original whitespace.
+*-OFL.txt -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol

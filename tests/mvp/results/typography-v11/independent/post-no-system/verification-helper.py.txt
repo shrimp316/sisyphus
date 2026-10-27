@@ -1,0 +1,24 @@
+from pathlib import Path
+import subprocess,hashlib,json,uuid,re
+r=Path.cwd();out=r/'tests/mvp/results/typography-v11/independent/post-no-system';out.mkdir(parents=True,exist_ok=True)
+paths=[p for base in ['scripts','ui/themes','scenes/mvp','assets/fonts'] for p in (r/base).rglob('*') if p.is_file() and p.suffix in ['.gd','.tres','.tscn','.import']]+[r/'project.godot']+[r/'tests/mvp'/n for n in ['test_mvp_ui.gd','test_mvp_integration.gd','test_typography_fonts.gd','test_typography_layout.gd']]
+def sha(b):return hashlib.sha256(b).hexdigest()
+def hashes():return {p.relative_to(r).as_posix():sha(p.read_bytes()) for p in paths}
+report={'source_before':hashes(),'suites':[]};prior=r/'tests/mvp/results/ui-components.json';saved=prior.read_bytes()
+try:
+ for name,script in [('fonts','test_typography_fonts.gd'),('layout','test_typography_layout.gd'),('ui','test_mvp_ui.gd'),('integration','test_mvp_integration.gd')]:
+  cmd=[str(r/'.tools/godot/Godot_v4.5.1-stable_win64_console.exe'),'--headless','--path',str(r),'--script','tests/mvp/'+script]
+  if name=='integration':cmd+=['--','--save-path=user://mvp-typography-no-system-'+uuid.uuid4().hex+'.json']
+  p=subprocess.run(cmd,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=300);raw=p.stdout;text=raw.decode('utf-8','replace');(out/(name+'.txt')).write_bytes(raw)
+  summary=[]
+  for line in text.splitlines():
+   if line.startswith('{'):
+    try:summary.append(json.loads(line))
+    except ValueError:pass
+  if name=='ui':
+   (out/'ui-components.json').write_bytes(prior.read_bytes());summary.append(json.loads(prior.read_bytes()))
+  report['suites'].append({'name':name,'command':cmd,'exit_code':p.returncode,'summary':summary,'unexpected_errors':[s for s in text.splitlines() if s.startswith(('ERROR:','SCRIPT ERROR:','FAIL:'))],'log_sha256':sha(raw)})
+finally:
+ prior.write_bytes(saved);report['previous_ui_bytes_preserved']=prior.read_bytes()==saved;report['source_after']=hashes();report['changed_sources']=[p for p,h in report['source_before'].items() if report['source_after'][p]!=h]
+ (out/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({'suites':report['suites'],'changed_sources':report['changed_sources'],'previous_ui_bytes_preserved':report['previous_ui_bytes_preserved']},ensure_ascii=False))

@@ -1,0 +1,71 @@
+{
+  "platform": "Windows",
+  "browser": "in-app Chromium",
+  "actual_game_css_viewport": [
+    1280,
+    720
+  ],
+  "game_screenshot_pixels": [
+    1265,
+    712
+  ],
+  "sample_viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1280,
+      720
+    ]
+  ],
+  "fixtures": "synthetic, isolated localhost origin and directory",
+  "font_files_in_export_log": 8,
+  "build_files": {
+    "builds/mvp-web/index.pck": {
+      "bytes": 32937928,
+      "sha256": "458d137b9b6e2299d552cba56b1499ec8bf8eb9482fedd27a5a9ae090f3c32aa"
+    },
+    "builds/typography-v11/index.pck": {
+      "bytes": 38102448,
+      "sha256": "025b8ee347e26deb77f805312972a362d585b0db45277f292ea0a754ff548c88"
+    },
+    "builds/mvp-web/index.wasm": {
+      "bytes": 36145869,
+      "sha256": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+    },
+    "builds/typography-v11/index.wasm": {
+      "bytes": 36145869,
+      "sha256": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+    }
+  },
+  "screenshots": {
+    "board-1280.jpg": {
+      "bytes": 76524,
+      "sha256": "633f5d8db37990bc6a56c6b6674758d85e2ac05a0322cf272e8b94d96a190f5c"
+    },
+    "hud-1280.jpg": {
+      "bytes": 111373,
+      "sha256": "f4c403313a99e3c6f12c096d53a91e20f0d1fa1e1df9a6360c24b9c13a44e389"
+    },
+    "menu-1280.jpg": {
+      "bytes": 131505,
+      "sha256": "60292b20985e5a1c8aeb4d5fe151f9a5de813cd8e5d974551ee7561786cb5733"
+    },
+    "sample-1280.jpg": {
+      "bytes": 20095,
+      "sha256": "3115316dd48b5815ce9ded515715efaa88db30351ffa7cc5e654a8f05391f61d"
+    },
+    "sample-1920.jpg": {
+      "bytes": 39259,
+      "sha256": "6dee293190b1537a8c34ffbf83d4ef1992ae4a3fde7f2426712a0d137945213b"
+    },
+    "sephirot-1280.jpg": {
+      "bytes": 46675,
+      "sha256": "1199d9719b2b6c1bb4aaea0005f43fa1c38dde7df074f8011f660c8e0db5debf"
+    }
+  },
+  "pck_delta_bytes": 5164520,
+  "console_observed_errors": 0,
+  "caveats": "Browser sample tests static glyph scene; actual game screenshots include synthetic profiles. Linux untested."
+}

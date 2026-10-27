@@ -1,0 +1,3 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+{"checks":930,"failures":[],"scope":"font coverage and theme configuration; visual shaping and platform rendering require screenshots","suite":"typography_fonts"}

@@ -1,0 +1,23 @@
+{
+  "command": [
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+    "--headless",
+    "--path",
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+    "--script",
+    "tests/mvp/test_typography_fonts.gd"
+  ],
+  "source_sha256": "2e380cca21d6cdbaece842946c82e839283a4f5907f2725d87feee3f3acf2262",
+  "source_unchanged": true,
+  "exit_code": 0,
+  "summary": [
+    {
+      "checks": 948,
+      "failures": [],
+      "scope": "font coverage and theme configuration; visual shaping and platform rendering require screenshots",
+      "suite": "typography_fonts"
+    }
+  ],
+  "errors": [],
+  "log_sha256": "0615f1f47695e83a91fd2134e12dacb7855b8f2ffa9a83e73d0c85c45b789083"
+}

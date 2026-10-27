@@ -29,7 +29,7 @@ NEW_SUITES = [
     ("climb_difficulty", "test_climb_difficulty.gd", 37),
     ("save_contract", "test_save_contract.gd", 167),
     ("ui", "test_mvp_ui.gd", 186),
-    ("integration", "test_mvp_integration.gd", 243),
+    ("integration", "test_mvp_integration.gd", 244),
     ("storage_faults", "test_storage_faults.gd", 18),
     ("s190_verify", "s190_verify.gd", 15),
 ]

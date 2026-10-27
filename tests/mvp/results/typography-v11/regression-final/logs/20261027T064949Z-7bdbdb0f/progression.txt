@@ -1,0 +1,53 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS: new profile starts at level 1 without an upgrade
+PASS: 49.99m does not reach the first marker
+PASS: exactly 50m awards 20 run XP plus 10 record XP
+PASS: exactly 100m earns the first level and one choice
+PASS: second level requires 70 new XP
+PASS: one update can cross several markers and levels
+PASS: backtracking and recrossing cannot duplicate same-run XP
+PASS: only valid choices with an unspent point succeed
+PASS: new run keeps experience, upgrades and records
+PASS: new run awards run XP again without duplicate personal-record XP
+PASS: exceeding the old lifetime record awards its bonus once
+PASS: nonfinite distance and invalid course length cannot grant XP
+PASS: JSON round trip preserves XP, ranks and marker claims
+PASS: snapshot rank edits cannot mutate the live profile
+PASS: malformed profile restores reject atomically without altering existing progression
+PASS: long-term XP stops at level 31 with 30 available upgrades
+PASS: each ability caps at ten upgrades and no extra choice is consumed
+PASS: legacy save establishes marker baselines without retroactive XP
+PASS: legacy records grant only newly crossed run markers and a new lifetime record
+PASS: unupgraded physics retains base values
+PASS: maximum upgrades give 20 percent in each ability
+PASS: strength raises real push force and forward acceleration
+PASS: recovery raises actual stamina restored on a shelf
+PASS: resting fills endurance capacity above 100 without exceeding its cap
+PASS: level earned on a slope waits for a safe shelf
+PASS: earned experience is saved immediately
+PASS: fresh app restores unspent choice and claimed markers without duplicating XP
+PASS: Escape pauses without discarding a pending choice
+PASS: Enter resumes the pause menu but cannot bypass upgrade selection
+PASS: key 2 raises endurance capacity without refilling current stamina
+PASS: moving through a shelf does not interrupt play
+PASS: stopping on a shelf opens the pending upgrade
+PASS: upgrade selection freezes all boulder simulation
+PASS: pause menu cannot spend an upgrade point
+PASS: key 1 selects strength, applies it, and dismisses the completed choice
+PASS: selected upgrade is saved in the version 4 envelope
+PASS: finishing a fall retains progression
+PASS: retry resets only run claims and reapplies persistent upgrades
+PASS: UI button action spends the remaining recovery point
+PASS: save reload applies endurance before restoring stamina above 100
+PASS: invalid saved growth blocks overwrite and preserves the original file
+PASS: legacy v1 keeps run/record and does not auto-award old distance
+PASS: legacy v1 missing peak uses current distance as migration baseline without retroactive XP
+PASS: legacy v1 low peak uses current distance as migration baseline without retroactive XP
+PASS: legacy v2 keeps run/record and does not auto-award old distance
+PASS: legacy v2 missing peak uses current distance as migration baseline without retroactive XP
+PASS: legacy v2 low peak uses current distance as migration baseline without retroactive XP
+PASS: legacy v3 keeps run/record and does not auto-award old distance
+PASS: legacy v3 missing peak uses current distance as migration baseline without retroactive XP
+PASS: legacy v3 low peak uses current distance as migration baseline without retroactive XP
+PROGRESSION VERIFICATION: 50 checks, 0 failures; fixtures: res://.tools/progression-705081

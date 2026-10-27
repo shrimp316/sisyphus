@@ -1,0 +1,106 @@
+[gd_resource type="Theme" load_steps=10 format=3]
+
+[ext_resource type="Font" path="res://ui/themes/typography/title.tres" id="title"]
+[ext_resource type="Font" path="res://ui/themes/typography/section.tres" id="section"]
+[ext_resource type="Font" path="res://ui/themes/typography/menu.tres" id="menu"]
+[ext_resource type="Font" path="res://ui/themes/typography/node.tres" id="node"]
+[ext_resource type="Font" path="res://ui/themes/typography/body.tres" id="body"]
+[ext_resource type="Font" path="res://ui/themes/typography/hud.tres" id="hud"]
+[ext_resource type="Font" path="res://ui/themes/typography/tooltip.tres" id="tooltip"]
+[ext_resource type="Font" path="res://ui/themes/typography/greek.tres" id="greek"]
+[ext_resource type="Font" path="res://ui/themes/typography/narrative.tres" id="narrative"]
+
+[resource]
+default_font = ExtResource("body")
+default_font_size = 21
+SisyphusTitleLabel/base_type = &"Label"
+SisyphusTitleLabel/fonts/font = ExtResource("title")
+SisyphusTitleLabel/font_sizes/font_size = 46
+SisyphusTitleLabel/colors/font_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusTitleLabel/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusTitleLabel/constants/outline_size = 2
+SisyphusTitleLabel/colors/font_shadow_color = Color(0.08, 0.06, 0.04, 0.65)
+SisyphusTitleLabel/constants/shadow_offset_x = 1
+SisyphusTitleLabel/constants/shadow_offset_y = 1
+SisyphusSectionLabel/base_type = &"Label"
+SisyphusSectionLabel/fonts/font = ExtResource("section")
+SisyphusSectionLabel/font_sizes/font_size = 32
+SisyphusSectionLabel/colors/font_color = Color(0.874510, 0.815686, 0.686275, 1)
+SisyphusSectionLabel/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusSectionLabel/constants/outline_size = 1
+SisyphusNodeLabel/base_type = &"Label"
+SisyphusNodeLabel/fonts/font = ExtResource("node")
+SisyphusNodeLabel/font_sizes/font_size = 23
+SisyphusNodeLabel/colors/font_color = Color(0.874510, 0.815686, 0.686275, 1)
+SisyphusNodeLabel/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusNodeLabel/constants/outline_size = 1
+SisyphusBodyLabel/base_type = &"Label"
+SisyphusBodyLabel/fonts/font = ExtResource("body")
+SisyphusBodyLabel/font_sizes/font_size = 21
+SisyphusBodyLabel/colors/font_color = Color(0.847059, 0.800000, 0.721569, 1)
+SisyphusBodyLabel/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusBodyLabel/constants/outline_size = 1
+SisyphusHUDLabel/base_type = &"Label"
+SisyphusHUDLabel/fonts/font = ExtResource("hud")
+SisyphusHUDLabel/font_sizes/font_size = 28
+SisyphusHUDLabel/colors/font_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusHUDLabel/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusHUDLabel/constants/outline_size = 1
+SisyphusTooltipLabel/base_type = &"Label"
+SisyphusTooltipLabel/fonts/font = ExtResource("tooltip")
+SisyphusTooltipLabel/font_sizes/font_size = 19
+SisyphusTooltipLabel/colors/font_color = Color(0.780392, 0.733333, 0.643137, 1)
+SisyphusTooltipLabel/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusTooltipLabel/constants/outline_size = 1
+SisyphusGreekLabel/base_type = &"Label"
+SisyphusGreekLabel/fonts/font = ExtResource("greek")
+SisyphusGreekLabel/font_sizes/font_size = 38
+SisyphusGreekLabel/colors/font_color = Color(0.909804, 0.741176, 0.470588, 1)
+SisyphusGreekLabel/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusGreekLabel/constants/outline_size = 1
+SisyphusNarrativeLabel/base_type = &"Label"
+SisyphusNarrativeLabel/fonts/font = ExtResource("narrative")
+SisyphusNarrativeLabel/font_sizes/font_size = 30
+SisyphusNarrativeLabel/colors/font_color = Color(0.874510, 0.815686, 0.686275, 1)
+SisyphusNarrativeLabel/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusNarrativeLabel/constants/outline_size = 1
+SisyphusMenuButton/base_type = &"Button"
+SisyphusMenuButton/fonts/font = ExtResource("menu")
+SisyphusMenuButton/font_sizes/font_size = 30
+SisyphusMenuButton/colors/font_color = Color(0.909804, 0.839216, 0.709804, 1)
+SisyphusMenuButton/colors/font_hover_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusMenuButton/colors/font_focus_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusMenuButton/colors/font_pressed_color = Color(0.713725, 0.643137, 0.517647, 1)
+SisyphusMenuButton/colors/font_disabled_color = Color(0.505882, 0.474510, 0.427451, 1)
+SisyphusMenuButton/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusMenuButton/constants/outline_size = 1
+SisyphusPrimaryButton/base_type = &"Button"
+SisyphusPrimaryButton/fonts/font = ExtResource("menu")
+SisyphusPrimaryButton/font_sizes/font_size = 30
+SisyphusPrimaryButton/colors/font_color = Color(0.909804, 0.839216, 0.709804, 1)
+SisyphusPrimaryButton/colors/font_hover_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusPrimaryButton/colors/font_focus_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusPrimaryButton/colors/font_pressed_color = Color(0.713725, 0.643137, 0.517647, 1)
+SisyphusPrimaryButton/colors/font_disabled_color = Color(0.505882, 0.474510, 0.427451, 1)
+SisyphusPrimaryButton/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusPrimaryButton/constants/outline_size = 1
+SisyphusSecondaryButton/base_type = &"Button"
+SisyphusSecondaryButton/fonts/font = ExtResource("menu")
+SisyphusSecondaryButton/font_sizes/font_size = 30
+SisyphusSecondaryButton/colors/font_color = Color(0.909804, 0.839216, 0.709804, 1)
+SisyphusSecondaryButton/colors/font_hover_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusSecondaryButton/colors/font_focus_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusSecondaryButton/colors/font_pressed_color = Color(0.713725, 0.643137, 0.517647, 1)
+SisyphusSecondaryButton/colors/font_disabled_color = Color(0.505882, 0.474510, 0.427451, 1)
+SisyphusSecondaryButton/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusSecondaryButton/constants/outline_size = 1
+SisyphusNodeButton/base_type = &"Button"
+SisyphusNodeButton/fonts/font = ExtResource("node")
+SisyphusNodeButton/font_sizes/font_size = 23
+SisyphusNodeButton/colors/font_color = Color(0.874510, 0.815686, 0.686275, 1)
+SisyphusNodeButton/colors/font_hover_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusNodeButton/colors/font_focus_color = Color(0.941176, 0.780392, 0.505882, 1)
+SisyphusNodeButton/colors/font_pressed_color = Color(0.713725, 0.643137, 0.517647, 1)
+SisyphusNodeButton/colors/font_disabled_color = Color(0.505882, 0.474510, 0.427451, 1)
+SisyphusNodeButton/colors/font_outline_color = Color(0.188235, 0.133333, 0.090196, 1)
+SisyphusNodeButton/constants/outline_size = 1

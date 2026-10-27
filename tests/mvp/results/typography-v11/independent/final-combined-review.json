@@ -1,0 +1,146 @@
+{
+  "verdict": "approved within documented Windows native/Web typography scope; no unresolved blocking finding",
+  "document_sha256": "a99b00ddee14ef366d13cb2d9ae1f4140dc06d215bc1e49cdc4e9f4c72ee0fb7",
+  "web_manifest_sha256": "70ebdc81e1d4219b7333de6728f4f9f81dbd2a0b7819abfefc25d7cdce77d7c3",
+  "source_sha256": {
+    "scripts/asset_preview.gd": "e550feb7585f972c0dc59408dc3d7623c4255a78d3e756fd95d4c4e64243ef83",
+    "scripts/asset_visuals.gd": "a16d83980281ede7acef72bc3d4289209719debcabd003ca03e627588056f01c",
+    "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+    "scripts/main.gd": "d941b85bc9ca1114e4da937d028a3bfebf96d3e856b0e11ad0cfc286575df16b",
+    "scripts/mastery_boulder.gd": "f9340b98996351e4819d525815e50e19bbce621838470c0f5853b06b3f18fee0",
+    "scripts/mastery_effects.gd": "fc8a37f52334046fb0f17ed72ba75d97b826bb4b6244ca8bb887222547017154",
+    "scripts/mastery_progression.gd": "10e232f3bb1e264f1050a10cb1649fcd8a845dc2a65716b89eee3b0237c36282",
+    "scripts/mountain_chunk.gd": "4c783aaad3ce4e335cbb538500e01ff21e959916c6822de067060b105e30b6a3",
+    "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+    "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7",
+    "scripts/scenery_visuals.gd": "3c4ae8930bad1089f86be267528a8a9f0f975f60c94ee8b2ac7ca758247106d8",
+    "scripts/soundscape.gd": "9d3bfa84bf6832107d7b88dcb65b51ecd3f18bbb71f7c194e4473b2132be9df8",
+    "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+    "scripts/mvp/design_canvas.gd": "faaad1c59c6a5a43d7661794844ee39ff048c1a9b59754353ce630daa28d6ec7",
+    "scripts/mvp/main_menu.gd": "be72cb13f4afc4f20e8a34c06bc360753964548b6cb373478a398d8c1567fdaa",
+    "scripts/mvp/mastery_board.gd": "a8c72a6611d6d8919e2bacbd8a324221d7bd44324bc453ef5d6236aa0cd97f63",
+    "scripts/mvp/mastery_main.gd": "6faedf6b9fd71a74c9da8ebbe8858fff7c471f6cb7226c44358ad5fde50f4764",
+    "scripts/mvp/mastery_node.gd": "6f4458a5f076c11332057e61c97d61be56d70614224027e696897751754654ad",
+    "scripts/mvp/save_contract.gd": "c87015799e0b092506af0e5493c0d00437ea5c50cd8ab39af387e7c49f2e4e8a",
+    "scripts/mvp/typography.gd": "260142f1bdb3d35aaf6526dbc082bc79089f179eb2323b2ee061282de31ff702",
+    "scripts/mvp/ui_theme.gd": "9667ba2145322b0e82f637333fd84442dc69cd26021ff5f68aad68daabf42c63",
+    "ui/themes/sisyphus_theme.tres": "4ce784caf783fc98f7a933520c3aa2f707b688754776ad39311032a2e89069fa",
+    "ui/themes/typography/body.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "ui/themes/typography/greek.tres": "aa9e3aae05ae2cbc884a05f7a26890e814ea220030811b5b27614d13989fcebb",
+    "ui/themes/typography/hud.tres": "3b4a52e430f3135e4b35e941cd7fa2ddada190c15589ced2765f8d70ee6a155b",
+    "ui/themes/typography/menu.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/narrative.tres": "b1e6520ba4acf35d5143b5ce1df56382fa4f4d26892d4b859fcea0ad45f09d85",
+    "ui/themes/typography/node.tres": "7e2c5a10fc7ae96fb04cb35766f140a88690b84f28077a6557aa81e738801cf5",
+    "ui/themes/typography/section.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/title.tres": "76f5044dc027eb692c073deae0b14b3285a8481be8d97a573397a4c2786912ab",
+    "ui/themes/typography/tooltip.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "scenes/mvp/main_menu.tscn": "cfa7f1ea08aae33c2d786aa65a8584588195e365f6bc6c68adea7f06e48cb927",
+    "scenes/mvp/main_mvp.tscn": "5719206d465a2412ae626f4ecaa4d880fba434fca6be28e250ec05a5adee0bd8",
+    "scenes/mvp/mastery_board.tscn": "bfe99599b8b4550a4744fbb6c4818218737cb6d20fff3abdd68054fb8ff980de",
+    "scenes/mvp/mastery_node.tscn": "15c447d33b332c6371d01f234bc9bd866ff324d39e47271fee6eee2feafed47b",
+    "assets/fonts/NotoSansKR.ttf.import": "78e5e80b89eb813348352146481de346791ba0283bd715337396500fb6043c81",
+    "assets/fonts/gfs_didot/GFSDidot-Regular.ttf.import": "932b4b2bc671f62141f1229c73b1efbfdedb03ba233d8bee997eb6021e1b71b0",
+    "assets/fonts/hahmlet/Hahmlet-Bold.otf.import": "4ed6e2b7607cd2d83d65cd69a00a6db3e863d04c49ab5e787c318c16684d8833",
+    "assets/fonts/hahmlet/Hahmlet-Medium.otf.import": "cab462b398defd3c69c68ac64056961ee6b5adc64395ce352cb75865164e23e3",
+    "assets/fonts/hahmlet/Hahmlet-Regular.otf.import": "10f5695e865e27d31fb19b9a7bc73c7798c049216d2e93e9b397986fde277532",
+    "assets/fonts/hahmlet/Hahmlet-SemiBold.otf.import": "074464d9a34b18817bb69f2c3b573f27ebf9bb6b9ca1f5b088cd50325a7702ac",
+    "assets/fonts/pretendard/Pretendard-Medium.otf.import": "b5cecffc74d35eb98b5779cabe4f0891d0605f2e2492e3a51ef3a81ea22e609a",
+    "assets/fonts/pretendard/Pretendard-Regular.otf.import": "a3362d0068de0fc6201626200f4bf21d835e22113372719b88fc1aa95c045f44",
+    "assets/fonts/pretendard/Pretendard-SemiBold.otf.import": "b57855d481e3144061cc3e88d62b2e3fc4ada31a61399ba2fa49ce6160211470",
+    "project.godot": "be4edb70e182475965a038872d1ab00280b539b33a44a8030d43d008b8a507d4",
+    "tests/mvp/test_mvp_ui.gd": "1c2eeac107edcfdf49acace6d67a865b0a35eb8e24e5f35f5da5e24eecc0f2e4",
+    "tests/mvp/test_mvp_integration.gd": "e10063729cf5441ed1bf7fb9837d72b890e82ad751a153aed5887bb96e8ad1c4",
+    "tests/mvp/test_typography_fonts.gd": "2e380cca21d6cdbaece842946c82e839283a4f5907f2725d87feee3f3acf2262",
+    "tests/mvp/test_typography_layout.gd": "5787780f780d2f16b4a7ae4406d5587199d2bd85092e529508f88b47c9e91b9c"
+  },
+  "changes_since_post_no_system": [
+    "test_typography_fonts.gd only: two shared-resource identity checks; production code/font imports unchanged"
+  ],
+  "verification_timeline": {
+    "full_regression_before_no_system_import_change": 1502,
+    "post_no_system_targeted": {
+      "fonts": 946,
+      "layout": 970,
+      "ui": 265,
+      "integration": 244,
+      "total": 2425
+    },
+    "later_fonts_only_rerun": 948,
+    "presentation_separate": 8,
+    "note": "No claim of a new full2427 suite or Linux execution."
+  },
+  "native_captures": {
+    "count": 9,
+    "resolutions": [
+      "1920x1080",
+      "1600x900",
+      "1280x720"
+    ],
+    "all_byte_identical_to_prior_visually_reviewed_images": true,
+    "subviewport_not_OS_fullscreen": true
+  },
+  "web_visual_review": {
+    "images_reviewed": [
+      "board-final.jpg",
+      "hud-final.jpg",
+      "menu-final.jpg",
+      "sample-final-1280.jpg",
+      "sample-final-1920.jpg",
+      "sephirot-final.jpg"
+    ],
+    "missing_glyph_or_text_clipping_or_overlap_observed": false,
+    "notes": [
+      "Korean text, Greek accented sample and distance/EXP displays are legible in captured states.",
+      "Game images are1265x712 pixels from1280x720 CSS viewport and include a visible scrollbar; not exact1280 raster proofs.",
+      "Browser execution and zero-console-error observation supplied by parent operator; independent reviewer inspected screenshots, build logs and file hashes, not a second live browser session."
+    ]
+  },
+  "builds_and_images_sha256": {
+    "builds/mvp-web/index.pck": "458d137b9b6e2299d552cba56b1499ec8bf8eb9482fedd27a5a9ae090f3c32aa",
+    "builds/typography-v11/index.pck": "cea6b021b7a21c57faf5d82b92a313a10724056868e3ead31dcd29ac61e99a37",
+    "builds/mvp-web/index.wasm": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d",
+    "builds/typography-v11/index.wasm": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d",
+    "tests/mvp/results/typography-v11/web/board-final.jpg": "e333a1af3f74dbeebe92a78919c690edd5796ec6234166d7719a6753e0dd3e23",
+    "tests/mvp/results/typography-v11/web/hud-final.jpg": "068bf7ea688eec385f8f3b1defc31b289ef8b1cef581319a95a485d596e77e05",
+    "tests/mvp/results/typography-v11/web/menu-final.jpg": "32bd0aef93d856947e2ddac43f54093878d259f21f026654e3fcb417ee88a68e",
+    "tests/mvp/results/typography-v11/web/sample-final-1280.jpg": "3115316dd48b5815ce9ded515715efaa88db30351ffa7cc5e654a8f05391f61d",
+    "tests/mvp/results/typography-v11/web/sample-final-1920.jpg": "6dee293190b1537a8c34ffbf83d4ef1992ae4a3fde7f2426712a0d137945213b",
+    "tests/mvp/results/typography-v11/web/sephirot-final.jpg": "1199d9719b2b6c1bb4aaea0005f43fa1c38dde7df074f8011f660c8e0db5debf",
+    "tests/mvp/results/typography-v11/web/mvp-build-log.txt": "ed5b3aaa6567d898aeb95d8feeac9a82b7bc29c3fb49272807585f8ef1269df0",
+    "tests/mvp/results/typography-v11/web/sample-build-log.txt": "943079cb0df7c23b654d79d4b64ac233b31cfe904e37930766822a4fff3183d7"
+  },
+  "pck_delta_verified": 5164056,
+  "font_manifest": {
+    "new_files": 8,
+    "total_original_bytes": 7051964,
+    "all_hashes_match": true,
+    "existing_Noto_preserved": true,
+    "all9_imports_disable_system_fallback": true
+  },
+  "relative_document_links_resolve": 28,
+  "tracked_physics_growth_save_rules_and_art_unchanged_against_HEAD": [
+    "scripts/boulder_controller.gd",
+    "scripts/mastery_boulder.gd",
+    "scripts/mastery_effects.gd",
+    "scripts/mastery_progression.gd",
+    "scripts/mvp/climb_boulder.gd",
+    "scripts/mvp/save_contract.gd",
+    "data/mastery",
+    "assets/MainMenu",
+    "assets/ui/sephirot"
+  ],
+  "preservation": "Prior test result files restored byte-for-byte; reviewer never operated real user save. Browser fixtures are parent-reported synthetic local profiles.",
+  "limitations": [
+    "Linux not executed",
+    "Web1600x900 actual screenshot not tested",
+    "All OS-window/fullscreen combinations not tested",
+    "Original logo remains Noto Label exception",
+    "Arbitrary dynamic text and all Greek combining sequences not exhaustively rendered"
+  ],
+  "resolved_findings": [
+    "PartialTheme fallback falsepositive fixed and rerun",
+    "OS FontFile fallback explicitly disabled and rerun",
+    "Publishable build log copies and new8/existingNoto distinction supplied"
+  ],
+  "reviewer_production_edits": false
+}

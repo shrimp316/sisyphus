@@ -28,6 +28,7 @@ var boulder: BoulderController
 var sound: Soundscape
 var path: Path2D
 const KOREAN_FONT: Font = preload("res://assets/fonts/NotoSansKR.ttf")
+const Typography = preload("res://scripts/mvp/typography.gd")
 var font: Font
 var camera_position: Vector2 = Vector2.ZERO
 var zoom: float = 1.0
@@ -70,15 +71,9 @@ func _ready() -> void:
 	scenery = Scenery.new()
 	scenery.name = "Scenery"
 	add_child(scenery)
-	if web_mode:
-		var web_font: FontVariation = FontVariation.new()
-		web_font.base_font = KOREAN_FONT
-		web_font.variation_opentype = {"wght": 400.0}
-		font = web_font
-	else:
-		var system_font: SystemFont = SystemFont.new()
-		system_font.font_names = PackedStringArray(["Malgun Gothic", "Noto Sans CJK KR", "Noto Sans", "Arial"])
-		font = system_font
+	# Canvas-drawn text cannot inherit a Control theme. Use the bundled HUD
+	# variation on both desktop and Web, with an explicit bundled fallback.
+	font = Typography.load_font()
 	path = Path2D.new()
 	path.name = "MountainPath"
 	add_child(path)
@@ -880,10 +875,13 @@ func _stamina_percent() -> float:
 func _slip_recovery_hint() -> String:
 	return "발밑이 불안합니다 · 힘주기를 멈추고 균형을 되찾으세요"
 
+func _distance_hud_font_size() -> int:
+	return 44
+
 func _draw_hud(size: Vector2) -> void:
 	_draw_progression_hud(size)
 	Art.draw_at(self, art.texture("res://assets/ui/icons/height_marker_icon.png"), Vector2(30, 65), Vector2(64, 64), 0.22)
-	_text("%d m" % int(boulder.distance), Vector2(54, 82), 44, GOLD if record_flash > 0.0 else INK)
+	_text("%d m" % int(boulder.distance), Vector2(54, 82), _distance_hud_font_size(), GOLD if record_flash > 0.0 else INK)
 	_text("시도 %02d  ·  %s" % [run_number, mountain.zone(boulder.distance)], Vector2(56, 113), 15, MUTED)
 	var terrain: Dictionary = mountain.surface_at(boulder.distance)
 	_text("%s  ·  %s" % [str(terrain.label), mountain.weather_label()], Vector2(56, 143), 15, INK)

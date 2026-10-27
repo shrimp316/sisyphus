@@ -11,11 +11,9 @@ func configure(definition: Dictionary, state: String) -> void:
 	state_name = state
 	text = "%s  %d\n%s" % ["특별" if definition.category == "SPC" else {"STR":"근력","END":"지구력","BRE":"호흡"}.get(definition.category, definition.category), definition.sequence, {"purchased":"각인 완료", "available":"%d EXP" % definition.exp_cost, "locked":"미개방", "disabled":"준비 중", "prerequisite":"선행 필요", "insufficient_exp":"EXP 부족"}.get(state, state)]
 	tooltip_text = "%s · %s" % [definition.name, definition.description]
-	add_theme_font_override("font", UI.FONT)
-	add_theme_font_size_override("font_size", 24)
-	add_theme_color_override("font_color", UI.GOLD if state == "purchased" else UI.TEXT)
-	for interaction: String in ["hover", "focus", "pressed"]:
-		add_theme_color_override("font_"+interaction+"_color", UI.GOLD)
+	theme_type_variation = &"SisyphusNodeButton"
+	var text_color: Color = Color("f5d79c") if state == "purchased" else (Color("e8bd78") if state == "available" else Color("81796d"))
+	add_theme_color_override("font_color", text_color)
 	var box := StyleBoxFlat.new()
 	box.bg_color = Color("29372c") if state == "purchased" else (Color("343022") if state == "available" else Color("1a2222"))
 	box.border_color = UI.GOLD if state in ["purchased", "available"] else Color("4e5551")

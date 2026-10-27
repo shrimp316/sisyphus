@@ -1,0 +1,48 @@
+extends SceneTree
+
+const SAMPLE = preload("res://tests/mvp/typography_sample.tscn")
+const MENU = preload("res://scenes/mvp/main_menu.tscn")
+const BOARD = preload("res://scenes/mvp/mastery_board.tscn")
+const PROFILE = preload("res://scripts/mastery_progression.gd")
+const OUT = "res://tests/mvp/results/typography-v11/independent/post-no-system/native"
+var records: Array = []
+func _initialize(): call_deferred("run")
+func run():
+	if DisplayServer.get_name() == "headless":
+		printerr("Requires real renderer")
+		quit(2)
+		return
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(OUT))
+	var profile = PROFILE.new()
+	profile.begin_run("native-typography-render-fixture")
+	profile.award_distance(1000,1000)
+	profile.purchase_node("STR01")
+	for dimensions: Vector2i in [Vector2i(1920,1080),Vector2i(1600,900),Vector2i(1280,720)]:
+		for kind: String in ["sample","menu","board"]:
+			var viewport := SubViewport.new()
+			viewport.size = dimensions
+			viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
+			root.add_child(viewport)
+			var screen = SAMPLE.instantiate() if kind == "sample" else (MENU.instantiate() if kind == "menu" else BOARD.instantiate())
+			viewport.add_child(screen)
+			if kind == "sample":
+				screen.set_anchors_preset(Control.PRESET_TOP_LEFT)
+				screen.size = Vector2(1920,1080)
+				screen.scale = Vector2.ONE * float(dimensions.x)/1920.0
+			elif kind == "menu": screen.refresh(profile,true)
+			else:
+				screen.refresh(profile,true)
+				screen.select_node("SPC01")
+			for frame in range(3): await process_frame
+			await RenderingServer.frame_post_draw
+			var pixels: Image = viewport.get_texture().get_image()
+			var path = OUT.path_join("%s-%d.png" % [kind,dimensions.x])
+			var saved = pixels.save_png(path)
+			records.append({"kind":kind,"viewport":[dimensions.x,dimensions.y],"image":[pixels.get_width(),pixels.get_height()],"path":path,"save_error":saved,"sha256":FileAccess.get_sha256(path)})
+			viewport.queue_free()
+			await process_frame
+	var report = {"platform":OS.get_name(),"display":DisplayServer.get_name(),"renderer":RenderingServer.get_current_rendering_method(),"records":records,"scope":"Real-renderer SubViewport captures on Windows. Sample uses uniform1920design scaling; menu/board use production layout. Artificial profile fixture, no user save touched. Visual review is separate from image save success."}
+	var file=FileAccess.open(OUT.path_join("render.json"),FileAccess.WRITE)
+	file.store_string(JSON.stringify(report,"\t"))
+	print(JSON.stringify(report))
+	quit(0)

@@ -63,7 +63,7 @@ func run() -> void:
 	fixture = "res://.tools/web-compat-%d" % Time.get_ticks_usec()
 	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(fixture))
 	var app := fresh()
-	check(app.font is SystemFont, "desktop keeps system font selection")
+	check(app.font.resource_path == "res://ui/themes/typography/hud.tres", "desktop and Web use the same bundled HUD font")
 	check(app.KOREAN_FONT.get_string_size("시지프스 저장 계속").x > 0.0, "bundled Korean font resolves without browser system fonts")
 	var old := payload(app, 100.0, 12.0)
 	var recent := payload(app, 200.0, 48.0)
