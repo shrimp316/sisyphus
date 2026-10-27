@@ -1,0 +1,2984 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 전역 클래스를 등록하는 중... (64 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   1% ] [90m[1mupdate_scripts_classes[22m | AssetVisuals[39m[0m
+[   3% ] [90m[1mupdate_scripts_classes[22m | BoulderController[39m[0m
+[   4% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | MountainChunk[39m[0m
+[   7% ] [90m[1mupdate_scripts_classes[22m | MountainManager[39m[0m
+[   9% ] [90m[1mupdate_scripts_classes[22m | Progression[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | SceneryVisuals[39m[0m
+[  12% ] [90m[1mupdate_scripts_classes[22m | Soundscape[39m[0m
+[  13% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  16% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  18% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  21% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  23% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  24% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  26% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  27% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  29% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  32% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  35% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  36% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  38% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  41% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  43% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  44% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  47% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  49% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  52% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  53% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  56% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  58% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  61% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  63% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  64% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  67% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  69% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  70% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  72% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  73% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  75% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  76% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  78% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  81% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  83% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  89% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  92% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  93% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  95% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  96% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started 액션 스캔 중... (275 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | midground_ridge.png[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | sky_mountains.png[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | sky_summit.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | boulder_default.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | boulder_rough.png[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | boulder_snow.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | boulder_wet.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | brace_01.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | brace_02.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | brace_03.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | brace_04.png[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | brace_05.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | brace_06.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | exhausted_01.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | exhausted_02.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | exhausted_03.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | exhausted_04.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | exhausted_05.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | exhausted_06.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | heavy_push_01.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | heavy_push_02.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | heavy_push_03.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | heavy_push_04.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | heavy_push_05.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | heavy_push_06.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | idle_01.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | idle_02.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | idle_03.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | idle_04.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | idle_05.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | idle_06.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | push_01.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | push_02.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | push_03.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | push_04.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | push_05.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | push_06.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | push_07.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | push_08.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | sisyphus_brace_sheet.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | sisyphus_exhausted_sheet.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | sisyphus_heavy_push_sheet.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | sisyphus_idle_sheet.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | sisyphus_push_sheet.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | NotoSansKR.ttf[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | breath_01.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | breath_02.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | breath_03.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | breath_04.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | breath_05.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | breath_06.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | breath_sheet.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | dust_01.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | dust_02.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | dust_03.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | dust_04.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | dust_05.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | dust_06.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | dust_sheet.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | gravel_01.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | gravel_02.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | gravel_03.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | gravel_04.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | gravel_05.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | gravel_06.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | gravel_sheet.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | impact_01.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | impact_02.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | impact_03.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | impact_04.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | impact_05.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | impact_06.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | impact_sheet.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | snow_01.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | snow_02.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | snow_03.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | snow_04.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | snow_05.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | snow_06.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | snow_sheet.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | wind_01.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | wind_02.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | wind_03.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | wind_04.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | wind_05.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | wind_06.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | wind_sheet.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | broken_signpost.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | cairn_checkpoint.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | dead_tree.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | ruin_pillar.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | shrine_fragment.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | simple_arch_ruin.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | small_tree.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | concave_slope_down.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | convex_slope_up.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | foothold_rest_platform.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | gravel_ground.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | ledge.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | mud_ground.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | rock_ground.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | rock_subsurface.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | small_stone_step.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | snow_ground.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | steep_slope_up.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | wet_rock.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | brace_icon.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | checkpoint_icon.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | height_marker_icon.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | push_burst_icon.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | slip_icon.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | stamina_icon.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | warning_rockfall_icon.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | warning_wind_icon.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | event_marker.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | previous_record_marker.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | rest_point_marker.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | character-reference.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | concept-reference.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | environment-reference.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | fx-ui-reference.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | campaigns.csv[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | geometry.csv[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | slip.csv[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | stalls.csv[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | stamina.csv[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | ablations.csv[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | campaigns.csv[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | diagnostic_fixtures.csv[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | first_attempt.csv[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | fixture_gates.csv[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | fixture_gate_telemetry.csv[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | fixture_metrics.csv[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | gates.csv[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | gate_telemetry.csv[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | slip.csv[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | stalls.csv[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | stamina.csv[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | unlock_geometry.csv[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | xp.csv[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | ablations.csv[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | campaigns.csv[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | diagnostic_fixtures.csv[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | first_attempt.csv[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | fixture_gates.csv[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | fixture_gate_telemetry.csv[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | fixture_metrics.csv[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | gates.csv[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | gate_telemetry.csv[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | slip.csv[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | stalls.csv[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | stamina.csv[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | unlock_geometry.csv[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | xp.csv[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | ablations.csv[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | campaigns.csv[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | diagnostic_fixtures.csv[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | first_attempt.csv[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | fixture_gates.csv[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | fixture_gate_telemetry.csv[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | fixture_metrics.csv[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | gates.csv[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | gate_telemetry.csv[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | slip.csv[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | stalls.csv[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | stamina.csv[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | unlock_geometry.csv[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | xp.csv[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | ablations.csv[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | campaigns.csv[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | campaign_progression.csv[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | diagnostic_fixtures.csv[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | first_attempt.csv[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | fixture_gates.csv[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | fixture_gate_telemetry.csv[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | fixture_metrics.csv[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | gates.csv[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | gate_telemetry.csv[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | slip.csv[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | stalls.csv[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | stamina.csv[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | unlock_geometry.csv[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | xp.csv[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | ablations.csv[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | campaigns.csv[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | diagnostic_fixtures.csv[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | first_attempt.csv[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | fixture_gates.csv[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | fixture_gate_telemetry.csv[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | fixture_metrics.csv[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | gates.csv[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | gate_telemetry.csv[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | slip.csv[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | stalls.csv[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | stamina.csv[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | unlock_geometry.csv[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | xp.csv[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | ablations.csv[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | campaigns.csv[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | diagnostic_fixtures.csv[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | first_attempt.csv[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | fixture_gates.csv[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | fixture_gate_telemetry.csv[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | fixture_metrics.csv[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | gates.csv[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | gate_telemetry.csv[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | slip.csv[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | stalls.csv[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | stamina.csv[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | unlock_geometry.csv[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | xp.csv[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | ablations.csv[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | campaigns.csv[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | campaign_progression.csv[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | diagnostic_fixtures.csv[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | first_attempt.csv[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | fixture_gates.csv[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | fixture_gate_telemetry.csv[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | fixture_metrics.csv[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | gates.csv[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | gate_telemetry.csv[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | slip.csv[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | stalls.csv[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | stamina.csv[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | unlock_geometry.csv[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | xp.csv[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | current_xp_rate_projections_NOT_measured.csv[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | current_xp_thresholds.csv[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | fall_xp.csv[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | first_summit_curve.csv[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | growth_thresholds.csv[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | paired_comparisons.csv[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | purchases.csv[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | xp_curve.csv[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | xp_events.csv[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | bands.csv[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | current_xp_rate_projections_NOT_measured.csv[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | current_xp_thresholds.csv[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | fall_xp.csv[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | first_summit_curve.csv[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | growth_thresholds.csv[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | metrics.csv[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | paired_comparisons.csv[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | purchases.csv[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | terrain.csv[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | xp_curve.csv[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | xp_events.csv[39m[0m
+[  99% ] [90m[1m_update_scan_actions[22m | baseline.png[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (275 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   1% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   1% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   1% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   2% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   2% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   2% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   3% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   3% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   3% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   4% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   4% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   5% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   5% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   5% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   6% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   6% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   6% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   7% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   7% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   7% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   8% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   8% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   9% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   9% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   9% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  10% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  10% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  10% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  11% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  11% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  11% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  12% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  12% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  13% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  13% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  13% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  14% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  14% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  14% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  15% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  15% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  15% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  16% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  16% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  17% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  17% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  17% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  18% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  18% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  18% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  19% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  19% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  19% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  20% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  20% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  21% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  21% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  21% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  22% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  22% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  22% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  23% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  23% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  23% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  24% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  24% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  25% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  25% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  25% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  26% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  26% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  26% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  27% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  27% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  27% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  28% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  28% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  28% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  29% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  29% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  30% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  30% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  30% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  31% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  31% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  31% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  32% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  32% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  32% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  33% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  33% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  34% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  34% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  34% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  35% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  35% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  35% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  36% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  36% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  36% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  37% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  37% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  38% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  38% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  38% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  39% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  39% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  39% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  40% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  40% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  40% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  41% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  41% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  42% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  42% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  42% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  43% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  43% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  43% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  44% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  44% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  44% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  45% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  45% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  46% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  46% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  46% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  47% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  47% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  47% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  48% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  48% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  48% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  49% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  49% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  50% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  50% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  50% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  51% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  51% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  51% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  52% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  52% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  52% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  53% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  53% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  53% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  54% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  54% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  55% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  55% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  55% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  56% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  56% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  56% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  57% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  57% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  57% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  58% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  58% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  59% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  59% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  59% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  60% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  60% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  60% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  61% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  61% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  61% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  62% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  62% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  63% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  63% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  63% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  64% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  64% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  64% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  65% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  65% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  65% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  66% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  66% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  67% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  67% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  67% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  68% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  68% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  68% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  69% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  69% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  69% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  70% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  70% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  71% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  71% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  71% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  72% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  72% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  72% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  73% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  73% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  73% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  74% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  74% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  75% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  75% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  75% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  76% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  76% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  76% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  77% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  77% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  77% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  78% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  78% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  78% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  79% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  79% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  80% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  80% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  80% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  81% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  81% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  81% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  82% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  82% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  82% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  83% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  83% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  84% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  84% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  84% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  85% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  85% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  85% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  86% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  86% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  86% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  87% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  87% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  88% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  88% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  88% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  89% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  89% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  89% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  90% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  90% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  90% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  91% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  91% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  92% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  92% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  92% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  93% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  93% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  93% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  94% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  94% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  94% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  95% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  95% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  96% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  96% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  96% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  97% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  97% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  97% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  98% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  98% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  98% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  99% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 전 작업을 수행 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   0% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   0% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   1% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[   1% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[   1% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   1% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   2% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   2% ] [90m[1mreimport[22m | gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   2% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+[   3% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   3% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   3% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   4% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   4% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   5% ] [90m[1mreimport[22m | bands.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   5% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   5% ] [90m[1mreimport[22m | xp.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   6% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   6% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   6% ] [90m[1mreimport[22m | xp.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   7% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   7% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   7% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   8% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   8% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[   9% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   9% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[   9% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[   9% ] [90m[1mreimport[22m | gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  10% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  10% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  10% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  11% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  11% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  11% ] [90m[1mreimport[22m | campaign_progression.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  12% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  12% ] [90m[1mreimport[22m | bands.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  13% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  13% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  13% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+[  14% ] [90m[1mreimport[22m | gates.csv[39m[0m
+[  14% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  14% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  15% ] [90m[1mreimport[22m | slip.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  15% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  15% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  16% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  16% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  16% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  17% ] [90m[1mreimport[22m | xp.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  17% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  17% ] [90m[1mreimport[22m | bands.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  18% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  18% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  18% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  19% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  19% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  19% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  20% ] [90m[1mreimport[22m | gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  20% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  21% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  21% ] [90m[1mreimport[22m | slip.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  21% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  22% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+[  22% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  22% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  22% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  23% ] [90m[1mreimport[22m | geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  23% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  23% ] [90m[1mreimport[22m | slip.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  24% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  24% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  25% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  25% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  25% ] [90m[1mreimport[22m | bands.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  26% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  26% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  26% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  27% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+[  27% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  27% ] [90m[1mreimport[22m | first_summit_curve.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  28% ] [90m[1mreimport[22m | fall_xp.csv[39m[0m
+[  28% ] [90m[1mreimport[22m | current_xp_thresholds.csv[39m[0m
+[  28% ] [90m[1mreimport[22m | current_xp_rate_projections_NOT_measured.csv[39m[0m
+[  29% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  29% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  29% ] [90m[1mreimport[22m | xp.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  30% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  30% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  30% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  30% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  31% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  31% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[  31% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  31% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  32% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+[  32% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+[  32% ] [90m[1mreimport[22m | gates.csv[39m[0m
+[  32% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+[  33% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+[  33% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+[  34% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+[  34% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+[  34% ] [90m[1mreimport[22m | xp_events.csv[39m[0m
+[  35% ] [90m[1mreimport[22m | xp_curve.csv[39m[0m
+[  35% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  35% ] [90m[1mreimport[22m | purchases.csv[39m[0m
+[  36% ] [90m[1mreimport[22m | paired_comparisons.csv[39m[0m
+[  36% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  36% ] [90m[1mreimport[22m | growth_thresholds.csv[39m[0m
+[  37% ] [90m[1mreimport[22m | first_summit_curve.csv[39m[0m
+[  37% ] [90m[1mreimport[22m | fall_xp.csv[39m[0m
+[  38% ] [90m[1mreimport[22m | current_xp_thresholds.csv[39m[0m
+[  38% ] [90m[1mreimport[22m | current_xp_rate_projections_NOT_measured.csv[39m[0m
+[  38% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  39% ] [90m[1mreimport[22m | xp_events.csv[39m[0m
+[  39% ] [90m[1mreimport[22m | xp_curve.csv[39m[0m
+[  39% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  40% ] [90m[1mreimport[22m | purchases.csv[39m[0m
+[  40% ] [90m[1mreimport[22m | paired_comparisons.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  40% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  41% ] [90m[1mreimport[22m | growth_thresholds.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  41% ] [90m[1mreimport[22m | bands.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  41% ] [90m[1mreimport[22m | bands.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  42% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  42% ] [90m[1mreimport[22m | xp.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  42% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  43% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  43% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  43% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  44% ] [90m[1mreimport[22m | slip.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  44% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  44% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  45% ] [90m[1mreimport[22m | gates.csv[39m[0m
+[  45% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  46% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+[  46% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  46% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  47% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  47% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  47% ] [90m[1mreimport[22m | bands.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  48% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  48% ] [90m[1mreimport[22m | campaign_progression.csv[39m[0m
+[  48% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  48% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  49% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  49% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+[  49% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+[  50% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  50% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  50% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  51% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  51% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  51% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  51% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[  52% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  52% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  52% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  52% ] [90m[1mreimport[22m | gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  53% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  53% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+[  53% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  54% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  54% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  55% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+ERROR: Condition "bucket_table_size == 0" is true.
+   at: generate (core/string/optimized_translation.cpp:136)
+[  55% ] [90m[1mreimport[22m | NotoSansKR.ttf[39m[0m
+[  55% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+[  56% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  56% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  56% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  57% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[  57% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  57% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+[  58% ] [90m[1mreimport[22m | gates.csv[39m[0m
+[  58% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+[  59% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+[  59% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+[  59% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+[  60% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+[  60% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  60% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  61% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+[  61% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  61% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+[  62% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  62% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  63% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+[  63% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  63% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  64% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  64% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[  64% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  65% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+[  65% ] [90m[1mreimport[22m | gates.csv[39m[0m
+[  65% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+[  66% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+[  66% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+[  67% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+[  67% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+[  67% ] [90m[1mreimport[22m | campaign_progression.csv[39m[0m
+[  68% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  68% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  68% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+[  69% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  69% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+[  69% ] [90m[1mreimport[22m | gates.csv[39m[0m
+[  70% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+[  70% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  71% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[  71% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  71% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  72% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  72% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+[  72% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  73% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+[  73% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  73% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  74% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+[  74% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+[  75% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+[  75% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+[  75% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+[  76% ] [90m[1mreimport[22m | gates.csv[39m[0m
+[  76% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  76% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  77% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[  77% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  77% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+[  78% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  78% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  78% ] [90m[1mreimport[22m | geometry.csv[39m[0m
+[  79% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  79% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[  80% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  80% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  80% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  81% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+[  81% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  81% ] [90m[1mreimport[22m | campaigns.csv[39m[0m
+[  82% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+[  82% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+[  82% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+[  83% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+[  83% ] [90m[1mreimport[22m | first_summit_curve.csv[39m[0m
+[  84% ] [90m[1mreimport[22m | fall_xp.csv[39m[0m
+[  84% ] [90m[1mreimport[22m | current_xp_thresholds.csv[39m[0m
+[  84% ] [90m[1mreimport[22m | current_xp_rate_projections_NOT_measured.csv[39m[0m
+[  85% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  85% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  85% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+[  86% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  86% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  86% ] [90m[1mreimport[22m | stalls.csv[39m[0m
+[  87% ] [90m[1mreimport[22m | slip.csv[39m[0m
+[  87% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  88% ] [90m[1mreimport[22m | gate_telemetry.csv[39m[0m
+[  88% ] [90m[1mreimport[22m | gates.csv[39m[0m
+[  88% ] [90m[1mreimport[22m | fixture_metrics.csv[39m[0m
+[  89% ] [90m[1mreimport[22m | fixture_gate_telemetry.csv[39m[0m
+[  89% ] [90m[1mreimport[22m | fixture_gates.csv[39m[0m
+[  89% ] [90m[1mreimport[22m | first_attempt.csv[39m[0m
+[  90% ] [90m[1mreimport[22m | diagnostic_fixtures.csv[39m[0m
+[  90% ] [90m[1mreimport[22m | xp_events.csv[39m[0m
+[  90% ] [90m[1mreimport[22m | xp_curve.csv[39m[0m
+[  91% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  91% ] [90m[1mreimport[22m | purchases.csv[39m[0m
+[  92% ] [90m[1mreimport[22m | paired_comparisons.csv[39m[0m
+[  92% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  92% ] [90m[1mreimport[22m | growth_thresholds.csv[39m[0m
+[  93% ] [90m[1mreimport[22m | first_summit_curve.csv[39m[0m
+[  93% ] [90m[1mreimport[22m | fall_xp.csv[39m[0m
+[  93% ] [90m[1mreimport[22m | current_xp_thresholds.csv[39m[0m
+[  94% ] [90m[1mreimport[22m | current_xp_rate_projections_NOT_measured.csv[39m[0m
+[  94% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  94% ] [90m[1mreimport[22m | xp_events.csv[39m[0m
+[  95% ] [90m[1mreimport[22m | xp_curve.csv[39m[0m
+[  95% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  96% ] [90m[1mreimport[22m | purchases.csv[39m[0m
+[  96% ] [90m[1mreimport[22m | paired_comparisons.csv[39m[0m
+[  96% ] [90m[1mreimport[22m | metrics.csv[39m[0m
+[  97% ] [90m[1mreimport[22m | growth_thresholds.csv[39m[0m
+[  97% ] [90m[1mreimport[22m | bands.csv[39m[0m
+[  97% ] [90m[1mreimport[22m | ablations.csv[39m[0m
+[  98% ] [90m[1mreimport[22m | xp.csv[39m[0m
+[  98% ] [90m[1mreimport[22m | unlock_geometry.csv[39m[0m
+[  98% ] [90m[1mreimport[22m | terrain.csv[39m[0m
+[  99% ] [90m[1mreimport[22m | stamina.csv[39m[0m
+[  99% ] [90m[1mreimport[22m | 애셋 가져오기 마무리 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (275 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 후 작업을 수행 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 편집기를 불러오는 중 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 편집기 레이아웃을 불러오는 중...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

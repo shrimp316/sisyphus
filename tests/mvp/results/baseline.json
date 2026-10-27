@@ -1,0 +1,211 @@
+{
+  "basis_commit": "d4ba73bf49501f1be5a7d9c28a81a59025abda3d",
+  "isolated_source": ".tools/mvp-baseline (git archive of basis commit; excludes concurrent working tree edits)",
+  "engine": "Godot4.5.1",
+  "preparation": {
+    "first_import_exit_code": 3221226356,
+    "note": "Fresh editor import completed assets then failed on exit with bucket_table_size errors from CSV translation importing; preserved import.txt. Individual headless regression suites run separately using populated resource cache.",
+    "import_retry_exit_code": 0,
+    "import_retry_log": "baseline-logs/import-retry.txt",
+    "import_retry_log_sha256": "59ea0443a81886c8b438f0c682c2e3ee23ee47334bece479054315a1f04c36cd",
+    "import_retry_change": "Import-only .gdignore metadata under existing result/document folders in the isolated checkout; no gameplay source change."
+  },
+  "completed_at_utc": "2026-10-27T04:48:53.944239+00:00",
+  "expected_total_checks": 400,
+  "suites": [
+    {
+      "name": "physics",
+      "script": "tests/physics_balance_verification.gd",
+      "expected_checks": 115,
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-baseline",
+        "--script",
+        "tests/physics_balance_verification.gd"
+      ],
+      "source_sha256": "ecd4d3a489d0a8afca3770f531a0b4645ec569cc7aa25f8dfbc49f4b5f77dfe5",
+      "log": "baseline-logs/physics.txt",
+      "log_sha256": "e296a20ced3f652d46cd27576494d78f1b6e015a79d22b15a584465f7a71c544",
+      "tail": [
+        "PASS: explicitrain weather constrains wet-stone and rainy exposed-rock slopes before construction",
+        "PASS: forcing already selectedrain weather preserves the entire natural world",
+        "PASS: switching torain adjusts geometry where weather-specific caps differ",
+        "PHYSICS BALANCE: 115 checks, 0 failures"
+      ],
+      "verified_checks": 115,
+      "passed": true
+    },
+    {
+      "name": "stamina",
+      "script": "tests/stamina_brace_verification.gd",
+      "expected_checks": 124,
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-baseline",
+        "--script",
+        "tests/stamina_brace_verification.gd"
+      ],
+      "source_sha256": "d52f8a3f09654dad9cd6c5afb9e9ebb37bd5d16ef2372b28cd5fb8034dc3cc80",
+      "log": "baseline-logs/stamina.txt",
+      "log_sha256": "c70dfdea8c80ad20cfe589203828133bdb389771d36f6d98f32b81d50ab9c1e0",
+      "tail": [
+        "PASS: v4 saved energized slip resumes identically with fractional simulation steps",
+        "PASS: v4 saved exhausted slip resumes identically with fractional simulation steps",
+        "PASS: v4 30 and 144 FPS agree across slipping brace, exhausted push, rest and brace",
+        "Stamina/brace: 124 checks, 0 failures"
+      ],
+      "verified_checks": 124,
+      "passed": true
+    },
+    {
+      "name": "progression",
+      "script": "tests/progression_verification.gd",
+      "expected_checks": 50,
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-baseline",
+        "--script",
+        "tests/progression_verification.gd"
+      ],
+      "source_sha256": "f1bdf92fe261196804a99ec4e657ab58640df02abda0e13bfdbb14740e150ffd",
+      "log": "baseline-logs/progression.txt",
+      "log_sha256": "f45bb81ad6122a0eec008276a390b7f500fe1c7e19a0600b528a4fdbda5367a5",
+      "tail": [
+        "PASS: legacy v3 keeps run/record and does not auto-award old distance",
+        "PASS: legacy v3 missing peak uses current distance as migration baseline without retroactive XP",
+        "PASS: legacy v3 low peak uses current distance as migration baseline without retroactive XP",
+        "PROGRESSION VERIFICATION: 50 checks, 0 failures; fixtures: res://.tools/progression-418041"
+      ],
+      "verified_checks": 50,
+      "passed": true
+    },
+    {
+      "name": "web",
+      "script": "tests/web_compatibility_tests.gd",
+      "expected_checks": 24,
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-baseline",
+        "--script",
+        "tests/web_compatibility_tests.gd"
+      ],
+      "source_sha256": "eecb9bce074e54a0beef66b2921e817b6d16328d9428f5f0c628596e55b52300",
+      "log": "baseline-logs/web.txt",
+      "log_sha256": "0259150fb1201da7e03cead5248b6104e25cdd23f8d2173852e3c5a308bea802",
+      "tail": [
+        "PASS: page hide pauses and synchronously mirrors session",
+        "PASS: failed web save stays paused and reports failure",
+        "PASS: unavailable browser storage warns while permitting temporary play",
+        "WEB COMPATIBILITY: 24 checks, 0 failures"
+      ],
+      "verified_checks": 24,
+      "passed": true
+    },
+    {
+      "name": "v02_quick",
+      "script": "tests/v02_verification.gd",
+      "expected_checks": 23,
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-baseline",
+        "--script",
+        "tests/v02_verification.gd",
+        "--",
+        "--quick"
+      ],
+      "source_sha256": "3c3c12d951b1eedb854a26caf3cba47c83c89eace4e104354aecdcb7c3ad55e8",
+      "log": "baseline-logs/v02_quick.txt",
+      "log_sha256": "65190622f796403bb64d8fe82dd63a854026a49d9028efcdc93917141823af87",
+      "tail": [
+        "PASS: base-stat controlled climb reaches normal summit seed42 clear",
+        "NORMAL42 rain {\"distance\":1000.0,\"elapsed\":917.441666665997,\"max_slip\":6.56987881960186,\"min_stamina\":72.2361034683369,\"partial_falls\":0,\"peak\":1000.0,\"slips\":0,\"state\":\"summit\"}",
+        "PASS: base-stat controlled climb reaches normal summit seed42 rain",
+        "V0.2 INDEPENDENT: 23 checks, 0 failures"
+      ],
+      "verified_checks": 23,
+      "passed": true
+    },
+    {
+      "name": "harness",
+      "script": "tests/balance/verify_harness.gd",
+      "expected_checks": 43,
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-baseline",
+        "--script",
+        "tests/balance/verify_harness.gd"
+      ],
+      "source_sha256": "ecf613e316813bd8d6c13bd5464f2ecae4f52f390f7916c4e42568715d2b18be",
+      "log": "baseline-logs/harness.txt",
+      "log_sha256": "753d58c27465ba3eea5f1963855bb9454f853189ada78fd9214680505981471a",
+      "tail": [
+        "PASS: runaway cinematic time is excluded from active band and terrain exposure",
+        "PASS: terminal fall belongs to its runaway origin band, with descent separately measured",
+        "PASS: cutoff during runaway remains censored rather than becoming a completed death",
+        "BALANCE HARNESS: 43 checks, 0 failures"
+      ],
+      "verified_checks": 43,
+      "passed": true
+    },
+    {
+      "name": "instrumentation",
+      "script": "tests/balance/adjustment_v02/verify_instrumentation.gd",
+      "expected_checks": 21,
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-baseline",
+        "--script",
+        "tests/balance/adjustment_v02/verify_instrumentation.gd"
+      ],
+      "source_sha256": "2021b92dc4165898b45a7ab66e075030b246c41863a60ec9f3fdd67532dbaa28",
+      "log": "baseline-logs/instrumentation-retry.txt",
+      "log_sha256": "48b9c9dbefdc3f27247cce2705f60eba35117f6ac0ce22eea7ba92c88b394f2d",
+      "tail": [
+        "PASS B3 preserves first250m, length1000m, real shelves and original ledge requirements",
+        "PASS discrete potential and nonincreasing stamina on 1120 boundary/input states (supporting test, not exhaustive proof)",
+        "PASS G123 assumptions on100seeds x clear/rain: dry45degree gate, no recovery shelf/ledge/support inside, real safe shelves before and after",
+        "V02 INSTRUMENTATION: 21 checks, 0 failures"
+      ],
+      "initial_attempt": {
+        "exit_code": 1,
+        "log": "baseline-logs/instrumentation.txt",
+        "log_sha256": "a756ca91537194117e186e81bb9cb8ff22f213b7cfc93f72b038a49c6f31158a",
+        "tail": [
+          "   GDScript backtrace (most recent call first):",
+          "       [0] build (res://tests/balance/adjustment_v02/controller_factory.gd:13)",
+          "       [1] run (res://tests/balance/adjustment_v02/verify_instrumentation.gd:121)",
+          "FAIL production SHA and unique anchors permit exact scalar instrumentation"
+        ]
+      },
+      "preparation_note": "git archive honored CRLF checkout attributes; immutable controller hash guard rejected line-ending-only change. Restored exact LF git blob from basis commit, verified newline-equivalent before replacement, then21checks passed. No production checkout file modified.",
+      "verified_checks": 21,
+      "passed": true
+    }
+  ],
+  "save_isolation": "Existing progression/web suites use unique res://.tools fixture paths within the isolated checkout; no real user save touched.",
+  "all_final_suites_passed": true,
+  "total_verified_checks": 400,
+  "controller_basis_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+  "neutral_fixture_sha256": "280065a2ded4d522743a2ac0e7784b5e9ece1a3652adc5ee75d6877c39b7353f"
+}

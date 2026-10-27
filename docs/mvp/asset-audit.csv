@@ -1,0 +1,174 @@
+﻿path,filename,width,height,bytes,sha256,group,baseline_text_reference,mvp_usage
+UI design/메인 UI/sisyphus_main_ui_16x9.png,sisyphus_main_ui_16x9.png,1920,1080,2034129,0c6f3efcf154c067b6707265a8f0a458065ad65a215bbf9c8a85e05ac94ae02c,UI design reference,false,not yet selected during PhaseA
+assets/MainMenu/Background/main_bg_fog_strip.png,main_bg_fog_strip.png,1920,256,133303,cfe766904c12f25d1e832d568ac41071157a808d213eaacf3cb6e56199bb4824,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Background/main_bg_foreground.png,main_bg_foreground.png,1920,1080,934242,2958335d04664066c65e7741ea493ba208ad1032911a31799da29c834cbf230b,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Background/main_bg_mountains_far.png,main_bg_mountains_far.png,1920,1080,812791,de2c207b5c019571aa56c8018631580ece29fc6298f72252f2a8d8facef27d8d,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Background/main_bg_mountains_mid.png,main_bg_mountains_mid.png,1920,1080,753932,fb2acfbb18297ed1325bac074c9bfe5a130dee59075f00a54eaad3fb5a4123bd,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Background/main_bg_ruins.png,main_bg_ruins.png,1920,1080,1783054,24341fee2181096f0594cff507da5a1d8cc7b0ad46a7bdce8e3ef1fbfed19c07,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Background/main_bg_sky.png,main_bg_sky.png,1920,1080,2250160,f69b271aa315ce89b9399765a0f01aeaa70dda224df6780f18175dcf362bdd9b,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Background/main_bg_slope.png,main_bg_slope.png,1920,1080,1159575,a3e753ba63ea4fe6065e94d620646ddbb5f894b63943d7171bb66ddca4481c55,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Character/main_boulder.png,main_boulder.png,512,512,463243,0cbc6fe60aadb842b8275aad4fde15fe8dab7a7b8dfd3f1b7b061d4ddb7a3815,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Character/main_boulder_shadow.png,main_boulder_shadow.png,512,160,11014,3039ccb12946504c4d5374d72d16a7832410c3aa39decd7b8d6f4f72d5ac932e,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Character/main_foot_contact_shadow.png,main_foot_contact_shadow.png,320,128,5920,3f092e3e71df6c16414ebf39f1fd13c30aaa6f1abd6cedccc4ce9299e9aa0807,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Character/main_sisyphus_rig.png,main_sisyphus_rig.png,900,1100,570916,aa6f7c78176389fccc6f4c210553f447ccd1eeb7c6d5ae157843d90bfc62ccb6,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/FX/main_dust_atlas.png,main_dust_atlas.png,512,512,137799,165d9960716d8d8f2fc6f25e4cba547be6043d650ed152ac097ccba2dc660f28,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/FX/main_godray_soft.png,main_godray_soft.png,1024,1024,44482,a3355a212623658e8cb26098e1dd473eb65f5a3c132f227692659dee009e3d1d,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/FX/main_grain_tile.png,main_grain_tile.png,256,256,196764,f79ed341e1396bde8f05241b271f6a7b8923308939cda52ae674e233f876fe78,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/FX/main_transition_mask.png,main_transition_mask.png,1920,1080,135700,becdb32749d63ddc3124f873ee241397a95e2382a06ed4ef3cb75836337b3d37,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Preview/main_asset_board_reference.png,main_asset_board_reference.png,1672,941,2543590,81914a6e6c7f236ac7bc4b5a34b350cf3a5faa928c646034b204cf81950cc33e,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/Preview/main_preview_art_reference.png,main_preview_art_reference.png,1672,941,2530355,6d2dbc55d7c1c0fe64a799777c275fb3f50c9a0e76850659e156ad1aa57ab528,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_act_emblem_locked.png,main_act_emblem_locked.png,61,62,501,1738470307c01fdc9462c33044a05ad41932d0576fdcd5ad8be6552aaccd187b,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_act_emblem_open.png,main_act_emblem_open.png,61,62,465,e3270209ecb694415e2e357c6cce92f47049268697bf9e741814c6305a092f4d,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_act_emblem_selected.png,main_act_emblem_selected.png,61,62,660,846e0a8a49090d3b88c7e475a1c2bc790dec69499567433a8dac07f0593722b1,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_btn_primary_base.png,main_btn_primary_base.png,434,116,74669,395d530e122c704c27e78c09c083f098a7b43782f93b929d5b0f9d79b8fe3d70,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_btn_primary_disabled.png,main_btn_primary_disabled.png,434,116,63068,f64bf560e5130bffb553e8913593eb2f3fc2ef2526f785f12b9009375220955a,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_btn_primary_hover.png,main_btn_primary_hover.png,434,116,74931,1d31f1d6c4ccead6efff067d74c63e8cd377930bb12f5935db72351ffa741ca4,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_btn_primary_pressed.png,main_btn_primary_pressed.png,434,116,72793,cffe94e3dc90a25312f7a4adb72f940254fd6941447c24126c6887baba2646f5,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_btn_secondary_base.png,main_btn_secondary_base.png,434,92,65902,5ecbda0709db81e18f3f34a4a24783c6db43e9cd750f369a14152d8f7a32952d,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_btn_secondary_disabled.png,main_btn_secondary_disabled.png,434,92,56003,75a972527a234fea43473936d6f782c32af71373b0e1d6a41e8783eb1081af21,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_btn_secondary_hover.png,main_btn_secondary_hover.png,434,92,67894,28b2b1a3ee9607c97b8619e91b42fa77b7917bf6bb1afdda7018a4ba6aeeff1a,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_btn_secondary_pressed.png,main_btn_secondary_pressed.png,434,92,64453,8ea414b29531fccae03df92da604dfd8623134835c5d94e19e6dc36004248c51,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_logo_sisyphus.png,main_logo_sisyphus.png,640,180,126224,15f99469f07ec35275c3914051f61d859224d2534420ac637ed28ca7d08f0ff8,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_modal_frame.png,main_modal_frame.png,920,840,1130533,208570324b7544b410c4ac82848e1bde72db431a32ddc9919042c7379c922e46,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_notification_marker.png,main_notification_marker.png,24,24,743,9e5403d5e5d1f563ab5da06aa93e3302a8ff7debe2b4d600d72990e0a8822ad0,MainMenu,false,not yet selected during PhaseA
+assets/MainMenu/UI/main_panel_progress.png,main_panel_progress.png,355,545,257354,9513f557f1c03e7b9054770dfa093c479c6040f18dbb68d5ce38d5fa152cf0ba,MainMenu,false,not yet selected during PhaseA
+assets/background/midground_ridge.png,midground_ridge.png,2048,1024,1819557,9b75a8c0860d72661e3cd24d1342135703c76e3955ea6d30099caa2bafc2d340,existing project,true,not yet selected during PhaseA
+assets/background/sky_mountains.png,sky_mountains.png,2048,1024,2645177,66d496909ea6317de9af95f3a6925500431468f6eff7a492d11154225a5cf8f5,existing project,true,not yet selected during PhaseA
+assets/background/sky_summit.png,sky_summit.png,2048,1024,2545081,c144b03c4a16b7d368c4c7fade43c31167622daa00a6bdd36caeb019bcf8d654,existing project,true,not yet selected during PhaseA
+assets/boulder/boulder_default.png,boulder_default.png,384,384,246982,8f556acfe62d21df18c382b50a32fb36be96a914d3cc6395630a1a4834c9071e,existing project,false,not yet selected during PhaseA
+assets/boulder/boulder_rough.png,boulder_rough.png,384,384,247228,fcd9c364aee87c22338060cc171dc7c485566feb6e7914526a61ec9c3e2a77ca,existing project,false,not yet selected during PhaseA
+assets/boulder/boulder_snow.png,boulder_snow.png,384,384,225526,6e06ef3ab0bd006dec8a11fad6d6b4ff3d87edd804499d4d1fc576f435382efd,existing project,false,not yet selected during PhaseA
+assets/boulder/boulder_wet.png,boulder_wet.png,384,384,239182,02f8dd9d47488ce396fc337ce14dfa4ddee12cc762640ed4b6055c508642b7cc,existing project,false,not yet selected during PhaseA
+assets/character/sisyphus/brace/brace_01.png,brace_01.png,512,512,105895,8cd8378486140477ef583e054045d2a84f9629a8618b46d53d9917b7c2b7243d,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/brace/brace_02.png,brace_02.png,512,512,105414,4f46b3fd62d85e2abdfe48296a2d8f4a9fee433510be46d5bae0e1be968c05a5,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/brace/brace_03.png,brace_03.png,512,512,103183,6ca03160974cde7d9fc6447f3f0ba5d17297e0c9546ca645eee475f9568386e4,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/brace/brace_04.png,brace_04.png,512,512,108431,e8c4be84b82fb245b9f0163bbd879b12984c991c87c9be9e0e1a2830e8e9eeda,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/brace/brace_05.png,brace_05.png,512,512,104743,cda9abf49802bb652cc0b24694791ad5cb5e5f29fb3fd2582e422f4adf287c98,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/brace/brace_06.png,brace_06.png,512,512,105562,912acc1a77fb979dcdc9332733b8452f460d3d2bb43c03e1268068aea174a2b9,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/exhausted/exhausted_01.png,exhausted_01.png,512,512,71227,63e60cc605a7c955d44ce63d72b29cf34909dc1e25e1188b17fc6ab439a23242,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/exhausted/exhausted_02.png,exhausted_02.png,512,512,69256,75049a3690b8af92231ac1a1074903b5729adc3cde6b49bb975e1100a0fb25e4,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/exhausted/exhausted_03.png,exhausted_03.png,512,512,69536,71237f503658577d24fbb30a143c9a48ade5dbd717d6afec3495ac37b628aa1a,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/exhausted/exhausted_04.png,exhausted_04.png,512,512,69427,271605e00ed0c6f8d98a0846154b3d911d9a91956f66af2ad91b006f62c186de,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/exhausted/exhausted_05.png,exhausted_05.png,512,512,68694,c753d4a81ac268f87f5e878984ecb6ee7d37b2c1511209c3b545c62a2ff6ad3f,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/exhausted/exhausted_06.png,exhausted_06.png,512,512,68750,9163a722f9b8b7924967ecaf49b8c7a0ddcdb512097e2ffde1f8bc10550904a6,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/heavy_push/heavy_push_01.png,heavy_push_01.png,512,512,89854,cd24c5c2f6dc16962e4f5dd3370fee143ea2f278c9674bb3e122be8f37d28400,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/heavy_push/heavy_push_02.png,heavy_push_02.png,512,512,83824,9f2d31437c06583659c853aba770ca73b79a9105a523fbf85c367c935290e051,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/heavy_push/heavy_push_03.png,heavy_push_03.png,512,512,87740,159df2747217fb6c738289f99723dc60f02c7675016c6f1e2eec61c3c0d9aff6,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/heavy_push/heavy_push_04.png,heavy_push_04.png,512,512,83876,7ea1c95dd0ebf8f430beebfe4aed94cf773841e1ea5aa61985160536a0a569f9,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/heavy_push/heavy_push_05.png,heavy_push_05.png,512,512,78403,dcc7e839e594985f4536dd34d2f97c24bc44fe2a440d041d12857fdb48ee4678,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/heavy_push/heavy_push_06.png,heavy_push_06.png,512,512,90454,986c30d10661ad07c8dbaf2cbb1a62a9ddf526f457df9b48b9d03e4c34d14940,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/idle/idle_01.png,idle_01.png,512,512,68409,687b821195f1c41cd7baab42f85e572368ec857f28493325731020820f01ea22,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/idle/idle_02.png,idle_02.png,512,512,70543,c9d281dd8ab6ce550eda8f5f0086cc87e231d6dba600ba0dde40408171d99b5d,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/idle/idle_03.png,idle_03.png,512,512,68663,6b68c776c62a515415b612ac122f12d811f6a377c8ea4b034a51fa071e07df08,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/idle/idle_04.png,idle_04.png,512,512,69445,95a665859ab91e051a8b5926bc86add5b85e2b196f68e727947d143d005a0898,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/idle/idle_05.png,idle_05.png,512,512,69746,14d7ab815214f88360022ddc1010db78146f17eecae9a401d1c13b078fba2753,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/idle/idle_06.png,idle_06.png,512,512,70204,62706c5554f5b677e22d8db8e66dfb2b102be9c7778a360fac16ec2dfb501100,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/push/push_01.png,push_01.png,512,512,100634,96f68ca65e13c149b5a12b6f86cd4ebdb8437697045a8cb8c6c4ecd7c3396582,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/push/push_02.png,push_02.png,512,512,84725,cc22f11a930442bda982d6c6468fac70266376ea2c068714e08cbbbc2ec424c7,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/push/push_03.png,push_03.png,512,512,90517,5b15591e0c7985b205deccbda69729860577693260b29e4edd17ea8d68b5f403,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/push/push_04.png,push_04.png,512,512,99685,4b8bc8037c6a4fdc2d432c78db232009890896141b8aedb3810d00ac0e11faf2,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/push/push_05.png,push_05.png,512,512,97403,f02a87e74548b835b58aaef3b4a60c5bce2bd786fa7a12926a51bc2a23f10109,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/push/push_06.png,push_06.png,512,512,87156,53f18b2bfe8b210b0eede5fbdee561b154ffc84b5d666863527db4649f3808db,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/push/push_07.png,push_07.png,512,512,85133,53c8341c2dbab199e7b2f82f439d96ca45d40c9e97b4820b521f666645f83b43,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/push/push_08.png,push_08.png,512,512,97261,75950b5b749acee4341adb95a887d2dd86a7d86554b7b91e0ba118eb1c309e2c,existing project,true,not yet selected during PhaseA
+assets/character/sisyphus/spriteframes/sisyphus_brace_sheet.png,sisyphus_brace_sheet.png,1536,1024,626378,d0313b842e8ef19d2cdf492a1d27d842f98d91753ae85e65d868e923c3faec88,existing project,false,not yet selected during PhaseA
+assets/character/sisyphus/spriteframes/sisyphus_exhausted_sheet.png,sisyphus_exhausted_sheet.png,1536,1024,411116,fc3a52241e18e06435bd777b4587ebebe9c43c1bbfd1bc94b9e84fc2ed5d737c,existing project,false,not yet selected during PhaseA
+assets/character/sisyphus/spriteframes/sisyphus_heavy_push_sheet.png,sisyphus_heavy_push_sheet.png,1536,1024,509268,5cb93505386882b07f0b39f1722f57dbd1cdd7eb29616298b6faeada92eede96,existing project,false,not yet selected during PhaseA
+assets/character/sisyphus/spriteframes/sisyphus_idle_sheet.png,sisyphus_idle_sheet.png,1536,1024,411406,c1fbab2647c49a1c022e1db0eebd6fa0d46e293a0bcdddd24e5c00195db16509,existing project,false,not yet selected during PhaseA
+assets/character/sisyphus/spriteframes/sisyphus_push_sheet.png,sisyphus_push_sheet.png,2048,1024,735094,0dd0819798023c5a967aa8fc91e5b28b532ab4f045753ad9938ead3ddea1fddd,existing project,false,not yet selected during PhaseA
+assets/fx/breath/breath_01.png,breath_01.png,256,256,12847,5248c6783bd37d4df225774bb27e388ebce5778d249c1bd0a7d6e42b7d322108,existing project,true,not yet selected during PhaseA
+assets/fx/breath/breath_02.png,breath_02.png,256,256,34331,336db3dd6a8a7501f6e292217d4623edf5111a78cc49eb9a02d34e6f5b2dae45,existing project,true,not yet selected during PhaseA
+assets/fx/breath/breath_03.png,breath_03.png,256,256,51186,77c8cd33ce50f0aa6d3f0fe248b24951d6101b579c10b5f571c7a805b948e993,existing project,true,not yet selected during PhaseA
+assets/fx/breath/breath_04.png,breath_04.png,256,256,49032,c141341f2c95ce2d2d8b59e53fc65bcaeee9be55d990750a06c6c4e754f13796,existing project,true,not yet selected during PhaseA
+assets/fx/breath/breath_05.png,breath_05.png,256,256,43689,869194625df89266ac49cab2861ed872e947e647d54dc233b2b6209bc64462f7,existing project,true,not yet selected during PhaseA
+assets/fx/breath/breath_06.png,breath_06.png,256,256,30797,f2ade4430b966ae18cb6fd64b1f4208c097ce03985ace9e495b3d06609f7bc30,existing project,true,not yet selected during PhaseA
+assets/fx/breath/breath_sheet.png,breath_sheet.png,768,512,219875,c6897ad9dc17c0e657d3f701c4959e9682f14ea7b3c9824a4afb6d92975183a6,existing project,false,not yet selected during PhaseA
+assets/fx/dust/dust_01.png,dust_01.png,256,256,13714,ff88b4be3db26a1b89470b7430df5ad453a4453252cf4b8dca174e4cbf6d1b43,existing project,true,not yet selected during PhaseA
+assets/fx/dust/dust_02.png,dust_02.png,256,256,34449,72c9a42f0e36bb74478e4480a55caf366e7bae69882c33a84fa3900f005ec2a8,existing project,true,not yet selected during PhaseA
+assets/fx/dust/dust_03.png,dust_03.png,256,256,57646,99cc8897df9bba38a18dfd37a8ece2ccb7ba3f3910be6633c353c19be33a1724,existing project,true,not yet selected during PhaseA
+assets/fx/dust/dust_04.png,dust_04.png,256,256,64954,d58cc1d234a69f2e97a25bbbdefa5f84d9d77893ee26e11612ab347b32025baf,existing project,true,not yet selected during PhaseA
+assets/fx/dust/dust_05.png,dust_05.png,256,256,54067,a75acac9dcb2f659ca8c7f08f5dc6ac4b9087a2033f03175c020523a32513650,existing project,true,not yet selected during PhaseA
+assets/fx/dust/dust_06.png,dust_06.png,256,256,28269,5f7f5231b7d23c0e1cc17967d9b0add230c2cb52963b5bedeaaf7ad53e237559,existing project,true,not yet selected during PhaseA
+assets/fx/dust/dust_sheet.png,dust_sheet.png,768,512,254788,014ccce355c1f36e699f65d1229ab2fc1180047368bef4ba65f5c315721ff6a1,existing project,false,not yet selected during PhaseA
+assets/fx/gravel/gravel_01.png,gravel_01.png,256,256,10871,a143d2b477ba74e5f2ef60c10c1956018c16131d96cfda1b2d50d36328acff68,existing project,true,not yet selected during PhaseA
+assets/fx/gravel/gravel_02.png,gravel_02.png,256,256,24548,80dd344ab1d57cf217a5fedd0148b2a38af8a6fbc72a7c0205c45ed9a05b9ceb,existing project,true,not yet selected during PhaseA
+assets/fx/gravel/gravel_03.png,gravel_03.png,256,256,43605,a0f6c2efb95922ec68f4c03045236949010f22d59d2274cab9b02f7be13e47fb,existing project,true,not yet selected during PhaseA
+assets/fx/gravel/gravel_04.png,gravel_04.png,256,256,70998,ec72f66271f52e04d935cd0fb9c368a39d226df90d025afe92a9dce81050ea80,existing project,true,not yet selected during PhaseA
+assets/fx/gravel/gravel_05.png,gravel_05.png,256,256,49869,ed24db0d42e5e2e13ee836f7c81aa1b4e011d188754c90582c4c6e29707bb881,existing project,true,not yet selected during PhaseA
+assets/fx/gravel/gravel_06.png,gravel_06.png,256,256,31393,d7d384632e6838f6a1c557979dfd442e8d20a27a8ebb54f8ac27007812afdada,existing project,true,not yet selected during PhaseA
+assets/fx/gravel/gravel_sheet.png,gravel_sheet.png,768,512,231123,a302c4343fc714b5e621ce692b8cbb8a195e63cd3582907a478d4bdf57ac451d,existing project,false,not yet selected during PhaseA
+assets/fx/impact/impact_01.png,impact_01.png,256,256,35297,af84e144994f905c6aaddbcf815127ab54abbb1a1e9d65d9c0416e9b2be6f45c,existing project,true,not yet selected during PhaseA
+assets/fx/impact/impact_02.png,impact_02.png,256,256,65085,1e74bc4b89704584bf4cf29dc484c455057a05d93d3dd1a79e1bec3c6251d81c,existing project,true,not yet selected during PhaseA
+assets/fx/impact/impact_03.png,impact_03.png,256,256,92659,5028b1d2a11d0ad478afc416264cda0c594d3e174d98fbd4f1ffe52b9a633e03,existing project,true,not yet selected during PhaseA
+assets/fx/impact/impact_04.png,impact_04.png,256,256,79195,0d3e0e72d091e765e3fb4af5d34b980fb5a67d0bcf1123fe391e90d638d41b95,existing project,true,not yet selected during PhaseA
+assets/fx/impact/impact_05.png,impact_05.png,256,256,71216,f2a4cef340b097cf21e3ac208fe98f380807e19a6b5bac96aa64f76a596fc029,existing project,true,not yet selected during PhaseA
+assets/fx/impact/impact_06.png,impact_06.png,256,256,59985,222a22dd4341dd5e2c4203d2e52c0459a32ac43b127d2c6d3883622b0e641374,existing project,true,not yet selected during PhaseA
+assets/fx/impact/impact_sheet.png,impact_sheet.png,768,512,405374,c35a17d5b4169285ded3ca4ce50dac71de1ad7bc3a8ca72a16ebc4b36ea7aa8b,existing project,false,not yet selected during PhaseA
+assets/fx/snow/snow_01.png,snow_01.png,256,256,19192,ecff77d47711353fbb0b2915b847a2ccc45e84b27726c1b1893dd5f22ea5afbd,existing project,true,not yet selected during PhaseA
+assets/fx/snow/snow_02.png,snow_02.png,256,256,40415,34a714e98177f7e70bb75926c6f690219ec4de7bbc5430a14468756f2d8a1204,existing project,true,not yet selected during PhaseA
+assets/fx/snow/snow_03.png,snow_03.png,256,256,80852,7e2ea32bb3575f3f726bb8ab51484eaebd367c52c35d1b2380ff0adcf08b7f18,existing project,true,not yet selected during PhaseA
+assets/fx/snow/snow_04.png,snow_04.png,256,256,78094,cbbf9198800aa7780253bcb2995b834060fe31be92c702a4bc29dd7d5786d622,existing project,true,not yet selected during PhaseA
+assets/fx/snow/snow_05.png,snow_05.png,256,256,66502,386dddec8b14122ff56363b22617a7a0e8d303789163f00db3d494ab66f4fae2,existing project,true,not yet selected during PhaseA
+assets/fx/snow/snow_06.png,snow_06.png,256,256,54276,264276b845e812a2ba547790442cb2278944b423df91ad9d1835de0185fd759e,existing project,true,not yet selected during PhaseA
+assets/fx/snow/snow_sheet.png,snow_sheet.png,768,512,338278,9dc0da3316b9038b6e87c733070e2cca60f2dc3469c5b359831f31f1e9817e3a,existing project,false,not yet selected during PhaseA
+assets/fx/wind/wind_01.png,wind_01.png,256,256,10573,b0a565b5715fb3b99c8351d1b1c8d0b2e8ef9c659cc93f5af1f1efdd17e4d3f8,existing project,true,not yet selected during PhaseA
+assets/fx/wind/wind_02.png,wind_02.png,256,256,30270,99ebafa5d45cf557125f71d9ae0ded287ad189845fa76756cb0b7cc21326badc,existing project,true,not yet selected during PhaseA
+assets/fx/wind/wind_03.png,wind_03.png,256,256,52253,eda43eb7e7613f1ec75cf1d558dc6278d0fc8caa71ca2a71e428802d562f33d2,existing project,true,not yet selected during PhaseA
+assets/fx/wind/wind_04.png,wind_04.png,256,256,47562,44fbd40cf70044d9312485531b9cfdad8c0b5bc0055a065c5dcef2aa96fe20a8,existing project,true,not yet selected during PhaseA
+assets/fx/wind/wind_05.png,wind_05.png,256,256,42331,22f894937bd09336f6807874004ce1db485ec7428555636d27d5959d607143ed,existing project,true,not yet selected during PhaseA
+assets/fx/wind/wind_06.png,wind_06.png,256,256,36558,c6a5c78ab5b83144b88e2ef79b159726a551d300b532a8434c1f7d6dd45d783b,existing project,true,not yet selected during PhaseA
+assets/fx/wind/wind_sheet.png,wind_sheet.png,768,512,216237,d80f7ad2ffd60549cde1f799d4da3373447b5347e5c751cd76e5884447a079bc,existing project,false,not yet selected during PhaseA
+assets/props/broken_signpost.png,broken_signpost.png,384,384,62209,bb5a52ccf0f16c1232f9677c680b8533d226b1afd9eefbd32015d99273ca8984,existing project,false,not yet selected during PhaseA
+assets/props/cairn_checkpoint.png,cairn_checkpoint.png,384,384,158891,ffcd60806fb51a86fe6f928832080411372cf846e4f53355b0c65a74a51f9fe8,existing project,true,not yet selected during PhaseA
+assets/props/dead_tree.png,dead_tree.png,384,384,71408,a400ed2941431178ccd570e5d704f117053f37c102f50f2a9714202478fd0371,existing project,false,not yet selected during PhaseA
+assets/props/ruin_pillar.png,ruin_pillar.png,384,384,98714,a6ffb9ea54a1f89fa040616f5160c8dec43153e778527797c4019bed870ecf4e,existing project,false,not yet selected during PhaseA
+assets/props/shrine_fragment.png,shrine_fragment.png,384,384,141625,d7cbf0168e64869edac595c7630c8dfd97c422b97979daa4035c1f57e27234ae,existing project,false,not yet selected during PhaseA
+assets/props/simple_arch_ruin.png,simple_arch_ruin.png,384,384,141414,e8ca7de480354d6679a8883d052167f3b502d67e80fbe012846bdffd211ce301,existing project,false,not yet selected during PhaseA
+assets/props/small_tree.png,small_tree.png,384,384,135465,ee932c1c449ada4013693e36e3869352b0bb98112e0f96dbcdb955c9aea43312,existing project,false,not yet selected during PhaseA
+assets/terrain/concave_slope_down.png,concave_slope_down.png,512,256,136111,d1ff21b7ca163bfc26c5f425bc2105e24ee27afba4b98f125b8b02b9373bea0d,existing project,false,not yet selected during PhaseA
+assets/terrain/convex_slope_up.png,convex_slope_up.png,512,256,148719,fcc7e7a784a369fc2356c32ad7d64feb59906d70af0255565412bec18b2c63cb,existing project,false,not yet selected during PhaseA
+assets/terrain/foothold_rest_platform.png,foothold_rest_platform.png,512,256,149849,51a839a8e8be391ed37d27990de10b4764bf94be53d60cb5e0fcc4891deed448,existing project,true,not yet selected during PhaseA
+assets/terrain/gravel_ground.png,gravel_ground.png,512,256,212208,0471bf23777b541b67ed754f21dee75068f64f416fe43909021f084482c3f538,existing project,false,not yet selected during PhaseA
+assets/terrain/ledge.png,ledge.png,512,256,159615,e90c4597bc69b85b54652ddc7cdd9567849afd3725cbd1cb0b0c205d4616f610,existing project,false,not yet selected during PhaseA
+assets/terrain/mud_ground.png,mud_ground.png,512,256,213085,6a59e9dc677d9f44444208f34d552bbaafd59b75b41c75d31558f39a66091560,existing project,false,not yet selected during PhaseA
+assets/terrain/rock_ground.png,rock_ground.png,512,256,204696,4e08b962b4aa346ceb03b4c77436bac3d43e662c66a67417c25654ed1458267d,existing project,false,not yet selected during PhaseA
+assets/terrain/rock_subsurface.png,rock_subsurface.png,1024,1024,2558363,e98ecd59ae74cc53b35f2ed9c8b0e8fa93cc4cbb02abe176bf39d2f1777c9153,existing project,true,not yet selected during PhaseA
+assets/terrain/small_stone_step.png,small_stone_step.png,512,256,192877,63b311c2df316f8c859b2c47c5412a0fa09d44e05ac7a80315771fbf9a637b4e,existing project,true,not yet selected during PhaseA
+assets/terrain/snow_ground.png,snow_ground.png,512,256,178506,8eeacba115705d21488a1ac4ea3f980ffe44e29ef4c3ae8fb87998f05404ac99,existing project,false,not yet selected during PhaseA
+assets/terrain/steep_slope_up.png,steep_slope_up.png,512,256,153290,baaee02adbec4f05f4ec7af7e2b78a1022cdd9c2cbd2a0bdb89994dc034d756c,existing project,false,not yet selected during PhaseA
+assets/terrain/wet_rock.png,wet_rock.png,512,256,200628,9ed124e23d31ba69e77f5ec022c13cb1838739ccd599751d13b07299f9f70716,existing project,false,not yet selected during PhaseA
+assets/ui/icons/brace_icon.png,brace_icon.png,128,128,27654,94b20475ee9eb3def5e26dee6c357388de2058c1dab4527b0713a6e54814f764,existing project,false,not yet selected during PhaseA
+assets/ui/icons/checkpoint_icon.png,checkpoint_icon.png,128,128,28337,5f2d99f12d0181d79d2bb8a64b7890bd7a0861d9ff826a031ce8f225a3f91423,existing project,false,not yet selected during PhaseA
+assets/ui/icons/height_marker_icon.png,height_marker_icon.png,128,128,26831,e004bd18be23f61fa80a2c2fa79aaa1312dada1fa5823f0ecd1794daf3363a45,existing project,true,not yet selected during PhaseA
+assets/ui/icons/push_burst_icon.png,push_burst_icon.png,128,128,29234,c4e21924f67edbf18d3a509b14dc70a9d856690590c02819660f2bae8f5085b2,existing project,false,not yet selected during PhaseA
+assets/ui/icons/slip_icon.png,slip_icon.png,128,128,28885,99260600837eb82544d5e16ebed5f5b1f81e3641a1985190886895176c22856e,existing project,true,not yet selected during PhaseA
+assets/ui/icons/stamina_icon.png,stamina_icon.png,128,128,29009,86368af5f67419b46ddcc256ad2b7907a5600e177cf9e7df82ed4d4c908be934,existing project,true,not yet selected during PhaseA
+assets/ui/icons/warning_rockfall_icon.png,warning_rockfall_icon.png,128,128,29141,f86fe0134d94aa391dc6a8df645042c7de1c9890e18266a729166fd2b70eef78,existing project,false,not yet selected during PhaseA
+assets/ui/icons/warning_wind_icon.png,warning_wind_icon.png,128,128,29161,f2101a6a8523236de8fac5fa73d59f1aad99161e17155854724e69801fa240af,existing project,false,not yet selected during PhaseA
+assets/ui/markers/event_marker.png,event_marker.png,256,256,47371,7d47fcbf7e1cd838ab71834f25dd9ad396ce1e6170946847a79866922d17295a,existing project,false,not yet selected during PhaseA
+assets/ui/markers/previous_record_marker.png,previous_record_marker.png,256,256,47590,3ca48ca2874bbbbe19ea48579bf8ffdb557a37cb159304981522b495a33e8bf3,existing project,true,not yet selected during PhaseA
+assets/ui/markers/rest_point_marker.png,rest_point_marker.png,256,256,72347,d57b3d6f0fc9c768d6c7e2f1b623509c80cbefdf0de2940ed10797b908797a3b,existing project,true,not yet selected during PhaseA
+assets/ui/sephirot/bottom_bar.png,bottom_bar.png,1920,100,345025,2b5cfb9fd3ab888a9da2a6c14fffd4aa48a0e463880a5d07b43064f3b0748955,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/btn_back.png,btn_back.png,300,100,58310,8b3280b248225b1639e4c3b7c1d4730b580bb2a2db4be8a6ce6957bcb4ce13a2,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/btn_back_disabled.png,btn_back_disabled.png,300,100,46753,b42d08cf7749a4fe41e6a3032f02d751a29d6150fd09530540ebd3abdbf5d97f,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/btn_back_hover.png,btn_back_hover.png,300,100,62131,e82bddab571315eb9ada2a97e60be4f76e3f8c73e76086b7365cc1bd7accd8d4,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/fx_particles.png,fx_particles.png,256,256,32440,6ca5cf18a848de77edd5a389066b97529aa1d7e6a28aeeba3115edf61ed0573f,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/fx_point_light.png,fx_point_light.png,256,256,78041,67722ac98b3dde0f10ef8a3f5b2685e07c4f1d0d41b3c1e4d1d040de2041dbc3,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/fx_select.png,fx_select.png,256,256,115166,69052954551d40a5ef3143e35d862d09e85755195f66bbb5ad2c2f50e10308ef,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/fx_thread_light.png,fx_thread_light.png,256,256,74302,88d64a5eef98b05858812dfe6dbcc116480d09706a463d65468ca5c0715d25ff,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/node_branch_available.png,node_branch_available.png,128,128,31729,17796b6241eb2241457c92085c34b0162cdbaf1d9012bde528b801487defe298,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/node_branch_completed.png,node_branch_completed.png,128,128,34904,0af5dd171c8e6294db2a44b2dcc92ef08f7427448349704f1acadd5607894288,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/node_branch_seal.png,node_branch_seal.png,128,128,34354,c47afae6f050bad12db0da29ada9fc9996345f6ac92db63d4a69ac8efe286f36,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/node_branch_unlocked.png,node_branch_unlocked.png,128,128,32918,d30b3bfd422489da113693308c3bc262b3f56ab40467c9bbc132dffae9f70179,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/node_core_available.png,node_core_available.png,256,256,115769,8041effe452675835d3730b6f3e968ea9ea9ce25c4d2904db5e44e6b701c2341,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/node_core_completed.png,node_core_completed.png,256,256,125531,46a2ffc0206114020707a76af498d552b68204c515a9c6491586b0fd2317bd66,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/node_core_unlocked.png,node_core_unlocked.png,256,256,119072,329ae6438f10ad2ab3ce9e04088de10adcd14d126fd2525c32e6687b7045ef50,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/thread_glow.png,thread_glow.png,256,32,9079,6b8c39e9b406698a2459671b8510cc02cdfdd59c88b96513d032bd012dac1f3d,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/thread_lock.png,thread_lock.png,256,32,8403,cdcc25a7b92cb5f28d01be178f2435a6484066dae91b0b86adda5ae3e86d3dc3,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/thread_segment.png,thread_segment.png,256,32,9197,7cb0a33472f07c2c2a8ce2ee9f2a9daeb610092d925c1037edf1ced17172cc53,sephirot,false,not yet selected during PhaseA
+assets/ui/sephirot/top_bar.png,top_bar.png,1920,120,398270,f10b436804f25d122579c1e677394b15466d8b04a61699bcea2172759a46409e,sephirot,false,not yet selected during PhaseA
+docs/references/character-reference.png,character-reference.png,1448,1086,2322191,3fdc47601a92aba22b5abe1c363adb3d6e1daa94e131367e85977b2eac2d7c81,existing project,false,not yet selected during PhaseA
+docs/references/concept-reference.png,concept-reference.png,1536,1024,3548206,3ce93ee7533dce7f1c2dcdbd543018f9831b1c4ace7a96c06edd2186ff74b763,existing project,false,not yet selected during PhaseA
+docs/references/environment-reference.png,environment-reference.png,1448,1086,2599067,ba20885fc1e76800ef1200ff9ebff110172b163f7e55b4edd9de300088474c9e,existing project,false,not yet selected during PhaseA
+docs/references/fx-ui-reference.png,fx-ui-reference.png,1448,1086,2291829,4548d28e924573555353f28e6b1a149d0708429dbc8b2075c00f0650be08bca7,existing project,false,not yet selected during PhaseA
+tests/balance/results/current-pilot/baseline.png,baseline.png,1980,810,112439,1478c936215d0ce4a37d832f9d21459b32e21fe2e20e3d5154ed4d4e406d39fd,existing project,false,not yet selected during PhaseA
