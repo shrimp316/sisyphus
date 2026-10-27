@@ -1,0 +1,106 @@
+{
+  "jobs": [
+    {
+      "id": "verify_gate_raw_regular_recovery",
+      "policy": "regular_recovery",
+      "mode": "single",
+      "growth_mode": "actual",
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 400,
+      "candidate": {
+        "id": "S255",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 650,
+            "end_m": 905,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 20.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 905,
+            "end_m": 915,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 650,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 905
+    },
+    {
+      "id": "verify_gate_raw_skilled_recovery",
+      "policy": "skilled_recovery",
+      "mode": "single",
+      "growth_mode": "actual",
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "seeds": [
+        101
+      ],
+      "max_run_seconds": 400,
+      "candidate": {
+        "id": "S255",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 650,
+            "end_m": 905,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 20.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 905,
+            "end_m": 915,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 650,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 905
+    }
+  ]
+}

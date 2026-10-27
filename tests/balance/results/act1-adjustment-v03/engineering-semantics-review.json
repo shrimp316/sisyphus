@@ -1,0 +1,54 @@
+{
+  "status": "no_blocking_difference_found_for_current_experiments",
+  "review_role": "Follow-up engineering audit by the runtime author; independent code approval must remain with the separate verifier. Analysis schema was reviewed by a person other than its author.",
+  "runtime_comparison": {
+    "physics": "Both paths execute the same audited generated _step_v02 with dt=1/120. Observed advance(dt) adds and consumes exactly one fixed step; direct bypasses observer bookkeeping. Current policies emit exert only with push. Physics accumulator is zero at each completed step in either path.",
+    "policy": "Same seed XOR constant, cadence rounding, step-zero decision, held commands, policy method and error RNG. Reference policies are unchanged; new recovery policies are separate entire policies, not isolated recovery toggles.",
+    "xp": "Observed calls award_distance each step; direct calls only when int(nonnegative peak/50)>run_milestones. This is equivalent to the actual Progression new-milestone condition. Same production caps, record bonus, level curve and upgrade point purchases are used.",
+    "purchase_order": "Both purchase before the step's policy decision, only in climbing state on a shelf with abs(v)<=.05. Applying an in-run upgrade preserves absolute current stamina. Selection/menu time is omitted.",
+    "reset": "Both call begin_run to reset only per-run milestones. Campaign profile keeps total XP, record milestones and ranks. Each new controller begins at zero distance with upgraded maximum stamina and fresh environmental quota. Fresh seed sequence is inherited unchanged.",
+    "timeouts": "Both floor the step limit identically and distinguish result/fall from runaway still in progress at timeout. The inherited campaign stops at first run timeout and never treats it as another death/retry. Campaign time includes fall descent and excludes UI/loading/deliberation.",
+    "fixed_ranks": "Single runs retain fixture ranks even as the separate XP ledger earns points; single mode does not purchase. Campaigns start from zero ranks and actual zero XP.",
+    "fixtures": "Diagnostic entry fixtures explicitly set initial distance/velocity/stamina, are single-only, do not award XP or purchase, and are not whole-route attempts. diagnostic_target is not summit. They must remain separate from whole-route completion denominators."
+  },
+  "nonblocking_differences_and_limits": [
+    "Direct output deliberately omits observer-only bands, whole-run stamina exposure, slip/rollback episodes, terrain attribution and stall histories. Missing fields must not become zero. Gate telemetry and actual global slip/runaway counters remain measured.",
+    "Gate entry_seconds is captured after elapsed advances by dt while its entry state is the pre-step state; reported gate passage duration is short by one 120Hz step (about8.3ms). Both paths share this telemetry convention. End-state physics, XP, full run duration and the resource proof are unaffected.",
+    "At the actual XP cap6150, direct records a zero-earned-xp milestone event while observed records positive awards only. Total XP, progression and rank outcomes agree. Zero-amount rows should not count as award episodes.",
+    "purchase_mode is currently a preserved descriptive metadata field, not a behavior switch. Current experiment configs omit it; behavior follows single/campaign mode.",
+    "Diagnostic fixture velocity and stop_after_m could use stricter finite/range validation in a later version. Current checked configs use velocity1.8 and finite targets855..940, so no current result depends on invalid values.",
+    "Use a fresh dataset output directory and unique job/seed identities. The runner rejects preexisting output directories, guards source hashes, and the analyzer rejects incomplete execution manifests and duplicate observations."
+  ],
+  "analysis_review": {
+    "accepted": [
+      "entry fixtures separated",
+      "direct/full instrumentation groups separated",
+      "missing instrumentation not zero",
+      "campaign attempts excluded from independent single-run estimates",
+      "gate repeats remain one observation per gate/run",
+      "quota measured in seconds",
+      "future unlock geometry labeled unimplemented"
+    ],
+    "finding_resolved": "A stop_after_m job without entry_fixture could have entered the whole-route denominator. The analysis author now separates both such timeouts and diagnostic_target rows using metadata and status; regression coverage added.",
+    "tests": "10 analysis tests passed in reviewer rerun. Preserved-source audit99/99 and production tracked diff empty."
+  },
+  "minimum_cost_100_seed_recommendation": {
+    "selection": "First choose one candidate and one policy using completed zero-to-summit pilots, then freeze them before the confirmatory seeds.",
+    "minimum_pair": "100 new natural-weather seeds, paired fixed-zero versus one preselected grown build:200 complete-route runs, no entry_fixture and no stop_after_m, fixed1800s censoring cap.",
+    "two_policy_claim": "If conclusions must cover regular and skilled separately, use400 runs:2 policies x2 growth conditions x100 paired seeds. One policy cannot substantiate the other.",
+    "execution": "diagnostic.gd,3workers after current runners finish; retain all raw gzip inputs and source/config manifests. No dt, cadence, errors or seed changes for speed.",
+    "detail": "Use a few predetermined matching seeds with the full observer only when bands/stamina/slip episode detail is needed; do not treat those repeated trajectories as additional independent completion samples.",
+    "cost": "The observed two-route replay sample cost12.56wall seconds with one worker; extrapolation is about7minutes for200 runs on3workers before contention/runtime variation. This is an estimate, not a deadline."
+  },
+  "mutations": "No frozen runtime, production, or v0.2 code/results were changed by this review.",
+  "reviewed_source_sha256": {
+    "tests/balance/adjustment_v03/diagnostic.gd": "12f03a0953a703b2e25712587bf59fb58d17f28b0efbd0854bad933c3380d023",
+    "tests/balance/adjustment_v03/simulator.gd": "e2ef198919f286d03eb20d02618fcc26bd16534762d93d34baa2ede86e5a25f0",
+    "tests/balance/adjustment_v03/controller.gd": "3f940f7f1c1e6333f87d1125f54576e7fe98eec8d71c613c752afb4bd07447c3",
+    "tests/balance/simulator.gd": "488c0664254a0b8d9d728dbfadd78a6eefe4ae4a4218699b812a3490b7a25eda",
+    "scripts/boulder_controller.gd": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+    "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7",
+    "tests/balance/adjustment_v03/analyze.py": "9eac114f0fccf37946792957174c197d1148503fd29166d9d3186ffc2cb6a80c",
+    "tests/balance/adjustment_v03/test_analyze.py": "06aabf0680d8286477f9d7a7fad69581c3475b4318be782eae306aaf0383e15c"
+  }
+}

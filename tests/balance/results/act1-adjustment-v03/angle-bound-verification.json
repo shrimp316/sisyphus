@@ -1,0 +1,117 @@
+{
+	"certificates": [
+		{
+			"angle": 39.0,
+			"conditional_impossibility": true,
+			"crosszero_and_stiction_ratio": 0.0724316835879416,
+			"drain_multiplier": 1.66,
+			"forward_ratio": 2.63566516064257,
+			"gate_length": 114.0,
+			"margin": -3.01050750041304,
+			"necessary_work_lower": 237.996254321447,
+			"qmax": 0.0415,
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"ratio": 2.63566516064257,
+			"recovery_upper": 0.0,
+			"requires": "Constant39..45degrees dry STONE, no internal ledge/support/shelf/purchase, fixed ranks, recovery_min_stamina>0, total actual recovery<=budget*existing recovery multiplier. min_stamina=0 invalidates this resource certificate.",
+			"retarding_coefficient": 2.08796117314951,
+			"supply_upper": 234.985746821034,
+			"weighted_resource_upper": 88.5415
+		},
+		{
+			"angle": 39.0,
+			"conditional_impossibility": true,
+			"crosszero_and_stiction_ratio": 0.0724316835879416,
+			"drain_multiplier": 1.66,
+			"forward_ratio": 2.63566516064257,
+			"gate_length": 127.0,
+			"margin": -3.79735114493099,
+			"necessary_work_lower": 265.139749572391,
+			"qmax": 0.0415,
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"ratio": 2.63566516064257,
+			"recovery_upper": 10.0,
+			"requires": "Constant39..45degrees dry STONE, no internal ledge/support/shelf/purchase, fixed ranks, recovery_min_stamina>0, total actual recovery<=budget*existing recovery multiplier. min_stamina=0 invalidates this resource certificate.",
+			"retarding_coefficient": 2.08796117314951,
+			"supply_upper": 261.34239842746,
+			"weighted_resource_upper": 98.5415
+		},
+		{
+			"angle": 40.0,
+			"conditional_impossibility": true,
+			"crosszero_and_stiction_ratio": 0.0715561605960947,
+			"drain_multiplier": 1.7,
+			"forward_ratio": 2.57364950980392,
+			"gate_length": 125.0,
+			"margin": -10.7795713701634,
+			"necessary_work_lower": 266.013428190016,
+			"qmax": 0.0425,
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"ratio": 2.57364950980392,
+			"recovery_upper": 10.0,
+			"requires": "Constant39..45degrees dry STONE, no internal ledge/support/shelf/purchase, fixed ranks, recovery_min_stamina>0, total actual recovery<=budget*existing recovery multiplier. min_stamina=0 invalidates this resource certificate.",
+			"retarding_coefficient": 2.12836282905962,
+			"supply_upper": 255.233856819853,
+			"weighted_resource_upper": 98.5425
+		},
+		{
+			"angle": 45.0,
+			"conditional_impossibility": true,
+			"crosszero_and_stiction_ratio": 0.0755142634576337,
+			"drain_multiplier": 1.7,
+			"forward_ratio": 2.57364950980392,
+			"gate_length": 255.0,
+			"margin": -2.09357470819282,
+			"necessary_work_lower": 591.901867802555,
+			"qmax": 0.0425,
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"ratio": 2.57364950980392,
+			"recovery_upper": 140.0,
+			"requires": "Constant39..45degrees dry STONE, no internal ledge/support/shelf/purchase, fixed ranks, recovery_min_stamina>0, total actual recovery<=budget*existing recovery multiplier. min_stamina=0 invalidates this resource certificate.",
+			"retarding_coefficient": 2.32132034355964,
+			"supply_upper": 589.808293094363,
+			"weighted_resource_upper": 228.5425
+		}
+	],
+	"failures": 0,
+	"grids": [
+		{
+			"angle": 39.0,
+			"checks": 5376,
+			"failures": [],
+			"maximum_violation": 0.0,
+			"meaning": "Supporting actual generated-controller grid; not exhaustive proof."
+		},
+		{
+			"angle": 40.0,
+			"checks": 5376,
+			"failures": [],
+			"maximum_violation": 0.0,
+			"meaning": "Supporting actual generated-controller grid; not exhaustive proof."
+		},
+		{
+			"angle": 45.0,
+			"checks": 5376,
+			"failures": [],
+			"maximum_violation": 0.0,
+			"meaning": "Supporting actual generated-controller grid; not exhaustive proof."
+		}
+	],
+	"source_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944"
+}

@@ -1,0 +1,206 @@
+{
+  "jobs": [
+    {
+      "id": "verify_S190_regular_recovery_matched",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        101
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "verify_S190_regular_recovery_cooldown0",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        101
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "fixed_growth",
+      "verification_cooldown_override": 0
+    },
+    {
+      "id": "verify_S190_skilled_recovery_matched",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        101
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "fixed_growth"
+    },
+    {
+      "id": "verify_S190_skilled_recovery_cooldown0",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        101
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "fixed_growth",
+      "verification_cooldown_override": 0
+    }
+  ]
+}

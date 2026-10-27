@@ -1,0 +1,4805 @@
+{
+  "schema_version": "adjustment-v03-analysis-1",
+  "input_files": [
+    {
+      "jsonl": "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\results\\act1-adjustment-v03\\ablations\\results.jsonl",
+      "sha256": "8519a925d3214f335bd42839968199fcef6136544fbb4378e5b4702847c179e1",
+      "execution_manifest": {
+        "source_config": "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\adjustment_v03\\experiments_ablations.json",
+        "source_config_sha256": "4bbd357c4a23e9e22c82764783564d9992bd001eb466454da21ca88ba693d9b9",
+        "code_sha256": {
+          "data/chunks/zone_1_gravel.tres": "e0be0d86ccf2026d74705ad4412f2b1bb6257f5a39b106a1a8adca7be958027e",
+          "data/chunks/zone_1_soil.tres": "bf9c72e3b4fb65611fc874e7ee0d580ba14f5e5923e2e55a15e02ad7a18e5e07",
+          "data/chunks/zone_1_stone.tres": "2a5d9b5fe1a9e39ab3c0b07c13d3f6e52b52fc9aa4423effca55f5b911ee2762",
+          "data/chunks/zone_2_gravel.tres": "d0b6043c9df7b8b18e1f21e24b6d272289b8ffe71f7956f6c9d7e56194e664b9",
+          "data/chunks/zone_2_soil.tres": "bd385c639d9bd4a50461bb9a5761b9177caf290c9406a3aff377f972b7747897",
+          "data/chunks/zone_2_stone.tres": "dffe35b3ebbaeded9c3f01bae6b195065f29088db4ac9bf520ffc0250ca28d9d",
+          "data/chunks/zone_3_gravel.tres": "17101849976af7a5f6b865d861474e2c510e9b287649a64e46e86250e85244d5",
+          "data/chunks/zone_3_soil.tres": "c4bbebc1fa2f91e59d03ffdc1fa4745b02cae83c7d31dc405c0753cee8415f73",
+          "data/chunks/zone_3_stone.tres": "d9b3c3451d26aedf86ca5619c62455302039c815b4471ee5b2cbaf0c6bf4b635",
+          "data/chunks/zone_4_gravel.tres": "f1e9fdaf88fd974b12cac09e83257f3d2cbd3e4da03573de63a5455482a2d987",
+          "data/chunks/zone_4_soil.tres": "9fbd394eb708518e5e0094b7486dfdf55ac26499c3231c19ec7d39d766b2a1c6",
+          "data/chunks/zone_4_stone.tres": "7cd7f60bbe4f7cdde6a1dc2ef5d07e300d44971501f92a3e64fe63cd90f1d202",
+          "data/chunks/zone_5_gravel.tres": "f1017212dfdf242f546f819840b1c7bbddec64dbc5d012fdde9f9d56f4929ccf",
+          "data/chunks/zone_5_soil.tres": "c035da944ec963c3059e9fcb67703e51754b8f981f462cb204c5b7f3bc383ec6",
+          "data/chunks/zone_5_stone.tres": "e13d454d7c68545a66e080513425da973d4c91c1d6a93a938ea888dbf2037061",
+          "project.godot": "acefdf6d3bfad3989cff76fa198adb0683a01ae98bfff5635ebe656c1d1ca0db",
+          "scripts/asset_preview.gd": "e550feb7585f972c0dc59408dc3d7623c4255a78d3e756fd95d4c4e64243ef83",
+          "scripts/asset_visuals.gd": "a16d83980281ede7acef72bc3d4289209719debcabd003ca03e627588056f01c",
+          "scripts/boulder_controller.gd": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+          "scripts/main.gd": "f3623c003d3a85a719bcab6659152629db2d61700fc9849c9c67ef7a454ec5b6",
+          "scripts/mountain_chunk.gd": "4c783aaad3ce4e335cbb538500e01ff21e959916c6822de067060b105e30b6a3",
+          "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+          "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7",
+          "scripts/scenery_visuals.gd": "3c4ae8930bad1089f86be267528a8a9f0f975f60c94ee8b2ac7ca758247106d8",
+          "scripts/soundscape.gd": "9d3bfa84bf6832107d7b88dcb65b51ecd3f18bbb71f7c194e4473b2132be9df8",
+          "tests/balance/adjustment_v02/controller_factory.gd": "8b23f8977d6039c6db9f7b8e53ce0acd2d8d421ece73a4fc45c09af2147917d7",
+          "tests/balance/adjustment_v02/observed_controller.gd": "98f128ce0f6765b1b105966930e58b002b8f360cb607e0af60be1edc6d7c1488",
+          "tests/balance/adjustment_v02/policies.json": "de3a0430d5156f6d864ba8fd76b9953fe360a93d04663940ee14f466d8497c87",
+          "tests/balance/adjustment_v02/simulator.gd": "ea48c5f2c8cc6ce7e07f03aa102103455486ce2e2b5e3c37b2f01f5f9ab309f2",
+          "tests/balance/adjustment_v02/terrain.gd": "cbd97ab112d3968fed78db7e1a5f894b551e84250159713344396b599f15be34",
+          "tests/balance/adjustment_v03/controller.gd": "3f940f7f1c1e6333f87d1125f54576e7fe98eec8d71c613c752afb4bd07447c3",
+          "tests/balance/adjustment_v03/controller_factory.gd": "91eca87ad75db8c303e7c21c9ad7889e749af489f9fbbf077c16e60ec2d947eb",
+          "tests/balance/adjustment_v03/diagnostic.gd": "12f03a0953a703b2e25712587bf59fb58d17f28b0efbd0854bad933c3380d023",
+          "tests/balance/adjustment_v03/policies.json": "0f28b2405a736fcbc9e7eb26539a615eeecb40947f40fb646cc896e0806a0f6b",
+          "tests/balance/adjustment_v03/simulator.gd": "e2ef198919f286d03eb20d02618fcc26bd16534762d93d34baa2ede86e5a25f0",
+          "tests/balance/adjustment_v03/terrain.gd": "5b1328a982d5a13d13b32dced6fdbb64a7d638e0879b64ae6ff86ef74f99c675",
+          "tests/balance/balance_controller.gd": "ab0d1e80fe2e5e86c6e380348f920894f0bb472f038a241bb87e6f96e6926349",
+          "tests/balance/policies.json": "de3a0430d5156f6d864ba8fd76b9953fe360a93d04663940ee14f466d8497c87",
+          "tests/balance/simulator.gd": "488c0664254a0b8d9d728dbfadd78a6eefe4ae4a4218699b812a3490b7a25eda"
+        },
+        "script": "tests/balance/adjustment_v03/diagnostic.gd",
+        "planned_seed_samples": 48,
+        "workers": 1,
+        "status": "complete",
+        "actual_runs": 48,
+        "worker_results": [
+          {
+            "worker": 0,
+            "seed_samples": 48,
+            "actual_runs": 48,
+            "wall_seconds": 246.45299999999952,
+            "output": "worker_00.jsonl",
+            "command": [
+              "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+              "--headless",
+              "--path",
+              "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+              "--script",
+              "tests/balance/adjustment_v03/diagnostic.gd",
+              "--",
+              "--config",
+              "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\results\\act1-adjustment-v03\\ablations\\worker_00.json",
+              "--output",
+              "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\results\\act1-adjustment-v03\\ablations\\worker_00.jsonl"
+            ]
+          }
+        ],
+        "wall_seconds": 246.5630000000001
+      }
+    }
+  ],
+  "metadata": [
+    {
+      "candidate_semantics": "push_scale multiplies player push_multiplier only, not BASE_PUSH constant/ledge threshold; slip_scale multiplies material slip gain only, recovery unchanged; drain_scale overrides slope drain multiplier only",
+      "clock_semantics": "controller elapsed includes runaway descent; excludes menus, purchase selection, retry UI and loading time",
+      "code_revision": "bc1778f48521e4f3c1818e469c9793b035e18333",
+      "config": {
+        "jobs": [
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_S190_regular_recovery_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 950.0,
+                  "shelf": true,
+                  "start_m": 940.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 45.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 940.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 7.0,
+                  "recovery_seconds_budget": 11.4285714285714,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "S190"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_S190_skilled_recovery_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled_recovery",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_regular_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "regular",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "none",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "high30",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_none",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "strength",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_strength",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_strength",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 10.0,
+              "strength": 0.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "endurance",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_endurance",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 0.0,
+              "recovery": 10.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              101.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              202.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          },
+          {
+            "ablation_reference": "high30",
+            "ablation_stat": "recovery",
+            "candidate": {
+              "connection_layout": [
+                {
+                  "angle_degrees": 0.0,
+                  "dry": true,
+                  "end_m": 900.0,
+                  "shelf": true,
+                  "start_m": 877.0,
+                  "surface": "STONE"
+                }
+              ],
+              "gates": [
+                {
+                  "angle_degrees": 39.0,
+                  "drain_scale": 1.0,
+                  "dry": true,
+                  "end_m": 877.0,
+                  "id": "late_gate",
+                  "recovery_min_stamina": 1.0,
+                  "recovery_rate": 40.0,
+                  "recovery_seconds_budget": 0.25,
+                  "slip_decay_scale": 1.0,
+                  "slip_gain_scale": 0.6,
+                  "start_m": 750.0,
+                  "surface": "STONE"
+                }
+              ],
+              "id": "A39_L127_B10_FAST"
+            },
+            "experiment_case": "per_stat_ablation",
+            "generation": 6.0,
+            "growth_id": "no_recovery",
+            "growth_mode": "actual",
+            "id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+            "level": 0.0,
+            "max_run_seconds": 1800.0,
+            "mode": "single",
+            "policy": "skilled",
+            "ranks": {
+              "endurance": 10.0,
+              "recovery": 0.0,
+              "strength": 10.0
+            },
+            "seeds": [
+              303.0
+            ],
+            "strategy": "balanced",
+            "weather": ""
+          }
+        ],
+        "phase": "per_stat_ablation",
+        "schema_version": 3.0
+      },
+      "controller": "production BoulderController inherited without copied integration",
+      "fixed_dt": 0.00833333333333333,
+      "godot_version": "4.5.1-stable (official)",
+      "growth_system": "existing Progression only: cumulative nonspend EXP grants upgrade points; each existing stat rank adds 2%",
+      "policies": {
+        "novice": {
+          "brace_velocity": -1.7,
+          "decision_seconds": 0.55,
+          "error_probability": 0.09,
+          "exert_stamina_fraction": 0.08,
+          "ledge_lookahead_m": 0.0,
+          "shelter_enter_below": 0.55,
+          "shelter_recover_to": 0.65,
+          "slip_limit": 96.0,
+          "target_speed": 1.65,
+          "unrealistic": false
+        },
+        "optimized": {
+          "brace_velocity": -0.01,
+          "decision_seconds": 0.00833333333333333,
+          "error_probability": 0.0,
+          "exert_stamina_fraction": 0.05,
+          "ledge_lookahead_m": 0.12,
+          "shelter_enter_below": 0.98,
+          "shelter_recover_to": 0.999,
+          "slip_limit": 85.0,
+          "target_speed": 1.15,
+          "unrealistic": true
+        },
+        "regular": {
+          "brace_velocity": -0.6,
+          "decision_seconds": 0.25,
+          "error_probability": 0.025,
+          "exert_stamina_fraction": 0.4,
+          "ledge_lookahead_m": 1.0,
+          "shelter_enter_below": 0.93,
+          "shelter_recover_to": 0.96,
+          "slip_limit": 65.0,
+          "target_speed": 0.85,
+          "unrealistic": false
+        },
+        "regular_recovery": {
+          "brace_velocity": -0.6,
+          "decision_seconds": 0.25,
+          "error_probability": 0.025,
+          "exert_stamina_fraction": 0.4,
+          "ledge_lookahead_m": 1.0,
+          "recovery_exert_velocity": 1.0,
+          "recovery_release_velocity": 0.9,
+          "recovery_retry_seconds": 2.0,
+          "recovery_stamina_threshold": 0.5,
+          "shelter_enter_below": 0.93,
+          "shelter_recover_to": 0.96,
+          "slip_limit": 65.0,
+          "target_speed": 0.85,
+          "unrealistic": false
+        },
+        "skilled": {
+          "brace_velocity": -0.12,
+          "decision_seconds": 0.12,
+          "error_probability": 0.008,
+          "exert_stamina_fraction": 0.22,
+          "ledge_lookahead_m": 1.2,
+          "shelter_enter_below": 0.96,
+          "shelter_recover_to": 0.99,
+          "slip_limit": 48.0,
+          "target_speed": 0.95,
+          "unrealistic": false
+        },
+        "skilled_recovery": {
+          "brace_velocity": -0.12,
+          "decision_seconds": 0.12,
+          "error_probability": 0.008,
+          "exert_stamina_fraction": 0.22,
+          "ledge_lookahead_m": 1.2,
+          "recovery_exert_velocity": 1.0,
+          "recovery_release_velocity": 0.9,
+          "recovery_retry_seconds": 2.0,
+          "recovery_stamina_threshold": 0.5,
+          "shelter_enter_below": 0.96,
+          "shelter_recover_to": 0.99,
+          "slip_limit": 48.0,
+          "target_speed": 0.95,
+          "unrealistic": false
+        }
+      },
+      "schema_version": 2,
+      "timeout_handling": "right-censored; campaigns stop at first run timeout, never reinterpret timeout as fall",
+      "type": "metadata"
+    },
+    {
+      "appended": "_gate_after_step() telemetry",
+      "generated_artifact": "res://tests/balance/results/act1-adjustment-v03/generated_controller.gd",
+      "generated_sha256": "a4047c1bb68dda89666f6f9277b462851f6d8ff8be05a4ba93357552b0cd1acd",
+      "original_function_sha256": "c9ed8dd410ed0540701fb57bc8b3c543b7e8a1392393a7edc5408cd25a612132",
+      "patches": [
+        [
+          "\tvar old_distance: float = distance",
+          "\t_gate_before_step(dt,push,exert,brace)\n\tvar old_distance: float = distance"
+        ],
+        [
+          "\tvar slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))",
+          "\tslip_gain *= gate_scale(\"slip_gain_scale\")\n\tif distance >= 500.0: slip_gain *= float(experiment.get(\"slip_gain_after500_scale\",1.0))\n\tvar slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))"
+        ],
+        [
+          "\tslip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)",
+          "\tslip_recovery *= gate_scale(\"slip_decay_scale\")\n\tif not safe and distance >= 750.0: slip_recovery *= float(experiment.get(\"slip_decay_after750_scale\",1.0))\n\tslip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)"
+        ],
+        [
+          "\tvar drain_multiplier: float = slope_drain_multiplier(degrees)",
+          "\tvar drain_multiplier: float = slope_drain_multiplier(degrees) * gate_scale(\"drain_scale\")"
+        ],
+        [
+          "\t\tvar recovery: float = 10.0 if safe else (7.0 if absf(velocity) < 0.01 else (3.0 if degrees <= 10.0 else 0.0))",
+          "\t\tvar recovery: float = 10.0 if safe else (7.0 if absf(velocity) < 0.01 else (3.0 if degrees <= 10.0 else 0.0))\n\t\tif safe and absf(velocity)>0.05: recovery *= float(experiment.get(\"moving_shelf_recovery_scale\",1.0))\n\t\telif not safe and distance >= float(experiment.get(\"uphill_recovery_after_m\",1000.0)): recovery *= float(experiment.get(\"uphill_recovery_scale\",1.0))"
+        ],
+        [
+          "\t\t\tstamina += recovery * recovery_multiplier * dt",
+          "\t\t\tstamina += _gate_recovery_amount(recovery,dt,effort_requested,safe)"
+        ]
+      ],
+      "preserved": [
+        "integration",
+        "state transitions",
+        "force",
+        "ledge thresholds",
+        "slip threshold/duration",
+        "existing rank effects"
+      ],
+      "recovery_semantics": "Test-only finite environmental released-recovery time. Rank-independent seconds quota; eligible time consumed even at stamina cap. Amount=rate*existing recovery_multiplier*eligible_dt clamped by actual missing stamina. No refund on retreat/reentry/stall; fresh run resets quota.",
+      "source": "res://scripts/boulder_controller.gd",
+      "source_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+      "type": "instrumentation"
+    }
+  ],
+  "observed_counts": {
+    "single_runs": 48,
+    "campaigns": 0,
+    "campaign_run_rows": 0,
+    "actual_runs": 48
+  },
+  "raw_run_records_including_fixtures": 48,
+  "observed_events": {
+    "slip_events": 0,
+    "stall_events": 0,
+    "gate_telemetry": 48
+  },
+  "instrumented_run_counts": {
+    "slip_events": 0,
+    "stall_events": 0,
+    "stamina_metrics": 0,
+    "bands": 0,
+    "bands_200": 0,
+    "gate_telemetry": 48
+  },
+  "diagnostic_fixture_runs": 0,
+  "bounded_diagnostic_runs": 0,
+  "partial_instrumentation_runs": [
+    {
+      "job_id": "ablation_S190_regular_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "none",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "strength",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "endurance",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 101,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 202,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": "recovery",
+      "ablation_reference": "high30",
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "seed": 303,
+      "campaign_id": "",
+      "run_index": 1,
+      "missing": [
+        "bands",
+        "bands_200",
+        "stamina_metrics",
+        "slip_events",
+        "stall_events"
+      ]
+    }
+  ],
+  "first_attempt_rows": 0,
+  "ablation_rows": 48,
+  "analysis_code_sha256": {
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\adjustment_v03\\analyze.py": "9eac114f0fccf37946792957174c197d1148503fd29166d9d3186ffc2cb6a80c",
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\adjustment_v02\\analyze.py": "5906923bb34a271fa5401efbba9989bc82a6e69adfbc4bac6692b5ee656e0f6d",
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\analyze.py": "02098222af6f94edb002cebd50e4ce1260aa1613c19b134b02f770aa12a8f00f"
+  },
+  "output_csv_sha256": {
+    "metrics.csv": "e669cefa2276422957709cf6bbdc9e4beba475c0b2984f356492bf25575bb14d",
+    "bands.csv": "17205bb3f592dd945388fb220c7e12d107b9b4fc77d6015f59b3d76c7b96c30a",
+    "stamina.csv": "f8c7119913c7376abb034451b880c13f2755baeab3f62a0cb28a3a6a23cfb4d1",
+    "slip.csv": "67251a445888a58347b496468dee092426dfb613832f2d89608fb326f6edf756",
+    "stalls.csv": "6a87276cede069aca5aa8fe6eaa22827ef0a540add325447dfd192f9649b3587",
+    "terrain.csv": "17205bb3f592dd945388fb220c7e12d107b9b4fc77d6015f59b3d76c7b96c30a",
+    "gate_telemetry.csv": "3365a32de14aa59bc8bceccd8db39b466c06ad05068d10954ea7901299d4061b",
+    "gates.csv": "f0e0280519d4ef127251401795c6aae1a481a45cb2d550f7a614f18fb46ddf8a",
+    "xp.csv": "eb78dc146c5640117eca26de80c654d18ab7fe7454d61273300863715b877500",
+    "unlock_geometry.csv": "09493915e3f9829902107a5dda6aa382a17f00e1a0d027be8a19876d3f539f79",
+    "first_attempt.csv": "17205bb3f592dd945388fb220c7e12d107b9b4fc77d6015f59b3d76c7b96c30a",
+    "ablations.csv": "f49bf1bfafc3139d04b01a3c32c8967bb10d10c684593b262f001b6f4ed9c0b1",
+    "diagnostic_fixtures.csv": "17205bb3f592dd945388fb220c7e12d107b9b4fc77d6015f59b3d76c7b96c30a",
+    "fixture_metrics.csv": "17205bb3f592dd945388fb220c7e12d107b9b4fc77d6015f59b3d76c7b96c30a",
+    "fixture_gate_telemetry.csv": "17205bb3f592dd945388fb220c7e12d107b9b4fc77d6015f59b3d76c7b96c30a",
+    "fixture_gates.csv": "17205bb3f592dd945388fb220c7e12d107b9b4fc77d6015f59b3d76c7b96c30a",
+    "campaigns.csv": "17205bb3f592dd945388fb220c7e12d107b9b4fc77d6015f59b3d76c7b96c30a"
+  },
+  "evidence_artifacts": {
+    "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\results\\act1-adjustment-v03\\proof-review.json": "22dfd046c6e292e4c5b3d44a8a64db258603f27f427554484191dc0fb53f46be"
+  },
+  "input_trace_checks": [
+    {
+      "job_id": "ablation_S190_regular_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_none-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 74249,
+      "compressed_sha256": "5a27afea8eab60bf2c76e1eec6aec504c680ceb3b3d3ba04dadf7bbf4aa5aa46",
+      "raw_sha256_verified": "19fbb8e620fef9f38f9df18d781577e18b94d76b6fcd7682a0431d5bbd8ab689"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_none-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 73875,
+      "compressed_sha256": "1ab8d5c2d17f533a00dfb88899b159c6f8c4958dd5159ca202d5f8a4a84946de",
+      "raw_sha256_verified": "79208a1ac6a58a4f5ba9966d6f04052cb9aae199dd42ca20e228932edcff575e"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_none-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 73025,
+      "compressed_sha256": "cbf37a108e35b8dece3a39567f3dd29e9b13f093e5bed61baf068468723e128d",
+      "raw_sha256_verified": "381d8ecad3fb62236ed65e8fb5c854ca99e669755324ad21f181b082128d8f77"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_strength-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 71427,
+      "compressed_sha256": "365e501591b429386b3233579d8a1fc7d3267de0d8282ea2143da6a7256ac5b6",
+      "raw_sha256_verified": "64b9520f57ae9939d999d429b6b11a4ed49d02443fd8d04dcc073bbd510ee6a6"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_strength-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 71097,
+      "compressed_sha256": "577f47a1582de1137adc346ffea4163e524f9f5b0acbf6f21f5f0270e5232c76",
+      "raw_sha256_verified": "2228fdcc56971a9dd45875c6ac39314cb286952a292eab504cd21de564c62ddb"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_strength-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 70303,
+      "compressed_sha256": "7ce52ff976d8f9e61789b78b7cbf0ce5806526a250a5443136fdc8bd8f658213",
+      "raw_sha256_verified": "b29fbad24c34fe3d65f35879e315ed4b655af9f0f85d33d62efec1dd227e5451"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_endurance-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 74838,
+      "compressed_sha256": "16174f4daad6b337dbc0e10a1c9cd70f13b75bd39dc93191c1a33cd6d4822b35",
+      "raw_sha256_verified": "3130481da9b459a233e2096a4beef38b1f54a0a9aa48fe2ffb7ef1baafbbe2d8"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_endurance-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 74433,
+      "compressed_sha256": "11af4032af48d81fa7db10a45b670ee792bb380ce6f7c8907daef033b0c53c27",
+      "raw_sha256_verified": "a2f8db11cc1221be81efce132112f093539ce8e7b8c0c3f079d01c2962a12a3e"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_endurance-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 71039,
+      "compressed_sha256": "96ca921647afa9021163258a7fd1014b94f84dda1003e965af998e1fa616c752",
+      "raw_sha256_verified": "3e8e16919c9824a855afa80c644b812af6b8cbea6345711c27748a3e11db5520"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_recovery-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 75582,
+      "compressed_sha256": "8204cf041f1f663f83f479f1fb3cde4e6e86ea3ff600f7fb1add96a77a090bf3",
+      "raw_sha256_verified": "96c6cc9b15cd2adebd1034c6480449cea76856f79f36b036d3fe5bc7e9a0b8a7"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_recovery-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 75257,
+      "compressed_sha256": "7d99f51426cad24137e949f9bf5dd087b49378456865223c5b92c540a313686b",
+      "raw_sha256_verified": "433d769f8154ac269b0dc654981c183dfbb9dfac3a4af47b7aced2b444d2b108"
+    },
+    {
+      "job_id": "ablation_S190_regular_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_recovery-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 71351,
+      "compressed_sha256": "facdf80ca9001114ce57d53f6e39e3ea2e9e57ff87451cb3a64f23e0229a5e02",
+      "raw_sha256_verified": "35a510c19a9871851a3e5fdb2323e9cfcdfab08766a46cd9508b788dcf361d61"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_none-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 74117,
+      "compressed_sha256": "9c5b6b27bf0229f031b10e233d5600f98eebb5701e4ce5837ada3bb61e760616",
+      "raw_sha256_verified": "6a2e57c035102ae17c7c18a1eb6a8db4ce50520980b219ee7e331f8a0d2096cd"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_none-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 73778,
+      "compressed_sha256": "1439edba1510ee26084205e025f2bac659db896141dfa7f436c5d8a0da001107",
+      "raw_sha256_verified": "3e804d66e975fff9c383077ad17fea9d2360acfee68acf9264d29642d37eb20f"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_none",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_none-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 73678,
+      "compressed_sha256": "ba13dfb43715544e39c26bc5dc85c44f6c4f9cc0cf2e5749390b660e0364e5b7",
+      "raw_sha256_verified": "6ee92bd9f800ceb78f4025a0b675ca71b549a017cfe524c3e2bda690f3ae6215"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_strength-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 73805,
+      "compressed_sha256": "160098953aeb95b6303316fe8f4cb513b51a29a566bf8fdd5996baf1633b29db",
+      "raw_sha256_verified": "566070107151bbd976a5d61879689dab2034f0e0da2f4ab0bd59ca41f8fed231"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_strength-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 73131,
+      "compressed_sha256": "2f062aab67344d59fea0b8ef4e60d7bc07907f0bcc565a00da0a3324d3de826e",
+      "raw_sha256_verified": "cfcdbe42cec01ed98617b1968d73b34bc0717cd58db7dc4b6fa48fdf5e1dc175"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_strength-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 73212,
+      "compressed_sha256": "e812f77663b5126c02f1c6bba9ef66f1af1d72b756bfcafefafc93e7b5a40d1a",
+      "raw_sha256_verified": "2a41e3ecdf3c13f9ecbe1dd0385203edaaa6aec9224e1f262ca603a8e1690058"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_endurance-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 74210,
+      "compressed_sha256": "6628fc3d314be83eadeb7c550967eeed50066da68e75002385585f1ec648c68b",
+      "raw_sha256_verified": "c61ad1a873bbbb5611b8644d3dce8fe2ebd2f6230eaa844229301f9361bb1226"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_endurance-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 74160,
+      "compressed_sha256": "fae9c2659ab25b9372d0cba1b6a479fc4e31adf48f751663ecee7819cdbadb05",
+      "raw_sha256_verified": "3ce5d09e704202e3ae1ba2900bdeb999850b888e4073bad4970e80b3f92e2e9b"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_endurance-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 74219,
+      "compressed_sha256": "dda670425f11053857d8c67ebdca60773ab6744f2fb5e81b6dbf08ab26bae0a6",
+      "raw_sha256_verified": "83bbdecb0ded18d4f41dca292a4bcba9863aaa2fb738851a51f776c4c3d01bcb"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_recovery-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 75420,
+      "compressed_sha256": "25cf3bbb67abb7122a6aa24422d08b99e33f5df9a1c3218e02ad790c1e7bb70b",
+      "raw_sha256_verified": "316458b155fceae2de5dd12339b8aa7149c74d39af28200960ff13e251c531a4"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_recovery-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 75201,
+      "compressed_sha256": "53f4f658478515440e5c7fba05fe84d56ef04abe8e47efc89dfdb735e9d93e16",
+      "raw_sha256_verified": "4f1adcc109888bc78d8880be381b335381b286cde8eb083224ba8aa7c31aa47a"
+    },
+    {
+      "job_id": "ablation_S190_skilled_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_skilled_recovery_recovery-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 75314,
+      "compressed_sha256": "a98d5b103937db70eb257feade97bfcf1baa8f7ee20ddddccc1c25d316bf3d4b",
+      "raw_sha256_verified": "a89e1c0bde5304f905d948e4dd10eabe56d76023fc1658a41810f58e09684ddb"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_none-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 66106,
+      "compressed_sha256": "5b82b833706d9644be7dcd90b2cb0b2f7ae785a40e5f433b3960d99ae0bee3e6",
+      "raw_sha256_verified": "0ccc780ec5b938038e8f8a2f95da49932bd263a0a141be2485c93bbf73b53cf7"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_none-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 65653,
+      "compressed_sha256": "89fa2f493225f1904d918f9654147d0f13864cf52de1958a996b8fe15055ee85",
+      "raw_sha256_verified": "44a5231bda585ab494f30a8c47d2dbd30a76b6162cfbaa46000c7ba076e0370e"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_none-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 73361,
+      "compressed_sha256": "b73d34dcde9b7d2e06ab5d3ac8e556a8cc43afac4fbdee586522383068e251aa",
+      "raw_sha256_verified": "e87e6f64bf22234a05a1aad011b32370e6d372962a9207cb1135479ae4b66069"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_strength-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 66050,
+      "compressed_sha256": "33c0876c9a35fc66f15f2d798270f7d404f0f9039be3a257eab1213f4951ca9a",
+      "raw_sha256_verified": "df4e1fe90f0090ac14dacd7ff3b62ddac888b97aa0c82a8b54f5f93850d2448e"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_strength-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 66169,
+      "compressed_sha256": "3c2c084ac0677757412073eaae3370b86171d392bf1284be11ea124a1e93c6db",
+      "raw_sha256_verified": "f404055c8cb2b15144347459cbe0878f6a5b776dedac0a04964d5f94c4ee2d1b"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_strength-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 65463,
+      "compressed_sha256": "6b846ccf06f3ea15fad2dfbedb39acdcc6c0939e23be42fdb2857dace86967be",
+      "raw_sha256_verified": "c546f2b487f57bf828ae7ab917daf43f1500edfdf604fa23581b310c21fa624f"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_endurance-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 64659,
+      "compressed_sha256": "9d9c5711bea98d1979aede96e534f991c9a6341a0ff9b995781b89562e5f8e56",
+      "raw_sha256_verified": "bc1a6c69b4dcdfd5317ed7e947e5de007ba0490342874679bab2fe9f329c9ca2"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_endurance-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 64176,
+      "compressed_sha256": "db33606e6b7c296bf7f571e3af0edcb0ca60b732ac8b84899d08c4b6cb4a6ddc",
+      "raw_sha256_verified": "b576f12626c812fa6ea20a49337f14148bfcfb8c79f668d04e80b2f4910cc3dc"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_endurance-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 64308,
+      "compressed_sha256": "7b80bea896dfcfd27c617e287d52f550ed473a40db2977bb42d2b756f4dda663",
+      "raw_sha256_verified": "24c0fc3ba4c86076d9739fbbd8ef70291103063825384c1b0d6daa0d24272038"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_recovery-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 66106,
+      "compressed_sha256": "5b82b833706d9644be7dcd90b2cb0b2f7ae785a40e5f433b3960d99ae0bee3e6",
+      "raw_sha256_verified": "0ccc780ec5b938038e8f8a2f95da49932bd263a0a141be2485c93bbf73b53cf7"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_recovery-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 65630,
+      "compressed_sha256": "68558d304b0963632f9c05eb95c6abc665f3e779a3fd885e1532c32d23d432c2",
+      "raw_sha256_verified": "c340b33b9cc973979a4ccbc33e8c49c9bdf16d65829062dd7fe24f1861d5ce85"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_regular_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_regular_recovery-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 73770,
+      "compressed_sha256": "59c3fcbcd94b39b7aa88bbca5141c11407c00c8a24a26f594029b38020f0d439",
+      "raw_sha256_verified": "22d97831cf0374cca0b27c0f6bceddd3c57fccfae3a11fd2d2a6547421b00bd4"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_none-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 74516,
+      "compressed_sha256": "61ff17b26b1c7ac2d71d8e586ab13c6630ef0bd23a0af335217889743fb70fdd",
+      "raw_sha256_verified": "0bdeb76b606173ae2cc81afadde54df90c7b4f950e1f499af05dccb43b5b1e08"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_none-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 73497,
+      "compressed_sha256": "d901013b1396676c685a0bb12b69c1a87637569ebc454b99e9875c83f42c8241",
+      "raw_sha256_verified": "5db089c1bed1531eafa07a1bc4717135be093d43e06307cf4ae9ce9efeb0ca70"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_none",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "high30",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_none-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 66529,
+      "compressed_sha256": "b6fb3c09bc2f25f564a6e893263edadd7ab2214fb725781993cf98c872932c86",
+      "raw_sha256_verified": "99fa0c0f2358df120d3c5ed96716aa7d6f3e6a4d513374e5be88be516a16541f"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_strength-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 67261,
+      "compressed_sha256": "18fe2e9e6f4f4fbc015b4d072e5264ef0b6a9db07a45ebbfb61ce33669520be3",
+      "raw_sha256_verified": "d84b45d155f7cfc9599f1a043961d885e9b67816281d23f4cf1347957b9e18c3"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_strength-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 66684,
+      "compressed_sha256": "827a1a0deeb681a13e5636db6dbc71e21defbec74a7e496520ab5808bfd91395",
+      "raw_sha256_verified": "645f8aff65c8f5348b132902f32271e952cb88bc9d50697650094a717a2bed32"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_strength-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 66424,
+      "compressed_sha256": "9bb351610d10af0df6da40d1bdd2c3bd36a4f1da14c557c96cd521c7959355a8",
+      "raw_sha256_verified": "b7bbcba76edf9f8ea82120154fa67c6ece62728d71ff3bfc1302da4f756e5809"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_endurance-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 65790,
+      "compressed_sha256": "6aff24228bdd11cc917abfe3306b15846bb6cabd038c1de3049eeec779ec3a21",
+      "raw_sha256_verified": "cfaff8509b345ac90a0e8c7e3f51d7691811635369b822df2cf93800399184ee"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_endurance-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 65228,
+      "compressed_sha256": "56f828c2d57ca0ca0afc97ab59cce64701e7642d18481f6a5ccb4245f86ffa22",
+      "raw_sha256_verified": "1dd795d9389fc1ba5810acab871a8c05a32b40456e4d7cf80c2e484ed4eb19e3"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_endurance-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 65110,
+      "compressed_sha256": "e92ec0f0d03e84136f1dc1f5a9cd3eb49bc4f0826bf027d4a7103e1cfe782fe1",
+      "raw_sha256_verified": "07f2b8645479773040febe6f864b33d16caeafe67ca63cf782965f6800417b97"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 101,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_recovery-seed101-run1-12f03a0953a7.bin.gz",
+      "steps": 74797,
+      "compressed_sha256": "cbfdfbbc71458e973e5433209d4f4a9ee63245c93044d85580168cf081959815",
+      "raw_sha256_verified": "295eb412b614a85f7d08f05eab1287f4dd3b24da60a81aabfc0affea3670b527"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 202,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_recovery-seed202-run1-12f03a0953a7.bin.gz",
+      "steps": 73855,
+      "compressed_sha256": "8085a6c5deca0dff54411e112285d76fd3c8d9fd2104fb6eedec7bb043ea4f63",
+      "raw_sha256_verified": "bea4fbcff292a5d0947c6cbb20738466bc047638814e2ba119d42458bb705fed"
+    },
+    {
+      "job_id": "ablation_A39_L127_B10_FAST_skilled_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "per_stat_ablation",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "no_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "seed": 303,
+      "run_index": 1,
+      "path": "tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_A39_L127_B10_FAST_skilled_recovery-seed303-run1-12f03a0953a7.bin.gz",
+      "steps": 66348,
+      "compressed_sha256": "1885fbbb9e689ff435309ba184a952b087c6b7616222128bc9a77b407a8a3c4e",
+      "raw_sha256_verified": "90185f569bbcca0798af19f126330deafaa7f267d09f0c446b385cef1292eca7"
+    }
+  ],
+  "embedded_policy_source_checks": [],
+  "semantics": {
+    "missing": "not zero",
+    "campaigns": "independent campaigns; attempts correlated and excluded from single-run completion estimates",
+    "time": "timeouts remain censored; successful completion time conditional on success",
+    "gate_budget": "finite environmental released-recovery time, consumed even at stamina cap; not a character capacity. Recovery episodes include capped intervals. Positive reserve does not prove safe retreat",
+    "physics": "source-derived test instrumentation; instrumentation metadata overrides inherited generic controller description",
+    "proof": "policy failure and finite input search failure never prove physical impossibility",
+    "future_nodes": "140-node eligibility and prestige are design only; measured progression is current actual cumulative XP"
+  }
+}

@@ -1,0 +1,123 @@
+{
+	"cases": 600,
+	"certificates": [
+		{
+			"angle": 39.0,
+			"candidate_id": "A39_L114_B0",
+			"conditional_impossibility": true,
+			"crosszero_and_stiction_ratio": 0.0724316835879416,
+			"drain_multiplier": 1.66,
+			"forward_ratio": 2.63566516064257,
+			"gate": {
+				"angle_degrees": 39.0,
+				"drain_scale": 1.0,
+				"dry": true,
+				"end_m": 864.0,
+				"id": "late_gate",
+				"recovery_min_stamina": 1.0,
+				"recovery_rate": 7.0,
+				"recovery_seconds_budget": 0.0,
+				"slip_decay_scale": 1.0,
+				"slip_gain_scale": 0.6,
+				"start_m": 750.0,
+				"surface": "STONE"
+			},
+			"gate_length": 114.0,
+			"margin": -3.01050750041304,
+			"necessary_work_lower": 237.996254321447,
+			"qmax": 0.0415,
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"ratio": 2.63566516064257,
+			"recovery_upper": 0.0,
+			"requires": "Constant39..45degrees dry STONE, no internal ledge/support/shelf/purchase, fixed ranks, recovery_min_stamina>0, total actual recovery<=budget*existing recovery multiplier. min_stamina=0 invalidates this resource certificate.",
+			"retarding_coefficient": 2.08796117314951,
+			"supply_upper": 234.985746821034,
+			"weighted_resource_upper": 88.5415
+		},
+		{
+			"angle": 39.0,
+			"candidate_id": "A39_L127_B10",
+			"conditional_impossibility": true,
+			"crosszero_and_stiction_ratio": 0.0724316835879416,
+			"drain_multiplier": 1.66,
+			"forward_ratio": 2.63566516064257,
+			"gate": {
+				"angle_degrees": 39.0,
+				"drain_scale": 1.0,
+				"dry": true,
+				"end_m": 877.0,
+				"id": "late_gate",
+				"recovery_min_stamina": 1.0,
+				"recovery_rate": 7.0,
+				"recovery_seconds_budget": 1.42857142857143,
+				"slip_decay_scale": 1.0,
+				"slip_gain_scale": 0.6,
+				"start_m": 750.0,
+				"surface": "STONE"
+			},
+			"gate_length": 127.0,
+			"margin": -3.79735114493099,
+			"necessary_work_lower": 265.139749572391,
+			"qmax": 0.0415,
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"ratio": 2.63566516064257,
+			"recovery_upper": 10.0,
+			"requires": "Constant39..45degrees dry STONE, no internal ledge/support/shelf/purchase, fixed ranks, recovery_min_stamina>0, total actual recovery<=budget*existing recovery multiplier. min_stamina=0 invalidates this resource certificate.",
+			"retarding_coefficient": 2.08796117314951,
+			"supply_upper": 261.34239842746,
+			"weighted_resource_upper": 98.5415
+		},
+		{
+			"angle": 39.0,
+			"candidate_id": "A39_L127_B10_FAST",
+			"conditional_impossibility": true,
+			"crosszero_and_stiction_ratio": 0.0724316835879416,
+			"drain_multiplier": 1.66,
+			"forward_ratio": 2.63566516064257,
+			"gate": {
+				"angle_degrees": 39.0,
+				"drain_scale": 1.0,
+				"dry": true,
+				"end_m": 877.0,
+				"id": "late_gate",
+				"recovery_min_stamina": 1.0,
+				"recovery_rate": 40.0,
+				"recovery_seconds_budget": 0.25,
+				"slip_decay_scale": 1.0,
+				"slip_gain_scale": 0.6,
+				"start_m": 750.0,
+				"surface": "STONE"
+			},
+			"gate_length": 127.0,
+			"margin": -3.79735114493099,
+			"necessary_work_lower": 265.139749572391,
+			"qmax": 0.0415,
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"ratio": 2.63566516064257,
+			"recovery_upper": 10.0,
+			"requires": "Constant39..45degrees dry STONE, no internal ledge/support/shelf/purchase, fixed ranks, recovery_min_stamina>0, total actual recovery<=budget*existing recovery multiplier. min_stamina=0 invalidates this resource certificate.",
+			"retarding_coefficient": 2.08796117314951,
+			"supply_upper": 261.34239842746,
+			"weighted_resource_upper": 98.5415
+		}
+	],
+	"failures": [],
+	"gate_sample_points": 73600,
+	"scope": "Last gate certificate for each exact candidate;100 seeds x2weather each; early250 unchanged; last gate dry constant39..45degrees STONE/grip1/resistance.2; no internal ledge/support/shelf; safe before/after; unchanged ledge requirement. Earlier gates' passability and full route are not established here. Structural finite samples support source inspection, not all seeds enumeration.",
+	"source_config": "res://tests/balance/adjustment_v03/candidates_angle_followup.json",
+	"source_config_sha256": "346e79bf6a0ad5a9dd51cdf544275408bf432fb428baca7a4e4f65aca5d84ab1",
+	"source_config_unchanged": true,
+	"terrain_sha256": "5b1328a982d5a13d13b32dced6fdbb64a7d638e0879b64ae6ff86ef74f99c675"
+}

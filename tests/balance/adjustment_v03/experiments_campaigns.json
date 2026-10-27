@@ -1,0 +1,487 @@
+{
+  "schema_version": 3,
+  "phase": "actual_xp_campaigns",
+  "jobs": [
+    {
+      "id": "campaign_S190_regular_recovery_balanced",
+      "mode": "campaign",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_balanced",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_S190_regular_recovery_strength",
+      "mode": "campaign",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_strength",
+      "strategy": "strength",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_S190_regular_recovery_endurance",
+      "mode": "campaign",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_endurance",
+      "strategy": "endurance",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_S190_regular_recovery_recovery",
+      "mode": "campaign",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_recovery",
+      "strategy": "recovery",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_S190_skilled_recovery_balanced",
+      "mode": "campaign",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_balanced",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_A39_L127_B10_FAST_regular_balanced",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_balanced",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_A39_L127_B10_FAST_regular_strength",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_strength",
+      "strategy": "strength",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_A39_L127_B10_FAST_regular_endurance",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_endurance",
+      "strategy": "endurance",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_A39_L127_B10_FAST_regular_recovery",
+      "mode": "campaign",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_recovery",
+      "strategy": "recovery",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    },
+    {
+      "id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+      "mode": "campaign",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "growth_id": "actual_xp_balanced",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        401,
+        402
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "repeat_campaign",
+      "max_campaign_seconds": 10800,
+      "max_runs": 30
+    }
+  ],
+  "selection_note": "Exploratory20campaigns:4strategies x2seeds representative regular policy ofeachcandidate; skilled balanced x2seeds each. Not100seedcampaign or human duration estimate."
+}

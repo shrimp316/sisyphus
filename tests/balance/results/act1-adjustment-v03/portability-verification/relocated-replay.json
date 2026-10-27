@@ -1,0 +1,23 @@
+{
+	"checked": 2,
+	"failures": 0,
+	"results": [
+		{
+			"job_id": "ablation_S190_regular_recovery_none",
+			"kind": "raw",
+			"match": true,
+			"resolved_trace": "res://tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_none-seed101-run1-12f03a0953a7.bin.gz",
+			"seed": 101.0,
+			"steps": 74249
+		},
+		{
+			"job_id": "ablation_S190_regular_recovery_strength",
+			"kind": "raw",
+			"match": true,
+			"resolved_trace": "res://tests/balance/results/act1-adjustment-v03/ablations/input-traces/ablation_S190_regular_recovery_strength-seed101-run1-12f03a0953a7.bin.gz",
+			"seed": 101.0,
+			"steps": 71427
+		}
+	],
+	"source": "tests/balance/results/act1-adjustment-v03/portability-verification/relocated.jsonl"
+}

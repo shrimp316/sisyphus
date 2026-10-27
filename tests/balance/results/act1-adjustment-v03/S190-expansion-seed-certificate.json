@@ -1,0 +1,55 @@
+{
+	"cases": 200,
+	"certificates": [
+		{
+			"angle": 45.0,
+			"candidate_id": "S190",
+			"conditional_impossibility": true,
+			"crosszero_and_stiction_ratio": 0.0755142634576337,
+			"drain_multiplier": 1.7,
+			"forward_ratio": 2.57364950980392,
+			"gate": {
+				"angle_degrees": 45.0,
+				"drain_scale": 1.0,
+				"dry": true,
+				"end_m": 940.0,
+				"id": "late_gate",
+				"recovery_min_stamina": 1.0,
+				"recovery_rate": 7.0,
+				"recovery_seconds_budget": 11.4285714285714,
+				"slip_decay_scale": 1.0,
+				"slip_gain_scale": 0.6,
+				"start_m": 750.0,
+				"surface": "STONE"
+			},
+			"gate_length": 190.0,
+			"margin": -5.62672296505133,
+			"necessary_work_lower": 441.016045471179,
+			"qmax": 0.0425,
+			"ranks": {
+				"endurance": 0,
+				"recovery": 0,
+				"strength": 0
+			},
+			"ratio": 2.57364950980392,
+			"recovery_upper": 80.0,
+			"requires": "Constant39..45degrees dry STONE, no internal ledge/support/shelf/purchase, fixed ranks, recovery_min_stamina>0, total actual recovery<=budget*existing recovery multiplier. min_stamina=0 invalidates this resource certificate.",
+			"retarding_coefficient": 2.32132034355964,
+			"supply_upper": 435.389322506127,
+			"weighted_resource_upper": 168.5425
+		}
+	],
+	"failures": [],
+	"gate_sample_points": 38000,
+	"scope": "Last gate certificate for each exact candidate;100 seeds x2weather each; early250 unchanged; last gate dry constant39..45degrees STONE/grip1/resistance.2; no internal ledge/support/shelf; safe before/after; unchanged ledge requirement. Earlier gates' passability and full route are not established here. Structural finite samples support source inspection, not all seeds enumeration.",
+	"seed_end": 3100,
+	"seed_start": 3001,
+	"source_config": "res://tests/balance/adjustment_v03/candidates_full_pilot.json",
+	"source_config_sha256": "3561ce666bc51368482a722bd24e08c3d5e4f432b476ad1796c820b06ff68edf",
+	"source_config_unchanged": true,
+	"terrain_sha256": "5b1328a982d5a13d13b32dced6fdbb64a7d638e0879b64ae6ff86ef74f99c675",
+	"weather_conditions": [
+		"clear",
+		"rain"
+	]
+}

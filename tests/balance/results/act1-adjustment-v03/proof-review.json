@@ -1,0 +1,93 @@
+{
+  "status": "conditionally_accepted_source_equation_certificate",
+  "checks": {
+    "resource_boundary_checks": 648,
+    "exact_random_schedules": 120,
+    "random_steps_per_schedule": 2000,
+    "final_push_until_exhausted": true,
+    "observed_single_final_overdraws": 120,
+    "ratio_exact": "1050049/408000",
+    "resource_exact": "67417/400",
+    "supply_upper": 435.3893225061274,
+    "necessary_work_lower": 441.0160454711788,
+    "shortage": 5.6267229650513855,
+    "meaning": "Exact rational corroboration of the shifted-resource proof, not exhaustive floating-point dynamics or human-play evidence"
+  },
+  "arithmetic_extensions": [
+    {
+      "length_m": 255,
+      "recovery_upper": 140,
+      "supply_upper": 589.8082930943627,
+      "necessary_work_lower": 591.9018678025556,
+      "shortage": 2.0935747081928184,
+      "scope": "Same source-equation conditions with min_stamina=1. Arithmetic extension; not a separate geometry or full-route validation."
+    }
+  ],
+  "angle_arithmetic_extensions": [
+    {
+      "angle": 39.0,
+      "length_m": 114.0,
+      "recovery_upper": 0.0,
+      "drain_exact": "83/50",
+      "ratio_exact": "1050049/398400",
+      "supply_upper": 234.98574682103413,
+      "necessary_work_lower": 237.99625432144717,
+      "shortage": 3.0105075004130413
+    },
+    {
+      "angle": 39.0,
+      "length_m": 127.0,
+      "recovery_upper": 10.0,
+      "drain_exact": "83/50",
+      "ratio_exact": "1050049/398400",
+      "supply_upper": 261.34239842745984,
+      "necessary_work_lower": 265.1397495723908,
+      "shortage": 3.7973511449309854
+    },
+    {
+      "angle": 40.0,
+      "length_m": 125.0,
+      "recovery_upper": 10.0,
+      "drain_exact": "17/10",
+      "ratio_exact": "1050049/408000",
+      "supply_upper": 255.23385681985295,
+      "necessary_work_lower": 266.0134281900163,
+      "shortage": 10.779571370163382
+    },
+    {
+      "angle": 45.0,
+      "length_m": 255.0,
+      "recovery_upper": 140.0,
+      "drain_exact": "17/10",
+      "ratio_exact": "1050049/408000",
+      "supply_upper": 589.8082930943627,
+      "necessary_work_lower": 591.9018678025556,
+      "shortage": 2.0935747081928184
+    }
+  ],
+  "observed_gate_metric_checks": {
+    "gate_ledgers": 84,
+    "maximum_seconds_conservation_error": 0.0,
+    "absolute_tolerance": 1e-08,
+    "passed_agrees_with_trial": true
+  },
+  "scope": "190m dry STONE45, no interior shelf/obstacle/support/purchase, 120Hz, original rank mechanics, finite actual recovery<=80 for zero ranks, recovery_min_stamina=1; other candidates need recalculation",
+  "not_proven": [
+    "safe retreat after exhaustion",
+    "human completion time",
+    "all-input impossibility with min_stamina=0",
+    "IEEE formal verification",
+    "grown full route feasibility"
+  ],
+  "sha256": {
+    "tests\\balance\\adjustment_v03\\verify_proof_review.py": "5a0068fd894ffcace9ce2ced42e35abc5347fd29e7f6f396d7481e6a4f25590c",
+    "scripts\\boulder_controller.gd": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+    "tests\\balance\\adjustment_v03\\controller.gd": "3f940f7f1c1e6333f87d1125f54576e7fe98eec8d71c613c752afb4bd07447c3",
+    "tests\\balance\\adjustment_v03\\controller_factory.gd": "91eca87ad75db8c303e7c21c9ad7889e749af489f9fbbf077c16e60ec2d947eb",
+    "tests\\balance\\adjustment_v03\\verify_recovery_bound.gd": "c94f2ad10fc55c691757282ee0c2869e39a19250e2fecbbf035fc5d70f9360d6",
+    "tests\\balance\\adjustment_v03\\recovery-bound-certificate.md": "73406d935dba3ac01ce9123841eb76412ea06534413436cfc9dbd71f031c1573",
+    "tests\\balance\\results\\act1-adjustment-v03\\recovery-bound-search.json": "5a2c63c5558a7f28b4fb0c317b9064c35d762bb99b6cdc89e3c3fdd8b00bbf55",
+    "tests\\balance\\results\\act1-adjustment-v03\\recovery-bound-long-search.json": "c3c373e23ecb5941b0a6cf0462a6171981e467907eff427914c88ee0bb945449",
+    "tests\\balance\\results\\act1-adjustment-v03\\angle-bound-verification.json": "2bb797305e331111c71333329e086519f1aef3720bc508d4c5290350189563b8"
+  }
+}

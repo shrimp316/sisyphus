@@ -1,0 +1,13 @@
+{
+  "resource_boundary_checks": 648,
+  "exact_random_schedules": 120,
+  "random_steps_per_schedule": 2000,
+  "final_push_until_exhausted": true,
+  "observed_single_final_overdraws": 120,
+  "ratio_exact": "1050049/408000",
+  "resource_exact": "67417/400",
+  "supply_upper": 435.3893225061274,
+  "necessary_work_lower": 441.0160454711788,
+  "shortage": 5.6267229650513855,
+  "meaning": "Exact rational corroboration of the shifted-resource proof, not exhaustive floating-point dynamics or human-play evidence"
+}

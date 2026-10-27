@@ -1,0 +1,14 @@
+{
+	"checked": 1,
+	"failures": 0,
+	"results": [
+		{
+			"job_id": "v03_smoke",
+			"kind": "raw",
+			"match": true,
+			"seed": 101.0,
+			"steps": 120
+		}
+	],
+	"source": "tests/balance/results/act1-adjustment-v03/direct-smoke.jsonl"
+}

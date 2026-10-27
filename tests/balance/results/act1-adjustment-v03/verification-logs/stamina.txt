@@ -1,0 +1,127 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS: v1 zero stamina held push cannot push or recover-pulse for eight seconds
+PASS: v1 release exhausted input allows rest recovery
+PASS: v1 recovered stamina permits pushing again
+PASS: v1 small positive stamina can deplete while pushing
+PASS: v1 held input after depletion never replenishes or pulses thrust
+PASS: v1 zero stamina held exert cannot push or recover-pulse for eight seconds
+PASS: v1 release exhausted input allows rest recovery
+PASS: v1 recovered stamina permits pushing again
+PASS: v1 small positive stamina can deplete while pushing
+PASS: v1 held input after depletion never replenishes or pulses thrust
+PASS: v1 maximum progression bonuses do not bypass exhaustion
+PASS: v1 exhaustion preserves existing momentum and passive resistance
+PASS: v1 exhaustion still allows gravity to roll the stone downhill
+PASS: v1 Space plus D and Shift is identical to Space alone including slip recovery
+PASS: v1 Space wins over D and Shift during slip and consumes stamina
+PASS: v1 slipping brace actively slows rollback compared with released controls
+PASS: v1 bracing does not cancel or freeze slip duration
+PASS: v1 stationary bracing holds through slip expiry without generating uphill propulsion
+PASS: v1 held stance keeps draining stamina after stopping
+PASS: v1 zero stamina cannot grant free braking during slip
+PASS: v1 brace stops consuming unavailable effort after depletion
+PASS: v1 brace cannot rescue an already runaway stone
+PASS: v1 triggered slip preserves the existing generation-specific duration
+PASS: v1 held push supplies no thrust throughout slip including expiry substep
+PASS: v1 held push resumes normally after slip expires
+PASS: v1 held Shift push supplies no thrust throughout slip including expiry substep
+PASS: v1 held Shift push resumes normally after slip expires
+PASS: v1 slip lock and automatic held-input resumption agree at 30 and 144 FPS
+PASS: v1 saved energized slip resumes identically with fractional simulation steps
+PASS: v1 saved exhausted slip resumes identically with fractional simulation steps
+PASS: v1 30 and 144 FPS agree across slipping brace, exhausted push, rest and brace
+PASS: v2 zero stamina held push cannot push or recover-pulse for eight seconds
+PASS: v2 release exhausted input allows rest recovery
+PASS: v2 recovered stamina permits pushing again
+PASS: v2 small positive stamina can deplete while pushing
+PASS: v2 held input after depletion never replenishes or pulses thrust
+PASS: v2 zero stamina held exert cannot push or recover-pulse for eight seconds
+PASS: v2 release exhausted input allows rest recovery
+PASS: v2 recovered stamina permits pushing again
+PASS: v2 small positive stamina can deplete while pushing
+PASS: v2 held input after depletion never replenishes or pulses thrust
+PASS: v2 maximum progression bonuses do not bypass exhaustion
+PASS: v2 exhaustion preserves existing momentum and passive resistance
+PASS: v2 exhaustion still allows gravity to roll the stone downhill
+PASS: v2 Space plus D and Shift is identical to Space alone including slip recovery
+PASS: v2 Space wins over D and Shift during slip and consumes stamina
+PASS: v2 slipping brace actively slows rollback compared with released controls
+PASS: v2 bracing does not cancel or freeze slip duration
+PASS: v2 stationary bracing holds through slip expiry without generating uphill propulsion
+PASS: v2 held stance keeps draining stamina after stopping
+PASS: v2 zero stamina cannot grant free braking during slip
+PASS: v2 brace stops consuming unavailable effort after depletion
+PASS: v2 brace cannot rescue an already runaway stone
+PASS: v2 triggered slip preserves the existing generation-specific duration
+PASS: v2 held push supplies no thrust throughout slip including expiry substep
+PASS: v2 held push resumes normally after slip expires
+PASS: v2 held Shift push supplies no thrust throughout slip including expiry substep
+PASS: v2 held Shift push resumes normally after slip expires
+PASS: v2 slip lock and automatic held-input resumption agree at 30 and 144 FPS
+PASS: v2 saved energized slip resumes identically with fractional simulation steps
+PASS: v2 saved exhausted slip resumes identically with fractional simulation steps
+PASS: v2 30 and 144 FPS agree across slipping brace, exhausted push, rest and brace
+PASS: v3 zero stamina held push cannot push or recover-pulse for eight seconds
+PASS: v3 release exhausted input allows rest recovery
+PASS: v3 recovered stamina permits pushing again
+PASS: v3 small positive stamina can deplete while pushing
+PASS: v3 held input after depletion never replenishes or pulses thrust
+PASS: v3 zero stamina held exert cannot push or recover-pulse for eight seconds
+PASS: v3 release exhausted input allows rest recovery
+PASS: v3 recovered stamina permits pushing again
+PASS: v3 small positive stamina can deplete while pushing
+PASS: v3 held input after depletion never replenishes or pulses thrust
+PASS: v3 maximum progression bonuses do not bypass exhaustion
+PASS: v3 exhaustion preserves existing momentum and passive resistance
+PASS: v3 exhaustion still allows gravity to roll the stone downhill
+PASS: v3 Space plus D and Shift is identical to Space alone including slip recovery
+PASS: v3 Space wins over D and Shift during slip and consumes stamina
+PASS: v3 slipping brace actively slows rollback compared with released controls
+PASS: v3 bracing does not cancel or freeze slip duration
+PASS: v3 stationary bracing holds through slip expiry without generating uphill propulsion
+PASS: v3 held stance keeps draining stamina after stopping
+PASS: v3 zero stamina cannot grant free braking during slip
+PASS: v3 brace stops consuming unavailable effort after depletion
+PASS: v3 brace cannot rescue an already runaway stone
+PASS: v3 triggered slip preserves the existing generation-specific duration
+PASS: v3 held push supplies no thrust throughout slip including expiry substep
+PASS: v3 held push resumes normally after slip expires
+PASS: v3 held Shift push supplies no thrust throughout slip including expiry substep
+PASS: v3 held Shift push resumes normally after slip expires
+PASS: v3 slip lock and automatic held-input resumption agree at 30 and 144 FPS
+PASS: v3 saved energized slip resumes identically with fractional simulation steps
+PASS: v3 saved exhausted slip resumes identically with fractional simulation steps
+PASS: v3 30 and 144 FPS agree across slipping brace, exhausted push, rest and brace
+PASS: v4 zero stamina held push cannot push or recover-pulse for eight seconds
+PASS: v4 release exhausted input allows rest recovery
+PASS: v4 recovered stamina permits pushing again
+PASS: v4 small positive stamina can deplete while pushing
+PASS: v4 held input after depletion never replenishes or pulses thrust
+PASS: v4 zero stamina held exert cannot push or recover-pulse for eight seconds
+PASS: v4 release exhausted input allows rest recovery
+PASS: v4 recovered stamina permits pushing again
+PASS: v4 small positive stamina can deplete while pushing
+PASS: v4 held input after depletion never replenishes or pulses thrust
+PASS: v4 maximum progression bonuses do not bypass exhaustion
+PASS: v4 exhaustion preserves existing momentum and passive resistance
+PASS: v4 exhaustion still allows gravity to roll the stone downhill
+PASS: v4 Space plus D and Shift is identical to Space alone including slip recovery
+PASS: v4 Space wins over D and Shift during slip and consumes stamina
+PASS: v4 slipping brace actively slows rollback compared with released controls
+PASS: v4 bracing does not cancel or freeze slip duration
+PASS: v4 stationary bracing holds through slip expiry without generating uphill propulsion
+PASS: v4 held stance keeps draining stamina after stopping
+PASS: v4 zero stamina cannot grant free braking during slip
+PASS: v4 brace stops consuming unavailable effort after depletion
+PASS: v4 brace cannot rescue an already runaway stone
+PASS: v4 triggered slip preserves the existing generation-specific duration
+PASS: v4 held push supplies no thrust throughout slip including expiry substep
+PASS: v4 held push resumes normally after slip expires
+PASS: v4 held Shift push supplies no thrust throughout slip including expiry substep
+PASS: v4 held Shift push resumes normally after slip expires
+PASS: v4 slip lock and automatic held-input resumption agree at 30 and 144 FPS
+PASS: v4 saved energized slip resumes identically with fractional simulation steps
+PASS: v4 saved exhausted slip resumes identically with fractional simulation steps
+PASS: v4 30 and 144 FPS agree across slipping brace, exhausted push, rest and brace
+Stamina/brace: 124 checks, 0 failures

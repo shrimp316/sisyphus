@@ -1,0 +1,206 @@
+{
+	"checks": 39,
+	"factory_manifest": {
+		"appended": "_gate_after_step() telemetry",
+		"generated_artifact": "res://tests/balance/results/act1-adjustment-v03/generated_controller.gd",
+		"generated_sha256": "a4047c1bb68dda89666f6f9277b462851f6d8ff8be05a4ba93357552b0cd1acd",
+		"original_function_sha256": "c9ed8dd410ed0540701fb57bc8b3c543b7e8a1392393a7edc5408cd25a612132",
+		"patches": [
+			[
+				"\tvar old_distance: float = distance",
+				"\t_gate_before_step(dt,push,exert,brace)\n\tvar old_distance: float = distance"
+			],
+			[
+				"\tvar slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))",
+				"\tslip_gain *= gate_scale(\"slip_gain_scale\")\n\tif distance >= 500.0: slip_gain *= float(experiment.get(\"slip_gain_after500_scale\",1.0))\n\tvar slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))"
+			],
+			[
+				"\tslip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)",
+				"\tslip_recovery *= gate_scale(\"slip_decay_scale\")\n\tif not safe and distance >= 750.0: slip_recovery *= float(experiment.get(\"slip_decay_after750_scale\",1.0))\n\tslip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)"
+			],
+			[
+				"\tvar drain_multiplier: float = slope_drain_multiplier(degrees)",
+				"\tvar drain_multiplier: float = slope_drain_multiplier(degrees) * gate_scale(\"drain_scale\")"
+			],
+			[
+				"\t\tvar recovery: float = 10.0 if safe else (7.0 if absf(velocity) < 0.01 else (3.0 if degrees <= 10.0 else 0.0))",
+				"\t\tvar recovery: float = 10.0 if safe else (7.0 if absf(velocity) < 0.01 else (3.0 if degrees <= 10.0 else 0.0))\n\t\tif safe and absf(velocity)>0.05: recovery *= float(experiment.get(\"moving_shelf_recovery_scale\",1.0))\n\t\telif not safe and distance >= float(experiment.get(\"uphill_recovery_after_m\",1000.0)): recovery *= float(experiment.get(\"uphill_recovery_scale\",1.0))"
+			],
+			[
+				"\t\t\tstamina += recovery * recovery_multiplier * dt",
+				"\t\t\tstamina += _gate_recovery_amount(recovery,dt,effort_requested,safe)"
+			]
+		],
+		"preserved": [
+			"integration",
+			"state transitions",
+			"force",
+			"ledge thresholds",
+			"slip threshold/duration",
+			"existing rank effects"
+		],
+		"recovery_semantics": "Test-only finite environmental released-recovery time. Rank-independent seconds quota; eligible time consumed even at stamina cap. Amount=rate*existing recovery_multiplier*eligible_dt clamped by actual missing stamina. No refund on retreat/reentry/stall; fresh run resets quota.",
+		"source": "res://scripts/boulder_controller.gd",
+		"source_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+		"type": "instrumentation"
+	},
+	"failures": 0,
+	"results": [
+		{
+			"name": "inverse scalar patches exactly recover original function bytes",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v-0.1 S0.001",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v-0.1 S20.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v-0.1 S50.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v-0.1 S100.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v0.0005 S0.001",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v0.0005 S20.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v0.0005 S50.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v0.0005 S100.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v0.8 S0.001",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v0.8 S20.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v0.8 S50.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v0.8 S100.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v1.6 S0.001",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v1.6 S20.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v1.6 S50.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity clear v1.6 S100.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v-0.1 S0.001",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v-0.1 S20.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v-0.1 S50.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v-0.1 S100.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v0.0005 S0.001",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v0.0005 S20.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v0.0005 S50.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v0.0005 S100.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v0.8 S0.001",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v0.8 S20.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v0.8 S50.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v0.8 S100.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v1.6 S0.001",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v1.6 S20.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v1.6 S50.0",
+			"passed": true
+		},
+		{
+			"name": "neutral physical parity rain v1.6 S100.0",
+			"passed": true
+		},
+		{
+			"name": "fractional final opportunity consumes only remaining time with existing recovery multiplier",
+			"passed": true
+		},
+		{
+			"name": "partial quota accounting exact",
+			"passed": true
+		},
+		{
+			"name": "snapshot restoration preserves exhausted quota",
+			"passed": true
+		},
+		{
+			"name": "exhausted quota permits no extra released recovery",
+			"passed": true
+		},
+		{
+			"name": "leave/reenter does not refund quota or permit refill",
+			"passed": true
+		},
+		{
+			"name": "30/144FPS held schedule agrees including finite recovery ledger",
+			"passed": true
+		}
+	]
+}

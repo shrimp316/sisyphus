@@ -1,0 +1,6657 @@
+{
+  "schema_version": 3,
+  "phase": "100_distinct_seeds_per_candidate_policy_high30",
+  "selection_note": "High30 robustness only; no claim of100seedspergrowthbuild. Disjoint from101,202,303 pilots. Candidate/policy conditional comparisons; fullsamepolicy crosscandidate comparison remains pilot.",
+  "jobs": [
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3003
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3006
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3009
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3012
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3015
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3018
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3021
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3024
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3027
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3030
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3033
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3036
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3039
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3042
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3045
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3048
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3051
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3054
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3057
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3060
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3063
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3066
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3069
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3072
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3075
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3078
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3081
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3084
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3087
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3090
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3093
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3096
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_regular_recovery",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3099
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3002
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3005
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3008
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3011
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3014
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3017
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3020
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3023
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3026
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3029
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3032
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3035
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3038
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3041
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3044
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3047
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3050
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3053
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3056
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3059
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3062
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3065
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3068
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3071
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3074
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3077
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3080
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3083
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3086
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3089
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3092
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3095
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_S190_skilled_recovery",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "S190",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 940,
+            "angle_degrees": 45,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 11.428571428571429,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 940,
+            "end_m": 950,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3098
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3001
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3004
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3007
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3010
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3013
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3016
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3019
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3022
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3025
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3028
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3031
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3034
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3037
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3040
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3043
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3046
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3049
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3052
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3055
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3058
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3061
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3064
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3067
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3070
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3073
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3076
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3079
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3082
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3085
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3088
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3091
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3094
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3097
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_regular",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3100
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3003
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3006
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3009
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3012
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3015
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3018
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3021
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3024
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3027
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3030
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3033
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3036
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3039
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3042
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3045
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3048
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3051
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3054
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3057
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3060
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3063
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3066
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3069
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3072
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3075
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3078
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3081
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3084
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3087
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3090
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3093
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3096
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    },
+    {
+      "id": "expand_A39_L127_B10_FAST_skilled",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 10,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        3099
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 1800,
+      "experiment_case": "expanded_fixed_growth"
+    }
+  ]
+}

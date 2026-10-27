@@ -1,0 +1,1 @@
+job_id,candidate_id,experiment_case,policy,policy_variant,growth_id,growth_mode,level,strategy,ablation_stat,ablation_reference,purchase_mode,instrumentation_mode,seed,campaign_id,run_index,event_type,seconds,total_xp,level,pending_points

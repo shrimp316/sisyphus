@@ -1,0 +1,7 @@
+{
+	"cases": 400,
+	"failures": [],
+	"gate_sample_points": 89000,
+	"scope": "190m B80 and255m B140 test candidate geometry;100 seeds x2weather each; early250 unchanged; gate dry45STONE/grip1/resistance.2; no internal ledge/support/shelf; safe before/after; unchanged ledge requirement. Structural finite samples support source inspection, not all seeds enumeration.",
+	"terrain_sha256": "5b1328a982d5a13d13b32dced6fdbb64a7d638e0879b64ae6ff86ef74f99c675"
+}

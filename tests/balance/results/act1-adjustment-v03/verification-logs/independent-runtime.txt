@@ -1,0 +1,42 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS inverse scalar patches exactly recover original function bytes
+PASS neutral physical parity clear v-0.1 S0.001
+PASS neutral physical parity clear v-0.1 S20.0
+PASS neutral physical parity clear v-0.1 S50.0
+PASS neutral physical parity clear v-0.1 S100.0
+PASS neutral physical parity clear v0.0005 S0.001
+PASS neutral physical parity clear v0.0005 S20.0
+PASS neutral physical parity clear v0.0005 S50.0
+PASS neutral physical parity clear v0.0005 S100.0
+PASS neutral physical parity clear v0.8 S0.001
+PASS neutral physical parity clear v0.8 S20.0
+PASS neutral physical parity clear v0.8 S50.0
+PASS neutral physical parity clear v0.8 S100.0
+PASS neutral physical parity clear v1.6 S0.001
+PASS neutral physical parity clear v1.6 S20.0
+PASS neutral physical parity clear v1.6 S50.0
+PASS neutral physical parity clear v1.6 S100.0
+PASS neutral physical parity rain v-0.1 S0.001
+PASS neutral physical parity rain v-0.1 S20.0
+PASS neutral physical parity rain v-0.1 S50.0
+PASS neutral physical parity rain v-0.1 S100.0
+PASS neutral physical parity rain v0.0005 S0.001
+PASS neutral physical parity rain v0.0005 S20.0
+PASS neutral physical parity rain v0.0005 S50.0
+PASS neutral physical parity rain v0.0005 S100.0
+PASS neutral physical parity rain v0.8 S0.001
+PASS neutral physical parity rain v0.8 S20.0
+PASS neutral physical parity rain v0.8 S50.0
+PASS neutral physical parity rain v0.8 S100.0
+PASS neutral physical parity rain v1.6 S0.001
+PASS neutral physical parity rain v1.6 S20.0
+PASS neutral physical parity rain v1.6 S50.0
+PASS neutral physical parity rain v1.6 S100.0
+PASS fractional final opportunity consumes only remaining time with existing recovery multiplier
+PASS partial quota accounting exact
+PASS snapshot restoration preserves exhausted quota
+PASS exhausted quota permits no extra released recovery
+PASS leave/reenter does not refund quota or permit refill
+PASS 30/144FPS held schedule agrees including finite recovery ledger
+V03 INDEPENDENT 39 checks, 0 failures

@@ -1,0 +1,21 @@
+{
+	"checked": 2,
+	"failures": 0,
+	"results": [
+		{
+			"job_id": "verify_gate_raw_regular_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 101.0,
+			"steps": 22267
+		},
+		{
+			"job_id": "verify_gate_raw_skilled_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 101.0,
+			"steps": 20276
+		}
+	],
+	"source": "tests/balance/results/act1-adjustment-v03/independent-gate-replay-data/results.jsonl"
+}

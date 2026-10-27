@@ -1,0 +1,54 @@
+{
+  "reviewer_role": "runtime author, independent of proof author; this is proof review, not self-approval of the runtime",
+  "status": "conditionally_accepted_source_equation_certificate",
+  "scope": "G190/B80: continuous 190m dry STONE45, grip1/resistance.2, 120Hz, push drain scale1, no internal shelf/ledge/support/purchase/external forward impulse, fixed ranks, entry S<=capacity and v<=1.8, min stamina1, released recovery rate7 and time quota80/7",
+  "findings": [
+    {
+      "topic": "positive velocity friction",
+      "assessment": "For old v>.001 and no slip, a<=F-(g+r). Semi-implicit H=c*x+positive(v)^2/2 yields deltaH=(a+c)*v_next*dt-(a*dt)^2/2<=F*v_next*dt. Speed clipping only lowers effective acceleration. If new velocity is nonpositive H cannot increase."
+    },
+    {
+      "topic": "crosszero and stiction",
+      "assessment": "The proof correctly avoids using c=g+r as the negative-velocity opposing force. With old v<=.001, g>r and rollback force reduction imply v_next<=.001+F0*dt. Dropping old positive kinetic energy gives the stated R_low bound. Bracing clamps positive outcomes to zero, and slip removes forward momentum, so neither supplies positive H."
+    },
+    {
+      "topic": "tier recovery cycles",
+      "assessment": "E(S)=integral_0^S rho(u+q)du is nondecreasing and 1-Lipschitz. For paid d<=q, every u in [S-d,S] obeys u+q>=S, hence E drop>=rho(S)*d. Repeated crossings of 20% and 50% tiers do not invalidate telescoping. E(C)=.885*C+.35*q is correct for the audited capacities."
+    },
+    {
+      "topic": "final unpaid drain",
+      "assessment": "If S<d<=q=.0425 then rho=.65, leaving at most .65*q unpaid weighted drain. Min stamina1 makes S=0 absorbing while inside the gate, so there is at most one such step after the last lower-boundary entry. The essential condition is strictly positive recovery_min_stamina; min1>=q is sufficient, but that stronger inequality is not needed for this proof. With min0 this certificate is invalid."
+    },
+    {
+      "topic": "quota and cap",
+      "assessment": "Eligible_dt=min(dt,remaining time) handles the last fractional opportunity. Actual increase=min(missing stamina,r*R*eligible_dt); eligible time is consumed even at cap. Therefore total actual recovery<=r*T*R. Retreat/reentry cannot refund the ledger. On a fresh final entry, allowing the full original quota is an overestimate and remains safe."
+    },
+    {
+      "topic": "entry and scope",
+      "assessment": "Subtracting 1.8/120=.015m from the gate length covers the discrete lower-boundary crossing step. Entry kinetic energy<=1.62. The resulting shortage5.626722965051 is positive. This does not certify other drain scales, geometry, wet surfaces, min0, dynamic ranks, safe retreat, human time, or IEEE formal correctness."
+    }
+  ],
+  "counterexample_found": false,
+  "verification_distinction": "The conceptual review above is independent. The exact-rational result below reruns the proof author's existing verification function; it is corroboration, not an independently implemented dynamics model or exhaustive proof.",
+  "rational_rerun": {
+    "resource_boundary_checks": 648,
+    "exact_random_schedules": 120,
+    "random_steps_per_schedule": 2000,
+    "final_push_until_exhausted": true,
+    "observed_single_final_overdraws": 120,
+    "ratio_exact": "1050049/408000",
+    "resource_exact": "67417/400",
+    "supply_upper": 435.3893225061274,
+    "necessary_work_lower": 441.0160454711788,
+    "shortage": 5.6267229650513855,
+    "meaning": "Exact rational corroboration of the shifted-resource proof, not exhaustive floating-point dynamics or human-play evidence"
+  },
+  "source_sha256": {
+    "tests\\balance\\adjustment_v03\\verify_proof_review.py": "fa847adaf69bfbd470ad9f57c099bcd2138f61765220312514290cf2464ab163",
+    "tests\\balance\\adjustment_v03\\verify_recovery_bound.gd": "1591df68399534b416111f4bf4b42f54487982652f06061957fc70f44b5b0d09",
+    "tests\\balance\\adjustment_v03\\recovery-bound-certificate.md": "7cbf4a462eae82aadb6318bd0b449a8fdcca346718451e43fad6c31a3be93036",
+    "tests\\balance\\adjustment_v03\\controller.gd": "3f940f7f1c1e6333f87d1125f54576e7fe98eec8d71c613c752afb4bd07447c3",
+    "tests\\balance\\adjustment_v03\\controller_factory.gd": "91eca87ad75db8c303e7c21c9ad7889e749af489f9fbbf077c16e60ec2d947eb",
+    "scripts\\boulder_controller.gd": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944"
+  }
+}

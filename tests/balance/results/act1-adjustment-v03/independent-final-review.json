@@ -1,0 +1,85 @@
+{
+  "reviewer_lane": "independent verifier; excludes self-approval of authored mathematical proof",
+  "verdict": "Publication approved for test-only tools, raw data and report; not approval to apply gameplay candidate",
+  "reviewed_at_utc": "2026-10-27T04:15:33.479549+00:00",
+  "sources_sha256": {
+    "tests/balance/adjustment_v03/replay.gd": "ecc43ffe74bc2fa34061ffcf39d22dfe291214a2a506e5b3d065f92122422b6c",
+    "tests/balance/adjustment_v03/analyze.py": "c4144433e380d356cba322dd9a68e17b15c0ae2592866a1635c872f7de40de4b",
+    "tests/balance/adjustment_v03/test_analyze.py": "3c2f95925947179bae93b5c19d1a5b208ffb2f0521423bbbc0e2a6eaa3317eca",
+    "tests/balance/adjustment_v03/verify_campaigns.py": "cca7d6b07f3a3197054e51320aeb990007ba996acf508c292d60cd588456e50a",
+    "tests/balance/adjustment_v03/verify_campaign_replay.gd": "d84acfeee76419a90e91374ac25154c225e7fe1d6041fd4490625fc2aad9a52e"
+  },
+  "summary_at_review_sha256": "91c976081e535880b8028e6c6c7708d91cd04049217c656798af181c87a03d23",
+  "required_editorial_followup": "Summary new analyzer regression count must say15 rather than14; purchase guard has194 invocation times covering195 purchase records. Minor float-half rounding88.345min may be rendered88.35 by consistent half-up rounding.",
+  "portable_replay": {
+    "relocated_raw_replays": 2,
+    "unsafe_path_rejections": 3,
+    "raw_sha_and_step_checks_retained": true,
+    "current_artifact_tree_has_no_reparse_points": true,
+    "note": "Godot resolver uses constrained lexical suffix mapping; Python additionally resolves paths. This review concerns the ordinary archived checkout, not an adversarial filesystem replacing internal directories with junctions."
+  },
+  "python_analysis_tests": {
+    "run": 15,
+    "failed": 0
+  },
+  "protected_file_hash_checks": {
+    "checked": 264,
+    "mismatched": 0
+  },
+  "summary_local_links": {
+    "checked": 27,
+    "missing": 0
+  },
+  "campaign_audit": {
+    "campaigns": 20,
+    "attempts": 224,
+    "assertions": 5476,
+    "natural_fall_restarts": 204,
+    "purchase_records": 460,
+    "raw_hash_step_command_checks": 224,
+    "failures": 0
+  },
+  "selected_raw_replay": {
+    "replays": 60,
+    "failed": 0,
+    "purchase_invocation_guard_checks": 194,
+    "purchase_records_matched_to_original": 195,
+    "note": "In-flight replay used archived pre-portability script dcb5a788efb851712ccb9e795d9b27c61600da12e27f9382424ef1191538eb86; see campaign-replay-source-version.json."
+  },
+  "raw_phase_counts": {
+    "factors-pilot": 444,
+    "angle-fixtures": 270,
+    "full-pilot": 282,
+    "angle-full": 270,
+    "ablations": 48,
+    "campaigns": 224,
+    "expanded": 400,
+    "total_runs": 1938,
+    "fixtures": 714,
+    "full_routes": 1224,
+    "fixed_growth_full_routes": 1000
+  },
+  "full_pilot_independent_mean_peak_m": {
+    "S190": 913.9023058756645,
+    "S255": 854.8644599880333,
+    "D255": 853.8091315669093
+  },
+  "expanded_successes_per100": {
+    "S190_regular_recovery": 96,
+    "S190_skilled_recovery": 100,
+    "A39_L127_B10_FAST_regular": 51,
+    "A39_L127_B10_FAST_skilled": 57
+  },
+  "interpretation_review": [
+    "Conditional zero-rank energy/resource certificate applies only to tested constrained gates.",
+    "Finite first-attempt/policy failure is not all-input impossibility after upgrades.",
+    "Fixture successes, full routes and actual XP campaigns are separate.",
+    "Only4of20 observed campaigns fall within120to180minutes; human learning time and future140-node economy remain untested.",
+    "Campaign gate-entry ranks use cumulative run offsets and purchase timestamps, not terminal ranks.",
+    "Separate analyst and executor reviewed the verifier-authored proof; this report review does not self-approve that proof."
+  ],
+  "final_summary_sha256": "c599fd1a0e3249541ceaab4431d2d8d750ad281d29b0320bf0e81055a6ace943",
+  "editorial_followup_fulfilled": true,
+  "final_editorial_confirmation_utc": "2026-10-27T04:16:15.977060+00:00",
+  "final_review_note": "All requested editorial follow-ups confirmed:15 analyzer tests,194 purchase moments covering195 records, and88.34-minute table rounding. No outstanding publication issues within the already stated test-only scope. Tests were not repeated for these editorial changes."
+}

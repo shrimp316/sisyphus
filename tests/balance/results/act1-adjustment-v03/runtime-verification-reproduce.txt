@@ -1,0 +1,9 @@
+Run from repository root, Godot 4.5.1:
+& .tools/godot/Godot_v4.5.1-stable_win64_console.exe --headless --path . --script tests/balance/adjustment_v03/verify_runtime.gd
+python tests/balance/adjustment_v03/audit_preserved_sources.py
+python tests/balance/adjustment_v03/record_independent_proof_review.py
+
+runtime-verification.json: 514 checks / 0 failures.
+runtime-verification.log.txt: captured engine/stdout/stderr from re-execution.
+preserved-source-audit.json: 99 recorded source/data/evidence/CSV hash comparisons / 0 differences.
+No production/v0.2 file is written by this review. The source audit covers recorded manifest paths, not unrelated user UI/design/untracked files.

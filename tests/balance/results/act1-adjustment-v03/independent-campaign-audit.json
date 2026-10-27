@@ -1,0 +1,5304 @@
+{
+  "input": "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\balance\\results\\act1-adjustment-v03\\campaigns\\results.jsonl",
+  "input_sha256": "350eb34b3eb937c5e39b272d25c0666428a9cfb6c7686c234ba32885f742ac31",
+  "campaigns": 20,
+  "attempts": 224,
+  "counts": {
+    "assertions": 5476,
+    "natural_fall_then_retry": 204,
+    "purchases": 460,
+    "raw_inputs": 224
+  },
+  "failures": [],
+  "summaries": [
+    {
+      "campaign_id": "campaign_S190_regular_recovery_balanced:401",
+      "attempts": 13,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 147.014235379134,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 2,
+        "recovery": 1,
+        "strength": 2
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022629072285,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00070699349,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.003633477236,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.000150207476,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.002977437102,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.013283306886,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.013189856583,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.004295213933,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.006947612061,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.006986692852,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.001750809076,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.002278396386,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.012225555321,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.010588513814,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.014211201276,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.009012649141,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.000465838053,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 459.999999999746,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1035.374999999387,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1612.224999999027,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2192.89166666533,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2775.0583333316313,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3361.524999997929,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3951.2166666642242,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4541.183333330518,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5133.849999996811,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5738.741666663091,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6340.099999996042,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6943.1833333289915,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 13,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 7546.233333328607,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 9
+          },
+          "end_ranks": {
+            "endurance": 9,
+            "recovery": 8,
+            "strength": 9
+          }
+        }
+      ],
+      "success_seconds": 7713.46666666179
+    },
+    {
+      "campaign_id": "campaign_S190_regular_recovery_strength:401",
+      "attempts": 9,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 147.014235379134,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 0,
+        "recovery": 0,
+        "strength": 5
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022629072285,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00070699349,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.003633477236,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.000150207476,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.002977437102,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.010773230713,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.006154525824,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.009310071023,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.013187901642,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.003713688141,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.006046152677,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.002999370866,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.002964277037,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.004320091573,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.010058273826,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.006915992799,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.003550877653,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 459.716666666413,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1041.583333332714,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1628.458333332345,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2212.091666665312,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2798.9749999982764,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3391.1749999979024,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3980.983333330863,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4575.533333330487,
+          "entry_ranks": {
+            "endurance": 9,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 9,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 5167.516666663446,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 1,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 5335.64999999663
+    },
+    {
+      "campaign_id": "campaign_S190_regular_recovery_endurance:401",
+      "attempts": 9,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 147.014235379134,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 5,
+        "recovery": 0,
+        "strength": 0
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022629072285,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00070699349,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.008481163954,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.001130743638,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.001769664422,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.011258062601,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.014502382689,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.005122256804,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.01295566163,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.00641834546,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.01275023878,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.001887006304,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.003539143447,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.014032752842,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.007818950721,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.013524237472,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.004725359187,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 460.491666666412,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1039.2916666660499,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1619.12499999902,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2198.449999998658,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2775.016666664964,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3360.433333331263,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3947.691666664226,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4539.108333330519,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 9
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 9
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 5130.5499999968115,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 1,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 5300.06666666333
+    },
+    {
+      "campaign_id": "campaign_S190_regular_recovery_recovery:401",
+      "attempts": 9,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 147.014235379134,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 0,
+        "recovery": 5,
+        "strength": 0
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022629072285,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00070699349,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.008481163954,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.001130743638,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.001769664422,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.011258062601,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.014502382689,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.005122256804,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.01295566163,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.00641834546,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.01275023878,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.001887006304,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.003539143447,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.014032752842,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.007818950721,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.013524237472,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.009367316099,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 460.491666666412,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1039.383333332717,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 8,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 8,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1617.249999999023,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2195.5999999986607,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2773.7333333316324,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3360.2583333312637,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3950.3833333308917,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4543.44166666385,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 9
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 9
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 5133.099999996812,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 1,
+            "recovery": 10,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 5300.69999999666
+    },
+    {
+      "campaign_id": "campaign_S190_skilled_recovery_balanced:401",
+      "attempts": 10,
+      "first_status": "fall",
+      "first_fall_xp": 540,
+      "first_purchase_distance": 147.472036230344,
+      "first_attempt_purchases_before_gate": 4,
+      "first_entry_ranks": {
+        "endurance": 1,
+        "recovery": 1,
+        "strength": 2
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0001740354936,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.006953975687,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.006320931471,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.000635010492,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.008759764715,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.005986485552,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.006383894558,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.005033269095,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.007353806213,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.002145472841,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.010757676652,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.001891111402,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.010570787919,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.007210719449,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.001994181874,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.00721164671,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.008695305077,
+          "total_xp": 510
+        },
+        {
+          "peak_m": 900.005093357768,
+          "total_xp": 540
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 462.208333333077,
+          "entry_ranks": {
+            "endurance": 1,
+            "recovery": 1,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 1,
+            "recovery": 1,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1059.849999999365,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1659.824999998983,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2262.3249999986,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2865.916666664882,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3472.933333331161,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4075.849999997444,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4680.591666663726,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5287.533333330005,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 5894.79166666295,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          }
+        }
+      ],
+      "success_seconds": 6062.17499999613
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_balanced:401",
+      "attempts": 13,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 147.014235379134,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 2,
+        "recovery": 1,
+        "strength": 2
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022629072285,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00070699349,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.004247017642,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.000194303437,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.000349491849,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.002910308019,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.008169907682,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.000067648365,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.000399912307,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.011325555599,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.005463453831,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.003241041141,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.006559156876,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.007469493973,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.011092181434,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.009017845768,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.003897940032,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 460.741666666412,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1009.77499999941,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1557.60833333241,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2099.1333333320817,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2643.166666665085,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3194.2999999980807,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3743.391666664412,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4294.6499999974085,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4839.933333330411,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5390.558333330075,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5946.983333329733,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6500.716666662727,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 13,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 7054.758333329055,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 9
+          }
+        }
+      ],
+      "success_seconds": 7211.83333332891
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_strength:401",
+      "attempts": 10,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 147.014235379134,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 0,
+        "recovery": 0,
+        "strength": 5
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022629072285,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00070699349,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.004247017642,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.000194303437,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.000349491849,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.000658177201,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.006030870774,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.009339617362,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.004007307693,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.006756098359,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.002155342281,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.003040560309,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.014394025354,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.004463845167,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.012570374642,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.002281373787,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.001420202222,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 460.516666666412,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1009.091666666078,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1554.466666665747,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2090.8999999987573,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2633.7249999984274,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3179.633333331429,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3725.6749999977633,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4275.941666664095,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4819.458333330431,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 5373.366666663424,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 1,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 1,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 5532.84999999661
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_endurance:401",
+      "attempts": 9,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 147.014235379134,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 5,
+        "recovery": 0,
+        "strength": 0
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022629072285,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00070699349,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.002707372787,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.002509730249,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.001383176679,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.000588819442,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.009624357329,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.006388140105,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.00446333238,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.00582309003,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.009557237531,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.003569005055,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.008936263471,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.012854536723,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.008139442682,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.007876331552,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.000292534575,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.608333333076,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1016.424999999404,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1569.0999999990659,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2116.366666665399,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2668.4999999983947,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3224.491666664721,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3778.283333331048,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4331.891666664042,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 4879.266666663709,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 5041.56666666356
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_recovery:401",
+      "attempts": 17,
+      "first_status": "fall",
+      "first_fall_xp": 480,
+      "first_purchase_distance": 147.014235379134,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 0,
+        "recovery": 5,
+        "strength": 0
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022629072285,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00070699349,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.002707372787,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.002509730249,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.001383176679,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.00842752624,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.010884330092,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.002102745873,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.004368849882,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.00400070038,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.001704779311,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.002549880168,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.012280046938,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.009160211626,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.002946409504,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.013465974699,
+          "total_xp": 480
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 461.016666666412,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1009.124999999411,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 8,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 8,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1554.5249999990788,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2090.533333332089,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2631.533333331762,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3176.049999998098,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3720.416666664434,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4264.366666664104,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4801.158333330447,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 9
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 9
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5338.924999996789,
+          "entry_ranks": {
+            "endurance": 1,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 1,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5887.166666663121,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6433.924999996121,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 13,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6978.6916666624575,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 14,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 7530.624999995453,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 15,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 8079.024999995119,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 16,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 8620.891666661457,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 17,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 9159.224999994465,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 9,
+            "recovery": 10,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 9321.29999999432
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_skilled_balanced:401",
+      "attempts": 12,
+      "first_status": "fall",
+      "first_fall_xp": 480,
+      "first_purchase_distance": 147.430349615171,
+      "first_attempt_purchases_before_gate": 4,
+      "first_entry_ranks": {
+        "endurance": 1,
+        "recovery": 1,
+        "strength": 2
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0012706422606,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.010267360515,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.006258915998,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.00119799502,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.000143506033,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.003590224441,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.006971786481,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.009796134976,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.000100825127,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.001059158422,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.011862663016,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.004178434474,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.008179581325,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.00178873446,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.005103145495,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.002814400971,
+          "total_xp": 480
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 461.983333333078,
+          "entry_ranks": {
+            "endurance": 1,
+            "recovery": 1,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 1,
+            "recovery": 1,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1007.5499999994131,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1553.3749999990798,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2100.016666665415,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2642.849999998419,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3192.924999998082,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3738.966666664417,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4295.108333330742,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4841.383333330409,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5394.899999996737,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5951.299999996397,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 6503.699999996059,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          }
+        }
+      ],
+      "success_seconds": 6667.00833332924
+    },
+    {
+      "campaign_id": "campaign_S190_regular_recovery_balanced:402",
+      "attempts": 12,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 197.517124725266,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 2,
+        "recovery": 1,
+        "strength": 2
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0040090013012,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.003833410912,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.001548976329,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.010187566661,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.002910308019,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.01179806569,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.009588160476,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.002965407196,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.001815831599,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.002569712059,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.004373829462,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.006153248392,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.004234949162,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.000636431651,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.006094284187,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.013197148351,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.001576091378,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.633333333076,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1030.599999999392,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1591.591666665712,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2173.858333332014,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2759.658333331646,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3343.9583333312794,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3930.6916666642433,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4522.599999997203,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5120.59166666349,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5715.824999996446,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6314.074999996066,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 6918.033333329015,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          }
+        }
+      ],
+      "success_seconds": 7085.00833332886
+    },
+    {
+      "campaign_id": "campaign_S190_regular_recovery_strength:402",
+      "attempts": 12,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 197.517124725266,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 0,
+        "recovery": 0,
+        "strength": 5
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0040090013012,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.003833410912,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.001548976329,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.010187566661,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.002910308019,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.009480677148,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.004257981477,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.001104977522,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.00225451542,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.002640259191,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.007824927133,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.00968628969,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.001379546749,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.003388254781,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.006556440307,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.002680022665,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.001271891483,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.591666666409,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1036.141666666053,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1608.49999999903,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2194.358333331995,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2778.116666664962,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3363.9666666645926,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3958.0166666642167,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4553.1749999971735,
+          "entry_ranks": {
+            "endurance": 9,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 9,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5149.599999996795,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5745.924999996417,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 2,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 2,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6345.9166666627025,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 3,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 3,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 6950.099999995652,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 4,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 5,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 7116.86666666217
+    },
+    {
+      "campaign_id": "campaign_S190_regular_recovery_endurance:402",
+      "attempts": 12,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 197.517124725266,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 5,
+        "recovery": 0,
+        "strength": 0
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0040090013012,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.003833410912,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.001548976329,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.000368573359,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.000588819441,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.011098298374,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.010615458514,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.004712660906,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.001860644771,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.003361175963,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.012173379705,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.003683916534,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.003927675119,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.003445962299,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.007384515825,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.006861237036,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.005401002557,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.949999999742,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1034.591666666055,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1600.7333333323709,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2179.241666665343,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2755.316666664983,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3337.616666664619,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3922.5999999975847,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4515.799999997209,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 9
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 9
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5112.249999996831,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5708.574999996453,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 1,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 1,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6306.999999996073,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 3,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 3,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 6911.183333329022,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 4,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 4,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 7077.94999999553
+    },
+    {
+      "campaign_id": "campaign_S190_regular_recovery_recovery:402",
+      "attempts": 11,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 197.517124725266,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 0,
+        "recovery": 5,
+        "strength": 0
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0040090013012,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.003833410912,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.001548976329,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.000368573359,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.000785346941,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.011294825874,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.010811986014,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.007570785628,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.001431026438,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.005440612723,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.013372091824,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.002283887706,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.002676106037,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.002793531327,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.006732084853,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.004698777466,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.004046590905,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.949999999742,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1034.049999999389,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 8,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 8,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1599.166666665705,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2177.799999998677,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2754.23333333165,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3337.591666664618,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3927.883333330912,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4522.2916666638675,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 9
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 9
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5116.791666663492,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5712.308333329781,
+          "entry_ranks": {
+            "endurance": 1,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 1,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 6308.5999999960695,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 10,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 6473.74166666259
+    },
+    {
+      "campaign_id": "campaign_S190_skilled_recovery_balanced:402",
+      "attempts": 10,
+      "first_status": "fall",
+      "first_fall_xp": 540,
+      "first_purchase_distance": 197.379988358572,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 2,
+        "recovery": 1,
+        "strength": 2
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0022952892091,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.00306229127,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.002128845945,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.005796210845,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.012883656078,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.001263194577,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.012444004968,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.007787165569,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.000971902324,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.010293523357,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.014886872117,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.002396744507,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.011916517942,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.008782642384,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.01418060116,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.012616847911,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.002705780382,
+          "total_xp": 510
+        },
+        {
+          "peak_m": 900.004989089207,
+          "total_xp": 540
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 462.008333333077,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1065.32499999936,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1665.808333332312,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2269.258333331927,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2876.966666664872,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3486.0916666644816,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4088.541666664098,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4697.391666663709,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5304.916666663321,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 5912.333333329599,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          }
+        }
+      ],
+      "success_seconds": 6080.78333332945
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_balanced:402",
+      "attempts": 12,
+      "first_status": "fall",
+      "first_fall_xp": 480,
+      "first_purchase_distance": 197.659894045044,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 2,
+        "recovery": 1,
+        "strength": 2
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0040090013012,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.003833410912,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.001548976329,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.008309936404,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.009505246024,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.003393003695,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.006536148447,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.002439146903,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.00042741077,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.004774961408,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.002505674362,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.001330209959,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.001719659812,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.009957430172,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.000415282708,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.009725358323,
+          "total_xp": 480
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.624999999743,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1001.6666666660849,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1536.266666665762,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2083.924999998762,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2629.39999999843,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3182.883333331425,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3732.924999997756,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4281.041666664088,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4830.508333330419,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5381.883333330081,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5929.599999996414,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 6483.483333329408,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          }
+        }
+      ],
+      "success_seconds": 6650.30833332926
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_strength:402",
+      "attempts": 9,
+      "first_status": "fall",
+      "first_fall_xp": 510,
+      "first_purchase_distance": 197.659894045044,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 0,
+        "recovery": 0,
+        "strength": 5
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0040090013012,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.003833410912,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.001548976329,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.008309936404,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.009505246024,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.001075615153,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.005844317944,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.000784283433,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.000949914749,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.005961928795,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.011146596737,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.00036520096,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.011928448987,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.011305627221,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.006861566218,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.009098436237,
+          "total_xp": 480
+        },
+        {
+          "peak_m": 850.00195069266,
+          "total_xp": 510
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.408333333076,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1002.8416666660839,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1533.966666665765,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2076.941666665435,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2620.724999998438,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3168.8583333314377,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3718.741666664436,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4264.291666664103,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 4814.308333330435,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 4976.72499999695
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_endurance:402",
+      "attempts": 8,
+      "first_status": "fall",
+      "first_fall_xp": 480,
+      "first_purchase_distance": 197.659894045044,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 5,
+        "recovery": 0,
+        "strength": 0
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0040090013012,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.003833410912,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.001548976329,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.007350376901,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.009997393865,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.005506872798,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.004236516701,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.00691194826,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.000463082811,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.010339148845,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.003628945044,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.005991495761,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.011343012287,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.00714469716,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.011083250686,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.008122193136,
+          "total_xp": 480
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.674999999743,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1005.658333332747,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1543.091666665756,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2098.016666665416,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2649.1416666650794,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3201.7166666647413,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3754.5916666644025,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 4307.241666664065,
+          "entry_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 9
+          }
+        }
+      ],
+      "success_seconds": 4461.39166666392
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_recovery:402",
+      "attempts": 17,
+      "first_status": "fall",
+      "first_fall_xp": 480,
+      "first_purchase_distance": 197.659894045044,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 0,
+        "recovery": 5,
+        "strength": 0
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0040090013012,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.003833410912,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.001548976329,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.007350376901,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.009997393865,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.005506872798,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.004236516701,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.00691194826,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.000463082811,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.010339148845,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.003628945044,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.005991495761,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.011343012287,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.00714469716,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.011083250686,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.008122193136,
+          "total_xp": 480
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 463.674999999743,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1001.766666666084,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 8,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 8,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1533.566666665765,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 0
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 0
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2075.216666665437,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2616.633333331776,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3160.424999998112,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3702.099999997784,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4239.599999997459,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 8
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 8
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4780.716666663799,
+          "entry_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 9
+          },
+          "end_ranks": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 9
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5322.9249999968015,
+          "entry_ranks": {
+            "endurance": 1,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 1,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 5858.608333329812,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6406.474999996145,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 13,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 6951.649999995814,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 14,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 7486.741666662158,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 15,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 8035.924999995156,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 16,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 8585.149999994823,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 10,
+            "strength": 10
+          }
+        },
+        {
+          "run_index": 17,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 9128.741666661159,
+          "entry_ranks": {
+            "endurance": 8,
+            "recovery": 10,
+            "strength": 10
+          },
+          "end_ranks": {
+            "endurance": 8,
+            "recovery": 10,
+            "strength": 10
+          }
+        }
+      ],
+      "success_seconds": 9287.75833332768
+    },
+    {
+      "campaign_id": "campaign_A39_L127_B10_FAST_skilled_balanced:402",
+      "attempts": 10,
+      "first_status": "fall",
+      "first_fall_xp": 480,
+      "first_purchase_distance": 197.320497819046,
+      "first_attempt_purchases_before_gate": 5,
+      "first_entry_ranks": {
+        "endurance": 2,
+        "recovery": 1,
+        "strength": 2
+      },
+      "first_attempt_xp_events": [
+        {
+          "peak_m": 50.0003018658595,
+          "total_xp": 30
+        },
+        {
+          "peak_m": 100.001918947893,
+          "total_xp": 60
+        },
+        {
+          "peak_m": 150.0014919609,
+          "total_xp": 90
+        },
+        {
+          "peak_m": 200.009289824353,
+          "total_xp": 120
+        },
+        {
+          "peak_m": 250.003233165216,
+          "total_xp": 150
+        },
+        {
+          "peak_m": 300.00831208184,
+          "total_xp": 180
+        },
+        {
+          "peak_m": 350.001294183139,
+          "total_xp": 210
+        },
+        {
+          "peak_m": 400.000812317699,
+          "total_xp": 240
+        },
+        {
+          "peak_m": 450.001497054453,
+          "total_xp": 270
+        },
+        {
+          "peak_m": 500.003924363328,
+          "total_xp": 300
+        },
+        {
+          "peak_m": 550.013143459667,
+          "total_xp": 330
+        },
+        {
+          "peak_m": 600.000653332057,
+          "total_xp": 360
+        },
+        {
+          "peak_m": 650.006747572573,
+          "total_xp": 390
+        },
+        {
+          "peak_m": 700.006793962429,
+          "total_xp": 420
+        },
+        {
+          "peak_m": 750.000657150372,
+          "total_xp": 450
+        },
+        {
+          "peak_m": 800.004203736444,
+          "total_xp": 480
+        }
+      ],
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 462.649999999744,
+          "entry_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "end_ranks": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          }
+        },
+        {
+          "run_index": 2,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1008.608333332744,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 2,
+            "strength": 3
+          }
+        },
+        {
+          "run_index": 3,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 1556.449999999077,
+          "entry_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 3,
+            "recovery": 3,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 4,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2107.324999998741,
+          "entry_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          },
+          "end_ranks": {
+            "endurance": 4,
+            "recovery": 4,
+            "strength": 4
+          }
+        },
+        {
+          "run_index": 5,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 2660.4416666650677,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 4,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 6,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3215.291666664728,
+          "entry_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          },
+          "end_ranks": {
+            "endurance": 5,
+            "recovery": 5,
+            "strength": 5
+          }
+        },
+        {
+          "run_index": 7,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 3760.499999997729,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 5,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4318.758333330718,
+          "entry_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          },
+          "end_ranks": {
+            "endurance": 6,
+            "recovery": 6,
+            "strength": 6
+          }
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "passed": false,
+          "absolute_entry_seconds": 4871.374999997048,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 6,
+            "strength": 7
+          }
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "passed": true,
+          "absolute_entry_seconds": 5420.791666663378,
+          "entry_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          },
+          "end_ranks": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          }
+        }
+      ],
+      "success_seconds": 5588.52499999656
+    }
+  ],
+  "scope": "Observed first-attempt failure is not proof that every upgraded first-attempt input fails. Purchases are checked against actual geometry/XP timestamps; stationary/climbing guard is enforced in unchanged purchase source and separately checked during selected raw replay. Gate-entry ranks are derived using cumulative run offsets, not campaign terminal ranks."
+}

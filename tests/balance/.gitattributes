@@ -5,3 +5,6 @@
 /results/act1-adjustment-v02/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 # This hashed generated artifact retains the source extraction's terminal newline.
 /results/act1-adjustment-v02/generated_controller.gd whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+/adjustment_v03/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/results/act1-adjustment-v03/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/results/act1-adjustment-v03/generated_controller.gd whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
