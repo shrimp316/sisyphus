@@ -1,0 +1,143 @@
+diff --git a/scripts/main.gd b/scripts/main.gd
+index 66681c7..55cbadc 100644
+--- a/scripts/main.gd
++++ b/scripts/main.gd
+@@ -30,6 +30,9 @@ var path: Path2D
+ const KOREAN_FONT: Font = preload("res://assets/fonts/NotoSansKR.ttf")
+ const Typography = preload("res://scripts/mvp/typography.gd")
+ var font: Font
++var menu_font: Font
++var title_font: Font
++var narrative_font: Font
+ var camera_position: Vector2 = Vector2.ZERO
+ var zoom: float = 1.0
+ var clock_time: float = 0.0
+@@ -74,6 +77,9 @@ func _ready() -> void:
+ 	# Canvas-drawn text cannot inherit a Control theme. Use the bundled HUD
+ 	# variation on both desktop and Web, with an explicit bundled fallback.
+ 	font = Typography.load_font()
++	menu_font = Typography.load_font("res://ui/themes/typography/menu.tres")
++	title_font = Typography.load_font("res://ui/themes/typography/title.tres")
++	narrative_font = Typography.load_font("res://ui/themes/typography/narrative.tres")
+ 	path = Path2D.new()
+ 	path.name = "MountainPath"
+ 	add_child(path)
+@@ -526,16 +532,19 @@ func _world(point: Vector2) -> Vector2:
+ 	var size: Vector2 = get_viewport_rect().size
+ 	return (point - camera_position) * zoom + Vector2(size.x * 0.36, size.y * 0.67) + camera_shake
+ 
+-func _text(text: String, point: Vector2, size: int = 16, color: Color = INK) -> void:
+-	draw_string(font, point, text, HORIZONTAL_ALIGNMENT_LEFT, -1.0, _ui_font_size(size), color)
++func _text(text: String, point: Vector2, size: int = 16, color: Color = INK, face: Font = null) -> void:
++	draw_string(font if face == null else face, point, text, HORIZONTAL_ALIGNMENT_LEFT, -1.0, _ui_font_size(size), color)
+ 
+ func _ui_font_size(size: int) -> int:
+ 	# Preserve readable type when the 1920 canvas is shown in a 1280 window.
+ 	return maxi(20, roundi(float(size) * 1.25))
+ 
+-func _center(text: String, y: float, size: int, color: Color = INK) -> void:
+-	var width: float = font.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1.0, _ui_font_size(size)).x
+-	_text(text, Vector2((get_viewport_rect().size.x - width) * 0.5, y), size, color)
++func _text_width(text: String, size: int, face: Font = null) -> float:
++	return (font if face == null else face).get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1.0, _ui_font_size(size)).x
++
++func _center(text: String, y: float, size: int, color: Color = INK, face: Font = null) -> void:
++	var width: float = _text_width(text, size, face)
++	_text(text, Vector2((get_viewport_rect().size.x - width) * 0.5, y), size, color, face)
+ 
+ func standard_hud_visible() -> bool:
+ 	return screen == "game" and boulder.state not in ["summit", "runaway"]
+@@ -945,9 +954,9 @@ func _draw_upgrade_choice(size: Vector2) -> void:
+ 	buttons.clear()
+ 	draw_rect(Rect2(Vector2.ZERO, size), Color(0.025, 0.045, 0.06, 0.89))
+ 	var top: float = (size.y - 470.0) * 0.5
+-	_center("이번 등반이 남긴 힘", top + 42.0, 30, GOLD)
+-	_center("레벨 %d · 남은 강화 %d회" % [progression.level(), progression.pending_points()], top + 80.0, 17, INK)
+-	_center("하나를 선택하세요. 이 힘은 추락해도 남습니다.", top + 113.0, 15, MUTED)
++	_center("이번 등반이 남긴 힘", top + 42.0, 30, GOLD, title_font)
++	_center("레벨 %d · 남은 강화 %d회" % [progression.level(), progression.pending_points()], top + 80.0, 17, INK, narrative_font)
++	_center("하나를 선택하세요. 이 힘은 추락해도 남습니다.", top + 113.0, 15, MUTED, narrative_font)
+ 	var kinds: Array[String] = ["strength", "endurance", "recovery"]
+ 	var labels: Array[String] = ["밀기 힘", "최대 스태미나", "회복 속도"]
+ 	var width: float = minf(670.0, size.x - 64.0)
+@@ -959,12 +968,12 @@ func _draw_upgrade_choice(size: Vector2) -> void:
+ 		var hovered: bool = enabled and rect.has_point(get_global_mouse_position())
+ 		draw_rect(rect, Color(0.82, 0.73, 0.54, 0.19 if hovered else 0.07))
+ 		draw_rect(rect, GOLD if enabled else Color("56605d"), false, 1.0)
+-		_text("%d  ·  %s" % [index + 1, labels[index]], rect.position + Vector2(24, 29), 19, INK if enabled else MUTED)
++		_text("%d  ·  %s" % [index + 1, labels[index]], rect.position + Vector2(24, 29), 19, INK if enabled else MUTED, menu_font)
+ 		var detail: String = "현재 +%d%%  →  +%d%%   ·   %d / 10" % [rank * 2, (rank + 1) * 2, rank] if enabled else "최대 강화 +20% · 10 / 10"
+ 		_text(detail, rect.position + Vector2(24, 58), 14, GOLD if enabled else MUTED)
+ 		if enabled:
+ 			buttons.append({"rect": rect, "action": "upgrade_" + kind})
+-	_center("1 / 2 / 3 또는 클릭으로 선택   ·   Esc 메뉴", top + 447.0, 14, MUTED)
++	_center("1 / 2 / 3 또는 클릭으로 선택   ·   Esc 메뉴", top + 447.0, 14, MUTED, narrative_font)
+ 
+ func _draw_debug(size: Vector2) -> void:
+ 	var telemetry: Dictionary = boulder.telemetry()
+@@ -981,47 +990,47 @@ func _button(label: String, rect: Rect2, action: String, primary: bool = false)
+ 	var hovered: bool = rect.has_point(get_global_mouse_position())
+ 	draw_rect(rect, Color(0.82, 0.73, 0.54, 0.18 if hovered else 0.08) if primary else Color(0.1, 0.15, 0.18, 0.65))
+ 	draw_rect(rect, GOLD if primary else Color("56605d"), false, 1.0)
+-	var text_width: float = font.get_string_size(label, HORIZONTAL_ALIGNMENT_LEFT, -1.0, _ui_font_size(17)).x
+-	_text(label, Vector2(rect.position.x + (rect.size.x - text_width) * 0.5, rect.position.y + 34.0), 17, INK)
++	var text_width: float = _text_width(label, 17, menu_font)
++	_text(label, Vector2(rect.position.x + (rect.size.x - text_width) * 0.5, rect.position.y + 34.0), 17, INK, menu_font)
+ 	buttons.append({"rect": rect, "action": action})
+ 
+ func _draw_title(size: Vector2) -> void:
+ 	draw_rect(Rect2(Vector2.ZERO, size), Color(0.025, 0.055, 0.075, 0.52))
+ 	_center("A STONE. A MOUNTAIN. ANOTHER BEGINNING.", size.y * 0.25, 13, MUTED)
+ 	_center("S I S Y P H U S", size.y * 0.37, 62, INK)
+-	_center("시 지 프 스", size.y * 0.43, 19, GOLD)
+-	_center("이번에는, 조금 더 올라갈 수 있을 것 같다.", size.y * 0.52, 19, INK)
++	_center("시 지 프 스", size.y * 0.43, 19, GOLD, title_font)
++	_center("이번에는, 조금 더 올라갈 수 있을 것 같다.", size.y * 0.52, 19, INK, narrative_font)
+ 	if not save_blocked:
+ 		_button("이어 오르기  ↵" if has_resume else "돌 앞에 서기  ↵", Rect2(size.x * 0.5 - 145.0, size.y * 0.60, 290.0, 54.0), "begin", true)
+ 	else:
+-		_center("저장 파일을 확인한 뒤 다시 실행해 주세요.", size.y * 0.65, 16, RED)
+-	_center("D / → 밀기   ·   Shift 힘주기   ·   Space 버티기", size.y * 0.76, 15, INK)
+-	_center("쉼터에서 손을 놓으면 호흡과 균형이 돌아옵니다.", size.y * 0.80, 14, MUTED)
++		_center("저장 파일을 확인한 뒤 다시 실행해 주세요.", size.y * 0.65, 16, RED, narrative_font)
++	_center("D / → 밀기   ·   Shift 힘주기   ·   Space 버티기", size.y * 0.76, 15, INK, narrative_font)
++	_center("쉼터에서 손을 놓으면 호흡과 균형이 돌아옵니다.", size.y * 0.80, 14, MUTED, narrative_font)
+ 	_text("MOUNTAIN & WEATHER / 0.2", Vector2(36, size.y - 30.0), 11, MUTED)
+-	_text("F11 전체 화면   ·   M 소리", Vector2(size.x - 230.0, size.y - 30.0), 12, MUTED)
++	_text("F11 전체 화면   ·   M 소리", Vector2(size.x - 230.0, size.y - 30.0), 12, MUTED, narrative_font)
+ 
+ func _draw_pause(size: Vector2) -> void:
+ 	buttons.clear()
+ 	draw_rect(Rect2(Vector2.ZERO, size), Color(0.025, 0.045, 0.06, 0.88))
+-	_center("잠시, 숨을 고르다", size.y * 0.27, 32, INK)
+-	_center("5초마다 현재 진행을 자동 저장합니다. 저장은 이 브라우저에만 남습니다." if web_mode else "종료할 때 현재 위치가 저장됩니다. 추락을 되돌리는 체크포인트는 없습니다.", size.y * 0.34, 15, MUTED)
++	_center("잠시, 숨을 고르다", size.y * 0.27, 32, INK, title_font)
++	_center("5초마다 현재 진행을 자동 저장합니다. 저장은 이 브라우저에만 남습니다." if web_mode else "종료할 때 현재 위치가 저장됩니다. 추락을 되돌리는 체크포인트는 없습니다.", size.y * 0.34, 15, MUTED, narrative_font)
+ 	_button("계속 오르기  ·  Esc", Rect2(size.x * 0.5 - 170.0, size.y * 0.41, 340.0, 54.0), "resume", true)
+ 	_button("소리 " + ("켜기" if sound.muted else "끄기"), Rect2(size.x * 0.5 - 170.0, size.y * 0.41 + 72.0, 340.0, 54.0), "mute")
+ 	_button("저장하고 처음 화면으로" if web_mode else "저장 후 종료", Rect2(size.x * 0.5 - 170.0, size.y * 0.41 + 144.0, 340.0, 54.0), "quit")
+-	_center("일반 밀기 · 호흡 소모 적음     힘주기 · 미끄러짐 증가", size.y * 0.78, 14, MUTED)
+-	_center("뒤로 굴러갈 때 Space → 멈춘 뒤 다시 D", size.y * 0.82, 14, INK)
++	_center("일반 밀기 · 호흡 소모 적음     힘주기 · 미끄러짐 증가", size.y * 0.78, 14, MUTED, narrative_font)
++	_center("뒤로 굴러갈 때 Space → 멈춘 뒤 다시 D", size.y * 0.82, 14, INK, narrative_font)
+ 
+ func _draw_result(size: Vector2) -> void:
+ 	draw_rect(Rect2(Vector2.ZERO, size), Color(0.025, 0.045, 0.06, 0.80))
+-	_center("돌은 다시, 산 아래에", size.y * 0.30, 35, INK)
+-	_center("이번에는 %d m까지 올랐습니다." % int(boulder.peak), size.y * 0.39, 22, GOLD)
++	_center("돌은 다시, 산 아래에", size.y * 0.30, 35, INK, title_font)
++	_center("이번에는 %d m까지 올랐습니다." % int(boulder.peak), size.y * 0.39, 22, GOLD, narrative_font)
+ 	_center("%d분 %02d초   ·   미끄러짐 %d회   ·   최고 %d m" % [int(boulder.elapsed / 60.0), int(boulder.elapsed) % 60, boulder.slips, int(best)], size.y * 0.45, 16, MUTED)
+-	_center("다음 산길은 조금 다를 것이다. 오르는 사람도.", size.y * 0.53, 17, INK)
++	_center("다음 산길은 조금 다를 것이다. 오르는 사람도.", size.y * 0.53, 17, INK, narrative_font)
+ 	_button("다시 돌 앞에 서기  ↵", Rect2(size.x * 0.5 - 160.0, size.y * 0.61, 320.0, 54.0), "new", true)
+ 
+ func _draw_summit(size: Vector2) -> void:
+ 	draw_rect(Rect2(Vector2.ZERO, size), Color(0.07, 0.12, 0.14, 0.55))
+-	_center("정상", size.y * 0.29, 42, INK)
+-	_center("잠시, 아무것도 밀지 않아도 된다.", size.y * 0.45, 22, INK)
+-	_center("이 고요함을 기억한다.", size.y * 0.51, 16, MUTED)
++	_center("정상", size.y * 0.29, 42, INK, title_font)
++	_center("잠시, 아무것도 밀지 않아도 된다.", size.y * 0.45, 22, INK, narrative_font)
++	_center("이 고요함을 기억한다.", size.y * 0.51, 16, MUTED, narrative_font)
+ 	_button("새로운 등반  ↵", Rect2(size.x * 0.5 - 150.0, size.y * 0.64, 300.0, 54.0), "new", true)

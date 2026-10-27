@@ -1,6 +1,6 @@
 # 공통 폰트와 UI 타이포그래피 v1.1
 
-1920×1080을 디자인 기준으로 공통 Godot Theme와 역할별 서체를 추가하고, 현재 구현된 MVP 메뉴·숙련의 석판·세피로트 표시·HUD·정상/프레스티지 연출에 연결했다. 물리, EXP, 프레스티지 진행과 저장 규칙을 변경하는 작업은 포함하지 않는다. 원화 PNG·SVG 및 기존 로고 이미지 파일은 수정하지 않았다.
+1920×1080을 디자인 기준으로 공통 Godot Theme와 역할별 서체를 추가하고, 현재 구현된 MVP 메뉴·숙련의 석판·세피로트 표시·HUD·정상/프레스티지 연출과 기존 Canvas 화면의 메뉴·제목·서사에 연결했다. 물리, EXP, 프레스티지 진행과 저장 규칙을 변경하는 작업은 포함하지 않는다. 원화 PNG·SVG 및 기존 로고 이미지 파일은 수정하지 않았다.
 
 ## 서체 및 배포 조건
 
@@ -21,6 +21,7 @@ Hahmlet 원본은 완성형 한글 2,788자를 지원하고 그리스어를 포�
 | 화면 | 적용 |
 |---|---|
 | 메인 메뉴 | 메뉴 버튼, 막/기록 패널, 안내·서사 문구에 역할별 Theme 적용 |
+| 기존 Canvas 화면 | 메뉴·강화 선택의 명칭은 Hahmlet SemiBold, 제목은 Bold, 서사는 Regular 사용. 기존 영문 로고·좌표·프레임과 필드별 크기를 유지 |
 | 숙련의 석판 | 제목·계열·노드 상세명·설명·비용·해금 조건에 역할별 적용. 35개 노드 데이터는 동적 표시하며 기존 노드 프레임은 유지 |
 | 세피로트·프레스티지 | 현재 존재하는 말쿠트/운명의 실 화면과 정상·프레스티지 문구에 제목·수치·본문·서사 역할 적용 |
 | HUD | 기본 게임과 MVP 모두 번들 Pretendard를 사용. MVP의 거리·EXP 수치는 기존 Canvas 확대 규칙을 거쳐 디자인 기준 28px이며, 다른 수동 Canvas 안내는 기존 필드별 크기를 따른다 |
@@ -35,10 +36,10 @@ Hahmlet 원본은 완성형 한글 2,788자를 지원하고 그리스어를 포�
 - Godot 글꼴 및 Theme 검사 **948개** 통과. 필수 `ΣΙΣΥΦΟΣ`, `ΩΘΗΣΙΣ`, `ἄνθρωπος`, `ἀρετή`, 한글, 숫자·특수기호와 아홉 폰트의 시스템 fallback 비활성화를 검사했다. 같은 폰트 파일을 쓰는 역할들은 리소스 인스턴스도 공유한다. 고대 그리스어는 NFC와 분해형 NFD도 확인했다. 글리프 보유 검사는 모든 조합의 실제 렌더링을 보장하지 않는다.
 - 디자인 좌표와 글꼴 지표 기반 레이아웃 검사 **970개** 통과: 1920×1080, 1600×900, 1280×720. 별도의 MVP UI **265개**, 화면 통합 **244개**, 정상·프레스티지 화면 **8개** 검사를 통과했다. [시스템 fallback 차단 후 독립 검사](../../tests/mvp/results/typography-v11/independent/post-no-system/review.json), [후속 HUD 검증](../../tests/mvp/results/typography-v11/independent/post-hud/review.json), [연출 검사](../../tests/mvp/results/typography-v11/presentation.txt).
 - Windows의 실제 Godot 렌더러 SubViewport로 샘플·메뉴·석판을 세 해상도에서 시각 검토했다. 인공 프로필을 사용한 캡처이며 OS 창 크기 변경이나 모든 입력 상태를 검증한 것은 아니다. [1920/1280 독립 검토](../../tests/mvp/results/typography-v11/independent/final-review.json), [1600 독립 검토](../../tests/mvp/results/typography-v11/independent/native-1600/review.json).
-- Windows Chromium Web에서 실제 게임 메뉴·석판·세피로트·HUD를 1280×720 CSS viewport에서 확인하고, 별도 샘플을 1920×1080과 1280×720에서 확인했다. 테스트용 임시 프로필을 사용했다. Web 1600×900은 위 headless 레이아웃 검사 범위이며 실제 브라우저 스크린샷 검증은 하지 않았다. Linux는 실행하지 않았으므로 Windows·Linux·Web의 렌더 일치가 입증된 것은 아니다. [최종 Web 기록 및 해시](../../tests/mvp/results/typography-v11/web/manifest-final.json).
+- Windows Chromium Web에서 실제 게임 메뉴·석판·세피로트·HUD를 1280×720 CSS viewport에서 확인하고, 별도 샘플을 1920×1080과 1280×720에서 확인했다. 테스트용 임시 프로필을 사용했다. Web 1600×900은 위 headless 레이아웃 검사 범위이며 실제 브라우저 스크린샷 검증은 하지 않았다. Linux는 실행하지 않았으므로 Windows·Linux·Web의 렌더 일치가 입증된 것은 아니다. [최종 Web 기록 및 해시](../../tests/mvp/results/typography-v11/web/manifest-legacy-final.json).
 - 누락된 Theme/폰트, 불완전한 Theme와 실제 외부 폰트 리소스 의존성 누락을 주입하여 번들된 기존 Noto 기반 비상 fallback을 검사했다. [손상 주입 로그](../../tests/mvp/results/typography-v11/independent/missing-dependency-probe.txt)의 로더 오류는 의도된 시험 출력이다. 모든 비상 폰트까지 제거된 경우는 보장하지 않는다.
 
-기본 게임·MVP 전체 회귀 **1,502개 통과**. 이는 시스템 fallback 가져오기 설정 변경 직전의 실행이며, 이후 글꼴·레이아웃·UI·통합 대상 2,425개를 다시 통과했다. 리소스 공유 검사 2개를 추가한 뒤 폰트 검사 948개만 별도로 재실행했다. 과거 결과는 바이트 단위로 복원했다. [전체 회귀](../../tests/mvp/results/typography-v11/regression-final/report.json), [기존 증거 보존](../../tests/mvp/results/typography-v11/regression-final/prior-evidence-preservation.json).
+기본 게임·MVP 전체 회귀 **1,502개 통과**. 이는 시스템 fallback 가져오기 설정과 기존 Canvas 역할 연결 변경 전의 실행이며, 이후 글꼴·레이아웃·UI·통합 대상 2,425개를 다시 통과했다. 리소스 공유 검사 2개를 추가한 뒤 폰트 검사 948개만 별도로 재실행했다. 마지막 Canvas 변경 이후 legacy 배치 **121개**, Web **24개**, MVP UI **265개**, 통합 **244개**도 독립 재검증했다. 기존 Canvas 화면 1920/1280 실제 렌더 10장도 확인했다. 과거 결과는 바이트 단위로 복원했다. [전체 회귀](../../tests/mvp/results/typography-v11/regression-final/report.json), [기존 증거 보존](../../tests/mvp/results/typography-v11/regression-final/prior-evidence-preservation.json), [Canvas 후속 검증](../../tests/mvp/results/typography-v11/independent/legacy-followup/review.json).
 
 ## 화면 비교
 
@@ -46,13 +47,13 @@ Hahmlet 원본은 완성형 한글 2,788자를 지원하고 그리스어를 포�
 
 | 화면 | 적용 전 | 적용 후 |
 |---|---|---|
-| 메뉴 | [기존 1920](../../tests/mvp/results/browser/menu-1920.png) | [Windows 1920](../../tests/mvp/results/typography-v11/independent/post-no-system/native/menu-1920.png), [Web 1280](../../tests/mvp/results/typography-v11/web/menu-final.jpg) |
+| 메뉴 | [기존 1920](../../tests/mvp/results/browser/menu-1920.png) | [Windows 1920](../../tests/mvp/results/typography-v11/independent/post-no-system/native/menu-1920.png), [최종 Web 1280](../../tests/mvp/results/typography-v11/web/menu-legacy-final.jpg) |
 | 숙련의 석판 | [기존 1920](../../tests/mvp/results/browser/board-1920.png) | [Windows 1920](../../tests/mvp/results/typography-v11/independent/post-no-system/native/board-1920.png), [Windows 1600](../../tests/mvp/results/typography-v11/independent/post-no-system/native/board-1600.png), [Web 1280](../../tests/mvp/results/typography-v11/web/board-final.jpg) |
 | 그리스어·한글 샘플 | — | [Windows 1280](../../tests/mvp/results/typography-v11/independent/post-no-system/native/sample-1280.png), [Web 1920](../../tests/mvp/results/typography-v11/web/sample-final-1920.jpg) |
 | HUD·세피로트 | 기존 구현 | [Web HUD 1280](../../tests/mvp/results/typography-v11/web/hud-final.jpg), [Web 세피로트 1280](../../tests/mvp/results/typography-v11/web/sephirot-final.jpg) |
 
 ## Web 용량과 남은 검증
 
-최종 Web `.pck`는 기존 32,937,928바이트에서 38,101,984바이트로 **5,164,056바이트 증가**했다. 같은 측정의 `.wasm`은 양쪽 모두 36,145,869바이트였다. 번들 원본 크기와 패키지 증가량은 압축·기존 자산 구성 때문에 같지 않다. [최종 빌드 manifest](../../tests/mvp/results/typography-v11/web/manifest-final.json)에 각 파일의 SHA-256을 기록했다.
+최종 Web `.pck`는 기존 32,937,928바이트에서 38,102,400바이트로 **5,164,472바이트 증가**했다. 같은 측정의 `.wasm`은 양쪽 모두 36,145,869바이트였다. 번들 원본 크기와 패키지 증가량은 압축·기존 자산 구성 때문에 같지 않다. [최종 빌드 manifest](../../tests/mvp/results/typography-v11/web/manifest-legacy-final.json)에 각 파일의 SHA-256을 기록했다.
 
-남은 항목은 Linux 실제 렌더, Web 1600×900 실화면, 전체 OS 창·전체 화면 조합, 완전한 로고 원화 연결과 실제 사용자 문자열에 대한 추가 가독성 검증이다. 웹 서브셋은 이번에는 적용하지 않았다. 일부 고전 그리스어 문자의 조합과 예상 밖의 동적 문자열은 추가 검증이 필요하다.
+남은 항목은 Linux 실제 렌더, Web 1600×900 실화면, 전체 OS 창·전체 화면 조합, 완전한 로고 원화 연결과 실제 사용자 문자열에 대한 추가 가독성 검증이다. 이전 별도 브라우저 검사에서 비 16:9 창의 화면 압축과 지형 다각형 오류가 관측됐으며, 이번 폰트 작업으로 해당 문제가 해결됐다고 판정하지 않는다. [이전 관측](../../tests/mvp/results/difficulty-v1-regression/browser-qa.md). 웹 서브셋은 이번에는 적용하지 않았다. 일부 고전 그리스어 문자의 조합과 예상 밖의 동적 문자열은 추가 검증이 필요하다.

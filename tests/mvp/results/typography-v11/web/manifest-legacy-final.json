@@ -1,0 +1,95 @@
+{
+  "platform": "Windows",
+  "browser": "in-app Chromium",
+  "css_viewport": [
+    1280,
+    720
+  ],
+  "game_capture_pixels": [
+    1265,
+    712
+  ],
+  "sample_viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1280,
+      720
+    ]
+  ],
+  "fixtures": "synthetic local-only profiles",
+  "os_font_fallback": "disabled in all nine bundled font imports",
+  "builds": {
+    "builds/mvp-web/index.pck": {
+      "bytes": 32937928,
+      "sha256": "458d137b9b6e2299d552cba56b1499ec8bf8eb9482fedd27a5a9ae090f3c32aa"
+    },
+    "builds/typography-v11/index.pck": {
+      "bytes": 38102400,
+      "sha256": "e56fa91ef221774bd727a76bf424f8dde6c8dfe920990bd91bf5f09d11d383dc"
+    },
+    "builds/mvp-web/index.wasm": {
+      "bytes": 36145869,
+      "sha256": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+    },
+    "builds/typography-v11/index.wasm": {
+      "bytes": 36145869,
+      "sha256": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+    }
+  },
+  "pck_delta_bytes": 5164472,
+  "screenshots": {
+    "board-final.jpg": {
+      "bytes": 78137,
+      "sha256": "e333a1af3f74dbeebe92a78919c690edd5796ec6234166d7719a6753e0dd3e23"
+    },
+    "hud-final.jpg": {
+      "bytes": 111341,
+      "sha256": "068bf7ea688eec385f8f3b1defc31b289ef8b1cef581319a95a485d596e77e05"
+    },
+    "menu-final.jpg": {
+      "bytes": 132892,
+      "sha256": "32bd0aef93d856947e2ddac43f54093878d259f21f026654e3fcb417ee88a68e"
+    },
+    "sample-final-1280.jpg": {
+      "bytes": 20095,
+      "sha256": "3115316dd48b5815ce9ded515715efaa88db30351ffa7cc5e654a8f05391f61d"
+    },
+    "sample-final-1920.jpg": {
+      "bytes": 39259,
+      "sha256": "6dee293190b1537a8c34ffbf83d4ef1992ae4a3fde7f2426712a0d137945213b"
+    },
+    "sephirot-final.jpg": {
+      "bytes": 46675,
+      "sha256": "1199d9719b2b6c1bb4aaea0005f43fa1c38dde7df074f8011f660c8e0db5debf"
+    },
+    "menu-legacy-final.jpg": {
+      "bytes": 132892,
+      "sha256": "32bd0aef93d856947e2ddac43f54093878d259f21f026654e3fcb417ee88a68e"
+    }
+  },
+  "logs": {
+    "typography-web-no-system.log": {
+      "sha256": "ed5b3aaa6567d898aeb95d8feeac9a82b7bc29c3fb49272807585f8ef1269df0",
+      "errors": 0,
+      "archived_path": "tests/mvp/results/typography-v11/web/mvp-build-log.txt"
+    },
+    "typography-sample-no-system.log": {
+      "sha256": "943079cb0df7c23b654d79d4b64ac233b31cfe904e37930766822a4fff3183d7",
+      "errors": 0,
+      "archived_path": "tests/mvp/results/typography-v11/web/sample-build-log.txt"
+    },
+    "typography-web-final-legacy.log": {
+      "sha256": "271ecbab25508fbc4dca9f80092deb433a27a04ebdd1cc9e746965ec6807e8df",
+      "errors": 0,
+      "archived_path": "tests/mvp/results/typography-v11/web/legacy-final-build-log.txt"
+    }
+  },
+  "console_errors_observed": 0,
+  "limitations": "Linux not run; Web 1600 layout measured headlessly only.",
+  "new_font_files_in_export": 8,
+  "existing_Noto_font_in_export": true,
+  "final_build_note": "Final build includes legacy canvas typography. menu-legacy-final is from the final build; other screenshots document prior MVP build, whose UI typography is unchanged by legacy-only face selection."
+}
