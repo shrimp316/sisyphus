@@ -1,0 +1,79 @@
+{
+  "status": "historic_legacy_inscriptions_preserved",
+  "note": "1막 35노드 구조의 일반 숙련 30개에만 coreText 10글자를 연결합니다. 기존 extensionText 5글자는 옛 10+5 구조에서 보존된 자료이며, 독립 특별 노드 5개에 배정하지 않습니다.",
+  "scale_reference": [
+    1920,
+    1080
+  ],
+  "track_colors": {
+    "strength": "#F6AF4D",
+    "endurance": "#38A7FF",
+    "breath": "#37E7E4"
+  },
+  "inscriptions": {
+    "1": {
+      "strength": {
+        "coreText": "ΒΙΑΚΑΙΩΣΙΣ",
+        "extensionText_legacy_unassigned": "ΑΡΕΤΗ"
+      },
+      "endurance": {
+        "coreText": "ΜΕΓΑΛΗΡΩΜΗ",
+        "extensionText_legacy_unassigned": "ΘΥΜΟΣ"
+      },
+      "breath": {
+        "coreText": "ΤΑΧΕΙΑΠΝΟΗ",
+        "extensionText_legacy_unassigned": "ΙΑΣΙΣ"
+      }
+    },
+    "2": {
+      "strength": {
+        "coreText": "ΑΛΚΗΚΑΙΒΙΑ",
+        "extensionText_legacy_unassigned": "ΙΣΧΥΣ"
+      },
+      "endurance": {
+        "coreText": "ΣΩΜΑΚΑΙΖΩΗ",
+        "extensionText_legacy_unassigned": "ΠΟΝΟΣ"
+      },
+      "breath": {
+        "coreText": "ΠΝΟΗΚΑΙΡΟΗ",
+        "extensionText_legacy_unassigned": "ΥΠΝΟΣ"
+      }
+    },
+    "3": {
+      "strength": {
+        "coreText": "ΡΩΜΗΚΑΙΒΙΑ",
+        "extensionText_legacy_unassigned": "ΘΥΜΟΣ"
+      },
+      "endurance": {
+        "coreText": "ΡΩΜΗΚΑΙΖΩΗ",
+        "extensionText_legacy_unassigned": "ΙΣΧΥΣ"
+      },
+      "breath": {
+        "coreText": "ΖΩΗΚΑΙΠΝΟΗ",
+        "extensionText_legacy_unassigned": "ΤΑΧΥΣ"
+      }
+    },
+    "4": {
+      "strength": {
+        "coreText": "ΜΕΓΙΣΤΗΒΙΑ",
+        "extensionText_legacy_unassigned": "ΤΟΛΜΑ"
+      },
+      "endurance": {
+        "coreText": "ΜΕΓΙΣΤΗΖΩΗ",
+        "extensionText_legacy_unassigned": "ΑΡΕΤΗ"
+      },
+      "breath": {
+        "coreText": "ΜΕΓΙΣΤΗΡΟΗ",
+        "extensionText_legacy_unassigned": "ΦΥΣΙΣ"
+      }
+    }
+  },
+  "glyph_png_name_rule": "assets/ui/mastery/inscriptions/glyphs/{state}/{Unicode4Hex}.png",
+  "glyph_states": [
+    "engraved",
+    "ready",
+    "active"
+  ],
+  "rune_face": "assets/ui/mastery/inscriptions/faces/rune_stone_face_{track}.png",
+  "notes": "In Godot use the glyph PNG as TextureRect above the shared rune face; modulate active glyph by track color; preserve original nodes/panels/FX."
+}

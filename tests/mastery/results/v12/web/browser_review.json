@@ -1,0 +1,116 @@
+{
+  "engine": "Godot 4.5.1 WebGL2 single-threaded debug export",
+  "browser": "Codex in-app Chromium",
+  "node_count_35": true,
+  "six_fixture_expected_eligibility": {
+    "zero": 0,
+    "250": 10,
+    "500": 20,
+    "750": 30,
+    "first_summit": 30,
+    "next_run": 35
+  },
+  "six_fixture_log_pass": {
+    "zero": true,
+    "250": true,
+    "500": true,
+    "750": true,
+    "first_summit": true,
+    "next_run": true
+  },
+  "console_errors_final_run": [],
+  "manual_observations": [
+    "Clicked all five milestone/run buttons after initial zero state; captured each.",
+    "Selected special01 after next_run; unknown effect/cost and disabled purchase visible.",
+    "Selected strength01 then clicked purchase after selection rendered: EXP600 unchanged, points6->5, ranks0->1.",
+    "Clicked disabled purchased button again: points5 and rank1 unchanged.",
+    "Tab and Enter changed selected strength01 to strength02, confirmed console.",
+    "Escape hid screen; milestone button reopened screen, preview controls remained usable.",
+    "Clicked animation skip and continued using UI."
+  ],
+  "screenshots": {
+    "250-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "84e22b835ed23cae18b8277fd66b808f6e6e3a926203df50f2cfc810e2a20ded"
+    },
+    "500-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "ad07bfbc996e522a865da03b691ae71d2a576b331eada69486eb020379a0c2bf"
+    },
+    "750-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "a02738b8315475e1d2cf3ca6712959a57e783f22c382a4c964f82b154466e763"
+    },
+    "duplicate-purchase-blocked-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "9b6469c69b87efe4709cd0b0168c73445250d4d25f140a7436e8a9ab80a5d700"
+    },
+    "escape-closed-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "992b3f70757193688905e38a814ac813ef9553cf9c0fccb7a79d1196527dbab1"
+    },
+    "final-preview-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "017d4bb72a7a0a9467a4ac7a78257c3f9bd0abaafd1f376517495b3978514b60"
+    },
+    "first-summit-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "db9d8892fdf040924052b065a3f59133c6db8a9cdeefaa9f26a8520727623d1c"
+    },
+    "next-run-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "095f16182178ece8a651354186c14efaccf76996c31e4fc40cffec4c94fc486a"
+    },
+    "normal-purchase-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "9b6469c69b87efe4709cd0b0168c73445250d4d25f140a7436e8a9ab80a5d700"
+    },
+    "special-unassigned-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "017d4bb72a7a0a9467a4ac7a78257c3f9bd0abaafd1f376517495b3978514b60"
+    },
+    "zero-web.png": {
+      "size": [
+        946,
+        884
+      ],
+      "sha256": "e3198b009102872ae0559ed05ce02e8e8def193a28847257d9fe8b6e973a3d5c"
+    }
+  },
+  "limitations": [
+    "No Firefox or Linux run.",
+    "Browser capture946x884 with letterboxed board; other sizes tested native only.",
+    "Loadtime, FPS, GPU/process memory and Godot Profiler memory not measured."
+  ],
+  "pass": true
+}

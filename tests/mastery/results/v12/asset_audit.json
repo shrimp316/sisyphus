@@ -1,0 +1,5052 @@
+{
+  "pass": true,
+  "check_count": 981,
+  "failed": [],
+  "archive_name": "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED.zip",
+  "archive_sha256": "776877f77cae96efa88a13442d1e09f8a7a39fd60a7ee187e6036f3b96ac5c13",
+  "runtime_png_count": 131,
+  "original_png_count": 65,
+  "greek_png_count": 66,
+  "runtime_png_bytes": 10448555,
+  "existing_byte_matches_before": 131,
+  "missing_before": [],
+  "conflicts_before": [],
+  "mapping_count": 35,
+  "milestone_counts": {
+    "0": {
+      "strength": 0,
+      "endurance": 0,
+      "breath": 0
+    },
+    "250": {
+      "strength": 4,
+      "endurance": 3,
+      "breath": 3
+    },
+    "500": {
+      "strength": 7,
+      "endurance": 7,
+      "breath": 6
+    },
+    "750": {
+      "strength": 10,
+      "endurance": 10,
+      "breath": 10
+    }
+  },
+  "inscriptions": [
+    {
+      "act": 1,
+      "track": "strength",
+      "coreText": "ΒΙΑΚΑΙΩΣΙΣ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΑΡΕΤΗ"
+    },
+    {
+      "act": 1,
+      "track": "endurance",
+      "coreText": "ΜΕΓΑΛΗΡΩΜΗ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΘΥΜΟΣ"
+    },
+    {
+      "act": 1,
+      "track": "breath",
+      "coreText": "ΤΑΧΕΙΑΠΝΟΗ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΙΑΣΙΣ"
+    },
+    {
+      "act": 2,
+      "track": "strength",
+      "coreText": "ΑΛΚΗΚΑΙΒΙΑ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΙΣΧΥΣ"
+    },
+    {
+      "act": 2,
+      "track": "endurance",
+      "coreText": "ΣΩΜΑΚΑΙΖΩΗ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΠΟΝΟΣ"
+    },
+    {
+      "act": 2,
+      "track": "breath",
+      "coreText": "ΠΝΟΗΚΑΙΡΟΗ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΥΠΝΟΣ"
+    },
+    {
+      "act": 3,
+      "track": "strength",
+      "coreText": "ΡΩΜΗΚΑΙΒΙΑ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΘΥΜΟΣ"
+    },
+    {
+      "act": 3,
+      "track": "endurance",
+      "coreText": "ΡΩΜΗΚΑΙΖΩΗ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΙΣΧΥΣ"
+    },
+    {
+      "act": 3,
+      "track": "breath",
+      "coreText": "ΖΩΗΚΑΙΠΝΟΗ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΤΑΧΥΣ"
+    },
+    {
+      "act": 4,
+      "track": "strength",
+      "coreText": "ΜΕΓΙΣΤΗΒΙΑ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΤΟΛΜΑ"
+    },
+    {
+      "act": 4,
+      "track": "endurance",
+      "coreText": "ΜΕΓΙΣΤΗΖΩΗ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΑΡΕΤΗ"
+    },
+    {
+      "act": 4,
+      "track": "breath",
+      "coreText": "ΜΕΓΙΣΤΗΡΟΗ",
+      "codepoint_length": 10,
+      "legacy_extension_unassigned": "ΦΥΣΙΣ"
+    }
+  ],
+  "artboard_mapping_methods": {
+    "approximate": 1,
+    "composed": 5,
+    "mapped": 2,
+    "exact_path": 3,
+    "missing_as_illustrated": 1
+  },
+  "not_runtime_files": [
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/ARTBOARD_TO_ACTUAL_ASSETS.csv",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/README_GREEK_RESTORATION.md",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/README_KR.md",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/asset_contact_sheet.jpg",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/mastery_asset_inventory_v1.csv",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/mastery_greek_inscription_bank_v11.json",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/mastery_greek_node_mapping_v11.csv",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/mastery_node_layout_v1.csv",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/preview_1000m_next_run.png",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/preview_750m.png",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/preview_GREEK_restored_on_original.png",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/references_NOT_FOR_GAME/concept_sheet_only.png",
+    "SISYPHUS_mastery_assets_v1_1_GREEK_RESTORED/verification.json"
+  ],
+  "checks": [
+    {
+      "name": "unique_archive_paths",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "safe_archive_paths",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime_png_count_131",
+      "pass": true,
+      "detail": 131
+    },
+    {
+      "name": "old_art_65",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "greek_additions_66",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_count_35",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_unique_ids",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_tracks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_original_65",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_paths_equal_originals",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:slate_bg_main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:slate_outer_frame_overlay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:header_architecture",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_panel_common",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_top_trim",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_bottom_trim",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:detail_panel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:tooltip_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_panel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_badge_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_badge_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_badge_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_label_blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:milestone_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:node_base",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:node_ring_bronze",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:node_locked_full_preview",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:state_available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:state_insufficient_exp",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:state_purchased",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:state_selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:state_story_locked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:state_padlock_symbol",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_frame_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_frame_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:track_frame_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:connector_inactive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:connector_active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:icon_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:icon_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:icon_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_placeholder_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_placeholder_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_placeholder_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_placeholder_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_placeholder_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_node_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_seal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:special_seal_cracked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:stone_wall_closed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:stone_wall_left_half",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:stone_wall_right_half",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:fx_ring_glow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:fx_engrave",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:fx_unlock_flash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:fx_dust",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:fx_light_ray",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:fx_particles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:fx_milestone",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:fx_special_open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:glow_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:glow_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:glow_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:arrow_prev",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:arrow_next",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:header_text_blank_plaque",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:button_purchase_blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:omega_plaque",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:sisyphus_idle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:sisyphus_push_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:sisyphus_push_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:sisyphus_push_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:sisyphus_push_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:sisyphus_push_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original_inventory_sha:sisyphus_push_sheet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:header_architecture",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:header_architecture",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:slate_bg_main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:slate_bg_main",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:slate_outer_frame_overlay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:slate_outer_frame_overlay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:sisyphus_idle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:sisyphus_idle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:sisyphus_push_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:sisyphus_push_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:sisyphus_push_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:sisyphus_push_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:sisyphus_push_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:sisyphus_push_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:sisyphus_push_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:sisyphus_push_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:sisyphus_push_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:sisyphus_push_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:sisyphus_push_sheet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:sisyphus_push_sheet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:fx_dust",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:fx_dust",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:fx_engrave",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:fx_engrave",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:fx_light_ray",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:fx_light_ray",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:fx_milestone",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:fx_milestone",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:fx_particles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:fx_particles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:fx_ring_glow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:fx_ring_glow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:fx_special_open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:fx_special_open",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:fx_unlock_flash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:fx_unlock_flash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:glow_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:glow_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:glow_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:glow_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:glow_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:glow_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:stone_wall_closed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:stone_wall_closed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:stone_wall_left_half",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:stone_wall_left_half",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:stone_wall_right_half",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:stone_wall_right_half",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:icon_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:icon_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:icon_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:icon_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:icon_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:icon_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:arrow_next",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:arrow_next",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:arrow_prev",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:arrow_prev",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:button_purchase_blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:button_purchase_blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:header_text_blank_plaque",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:header_text_blank_plaque",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:connector_active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:connector_active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:connector_inactive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:connector_inactive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:node_base",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:node_base",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:node_locked_full_preview",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:node_locked_full_preview",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:node_ring_bronze",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:node_ring_bronze",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:state_available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:state_available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:state_insufficient_exp",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:state_insufficient_exp",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:state_padlock_symbol",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:state_padlock_symbol",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:state_purchased",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:state_purchased",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:state_selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:state_selected",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:state_story_locked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:state_story_locked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_frame_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_frame_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_frame_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_frame_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_frame_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_frame_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:omega_plaque",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:omega_plaque",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:detail_panel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:detail_panel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:milestone_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:milestone_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_panel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_panel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:tooltip_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:tooltip_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_badge_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_badge_breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_badge_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_badge_endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_badge_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_badge_strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_bottom_trim",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_bottom_trim",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_label_blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_label_blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_panel_common",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_panel_common",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:track_top_trim",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:track_top_trim",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_node_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_node_frame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_placeholder_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_placeholder_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_placeholder_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_placeholder_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_placeholder_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_placeholder_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_placeholder_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_placeholder_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_placeholder_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_placeholder_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_seal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_seal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_dimensions:special_seal_cracked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inventory_bytes:special_seal_cracked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_existing_png_conflicts",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "coordinates:act1_strength_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_01:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_01:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_01:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_01:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_01:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_01:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_01:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_02:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_02:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_02:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_02:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_02:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_02:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_02:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_03:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_03:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_03:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_03:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_03:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_03:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_03:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_04:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_04:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_04:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_04:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_04:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_04:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_04:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_05:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_05:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_05:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_05:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_05:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_05:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_05:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_06:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_06:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_06:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_06:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_06:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_06:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_06:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_07:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_07:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_07:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_07:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_07:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_07:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_07:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_08:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_08:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_08:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_08:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_08:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_08:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_08:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_09:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_09:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_09:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_09:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_09:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_09:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_09:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_strength_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_strength_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_strength_10:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_10:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_strength.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_10:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_strength_10:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_strength_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_strength_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_10:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_10:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_strength_10:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_01:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_01:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_01:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_01:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_01:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_01:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_01:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_02:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_02:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_02:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_02:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_02:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_02:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_02:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_03:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_03:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_03:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_03:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_03:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_03:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_03:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_04:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_04:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_04:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_04:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_04:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_04:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_04:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_05:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_05:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_05:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_05:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_05:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_05:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_05:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_06:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_06:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_06:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_06:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_06:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_06:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_06:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_07:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_07:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_07:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_07:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_07:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_07:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_07:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_08:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_08:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_08:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_08:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_08:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_08:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_08:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_09:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_09:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_09:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_09:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_09:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_09:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_09:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_endurance_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_endurance_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_endurance_10:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_10:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_endurance.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_10:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_endurance_10:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_endurance_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_endurance_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_10:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_10:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_endurance_10:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_01:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_01:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_01:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_01:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_01:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_01:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_01:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_02:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_02:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_02:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_02:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_02:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_02:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_02:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_03:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_03:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_03:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_03:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_03:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_03:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_03:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_04:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_04:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_04:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_04:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_04:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_04:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_04:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_05:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_05:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_05:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_05:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_05:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_05:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_05:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_06:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_06:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_06:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_06:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_06",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_06:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_06:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_06:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_07:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_07:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_07:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_07:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_07",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_07:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_07:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_07:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_08:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_08:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_08:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_08:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_08",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_08:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_08:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_08:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_09:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_09:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_09:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_09:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_09",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_09:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_09:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_09:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_breath_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_breath_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_breath_10:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_10:icon_asset",
+      "pass": true,
+      "detail": "icons/icon_breath.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_10:frame_asset",
+      "pass": true,
+      "detail": "nodes/node_ring_bronze.png"
+    },
+    {
+      "name": "mapping_path:act1_breath_10:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "letter:act1_breath_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rune_face:act1_breath_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_10:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_10:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph:act1_breath_10:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_special_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_special_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_special_01:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_special_01:icon_asset",
+      "pass": true,
+      "detail": "special/special_placeholder_01.png"
+    },
+    {
+      "name": "mapping_path:act1_special_01:frame_asset",
+      "pass": true,
+      "detail": "special/special_node_frame.png"
+    },
+    {
+      "name": "mapping_path:act1_special_01:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "special_unassigned:act1_special_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "special_placeholder:act1_special_01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_special_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_special_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_special_02:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_special_02:icon_asset",
+      "pass": true,
+      "detail": "special/special_placeholder_02.png"
+    },
+    {
+      "name": "mapping_path:act1_special_02:frame_asset",
+      "pass": true,
+      "detail": "special/special_node_frame.png"
+    },
+    {
+      "name": "mapping_path:act1_special_02:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "special_unassigned:act1_special_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "special_placeholder:act1_special_02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_special_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_special_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_special_03:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_special_03:icon_asset",
+      "pass": true,
+      "detail": "special/special_placeholder_03.png"
+    },
+    {
+      "name": "mapping_path:act1_special_03:frame_asset",
+      "pass": true,
+      "detail": "special/special_node_frame.png"
+    },
+    {
+      "name": "mapping_path:act1_special_03:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "special_unassigned:act1_special_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "special_placeholder:act1_special_03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_special_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_special_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_special_04:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_special_04:icon_asset",
+      "pass": true,
+      "detail": "special/special_placeholder_04.png"
+    },
+    {
+      "name": "mapping_path:act1_special_04:frame_asset",
+      "pass": true,
+      "detail": "special/special_node_frame.png"
+    },
+    {
+      "name": "mapping_path:act1_special_04:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "special_unassigned:act1_special_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "special_placeholder:act1_special_04",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "coordinates:act1_special_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "id:act1_special_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mapping_path:act1_special_05:base_asset",
+      "pass": true,
+      "detail": "nodes/node_base.png"
+    },
+    {
+      "name": "mapping_path:act1_special_05:icon_asset",
+      "pass": true,
+      "detail": "special/special_placeholder_05.png"
+    },
+    {
+      "name": "mapping_path:act1_special_05:frame_asset",
+      "pass": true,
+      "detail": "special/special_node_frame.png"
+    },
+    {
+      "name": "mapping_path:act1_special_05:status_layer",
+      "pass": true,
+      "detail": "nodes/state_story_locked.png"
+    },
+    {
+      "name": "special_unassigned:act1_special_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "special_placeholder:act1_special_05",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "milestone:0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "milestone:250",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "milestone:500",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "milestone:750",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inscription_acts_4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inscription_tracks:1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:1:strength",
+      "pass": true,
+      "detail": "ΒΙΑΚΑΙΩΣΙΣ"
+    },
+    {
+      "name": "act1_core:strength",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0392:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0392:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0392:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:039A:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:039A:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:039A:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A3:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A3:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A3:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A3:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A3:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:strength:03A3:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:1:endurance",
+      "pass": true,
+      "detail": "ΜΕΓΑΛΗΡΩΜΗ"
+    },
+    {
+      "name": "act1_core:endurance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039C:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039C:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039C:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0395:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0395:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0395:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0393:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0393:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0393:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039B:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039B:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039B:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:03A1:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:03A1:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:03A1:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039C:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039C:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:039C:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:endurance:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:1:breath",
+      "pass": true,
+      "detail": "ΤΑΧΕΙΑΠΝΟΗ"
+    },
+    {
+      "name": "act1_core:breath",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A4:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A4:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A4:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A7:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A7:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A7:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0395:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0395:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0395:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A0:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A0:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:03A0:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:039D:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:039D:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:039D:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:039F:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:039F:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:039F:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:1:breath:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inscription_tracks:2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:2:strength",
+      "pass": true,
+      "detail": "ΑΛΚΗΚΑΙΒΙΑ"
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039B:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039B:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039B:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039A:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039A:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039A:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039A:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039A:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:039A:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0392:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0392:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0392:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:strength:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:2:endurance",
+      "pass": true,
+      "detail": "ΣΩΜΑΚΑΙΖΩΗ"
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A3:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A3:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A3:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:039C:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:039C:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:039C:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:039A:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:039A:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:039A:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0396:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0396:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0396:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:endurance:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:2:breath",
+      "pass": true,
+      "detail": "ΠΝΟΗΚΑΙΡΟΗ"
+    },
+    {
+      "name": "bank_glyph:2:breath:03A0:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:03A0:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:03A0:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039D:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039D:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039D:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039F:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039F:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039F:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039A:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039A:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039A:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:03A1:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:03A1:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:03A1:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039F:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039F:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:039F:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:2:breath:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inscription_tracks:3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:3:strength",
+      "pass": true,
+      "detail": "ΡΩΜΗΚΑΙΒΙΑ"
+    },
+    {
+      "name": "bank_glyph:3:strength:03A1:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:03A1:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:03A1:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:039C:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:039C:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:039C:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:039A:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:039A:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:039A:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0392:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0392:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0392:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:strength:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:3:endurance",
+      "pass": true,
+      "detail": "ΡΩΜΗΚΑΙΖΩΗ"
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A1:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A1:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A1:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:039C:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:039C:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:039C:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:039A:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:039A:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:039A:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0396:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0396:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0396:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:endurance:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:3:breath",
+      "pass": true,
+      "detail": "ΖΩΗΚΑΙΠΝΟΗ"
+    },
+    {
+      "name": "bank_glyph:3:breath:0396:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0396:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0396:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039A:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039A:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039A:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:03A0:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:03A0:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:03A0:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039D:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039D:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039D:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039F:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039F:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:039F:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:3:breath:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inscription_tracks:4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:4:strength",
+      "pass": true,
+      "detail": "ΜΕΓΙΣΤΗΒΙΑ"
+    },
+    {
+      "name": "bank_glyph:4:strength:039C:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:039C:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:039C:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0395:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0395:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0395:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0393:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0393:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0393:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:03A3:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:03A3:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:03A3:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:03A4:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:03A4:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:03A4:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0392:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0392:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0392:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0391:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0391:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:strength:0391:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:4:endurance",
+      "pass": true,
+      "detail": "ΜΕΓΙΣΤΗΖΩΗ"
+    },
+    {
+      "name": "bank_glyph:4:endurance:039C:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:039C:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:039C:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0395:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0395:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0395:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0393:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0393:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0393:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A3:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A3:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A3:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A4:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A4:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A4:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0396:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0396:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0396:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A9:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A9:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:03A9:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:endurance:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "core_length:4:breath",
+      "pass": true,
+      "detail": "ΜΕΓΙΣΤΗΡΟΗ"
+    },
+    {
+      "name": "bank_glyph:4:breath:039C:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:039C:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:039C:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0395:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0395:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0395:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0393:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0393:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0393:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0399:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0399:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0399:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A3:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A3:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A3:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A4:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A4:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A4:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A1:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A1:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:03A1:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:039F:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:039F:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:039F:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0397:engraved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0397:ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bank_glyph:4:breath:0397:active",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:background/slate_bg_main.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:panels/track_panel_common.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:icons/icon_strength.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:panels/track_panel_common.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:icons/icon_endurance.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:panels/track_panel_common.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:icons/icon_breath.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:nodes/state_story_locked.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:nodes/state_padlock_symbol.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:nodes/state_purchased.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:gates/stone_wall_closed.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:gates/stone_wall_left_half.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:gates/stone_wall_right_half.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:character/sisyphus_push_01.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:effects/fx_unlock_flash.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:panels/track_label_blank.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "artboard_actual_target:ornaments/omega_plaque.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glyph_files_21_each_state",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "runtime_files_byte_match_after",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "data_source_byte_match:data/mastery/mastery_node_layout_v12.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "data_source_byte_match:data/mastery/mastery_greek_inscriptions_v12.json",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "reviewer": "independent asset_audit agent; final document/evidence review",
+  "asset_audit_reexecuted_read_only": {
+    "checks": 981,
+    "passed": true,
+    "runtime_png_count": 131,
+    "existing_byte_matches": 131,
+    "failed": []
+  },
+  "build_source_count": 20,
+  "build_source_mismatches": [],
+  "export_file_mismatches": [],
+  "final_browser_nodes35": true,
+  "final_browser_states": {
+    "zero": true,
+    "250": true,
+    "500": true,
+    "750": true,
+    "first_summit": true,
+    "next_run": true
+  },
+  "final_browser_errors": [],
+  "initial_csv_runtime_failure_preserved": true,
+  "browser_screenshot_hash_or_dimensions_mismatch": [],
+  "native_suites": {
+    "data_validation": {
+      "checks": 930,
+      "passed": true,
+      "failures": []
+    },
+    "state_tests": {
+      "checks": 498,
+      "passed": true,
+      "failures": []
+    },
+    "save_compatibility": {
+      "checks": 14,
+      "passed": true,
+      "failures": []
+    },
+    "visual_capture": {
+      "checks": 3710,
+      "passed": true,
+      "failures": []
+    }
+  },
+  "native_total_checks": 5152,
+  "document_local_links_checked": 148,
+  "broken_links": [],
+  "visually_reviewed": [
+    "verification/captures/all-normal-purchased-1920x1080.png",
+    "verification/captures/next_run-1280x720.png",
+    "verification/captures/next_run-960x600.png",
+    "verification/captures/gate-push-1920x1080.png",
+    "web/final-preview-web.png"
+  ],
+  "visual_findings": [
+    "All30normal Greek glyphs form correct3strings in gold/blue/cyan screenshot.",
+    "Next-run shows5 supplied special icons and unknown cost/effect with disabled purchase.",
+    "Native1280 and960 letterboxed layouts retain node/detail separation;960 has smaller text and is not mobile legibility certification.",
+    "Gate screenshot uses supplied rectangular wall and push pose.",
+    "Web946x884 screenshot is letterboxed and is distinct from native resolution evidence."
+  ],
+  "document_corrections_requested": [
+    {
+      "issue": "outer frame source incorrectly described as entirely opaque",
+      "alpha0_pixels": 1720446,
+      "alpha255_pixels": 353154,
+      "center_alpha": 0,
+      "corrected": true
+    },
+    {
+      "issue": "inventory referenced removed new importer translation artifact",
+      "corrected": true
+    }
+  ],
+  "known_limits_confirmed": [
+    "No live integration or save schema change.",
+    "Firefox/Linux, GPU/process memory, profiler, Webloadtime/FPS are explicitly untested/unmeasured.",
+    "Future acts only schema; no140node completed runtime claim."
+  ],
+  "pass": true,
+  "comment_only_reexport": {
+    "source_screen_sha256": "cee99be12d31abd00270b38628e4c3e7adc0b9d39a413f603922fd903f32de4a",
+    "browser_tested_output_hashes": {
+      "index.apple-touch-icon.png": "9b374ecbc8558f480421e646f38aaa8a69d5b1d65ff7b48d0735da214c46773a",
+      "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "index.html": "98f3d85353baf17b5403ea74b0ac1922d9ce16444859768ac7025c343534bb98",
+      "index.icon.png": "08808dd5397e9a502cb3624944151f87a9705b5b66b5c365c5ca4c6ab51525f5",
+      "index.js": "123651c35cbaaad10f02630aa8eeb46ad3c488d75eb1ddba5e234e5e3d531ce8",
+      "index.pck": "9acdbd3958cb97d156fda9b40b3ec24cac2927242dae31831ef11b292c02f0ef",
+      "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "index.wasm": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+    },
+    "all9_final_files_identical_to_browser_tested_build": true,
+    "note": "Documentation correctly distinguishes comment-only source correction from earlier native suite execution; browser-tested export files remain byte identical."
+  },
+  "document_sha256": {
+    "implementation_log_v12.md": "7eae4a6a9e32afbdbfd0591486ebe916c9f81fc0b914996b072ceda4afdaeec5",
+    "tests_v12.md": "43ff1d938fbf3e154904af17e28b6bc654697405c247ffc0daf904a6c1fa00e8",
+    "integration_plan_v12.md": "1d23fcff10c2483d9b742292df47ef1c1820860c026c91f76564ff000b560d46",
+    "changed_files_v12.md": "a9d3785899f5ec6bba8e89a78c0b6431456181353d3750d56d9d74269e269077"
+  },
+  "blocking_findings": []
+}

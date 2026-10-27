@@ -1,0 +1,119 @@
+{
+  "scope": "Only progression_verification, save_robustness_verification, and web_compatibility_tests; Web backends mocked, no browser smoke claim.",
+  "passed": true,
+  "checks": 84,
+  "failures": 0,
+  "source_unchanged": true,
+  "source_sha256_before": {
+    "main.tscn": "8ca1c65cf1621d4639d68e91009bbdaa7400d89bba41cd3abd67307d1f00c7e7",
+    "project.godot": "be4edb70e182475965a038872d1ab00280b539b33a44a8030d43d008b8a507d4",
+    "export_presets.cfg": "e6044104b3e2269483d5d0e73ddd9d3a8ed0193fcb64d3923baced5004616bcb",
+    "scripts/main.gd": "09a958e54323c7ed66bbef3db110a95226e507664cbadaa394b29f23b488d24d",
+    "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7",
+    "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+    "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+    "tests/progression_verification.gd": "5abc65163223b1cd0d73d8b303ffdd45fcc1534013ddc4ccdc866f3771ededdd",
+    "tests/save_robustness_verification.gd": "63d3264e31b8d383e557c1d837a7aa78aa0c7aa7d3abfd28e0ca18ddff0bb7df",
+    "tests/web_compatibility_tests.gd": "551cb09c4b714044e4c0d0c435972453eb413b53b32ca16eb1fd96970f2de967"
+  },
+  "source_sha256_after": {
+    "main.tscn": "8ca1c65cf1621d4639d68e91009bbdaa7400d89bba41cd3abd67307d1f00c7e7",
+    "project.godot": "be4edb70e182475965a038872d1ab00280b539b33a44a8030d43d008b8a507d4",
+    "export_presets.cfg": "e6044104b3e2269483d5d0e73ddd9d3a8ed0193fcb64d3923baced5004616bcb",
+    "scripts/main.gd": "09a958e54323c7ed66bbef3db110a95226e507664cbadaa394b29f23b488d24d",
+    "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7",
+    "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+    "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+    "tests/progression_verification.gd": "5abc65163223b1cd0d73d8b303ffdd45fcc1534013ddc4ccdc866f3771ededdd",
+    "tests/save_robustness_verification.gd": "63d3264e31b8d383e557c1d837a7aa78aa0c7aa7d3abfd28e0ca18ddff0bb7df",
+    "tests/web_compatibility_tests.gd": "551cb09c4b714044e4c0d0c435972453eb413b53b32ca16eb1fd96970f2de967"
+  },
+  "fixture_restored": true,
+  "real_save_access": "No real user save used: inspected fixture paths; save robustness gets explicit --save-path override.",
+  "tests": [
+    {
+      "name": "progression",
+      "script": "tests/progression_verification.gd",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "res://tests/progression_verification.gd"
+      ],
+      "exit_code": 0,
+      "checks": 50,
+      "failures": 0,
+      "pass_lines": 50,
+      "fail_lines": 0,
+      "warnings_errors": [],
+      "duration_seconds": 9.016,
+      "log": "progression.txt",
+      "passed": true,
+      "expected_negative_test_diagnostics": [],
+      "unexpected_diagnostics": []
+    },
+    {
+      "name": "save_robustness",
+      "script": "tests/save_robustness_verification.gd",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "res://tests/save_robustness_verification.gd",
+        "--",
+        "--save-path=res://.tools/qa-invalid-save.json"
+      ],
+      "exit_code": 0,
+      "checks": 10,
+      "failures": 0,
+      "pass_lines": 10,
+      "fail_lines": 0,
+      "warnings_errors": [
+        "ERROR: Parse JSON failed. Error at line 0: Expected key",
+        "WARNING: Could not save SISYPHUS run: File not found"
+      ],
+      "duration_seconds": 7.187,
+      "log": "save_robustness.txt",
+      "passed": true,
+      "expected_negative_test_diagnostics": [
+        "ERROR: Parse JSON failed. Error at line 0: Expected key",
+        "WARNING: Could not save SISYPHUS run: File not found"
+      ],
+      "unexpected_diagnostics": []
+    },
+    {
+      "name": "web_compatibility",
+      "script": "tests/web_compatibility_tests.gd",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "res://tests/web_compatibility_tests.gd"
+      ],
+      "exit_code": 0,
+      "checks": 24,
+      "failures": 0,
+      "pass_lines": 24,
+      "fail_lines": 0,
+      "warnings_errors": [
+        "ERROR: Parse JSON failed. Error at line 0: Expected key",
+        "ERROR: Parse JSON failed. Error at line 0: Expected key"
+      ],
+      "duration_seconds": 3.516,
+      "log": "web_compatibility.txt",
+      "passed": true,
+      "expected_negative_test_diagnostics": [
+        "ERROR: Parse JSON failed. Error at line 0: Expected key",
+        "ERROR: Parse JSON failed. Error at line 0: Expected key"
+      ],
+      "unexpected_diagnostics": []
+    }
+  ],
+  "diagnostic_review": "Reviewed raw logs and source: save robustness intentionally supplies broken JSON and a missing parent directory; Web compatibility intentionally supplies broken JSON to each backend. Exactly these expected diagnostic messages occurred; no unexpected diagnostics."
+}

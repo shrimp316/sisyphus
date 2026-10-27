@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "nodes_per_act": {"strength": 10, "endurance": 10, "breath": 10, "special": 5},
+  "maximum_visible_nodes": 35,
+  "total_reserved_slots": 140,
+  "inscription_bank": "res://data/mastery/mastery_greek_inscriptions_v12.json",
+  "acts": [
+    {"act": 1, "implemented": true, "layout": "res://data/mastery/mastery_node_layout_v12.csv"},
+    {"act": 2, "implemented": false, "layout": null, "effects": null, "costs": null, "gates": null},
+    {"act": 3, "implemented": false, "layout": null, "effects": null, "costs": null, "gates": null},
+    {"act": 4, "implemented": false, "layout": null, "effects": null, "costs": null, "gates": null}
+  ]
+}

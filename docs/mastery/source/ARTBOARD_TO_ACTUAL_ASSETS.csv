@@ -1,0 +1,13 @@
+﻿sheet_label,actual_file_or_composition,matching_method,notes
+mastery_bg_main.png,background/slate_bg_main.png,approximate,"same role; appearance taken from old Slate image, not same sheet graphic"
+track_panel_strength.png,panels/track_panel_common.png + icons/icon_strength.png,composed,no separate exact file in ZIP
+track_panel_endurance.png,panels/track_panel_common.png + icons/icon_endurance.png,composed,no separate exact file in ZIP
+track_panel_breath.png,panels/track_panel_common.png + icons/icon_breath.png,composed,no separate exact file in ZIP
+node_locked.png,nodes/state_story_locked.png + nodes/state_padlock_symbol.png,composed,separate overlay roles
+node_purchased.png,nodes/state_purchased.png,mapped,per-state overlay
+gate_closed.png,gates/stone_wall_closed.png,mapped,actual PNG present
+gate_open.png,gates/stone_wall_left_half.png + gates/stone_wall_right_half.png,composed,left/right moving wall layers
+sisyphus_push_01.png,character/sisyphus_push_01.png,exact_path,actual PNG present
+fx_unlock_flash.png,effects/fx_unlock_flash.png,exact_path,actual PNG present
+chapter_frame_1.png,panels/track_label_blank.png,missing_as_illustrated,"chapter labels rendered in Godot, exact artboard chapter graphic not exported"
+omega_plaque.png,ornaments/omega_plaque.png,exact_path,actual PNG present

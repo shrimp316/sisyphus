@@ -1,0 +1,113 @@
+{
+  "suites": [
+    {
+      "suite": "test_mastery_progression",
+      "exit": 0,
+      "passed": true,
+      "summary": {
+        "checks": 113,
+        "failures": [],
+        "suite": "mastery_progression"
+      },
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "res://tests/mvp/test_mastery_progression.gd"
+      ],
+      "log_sha256": "a4b9cff83cefc7d8a96ae2fac4f4d11d2a42e3fd63854e6d7ffc3fb0266e9b53"
+    },
+    {
+      "suite": "test_mastery_save",
+      "exit": 0,
+      "passed": true,
+      "summary": {
+        "checks": 109,
+        "failures": [],
+        "suite": "mastery_save"
+      },
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "res://tests/mvp/test_mastery_save.gd"
+      ],
+      "log_sha256": "1a8135071f3bf8ec7e7e067a90256a7cb53b0c5f893d3fd8c18c47f99d8082b9"
+    },
+    {
+      "suite": "test_save_contract",
+      "exit": 0,
+      "passed": true,
+      "summary": {
+        "checks": 167,
+        "failures": [],
+        "suite": "save_contract"
+      },
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "res://tests/mvp/test_save_contract.gd"
+      ],
+      "log_sha256": "7a653beb31d32274067f5c92dda137742b57bbe04e6dc11f883cb236d321aacb"
+    },
+    {
+      "suite": "test_mvp_ui",
+      "exit": 0,
+      "passed": true,
+      "summary": {
+        "checks": 265,
+        "failures": 0
+      },
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "res://tests/mvp/test_mvp_ui.gd"
+      ],
+      "log_sha256": "0adbb95a532a5baeea750dccaf90711f4c85c5a1f1c337d3b9b202dd1ef5daf2"
+    },
+    {
+      "suite": "test_mvp_integration",
+      "exit": 0,
+      "passed": true,
+      "summary": {
+        "checks": 244,
+        "failures": [],
+        "manual_arrival_fixtures": true,
+        "save_path": "user://mvp-integration-patch-29e74730282b498d81228f4d12b58a6c.json",
+        "suite": "mvp_integration"
+      },
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "res://tests/mvp/test_mvp_integration.gd",
+        "--",
+        "--save-path=user://mvp-integration-patch-29e74730282b498d81228f4d12b58a6c.json"
+      ],
+      "log_sha256": "105f3667bb2ff1f0faee5856526afd895fe6229768595750b219dc70da6e182c"
+    }
+  ],
+  "protected_files_checked": 11,
+  "protected_files_changed": [
+    "export_presets.cfg"
+  ],
+  "approved_export_only_changes": [
+    "export_presets.cfg"
+  ],
+  "unexpected_protected_changes": [],
+  "historical_ui_result_preserved": true,
+  "passed": true,
+  "scope": "These existing UI tests exercise the retained old board scene; new live board is tested separately."
+}

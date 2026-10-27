@@ -1,0 +1,1112 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/character/sisyphus_push_01.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/character/sisyphus_push_02.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/character/sisyphus_push_03.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/character/sisyphus_push_04.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/character/sisyphus_push_05.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/character/sisyphus_push_sheet.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/special/special_placeholder_01.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/special/special_placeholder_02.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/special/special_placeholder_03.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/special/special_placeholder_04.png",
+      "pass": true
+    },
+    {
+      "name": "dimensions_preserved:assets/ui/mastery/special/special_placeholder_05.png",
+      "pass": true
+    },
+    {
+      "name": "immutable_original_backup",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/background/header_architecture.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/background/slate_bg_main.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/background/slate_outer_frame_overlay.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/character/sisyphus_idle.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/character/sisyphus_push_01.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/character/sisyphus_push_02.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/character/sisyphus_push_03.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/character/sisyphus_push_04.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/character/sisyphus_push_05.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/character/sisyphus_push_sheet.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/fx_dust.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/fx_engrave.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/fx_light_ray.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/fx_milestone.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/fx_particles.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/fx_ring_glow.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/fx_special_open.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/fx_unlock_flash.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/glow_breath.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/glow_endurance.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/effects/glow_strength.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/gates/stone_wall_closed.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/gates/stone_wall_left_half.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/gates/stone_wall_right_half.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/icons/icon_breath.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/icons/icon_endurance.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/icons/icon_strength.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/faces/rune_stone_face_breath.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/faces/rune_stone_face_endurance.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/faces/rune_stone_face_strength.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/0391.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/0392.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/0393.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/0395.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/0396.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/0397.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/0398.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/0399.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/039A.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/039B.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/039C.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/039D.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/039F.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/03A0.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/03A1.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/03A3.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/03A4.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/03A5.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/03A6.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/03A7.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/active/03A9.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/0391.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/0392.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/0393.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/0395.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/0396.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/0397.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/0398.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/0399.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/039A.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/039B.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/039C.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/039D.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/039F.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/03A0.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/03A1.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/03A3.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/03A4.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/03A5.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/03A6.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/03A7.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/engraved/03A9.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/0391.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/0392.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/0393.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/0395.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/0396.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/0397.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/0398.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/0399.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/039A.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/039B.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/039C.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/039D.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/039F.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/03A0.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/03A1.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/03A3.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/03A4.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/03A5.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/03A6.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/03A7.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/inscriptions/glyphs/ready/03A9.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/navigation/arrow_next.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/navigation/arrow_prev.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/navigation/button_purchase_blank.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/navigation/header_text_blank_plaque.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/connector_active.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/connector_inactive.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/node_base.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/node_locked_full_preview.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/node_ring_bronze.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/state_available.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/state_insufficient_exp.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/state_padlock_symbol.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/state_purchased.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/state_selected.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/state_story_locked.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/track_frame_breath.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/track_frame_endurance.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/nodes/track_frame_strength.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/ornaments/omega_plaque.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/detail_panel.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/milestone_frame.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/special_panel.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/tooltip_frame.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/track_badge_breath.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/track_badge_endurance.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/track_badge_strength.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/track_bottom_trim.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/track_label_blank.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/track_panel_common.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/panels/track_top_trim.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/special/special_node_frame.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/special/special_placeholder_01.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/special/special_placeholder_02.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/special/special_placeholder_03.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/special/special_placeholder_04.png",
+      "pass": true
+    },
+    {
+      "name": "patched_exact:assets/ui/mastery/special/special_placeholder_05.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/special/special_seal.png",
+      "pass": true
+    },
+    {
+      "name": "unchanged_exact:assets/ui/mastery/special/special_seal_cracked.png",
+      "pass": true
+    },
+    {
+      "name": "sheet_cell0_idle_alpha_preserved",
+      "pass": true
+    },
+    {
+      "name": "sheet_cell1_matches_individual_push",
+      "pass": true
+    },
+    {
+      "name": "sheet_cell2_matches_individual_push",
+      "pass": true
+    },
+    {
+      "name": "sheet_cell3_matches_individual_push",
+      "pass": true
+    },
+    {
+      "name": "sheet_cell4_matches_individual_push",
+      "pass": true
+    },
+    {
+      "name": "sheet_cell5_matches_individual_push",
+      "pass": true
+    }
+  ],
+  "check_count": 149,
+  "failed": [],
+  "original_archive_sha256": "776877f77cae96efa88a13442d1e09f8a7a39fd60a7ee187e6036f3b96ac5c13",
+  "patch_archive_sha256": "5131de5273d1572cd3cabc7ad843a4fdb93af3931202e11be0730016466f3eeb",
+  "original_runtime_png_count": 131,
+  "authorized_replacements": 11,
+  "unaffected_pngs": 120,
+  "applied_this_run": [],
+  "backup": "docs/mastery/patch-v12/originals.zip",
+  "backup_sha256": "6c78246df54ca1d8d6422eeb6d87b5d77f13dd043f0a4b46dee48768c1df6b1c",
+  "comparisons": [
+    {
+      "path": "assets/ui/mastery/character/sisyphus_push_01.png",
+      "before": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 63763,
+        "sha256": "b2b10b2082be003f98f8c0c5b67e4c17c79ff0a90ce521553028b5ab50bdd121",
+        "alpha_bbox": [
+          69,
+          0,
+          248,
+          167
+        ],
+        "transparent_pixels": 30045,
+        "opaque_pixels": 2902,
+        "partial_alpha_pixels": 16653
+      },
+      "after": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 41690,
+        "sha256": "0dada2a0104ee75265ee040ccf3e7e85a92c5717c950280e7e3edabc945c79ea",
+        "alpha_bbox": [
+          21,
+          34,
+          239,
+          193
+        ],
+        "transparent_pixels": 36479,
+        "opaque_pixels": 3208,
+        "partial_alpha_pixels": 9913
+      },
+      "changed_pixels": 26031,
+      "visible_changed_pixels_black_or_white_background": 23540,
+      "hidden_or_quantized_rgb_only_changed_pixels": 2491,
+      "changed_bbox": [
+        21,
+        0,
+        248,
+        200
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/character/sisyphus_push_02.png",
+      "before": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 73184,
+        "sha256": "f597937d7b64d05cc7b3709980b41894ac7004ac281612092699562c6493ffe9",
+        "alpha_bbox": [
+          0,
+          0,
+          248,
+          167
+        ],
+        "transparent_pixels": 27035,
+        "opaque_pixels": 2735,
+        "partial_alpha_pixels": 19830
+      },
+      "after": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 41684,
+        "sha256": "e937e7837cce55605bd41bf76f4f7e14cb7ef007c658174f036cc2b50040b659",
+        "alpha_bbox": [
+          11,
+          47,
+          241,
+          196
+        ],
+        "transparent_pixels": 36142,
+        "opaque_pixels": 3253,
+        "partial_alpha_pixels": 10205
+      },
+      "changed_pixels": 30977,
+      "visible_changed_pixels_black_or_white_background": 27889,
+      "hidden_or_quantized_rgb_only_changed_pixels": 3088,
+      "changed_bbox": [
+        0,
+        0,
+        248,
+        200
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/character/sisyphus_push_03.png",
+      "before": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 81796,
+        "sha256": "c616df5733f4ee2a14847d8a7577b62b391b7b98c9940704cf19613d5273f084",
+        "alpha_bbox": [
+          0,
+          2,
+          248,
+          167
+        ],
+        "transparent_pixels": 25141,
+        "opaque_pixels": 3673,
+        "partial_alpha_pixels": 20786
+      },
+      "after": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 46117,
+        "sha256": "11973b084ae75c5760d49c09aec29ab8218bdf26e2fa8c036a99aa896bb11b29",
+        "alpha_bbox": [
+          7,
+          32,
+          240,
+          194
+        ],
+        "transparent_pixels": 34830,
+        "opaque_pixels": 3413,
+        "partial_alpha_pixels": 11357
+      },
+      "changed_pixels": 33933,
+      "visible_changed_pixels_black_or_white_background": 29716,
+      "hidden_or_quantized_rgb_only_changed_pixels": 4217,
+      "changed_bbox": [
+        0,
+        2,
+        248,
+        200
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/character/sisyphus_push_04.png",
+      "before": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 69876,
+        "sha256": "8ca8d65e866a32ecec34f126b61a4c76db3e8a305fce5cd76bfcaaf5561a0721",
+        "alpha_bbox": [
+          0,
+          2,
+          248,
+          167
+        ],
+        "transparent_pixels": 28230,
+        "opaque_pixels": 3140,
+        "partial_alpha_pixels": 18230
+      },
+      "after": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 42614,
+        "sha256": "2127809b28259248f8404abe3edb34ca14e9d415a1f3522995a537c07083388d",
+        "alpha_bbox": [
+          19,
+          41,
+          240,
+          199
+        ],
+        "transparent_pixels": 36202,
+        "opaque_pixels": 3374,
+        "partial_alpha_pixels": 10024
+      },
+      "changed_pixels": 30563,
+      "visible_changed_pixels_black_or_white_background": 27750,
+      "hidden_or_quantized_rgb_only_changed_pixels": 2813,
+      "changed_bbox": [
+        0,
+        2,
+        248,
+        200
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/character/sisyphus_push_05.png",
+      "before": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 73206,
+        "sha256": "836e68079461d58cbaaf51abaa2f492734f177b5a06ce25fd5c05ace7f597053",
+        "alpha_bbox": [
+          0,
+          0,
+          248,
+          167
+        ],
+        "transparent_pixels": 26832,
+        "opaque_pixels": 2438,
+        "partial_alpha_pixels": 20330
+      },
+      "after": {
+        "width": 248,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 45302,
+        "sha256": "f6bbec1aef4c723a6ba4bb20a5a8fbec94c6e8ecb7096d4a4a99621f0147797f",
+        "alpha_bbox": [
+          6,
+          33,
+          241,
+          199
+        ],
+        "transparent_pixels": 34830,
+        "opaque_pixels": 3392,
+        "partial_alpha_pixels": 11378
+      },
+      "changed_pixels": 35496,
+      "visible_changed_pixels_black_or_white_background": 32183,
+      "hidden_or_quantized_rgb_only_changed_pixels": 3313,
+      "changed_bbox": [
+        0,
+        0,
+        248,
+        199
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/character/sisyphus_push_sheet.png",
+      "before": {
+        "width": 1488,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 357708,
+        "sha256": "6d33c22909cf5b0a8baba610159ff82c1727f3b2c37fe75bc1c35ec7003b045e",
+        "alpha_bbox": [
+          7,
+          0,
+          1488,
+          197
+        ],
+        "transparent_pixels": 168996,
+        "opaque_pixels": 26572,
+        "partial_alpha_pixels": 102032
+      },
+      "after": {
+        "width": 1488,
+        "height": 200,
+        "mode": "RGBA",
+        "bytes": 265724,
+        "sha256": "1d9c33b3e1362e360371b1a75ae3531fe30319050959ead6183d80e2ac5ec731",
+        "alpha_bbox": [
+          7,
+          5,
+          1481,
+          199
+        ],
+        "transparent_pixels": 210196,
+        "opaque_pixels": 28324,
+        "partial_alpha_pixels": 59080
+      },
+      "changed_pixels": 141078,
+      "visible_changed_pixels_black_or_white_background": 141078,
+      "hidden_or_quantized_rgb_only_changed_pixels": 0,
+      "changed_bbox": [
+        269,
+        0,
+        1488,
+        199
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/special/special_placeholder_01.png",
+      "before": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 18778,
+        "sha256": "ed3fa079231298023e2ccbb3c347f274bdaf9177d965744dfbf3b43d6a45e239",
+        "alpha_bbox": [
+          1,
+          1,
+          127,
+          91
+        ],
+        "transparent_pixels": 7232,
+        "opaque_pixels": 7370,
+        "partial_alpha_pixels": 1782
+      },
+      "after": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 23057,
+        "sha256": "d64b67d4025d58aeb1da7c265716dbfbf76ac6b1ef5c52286bbe8e12639a9904",
+        "alpha_bbox": [
+          14,
+          12,
+          117,
+          117
+        ],
+        "transparent_pixels": 8676,
+        "opaque_pixels": 1056,
+        "partial_alpha_pixels": 6652
+      },
+      "changed_pixels": 11127,
+      "visible_changed_pixels_black_or_white_background": 10291,
+      "hidden_or_quantized_rgb_only_changed_pixels": 836,
+      "changed_bbox": [
+        1,
+        1,
+        127,
+        127
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/special/special_placeholder_02.png",
+      "before": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 16866,
+        "sha256": "46dedf162cffe51e34c1e4304d67bf1eeb41e816246522e6a93d685471e11e30",
+        "alpha_bbox": [
+          1,
+          1,
+          127,
+          91
+        ],
+        "transparent_pixels": 7194,
+        "opaque_pixels": 7334,
+        "partial_alpha_pixels": 1856
+      },
+      "after": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 22524,
+        "sha256": "a86895444b276784d0447adfe5193c085fe829f2972babb3b9b8653f73e987f9",
+        "alpha_bbox": [
+          12,
+          10,
+          117,
+          120
+        ],
+        "transparent_pixels": 8371,
+        "opaque_pixels": 1080,
+        "partial_alpha_pixels": 6933
+      },
+      "changed_pixels": 11189,
+      "visible_changed_pixels_black_or_white_background": 10340,
+      "hidden_or_quantized_rgb_only_changed_pixels": 849,
+      "changed_bbox": [
+        1,
+        1,
+        127,
+        127
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/special/special_placeholder_03.png",
+      "before": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 20415,
+        "sha256": "3914340c40efb041da97c4aac3186833f793cb6fdc9af94b1c8263d854397b5e",
+        "alpha_bbox": [
+          1,
+          1,
+          127,
+          91
+        ],
+        "transparent_pixels": 7194,
+        "opaque_pixels": 7334,
+        "partial_alpha_pixels": 1856
+      },
+      "after": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 24557,
+        "sha256": "59f5881ac17243a82f8955a5f2c6f654561fb8be0c3a071f8779703e417717c3",
+        "alpha_bbox": [
+          10,
+          7,
+          119,
+          112
+        ],
+        "transparent_pixels": 7927,
+        "opaque_pixels": 1104,
+        "partial_alpha_pixels": 7353
+      },
+      "changed_pixels": 10977,
+      "visible_changed_pixels_black_or_white_background": 10337,
+      "hidden_or_quantized_rgb_only_changed_pixels": 640,
+      "changed_bbox": [
+        1,
+        1,
+        127,
+        127
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/special/special_placeholder_04.png",
+      "before": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 19286,
+        "sha256": "0ff0f5b654deb5f087ab8cb07824fb1fc0d8b88027de19d1c404cdcafdeab762",
+        "alpha_bbox": [
+          1,
+          1,
+          127,
+          91
+        ],
+        "transparent_pixels": 7194,
+        "opaque_pixels": 7334,
+        "partial_alpha_pixels": 1856
+      },
+      "after": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 24238,
+        "sha256": "4732034e5345a52e54c9e8125ff63fdb3e85993108ceb52f4aae4002ebb07cc6",
+        "alpha_bbox": [
+          12,
+          6,
+          120,
+          118
+        ],
+        "transparent_pixels": 7949,
+        "opaque_pixels": 1097,
+        "partial_alpha_pixels": 7338
+      },
+      "changed_pixels": 11102,
+      "visible_changed_pixels_black_or_white_background": 10279,
+      "hidden_or_quantized_rgb_only_changed_pixels": 823,
+      "changed_bbox": [
+        1,
+        1,
+        127,
+        127
+      ],
+      "before_apply": "already_patched"
+    },
+    {
+      "path": "assets/ui/mastery/special/special_placeholder_05.png",
+      "before": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 18262,
+        "sha256": "695a86f59b003b1fefff807c43a3c1bc58a3b3594117b8d88bbcf3a70762a939",
+        "alpha_bbox": [
+          1,
+          1,
+          127,
+          91
+        ],
+        "transparent_pixels": 7194,
+        "opaque_pixels": 7334,
+        "partial_alpha_pixels": 1856
+      },
+      "after": {
+        "width": 128,
+        "height": 128,
+        "mode": "RGBA",
+        "bytes": 25094,
+        "sha256": "07cb9b022d2475cffaca572bbb0a7335d7a775ff0ba7261649ba5168390a7f9e",
+        "alpha_bbox": [
+          10,
+          6,
+          119,
+          113
+        ],
+        "transparent_pixels": 7758,
+        "opaque_pixels": 1113,
+        "partial_alpha_pixels": 7513
+      },
+      "changed_pixels": 11187,
+      "visible_changed_pixels_black_or_white_background": 10444,
+      "hidden_or_quantized_rgb_only_changed_pixels": 743,
+      "changed_bbox": [
+        1,
+        1,
+        127,
+        127
+      ],
+      "before_apply": "already_patched"
+    }
+  ],
+  "sheet_note": "First sheet cell contains idle alpha, not an empty slot; five following cells match push01..05. Current mastery gate uses individual frames and idle PNG, not this sheet.",
+  "sheet_idle_cell_changed_pixels_vs_separate_idle": 265,
+  "alpha_interpretation": "PNG review must honor alpha. Old special01 bottom text-like RGB at y110+ has zero alpha and was invisible; replacement corrects icon framing, not a proven rendered text leak.",
+  "scope": "Only supplied eleven PNG bytes replaced; no resizing, re-encoding, name changes, physics/economy/save code or historical v1.1/v1.2 results modified."
+}

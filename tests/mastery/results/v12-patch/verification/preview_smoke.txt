@@ -1,0 +1,17 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+MASTERY_PREVIEW_READY nodes=35
+MASTERY_PREVIEW_STATE {"eligible":0,"fixture":"zero","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":0,"fixture":"zero","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":0,"fixture":"zero","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":10,"fixture":"250","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":10,"fixture":"250","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":20,"fixture":"500","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":20,"fixture":"500","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":30,"fixture":"750","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":30,"fixture":"750","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":30,"fixture":"first_summit","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":30,"fixture":"first_summit","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":35,"fixture":"next_run","purchased":null,"selected":"act1_strength_01"}
+MASTERY_PREVIEW_STATE {"eligible":35,"fixture":"next_run","purchased":null,"selected":"act1_strength_01"}
+{"checks":20,"failures":[],"passed":true,"scope":"Standalone mock preview defaults after adding MVP-specific hooks; no game save."}

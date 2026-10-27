@@ -45,7 +45,8 @@ func _ready() -> void:
 func refresh(profile: RefCounted, can_resume: bool) -> void:
 	controls.continue.disabled = not can_resume
 	controls.sephirot.visible = profile.sephirot_unlocked
-	controls.mastery.disabled = profile.permanent_mastery_unlocks.is_empty()
+	# Locked nodes can be inspected before the first milestone; buying stays guarded.
+	controls.mastery.disabled = false
 	record.text = "%.0fm" % profile.highest_distance
 	wallet.text = "%d EXP" % profile.available_exp
 	history.text = "프레스티지 %d회\n말쿠트 · EXP ×5\n운명의 실 %d개" % [profile.prestige_count, profile.threads_balance] if profile.first_summit_completed else "아직 끝을 알 수 없는 길.\n발걸음은 기록으로 남는다."

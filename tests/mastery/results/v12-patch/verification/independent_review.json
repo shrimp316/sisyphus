@@ -1,0 +1,123 @@
+{
+  "reviewer": "independent patch_verifier agent",
+  "scope": "MVP in-game UI, existing core economic/save preservation, actual InputEvents and native OpenGL rendering; Web runtime belongs to parent",
+  "source_sha256": {
+    "scripts/mvp/mastery_main.gd": "31173d9500a6c648c6576fe16ab085eca1598a0cb892c46e68da5e2ce6a427cb",
+    "scripts/mvp/main_menu.gd": "df637a4ae5eebfe646dda1c5039363549d9116a8b9540dd1833ac2059594dda8",
+    "scripts/mastery/mastery_mvp_adapter.gd": "3cf4511836daa294e02070aa7918e54b51a777d1a497f50dfb34c89c1e0ddbf8",
+    "scripts/mastery/mastery_mvp_board.gd": "2c300ff3703862cc8d2d1bd18d192458b310432996651fbfe57fbce238bfd940",
+    "scripts/mastery/mastery_screen.gd": "7fb3f2964792d91811be062cd2f1cd756698cda85584e7b77722df667ddf2479",
+    "godot/scenes/mastery/mastery_mvp_board.tscn": "bbc028ed34f1e62c87fdd327a4587296381722c43ea0cc0035d3de2c02bd6da7",
+    "export_presets.cfg": "52d9b322e20c26535f9e732c9e168e2d05b39e98ce20d8bd8c053d7d70e8b005",
+    "tests/mastery/test_mvp_tablet_integration.gd": "57991f93d123f3f844b5965291868da262b817fd00bd6615dffccef7d82897b6",
+    "tests/mastery/test_preview_after_patch.gd": "3dcb0844a3bddf57f8554865f9dbe5a1f8a1f6ff142c8e51492b6e2d8cc7a789"
+  },
+  "protected": {
+    "checked": 11,
+    "unchanged_core_files": 10,
+    "approved_export_only_changes": [
+      "export_presets.cfg"
+    ],
+    "unexpected_changes": []
+  },
+  "suites": {
+    "live": {
+      "checks": 918,
+      "passed": true,
+      "failures": []
+    },
+    "preview_data": {
+      "checks": 930,
+      "passed": true,
+      "failures": []
+    },
+    "preview_state": {
+      "checks": 498,
+      "passed": true,
+      "failures": []
+    },
+    "preview_smoke": {
+      "checks": 20,
+      "passed": true,
+      "failures": []
+    }
+  },
+  "existing_regression_checks": 898,
+  "existing_regression_passed": true,
+  "captures": [
+    {
+      "path": "res://tests/mastery/results/v12-patch/verification/captures/mvp-main-menu-1920.png",
+      "sha256": "77cc1092f16c72df467cf0b13bb031f58728237e26f1ec81f66dfba0b633bf2f",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "res://tests/mastery/results/v12-patch/verification/captures/mvp-title-tablet-1920.png",
+      "sha256": "126123ab727e1cdf0939d53a132dec06aef629930862d8b1db54192d1573d81b",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "res://tests/mastery/results/v12-patch/verification/captures/mvp-purchase-1920.png",
+      "sha256": "2110654228d1a7119e1927f684ce184d52e9d4e222a032372fbf34f89163817a",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "res://tests/mastery/results/v12-patch/verification/captures/mvp-special-preserved-1920.png",
+      "sha256": "70a585d2d6def9f22559bc0d5ae87e64b46a81864337c4b70b393fb6112b94e1",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "res://tests/mastery/results/v12-patch/verification/captures/mvp-special-preserved-1280.png",
+      "sha256": "9e460f5e71049f72eb93d4beb877fc5ff0d49381f2b90ed56052be9fb9d404bb",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "res://tests/mastery/results/v12-patch/verification/captures/mvp-patched-push-1280.png",
+      "sha256": "9732212557d076c0a54adaec5cc7b970fc8fbb8305e7f797edddd8b293e8eba4",
+      "size": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "visual_checks": [
+    "1920 title -> currentMVP35node tablet; 0m read-only browse has no mockdevelopercontrols",
+    "1280 all5patchedspecialicons fitframes; preservedSPC01 purchasedstate and no newpurchasecost/effect",
+    "Purchasedspecialbody shorttext no orphan lastsyllable; purchasedbutton width remains316",
+    "Patchedpushpose visibly pushes provided rectangularwall, screenshot differs from staticboard",
+    "All35node detailfield heights/verticalgaps/buttonwidth checked at1920and1280"
+  ],
+  "review_findings": [
+    "ExistingMVP wallet rules differ from legacy30rank model; liveUI uses actualdefinition descriptions/costs, not2percent mock",
+    "Only host confirmation path mutates purchased model; safe purchase and save-blocked checks retained",
+    "SPCnewpurchase blocked at UI+host request guard; existing purchasedmodel/effects unchanged",
+    "New0mreadonlybrowse close does not create save; actualgame close still savesexistingstate",
+    "Basepreview default hooks preserve original mock6fixture distribution and rankpointlabels"
+  ],
+  "fixed_during_review": [
+    "Enabled0m readonlymenu and prevented unintended savecreation onclose",
+    "Shortened purchasedspecialdescription/button to prevent awkwardwrap and artwidthspill"
+  ],
+  "limits": [
+    "No Linux or browserruntime PASS from this lane",
+    "Native captures are real OpenGL SubViewport with viewport-routedInputEvents, notOSwindowautomation",
+    "ExistingoldUI test still exercises oldretainedscene; newactualhost exercised separately",
+    "Synthetic progress and purchasedspecial fixtures use originalmodelmethods in isolatedsave, not a realuserprofile"
+  ],
+  "blocking_findings": [],
+  "passed": true
+}

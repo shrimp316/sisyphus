@@ -1,0 +1,164 @@
+[
+  {
+    "level": "log",
+    "message": "Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org",
+    "timestamp": "2026-10-27T08:16:01.899Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-10-27T08:16:03.206Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.10, single-threaded, no GDExtension support.",
+    "timestamp": "2026-10-27T08:16:03.648Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_READY nodes=35",
+    "timestamp": "2026-10-27T08:16:04.293Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":0,\"fixture\":\"zero\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:16:04.293Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":10,\"fixture\":\"250\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:17:35.936Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":20,\"fixture\":\"500\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:17:48.449Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":30,\"fixture\":\"750\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:17:53.255Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":30,\"fixture\":\"first_summit\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:18:03.542Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:18:05.512Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_special_01\"}",
+    "timestamp": "2026-10-27T08:18:16.065Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_special_01\"}",
+    "timestamp": "2026-10-27T08:18:16.226Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:18:35.102Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_special_02\"}",
+    "timestamp": "2026-10-27T08:18:35.431Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_special_02\"}",
+    "timestamp": "2026-10-27T08:18:35.650Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_special_01\"}",
+    "timestamp": "2026-10-27T08:18:35.896Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_special_01\"}",
+    "timestamp": "2026-10-27T08:18:35.916Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:18:37.994Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:18:38.011Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_02\"}",
+    "timestamp": "2026-10-27T08:18:38.040Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_02\"}",
+    "timestamp": "2026-10-27T08:18:38.072Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:18:52.556Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:18:52.563Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:19:01.915Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:19:55.807Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_special_01\"}",
+    "timestamp": "2026-10-27T08:21:16.031Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":35,\"fixture\":\"next_run\",\"purchased\":null,\"selected\":\"act1_special_01\"}",
+    "timestamp": "2026-10-27T08:21:16.489Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  }
+]

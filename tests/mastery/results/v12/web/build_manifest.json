@@ -1,0 +1,67 @@
+{
+  "kind": "isolated_preview_debug_export",
+  "engine": "Godot 4.5.1",
+  "duration_seconds": 108.112,
+  "production_project_or_presets_changed": false,
+  "source_sha256": {
+    "scripts/mastery/mastery_art.gd": "79aa50c0a428005c02ad7158b7a6bc9266fbef9760d6ad52f84b4e1cbfdf2bb9",
+    "scripts/mastery/mastery_gate.gd": "6ac3f3b23f1676d51fe285202dfc6ba3d4b80b7842bda4da1ce78438e938a4d1",
+    "scripts/mastery/mastery_layout_loader.gd": "4e2b0b346d2c122d53cb0138aed9ba98e1cc14009576aa99a7a7b797a8b94c62",
+    "scripts/mastery/mastery_node.gd": "014abbbfacac4d57c165e01c2eb83ee6707394079ff20fa2f78fbe9ff9fec923",
+    "scripts/mastery/mastery_preview_controller.gd": "a3839e96a56a6125c7f9a02643dd6bd734276ce8db4e687091e61d0738afdcd1",
+    "scripts/mastery/mastery_progress_adapter.gd": "0257b9cb693ed885df0e8823fccc5005d25dd192c7d6c5e0ec7ff68f58678a32",
+    "scripts/mastery/mastery_screen.gd": "cee99be12d31abd00270b38628e4c3e7adc0b9d39a413f603922fd903f32de4a",
+    "scripts/mastery/mastery_state_resolver.gd": "e7ac26e0fd0d8eb0a05ff96f7d8ebba1db44646c57cbb04839fd4a50ccf12808",
+    "scripts/mastery/mastery_track.gd": "aedd2081eb02648d2e57083bc781d41ca997d0b341b4c4f375f76b91308fd065",
+    "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7",
+    "godot/scenes/mastery/mastery_gate.tscn": "b9f173a46d90b9c70cfe9b6a86b4a6e21b89e011a7c9767b721621cf85f18c86",
+    "godot/scenes/mastery/mastery_node.tscn": "020a1bf27a94716d29890e12e14c91cd2d3036e41e741f2053b8c7e322f5f2a5",
+    "godot/scenes/mastery/mastery_preview.tscn": "1695d44b2b57d536a72b6a851d632229f0acab8c09c314fcf4b2b4de4915a25f",
+    "godot/scenes/mastery/mastery_tablet_screen.tscn": "fbe2ed4b9957010bf7ec713c2716f8c7c79cd8d1f0f0bd1086d8a8f01654607f",
+    "godot/scenes/mastery/mastery_track.tscn": "5522002e815bb80d2db0936117dbb4d0f9e0393237a9a6005f5474b4ab5f0550",
+    "data/mastery/mastery_act_schema_v12.json": "2e719ac61e9df5f0917927c87bac8a87989b1c25531cd45bbc9410d8e8177a88",
+    "data/mastery/mastery_greek_inscriptions_v12.json": "21b013b8089660c0afa41bb49ef6a0a871cbe865ccbd97ee4df7b5544d09bd06",
+    "data/mastery/mastery_node_layout_v12.csv": "0511d2a935c2e635780bb577a5d6226af802e7a818897572de1f1c755ad1e464",
+    "data/mastery/mastery_node_layout_v12.csv.import": "c7d129df259feb5addb132a77ded322a6d94840a35e6112510cf7ff731f474bb",
+    "data/mastery/mastery_preview_fixtures.json": "e00cbd9f5569cc09d9435a6b0d9a10b05fd20d750a57e45f56d89f37e7c44bf4"
+  },
+  "files": {
+    "index.apple-touch-icon.png": {
+      "bytes": 11952,
+      "sha256": "9b374ecbc8558f480421e646f38aaa8a69d5b1d65ff7b48d0735da214c46773a"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 5470,
+      "sha256": "98f3d85353baf17b5403ea74b0ac1922d9ce16444859768ac7025c343534bb98"
+    },
+    "index.icon.png": {
+      "bytes": 5702,
+      "sha256": "08808dd5397e9a502cb3624944151f87a9705b5b66b5c365c5ca4c6ab51525f5"
+    },
+    "index.js": {
+      "bytes": 272262,
+      "sha256": "123651c35cbaaad10f02630aa8eeb46ad3c488d75eb1ddba5e234e5e3d531ce8"
+    },
+    "index.pck": {
+      "bytes": 19555396,
+      "sha256": "9acdbd3958cb97d156fda9b40b3ec24cac2927242dae31831ef11b292c02f0ef"
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.wasm": {
+      "bytes": 36145869,
+      "sha256": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+    }
+  },
+  "browser_runtime": "recorded separately; export success alone is not runtime PASS"
+}

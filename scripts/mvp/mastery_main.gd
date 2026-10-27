@@ -5,7 +5,7 @@ const MasteryStone = preload("res://scripts/mvp/climb_boulder.gd")
 const SaveContract = preload("res://scripts/mvp/save_contract.gd")
 const UI = preload("res://scripts/mvp/ui_theme.gd")
 const MenuScene = preload("res://scenes/mvp/main_menu.tscn")
-const BoardScene = preload("res://scenes/mvp/mastery_board.tscn")
+const BoardScene = preload("res://godot/scenes/mastery/mastery_mvp_board.tscn")
 const Canvas = preload("res://scripts/mvp/design_canvas.gd")
 const PRESTIGE_PHASES: Array[String] = ["SUMMIT_REACHED","FIRST_SUMMIT_SEQUENCE","BOULDER_ROLLS_AWAY","PRESTIGE_COMMIT","SEPHIROT_REVEAL","MALKUTH_UNLOCK","NEW_RUN"]
 var mastery: MasteryProgression = Mastery.new()
@@ -233,33 +233,37 @@ func _start_new_cycle_run() -> void:
 
 func _open_board(milestone: bool) -> void:
 	if board == null or persistence_failed: return
+	var newly_opened: bool = not board.visible or ui_mode not in ["board", "confirm_board"]
 	board_return = screen
 	ui_mode = "board"
 	paused = true
 	menu.hide()
 	_clear_overlay()
 	board.show()
-	board.refresh(mastery, not save_blocked and (milestone or (screen=="game" and _safe_for_upgrade())), "%dm · 새로운 숙련이 열렸습니다" % int(modal_milestone.distance) if milestone else "숙련의 석판")
+	board.bind_profile(mastery, not save_blocked and (milestone or (screen=="game" and _safe_for_upgrade())), "%dm · 새로운 숙련이 열렸습니다" % int(modal_milestone.distance) if milestone else "숙련의 석판", run_number)
+	if milestone and newly_opened: board.play_unlock(int(modal_milestone.distance))
 	board.slots[board.selection].grab_focus()
 
 func _close_board() -> void:
 	if persistence_failed: return
+	board.skip_animations()
 	board.hide()
 	modal_milestone = {}
 	ui_mode = ""
 	paused = false
-	_save_progression()
+	# Browsing locked nodes from a fresh title must not create a resumable save.
+	if has_resume or board_return != "title": _save_progression()
 	if board_return == "title": _show_title()
 	else: update_progression()
 
 func _confirm_purchase(id: String) -> void:
-	if persistence_failed or not board.purchase_allowed or not mastery.can_purchase_node(id): return
+	if persistence_failed or not board.can_request_purchase(id) or not mastery.can_purchase_node(id): return
 	var node: Dictionary = mastery.get_node_definition(id)
 	_confirmation("숙련 각인", "%s\n%d EXP를 사용합니다." % [node.name,node.exp_cost], func(): _purchase(id))
 
 func _purchase(id: String) -> void:
 	var safe: bool = not modal_milestone.is_empty() or (screen=="game" and _safe_for_upgrade())
-	if not safe or save_blocked or persistence_failed or not mastery.purchase_node(id): return
+	if not safe or save_blocked or persistence_failed or not board.can_request_purchase(id) or not mastery.purchase_node(id): return
 	boulder.apply_mastery_effects(mastery.get_mastery_modifiers())
 	_save_progression()
 	_clear_overlay()

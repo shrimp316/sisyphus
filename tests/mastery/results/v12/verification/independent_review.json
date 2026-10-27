@@ -1,0 +1,107 @@
+{
+  "reviewer": "independent mastery_verifier agent",
+  "scope": "Independent source/data/state/save/native UI review, separate from implementation lane",
+  "baseline_head": "8385f031700dc509068edb468f7361d2ca397968",
+  "protected_tracked_files_checked": 3882,
+  "protected_tracked_files_changed": [],
+  "forbidden_live_io_or_main_references": {},
+  "source_sha256": {
+    "scripts/mastery/mastery_art.gd": "79aa50c0a428005c02ad7158b7a6bc9266fbef9760d6ad52f84b4e1cbfdf2bb9",
+    "scripts/mastery/mastery_gate.gd": "6ac3f3b23f1676d51fe285202dfc6ba3d4b80b7842bda4da1ce78438e938a4d1",
+    "scripts/mastery/mastery_layout_loader.gd": "4e2b0b346d2c122d53cb0138aed9ba98e1cc14009576aa99a7a7b797a8b94c62",
+    "scripts/mastery/mastery_node.gd": "014abbbfacac4d57c165e01c2eb83ee6707394079ff20fa2f78fbe9ff9fec923",
+    "scripts/mastery/mastery_preview_controller.gd": "a3839e96a56a6125c7f9a02643dd6bd734276ce8db4e687091e61d0738afdcd1",
+    "scripts/mastery/mastery_progress_adapter.gd": "0257b9cb693ed885df0e8823fccc5005d25dd192c7d6c5e0ec7ff68f58678a32",
+    "scripts/mastery/mastery_screen.gd": "cee99be12d31abd00270b38628e4c3e7adc0b9d39a413f603922fd903f32de4a",
+    "scripts/mastery/mastery_state_resolver.gd": "e7ac26e0fd0d8eb0a05ff96f7d8ebba1db44646c57cbb04839fd4a50ccf12808",
+    "scripts/mastery/mastery_track.gd": "aedd2081eb02648d2e57083bc781d41ca997d0b341b4c4f375f76b91308fd065",
+    "godot/scenes/mastery/mastery_gate.tscn": "b9f173a46d90b9c70cfe9b6a86b4a6e21b89e011a7c9767b721621cf85f18c86",
+    "godot/scenes/mastery/mastery_node.tscn": "020a1bf27a94716d29890e12e14c91cd2d3036e41e741f2053b8c7e322f5f2a5",
+    "godot/scenes/mastery/mastery_preview.tscn": "1695d44b2b57d536a72b6a851d632229f0acab8c09c314fcf4b2b4de4915a25f",
+    "godot/scenes/mastery/mastery_tablet_screen.tscn": "fbe2ed4b9957010bf7ec713c2716f8c7c79cd8d1f0f0bd1086d8a8f01654607f",
+    "godot/scenes/mastery/mastery_track.tscn": "5522002e815bb80d2db0936117dbb4d0f9e0393237a9a6005f5474b4ab5f0550",
+    "tests/mastery/mastery_data_validation.gd": "8df99920fbe4e469531cb43aee6594dae84b14a1e0dc1dec5ce609b5b13b5c24",
+    "tests/mastery/mastery_save_compatibility.gd": "4fb763a07f82ec5268a450ae866e24a3f942fbb786192dcf7e6d8de2d07464ea",
+    "tests/mastery/mastery_state_tests.gd": "67a4545b1f1fb3a925edd2a21637a96383c3ce1407a95782879aedca173592c1",
+    "tests/mastery/mastery_visual_capture.gd": "fe37fcad70010d17bd94ef50cc6cc45f8e8a9af1be54e9d11927ca0c20953d6c",
+    "tests/mastery/test_report.gd": "ed2d4d32b8824e5bfd556582f426d39cf998d36ede3c712dc708ff4ac6f38fda"
+  },
+  "suites": {
+    "data_validation": {
+      "checks": 930,
+      "passed": true,
+      "failures": []
+    },
+    "state_tests": {
+      "checks": 498,
+      "passed": true,
+      "failures": []
+    },
+    "save_compatibility": {
+      "checks": 14,
+      "passed": true,
+      "failures": []
+    },
+    "visual_capture": {
+      "checks": 3710,
+      "passed": true,
+      "failures": []
+    }
+  },
+  "total_godot_assertions": 5152,
+  "native_captures": 23,
+  "visually_inspected": [
+    "all-normal-purchased-1920x1080.png",
+    "next_run-1280x720.png",
+    "250-960x600.png",
+    "gate-push-1920x1080.png",
+    "preview-controls-next-run-1280x720.png"
+  ],
+  "visual_findings": [
+    "Three exact Greek core strings visible after buying30rank fixtures; active gold/blue/cyan modulation correct",
+    "No overlap or truncation in header, nodes, detail panel, toolbar at inspected1920/1280;960letterboxes without changing click geometry",
+    "Original bakedII/III/IV badges covered using provided row assets",
+    "Optional outer frame render omitted; background already provides a frame. PNG center is transparent. Baked special-panel layer omitted to avoid a duplicate middle frame; both source PNG files preserved.",
+    "Special sealedOmega is supplied seal art, not assigned greek_letter; next-run five original placeholders visible and purchase remains disabled",
+    "Gate screenshot uses supplied rectangular wall and pose frame; no round boulder substitution"
+  ],
+  "issues_fixed_during_review": [
+    "Mock fixture milestone claim counters initially omitted; fixed to prevent re-awarding already earnedXP",
+    "Active glyphs originally white; exact track tints now applied via CanvasItem modulation",
+    "Special sourcepanel baked middle frame misalignedCSV; render layer omitted preserving source"
+  ],
+  "blocking_findings": [],
+  "limits": [
+    "Not a live game integration; no newsave schema or real EXPspending",
+    "Linux not tested in this verifier lane",
+    "Windows tests use actual OpenGL SubViewport and routed InputEvents, not OS-window clicking",
+    "Web build/browser runtime evidence owned by root and is separate",
+    "Full140node runtime not implemented; schema reserves4acts and future actual rules remain null",
+    "GPU/process memory and initialweb loadtime are not inferred from screenshots"
+  ],
+  "corrections": [
+    {
+      "claim": "Prior description of outer_frame_overlay as opaque was incorrect; its alpha channel was not considered in that visual interpretation.",
+      "evidence": {
+        "file": "assets/ui/mastery/background/slate_outer_frame_overlay.png",
+        "sha256": "7d62d51104a57afb1b27e2526785b3c39f81a89fe2a3abd27edf928827010131",
+        "width": 1920,
+        "height": 1080,
+        "alpha_zero": 1720446,
+        "alpha_255": 353154,
+        "alpha_intermediate": 0,
+        "center_alpha": 0
+      },
+      "scope": "Documentation correction only; no runtime code, source PNG, test result or captured image was changed."
+    }
+  ],
+  "post_test_comment_correction": {
+    "file": "scripts/mastery/mastery_screen.gd",
+    "line": 63,
+    "previous_sha256": "55a891272ff359331cfe589ffea84152559d1d43d31ee61e13342e4864454d27",
+    "current_sha256": "cee99be12d31abd00270b38628e4c3e7adc0b9d39a413f603922fd903f32de4a",
+    "change": "Corrected comment describing optional outer frame omission: background already supplies the frame.",
+    "executable_code_changed": false,
+    "test_scope": "5152 existing checks and23 native captures exercise unchanged executable code. Full suite not repeated for this comment-only correction. Web rebuild tracked separately."
+  }
+}
