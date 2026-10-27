@@ -1,0 +1,76 @@
+{
+  "jobs": [
+    {
+      "id": "final-weather-clear-zero-optimized_aware_coast",
+      "candidate": "final-aware-weather",
+      "build": "zero",
+      "policy": "optimized_aware_coast",
+      "weather": "clear",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "final-weather-clear-all30-optimized_aware_coast",
+      "candidate": "final-aware-weather",
+      "build": "all30",
+      "policy": "optimized_aware_coast",
+      "weather": "clear",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "final-weather-rain-zero-optimized_aware_coast",
+      "candidate": "final-aware-weather",
+      "build": "zero",
+      "policy": "optimized_aware_coast",
+      "weather": "rain",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "final-weather-rain-all30-optimized_aware_coast",
+      "candidate": "final-aware-weather",
+      "build": "all30",
+      "policy": "optimized_aware_coast",
+      "weather": "rain",
+      "seeds": [
+        101,
+        202,
+        303
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    }
+  ]
+}

@@ -26,9 +26,10 @@ NEW_SUITES = [
     ("mastery_progression", "test_mastery_progression.gd", 113),
     ("mastery_save", "test_mastery_save.gd", 109),
     ("mastery_physics", "test_mastery_physics.gd", 155),
+    ("climb_difficulty", "test_climb_difficulty.gd", 37),
     ("save_contract", "test_save_contract.gd", 167),
     ("ui", "test_mvp_ui.gd", 186),
-    ("integration", "test_mvp_integration.gd", 242),
+    ("integration", "test_mvp_integration.gd", 243),
     ("storage_faults", "test_storage_faults.gd", 18),
     ("s190_verify", "s190_verify.gd", 15),
 ]

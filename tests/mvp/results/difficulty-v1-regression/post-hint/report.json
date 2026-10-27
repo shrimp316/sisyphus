@@ -1,0 +1,45 @@
+{
+  "ui_exit_code": 0,
+  "ui": {
+    "checks": 265,
+    "failures": [],
+    "resolutions": [
+      "1920x1080",
+      "1280x720",
+      "960x540"
+    ],
+    "scope": "Control/data binding and layout bounds; rendered browser inspection is separate"
+  },
+  "integration": {
+    "checks": 243,
+    "failures": [],
+    "manual_arrival_fixtures": true,
+    "save_path": "user://mvp-integration-difficulty-posthint-independent-20261027.json",
+    "suite": "mvp_integration"
+  },
+  "source_before": {
+    "scripts/main.gd": "8d265deb9413cf7bf404f4aab1cf304c0a7e3c70e55161c82596405b356ec73a",
+    "scripts/mvp/mastery_main.gd": "cc376210e26d9870307cb8146fee29965998e16f62fc236907067903c2c57d85",
+    "scripts/mvp/mastery_node.gd": "ad81d20cc060b6770ca8cbdd5187daa6cf2615e6613cfe84eef47667c64974d5",
+    "tests/mvp/test_mvp_ui.gd": "1c2eeac107edcfdf49acace6d67a865b0a35eb8e24e5f35f5da5e24eecc0f2e4",
+    "tests/mvp/test_mvp_integration.gd": "f8e574d9d45aec021e509a851d89f669883c7465519199713133641cf2152f91",
+    "tests/mvp/run_checks.py": "76fea12018a19ef99f62172bf3561260ddef2a6f6dbe01baea769523701bec20"
+  },
+  "source_after": {
+    "scripts/main.gd": "8d265deb9413cf7bf404f4aab1cf304c0a7e3c70e55161c82596405b356ec73a",
+    "scripts/mvp/mastery_main.gd": "cc376210e26d9870307cb8146fee29965998e16f62fc236907067903c2c57d85",
+    "scripts/mvp/mastery_node.gd": "ad81d20cc060b6770ca8cbdd5187daa6cf2615e6613cfe84eef47667c64974d5",
+    "tests/mvp/test_mvp_ui.gd": "1c2eeac107edcfdf49acace6d67a865b0a35eb8e24e5f35f5da5e24eecc0f2e4",
+    "tests/mvp/test_mvp_integration.gd": "f8e574d9d45aec021e509a851d89f669883c7465519199713133641cf2152f91",
+    "tests/mvp/run_checks.py": "76fea12018a19ef99f62172bf3561260ddef2a6f6dbe01baea769523701bec20"
+  },
+  "ui_original_preserved": true,
+  "prior_failed_ui_log": "ui.txt",
+  "failure_resolution": "Bounded observation of the actual Tween finished signal replaces a separate .35-second wall timer; product Tween remains .3 seconds. Original failure retained.",
+  "logs_sha256": {
+    "ui.txt": "52c9d2108be90c4a82afd21fefc175c397b2463af500acd532af486a53ee377f",
+    "ui-bounded-retry.txt": "a0161a438e2866b1d02fb21abc60726b970091957fc9c0426df250b6a849e9c6",
+    "integration.txt": "46e8aefda803d65bc79140b402683ab51dae2ea4f267a33058731fd8a8186203"
+  },
+  "passed": true
+}

@@ -248,6 +248,9 @@ func _additional_push_multiplier(_exert: bool) -> float:
 func _slip_decay_rate(rate: float, _exert: bool, _pushing: bool) -> float:
 	return rate
 
+func _slip_gain_rate(rate: float, _exert: bool, _pushing: bool) -> float:
+	return rate
+
 func _stamina_drain_rate(rate: float, _exert: bool, _sweet: bool, _bracing: bool) -> float:
 	return rate
 
@@ -294,6 +297,7 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		if exert and str(material.id) == "GRAVEL":
 			slip_gain *= 1.3
 		slip_gain *= 0.9 if sweet else (1.4 if velocity > 1.5 else 1.0)
+	slip_gain = _slip_gain_rate(slip_gain, exert, pushing)
 	var slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))
 	slip_recovery = _slip_decay_rate(slip_recovery, exert, pushing)
 	slip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)

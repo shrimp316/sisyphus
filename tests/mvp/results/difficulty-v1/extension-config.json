@@ -1,0 +1,268 @@
+{
+  "jobs": [
+    {
+      "id": "legacy-zero-regular",
+      "candidate": "legacy",
+      "build": "zero",
+      "policy": "regular",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-zero-regular",
+      "candidate": "default",
+      "build": "zero",
+      "policy": "regular",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-zero-skilled",
+      "candidate": "legacy",
+      "build": "zero",
+      "policy": "skilled",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-zero-skilled",
+      "candidate": "default",
+      "build": "zero",
+      "policy": "skilled",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-zero-optimized",
+      "candidate": "legacy",
+      "build": "zero",
+      "policy": "optimized",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-zero-optimized",
+      "candidate": "default",
+      "build": "zero",
+      "policy": "optimized",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-zero-hold_D",
+      "candidate": "legacy",
+      "build": "zero",
+      "policy": "hold_D",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-zero-hold_D",
+      "candidate": "default",
+      "build": "zero",
+      "policy": "hold_D",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-balanced18-regular",
+      "candidate": "legacy",
+      "build": "balanced18",
+      "policy": "regular",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-balanced18-regular",
+      "candidate": "default",
+      "build": "balanced18",
+      "policy": "regular",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-balanced18-skilled",
+      "candidate": "legacy",
+      "build": "balanced18",
+      "policy": "skilled",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-balanced18-skilled",
+      "candidate": "default",
+      "build": "balanced18",
+      "policy": "skilled",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-balanced18-optimized",
+      "candidate": "legacy",
+      "build": "balanced18",
+      "policy": "optimized",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-balanced18-optimized",
+      "candidate": "default",
+      "build": "balanced18",
+      "policy": "optimized",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-balanced18-hold_D",
+      "candidate": "legacy",
+      "build": "balanced18",
+      "policy": "hold_D",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-balanced18-hold_D",
+      "candidate": "default",
+      "build": "balanced18",
+      "policy": "hold_D",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-all30-regular",
+      "candidate": "legacy",
+      "build": "all30",
+      "policy": "regular",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-all30-regular",
+      "candidate": "default",
+      "build": "all30",
+      "policy": "regular",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-all30-skilled",
+      "candidate": "legacy",
+      "build": "all30",
+      "policy": "skilled",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-all30-skilled",
+      "candidate": "default",
+      "build": "all30",
+      "policy": "skilled",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-all30-optimized",
+      "candidate": "legacy",
+      "build": "all30",
+      "policy": "optimized",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-all30-optimized",
+      "candidate": "default",
+      "build": "all30",
+      "policy": "optimized",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "legacy-all30-hold_D",
+      "candidate": "legacy",
+      "build": "all30",
+      "policy": "hold_D",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "default-all30-hold_D",
+      "candidate": "default",
+      "build": "all30",
+      "policy": "hold_D",
+      "seeds": [
+        202,
+        303
+      ],
+      "max_seconds": 1800
+    }
+  ]
+}

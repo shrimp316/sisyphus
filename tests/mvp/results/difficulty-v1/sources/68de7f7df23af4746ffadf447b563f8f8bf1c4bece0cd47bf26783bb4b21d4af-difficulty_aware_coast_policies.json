@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "note": "New rule-aware synthetic strategies: original cadence/error parameters; observe current Slip/stamina/speed and visible end of current slope. Release at high Slip, brace rollback, coast briefly before a shelter. Separate from unchanged archived policies. Version 2 additionally coasts above 1.15m/s outside the visible ledge approach.",
+  "policies": {
+    "regular_aware_coast": {
+      "decision_seconds": 0.25,
+      "error_probability": 0.025,
+      "brace_velocity": -0.6,
+      "exert_stamina_fraction": 0.4,
+      "slip_limit": 65,
+      "shelter_recover_to": 0.96,
+      "shelter_enter_below": 0.93,
+      "target_speed": 0.85,
+      "ledge_lookahead_m": 1.0,
+      "unrealistic": false
+    },
+    "skilled_aware_coast": {
+      "decision_seconds": 0.12,
+      "error_probability": 0.008,
+      "brace_velocity": -0.12,
+      "exert_stamina_fraction": 0.22,
+      "slip_limit": 48,
+      "shelter_recover_to": 0.99,
+      "shelter_enter_below": 0.96,
+      "target_speed": 0.95,
+      "ledge_lookahead_m": 1.2,
+      "unrealistic": false
+    },
+    "optimized_aware_coast": {
+      "decision_seconds": 0.008333333333333333,
+      "error_probability": 0,
+      "brace_velocity": -0.01,
+      "exert_stamina_fraction": 0.05,
+      "slip_limit": 85,
+      "shelter_recover_to": 0.999,
+      "shelter_enter_below": 0.98,
+      "target_speed": 1.15,
+      "ledge_lookahead_m": 0.12,
+      "unrealistic": true
+    }
+  }
+}

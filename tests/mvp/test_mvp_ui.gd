@@ -62,8 +62,14 @@ func run() -> void:
 	var purchase_pulse: Tween = board.slots.STR01._pulse
 	board.refresh(profile,true)
 	check(board.slots.STR01._pulse==purchase_pulse,"refreshdoesnotstackpulse")
-	await create_timer(.35).timeout
-	check(board.slots.STR01.modulate.is_equal_approx(Color.WHITE),"pulseendsafterpoint3seconds")
+	# Tween processing happens after the nodes in a frame. A separate .35s
+	# timer can win that ordering under load; observe completion itself instead.
+	var pulse_done: Array[bool] = [false]
+	purchase_pulse.finished.connect(func(): pulse_done[0] = true, CONNECT_ONE_SHOT)
+	var pulse_deadline: int = Time.get_ticks_msec() + 10000
+	while not pulse_done[0] and Time.get_ticks_msec() < pulse_deadline:
+		await process_frame
+	check(pulse_done[0] and board.slots.STR01.modulate.is_equal_approx(Color.WHITE),"pulsefinishesandrestoreswhitewithinboundedwait")
 	for dimensions: Vector2 in [Vector2(1920,1080),Vector2(1280,720),Vector2(960,540)]:
 		board_viewport.size=Vector2i(dimensions)
 		await process_frame

@@ -1,0 +1,22 @@
+{
+  "profile_id": "mvp-climb-v1",
+  "enabled": true,
+  "normal_drain_scale": 4.0,
+  "exert_drain_scale": 3.0,
+  "brace_drain_scale": 1.0,
+  "training_end_m": 250.0,
+  "training_drain_scale": 0.75,
+  "training_slip_scale": 0.75,
+  "slip_gain_scale": 1.6,
+  "normal_push_decay_scale": 0.0,
+  "uphill_recovery_scale": 0.2,
+  "moving_recovery_scale": 0.4,
+  "shelter_recovery_scale": 1.0,
+  "surfaces": {
+    "STONE": {"drain": 1.0, "slip": 1.0, "recovery": 1.0, "note":"경사에서는 일반 밀기에도 Slip이 쌓입니다."},
+    "SOIL": {"drain": 1.05, "slip": 0.95, "recovery": 0.95, "note":"흙길은 체력을 조금 더 소모합니다."},
+    "GRAVEL": {"drain": 1.05, "slip": 1.2, "recovery": 0.9, "note":"자갈은 일반 밀기에도 Slip이 빠르게 쌓입니다."},
+    "WET_STONE": {"drain": 1.05, "slip": 1.25, "recovery": 0.9, "note":"젖은 바위는 접지력이 낮고 Slip이 빠르게 쌓입니다."},
+    "MUD": {"drain": 1.15, "slip": 0.9, "recovery": 0.8, "note":"진흙은 저항과 체력 소모가 크고 회복이 느립니다."}
+  }
+}

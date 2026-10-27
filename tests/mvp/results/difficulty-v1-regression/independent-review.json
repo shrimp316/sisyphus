@@ -1,0 +1,51 @@
+{
+  "status": "independent_code_and_regression_pass",
+  "source_sha256": {
+    "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+    "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+    "scripts/mvp/mastery_main.gd": "6bc998cbfc54c76f565ac453c266175c2aba046f8f396f5be7c631e32b9b2f27",
+    "data/mastery/difficulty.json": "311920d01e0f078036a84c0702505dcee1448eaa1d32a0927ca6af3a64d209d9",
+    "tests/mvp/run_checks.py": "00ee95426d20646d642845fc12c906431e80a3d737122570826b61bb0a09e2b8"
+  },
+  "regression_sha256": "1b1fe675e3bf4ecba99d4a94bc53251ea42046f583701639833c640a984bf83a",
+  "checks": 1500,
+  "all_expectations_met": true,
+  "changed_during_regression": [],
+  "prior_evidence_bytes_restored": true,
+  "blocking_code_findings": [],
+  "review_notes": [
+    "Slip gain hook is neutral on legacy and Mastery controllers; final Climb normal decay zero permits positive slope accumulation without changing force, timestep, Slip duration or Runaway boundary.",
+    "Environment factors are applied before existing Mastery effects once; steep/gentle recovery floors and once-per-run/forward-frontier abilities remain intact.",
+    "Recovery scales dt and requires release; no new instantaneous toggle grant or repeatable ability reset was introduced. This is not an exhaustive proof against all input strategies.",
+    "The test unit and integration tests use isolated/artificial fixtures. New user difficulty effects are not validated by archival S190 measurements, which use a different controller.",
+    "Preliminary final-candidate seed101 witnesses reach250 without upgrades and complete1000 with all30 optimized, avoiding a claim of universal early impossibility. Regular/skilled failures remain observed policy failures.",
+    "Hold-D timeout must remain distinct from death; restored saves intentionally pick up current environment config rather than preserving an older difficulty profile.",
+    "Legacy main.gd now contains a neutral hint text method; default returned text and hint priority remain the same. MVP override tells player to release pushing. Prior original-main byte-equivalence evidence applies only to the preceding version."
+  ],
+  "pending_scope": [
+    "Final multi-seed comparison report review"
+  ],
+  "post_hint_targeted_verification": {
+    "report": "post-hint/report.json",
+    "sha256": "b8138d1851d83c1d91e85178dea5f880ff960b3d565dbc82d0e9743a82f46ba7",
+    "ui_checks": 265,
+    "integration_checks": 243,
+    "initial_ui_failure_retained": "post-hint/ui.txt",
+    "resolution": "Test waits for actual Tween finished signal with bounded10second deadline; no product tween change",
+    "scope": "Full1500 passed before text hook/test change; UI265 and integration243 rerun afterward. Not a new full1501 run."
+  },
+  "latest_reviewed_source_sha256": {
+    "scripts/main.gd": "8d265deb9413cf7bf404f4aab1cf304c0a7e3c70e55161c82596405b356ec73a",
+    "scripts/mvp/mastery_main.gd": "cc376210e26d9870307cb8146fee29965998e16f62fc236907067903c2c57d85",
+    "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+    "data/mastery/difficulty.json": "311920d01e0f078036a84c0702505dcee1448eaa1d32a0927ca6af3a64d209d9",
+    "tests/mvp/test_mvp_ui.gd": "1c2eeac107edcfdf49acace6d67a865b0a35eb8e24e5f35f5da5e24eecc0f2e4",
+    "tests/mvp/test_mvp_integration.gd": "f8e574d9d45aec021e509a851d89f669883c7465519199713133641cf2152f91",
+    "tests/mvp/run_checks.py": "76fea12018a19ef99f62172bf3561260ddef2a6f6dbe01baea769523701bec20"
+  },
+  "browser_review": {
+    "qa_sha256": "e1fb120190f2eee3dde195e8d4c3cee2510c4a67a669cd09b40fea0279a42cd2",
+    "screenshot_sha256": "67885a2200e7086c03aeb9c2d110102f4fe8870100260e3c920990d4e85fd197",
+    "scope": "Reviewed parent operator narrative and screenshot. Shelf/terrain note visible; screenshot is not proof of Slip onset. Window aspect and terrain triangulation errors are explicitly unresolved."
+  }
+}

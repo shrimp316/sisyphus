@@ -1,0 +1,1035 @@
+{
+  "raw_runs": 44,
+  "paired_old_new": 12,
+  "source_metadata": [
+    {
+      "input": "tests\\mvp\\results\\difficulty-v1\\pilot.jsonl",
+      "sha256": "71516fcf9b5333a10f27ed176f50fe066541b71f52f7f06305a8af38917e8892",
+      "config": {
+        "jobs": [
+          {
+            "build": "zero",
+            "candidate": "legacy",
+            "id": "legacy-zero-regular",
+            "max_seconds": 1800.0,
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "default",
+            "id": "default-zero-regular",
+            "max_seconds": 1800.0,
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "legacy",
+            "id": "legacy-zero-skilled",
+            "max_seconds": 1800.0,
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "default",
+            "id": "default-zero-skilled",
+            "max_seconds": 1800.0,
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "legacy",
+            "id": "legacy-zero-optimized",
+            "max_seconds": 1800.0,
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "default",
+            "id": "default-zero-optimized",
+            "max_seconds": 1800.0,
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "legacy",
+            "id": "legacy-zero-hold_D",
+            "max_seconds": 1800.0,
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "default",
+            "id": "default-zero-hold_D",
+            "max_seconds": 1800.0,
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "legacy",
+            "id": "legacy-balanced18-regular",
+            "max_seconds": 1800.0,
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "default",
+            "id": "default-balanced18-regular",
+            "max_seconds": 1800.0,
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "legacy",
+            "id": "legacy-balanced18-skilled",
+            "max_seconds": 1800.0,
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "default",
+            "id": "default-balanced18-skilled",
+            "max_seconds": 1800.0,
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "legacy",
+            "id": "legacy-balanced18-optimized",
+            "max_seconds": 1800.0,
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "default",
+            "id": "default-balanced18-optimized",
+            "max_seconds": 1800.0,
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "legacy",
+            "id": "legacy-balanced18-hold_D",
+            "max_seconds": 1800.0,
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "default",
+            "id": "default-balanced18-hold_D",
+            "max_seconds": 1800.0,
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "legacy",
+            "id": "legacy-all30-regular",
+            "max_seconds": 1800.0,
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "default",
+            "id": "default-all30-regular",
+            "max_seconds": 1800.0,
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "legacy",
+            "id": "legacy-all30-skilled",
+            "max_seconds": 1800.0,
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "default",
+            "id": "default-all30-skilled",
+            "max_seconds": 1800.0,
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "legacy",
+            "id": "legacy-all30-optimized",
+            "max_seconds": 1800.0,
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "default",
+            "id": "default-all30-optimized",
+            "max_seconds": 1800.0,
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "legacy",
+            "id": "legacy-all30-hold_D",
+            "max_seconds": 1800.0,
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "default",
+            "id": "default-all30-hold_D",
+            "max_seconds": 1800.0,
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "normal3",
+            "id": "normal3-zero-regular",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_drain_scale": 3.0
+            },
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "normal3",
+            "id": "normal3-zero-optimized",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_drain_scale": 3.0
+            },
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "normal5",
+            "id": "normal5-zero-regular",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_drain_scale": 5.0
+            },
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "normal5",
+            "id": "normal5-zero-optimized",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_drain_scale": 5.0
+            },
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          }
+        ]
+      },
+      "dt": 0.00833333333333333,
+      "godot": "4.5.1-stable (official)",
+      "policies": {
+        "novice": {
+          "brace_velocity": -1.7,
+          "decision_seconds": 0.55,
+          "error_probability": 0.09,
+          "exert_stamina_fraction": 0.08,
+          "ledge_lookahead_m": 0.0,
+          "shelter_enter_below": 0.55,
+          "shelter_recover_to": 0.65,
+          "slip_limit": 96.0,
+          "target_speed": 1.65,
+          "unrealistic": false
+        },
+        "optimized": {
+          "brace_velocity": -0.01,
+          "decision_seconds": 0.00833333333333333,
+          "error_probability": 0.0,
+          "exert_stamina_fraction": 0.05,
+          "ledge_lookahead_m": 0.12,
+          "shelter_enter_below": 0.98,
+          "shelter_recover_to": 0.999,
+          "slip_limit": 85.0,
+          "target_speed": 1.15,
+          "unrealistic": true
+        },
+        "regular": {
+          "brace_velocity": -0.6,
+          "decision_seconds": 0.25,
+          "error_probability": 0.025,
+          "exert_stamina_fraction": 0.4,
+          "ledge_lookahead_m": 1.0,
+          "shelter_enter_below": 0.93,
+          "shelter_recover_to": 0.96,
+          "slip_limit": 65.0,
+          "target_speed": 0.85,
+          "unrealistic": false
+        },
+        "skilled": {
+          "brace_velocity": -0.12,
+          "decision_seconds": 0.12,
+          "error_probability": 0.008,
+          "exert_stamina_fraction": 0.22,
+          "ledge_lookahead_m": 1.2,
+          "shelter_enter_below": 0.96,
+          "shelter_recover_to": 0.99,
+          "slip_limit": 48.0,
+          "target_speed": 0.95,
+          "unrealistic": false
+        }
+      },
+      "schema": "mvp-difficulty-v1",
+      "scope": "Fixed purchased mastery fixtures, not natural XP campaigns or human outcomes. Artificial funding calls are setup only. Original synthetic policies unchanged; optimized is not a proof of optimality. Policy failure is not physical impossibility. Terrain exposure excludes runaway; elapsed includes descent. Exhaustions observed after rescue and stamina loss/gain are net per step, not gross drain.",
+      "source_sha256": {
+        "data/chunks/zone_1_gravel.tres": "e0be0d86ccf2026d74705ad4412f2b1bb6257f5a39b106a1a8adca7be958027e",
+        "data/chunks/zone_1_soil.tres": "bf9c72e3b4fb65611fc874e7ee0d580ba14f5e5923e2e55a15e02ad7a18e5e07",
+        "data/chunks/zone_1_stone.tres": "2a5d9b5fe1a9e39ab3c0b07c13d3f6e52b52fc9aa4423effca55f5b911ee2762",
+        "data/chunks/zone_2_gravel.tres": "d0b6043c9df7b8b18e1f21e24b6d272289b8ffe71f7956f6c9d7e56194e664b9",
+        "data/chunks/zone_2_soil.tres": "bd385c639d9bd4a50461bb9a5761b9177caf290c9406a3aff377f972b7747897",
+        "data/chunks/zone_2_stone.tres": "dffe35b3ebbaeded9c3f01bae6b195065f29088db4ac9bf520ffc0250ca28d9d",
+        "data/chunks/zone_3_gravel.tres": "17101849976af7a5f6b865d861474e2c510e9b287649a64e46e86250e85244d5",
+        "data/chunks/zone_3_soil.tres": "c4bbebc1fa2f91e59d03ffdc1fa4745b02cae83c7d31dc405c0753cee8415f73",
+        "data/chunks/zone_3_stone.tres": "d9b3c3451d26aedf86ca5619c62455302039c815b4471ee5b2cbaf0c6bf4b635",
+        "data/chunks/zone_4_gravel.tres": "f1e9fdaf88fd974b12cac09e83257f3d2cbd3e4da03573de63a5455482a2d987",
+        "data/chunks/zone_4_soil.tres": "9fbd394eb708518e5e0094b7486dfdf55ac26499c3231c19ec7d39d766b2a1c6",
+        "data/chunks/zone_4_stone.tres": "7cd7f60bbe4f7cdde6a1dc2ef5d07e300d44971501f92a3e64fe63cd90f1d202",
+        "data/chunks/zone_5_gravel.tres": "f1017212dfdf242f546f819840b1c7bbddec64dbc5d012fdde9f9d56f4929ccf",
+        "data/chunks/zone_5_soil.tres": "c035da944ec963c3059e9fcb67703e51754b8f981f462cb204c5b7f3bc383ec6",
+        "data/chunks/zone_5_stone.tres": "e13d454d7c68545a66e080513425da973d4c91c1d6a93a938ea888dbf2037061",
+        "data/mastery/balance.json": "668924b889a36d5ff0b026155662728cd46a0a8c4ae3487159737d8032238043",
+        "data/mastery/difficulty.json": "580877cfa8a33ff3da2537a05ca5bb1d4c01f62ff16f9a63d86b20cd8d46199f",
+        "data/mastery/feature_flags.json": "63ed6680338f3f32bd27c64de8a052c1a6aaab0f880ae3318acd09ebfc625b9c",
+        "data/mastery/nodes.json": "5bd8387945a3cb8a40dedf39b19fd255692814b57354049bb31ada43ab350cc3",
+        "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+        "scripts/mastery_boulder.gd": "f9340b98996351e4819d525815e50e19bbce621838470c0f5853b06b3f18fee0",
+        "scripts/mastery_effects.gd": "fc8a37f52334046fb0f17ed72ba75d97b826bb4b6244ca8bb887222547017154",
+        "scripts/mastery_progression.gd": "10e232f3bb1e264f1050a10cb1649fcd8a845dc2a65716b89eee3b0237c36282",
+        "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+        "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+        "tests/balance/policies.json": "de3a0430d5156f6d864ba8fd76b9953fe360a93d04663940ee14f466d8497c87",
+        "tests/balance/simulator.gd": "488c0664254a0b8d9d728dbfadd78a6eefe4ae4a4218699b812a3490b7a25eda",
+        "tests/mvp/difficulty_experiment.gd": "18449b5df0ab0d4b7ad5390671b460b5c8ece8c1d2b49b4390cf7c4989c49548"
+      },
+      "type": "metadata"
+    },
+    {
+      "input": "tests\\mvp\\results\\difficulty-v1\\active-slip.jsonl",
+      "sha256": "0c4aae92e9c477f965dbdc196f2623edc99e5e895cfb2a14b3d05ef03ec80e2a",
+      "config": {
+        "jobs": [
+          {
+            "build": "zero",
+            "candidate": "active-slip",
+            "id": "active-slip-zero-regular",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "active-slip",
+            "id": "active-slip-zero-skilled",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "active-slip",
+            "id": "active-slip-zero-optimized",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "zero",
+            "candidate": "active-slip",
+            "id": "active-slip-zero-hold_D",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "active-slip",
+            "id": "active-slip-balanced18-regular",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "active-slip",
+            "id": "active-slip-balanced18-skilled",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "active-slip",
+            "id": "active-slip-balanced18-optimized",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "balanced18",
+            "candidate": "active-slip",
+            "id": "active-slip-balanced18-hold_D",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "active-slip",
+            "id": "active-slip-all30-regular",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "regular",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "active-slip",
+            "id": "active-slip-all30-skilled",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "skilled",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "active-slip",
+            "id": "active-slip-all30-optimized",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "optimized",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "active-slip",
+            "id": "active-slip-all30-hold_D",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-climb-active-slip"
+            },
+            "policy": "hold_D",
+            "seeds": [
+              101.0
+            ]
+          }
+        ]
+      },
+      "dt": 0.00833333333333333,
+      "godot": "4.5.1-stable (official)",
+      "policies": {
+        "novice": {
+          "brace_velocity": -1.7,
+          "decision_seconds": 0.55,
+          "error_probability": 0.09,
+          "exert_stamina_fraction": 0.08,
+          "ledge_lookahead_m": 0.0,
+          "shelter_enter_below": 0.55,
+          "shelter_recover_to": 0.65,
+          "slip_limit": 96.0,
+          "target_speed": 1.65,
+          "unrealistic": false
+        },
+        "optimized": {
+          "brace_velocity": -0.01,
+          "decision_seconds": 0.00833333333333333,
+          "error_probability": 0.0,
+          "exert_stamina_fraction": 0.05,
+          "ledge_lookahead_m": 0.12,
+          "shelter_enter_below": 0.98,
+          "shelter_recover_to": 0.999,
+          "slip_limit": 85.0,
+          "target_speed": 1.15,
+          "unrealistic": true
+        },
+        "regular": {
+          "brace_velocity": -0.6,
+          "decision_seconds": 0.25,
+          "error_probability": 0.025,
+          "exert_stamina_fraction": 0.4,
+          "ledge_lookahead_m": 1.0,
+          "shelter_enter_below": 0.93,
+          "shelter_recover_to": 0.96,
+          "slip_limit": 65.0,
+          "target_speed": 0.85,
+          "unrealistic": false
+        },
+        "skilled": {
+          "brace_velocity": -0.12,
+          "decision_seconds": 0.12,
+          "error_probability": 0.008,
+          "exert_stamina_fraction": 0.22,
+          "ledge_lookahead_m": 1.2,
+          "shelter_enter_below": 0.96,
+          "shelter_recover_to": 0.99,
+          "slip_limit": 48.0,
+          "target_speed": 0.95,
+          "unrealistic": false
+        }
+      },
+      "schema": "mvp-difficulty-v1",
+      "scope": "Fixed purchased mastery fixtures, not natural XP campaigns or human outcomes. Artificial funding calls are setup only. Original synthetic policies unchanged; optimized is not a proof of optimality. Policy failure is not physical impossibility. Terrain exposure excludes runaway; elapsed includes descent. Exhaustions observed after rescue and stamina loss/gain are net per step, not gross drain.",
+      "source_sha256": {
+        "data/chunks/zone_1_gravel.tres": "e0be0d86ccf2026d74705ad4412f2b1bb6257f5a39b106a1a8adca7be958027e",
+        "data/chunks/zone_1_soil.tres": "bf9c72e3b4fb65611fc874e7ee0d580ba14f5e5923e2e55a15e02ad7a18e5e07",
+        "data/chunks/zone_1_stone.tres": "2a5d9b5fe1a9e39ab3c0b07c13d3f6e52b52fc9aa4423effca55f5b911ee2762",
+        "data/chunks/zone_2_gravel.tres": "d0b6043c9df7b8b18e1f21e24b6d272289b8ffe71f7956f6c9d7e56194e664b9",
+        "data/chunks/zone_2_soil.tres": "bd385c639d9bd4a50461bb9a5761b9177caf290c9406a3aff377f972b7747897",
+        "data/chunks/zone_2_stone.tres": "dffe35b3ebbaeded9c3f01bae6b195065f29088db4ac9bf520ffc0250ca28d9d",
+        "data/chunks/zone_3_gravel.tres": "17101849976af7a5f6b865d861474e2c510e9b287649a64e46e86250e85244d5",
+        "data/chunks/zone_3_soil.tres": "c4bbebc1fa2f91e59d03ffdc1fa4745b02cae83c7d31dc405c0753cee8415f73",
+        "data/chunks/zone_3_stone.tres": "d9b3c3451d26aedf86ca5619c62455302039c815b4471ee5b2cbaf0c6bf4b635",
+        "data/chunks/zone_4_gravel.tres": "f1e9fdaf88fd974b12cac09e83257f3d2cbd3e4da03573de63a5455482a2d987",
+        "data/chunks/zone_4_soil.tres": "9fbd394eb708518e5e0094b7486dfdf55ac26499c3231c19ec7d39d766b2a1c6",
+        "data/chunks/zone_4_stone.tres": "7cd7f60bbe4f7cdde6a1dc2ef5d07e300d44971501f92a3e64fe63cd90f1d202",
+        "data/chunks/zone_5_gravel.tres": "f1017212dfdf242f546f819840b1c7bbddec64dbc5d012fdde9f9d56f4929ccf",
+        "data/chunks/zone_5_soil.tres": "c035da944ec963c3059e9fcb67703e51754b8f981f462cb204c5b7f3bc383ec6",
+        "data/chunks/zone_5_stone.tres": "e13d454d7c68545a66e080513425da973d4c91c1d6a93a938ea888dbf2037061",
+        "data/mastery/balance.json": "668924b889a36d5ff0b026155662728cd46a0a8c4ae3487159737d8032238043",
+        "data/mastery/difficulty.json": "580877cfa8a33ff3da2537a05ca5bb1d4c01f62ff16f9a63d86b20cd8d46199f",
+        "data/mastery/feature_flags.json": "63ed6680338f3f32bd27c64de8a052c1a6aaab0f880ae3318acd09ebfc625b9c",
+        "data/mastery/nodes.json": "5bd8387945a3cb8a40dedf39b19fd255692814b57354049bb31ada43ab350cc3",
+        "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+        "scripts/mastery_boulder.gd": "f9340b98996351e4819d525815e50e19bbce621838470c0f5853b06b3f18fee0",
+        "scripts/mastery_effects.gd": "fc8a37f52334046fb0f17ed72ba75d97b826bb4b6244ca8bb887222547017154",
+        "scripts/mastery_progression.gd": "10e232f3bb1e264f1050a10cb1649fcd8a845dc2a65716b89eee3b0237c36282",
+        "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+        "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+        "tests/balance/policies.json": "de3a0430d5156f6d864ba8fd76b9953fe360a93d04663940ee14f466d8497c87",
+        "tests/balance/simulator.gd": "488c0664254a0b8d9d728dbfadd78a6eefe4ae4a4218699b812a3490b7a25eda",
+        "tests/mvp/difficulty_experiment.gd": "18449b5df0ab0d4b7ad5390671b460b5c8ece8c1d2b49b4390cf7c4989c49548"
+      },
+      "type": "metadata"
+    },
+    {
+      "input": "tests\\mvp\\results\\difficulty-v1\\aware-pilot.jsonl",
+      "sha256": "8c24dc4623327b37e46d65c72a258546b0eb1ba35433d1580f0ec65102864f5d",
+      "config": {
+        "jobs": [
+          {
+            "build": "all30",
+            "candidate": "aware-normal4",
+            "id": "aware-normal4-all30-regular_aware",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_drain_scale": 4.0,
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-active-normal4"
+            },
+            "policy": "regular_aware",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "aware-normal4",
+            "id": "aware-normal4-all30-skilled_aware",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_drain_scale": 4.0,
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-active-normal4"
+            },
+            "policy": "skilled_aware",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "aware-normal3",
+            "id": "aware-normal3-all30-regular_aware",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_drain_scale": 3.0,
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-active-normal3"
+            },
+            "policy": "regular_aware",
+            "seeds": [
+              101.0
+            ]
+          },
+          {
+            "build": "all30",
+            "candidate": "aware-normal3",
+            "id": "aware-normal3-all30-skilled_aware",
+            "max_seconds": 1800.0,
+            "overrides": {
+              "normal_drain_scale": 3.0,
+              "normal_push_decay_scale": 0.0,
+              "profile_id": "mvp-active-normal3"
+            },
+            "policy": "skilled_aware",
+            "seeds": [
+              101.0
+            ]
+          }
+        ],
+        "policy_variant_sources_sha256": {
+          "tests\\mvp\\difficulty_aware_experiment.gd": "0446c4030c57065d8eff560ac486c45e57e80d310955a788e92899bfdea06842",
+          "tests\\mvp\\difficulty_aware_policies.json": "d6c51ecf96f67d43e6279e1cce3206d6a85049eb949d895174f2036c170735c2"
+        }
+      },
+      "dt": 0.00833333333333333,
+      "godot": "4.5.1-stable (official)",
+      "policies": {
+        "optimized_aware": {
+          "brace_velocity": -0.01,
+          "decision_seconds": 0.00833333333333333,
+          "error_probability": 0.0,
+          "exert_stamina_fraction": 0.05,
+          "ledge_lookahead_m": 0.12,
+          "shelter_enter_below": 0.98,
+          "shelter_recover_to": 0.999,
+          "slip_limit": 85.0,
+          "target_speed": 1.15,
+          "unrealistic": true
+        },
+        "regular_aware": {
+          "brace_velocity": -0.6,
+          "decision_seconds": 0.25,
+          "error_probability": 0.025,
+          "exert_stamina_fraction": 0.4,
+          "ledge_lookahead_m": 1.0,
+          "shelter_enter_below": 0.93,
+          "shelter_recover_to": 0.96,
+          "slip_limit": 65.0,
+          "target_speed": 0.85,
+          "unrealistic": false
+        },
+        "skilled_aware": {
+          "brace_velocity": -0.12,
+          "decision_seconds": 0.12,
+          "error_probability": 0.008,
+          "exert_stamina_fraction": 0.22,
+          "ledge_lookahead_m": 1.2,
+          "shelter_enter_below": 0.96,
+          "shelter_recover_to": 0.99,
+          "slip_limit": 48.0,
+          "target_speed": 0.95,
+          "unrealistic": false
+        }
+      },
+      "schema": "mvp-difficulty-v1",
+      "scope": "Fixed purchased mastery fixtures, not natural XP campaigns or human outcomes. Artificial funding calls are setup only. Original synthetic policies unchanged; optimized is not a proof of optimality. Policy failure is not physical impossibility. Terrain exposure excludes runaway; elapsed includes descent. Exhaustions observed after rescue and stamina loss/gain are net per step, not gross drain.",
+      "source_sha256": {
+        "data/chunks/zone_1_gravel.tres": "e0be0d86ccf2026d74705ad4412f2b1bb6257f5a39b106a1a8adca7be958027e",
+        "data/chunks/zone_1_soil.tres": "bf9c72e3b4fb65611fc874e7ee0d580ba14f5e5923e2e55a15e02ad7a18e5e07",
+        "data/chunks/zone_1_stone.tres": "2a5d9b5fe1a9e39ab3c0b07c13d3f6e52b52fc9aa4423effca55f5b911ee2762",
+        "data/chunks/zone_2_gravel.tres": "d0b6043c9df7b8b18e1f21e24b6d272289b8ffe71f7956f6c9d7e56194e664b9",
+        "data/chunks/zone_2_soil.tres": "bd385c639d9bd4a50461bb9a5761b9177caf290c9406a3aff377f972b7747897",
+        "data/chunks/zone_2_stone.tres": "dffe35b3ebbaeded9c3f01bae6b195065f29088db4ac9bf520ffc0250ca28d9d",
+        "data/chunks/zone_3_gravel.tres": "17101849976af7a5f6b865d861474e2c510e9b287649a64e46e86250e85244d5",
+        "data/chunks/zone_3_soil.tres": "c4bbebc1fa2f91e59d03ffdc1fa4745b02cae83c7d31dc405c0753cee8415f73",
+        "data/chunks/zone_3_stone.tres": "d9b3c3451d26aedf86ca5619c62455302039c815b4471ee5b2cbaf0c6bf4b635",
+        "data/chunks/zone_4_gravel.tres": "f1e9fdaf88fd974b12cac09e83257f3d2cbd3e4da03573de63a5455482a2d987",
+        "data/chunks/zone_4_soil.tres": "9fbd394eb708518e5e0094b7486dfdf55ac26499c3231c19ec7d39d766b2a1c6",
+        "data/chunks/zone_4_stone.tres": "7cd7f60bbe4f7cdde6a1dc2ef5d07e300d44971501f92a3e64fe63cd90f1d202",
+        "data/chunks/zone_5_gravel.tres": "f1017212dfdf242f546f819840b1c7bbddec64dbc5d012fdde9f9d56f4929ccf",
+        "data/chunks/zone_5_soil.tres": "c035da944ec963c3059e9fcb67703e51754b8f981f462cb204c5b7f3bc383ec6",
+        "data/chunks/zone_5_stone.tres": "e13d454d7c68545a66e080513425da973d4c91c1d6a93a938ea888dbf2037061",
+        "data/mastery/balance.json": "668924b889a36d5ff0b026155662728cd46a0a8c4ae3487159737d8032238043",
+        "data/mastery/difficulty.json": "580877cfa8a33ff3da2537a05ca5bb1d4c01f62ff16f9a63d86b20cd8d46199f",
+        "data/mastery/feature_flags.json": "63ed6680338f3f32bd27c64de8a052c1a6aaab0f880ae3318acd09ebfc625b9c",
+        "data/mastery/nodes.json": "5bd8387945a3cb8a40dedf39b19fd255692814b57354049bb31ada43ab350cc3",
+        "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+        "scripts/mastery_boulder.gd": "f9340b98996351e4819d525815e50e19bbce621838470c0f5853b06b3f18fee0",
+        "scripts/mastery_effects.gd": "fc8a37f52334046fb0f17ed72ba75d97b826bb4b6244ca8bb887222547017154",
+        "scripts/mastery_progression.gd": "10e232f3bb1e264f1050a10cb1649fcd8a845dc2a65716b89eee3b0237c36282",
+        "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+        "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+        "tests/balance/policies.json": "de3a0430d5156f6d864ba8fd76b9953fe360a93d04663940ee14f466d8497c87",
+        "tests/balance/simulator.gd": "488c0664254a0b8d9d728dbfadd78a6eefe4ae4a4218699b812a3490b7a25eda",
+        "tests/mvp/difficulty_experiment.gd": "18449b5df0ab0d4b7ad5390671b460b5c8ece8c1d2b49b4390cf7c4989c49548"
+      },
+      "type": "metadata"
+    }
+  ],
+  "trace_checks": [
+    {
+      "id": "legacy-zero-regular-101",
+      "steps": 73925,
+      "gzip_sha256": "00e7929e9245aadd0ce58b6bcbf9aca7475d95354edbb10c384892c3d42ce962"
+    },
+    {
+      "id": "default-zero-regular-101",
+      "steps": 23627,
+      "gzip_sha256": "f5d8e355f06d512b10bb809196ef34f15ff92512d1aadbcacaf0e54fa98b82b3"
+    },
+    {
+      "id": "legacy-zero-skilled-101",
+      "steps": 74142,
+      "gzip_sha256": "8452cffcc632980bdfd14a2ff6bf9aa88fc6dc2d55711be482ab850bd209cae2"
+    },
+    {
+      "id": "default-zero-skilled-101",
+      "steps": 23643,
+      "gzip_sha256": "3702c4af08bff0327c63ddf921aa4f80108a7d0d02c49b2ba76aa62fcb5bf923"
+    },
+    {
+      "id": "legacy-zero-optimized-101",
+      "steps": 110183,
+      "gzip_sha256": "34cb9aa2e1d85c733ebea066bf5636fd8b819fbfdd4ff3d74408a45ab381692e"
+    },
+    {
+      "id": "default-zero-optimized-101",
+      "steps": 74008,
+      "gzip_sha256": "7df6bb2185149cabaa910a832b155b338952a9a12f9669d58c6fcdf8c23cd80c"
+    },
+    {
+      "id": "legacy-zero-hold_D-101",
+      "steps": 16007,
+      "gzip_sha256": "2f0f60c6e42ee451d1545d311be389f7623c5c395607ef1ed86addd3b0cf56b4"
+    },
+    {
+      "id": "default-zero-hold_D-101",
+      "steps": 216000,
+      "gzip_sha256": "1f8ed603dd07a2184e519b392d741ab613d2c521cba59e0064067f52a50202d1"
+    },
+    {
+      "id": "legacy-balanced18-regular-101",
+      "steps": 73914,
+      "gzip_sha256": "9ba853c6f5652df48a78f51b6eba6d51197a098e148ee6a04cffedf1c6f6c2af"
+    },
+    {
+      "id": "default-balanced18-regular-101",
+      "steps": 31059,
+      "gzip_sha256": "911c636f8239c61d623f1c92c171316f4e585bd3264d5494afbcdeadb9eea327"
+    },
+    {
+      "id": "legacy-balanced18-skilled-101",
+      "steps": 74039,
+      "gzip_sha256": "522ecf6c2865a8d3a8bb5d7dc205fb30bad7c8d72295a84fee57478ee01e5300"
+    },
+    {
+      "id": "default-balanced18-skilled-101",
+      "steps": 44128,
+      "gzip_sha256": "1370df24d977c5b31d531b2c0b960523093aed340ab5043378ea80b006fa83ec"
+    },
+    {
+      "id": "legacy-balanced18-optimized-101",
+      "steps": 109157,
+      "gzip_sha256": "1c1214b2f1498abe0cb1cd83e3952463e99c4a13d586ab3201359b267f50e8a4"
+    },
+    {
+      "id": "default-balanced18-optimized-101",
+      "steps": 72887,
+      "gzip_sha256": "98b2d7de0997a0cee2a964c5d62bf243c7f266c96228f1a301724584a78d321e"
+    },
+    {
+      "id": "legacy-balanced18-hold_D-101",
+      "steps": 17312,
+      "gzip_sha256": "ac2ee43b3ad9618e3bd9bf163e555356b13a6fa8e244cfa74894ce550c961972"
+    },
+    {
+      "id": "default-balanced18-hold_D-101",
+      "steps": 6171,
+      "gzip_sha256": "1db3922ca8f553cde7580d4bf8ff87740ff286d54b5ad0a20aca7a9039cd6eb3"
+    },
+    {
+      "id": "legacy-all30-regular-101",
+      "steps": 73905,
+      "gzip_sha256": "cc37b266f0fbba52774136d90fbf5ca2772bd05708427e0d46ffb271bcf446f7"
+    },
+    {
+      "id": "default-all30-regular-101",
+      "steps": 48941,
+      "gzip_sha256": "3bc7aa7d814695038e3458adf5d20c85a5d182e989ad26927aea65e40b592470"
+    },
+    {
+      "id": "legacy-all30-skilled-101",
+      "steps": 73972,
+      "gzip_sha256": "000dc1e26fbedef7802ff4ebacb0ac0a504080b5d4440e845fc931c667401f32"
+    },
+    {
+      "id": "default-all30-skilled-101",
+      "steps": 48320,
+      "gzip_sha256": "0c12e1544a3ba32ce617832d91d748a62870b6df63c555f8ac53b28388a34719"
+    },
+    {
+      "id": "legacy-all30-optimized-101",
+      "steps": 108376,
+      "gzip_sha256": "e8b5bceab30c2176b4d3acb6190b1c34cb4fef0020902a5a61e21f61973344bc"
+    },
+    {
+      "id": "default-all30-optimized-101",
+      "steps": 111289,
+      "gzip_sha256": "43750ac3766f165cb86b4be46237c322e60ffca3cbb6cdefb8e8ba18821c7854"
+    },
+    {
+      "id": "legacy-all30-hold_D-101",
+      "steps": 216000,
+      "gzip_sha256": "1f8ed603dd07a2184e519b392d741ab613d2c521cba59e0064067f52a50202d1"
+    },
+    {
+      "id": "default-all30-hold_D-101",
+      "steps": 7194,
+      "gzip_sha256": "9568e0f79252da8eaecc182a2a908a20347ef2cf636ecb6913036c617339534a"
+    },
+    {
+      "id": "normal3-zero-regular-101",
+      "steps": 43908,
+      "gzip_sha256": "29293d9eb51140c0201d494cfeb7ab3ca2776b09abbfe91c824bf4cef09d6d6f"
+    },
+    {
+      "id": "normal3-zero-optimized-101",
+      "steps": 73287,
+      "gzip_sha256": "f58bcd7aac6be20d137a33fe9ad783ef5000c1a826b6c071347607f59411467e"
+    },
+    {
+      "id": "normal5-zero-regular-101",
+      "steps": 24085,
+      "gzip_sha256": "430f2cd0935de6a9c16247fa55e08b6bc54c179ffc9b381ec003267d74b0924f"
+    },
+    {
+      "id": "normal5-zero-optimized-101",
+      "steps": 33766,
+      "gzip_sha256": "a7718e03e0770ef3b7d0418ab58077de30878419cb2db6c1359584be079b96a9"
+    },
+    {
+      "id": "active-slip-zero-regular-101",
+      "steps": 23272,
+      "gzip_sha256": "d0999e75a8de0658804d79394f29610e8e3696bd1813e8a90dc4192c00141dc9"
+    },
+    {
+      "id": "active-slip-zero-skilled-101",
+      "steps": 23404,
+      "gzip_sha256": "7c4fe0ea47c2db48c424ffc343adea578f51a708080c9b1ec202cc9d89b52dc2"
+    },
+    {
+      "id": "active-slip-zero-optimized-101",
+      "steps": 74008,
+      "gzip_sha256": "7df6bb2185149cabaa910a832b155b338952a9a12f9669d58c6fcdf8c23cd80c"
+    },
+    {
+      "id": "active-slip-zero-hold_D-101",
+      "steps": 216000,
+      "gzip_sha256": "1f8ed603dd07a2184e519b392d741ab613d2c521cba59e0064067f52a50202d1"
+    },
+    {
+      "id": "active-slip-balanced18-regular-101",
+      "steps": 23249,
+      "gzip_sha256": "00583f4e9f9637ce5cf99a09e39767eeb35f5cd99b9e73c3e6265174479e1c71"
+    },
+    {
+      "id": "active-slip-balanced18-skilled-101",
+      "steps": 23607,
+      "gzip_sha256": "02a2b24e61675672a7ad26eede4bd9fd45dec87b2f3f8231ea83d5f956a97c07"
+    },
+    {
+      "id": "active-slip-balanced18-optimized-101",
+      "steps": 72887,
+      "gzip_sha256": "98b2d7de0997a0cee2a964c5d62bf243c7f266c96228f1a301724584a78d321e"
+    },
+    {
+      "id": "active-slip-balanced18-hold_D-101",
+      "steps": 6171,
+      "gzip_sha256": "1db3922ca8f553cde7580d4bf8ff87740ff286d54b5ad0a20aca7a9039cd6eb3"
+    },
+    {
+      "id": "active-slip-all30-regular-101",
+      "steps": 23811,
+      "gzip_sha256": "720f0004c1512def45710dee90bdc69d1c7a5974e50aee51bd9d46d002bb0d80"
+    },
+    {
+      "id": "active-slip-all30-skilled-101",
+      "steps": 24186,
+      "gzip_sha256": "641f213c0100d114caa370f4230875087d0bcaefc54e994f6f82bd330f65540f"
+    },
+    {
+      "id": "active-slip-all30-optimized-101",
+      "steps": 112404,
+      "gzip_sha256": "fec6d0017642b1c0c61a07283c886e86f53987c92e67d704f6c919fb83fdf69b"
+    },
+    {
+      "id": "active-slip-all30-hold_D-101",
+      "steps": 7194,
+      "gzip_sha256": "9568e0f79252da8eaecc182a2a908a20347ef2cf636ecb6913036c617339534a"
+    },
+    {
+      "id": "aware-normal4-all30-regular_aware-101",
+      "steps": 28726,
+      "gzip_sha256": "a59527f6385dd112162c694e37c7911397b824adf3002188fcd5af29ed6a89b2"
+    },
+    {
+      "id": "aware-normal4-all30-skilled_aware-101",
+      "steps": 29561,
+      "gzip_sha256": "8ef30231813d74ee502f5e5272901bff4e79c001c6f6667e95ffc37f2d5f6ebc"
+    },
+    {
+      "id": "aware-normal3-all30-regular_aware-101",
+      "steps": 68473,
+      "gzip_sha256": "1c881f0a5add2bdd7f4e8bf276e9a62db6c2a186f8bb94723487f52b2abe3dad"
+    },
+    {
+      "id": "aware-normal3-all30-skilled_aware-101",
+      "steps": 66486,
+      "gzip_sha256": "a96a7e96f3413efe6596424bdad03007a588057660ea61fbd81ed8238a7702cc"
+    }
+  ],
+  "analysis_sha256": "8451992e1ed8b051cb20d92c38e1ccff8bb4e7ab9438c5268a50916135c6357b",
+  "outputs_sha256": {
+    "metrics.csv": "1f96b5208a85db7c7eac82ab58b0b133a3077248a94c0d5e1228b38d1cd0f425",
+    "paired.csv": "1b75c2a5288539a03cd38427d2b1eade0b1b8091733a304f878d657de715d0d1",
+    "slips.csv": "3b41d6e50b13dca11d3af9c45df2780d28f764687ee08f2cf39b65b27e365532",
+    "summary.json": "1814e37dfb72899c438d19bc9af1c366b94b965bc0907c4cb90cf36bc7a41d2c",
+    "terrain.csv": "13ffa55eae5b94de29e5a740bc33c3e4547994156dd9548435a4903f5b9efd00"
+  },
+  "limitations": [
+    "Fixed purchased fixtures, not XP campaigns",
+    "Synthetic policies, not human cohorts",
+    "Failure does not prove physical impossibility",
+    "Net stamina change is not gross drain; exhaustion is counted after rescue",
+    "Conditional summit duration excludes falls and right-censored timeouts",
+    "Slope/surface exposure excludes runaway descent"
+  ]
+}

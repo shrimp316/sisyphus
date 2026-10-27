@@ -877,6 +877,9 @@ func _bar(point: Vector2, width: float, value: float, color: Color) -> void:
 func _stamina_percent() -> float:
 	return boulder.stamina / boulder.max_stamina * 100.0
 
+func _slip_recovery_hint() -> String:
+	return "발밑이 불안합니다 · 힘주기를 멈추고 균형을 되찾으세요"
+
 func _draw_hud(size: Vector2) -> void:
 	_draw_progression_hud(size)
 	Art.draw_at(self, art.texture("res://assets/ui/icons/height_marker_icon.png"), Vector2(30, 65), Vector2(64, 64), 0.22)
@@ -909,7 +912,7 @@ func _draw_hud(size: Vector2) -> void:
 	if mountain.is_shelf(boulder.distance):
 		hint = "쉼터 · 손을 놓고 호흡을 고르세요"
 	if boulder.slip >= 75.0:
-		hint = "발밑이 불안합니다 · 힘주기를 멈추고 균형을 되찾으세요"
+		hint = _slip_recovery_hint()
 	if boulder.velocity < -0.08:
 		hint = boulder.rollback_stage()
 	if feedback_time > 0.0:

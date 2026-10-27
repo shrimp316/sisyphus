@@ -1,6 +1,8 @@
 # 숙련·메인화면·프레스티지 MVP
 
-기존 산과 배포 진입점을 보존하면서 EXP 직접 소비, 숙련 35노드, 첫 거리 해금 안내, 메인 메뉴, 최초·반복 프레스티지와 말쿠트 ×5를 연결했다. 새 성장 수치는 `data/mastery/`에 있고 효과는 공통 계산 계층과 `MasteryBoulder`에서 적용한다. 미구매 상태의 기존 물리 일치를 별도로 검사한다.
+기존 산과 배포 진입점을 보존하면서 EXP 직접 소비, 숙련 35노드, 첫 거리 해금 안내, 메인 메뉴, 최초·반복 프레스티지와 말쿠트 ×5를 연결했다. 새 성장 수치는 `data/mastery/`에 있고 효과는 공통 계산 계층과 `MasteryBoulder`에서 적용한다. 현재 MVP는 그 위에 `ClimbBoulder`의 난이도 조정을 적용한다. 기존 물리 일치 검사는 환경 조정을 끈 상태와 능력 계층을 대상으로 한다.
+
+일반 밀기의 Slip 위험, 증가한 스태미나 소모, 지형별 효과와 실제 비교 결과는 [난이도 조정 v1](difficulty-v1.md)을 참조한다. 설정은 `data/mastery/difficulty.json`에 있다. 저장된 위치와 구매 상태는 유지되며, 조정판으로 이어하면 새 난이도가 적용된다. S190과 정식 배포의 기본 컨트롤러에는 이 프로필을 적용하지 않는다.
 
 ## 실행
 
@@ -20,6 +22,7 @@ D/→ 밀기, Shift 힘주기, Space 버티기, Tab 석판, Esc 메뉴, M 음소
 
 - `scripts/mastery_progression.gd`: 지갑·구매·자격·프레스티지 프로필.
 - `scripts/mastery_effects.gd`, `mastery_boulder.gd`: 수치 및 조건부·회차 능력.
+- `scripts/mvp/climb_boulder.gd`: 일반 밀기 Slip·소모·지형별 환경 조정.
 - `scripts/mvp/mastery_main.gd`, `save_contract.gd`: 실제 게임 연결·일시정지·저장·연출 단계.
 - `scenes/mvp/main_menu.tscn`, `mastery_board.tscn`, `mastery_node.tscn`: 데이터 기반 UI.
 - [35노드 슬롯](mastery-slots.csv), [사용 에셋](assets-used.csv), [누락·미사용](assets-unused.md).

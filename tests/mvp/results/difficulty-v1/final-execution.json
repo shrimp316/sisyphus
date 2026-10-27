@@ -1,0 +1,65 @@
+{
+  "workers": [
+    {
+      "name": "final-clear-202",
+      "exit_code": 0,
+      "seconds": 303.8463554382324,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504",
+        "--script",
+        "tests/mvp/difficulty_experiment.gd",
+        "--",
+        "--config",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-clear-202-config.json",
+        "--output",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-clear-202.jsonl"
+      ],
+      "output": "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-clear-202.jsonl",
+      "log": "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-clear-202.log"
+    },
+    {
+      "name": "final-clear-303",
+      "exit_code": 0,
+      "seconds": 305.15252327919006,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504",
+        "--script",
+        "tests/mvp/difficulty_experiment.gd",
+        "--",
+        "--config",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-clear-303-config.json",
+        "--output",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-clear-303.jsonl"
+      ],
+      "output": "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-clear-303.jsonl",
+      "log": "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-clear-303.log"
+    },
+    {
+      "name": "final-weather",
+      "exit_code": 0,
+      "seconds": 328.5235517024994,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504",
+        "--script",
+        "tests/mvp/difficulty_aware_coast_experiment.gd",
+        "--",
+        "--config",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-weather-config.json",
+        "--output",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-weather.jsonl"
+      ],
+      "output": "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-weather.jsonl",
+      "log": "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\mvp\\results\\difficulty-v1\\final-weather.log"
+    }
+  ],
+  "status": "complete"
+}

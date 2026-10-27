@@ -1,7 +1,7 @@
 extends "res://scripts/main.gd"
 
 const Mastery = preload("res://scripts/mastery_progression.gd")
-const MasteryStone = preload("res://scripts/mastery_boulder.gd")
+const MasteryStone = preload("res://scripts/mvp/climb_boulder.gd")
 const SaveContract = preload("res://scripts/mvp/save_contract.gd")
 const UI = preload("res://scripts/mvp/ui_theme.gd")
 const MenuScene = preload("res://scenes/mvp/main_menu.tscn")
@@ -341,7 +341,7 @@ func _apply_preferences() -> void:
 
 func _help() -> void:
 	ui_mode = "help"
-	var area: Control = _new_overlay("돌을 밀어 올리는 법", "D 또는 → : 앞으로 밀기\nShift + D : 힘주기 · 스태미나를 더 사용합니다\nSpace : 후퇴를 제동하고 자세를 버팁니다\nTab : 숙련의 석판 · 첫 해금과 정지한 쉼터에서 구매\nEsc : 일시정지\n\nEXP는 50m마다 얻습니다. 추락해도 EXP와 숙련은 남습니다.")
+	var area: Control = _new_overlay("돌을 밀어 올리는 법", "D / → 밀기 · Shift 힘주기 · Space 버티기\n경사에서는 일반 밀기도 Slip 위험이 쌓입니다.\n밀기 키를 잠시 놓고, 후퇴하면 Space로 제동하세요.\n진흙은 체력, 자갈과 젖은 바위는 발판에 주의하세요.\n쉼터에서 손을 놓으면 체력과 자세를 회복합니다.\nTab 석판 · 첫 해금과 정지한 쉼터에서 구매\nEsc 메뉴 · EXP와 숙련은 일반 추락 후에도 남습니다.")
 	UI.button(area,"돌아가기",Rect2(420,820,440,85),_dismiss_overlay).grab_focus()
 	if FileAccess.file_exists("user://sisyphus-v1.json") and mastery.historical_exp_earned == 0 and mastery.highest_distance == 0:
 		UI.button(area,"이전 최고 기록 가져오기",Rect2(930,820,540,85),func(): _confirmation("이전 기록 가져오기", "정식 저장은 백업 후 그대로 보존합니다. 최고 거리와 일반 숙련 구매 자격만 가져오며, 기존 레벨·EXP·강화는 변환하지 않습니다.",_import_legacy))
@@ -511,10 +511,17 @@ func ahead_information() -> Dictionary:
 func slip_warning_active() -> bool:
 	return "SPC03" in mastery.get_mastery_modifiers().purchased_nodes and boulder.slip>=60
 
+func _slip_recovery_hint() -> String:
+	return "발밑이 불안합니다 · 밀기 키를 놓고 자세를 회복하세요"
+
 func _draw_progression_hud(size: Vector2) -> void:
+	if boulder.has_method("environment_info"):
+		var environment: Dictionary = boulder.call("environment_info")
+		if bool(environment.get("enabled",false)):
+			_text(str(environment.get("note","")),Vector2(56,201),18,GOLD)
 	_text("%d EXP  ·  숙련 %d/35  ·  Tab 석판" % [mastery.available_exp,mastery.purchased_mastery_nodes.size()],Vector2(40,size.y-55),24,GOLD)
 	var ahead: Dictionary = ahead_information()
 	if not ahead.is_empty():
 		_text("앞길 50m · %.0f~%.0f° · %s · 돌턱 %d" % [ahead.angle_min,ahead.angle_max,"/".join(ahead.surfaces),ahead.ledges],Vector2(40,size.y-95),22,MUTED)
 	if slip_warning_active():
-		_center("발밑이 흔들립니다 · 힘주기를 풀고 자세를 잡으세요",150,28,RED)
+		_center("발밑이 흔들립니다 · 밀기 키를 놓고 자세를 잡으세요",150,28,RED)

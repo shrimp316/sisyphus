@@ -1,0 +1,16 @@
+{
+  "before_sha256": {
+    "tests/mvp/results/storage-faults.json": "894a25f69269bb5453564f542422576987e78256b057b7922b5cd40b177c6c1e",
+    "tests/mvp/results/ui-components.json": "d4d4919793ecd97207d7d0a174eae7559f8fdc13d59205ae76cb89aae0b6c19c",
+    "tests/mvp/results/s190/verification.json": "2f3bc70df666785f3d1f47d1ed109f9a12fa2b6c84190fdb980b36aa652c13b3",
+    "tests/mvp/results/climb-difficulty-unit.json": "5db19e4ad31f1f61a1ac3d08ee3b678a004f69a38503d7cbb40def9487909100"
+  },
+  "after_sha256": {
+    "tests/mvp/results/storage-faults.json": "894a25f69269bb5453564f542422576987e78256b057b7922b5cd40b177c6c1e",
+    "tests/mvp/results/ui-components.json": "d4d4919793ecd97207d7d0a174eae7559f8fdc13d59205ae76cb89aae0b6c19c",
+    "tests/mvp/results/s190/verification.json": "2f3bc70df666785f3d1f47d1ed109f9a12fa2b6c84190fdb980b36aa652c13b3",
+    "tests/mvp/results/climb-difficulty-unit.json": "5db19e4ad31f1f61a1ac3d08ee3b678a004f69a38503d7cbb40def9487909100"
+  },
+  "preserved": true,
+  "runner_exit_code": 0
+}
