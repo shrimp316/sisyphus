@@ -61,7 +61,7 @@ func stamina_multiplier() -> float:
 	if stamina >= max_stamina * 0.2:
 		return 0.85
 	if stamina > 0.0:
-		return 0.65
+		return _low_stamina_efficiency()
 	return 0.0
 
 func rollback_stage() -> String:
@@ -228,6 +228,35 @@ func slope_drain_multiplier(angle_degrees: float) -> float:
 		return lerpf(1.0, 1.3, (angle_degrees - 20.0) / 10.0)
 	return lerpf(1.3, 1.7, clampf((angle_degrees - 30.0) / 10.0, 0.0, 1.0))
 
+# Neutral extension points. The base controller retains its original rules;
+# optional mastery effects are implemented by a separate controller subclass.
+func _low_stamina_efficiency() -> float:
+	return 0.65
+
+func _exert_force_multiplier() -> float:
+	return 1.65
+
+func _sweet_force_multiplier() -> float:
+	return 1.1
+
+func _starting_requirement() -> float:
+	return 1.25
+
+func _additional_push_multiplier(_exert: bool) -> float:
+	return 1.0
+
+func _slip_decay_rate(rate: float, _exert: bool, _pushing: bool) -> float:
+	return rate
+
+func _stamina_drain_rate(rate: float, _exert: bool, _sweet: bool, _bracing: bool) -> float:
+	return rate
+
+func _stamina_recovery_rate(rate: float, _degrees: float, _safe: bool) -> float:
+	return rate
+
+func _ledge_effective_push(force: float) -> float:
+	return force
+
 func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 	if state in ["result", "summit"]:
 		return
@@ -266,6 +295,7 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 			slip_gain *= 1.3
 		slip_gain *= 0.9 if sweet else (1.4 if velocity > 1.5 else 1.0)
 	var slip_recovery: float = 20.0 if safe else (10.0 if absf(velocity) < 0.01 else (4.0 if not (exert and pushing) else 0.0))
+	slip_recovery = _slip_decay_rate(slip_recovery, exert, pushing)
 	slip = clampf(slip + (slip_gain - slip_recovery) * dt, 0.0, 100.0)
 	if not slipping and slip >= 100.0:
 		slip = 0.0
@@ -280,16 +310,16 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		has_stamina = stamina > 0.0
 		braking = brace and velocity < 0.0 and has_stamina
 		braced_stance = brace and angle > 0.0 and has_stamina
-	momentum = 1.1 if sweet else 1.0
+	momentum = _sweet_force_multiplier() if sweet else 1.0
 	control_multiplier = 0.9 if velocity > 1.5 else 1.0
 	# Retreating footing limits push transmission; Space remains the full brake.
 	control_multiplier *= lerpf(1.0, ROLLBACK_PUSH_MIN_MULTIPLIER, clampf(-velocity / ROLLBACK_PUSH_FULL_SPEED, 0.0, 1.0))
-	push_force = BASE_PUSH * push_multiplier * stamina_multiplier() * grip * (1.65 if exert else 1.0) * momentum * control_multiplier if pushing else 0.0
+	push_force = BASE_PUSH * push_multiplier * stamina_multiplier() * grip * (_exert_force_multiplier() if exert else 1.0) * momentum * control_multiplier * _additional_push_multiplier(exert) if pushing else 0.0
 	gravity_force = GRAVITY * sin(angle)
 	surface_resistance = mountain.resistance_at(distance)
 	if str(material.id) == "MUD":
 		surface_resistance *= 1.0 + clampf((0.45 - absf(velocity)) / 0.45, 0.0, 1.0)
-	var requirement: float = 1.25 if starting and pushing else 1.0
+	var requirement: float = _starting_requirement() if starting and pushing else 1.0
 	var net: float = push_force - gravity_force * requirement
 	if absf(velocity) > 0.001:
 		acceleration = net - signf(velocity) * surface_resistance * requirement
@@ -299,13 +329,14 @@ func _step_v02(dt: float, push: bool, exert: bool, brace: bool) -> void:
 		acceleration += 5.8 * stamina_multiplier() * grip
 	var drain_multiplier: float = slope_drain_multiplier(degrees)
 	if braking or braced_stance:
-		stamina -= 4.0 * drain_multiplier * dt
+		stamina -= _stamina_drain_rate(4.0 * drain_multiplier, exert, sweet, true) * dt
 		action = "brace"
 	elif pushing:
-		stamina -= (3.0 if exert else 1.0) * drain_multiplier * (0.8 if sweet else 1.0) * dt
+		stamina -= _stamina_drain_rate((3.0 if exert else 1.0) * drain_multiplier * (0.8 if sweet else 1.0), exert, sweet, false) * dt
 		action = "exert" if exert else "push"
 	else:
 		var recovery: float = 10.0 if safe else (7.0 if absf(velocity) < 0.01 else (3.0 if degrees <= 10.0 else 0.0))
+		recovery = _stamina_recovery_rate(recovery, degrees, safe)
 		# Releasing effort is required to recover; holding an exhausted input is not rest.
 		if not effort_requested:
 			stamina += recovery * recovery_multiplier * dt
@@ -361,7 +392,7 @@ func _resolve_ledges(old_distance: float) -> void:
 			cleared_ledges.erase(id)
 		if old_distance <= position and distance > position and not bool(cleared_ledges.get(id, false)):
 			var required: float = BASE_PUSH * mountain.grip_at(position) * float(ledge.required_push)
-			if push_force + 0.00001 >= required:
+			if _ledge_effective_push(push_force) + 0.00001 >= required:
 				cleared_ledges[id] = true
 				velocity *= 0.88
 				ledge_crossed.emit(position)

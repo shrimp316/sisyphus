@@ -1,0 +1,144 @@
+{
+  "completed_at_utc": "2026-10-27T04:55:41.721656+00:00",
+  "sources_sha256": {
+    "scripts/main.gd": "f3623c003d3a85a719bcab6659152629db2d61700fc9849c9c67ef7a454ec5b6",
+    "scripts/boulder_controller.gd": "41fa6ac31c0fa077d1c40dcfa33c17e769666b2d7a56075e337feb8ee8d7f189",
+    "scripts/mastery_boulder.gd": "f9340b98996351e4819d525815e50e19bbce621838470c0f5853b06b3f18fee0",
+    "scripts/mastery_effects.gd": "fc8a37f52334046fb0f17ed72ba75d97b826bb4b6244ca8bb887222547017154",
+    "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7"
+  },
+  "source_unchanged_during_test": {
+    "scripts/main.gd": true,
+    "scripts/boulder_controller.gd": true,
+    "scripts/mastery_boulder.gd": true,
+    "scripts/mastery_effects.gd": true,
+    "scripts/progression.gd": true
+  },
+  "legacy_regressions_passed": 379,
+  "new_physics_checks": 155,
+  "archival_instrumentation_guard_expected_rejection": 21,
+  "all_expectations_met": true,
+  "suites": [
+    {
+      "name": "physics",
+      "script": "tests/physics_balance_verification.gd",
+      "exit_code": 0,
+      "expected_guard_rejection": false,
+      "expectation_met": true,
+      "passed_checks": 115,
+      "log": "phase-b-logs/physics.txt",
+      "log_sha256": "e296a20ced3f652d46cd27576494d78f1b6e015a79d22b15a584465f7a71c544",
+      "tail": [
+        "PASS: forcing already selectedrain weather preserves the entire natural world",
+        "PASS: switching torain adjusts geometry where weather-specific caps differ",
+        "PHYSICS BALANCE: 115 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "stamina",
+      "script": "tests/stamina_brace_verification.gd",
+      "exit_code": 0,
+      "expected_guard_rejection": false,
+      "expectation_met": true,
+      "passed_checks": 124,
+      "log": "phase-b-logs/stamina.txt",
+      "log_sha256": "c70dfdea8c80ad20cfe589203828133bdb389771d36f6d98f32b81d50ab9c1e0",
+      "tail": [
+        "PASS: v4 saved exhausted slip resumes identically with fractional simulation steps",
+        "PASS: v4 30 and 144 FPS agree across slipping brace, exhausted push, rest and brace",
+        "Stamina/brace: 124 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "progression",
+      "script": "tests/progression_verification.gd",
+      "exit_code": 0,
+      "expected_guard_rejection": false,
+      "expectation_met": true,
+      "passed_checks": 50,
+      "log": "phase-b-logs/progression.txt",
+      "log_sha256": "5af770945d6db4bdb733ab6abb25cc123ebdfec22455b5bcbcf457709f3b3c5d",
+      "tail": [
+        "PASS: legacy v3 missing peak uses current distance as migration baseline without retroactive XP",
+        "PASS: legacy v3 low peak uses current distance as migration baseline without retroactive XP",
+        "PROGRESSION VERIFICATION: 50 checks, 0 failures; fixtures: res://.tools/progression-404236"
+      ]
+    },
+    {
+      "name": "web",
+      "script": "tests/web_compatibility_tests.gd",
+      "exit_code": 0,
+      "expected_guard_rejection": false,
+      "expectation_met": true,
+      "passed_checks": 24,
+      "log": "phase-b-logs/web.txt",
+      "log_sha256": "0259150fb1201da7e03cead5248b6104e25cdd23f8d2173852e3c5a308bea802",
+      "tail": [
+        "PASS: failed web save stays paused and reports failure",
+        "PASS: unavailable browser storage warns while permitting temporary play",
+        "WEB COMPATIBILITY: 24 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "v02_quick",
+      "script": "tests/v02_verification.gd",
+      "exit_code": 0,
+      "expected_guard_rejection": false,
+      "expectation_met": true,
+      "passed_checks": 23,
+      "log": "phase-b-logs/v02_quick.txt",
+      "log_sha256": "65190622f796403bb64d8fe82dd63a854026a49d9028efcdc93917141823af87",
+      "tail": [
+        "NORMAL42 rain {\"distance\":1000.0,\"elapsed\":917.441666665997,\"max_slip\":6.56987881960186,\"min_stamina\":72.2361034683369,\"partial_falls\":0,\"peak\":1000.0,\"slips\":0,\"state\":\"summit\"}",
+        "PASS: base-stat controlled climb reaches normal summit seed42 rain",
+        "V0.2 INDEPENDENT: 23 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "harness",
+      "script": "tests/balance/verify_harness.gd",
+      "exit_code": 0,
+      "expected_guard_rejection": false,
+      "expectation_met": true,
+      "passed_checks": 43,
+      "log": "phase-b-logs/harness.txt",
+      "log_sha256": "753d58c27465ba3eea5f1963855bb9454f853189ada78fd9214680505981471a",
+      "tail": [
+        "PASS: terminal fall belongs to its runaway origin band, with descent separately measured",
+        "PASS: cutoff during runaway remains censored rather than becoming a completed death",
+        "BALANCE HARNESS: 43 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "instrumentation",
+      "script": "tests/balance/adjustment_v02/verify_instrumentation.gd",
+      "exit_code": 1,
+      "expected_guard_rejection": true,
+      "expectation_met": true,
+      "passed_checks": 0,
+      "log": "phase-b-logs/instrumentation.txt",
+      "log_sha256": "a756ca91537194117e186e81bb9cb8ff22f213b7cfc93f72b038a49c6f31158a",
+      "tail": [
+        "       [0] build (res://tests/balance/adjustment_v02/controller_factory.gd:13)",
+        "       [1] run (res://tests/balance/adjustment_v02/verify_instrumentation.gd:121)",
+        "FAIL production SHA and unique anchors permit exact scalar instrumentation"
+      ]
+    },
+    {
+      "name": "mastery_physics",
+      "script": "tests/mvp/test_mastery_physics.gd",
+      "exit_code": 0,
+      "expected_guard_rejection": false,
+      "expectation_met": true,
+      "passed_checks": 155,
+      "log": "phase-b-logs/mastery_physics.txt",
+      "log_sha256": "aa7cd6e0565dc9994bafc291361cb56a836fffe454368ca45f260a6de45518c4",
+      "tail": [
+        "Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org",
+        "",
+        "MASTERY PHYSICS 155 checks; 0 failures"
+      ]
+    }
+  ],
+  "scope": "379current legacy checks plus155new checks;21old source-hash instrumentation checks are intentionally refused, not counted as passing regressions. Baseline400 remains isolated and separate."
+}

@@ -1,0 +1,53 @@
+Mastery physics integration (v1.0 MVP)
+
+Production integration continues to live in BoulderController. Neutral virtual
+hooks expose only low-stamina efficiency, Shift/sweet/start multipliers, extra
+push, slip decay, stamina drain/recovery, and effective ledge push. Their default
+values reproduce the original controller. Slip duration remains0.7 seconds and
+Runaway threshold remains-4m/s. No ability cancels either state.
+
+MasteryBoulder.apply_mastery_effects(profile.get_mastery_modifiers()) rebuilds
+stats from purchased AND enabled effects. It never compounds previous stats.
+Capacity changes preserve absolute current stamina, clamped to the new maximum.
+Fresh-run full refill is a caller responsibility, just as in the original game.
+
+Call advance(delta,push,exert,brace) to run abilities. Calling _step_v02 directly
+skips the MasteryBoulder fixed-step wrapper and is not a valid mastery rollout.
+snapshot().mastery_run stores all timers, one-shot charges, unique-forward
+distance, shelf-use history, and retreat/preparation state. restore() supports
+validated snapshots; the outer save layer must validate the complete payload
+atomically before calling it. The run charges/cooldown getters expose UI/save
+summaries without replacing the full mastery_run state.
+
+Interpretations used by the common modifier layer:
+- Consumption reductions add together; at least5% of original consumption remains.
+- BRE01+BRE03 add to a15% stationary recovery bonus (abs(v)<.01).
+- BRE04 provides a minimum1/s on10..15 degree forward released movement.
+- BRE05/BRE09 provide a minimum1/1.5 per second above15 degrees at abs(v)<=.05.
+  Stronger original recovery, such as7/s below.01 speed, is preserved.
+- BRE07 requires5m of consecutive sweet-speed movement beyond the run's prior
+  physical frontier. Old ground cannot recharge it. Released movement uses one
+  nonrenewable1-second window, maximum2 actual stamina independent of bonuses.
+- BRE10 observes the core positive-to-zero transition before supplemental recovery.
+  It has priority over an already charged SPC02, and never fires after Runaway.
+- SPC02 and SPC05 require2 seconds of released shelf rest at abs(v)<=.05.
+  Each shelf may charge/prepare each ability only once per run. SPC02 stores at
+  most one10%-capacity exhaustion charge. SPC05 consumes its10m allowance on
+  all forward movement; retreat never refunds it.
+- SPC04 requires1m of retreat and an actual Space braking stop, not a groove-only
+  catch. Its15-point Slip reduction does not cancel a Slip timer.
+- SPC01/SPC03 publish special_scout_range/special_warning_threshold for the UI.
+  Special effects are absent when the profile's feature flag is disabled.
+
+Regression command from repository root (Godot4.5.1):
+  .tools/godot/Godot_v4.5.1-stable_win64_console.exe --headless --path . --script tests/mvp/test_mastery_physics.gd
+Author run:155 checks,0 failures. Independent verification is recorded separately.
+
+Archived v0.2/v0.3 experiments intentionally SHA-pin the original controller.
+The new neutral hooks change its source hash, so their old factories must reject
+this source. Reproduce those historical experiments from commit d4ba73b (or their
+recorded source revision) in a separate checkout. Do not update their guard,
+rewrite their generated controller, or mix old measurements with mastery runs.
+S190 remains a separate test preset and is not injected into production terrain.
+Mastery recovery/one-shot abilities change available resources, so old no-growth
+resource certificates do not prove anything about newly purchased mastery builds.

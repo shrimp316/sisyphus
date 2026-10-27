@@ -1,0 +1,37 @@
+{
+  "reviewed_at_utc": "2026-10-27T04:52:21.987289+00:00",
+  "verdict": "PASS for profile data and in-memory transaction scope",
+  "sources_sha256": {
+    "scripts/mastery_progression.gd": "10e232f3bb1e264f1050a10cb1649fcd8a845dc2a65716b89eee3b0237c36282",
+    "data/mastery/nodes.json": "5bd8387945a3cb8a40dedf39b19fd255692814b57354049bb31ada43ab350cc3",
+    "data/mastery/balance.json": "668924b889a36d5ff0b026155662728cd46a0a8c4ae3487159737d8032238043",
+    "data/mastery/feature_flags.json": "b2cbaf055361f803cea05be04e98053accba8c733c052b08e179ea791a5796e3",
+    "tests/mvp/test_mastery_progression.gd": "139b8a790f3be83abf628b93ad1690959697019d2bfe3d724002f155c6ad0a49",
+    "tests/mvp/test_mastery_save.gd": "4b48412b61b7099ded459e8e478e9992b8c58b8e307e90e30d3a496e334658fc"
+  },
+  "independent_rerun": {
+    "progression_checks": 113,
+    "save_checks": 109,
+    "failures": 0,
+    "logs": [
+      "mastery-progression-independent.txt",
+      "mastery-save-independent.txt"
+    ]
+  },
+  "reviewed": [
+    "EXP wallet debits and no duplicate purchase",
+    "Permanent milestone eligibility and sequential prerequisites",
+    "Record/run milestone award separation",
+    "Existing profile restoration validation before state mutation",
+    "Run-token prestige idempotency across serialized restore",
+    "Malkuth multiplier5 applied once",
+    "External normal/special costs and30normal35total IDs",
+    "Unverified special feature flags disabled"
+  ],
+  "not_covered": [
+    "Actual atomic disk journal and browser reload across prestige phases",
+    "UI milestone pause/frozen input/continuation",
+    "Applied controller effects and all-node neutral physics parity",
+    "Visual and browser layout verification"
+  ]
+}
