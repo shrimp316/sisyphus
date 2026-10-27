@@ -1,0 +1,22 @@
+{
+  "sky": "res://assets/MainMenu/Background/main_bg_sky.png",
+  "far": "res://assets/MainMenu/Background/main_bg_mountains_far.png",
+  "mid": "res://assets/MainMenu/Background/main_bg_mountains_mid.png",
+  "ruins": "res://assets/MainMenu/Background/main_bg_ruins.png",
+  "slope": "res://assets/MainMenu/Background/main_bg_slope.png",
+  "foreground": "res://assets/MainMenu/Background/main_bg_foreground.png",
+  "boulder": "res://assets/MainMenu/Character/main_boulder.png",
+  "boulder_shadow": "res://assets/MainMenu/Character/main_boulder_shadow.png",
+  "sisyphus": "res://assets/MainMenu/Character/main_sisyphus_rig.png",
+  "progress_panel": "res://assets/MainMenu/UI/main_panel_progress.png",
+  "primary_base": "res://assets/MainMenu/UI/main_btn_primary_base.png",
+  "primary_hover": "res://assets/MainMenu/UI/main_btn_primary_hover.png",
+  "primary_pressed": "res://assets/MainMenu/UI/main_btn_primary_pressed.png",
+  "primary_disabled": "res://assets/MainMenu/UI/main_btn_primary_disabled.png",
+  "secondary_base": "res://assets/MainMenu/UI/main_btn_secondary_base.png",
+  "secondary_hover": "res://assets/MainMenu/UI/main_btn_secondary_hover.png",
+  "secondary_pressed": "res://assets/MainMenu/UI/main_btn_secondary_pressed.png",
+  "secondary_disabled": "res://assets/MainMenu/UI/main_btn_secondary_disabled.png",
+  "node_branch": "res://assets/ui/sephirot/node_branch_available.png",
+  "node_core": "res://assets/ui/sephirot/node_core_completed.png"
+}

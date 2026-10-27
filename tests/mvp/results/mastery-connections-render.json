@@ -1,0 +1,26 @@
+{
+	"connections": 27,
+	"connector_sample": [
+		267,
+		259
+	],
+	"gold_rgb": [
+		0.839215695858002,
+		0.717647075653076,
+		0.466666668653488
+	],
+	"png_saved": true,
+	"png_sha256": "caac732e176817cca7b40cf9404bb180b53c5c081e4e9fd9950e617aca99a0bf",
+	"renderer": "Windows",
+	"rgb_distance": 0.0,
+	"sample_rgb": [
+		0.839215695858002,
+		0.717647075653076,
+		0.466666668653488
+	],
+	"size": [
+		1920,
+		1080
+	],
+	"visible_connector": true
+}
