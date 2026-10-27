@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "nodes": [
+    {
+      "id": "STR01",
+      "act": 1,
+      "category": "STR",
+      "sequence": 1,
+      "name": "근력 1",
+      "description": "기본 추진력 +3%",
+      "effect_type": "push_bonus",
+      "effect_value": 0.03,
+      "exp_cost": 30,
+      "unlock_milestone": 250,
+      "prerequisites": [],
+      "enabled": true,
+      "icon_id": "STR01"
+    },
+    {
+      "id": "STR02",
+      "act": 1,
+      "category": "STR",
+      "sequence": 2,
+      "name": "근력 2",
+      "description": "정지 출발 부담 1.23",
+      "effect_type": "start_requirement",
+      "effect_value": 1.23,
+      "exp_cost": 40,
+      "unlock_milestone": 250,
+      "prerequisites": [
+        "STR01"
+      ],
+      "enabled": true,
+      "icon_id": "STR02"
+    },
+    {
+      "id": "STR03",
+      "act": 1,
+      "category": "STR",
+      "sequence": 3,
+      "name": "근력 3",
+      "description": "기본 추진력 +3%",
+      "effect_type": "push_bonus",
+      "effect_value": 0.03,
+      "exp_cost": 50,
+      "unlock_milestone": 250,
+      "prerequisites": [
+        "STR02"
+      ],
+      "enabled": true,
+      "icon_id": "STR03"
+    },
+    {
+      "id": "STR04",
+      "act": 1,
+      "category": "STR",
+      "sequence": 4,
+      "name": "근력 4",
+      "description": "힘주기 추진 배율 1.68",
+      "effect_type": "exert_multiplier",
+      "effect_value": 1.68,
+      "exp_cost": 70,
+      "unlock_milestone": 250,
+      "prerequisites": [
+        "STR03"
+      ],
+      "enabled": true,
+      "icon_id": "STR04"
+    },
+    {
+      "id": "STR05",
+      "act": 1,
+      "category": "STR",
+      "sequence": 5,
+      "name": "근력 5",
+      "description": "기본 추진력 +3%",
+      "effect_type": "push_bonus",
+      "effect_value": 0.03,
+      "exp_cost": 90,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "STR04"
+      ],
+      "enabled": true,
+      "icon_id": "STR05"
+    },
+    {
+      "id": "STR06",
+      "act": 1,
+      "category": "STR",
+      "sequence": 6,
+      "name": "근력 6",
+      "description": "돌턱 유효 추진력 +3%",
+      "effect_type": "ledge_push_bonus",
+      "effect_value": 0.03,
+      "exp_cost": 120,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "STR05"
+      ],
+      "enabled": true,
+      "icon_id": "STR06"
+    },
+    {
+      "id": "STR07",
+      "act": 1,
+      "category": "STR",
+      "sequence": 7,
+      "name": "근력 7",
+      "description": "기본 추진력 +3%",
+      "effect_type": "push_bonus",
+      "effect_value": 0.03,
+      "exp_cost": 150,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "STR06"
+      ],
+      "enabled": true,
+      "icon_id": "STR07"
+    },
+    {
+      "id": "STR08",
+      "act": 1,
+      "category": "STR",
+      "sequence": 8,
+      "name": "근력 8",
+      "description": "적정 속도 추진 배율 1.12",
+      "effect_type": "sweet_push_multiplier",
+      "effect_value": 1.12,
+      "exp_cost": 190,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "STR07"
+      ],
+      "enabled": true,
+      "icon_id": "STR08"
+    },
+    {
+      "id": "STR09",
+      "act": 1,
+      "category": "STR",
+      "sequence": 9,
+      "name": "근력 9",
+      "description": "기본 추진력 +3%",
+      "effect_type": "push_bonus",
+      "effect_value": 0.03,
+      "exp_cost": 240,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "STR08"
+      ],
+      "enabled": true,
+      "icon_id": "STR09"
+    },
+    {
+      "id": "STR10",
+      "act": 1,
+      "category": "STR",
+      "sequence": 10,
+      "name": "근력 10",
+      "description": "힘주기 해제 후 조건부 0.5초 추진력 +5%",
+      "effect_type": "post_exert_push_bonus",
+      "effect_value": 0.05,
+      "exp_cost": 300,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "STR09"
+      ],
+      "enabled": true,
+      "icon_id": "STR10"
+    },
+    {
+      "id": "END01",
+      "act": 1,
+      "category": "END",
+      "sequence": 1,
+      "name": "지구력 1",
+      "description": "최대 스태미나 +4%",
+      "effect_type": "capacity_bonus",
+      "effect_value": 0.04,
+      "exp_cost": 30,
+      "unlock_milestone": 250,
+      "prerequisites": [],
+      "enabled": true,
+      "icon_id": "END01"
+    },
+    {
+      "id": "END02",
+      "act": 1,
+      "category": "END",
+      "sequence": 2,
+      "name": "지구력 2",
+      "description": "일반 밀기 소모 -3%",
+      "effect_type": "normal_drain_reduction",
+      "effect_value": 0.03,
+      "exp_cost": 40,
+      "unlock_milestone": 250,
+      "prerequisites": [
+        "END01"
+      ],
+      "enabled": true,
+      "icon_id": "END02"
+    },
+    {
+      "id": "END03",
+      "act": 1,
+      "category": "END",
+      "sequence": 3,
+      "name": "지구력 3",
+      "description": "최대 스태미나 +4%",
+      "effect_type": "capacity_bonus",
+      "effect_value": 0.04,
+      "exp_cost": 50,
+      "unlock_milestone": 250,
+      "prerequisites": [
+        "END02"
+      ],
+      "enabled": true,
+      "icon_id": "END03"
+    },
+    {
+      "id": "END04",
+      "act": 1,
+      "category": "END",
+      "sequence": 4,
+      "name": "지구력 4",
+      "description": "힘주기 소모 -4%",
+      "effect_type": "exert_drain_reduction",
+      "effect_value": 0.04,
+      "exp_cost": 70,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "END03"
+      ],
+      "enabled": true,
+      "icon_id": "END04"
+    },
+    {
+      "id": "END05",
+      "act": 1,
+      "category": "END",
+      "sequence": 5,
+      "name": "지구력 5",
+      "description": "최대 스태미나 +4%",
+      "effect_type": "capacity_bonus",
+      "effect_value": 0.04,
+      "exp_cost": 90,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "END04"
+      ],
+      "enabled": true,
+      "icon_id": "END05"
+    },
+    {
+      "id": "END06",
+      "act": 1,
+      "category": "END",
+      "sequence": 6,
+      "name": "지구력 6",
+      "description": "잔량 20% 미만 추진 효율 0.70",
+      "effect_type": "low_stamina_push_multiplier",
+      "effect_value": 0.7,
+      "exp_cost": 120,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "END05"
+      ],
+      "enabled": true,
+      "icon_id": "END06"
+    },
+    {
+      "id": "END07",
+      "act": 1,
+      "category": "END",
+      "sequence": 7,
+      "name": "지구력 7",
+      "description": "최대 스태미나 +4%",
+      "effect_type": "capacity_bonus",
+      "effect_value": 0.04,
+      "exp_cost": 150,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "END06"
+      ],
+      "enabled": true,
+      "icon_id": "END07"
+    },
+    {
+      "id": "END08",
+      "act": 1,
+      "category": "END",
+      "sequence": 8,
+      "name": "지구력 8",
+      "description": "적정 속도 일반 밀기 소모 -5%",
+      "effect_type": "sweet_normal_drain_reduction",
+      "effect_value": 0.05,
+      "exp_cost": 190,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "END07"
+      ],
+      "enabled": true,
+      "icon_id": "END08"
+    },
+    {
+      "id": "END09",
+      "act": 1,
+      "category": "END",
+      "sequence": 9,
+      "name": "지구력 9",
+      "description": "최대 스태미나 +4%",
+      "effect_type": "capacity_bonus",
+      "effect_value": 0.04,
+      "exp_cost": 240,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "END08"
+      ],
+      "enabled": true,
+      "icon_id": "END09"
+    },
+    {
+      "id": "END10",
+      "act": 1,
+      "category": "END",
+      "sequence": 10,
+      "name": "지구력 10",
+      "description": "잔량 20% 이하 소모 -5%",
+      "effect_type": "low_stamina_drain_reduction",
+      "effect_value": 0.05,
+      "exp_cost": 300,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "END09"
+      ],
+      "enabled": true,
+      "icon_id": "END10"
+    },
+    {
+      "id": "BRE01",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 1,
+      "name": "호흡 1",
+      "description": "기본 회복 속도 +5%",
+      "effect_type": "recovery_bonus",
+      "effect_value": 0.05,
+      "exp_cost": 30,
+      "unlock_milestone": 250,
+      "prerequisites": [],
+      "enabled": true,
+      "icon_id": "BRE01"
+    },
+    {
+      "id": "BRE02",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 2,
+      "name": "호흡 2",
+      "description": "버티기 소모 -5%",
+      "effect_type": "brace_drain_reduction",
+      "effect_value": 0.05,
+      "exp_cost": 40,
+      "unlock_milestone": 250,
+      "prerequisites": [
+        "BRE01"
+      ],
+      "enabled": true,
+      "icon_id": "BRE02"
+    },
+    {
+      "id": "BRE03",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 3,
+      "name": "호흡 3",
+      "description": "정지 회복 효율 +10%",
+      "effect_type": "stationary_recovery_bonus",
+      "effect_value": 0.1,
+      "exp_cost": 50,
+      "unlock_milestone": 250,
+      "prerequisites": [
+        "BRE02"
+      ],
+      "enabled": true,
+      "icon_id": "BRE03"
+    },
+    {
+      "id": "BRE04",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 4,
+      "name": "호흡 4",
+      "description": "10~15도 전진 입력 해제 초당 1 회복",
+      "effect_type": "gentle_coast_recovery",
+      "effect_value": 1,
+      "exp_cost": 70,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "BRE03"
+      ],
+      "enabled": true,
+      "icon_id": "BRE04"
+    },
+    {
+      "id": "BRE05",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 5,
+      "name": "호흡 5",
+      "description": "15도 초과 거의 정지 입력 해제 초당 1 회복",
+      "effect_type": "steep_stationary_recovery",
+      "effect_value": 1,
+      "exp_cost": 90,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "BRE04"
+      ],
+      "enabled": true,
+      "icon_id": "BRE05"
+    },
+    {
+      "id": "BRE06",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 6,
+      "name": "호흡 6",
+      "description": "비힘주기 Slip 위험 감소 효율 +10%",
+      "effect_type": "non_exert_slip_decay_bonus",
+      "effect_value": 0.1,
+      "exp_cost": 120,
+      "unlock_milestone": 500,
+      "prerequisites": [
+        "BRE05"
+      ],
+      "enabled": true,
+      "icon_id": "BRE06"
+    },
+    {
+      "id": "BRE07",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 7,
+      "name": "호흡 7",
+      "description": "적정 속도 5m 전진 후 최대 1초 관성 회복",
+      "effect_type": "inertia_recovery_rate",
+      "effect_value": 2,
+      "exp_cost": 150,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "BRE06"
+      ],
+      "enabled": true,
+      "icon_id": "BRE07"
+    },
+    {
+      "id": "BRE08",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 8,
+      "name": "호흡 8",
+      "description": "후퇴 버티기 소모 -5%",
+      "effect_type": "retreat_brace_drain_reduction",
+      "effect_value": 0.05,
+      "exp_cost": 190,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "BRE07"
+      ],
+      "enabled": true,
+      "icon_id": "BRE08"
+    },
+    {
+      "id": "BRE09",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 9,
+      "name": "호흡 9",
+      "description": "급경사 정지 회복 초당 1.5",
+      "effect_type": "steep_stationary_recovery",
+      "effect_value": 1.5,
+      "exp_cost": 240,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "BRE08"
+      ],
+      "enabled": true,
+      "icon_id": "BRE09"
+    },
+    {
+      "id": "BRE10",
+      "act": 1,
+      "category": "BRE",
+      "sequence": 10,
+      "name": "호흡 10",
+      "description": "회차당 1회 탈진 시 최대 잔량 10% 회복",
+      "effect_type": "exhaustion_rescue_fraction",
+      "effect_value": 0.1,
+      "exp_cost": 300,
+      "unlock_milestone": 750,
+      "prerequisites": [
+        "BRE09"
+      ],
+      "enabled": true,
+      "icon_id": "BRE10"
+    },
+    {
+      "id": "SPC01",
+      "act": 1,
+      "category": "SPC",
+      "sequence": 1,
+      "name": "길눈",
+      "description": "다음 50m 지형 정보",
+      "effect_type": "special_scout_range",
+      "effect_value": 50,
+      "exp_cost": 300,
+      "unlock_milestone": 1000,
+      "prerequisites": [],
+      "enabled": true,
+      "icon_id": "SPC01"
+    },
+    {
+      "id": "SPC02",
+      "act": 1,
+      "category": "SPC",
+      "sequence": 2,
+      "name": "숨의 비축",
+      "description": "쉼터 휴식 후 위기 회복 충전",
+      "effect_type": "special_crisis_reserve_fraction",
+      "effect_value": 0.1,
+      "exp_cost": 400,
+      "unlock_milestone": 1000,
+      "prerequisites": [],
+      "enabled": true,
+      "icon_id": "SPC02"
+    },
+    {
+      "id": "SPC03",
+      "act": 1,
+      "category": "SPC",
+      "sequence": 3,
+      "name": "위험의 예감",
+      "description": "Slip 게이지 60 이상 위험 예고",
+      "effect_type": "special_warning_threshold",
+      "effect_value": 60,
+      "exp_cost": 500,
+      "unlock_milestone": 1000,
+      "prerequisites": [],
+      "enabled": true,
+      "icon_id": "SPC03"
+    },
+    {
+      "id": "SPC04",
+      "act": 1,
+      "category": "SPC",
+      "sequence": 4,
+      "name": "균형 회복",
+      "description": "1m 이상 후퇴 제동 성공 시 Slip -15",
+      "effect_type": "special_brake_slip_reduction",
+      "effect_value": 15,
+      "exp_cost": 600,
+      "unlock_milestone": 1000,
+      "prerequisites": [],
+      "enabled": true,
+      "icon_id": "SPC04"
+    },
+    {
+      "id": "SPC05",
+      "act": 1,
+      "category": "SPC",
+      "sequence": 5,
+      "name": "다시 내딛는 발",
+      "description": "쉼터 2초 준비 후 다음 10m 밀기 소모 -10%",
+      "effect_type": "special_departure_drain_reduction",
+      "effect_value": 0.1,
+      "exp_cost": 800,
+      "unlock_milestone": 1000,
+      "prerequisites": [],
+      "enabled": true,
+      "icon_id": "SPC05"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+	"display": "Windows",
+	"platform": "Windows",
+	"records": [
+		{
+			"image": [
+				1920,
+				1080
+			],
+			"kind": "sample",
+			"path": "res://tests/mvp/results/typography-v11/independent/final/native/sample-1920.png",
+			"save_error": 0,
+			"sha256": "fd84264fd0676ec3214b3ec78ccd6f9821b5540cde0470465c856f820515cd93",
+			"viewport": [
+				1920,
+				1080
+			]
+		},
+		{
+			"image": [
+				1920,
+				1080
+			],
+			"kind": "menu",
+			"path": "res://tests/mvp/results/typography-v11/independent/final/native/menu-1920.png",
+			"save_error": 0,
+			"sha256": "785181c3ece94c1c559917dc121e912787881c96dfed570e1c9d6ecb10fe41e0",
+			"viewport": [
+				1920,
+				1080
+			]
+		},
+		{
+			"image": [
+				1920,
+				1080
+			],
+			"kind": "board",
+			"path": "res://tests/mvp/results/typography-v11/independent/final/native/board-1920.png",
+			"save_error": 0,
+			"sha256": "fa0339a9fdd52f21ed7dacc9b21aea3daac88c410ff06e3109422af72b5b4ef3",
+			"viewport": [
+				1920,
+				1080
+			]
+		},
+		{
+			"image": [
+				1280,
+				720
+			],
+			"kind": "sample",
+			"path": "res://tests/mvp/results/typography-v11/independent/final/native/sample-1280.png",
+			"save_error": 0,
+			"sha256": "8a562e0d8ff6a12a63208848419327e3519d1cec1df64b985afb88cb2ad8cdb6",
+			"viewport": [
+				1280,
+				720
+			]
+		},
+		{
+			"image": [
+				1280,
+				720
+			],
+			"kind": "menu",
+			"path": "res://tests/mvp/results/typography-v11/independent/final/native/menu-1280.png",
+			"save_error": 0,
+			"sha256": "243cff8d61e981550d48249e3a16b7f66f5f706fbab359174cb4869ebc895363",
+			"viewport": [
+				1280,
+				720
+			]
+		},
+		{
+			"image": [
+				1280,
+				720
+			],
+			"kind": "board",
+			"path": "res://tests/mvp/results/typography-v11/independent/final/native/board-1280.png",
+			"save_error": 0,
+			"sha256": "63a323eb6ad105f3d29526e12276e4bf0af11fd645fecd1977abf3b3e1b498de",
+			"viewport": [
+				1280,
+				720
+			]
+		}
+	],
+	"renderer": "gl_compatibility",
+	"scope": "Real-renderer SubViewport captures on Windows. Sample uses uniform1920design scaling; menu/board use production layout. Artificial profile fixture, no user save touched. Visual review is separate from image save success."
+}

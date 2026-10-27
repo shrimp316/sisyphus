@@ -1,0 +1,4432 @@
+[
+  {
+    "candidate": "legacy",
+    "build": "zero",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 615.424999999605,
+      "median": 616.041666666271,
+      "min": 607.441666666279,
+      "max": 622.791666666265
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 615.424999999605,
+      "median": 616.041666666271,
+      "min": 607.441666666279,
+      "max": 622.791666666265
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 1.419444444444442,
+      "median": 1.63333333333333,
+      "min": 0.891666666666666,
+      "max": 1.73333333333333
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 473.361111110845,
+      "median": 474.2916666664,
+      "min": 470.499999999736,
+      "max": 475.291666666399
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "zero",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 287.969981894281,
+      "median": 287.969981894281,
+      "min": 287.969981894281,
+      "max": 287.969981894281
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 196.891666666652,
+      "median": 196.891666666652,
+      "min": 196.891666666652,
+      "max": 196.891666666652
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 6.60000000000012,
+      "median": 6.60000000000012,
+      "min": 6.60000000000012,
+      "max": 6.60000000000012
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 6.83333333333346,
+      "median": 6.83333333333346,
+      "min": 6.83333333333346,
+      "max": 6.83333333333346
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 143.441666666701,
+      "median": 143.441666666701,
+      "min": 143.441666666701,
+      "max": 143.441666666701
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "zero",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 616.6388888884924,
+      "median": 616.383333332937,
+      "min": 615.683333332938,
+      "max": 617.849999999602
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 616.6388888884924,
+      "median": 616.383333332937,
+      "min": 615.683333332938,
+      "max": 617.849999999602
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 1.0222222222222206,
+      "median": 1.00833333333333,
+      "min": 0.933333333333332,
+      "max": 1.125
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 482.65555555528067,
+      "median": 483.266666666391,
+      "min": 480.549999999727,
+      "max": 484.149999999724
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "zero",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 289.663916931295,
+      "median": 289.663916931295,
+      "min": 289.663916931295,
+      "max": 289.663916931295
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 197.024999999985,
+      "median": 197.024999999985,
+      "min": 197.024999999985,
+      "max": 197.024999999985
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 6.79166666666679,
+      "median": 6.79166666666679,
+      "min": 6.79166666666679,
+      "max": 6.79166666666679
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 6.55000000000012,
+      "median": 6.55000000000012,
+      "min": 6.55000000000012,
+      "max": 6.55000000000012
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 147.20000000003,
+      "median": 147.20000000003,
+      "min": 147.20000000003,
+      "max": 147.20000000003
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "zero",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 915.8499999993313,
+      "median": 916.433333332664,
+      "min": 912.924999999334,
+      "max": 918.191666665996
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 915.8499999993313,
+      "median": 916.433333332664,
+      "min": 912.924999999334,
+      "max": 918.191666665996
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 409.05833333312563,
+      "median": 406.299999999795,
+      "min": 405.199999999796,
+      "max": 415.674999999786
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "zero",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 630.652290370129,
+      "median": 630.652290370129,
+      "min": 630.652290370129,
+      "max": 630.652290370129
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 616.733333332937,
+      "median": 616.733333332937,
+      "min": 616.733333332937,
+      "max": 616.733333332937
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 3.15833333333332,
+      "median": 3.15833333333332,
+      "min": 3.15833333333332,
+      "max": 3.15833333333332
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 16.458333333333,
+      "median": 16.458333333333,
+      "min": 16.458333333333,
+      "max": 16.458333333333
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 241.683333333278,
+      "median": 241.683333333278,
+      "min": 241.683333333278,
+      "max": 241.683333333278
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "zero",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 0,
+    "falls": 2,
+    "timeouts": 1,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 207.07319619984332,
+      "median": 205.117442632854,
+      "min": 201.233086406575,
+      "max": 214.869059560101
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 688.9666666697319,
+      "median": 133.508333333376,
+      "min": 133.39166666671,
+      "max": 1800.00000000911
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 570.1388888914545,
+      "median": 13.6083333333332,
+      "min": 8.12500000000018,
+      "max": 1688.68333334103
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 684.9194444475127,
+      "median": 127.516666666714,
+      "min": 127.241666666714,
+      "max": 1800.00000000911
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "zero",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 0,
+    "falls": 0,
+    "timeouts": 1,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 60.3205343024313,
+      "median": 60.3205343024313,
+      "min": 60.3205343024313,
+      "max": 60.3205343024313
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 1800.00000000911,
+      "median": 1800.00000000911,
+      "min": 1800.00000000911,
+      "max": 1800.00000000911
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 1766.62500000869,
+      "median": 1766.62500000869,
+      "min": 1766.62500000869,
+      "max": 1766.62500000869
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 1800.00000000911,
+      "median": 1800.00000000911,
+      "min": 1800.00000000911,
+      "max": 1800.00000000911
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "balanced18",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 614.122222221828,
+      "median": 615.949999999604,
+      "min": 607.583333332945,
+      "max": 618.833333332935
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 614.122222221828,
+      "median": 615.949999999604,
+      "min": 607.583333332945,
+      "max": 618.833333332935
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 1.3249999999999986,
+      "median": 1.16666666666667,
+      "min": 0.816666666666666,
+      "max": 1.99166666666666
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 473.594444444178,
+      "median": 474.583333333066,
+      "min": 470.499999999736,
+      "max": 475.699999999732
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "balanced18",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 385.054147005155,
+      "median": 385.054147005155,
+      "min": 385.054147005155,
+      "max": 385.054147005155
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 258.824999999929,
+      "median": 258.824999999929,
+      "min": 258.824999999929,
+      "max": 258.824999999929
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 2,
+      "median": 2,
+      "min": 2,
+      "max": 2
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 6.25833333333343,
+      "median": 6.25833333333343,
+      "min": 6.25833333333343,
+      "max": 6.25833333333343
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 9.09166666666679,
+      "median": 9.09166666666679,
+      "min": 9.09166666666679,
+      "max": 9.09166666666679
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 187.358333333327,
+      "median": 187.358333333327,
+      "min": 187.358333333327,
+      "max": 187.358333333327
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "balanced18",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 615.9388888884934,
+      "median": 616.291666666271,
+      "min": 614.533333332939,
+      "max": 616.99166666627
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 615.9388888884934,
+      "median": 616.291666666271,
+      "min": 614.533333332939,
+      "max": 616.99166666627
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.8611111111111107,
+      "median": 0.841666666666666,
+      "min": 0.8,
+      "max": 0.941666666666666
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 481.6749999997263,
+      "median": 482.466666666392,
+      "min": 480.083333333061,
+      "max": 482.474999999726
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "balanced18",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 537.071404742211,
+      "median": 537.071404742211,
+      "min": 537.071404742211,
+      "max": 537.071404742211
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 367.733333333163,
+      "median": 367.733333333163,
+      "min": 367.733333333163,
+      "max": 367.733333333163
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "slips": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 6.05000000000009,
+      "median": 6.05000000000009,
+      "min": 6.05000000000009,
+      "max": 6.05000000000009
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 20.4249999999995,
+      "median": 20.4249999999995,
+      "min": 20.4249999999995,
+      "max": 20.4249999999995
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 267.108333333255,
+      "median": 267.108333333255,
+      "min": 267.108333333255,
+      "max": 267.108333333255
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "balanced18",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 909.88333333267,
+      "median": 909.641666666004,
+      "min": 908.966666666004,
+      "max": 911.041666666002
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 909.88333333267,
+      "median": 909.641666666004,
+      "min": 908.966666666004,
+      "max": 911.041666666002
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 374.3916666664903,
+      "median": 372.283333333159,
+      "min": 371.05833333316,
+      "max": 379.833333333152
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "balanced18",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 639.320826602088,
+      "median": 639.320826602088,
+      "min": 639.320826602088,
+      "max": 639.320826602088
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 607.391666666279,
+      "median": 607.391666666279,
+      "min": 607.391666666279,
+      "max": 607.391666666279
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 3.17499999999999,
+      "median": 3.17499999999999,
+      "min": 3.17499999999999,
+      "max": 3.17499999999999
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 7.49166666666683,
+      "median": 7.49166666666683,
+      "min": 7.49166666666683,
+      "max": 7.49166666666683
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 221.833333333296,
+      "median": 221.833333333296,
+      "min": 221.833333333296,
+      "max": 221.833333333296
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "balanced18",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 0,
+    "falls": 2,
+    "timeouts": 1,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 237.67713283853234,
+      "median": 234.746743262594,
+      "min": 230.165882560556,
+      "max": 248.118772692447
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 695.4527777808373,
+      "median": 144.2666666667,
+      "min": 142.091666666702,
+      "max": 1800.00000000911
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 559.9583333357979,
+      "median": 7.75833333333351,
+      "min": 7.42500000000016,
+      "max": 1664.69166667406
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 691.0750000030633,
+      "median": 137.658333333372,
+      "min": 135.566666666708,
+      "max": 1800.00000000911
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "balanced18",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 0,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 70.4798349321994,
+      "median": 70.4798349321994,
+      "min": 70.4798349321994,
+      "max": 70.4798349321994
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 51.4249999999977,
+      "median": 51.4249999999977,
+      "min": 51.4249999999977,
+      "max": 51.4249999999977
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 9.45833333333344,
+      "median": 9.45833333333344,
+      "min": 9.45833333333344,
+      "max": 9.45833333333344
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 48.3416666666646,
+      "median": 48.3416666666646,
+      "min": 48.3416666666646,
+      "max": 48.3416666666646
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "all30",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 611.022222221831,
+      "median": 611.849999999608,
+      "min": 605.341666666281,
+      "max": 615.874999999604
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 611.022222221831,
+      "median": 611.849999999608,
+      "min": 605.341666666281,
+      "max": 615.874999999604
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 1.2944444444444443,
+      "median": 1.14166666666667,
+      "min": 0.858333333333333,
+      "max": 1.88333333333333
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 473.074999999734,
+      "median": 473.349999999734,
+      "min": 470.749999999736,
+      "max": 475.124999999732
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "all30",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 585.642288730147,
+      "median": 585.642288730147,
+      "min": 585.642288730147,
+      "max": 585.642288730147
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 407.84166666646,
+      "median": 407.84166666646,
+      "min": 407.84166666646,
+      "max": 407.84166666646
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 2,
+      "median": 2,
+      "min": 2,
+      "max": 2
+    },
+    "slips": {
+      "n": 1,
+      "mean": 2,
+      "median": 2,
+      "min": 2,
+      "max": 2
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 2,
+      "median": 2,
+      "min": 2,
+      "max": 2
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 3.85833333333332,
+      "median": 3.85833333333332,
+      "min": 3.85833333333332,
+      "max": 3.85833333333332
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 20.5249999999995,
+      "median": 20.5249999999995,
+      "min": 20.5249999999995,
+      "max": 20.5249999999995
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 285.999999999904,
+      "median": 285.999999999904,
+      "min": 285.999999999904,
+      "max": 285.999999999904
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "all30",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 615.658333332938,
+      "median": 616.291666666271,
+      "min": 614.249999999606,
+      "max": 616.433333332937
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 615.658333332938,
+      "median": 616.291666666271,
+      "min": 614.249999999606,
+      "max": 616.433333332937
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.8499999999999993,
+      "median": 0.866666666666666,
+      "min": 0.758333333333333,
+      "max": 0.924999999999999
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 480.73333333306033,
+      "median": 481.566666666393,
+      "min": 479.033333333062,
+      "max": 481.599999999726
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "all30",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 584.663492048748,
+      "median": 584.663492048748,
+      "min": 584.663492048748,
+      "max": 584.663492048748
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 402.666666666465,
+      "median": 402.666666666465,
+      "min": 402.666666666465,
+      "max": 402.666666666465
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 2,
+      "median": 2,
+      "min": 2,
+      "max": 2
+    },
+    "slips": {
+      "n": 1,
+      "mean": 2,
+      "median": 2,
+      "min": 2,
+      "max": 2
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 3.21666666666666,
+      "median": 3.21666666666666,
+      "min": 3.21666666666666,
+      "max": 3.21666666666666
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 22.616666666666,
+      "median": 22.616666666666,
+      "min": 22.616666666666,
+      "max": 22.616666666666
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 289.324999999901,
+      "median": 289.324999999901,
+      "min": 289.324999999901,
+      "max": 289.324999999901
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "all30",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 902.652777777121,
+      "median": 903.133333332676,
+      "min": 900.008333332679,
+      "max": 904.816666666008
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 902.652777777121,
+      "median": 903.133333332676,
+      "min": 900.008333332679,
+      "max": 904.816666666008
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 347.949999999848,
+      "median": 346.033333333183,
+      "min": 344.708333333184,
+      "max": 353.108333333177
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "all30",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 1,
+    "completion_wilson95": [
+      0.20654931437723745,
+      1
+    ],
+    "reached_250": 1,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 1,
+      "mean": 927.408333332654,
+      "median": 927.408333332654,
+      "min": 927.408333332654,
+      "max": 927.408333332654
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 927.408333332654,
+      "median": 927.408333332654,
+      "min": 927.408333332654,
+      "max": 927.408333332654
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 18.4749999999996,
+      "median": 18.4749999999996,
+      "min": 18.4749999999996,
+      "max": 18.4749999999996
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 357.591666666506,
+      "median": 357.591666666506,
+      "min": 357.591666666506,
+      "max": 357.591666666506
+    }
+  },
+  {
+    "candidate": "legacy",
+    "build": "all30",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 2,
+    "falls": 2,
+    "timeouts": 1,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 267.7031733744673,
+      "median": 273.835746412849,
+      "min": 245.999855450923,
+      "max": 283.27391825963
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 712.2972222252663,
+      "median": 169.933333333343,
+      "min": 166.958333333346,
+      "max": 1800.00000000911
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 551.8055555579234,
+      "median": 7.6583333333335,
+      "min": 5.41666666666673,
+      "max": 1642.34166667377
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 707.4250000030487,
+      "median": 162.525000000017,
+      "min": 159.750000000019,
+      "max": 1800.00000000911
+    }
+  },
+  {
+    "candidate": "default",
+    "build": "all30",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 0,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 85.1537108437947,
+      "median": 85.1537108437947,
+      "min": 85.1537108437947,
+      "max": 85.1537108437947
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 59.9499999999972,
+      "median": 59.9499999999972,
+      "min": 59.9499999999972,
+      "max": 59.9499999999972
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 9.45833333333344,
+      "median": 9.45833333333344,
+      "min": 9.45833333333344,
+      "max": 9.45833333333344
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 56.4249999999974,
+      "median": 56.4249999999974,
+      "min": 56.4249999999974,
+      "max": 56.4249999999974
+    }
+  },
+  {
+    "candidate": "normal3",
+    "build": "zero",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 537.020171159434,
+      "median": 537.020171159434,
+      "min": 537.020171159434,
+      "max": 537.020171159434
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 365.899999999832,
+      "median": 365.899999999832,
+      "min": 365.899999999832,
+      "max": 365.899999999832
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "slips": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 6.00000000000009,
+      "median": 6.00000000000009,
+      "min": 6.00000000000009,
+      "max": 6.00000000000009
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 8.85000000000014,
+      "median": 8.85000000000014,
+      "min": 8.85000000000014,
+      "max": 8.85000000000014
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 264.649999999924,
+      "median": 264.649999999924,
+      "min": 264.649999999924,
+      "max": 264.649999999924
+    }
+  },
+  {
+    "candidate": "normal3",
+    "build": "zero",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 640.505460827028,
+      "median": 640.505460827028,
+      "min": 640.505460827028,
+      "max": 640.505460827028
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 610.724999999609,
+      "median": 610.724999999609,
+      "min": 610.724999999609,
+      "max": 610.724999999609
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 3.15833333333332,
+      "median": 3.15833333333332,
+      "min": 3.15833333333332,
+      "max": 3.15833333333332
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 5.40000000000006,
+      "median": 5.40000000000006,
+      "min": 5.40000000000006,
+      "max": 5.40000000000006
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 243.01666666661,
+      "median": 243.01666666661,
+      "min": 243.01666666661,
+      "max": 243.01666666661
+    }
+  },
+  {
+    "candidate": "normal5",
+    "build": "zero",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 280.932423808907,
+      "median": 280.932423808907,
+      "min": 280.932423808907,
+      "max": 280.932423808907
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 200.708333333315,
+      "median": 200.708333333315,
+      "min": 200.708333333315,
+      "max": 200.708333333315
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 6.79166666666679,
+      "median": 6.79166666666679,
+      "min": 6.79166666666679,
+      "max": 6.79166666666679
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 11.825,
+      "median": 11.825,
+      "min": 11.825,
+      "max": 11.825
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 138.750000000038,
+      "median": 138.750000000038,
+      "min": 138.750000000038,
+      "max": 138.750000000038
+    }
+  },
+  {
+    "candidate": "normal5",
+    "build": "zero",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 291.923915681687,
+      "median": 291.923915681687,
+      "min": 291.923915681687,
+      "max": 291.923915681687
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 281.383333333242,
+      "median": 281.383333333242,
+      "min": 281.383333333242,
+      "max": 281.383333333242
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 6.3000000000001,
+      "median": 6.3000000000001,
+      "min": 6.3000000000001,
+      "max": 6.3000000000001
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 1.625,
+      "median": 1.625,
+      "min": 1.625,
+      "max": 1.625
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 100.608333333359,
+      "median": 100.608333333359,
+      "min": 100.608333333359,
+      "max": 100.608333333359
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "zero",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 282.7793543813207,
+      "median": 281.675877676403,
+      "min": 280.810281677391,
+      "max": 285.851903790168
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 191.86388888887868,
+      "median": 192.399999999989,
+      "min": 189.258333333326,
+      "max": 193.933333333321
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "slips": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 5.405555555555614,
+      "median": 4.45000000000001,
+      "min": 4.10833333333333,
+      "max": 7.6583333333335
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 4.877777777777856,
+      "median": 6.37500000000011,
+      "min": 1.425,
+      "max": 6.83333333333346
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 140.07777777781467,
+      "median": 140.016666666704,
+      "min": 139.141666666704,
+      "max": 141.075000000036
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "zero",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 284.5318420839573,
+      "median": 284.934750756356,
+      "min": 280.49251392111,
+      "max": 288.168261574406
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 194.15277777776532,
+      "median": 194.90833333332,
+      "min": 192.516666666656,
+      "max": 195.03333333332
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 1.6666666666666667,
+      "median": 2,
+      "min": 1,
+      "max": 2
+    },
+    "slips": {
+      "n": 3,
+      "mean": 1.6666666666666667,
+      "median": 2,
+      "min": 1,
+      "max": 2
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 4.883333333333367,
+      "median": 5.05833333333337,
+      "min": 4.10833333333333,
+      "max": 5.4833333333334
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 4.886111111111166,
+      "median": 4.25,
+      "min": 2.52499999999999,
+      "max": 7.88333333333351
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 143.74166666669998,
+      "median": 144.233333333366,
+      "min": 142.333333333368,
+      "max": 144.658333333366
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "zero",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 699.9890541281843,
+      "median": 685.730563523899,
+      "min": 630.652290370129,
+      "max": 783.584308490525
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 687.9277777773167,
+      "median": 670.883333332888,
+      "min": 616.733333332937,
+      "max": 776.166666666125
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0.3333333333333333,
+      "median": 0,
+      "min": 0,
+      "max": 1
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0.3333333333333333,
+      "median": 0,
+      "min": 0,
+      "max": 1
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 3.96388888888889,
+      "median": 4.225,
+      "min": 3.15833333333332,
+      "max": 4.50833333333335
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 22.7805555555549,
+      "median": 18.7583333333329,
+      "min": 16.458333333333,
+      "max": 33.1249999999988
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 270.9888888888067,
+      "median": 261.549999999926,
+      "min": 241.683333333278,
+      "max": 309.733333333216
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "zero",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 0,
+    "falls": 2,
+    "timeouts": 1,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 64.7203607148228,
+      "median": 65.1473029994253,
+      "min": 60.3205343024313,
+      "max": 68.6932448426118
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 632.0944444474796,
+      "median": 49.9499999999978,
+      "min": 46.3333333333313,
+      "max": 1800.00000000911
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 594.2111111140078,
+      "median": 9.02500000000013,
+      "min": 6.98333333333347,
+      "max": 1766.62500000869
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 630.0555555585909,
+      "median": 46.8916666666646,
+      "min": 43.2749999999982,
+      "max": 1800.00000000911
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "balanced18",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 285.270284284666,
+      "median": 286.411610762252,
+      "min": 281.40038875255,
+      "max": 287.998853339196
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 191.48333333332366,
+      "median": 192.183333333323,
+      "min": 188.524999999993,
+      "max": 193.741666666655
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "slips": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 6.188888888888987,
+      "median": 5.49166666666673,
+      "min": 5.41666666666673,
+      "max": 7.6583333333335
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 3.3277777777777864,
+      "median": 4.12499999999999,
+      "min": 0.924999999999999,
+      "max": 4.93333333333337
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 143.40833333336732,
+      "median": 143.075000000034,
+      "min": 142.450000000035,
+      "max": 144.700000000033
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "balanced18",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 288.175190829187,
+      "median": 288.18568030514,
+      "min": 284.952807703835,
+      "max": 291.387084478586
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 196.15277777776367,
+      "median": 196.349999999986,
+      "min": 195.38333333332,
+      "max": 196.724999999985
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 1.6666666666666667,
+      "median": 2,
+      "min": 1,
+      "max": 2
+    },
+    "slips": {
+      "n": 3,
+      "mean": 1.6666666666666667,
+      "median": 2,
+      "min": 1,
+      "max": 2
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 5.727777777777853,
+      "median": 5.49166666666673,
+      "min": 5.41666666666673,
+      "max": 6.2750000000001
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 3.37500000000002,
+      "median": 2.58333333333333,
+      "min": 1.94166666666666,
+      "max": 5.60000000000007
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 147.78888888891868,
+      "median": 147.558333333363,
+      "min": 147.366666666697,
+      "max": 148.441666666696
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "balanced18",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 805.7814377733133,
+      "median": 888.135822327438,
+      "min": 639.320826602088,
+      "max": 889.887664390414
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 771.044444443908,
+      "median": 850.516666666058,
+      "min": 607.391666666279,
+      "max": 855.224999999387
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0.3333333333333333,
+      "median": 0,
+      "min": 0,
+      "max": 1
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0.3333333333333333,
+      "median": 0,
+      "min": 0,
+      "max": 1
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 3.8694444444444436,
+      "median": 4.08333333333333,
+      "min": 3.17499999999999,
+      "max": 4.35000000000001
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 16.949999999999676,
+      "median": 20.6999999999995,
+      "min": 7.49166666666683,
+      "max": 22.6583333333327
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 294.322222222119,
+      "median": 330.141666666531,
+      "min": 221.833333333296,
+      "max": 330.99166666653
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "balanced18",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 0,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 74.28899760176384,
+      "median": 74.9696111197843,
+      "min": 70.4798349321994,
+      "max": 77.4175467533078
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 52.7944444444421,
+      "median": 51.9499999999977,
+      "min": 51.4249999999977,
+      "max": 55.0083333333309
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 8.488888888889013,
+      "median": 9.02500000000013,
+      "min": 6.98333333333347,
+      "max": 9.45833333333344
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 49.53888888888673,
+      "median": 48.5916666666646,
+      "min": 48.3416666666646,
+      "max": 51.683333333331
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "all30",
+    "policy": "regular",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 317.48795718180065,
+      "median": 288.00027239074,
+      "min": 286.452283840139,
+      "max": 378.011315314523
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 215.258333333302,
+      "median": 198.424999999984,
+      "min": 192.166666666656,
+      "max": 255.183333333266
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 1.6666666666666667,
+      "median": 2,
+      "min": 1,
+      "max": 2
+    },
+    "slips": {
+      "n": 3,
+      "mean": 1.6666666666666667,
+      "median": 2,
+      "min": 1,
+      "max": 2
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 6.18333333333343,
+      "median": 6.26666666666677,
+      "min": 5.49166666666673,
+      "max": 6.79166666666679
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 6.12777777777776,
+      "median": 5.18333333333338,
+      "min": 0.924999999999999,
+      "max": 12.2749999999999
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 159.53333333335266,
+      "median": 148.008333333363,
+      "min": 143.491666666701,
+      "max": 187.099999999994
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "all30",
+    "policy": "skilled",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 319.3064498954053,
+      "median": 288.190376542069,
+      "min": 285.037315636374,
+      "max": 384.691657507773
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 220.708333333297,
+      "median": 201.549999999981,
+      "min": 201.116666666648,
+      "max": 259.458333333262
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 2.3333333333333335,
+      "median": 2,
+      "min": 2,
+      "max": 3
+    },
+    "slips": {
+      "n": 3,
+      "mean": 2.3333333333333335,
+      "median": 2,
+      "min": 2,
+      "max": 3
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 5.40833333333339,
+      "median": 5.49166666666673,
+      "min": 4.45833333333334,
+      "max": 6.2750000000001
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 5.5638888888889335,
+      "median": 5.18333333333338,
+      "min": 1.825,
+      "max": 9.68333333333342
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 164.87500000001435,
+      "median": 152.975000000025,
+      "min": 152.733333333359,
+      "max": 188.916666666659
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "all30",
+    "policy": "optimized",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 928.1555555548757,
+      "median": 924.658333332657,
+      "min": 923.108333332658,
+      "max": 936.699999999312
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 928.1555555548757,
+      "median": 924.658333332657,
+      "min": 923.108333332658,
+      "max": 936.699999999312
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 0,
+      "max": 2
+    },
+    "slips": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 0,
+      "max": 2
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 17.8138888888885,
+      "median": 14.3999999999998,
+      "min": 13.2583333333332,
+      "max": 25.7833333333325
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 352.4611111109547,
+      "median": 349.291666666513,
+      "min": 348.491666666514,
+      "max": 359.599999999837
+    }
+  },
+  {
+    "candidate": "active-slip",
+    "build": "all30",
+    "policy": "hold_D",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 0,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 88.1619188124639,
+      "median": 89.1932747820214,
+      "min": 85.1537108437947,
+      "max": 90.1387708115756
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 60.83888888888607,
+      "median": 60.1666666666639,
+      "min": 59.9499999999972,
+      "max": 62.3999999999971
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 8.488888888889013,
+      "median": 9.02500000000013,
+      "min": 6.98333333333347,
+      "max": 9.45833333333344
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 57.186111111108495,
+      "median": 56.4249999999974,
+      "min": 56.4166666666641,
+      "max": 58.716666666664
+    }
+  },
+  {
+    "candidate": "aware-normal4",
+    "build": "all30",
+    "policy": "regular_aware",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 285.110574995828,
+      "median": 285.110574995828,
+      "min": 285.110574995828,
+      "max": 285.110574995828
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 239.38333333328,
+      "median": 239.38333333328,
+      "min": 239.38333333328,
+      "max": 239.38333333328
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 6.42500000000011,
+      "median": 6.42500000000011,
+      "min": 6.42500000000011,
+      "max": 6.42500000000011
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 8.13333333333351,
+      "median": 8.13333333333351,
+      "min": 8.13333333333351,
+      "max": 8.13333333333351
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 144.750000000033,
+      "median": 144.750000000033,
+      "min": 144.750000000033,
+      "max": 144.750000000033
+    }
+  },
+  {
+    "candidate": "aware-normal4",
+    "build": "all30",
+    "policy": "skilled_aware",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 286.097167426763,
+      "median": 286.097167426763,
+      "min": 286.097167426763,
+      "max": 286.097167426763
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 246.341666666607,
+      "median": 246.341666666607,
+      "min": 246.341666666607,
+      "max": 246.341666666607
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 5.49166666666673,
+      "median": 5.49166666666673,
+      "min": 5.49166666666673,
+      "max": 5.49166666666673
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 7.28333333333349,
+      "median": 7.28333333333349,
+      "min": 7.28333333333349,
+      "max": 7.28333333333349
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 141.391666666702,
+      "median": 141.391666666702,
+      "min": 141.391666666702,
+      "max": 141.391666666702
+    }
+  },
+  {
+    "candidate": "aware-normal3",
+    "build": "all30",
+    "policy": "regular_aware",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 583.142841732461,
+      "median": 583.142841732461,
+      "min": 583.142841732461,
+      "max": 583.142841732461
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 570.608333332979,
+      "median": 570.608333332979,
+      "min": 570.608333332979,
+      "max": 570.608333332979
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 3.19166666666666,
+      "median": 3.19166666666666,
+      "min": 3.19166666666666,
+      "max": 3.19166666666666
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 32.2833333333321,
+      "median": 32.2833333333321,
+      "min": 32.2833333333321,
+      "max": 32.2833333333321
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 286.599999999904,
+      "median": 286.599999999904,
+      "min": 286.599999999904,
+      "max": 286.599999999904
+    }
+  },
+  {
+    "candidate": "aware-normal3",
+    "build": "all30",
+    "policy": "skilled_aware",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 582.935527901055,
+      "median": 582.935527901055,
+      "min": 582.935527901055,
+      "max": 582.935527901055
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 554.04999999966,
+      "median": 554.04999999966,
+      "min": 554.04999999966,
+      "max": 554.04999999966
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 3.15833333333332,
+      "median": 3.15833333333332,
+      "min": 3.15833333333332,
+      "max": 3.15833333333332
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 29.8666666666656,
+      "median": 29.8666666666656,
+      "min": 29.8666666666656,
+      "max": 29.8666666666656
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 269.933333333252,
+      "median": 269.933333333252,
+      "min": 269.933333333252,
+      "max": 269.933333333252
+    }
+  },
+  {
+    "candidate": "aware-coast-normal4",
+    "build": "all30",
+    "policy": "regular_aware_coast",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 631.255262246583,
+      "median": 631.255262246583,
+      "min": 631.255262246583,
+      "max": 631.255262246583
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 582.266666666301,
+      "median": 582.266666666301,
+      "min": 582.266666666301,
+      "max": 582.266666666301
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 2.15,
+      "median": 2.15,
+      "min": 2.15,
+      "max": 2.15
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 21.7499999999994,
+      "median": 21.7499999999994,
+      "min": 21.7499999999994,
+      "max": 21.7499999999994
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 167.258333333346,
+      "median": 167.258333333346,
+      "min": 167.258333333346,
+      "max": 167.258333333346
+    }
+  },
+  {
+    "candidate": "aware-coast-normal4",
+    "build": "all30",
+    "policy": "skilled_aware_coast",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 633.349858266915,
+      "median": 633.349858266915,
+      "min": 633.349858266915,
+      "max": 633.349858266915
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 612.949999999607,
+      "median": 612.949999999607,
+      "min": 612.949999999607,
+      "max": 612.949999999607
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 2.59166666666666,
+      "median": 2.59166666666666,
+      "min": 2.59166666666666,
+      "max": 2.59166666666666
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 18.6499999999996,
+      "median": 18.6499999999996,
+      "min": 18.6499999999996,
+      "max": 18.6499999999996
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 202.97499999998,
+      "median": 202.97499999998,
+      "min": 202.97499999998,
+      "max": 202.97499999998
+    }
+  },
+  {
+    "candidate": "aware-coast-normal3",
+    "build": "all30",
+    "policy": "regular_aware_coast",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 633.936500358245,
+      "median": 633.936500358245,
+      "min": 633.936500358245,
+      "max": 633.936500358245
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 571.541666666311,
+      "median": 571.541666666311,
+      "min": 571.541666666311,
+      "max": 571.541666666311
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 2.49999999999999,
+      "median": 2.49999999999999,
+      "min": 2.49999999999999,
+      "max": 2.49999999999999
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 10.5083333333334,
+      "median": 10.5083333333334,
+      "min": 10.5083333333334,
+      "max": 10.5083333333334
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 166.250000000013,
+      "median": 166.250000000013,
+      "min": 166.250000000013,
+      "max": 166.250000000013
+    }
+  },
+  {
+    "candidate": "aware-coast-normal3",
+    "build": "all30",
+    "policy": "skilled_aware_coast",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 640.613478132716,
+      "median": 640.613478132716,
+      "min": 640.613478132716,
+      "max": 640.613478132716
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 608.416666666278,
+      "median": 608.416666666278,
+      "min": 608.416666666278,
+      "max": 608.416666666278
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 2.59166666666666,
+      "median": 2.59166666666666,
+      "min": 2.59166666666666,
+      "max": 2.59166666666666
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 9.60833333333343,
+      "median": 9.60833333333343,
+      "min": 9.60833333333343,
+      "max": 9.60833333333343
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 206.73333333331,
+      "median": 206.73333333331,
+      "min": 206.73333333331,
+      "max": 206.73333333331
+    }
+  },
+  {
+    "candidate": "aware-v3-normal3",
+    "build": "all30",
+    "policy": "regular_aware_coast",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 635.70116961834,
+      "median": 635.70116961834,
+      "min": 635.70116961834,
+      "max": 635.70116961834
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 563.641666666318,
+      "median": 563.641666666318,
+      "min": 563.641666666318,
+      "max": 563.641666666318
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 2.72499999999999,
+      "median": 2.72499999999999,
+      "min": 2.72499999999999,
+      "max": 2.72499999999999
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 11.5583333333333,
+      "median": 11.5583333333333,
+      "min": 11.5583333333333,
+      "max": 11.5583333333333
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 159.275000000019,
+      "median": 159.275000000019,
+      "min": 159.275000000019,
+      "max": 159.275000000019
+    }
+  },
+  {
+    "candidate": "aware-v3-normal3",
+    "build": "all30",
+    "policy": "skilled_aware_coast",
+    "weather": "clear",
+    "n": 1,
+    "seeds": [
+      101
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      0,
+      0.7934506856227626
+    ],
+    "reached_250": 1,
+    "falls": 1,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 1,
+      "mean": 641.977159417078,
+      "median": 641.977159417078,
+      "min": 641.977159417078,
+      "max": 641.977159417078
+    },
+    "seconds": {
+      "n": 1,
+      "mean": 608.024999999611,
+      "median": 608.024999999611,
+      "min": 608.024999999611,
+      "max": 608.024999999611
+    },
+    "normal_slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 1,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 1,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 1,
+      "mean": 2.59166666666666,
+      "median": 2.59166666666666,
+      "min": 2.59166666666666,
+      "max": 2.59166666666666
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 1,
+      "mean": 9.60833333333343,
+      "median": 9.60833333333343,
+      "min": 9.60833333333343,
+      "max": 9.60833333333343
+    },
+    "normal_push_seconds": {
+      "n": 1,
+      "mean": 204.799999999978,
+      "median": 204.799999999978,
+      "min": 204.799999999978,
+      "max": 204.799999999978
+    }
+  },
+  {
+    "candidate": "final-aware-weather",
+    "build": "zero",
+    "policy": "optimized_aware_coast",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 686.1547551990303,
+      "median": 685.72859048273,
+      "min": 591.752874944949,
+      "max": 780.982800169412
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 711.5499999995174,
+      "median": 709.666666666186,
+      "min": 601.90833333295,
+      "max": 823.074999999416
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 4.013888888888887,
+      "median": 4.07499999999999,
+      "min": 3.45833333333332,
+      "max": 4.50833333333335
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 50.808333333332236,
+      "median": 48.3666666666646,
+      "min": 36.1166666666653,
+      "max": 67.9416666666668
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 266.6638888888107,
+      "median": 266.474999999922,
+      "min": 224.133333333294,
+      "max": 309.383333333216
+    }
+  },
+  {
+    "candidate": "final-aware-weather",
+    "build": "all30",
+    "policy": "optimized_aware_coast",
+    "weather": "clear",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 3,
+    "completion_wilson95": [
+      0.4385029682449546,
+      1
+    ],
+    "reached_250": 3,
+    "falls": 0,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 3,
+      "mean": 980.5138888881617,
+      "median": 979.449999999274,
+      "min": 962.566666665956,
+      "max": 999.524999999255
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 1000.0,
+      "median": 1000.0,
+      "min": 1000.0,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 980.5138888881617,
+      "median": 979.449999999274,
+      "min": 962.566666665956,
+      "max": 999.524999999255
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 53.76388888888647,
+      "median": 52.7916666666643,
+      "min": 47.9416666666646,
+      "max": 60.5583333333305
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 360.5083333331697,
+      "median": 356.608333333173,
+      "min": 356.42499999984,
+      "max": 368.491666666496
+    }
+  },
+  {
+    "candidate": "final-aware-weather",
+    "build": "zero",
+    "policy": "optimized_aware_coast",
+    "weather": "rain",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 0,
+    "completion_wilson95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ],
+    "reached_250": 3,
+    "falls": 3,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 656.0935314113043,
+      "median": 684.659902396541,
+      "min": 591.757671733011,
+      "max": 691.863020104361
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 675.9527777773276,
+      "median": 705.758333332856,
+      "min": 606.06666666628,
+      "max": 716.033333332847
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 1,
+      "median": 1,
+      "min": 1,
+      "max": 1
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 4.308333333333347,
+      "median": 4.50833333333335,
+      "min": 3.45833333333332,
+      "max": 4.95833333333337
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 47.024999999997966,
+      "median": 51.2333333333311,
+      "min": 37.2249999999985,
+      "max": 52.6166666666643
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 257.130555555486,
+      "median": 270.558333333252,
+      "min": 229.799999999955,
+      "max": 271.033333333251
+    }
+  },
+  {
+    "candidate": "final-aware-weather",
+    "build": "all30",
+    "policy": "optimized_aware_coast",
+    "weather": "rain",
+    "n": 3,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "summits": 1,
+    "completion_wilson95": [
+      0.06149194472039621,
+      0.7923403991979522
+    ],
+    "reached_250": 3,
+    "falls": 2,
+    "timeouts": 0,
+    "summit_seconds": {
+      "n": 1,
+      "mean": 966.883333332618,
+      "median": 966.883333332618,
+      "min": 966.883333332618,
+      "max": 966.883333332618
+    },
+    "peak_m": {
+      "n": 3,
+      "mean": 926.8041919686714,
+      "median": 890.873198754488,
+      "min": 889.539377151526,
+      "max": 1000.0
+    },
+    "seconds": {
+      "n": 3,
+      "mean": 913.7361111104443,
+      "median": 888.191666666023,
+      "min": 886.133333332692,
+      "max": 966.883333332618
+    },
+    "normal_slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "slips": {
+      "n": 3,
+      "mean": 0,
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "exhaustions_after_rescue": {
+      "n": 3,
+      "mean": 14.666666666666666,
+      "median": 1,
+      "min": 0,
+      "max": 43
+    },
+    "exhausted_seconds": {
+      "n": 3,
+      "mean": 2.5361111111111034,
+      "median": 3.64999999999999,
+      "min": 0.0,
+      "max": 3.95833333333332
+    },
+    "shelter_stationary_released_seconds": {
+      "n": 3,
+      "mean": 39.527777777776166,
+      "median": 36.7916666666652,
+      "min": 35.1666666666653,
+      "max": 46.624999999998
+    },
+    "normal_push_seconds": {
+      "n": 3,
+      "mean": 329.211111110976,
+      "median": 316.624999999876,
+      "min": 311.824999999881,
+      "max": 359.183333333171
+    }
+  }
+]

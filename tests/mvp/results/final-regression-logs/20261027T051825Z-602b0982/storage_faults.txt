@@ -1,0 +1,3 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+{"checks":18,"failures":[],"save_path":"user://mvp-fault-independent-064f4e83a210ba9d69f7c6ad.json","scope":"Real file writes with injected ERR_CANT_CREATE before mutation of disk; native backend only. Summit arrival is a fixture. Browser quota/storage errors are a separate verification."}

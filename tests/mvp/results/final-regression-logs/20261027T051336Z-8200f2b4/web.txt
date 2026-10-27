@@ -1,0 +1,37 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS: desktop keeps system font selection
+PASS: bundled Korean font resolves without browser system fonts
+PASS: newer synchronous mirror wins over stale IDB file
+PASS: newer IDB file wins over stale mirror
+PASS: mirror restores when IDB file is absent
+ERROR: Parse JSON failed. Error at line 0: Expected key
+   at: parse_string (core/io/json.cpp:604)
+   GDScript backtrace (most recent call first):
+       [0] _load_save (res://scripts/main.gd:353)
+       [1] run (res://tests/web_compatibility_tests.gd:88)
+PASS: invalid JSON backend blocks destructive replacement (true)
+PASS: blocked save preserves original backend (true)
+ERROR: Parse JSON failed. Error at line 0: Expected key
+   at: parse_string (core/io/json.cpp:604)
+   GDScript backtrace (most recent call first):
+       [0] _load_save (res://scripts/main.gd:352)
+       [1] run (res://tests/web_compatibility_tests.gd:88)
+PASS: invalid JSON backend blocks destructive replacement (false)
+PASS: blocked save preserves original backend (false)
+PASS: newest semantically invalid world is not silently replaced with older progress
+PASS: legacy timestamp-free save still loads
+PASS: save outcome reflects durable backend availability [true, 0, false]
+PASS: IDB and mirror receive identical complete world/run/timestamp
+PASS: save outcome reflects durable backend availability [false, 0, true]
+PASS: save outcome reflects durable backend availability [true, 20, false]
+PASS: save outcome reflects durable backend availability [false, 0, false]
+PASS: save outcome reflects durable backend availability [false, 20, true]
+PASS: web save returns to title without terminating engine or audio
+PASS: web continue retains saved session
+PASS: active browser session autosaves after five seconds
+PASS: paused session does not repeatedly autosave
+PASS: page hide pauses and synchronously mirrors session
+PASS: failed web save stays paused and reports failure
+PASS: unavailable browser storage warns while permitting temporary play
+WEB COMPATIBILITY: 24 checks, 0 failures

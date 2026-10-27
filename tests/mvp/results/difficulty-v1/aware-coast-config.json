@@ -1,0 +1,64 @@
+{
+  "jobs": [
+    {
+      "id": "aware-coast-normal4-all30-regular_aware_coast",
+      "candidate": "aware-coast-normal4",
+      "build": "all30",
+      "policy": "regular_aware_coast",
+      "seeds": [
+        101
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-active-normal4"
+      }
+    },
+    {
+      "id": "aware-coast-normal4-all30-skilled_aware_coast",
+      "candidate": "aware-coast-normal4",
+      "build": "all30",
+      "policy": "skilled_aware_coast",
+      "seeds": [
+        101
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-active-normal4"
+      }
+    },
+    {
+      "id": "aware-coast-normal3-all30-regular_aware_coast",
+      "candidate": "aware-coast-normal3",
+      "build": "all30",
+      "policy": "regular_aware_coast",
+      "seeds": [
+        101
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 3,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-active-normal3"
+      }
+    },
+    {
+      "id": "aware-coast-normal3-all30-skilled_aware_coast",
+      "candidate": "aware-coast-normal3",
+      "build": "all30",
+      "policy": "skilled_aware_coast",
+      "seeds": [
+        101
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 3,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-active-normal3"
+      }
+    }
+  ]
+}

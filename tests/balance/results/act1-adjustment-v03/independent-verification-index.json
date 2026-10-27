@@ -1,0 +1,28 @@
+{
+  "status": "completed verifier lane; full-route experiment/report review belongs to separate passes",
+  "fresh_regression_checks": 400,
+  "independent_runtime_checks": 39,
+  "independent_raw_replays": 2,
+  "proof_grid_checks_by_angle": {
+    "39": 5376,
+    "40": 5376,
+    "45": 5376
+  },
+  "exact_full_candidate_geometry_cases": 800,
+  "hashes_at_archival": {
+    "verification-regressions.json": "4186f1d4ce772d8c7927ffca194c914fcb76b8dd20587bf3bab837338e57e5b7",
+    "independent-runtime-verification.json": "a2bf52fa6fb7ba9f82f1c416d5da0412dd258fda08e127046fa978c519f88d3a",
+    "bound-geometry-verification.json": "bfafc88031a13951c437a22f969de5bf9849c4fb086ffc88181975b92fd4b71b",
+    "full-candidate-certificates.json": "a9dd9d40374814fe7320f4e497b6c543931b998a9fd9bb6a9d0c1fa1cd18c6b1",
+    "angle-bound-verification.json": "2bb797305e331111c71333329e086519f1aef3720bc508d4c5290350189563b8",
+    "recovery-bound-search.json": "5a2c63c5558a7f28b4fb0c317b9064c35d762bb99b6cdc89e3c3fdd8b00bbf55",
+    "recovery-bound-compact-search.json": "6477317e9bd15a8e899c642ad57947e45ecaf3245281ed8982bf60e88a304e86",
+    "recovery-bound-long-search.json": "c3c373e23ecb5941b0a6cf0462a6171981e467907eff427914c88ee0bb945449",
+    "recovery-ablation.json": "ac5358cd010b64ed202736cb6cc57581d3ae7f0f56bef5f44f665187452045c0",
+    "paced-search.json": "61766cbc545dd790ec96620d5b9ad0e76318ff81cb247d0d0c586d8275c8c262",
+    "independent-gate-replay-data/results-replay.json": "c02945cbeea13d6407b460dd305cb890026b944b7831b46e0b1d2df89a2f51ee",
+    "independent-gate-replay-data/manifest.json": "d919d9b0a389291aa3b04578e84465007148ca6e38c2251abeccfcca481f118e"
+  },
+  "scope": "Analytical upper bounds are conditional on documented geometry/resource assumptions. Local fixture witnesses and policy failures are not population/full-route evidence. All verifier writes stay in new v03 tool/results paths except temporary test outputs under .tools. Production unchanged.",
+  "self_approval_exclusion": "Verifier authored mathematical certificate/search helpers and does not independently approve them. Independent analyst and executor reviews are separate proof-review.json / independent-proof-review.json."
+}

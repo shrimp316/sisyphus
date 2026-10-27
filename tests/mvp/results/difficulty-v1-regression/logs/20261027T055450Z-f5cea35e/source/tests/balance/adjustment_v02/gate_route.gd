@@ -1,0 +1,145 @@
+extends "res://tests/balance/adjustment_v02/simulator.gd"
+
+# Separate, deliberately ideal witness policy. The production-generated fixed
+# step is called directly to omit observer overhead; no integration is copied.
+# CLI compatible: -- --config PATH --output PATH
+var trace_directory: String = ""
+func run() -> void:
+	var args: PackedStringArray = OS.get_cmdline_user_args()
+	var config_path: String = ""
+	var output_path: String = ""
+	for index: int in range(args.size() - 1):
+		if args[index] == "--config": config_path = args[index + 1]
+		elif args[index] == "--output": output_path = args[index + 1]
+	if not factory.build() or config_path.is_empty() or output_path.is_empty():
+		quit(2)
+		return
+	policies = JSON.parse_string(FileAccess.get_file_as_string(policy_path())).policies
+	var config: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(config_path))
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(output_path.get_base_dir()))
+	trace_directory = output_path.get_base_dir().path_join("gate-input-traces")
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path(trace_directory))
+	output = FileAccess.open(output_path, FileAccess.WRITE)
+	if output == null:
+		quit(2)
+		return
+	emit({"type":"metadata","config":config,"physics_mode":"direct source-derived production _step_v02 at 120Hz; observer wrapper omitted","controller_sha256":Factory.SOURCE_SHA256,"policy_source_sha256":FileAccess.get_sha256("res://tests/balance/adjustment_v02/gate_route.gd"),"engine":Engine.get_version_info().string,"policy":"ideal120Hz outside-gate existing optimized; pre-gate shelf stop/full heal then normal/coast1.795 retaining moving recovery; gate normal/coast1.195, exert only insufficient normal force; no state mutation after fresh-run setup","human_policy":false,"policy_source":FileAccess.get_file_as_string("res://tests/balance/adjustment_v02/gate_route.gd")})
+	var started: int = Time.get_ticks_msec()
+	for job: Dictionary in config.jobs:
+		if not valid_job(job):
+			quit(2)
+			return
+		for seed_variant: Variant in job.seeds:
+			var first_seed: int = int(seed_variant)
+			var profile: Dictionary = new_profile(job)
+			var campaign: bool = str(job.get("mode","single")) == "campaign"
+			var campaign_id: String = "%s:%d" % [job.id,first_seed] if campaign else ""
+			var max_runs: int = int(job.get("max_runs",30)) if campaign else 1
+			var status: String = "run_limit"
+			var count: int = 0
+			var seeds: Array = []
+			for run_index: int in range(max_runs):
+				var remaining: float = float(job.get("max_campaign_seconds",10800)) - float(profile.time)
+				if remaining <= 0.0:
+					status = "campaign_timeout"
+					break
+				var fresh_seed: int = 1 + posmod(first_seed-1+run_index*104729,2147483646)
+				seeds.append(fresh_seed)
+				var row: Dictionary = fast_run(job,fresh_seed,profile,run_index+1,campaign_id,minf(float(job.get("max_run_seconds",1800)),remaining))
+				emit(row)
+				count += 1
+				status = str(row.status)
+				if row.completed or row.censored: break
+			if campaign:
+				var row: Dictionary = identifiers(job,first_seed,campaign_id)
+				row.merge({"type":"campaign","policy_variant":"gate_oracle_1p195","status":status if status != "fall" else "run_limit","completed":status=="summit","censored":status!="summit","seconds":profile.time,"runs":count,"run_seeds":seeds,"cumulative_xp":profile.earned,"total_xp":(profile.progression as Progression).total_xp,"end_ranks":profile.ranks,"purchases":profile.purchases,"milestone_times":profile.milestone_times,"progression":(profile.progression as Progression).snapshot()})
+				emit(row)
+	output.close()
+	print("GATE ROUTE: %d actual full-route attempts, %.3f wall seconds" % [emitted_runs,(Time.get_ticks_msec()-started)/1000.0])
+	quit(0)
+
+func decide(boulder: BoulderController, policy: Dictionary, memory: Dictionary, rng: RandomNumberGenerator, name: String) -> Array:
+	if not boulder.has_meta("gate_observations"):
+		boulder.set_meta("gate_observations",[])
+	var observations: Array = boulder.get_meta("gate_observations")
+	if boulder.distance >= 742.0 and boulder.distance < 750.0 and boulder.mountain.is_shelf(boulder.distance):
+		# Clear any authored shelf ledge slowly before the full-heal stop. A
+		# high-speed normal-only approach cannot pay its actual force threshold.
+		for ledge: Dictionary in boulder.mountain.ledges:
+			if float(ledge.distance) >= boulder.distance and float(ledge.distance) < 750.0 and not bool(boulder.cleared_ledges.get(str(ledge.id),false)):
+				var push_to_ledge: bool = boulder.velocity < 0.6
+				return [push_to_ledge,push_to_ledge and float(ledge.distance)-boulder.distance < 0.1,false]
+		if not bool(memory.get("gate_ready",false)):
+			if absf(boulder.velocity) <= 0.05 and boulder.stamina >= boulder.max_stamina - 0.000001:
+				memory.gate_ready = true
+				observations.append({"event":"pre_gate_full_heal","state":boulder.snapshot(),"max_stamina":boulder.max_stamina,"safe_for_upgrade":true})
+			else:
+				return [false,false,false]
+		return [boulder.velocity < 1.795,false,false]
+	if boulder.distance >= 750.0 and boulder.distance < 873.0:
+		if not bool(memory.get("gate_entered",false)):
+			memory.gate_entered = true
+			observations.append({"event":"gate_entered","state":boulder.snapshot(),"max_stamina":boulder.max_stamina})
+		var sweet: float = 1.1 if boulder.velocity >= 0.45 and boulder.velocity <= 1.2 else 1.0
+		var force: float = 2.6 * boulder.push_multiplier * boulder.stamina_multiplier() * sweet
+		var opposition: float = 3.0 * sin(boulder.mountain.angle_at(boulder.distance)) + boulder.mountain.resistance_at(boulder.distance)
+		var exert: bool = force < opposition + 0.005 or boulder.velocity < 0.15
+		var push: bool = boulder.velocity < 1.195
+		return [push,exert and push,false]
+	if boulder.distance >= 873.0 and bool(memory.get("gate_entered",false)) and not bool(memory.get("gate_passed",false)):
+		memory.gate_passed = true
+		observations.append({"event":"gate_passed","state":boulder.snapshot()})
+	return super.decide(boulder,policy,memory,rng,name)
+
+func fast_run(job: Dictionary, seed_value: int, profile: Dictionary, run_index: int, campaign_id: String, limit: float) -> Dictionary:
+	var world := create_world(seed_value,job)
+	configure_world(world,job.candidate)
+	var stone: BoulderController = factory.create(world,job.candidate)
+	apply_growth(stone,profile.ranks,job.candidate)
+	stone.stamina = stone.max_stamina
+	var growth: Progression = profile.progression
+	var progression_start: Dictionary = growth.snapshot()
+	growth.begin_run()
+	var ranks_start: Dictionary = profile.ranks.duplicate()
+	var rng := RandomNumberGenerator.new()
+	rng.seed = seed_value ^ 0x4150494C
+	var memory: Dictionary = {"resting":false}
+	var inputs: PackedByteArray = PackedByteArray()
+	var xp_events: Array = []
+	var earned: int = 0
+	var runaway_count: int = 0
+	var safe_rest_events: Array = []
+	var recorded_safe: Dictionary = {}
+	var max_steps: int = int(floor(limit/DT))
+	for step: int in range(max_steps):
+		if stone.state in ["result","summit"]: break
+		if growth.pending_points() > 0:
+			purchase(job,profile,stone)
+		var command: Array = decide(stone,policies.optimized,memory,rng,"optimized")
+		inputs.append(int(command[0]) + 2*int(command[1]) + 4*int(command[2]))
+		var previous_state: String = stone.state
+		stone._step_v02(DT,command[0],command[1],command[2])
+		if previous_state != "runaway" and stone.state == "runaway": runaway_count += 1
+		if int(floor(stone.peak/50.0)) > growth.run_milestones:
+			var added: int = award(profile,stone)
+			earned += added
+			xp_events.append({"seconds":float(profile.time)+stone.elapsed,"run_seconds":stone.elapsed,"peak_m":stone.peak,"earned_xp":added,"total_xp":growth.total_xp,"level":growth.level(),"pending_points":growth.pending_points()})
+		if stone.state == "climbing" and world.is_shelf(stone.distance) and absf(stone.velocity)<=0.05:
+			var chunk_index: int = int(stone.distance/50.0)
+			if not recorded_safe.has(chunk_index):
+				recorded_safe[chunk_index]=true
+				safe_rest_events.append({"seconds":stone.elapsed,"distance_m":stone.distance,"stamina":stone.stamina,"xp":growth.total_xp,"pending_points":growth.pending_points()})
+	var status: String = "summit" if stone.state=="summit" else ("fall" if stone.state=="result" else "timeout")
+	var context := HashingContext.new()
+	context.start(HashingContext.HASH_SHA256)
+	context.update(inputs)
+	var trace_path: String = trace_directory.path_join("%s-seed%d-run%d.bin.gz" % [job.id,seed_value,run_index])
+	var trace_file := FileAccess.open(trace_path, FileAccess.WRITE)
+	trace_file.store_buffer(inputs.compress(FileAccess.COMPRESSION_GZIP))
+	trace_file.close()
+	var row: Dictionary = identifiers(job,seed_value,campaign_id)
+	row.merge({"type":"run","policy_variant":"gate_oracle_1p195","physics_mode":"direct generated production _step_v02 120Hz","run_index":run_index,"status":status,"completed":status=="summit","censored":status=="timeout","seconds":stone.elapsed,"peak_m":stone.peak,"slips":stone.slips,"runaways":runaway_count,"earned_xp":earned,"cumulative_xp":profile.earned,"total_xp":growth.total_xp,"start_ranks":ranks_start,"end_ranks":profile.ranks.duplicate(),"progression_start":progression_start,"progression_end":growth.snapshot(),"xp_events":xp_events,"safe_rest_events":safe_rest_events,"gate_observations":stone.get_meta("gate_observations",[]),"early_250_passed":stone.peak>=250.0,"final_state":stone.snapshot(),"input_sha256":context.finish().hex_encode(),"input_trace_gzip":trace_path,"run_start_seconds":profile.time,"steps":inputs.size(),"weather":world.weather_id,"geometry_layout":world.experiment_layout()})
+	profile.time = float(profile.time)+stone.elapsed
+	emitted_runs += 1
+	print("GATE ",job.id," seed",seed_value," #",run_index," ",status," peak",snappedf(stone.peak,0.01)," ranks",profile.ranks," xp",growth.total_xp)
+	return row

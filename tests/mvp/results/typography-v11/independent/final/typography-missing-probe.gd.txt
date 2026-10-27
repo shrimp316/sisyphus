@@ -1,0 +1,7 @@
+extends SceneTree
+const T=preload("res://scripts/mvp/typography.gd")
+func _initialize():
+ var f=T.load_font("res://.tools/typography-missing-base.tres")
+ var ok=f.resource_path.ends_with("NotoSansKR.ttf") and f.has_char("가".unicode_at(0))
+ print(JSON.stringify({"missing_actual_dependency_fallback":ok,"returned_path":f.resource_path,"injected_missing_resource_errors_expected":true}))
+ quit(0 if ok else 1)

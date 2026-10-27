@@ -1,0 +1,39 @@
+{
+  "verdict": "approved; no blocking factual, link, hash or scope issue found",
+  "document_sha256": "ae549a296bc9c7c5b497007496824d167ce2d7ed84f9e83a1a773a16b8ca81ae",
+  "manifest_sha256": "20f529d4ffdfb005d2f6cee88ba06bccc6e834e9a553dafaaf4ae0605a961061",
+  "source_matches_independently_verified_legacy_followup": true,
+  "relative_links_resolve": 29,
+  "verified_files_sha256": {
+    "builds/mvp-web/index.pck": "458d137b9b6e2299d552cba56b1499ec8bf8eb9482fedd27a5a9ae090f3c32aa",
+    "builds/typography-v11/index.pck": "e56fa91ef221774bd727a76bf424f8dde6c8dfe920990bd91bf5f09d11d383dc",
+    "builds/mvp-web/index.wasm": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d",
+    "builds/typography-v11/index.wasm": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d",
+    "tests/mvp/results/typography-v11/web/board-final.jpg": "e333a1af3f74dbeebe92a78919c690edd5796ec6234166d7719a6753e0dd3e23",
+    "tests/mvp/results/typography-v11/web/hud-final.jpg": "068bf7ea688eec385f8f3b1defc31b289ef8b1cef581319a95a485d596e77e05",
+    "tests/mvp/results/typography-v11/web/menu-final.jpg": "32bd0aef93d856947e2ddac43f54093878d259f21f026654e3fcb417ee88a68e",
+    "tests/mvp/results/typography-v11/web/sample-final-1280.jpg": "3115316dd48b5815ce9ded515715efaa88db30351ffa7cc5e654a8f05391f61d",
+    "tests/mvp/results/typography-v11/web/sample-final-1920.jpg": "6dee293190b1537a8c34ffbf83d4ef1992ae4a3fde7f2426712a0d137945213b",
+    "tests/mvp/results/typography-v11/web/sephirot-final.jpg": "1199d9719b2b6c1bb4aaea0005f43fa1c38dde7df074f8011f660c8e0db5debf",
+    "tests/mvp/results/typography-v11/web/menu-legacy-final.jpg": "32bd0aef93d856947e2ddac43f54093878d259f21f026654e3fcb417ee88a68e",
+    "tests/mvp/results/typography-v11/web/mvp-build-log.txt": "ed5b3aaa6567d898aeb95d8feeac9a82b7bc29c3fb49272807585f8ef1269df0",
+    "tests/mvp/results/typography-v11/web/sample-build-log.txt": "943079cb0df7c23b654d79d4b64ac233b31cfe904e37930766822a4fff3183d7",
+    "tests/mvp/results/typography-v11/web/legacy-final-build-log.txt": "271ecbab25508fbc4dca9f80092deb433a27a04ebdd1cc9e746965ec6807e8df"
+  },
+  "pck_bytes": 38102400,
+  "baseline_pck_bytes": 32937928,
+  "delta_bytes": 5164472,
+  "wasm_bytes_unchanged": 36145869,
+  "test_timeline": "Full1502 predates system-fallback import and legacy Canvas changes; post-import2425, then fonts948 alone, then legacy121+web24+UI265+integration244=654. No new tests run for this document-only review.",
+  "native_evidence": "Ten actual Windows legacy SubViewport images,2resolutions x5states, independently reviewed in legacy-followup/review.json.",
+  "web_evidence": "Latest menu capture is byte-identical to previous reviewed menu; other retained screenshots explicitly identify prior MVP build. Manifest final_build_note correctly separates their provenance. All3 archived logs match hashes and contain no ERROR/SCRIPT ERROR lines. Parent reports live browser console0; not independently re-operated by this reviewer.",
+  "limitations_confirmed": [
+    "Linux untested",
+    "Web1600x900 actual screenshot untested",
+    "Full OS window/fullscreen combinations untested",
+    "Original Noto logo exception retained",
+    "Arbitrary text/Greek combining sequences not exhaustively rendered"
+  ],
+  "previous_evidence_preserved": true,
+  "reviewer_game_source_edits": false
+}

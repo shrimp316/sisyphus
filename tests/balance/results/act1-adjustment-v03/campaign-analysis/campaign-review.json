@@ -1,0 +1,2190 @@
+{
+  "campaigns": 20,
+  "reviewed_campaigns": 20,
+  "attempts": 224,
+  "first_attempt_falls": 20,
+  "completed": 20,
+  "in_120_180_minutes": 4,
+  "records": [
+    {
+      "job_id": "campaign_S190_regular_recovery_balanced",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_balanced",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_regular_recovery_balanced:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 128.55777777769651,
+      "runs": 13,
+      "in_120_180_minutes": true,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 885.531514496324,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.014235379134,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 90.3333333333513,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.002977437102,
+          "pending_points": 1,
+          "run_seconds": 153.075000000025,
+          "seconds": 153.075000000025,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.014211201276,
+          "pending_points": 0,
+          "run_seconds": 459.991666666413,
+          "seconds": 459.991666666413,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 459.999999999746,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 13,
+          "gate_id": "late_gate",
+          "entry_seconds": 459.316666666413,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 9
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 99.3446343366607,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 636.399999999639,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 9,
+        "recovery": 8,
+        "strength": 9
+      }
+    },
+    {
+      "job_id": "campaign_S190_regular_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_regular_recovery_strength:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 88.92749999994383,
+      "runs": 9,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 899.877503215811,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.014235379134,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 90.3333333333513,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.002977437102,
+          "pending_points": 1,
+          "run_seconds": 153.075000000025,
+          "seconds": 153.075000000025,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.010058273826,
+          "pending_points": 0,
+          "run_seconds": 459.70833333308,
+          "seconds": 459.70833333308,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 459.716666666413,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "entry_seconds": 455.24999999975,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 99.3680082998964,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 6
+        },
+        "seconds": 643.374999999633,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 10,
+        "recovery": 1,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_S190_regular_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "endurance",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_regular_recovery_endurance:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 88.33444444438882,
+      "runs": 9,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 884.069544921337,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.014235379134,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 1,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 90.3333333333513,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.001769664422,
+          "pending_points": 1,
+          "run_seconds": 153.116666666692,
+          "seconds": 153.116666666692,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.007818950721,
+          "pending_points": 0,
+          "run_seconds": 460.483333333079,
+          "seconds": 460.483333333079,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.491666666412,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "entry_seconds": 455.783333333083,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 99.3266828889641,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 6,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 640.041666666303,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 10,
+        "recovery": 1,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_S190_regular_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "recovery",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_regular_recovery_recovery:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 88.34499999994433,
+      "runs": 9,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 884.782889357298,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.014235379134,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 1,
+          "strength": 0
+        },
+        "seconds": 90.3333333333513,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.001769664422,
+          "pending_points": 1,
+          "run_seconds": 153.116666666692,
+          "seconds": 153.116666666692,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.007818950721,
+          "pending_points": 0,
+          "run_seconds": 460.483333333079,
+          "seconds": 460.483333333079,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.491666666412,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "entry_seconds": 455.783333333083,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 10,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 99.3266828889641,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 6,
+          "strength": 0
+        },
+        "seconds": 640.133333332969,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 1,
+        "recovery": 10,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_S190_skilled_recovery_balanced",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_balanced",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_skilled_recovery_balanced:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 101.0362499999355,
+      "runs": 10,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 903.175192233457,
+      "first_attempt_xp": 540,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.472036230344,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 92.6083333333531,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.008759764715,
+          "pending_points": 1,
+          "run_seconds": 157.683333333354,
+          "seconds": 157.683333333354,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.001994181874,
+          "pending_points": 1,
+          "run_seconds": 462.199999999744,
+          "seconds": 462.199999999744,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 462.208333333077,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 1,
+            "recovery": 1,
+            "strength": 2
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "entry_seconds": 459.974999999746,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 560,
+        "distance_m": 99.1238828399095,
+        "kind": "endurance",
+        "pending_points": 1,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 1,
+          "strength": 2
+        },
+        "seconds": 660.108333332951,
+        "total_xp": 560
+      },
+      "final_ranks": {
+        "endurance": 7,
+        "recovery": 7,
+        "strength": 8
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_balanced",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_balanced:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 120.1972222221485,
+      "runs": 13,
+      "in_120_180_minutes": true,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 850.823564938586,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.014235379134,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 90.3333333333513,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.000349491849,
+          "pending_points": 1,
+          "run_seconds": 154.700000000024,
+          "seconds": 154.700000000024,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.011092181434,
+          "pending_points": 0,
+          "run_seconds": 460.733333333079,
+          "seconds": 460.733333333079,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.741666666412,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 13,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.324999999746,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 99.1406648667267,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 611.049999999663,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 8,
+        "recovery": 8,
+        "strength": 9
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_strength:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 92.21416666661017,
+      "runs": 10,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 861.159123584955,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.014235379134,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 90.3333333333513,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.000349491849,
+          "pending_points": 1,
+          "run_seconds": 154.700000000024,
+          "seconds": 154.700000000024,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.012570374642,
+          "pending_points": 0,
+          "run_seconds": 460.508333333079,
+          "seconds": 460.508333333079,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.516666666412,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "entry_seconds": 458.891666666414,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 10,
+            "recovery": 1,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 99.3005670831605,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 6
+        },
+        "seconds": 610.641666666329,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 10,
+        "recovery": 1,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "endurance",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_endurance:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 84.02611111105934,
+      "runs": 9,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 852.584435066205,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.014235379134,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 1,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 90.3333333333513,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.001383176679,
+          "pending_points": 1,
+          "run_seconds": 154.650000000024,
+          "seconds": 154.650000000024,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.008139442682,
+          "pending_points": 0,
+          "run_seconds": 463.599999999743,
+          "seconds": 463.599999999743,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.608333333076,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "entry_seconds": 454.966666666417,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 99.1566385010888,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 6,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 616.933333332991,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 10,
+        "recovery": 0,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "recovery",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_recovery:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 155.35499999990535,
+      "runs": 17,
+      "in_120_180_minutes": true,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 846.157246153505,
+      "first_attempt_xp": 480,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.014235379134,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 1,
+          "strength": 0
+        },
+        "seconds": 90.3333333333513,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.001383176679,
+          "pending_points": 1,
+          "run_seconds": 154.650000000024,
+          "seconds": 154.650000000024,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.002946409504,
+          "pending_points": 0,
+          "run_seconds": 461.008333333078,
+          "seconds": 461.008333333078,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 461.016666666412,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 17,
+          "gate_id": "late_gate",
+          "entry_seconds": 453.983333333085,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 8,
+            "recovery": 10,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 147.932220497687,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 6,
+          "strength": 0
+        },
+        "seconds": 639.724999999687,
+        "total_xp": 520
+      },
+      "final_ranks": {
+        "endurance": 9,
+        "recovery": 10,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_balanced",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_skilled_balanced:401",
+      "seed": 401,
+      "completed": true,
+      "minutes": 111.11680555548733,
+      "runs": 12,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 843.567386371791,
+      "first_attempt_xp": 480,
+      "first_purchase": {
+        "cumulative_xp": 60,
+        "distance_m": 147.430349615171,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 92.4916666666863,
+        "total_xp": 60
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.000143506033,
+          "pending_points": 1,
+          "run_seconds": 158.158333333354,
+          "seconds": 158.158333333354,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.005103145495,
+          "pending_points": 1,
+          "run_seconds": 461.974999999744,
+          "seconds": 461.974999999744,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 461.983333333078,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 1,
+            "recovery": 1,
+            "strength": 2
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.208333333079,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 500,
+        "distance_m": 99.0678809925331,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 1,
+          "strength": 2
+        },
+        "seconds": 607.316666666333,
+        "total_xp": 500
+      },
+      "final_ranks": {
+        "endurance": 8,
+        "recovery": 8,
+        "strength": 8
+      }
+    },
+    {
+      "job_id": "campaign_S190_regular_recovery_balanced",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_balanced",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_regular_recovery_balanced:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 118.08347222214768,
+      "runs": 12,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 878.213218104329,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.517124725266,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 122.208333333377,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.002910308019,
+          "pending_points": 1,
+          "run_seconds": 152.483333333359,
+          "seconds": 152.483333333359,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.006094284187,
+          "pending_points": 0,
+          "run_seconds": 463.624999999743,
+          "seconds": 463.624999999743,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.633333333076,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.558333333079,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 8,
+            "recovery": 8,
+            "strength": 8
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 97.5397703632782,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 636.458333332971,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 8,
+        "recovery": 8,
+        "strength": 8
+      }
+    },
+    {
+      "job_id": "campaign_S190_regular_recovery_strength",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_regular_recovery_strength:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 118.61444444436951,
+      "runs": 12,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 890.542480841182,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.517124725266,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 122.208333333377,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.002910308019,
+          "pending_points": 1,
+          "run_seconds": 152.483333333359,
+          "seconds": 152.483333333359,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.006556440307,
+          "pending_points": 0,
+          "run_seconds": 463.583333333076,
+          "seconds": 463.583333333076,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.591666666409,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.808333333079,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 10,
+            "recovery": 4,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 97.6586982661145,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 6
+        },
+        "seconds": 641.274999999633,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 10,
+        "recovery": 5,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_S190_regular_recovery_endurance",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "endurance",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_regular_recovery_endurance:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 117.96583333325883,
+      "runs": 12,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 873.927937656548,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.517124725266,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 1,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 122.208333333377,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.000588819441,
+          "pending_points": 1,
+          "run_seconds": 152.733333333359,
+          "seconds": 152.733333333359,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.007384515825,
+          "pending_points": 0,
+          "run_seconds": 463.941666666409,
+          "seconds": 463.941666666409,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.949999999742,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.808333333079,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 10,
+            "recovery": 4,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 97.5408042277372,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 6,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 637.466666666303,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 10,
+        "recovery": 4,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_S190_regular_recovery_recovery",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "recovery",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_regular_recovery_recovery:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 107.8956944443765,
+      "runs": 11,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 873.235845419773,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.517124725266,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 1,
+          "strength": 0
+        },
+        "seconds": 122.208333333377,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.000785346941,
+          "pending_points": 1,
+          "run_seconds": 152.483333333359,
+          "seconds": 152.483333333359,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.006732084853,
+          "pending_points": 0,
+          "run_seconds": 463.941666666409,
+          "seconds": 463.941666666409,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.949999999742,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 11,
+          "gate_id": "late_gate",
+          "entry_seconds": 459.30833333308,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 3,
+            "recovery": 10,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 97.5408042277372,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 6,
+          "strength": 0
+        },
+        "seconds": 636.924999999637,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 3,
+        "recovery": 10,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_S190_skilled_recovery_balanced",
+      "candidate_id": "S190",
+      "experiment_case": "repeat_campaign",
+      "policy": "skilled_recovery",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_balanced",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_S190_skilled_recovery_balanced:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 101.34638888882417,
+      "runs": 10,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 906.069654623037,
+      "first_attempt_xp": 540,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.379988358572,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 120.841666666709,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.012883656078,
+          "pending_points": 1,
+          "run_seconds": 151.100000000027,
+          "seconds": 151.100000000027,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.01418060116,
+          "pending_points": 0,
+          "run_seconds": 461.999999999744,
+          "seconds": 461.999999999744,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 462.008333333077,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.441666666412,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 8
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 560,
+        "distance_m": 97.3479405427461,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 660.508333332949,
+        "total_xp": 560
+      },
+      "final_ranks": {
+        "endurance": 7,
+        "recovery": 7,
+        "strength": 8
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_balanced",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_balanced:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 110.83847222215432,
+      "runs": 12,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 847.029406907954,
+      "first_attempt_xp": 480,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.659894045044,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 122.458333333377,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.009505246024,
+          "pending_points": 1,
+          "run_seconds": 152.733333333359,
+          "seconds": 152.733333333359,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.000415282708,
+          "pending_points": 0,
+          "run_seconds": 463.616666666409,
+          "seconds": 463.616666666409,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.624999999743,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 12,
+          "gate_id": "late_gate",
+          "entry_seconds": 460.074999999746,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 8,
+            "recovery": 7,
+            "strength": 8
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 149.253006379789,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 640.433333333021,
+        "total_xp": 520
+      },
+      "final_ranks": {
+        "endurance": 8,
+        "recovery": 8,
+        "strength": 8
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_strength",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "strength",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_strength:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 82.94541666661583,
+      "runs": 9,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 852.419676290555,
+      "first_attempt_xp": 510,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.659894045044,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 122.458333333377,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.009505246024,
+          "pending_points": 1,
+          "run_seconds": 152.733333333359,
+          "seconds": 152.733333333359,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.006861566218,
+          "pending_points": 0,
+          "run_seconds": 463.399999999743,
+          "seconds": 463.399999999743,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.408333333076,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 0,
+            "strength": 5
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 9,
+          "gate_id": "late_gate",
+          "entry_seconds": 458.224999999748,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 530,
+        "distance_m": 97.4882776379068,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 6
+        },
+        "seconds": 607.724999999664,
+        "total_xp": 530
+      },
+      "final_ranks": {
+        "endurance": 10,
+        "recovery": 0,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_endurance",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "endurance",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_endurance:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 74.356527777732,
+      "runs": 8,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 847.041743418883,
+      "first_attempt_xp": 480,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.659894045044,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 1,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 122.458333333377,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.009997393865,
+          "pending_points": 1,
+          "run_seconds": 152.741666666692,
+          "seconds": 152.741666666692,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.011083250686,
+          "pending_points": 0,
+          "run_seconds": 463.666666666409,
+          "seconds": 463.666666666409,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.674999999743,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 5,
+            "recovery": 0,
+            "strength": 0
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 8,
+          "gate_id": "late_gate",
+          "entry_seconds": 459.341666666413,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 10,
+            "recovery": 0,
+            "strength": 8
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 149.349781701392,
+        "kind": "endurance",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 6,
+          "recovery": 0,
+          "strength": 0
+        },
+        "seconds": 643.158333333018,
+        "total_xp": 520
+      },
+      "final_ranks": {
+        "endurance": 10,
+        "recovery": 0,
+        "strength": 9
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "regular",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "recovery",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_regular_recovery:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 154.795972222128,
+      "runs": 17,
+      "in_120_180_minutes": true,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 842.256683336963,
+      "first_attempt_xp": 480,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.659894045044,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 1,
+          "strength": 0
+        },
+        "seconds": 122.458333333377,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.009997393865,
+          "pending_points": 1,
+          "run_seconds": 152.741666666692,
+          "seconds": 152.741666666692,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.011083250686,
+          "pending_points": 0,
+          "run_seconds": 463.666666666409,
+          "seconds": 463.666666666409,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 463.674999999743,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 0,
+            "recovery": 5,
+            "strength": 0
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 17,
+          "gate_id": "late_gate",
+          "entry_seconds": 458.233333333081,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 8,
+            "recovery": 10,
+            "strength": 10
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 149.349781701392,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 6,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 6,
+          "strength": 0
+        },
+        "seconds": 639.266666666355,
+        "total_xp": 520
+      },
+      "final_ranks": {
+        "endurance": 8,
+        "recovery": 10,
+        "strength": 10
+      }
+    },
+    {
+      "job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+      "candidate_id": "A39_L127_B10_FAST",
+      "experiment_case": "repeat_campaign",
+      "policy": "skilled",
+      "policy_variant": "configured_policy",
+      "growth_id": "actual_xp_balanced",
+      "growth_mode": "actual",
+      "level": 0,
+      "strategy": "balanced",
+      "ablation_stat": null,
+      "ablation_reference": null,
+      "purchase_mode": null,
+      "instrumentation_mode": "direct_partial",
+      "campaign_id": "campaign_A39_L127_B10_FAST_skilled_balanced:402",
+      "seed": 402,
+      "completed": true,
+      "minutes": 93.142083333276,
+      "runs": 10,
+      "in_120_180_minutes": false,
+      "first_attempt_status": "fall",
+      "first_attempt_peak_m": 839.024697099992,
+      "first_attempt_xp": 480,
+      "first_purchase": {
+        "cumulative_xp": 90,
+        "distance_m": 197.320497819046,
+        "kind": "strength",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 1,
+        "ranks": {
+          "endurance": 0,
+          "recovery": 0,
+          "strength": 1
+        },
+        "seconds": 120.841666666709,
+        "total_xp": 90
+      },
+      "first_attempt_checkpoints": {
+        "250": {
+          "earned_xp": 30,
+          "level": 3,
+          "peak_m": 250.003233165216,
+          "pending_points": 1,
+          "run_seconds": 151.23333333336,
+          "seconds": 151.23333333336,
+          "total_xp": 150
+        },
+        "750": {
+          "earned_xp": 30,
+          "level": 6,
+          "peak_m": 750.000657150372,
+          "pending_points": 0,
+          "run_seconds": 462.64166666641,
+          "seconds": 462.64166666641,
+          "total_xp": 450
+        }
+      },
+      "gate_entries": [
+        {
+          "run_index": 1,
+          "gate_id": "late_gate",
+          "entry_seconds": 462.649999999744,
+          "passed": false,
+          "ranks_at_registered_entry": {
+            "endurance": 2,
+            "recovery": 1,
+            "strength": 2
+          },
+          "is_first_attempt": true,
+          "is_summit_attempt": false
+        },
+        {
+          "run_index": 10,
+          "gate_id": "late_gate",
+          "entry_seconds": 461.266666666411,
+          "passed": true,
+          "ranks_at_registered_entry": {
+            "endurance": 7,
+            "recovery": 7,
+            "strength": 7
+          },
+          "is_first_attempt": false,
+          "is_summit_attempt": true
+        }
+      ],
+      "retry_xp_preserved": true,
+      "retry_ranks_preserved": true,
+      "first_retry_purchase": {
+        "cumulative_xp": 520,
+        "distance_m": 149.120387609248,
+        "kind": "recovery",
+        "pending_points": 0,
+        "points_spent": 1,
+        "rank": 2,
+        "ranks": {
+          "endurance": 2,
+          "recovery": 2,
+          "strength": 2
+        },
+        "seconds": 636.491666666358,
+        "total_xp": 520
+      },
+      "final_ranks": {
+        "endurance": 7,
+        "recovery": 7,
+        "strength": 7
+      }
+    }
+  ]
+}

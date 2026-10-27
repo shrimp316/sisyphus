@@ -1,0 +1,13 @@
+{
+  "loaded_replay_source_sha256": "dcb5a788efb851712ccb9e795d9b27c61600da12e27f9382424ef1191538eb86",
+  "archived_source": "verification-logs/replay-before-portability.gd.txt",
+  "new_portable_source_sha256": "ecc43ffe74bc2fa34061ffcf39d22dfe291214a2a506e5b3d065f92122422b6c",
+  "wrapper_sha256": "d84acfeee76419a90e91374ac25154c225e7fe1d6041fd4490625fc2aad9a52e",
+  "note": "Old replay SHA was measured before the portability patch while selected60 replay was already running. Old bytes reconstructed by reverting only the path resolver patch and accepted only after exact match to that independently recorded SHA. In-flight compiled script retains the old version; new source archived separately.",
+  "completed_replays": 60,
+  "failures": 0,
+  "actual_purchase_guard_events": 194,
+  "purchase_records_matched_to_original_campaigns": 195,
+  "raw_replay_result_sha256": "303e901e78822c53965e932133c04c9c090626fdab8cf33ff3ebd139d4e7320d",
+  "purchase_result_sha256": "8392a841d35f298efc9c177583aa497f806f978033bd100cc4ba293f332f87d4"
+}

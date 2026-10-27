@@ -1,0 +1,648 @@
+{
+  "basis_commit": "d4ba73bf49501f1be5a7d9c28a81a59025abda3d",
+  "inventory_method": "rg --files over checkout: tracked and nonignored untracked project files; excludes .git/.godot/.tools by repository ignore rules. PNG pixels were read only as IHDR metadata; originals were not altered.",
+  "png_count": 173,
+  "csv_count": 155,
+  "csv_paths": [
+    "UI design/메인 UI/sisyphus_main_asset_inventory_v1.csv",
+    "assets/MainMenu/Data/sisyphus_main_asset_inventory_v1.csv",
+    "tests/balance/results/act1-adjustment-v02/bands.csv",
+    "tests/balance/results/act1-adjustment-v02/campaigns.csv",
+    "tests/balance/results/act1-adjustment-v02/geometry.csv",
+    "tests/balance/results/act1-adjustment-v02/metrics.csv",
+    "tests/balance/results/act1-adjustment-v02/slip.csv",
+    "tests/balance/results/act1-adjustment-v02/stalls.csv",
+    "tests/balance/results/act1-adjustment-v02/stamina.csv",
+    "tests/balance/results/act1-adjustment-v02/terrain.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/ablations.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/bands.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/campaigns.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/diagnostic_fixtures.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/first_attempt.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/fixture_gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/fixture_gates.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/fixture_metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/gates.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/slip.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/stalls.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/stamina.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/terrain.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/unlock_geometry.csv",
+    "tests/balance/results/act1-adjustment-v03/ablation-analysis/xp.csv",
+    "tests/balance/results/act1-adjustment-v03/ablations.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/ablations.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/bands.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/campaigns.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/diagnostic_fixtures.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/first_attempt.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/fixture_gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/fixture_gates.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/fixture_metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/gates.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/slip.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/stalls.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/stamina.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/terrain.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/unlock_geometry.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-analysis/xp.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/ablations.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/bands.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/campaigns.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/diagnostic_fixtures.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/first_attempt.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/fixture_gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/fixture_gates.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/fixture_metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/gates.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/slip.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/stalls.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/stamina.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/terrain.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/unlock_geometry.csv",
+    "tests/balance/results/act1-adjustment-v03/angle-full-analysis/xp.csv",
+    "tests/balance/results/act1-adjustment-v03/bands.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/ablations.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/bands.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/campaign_progression.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/campaigns.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/diagnostic_fixtures.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/first_attempt.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/fixture_gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/fixture_gates.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/fixture_metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/gates.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/slip.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/stalls.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/stamina.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/terrain.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/unlock_geometry.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign-analysis/xp.csv",
+    "tests/balance/results/act1-adjustment-v03/campaign_progression.csv",
+    "tests/balance/results/act1-adjustment-v03/campaigns.csv",
+    "tests/balance/results/act1-adjustment-v03/diagnostic_fixtures.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/ablations.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/bands.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/campaigns.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/diagnostic_fixtures.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/first_attempt.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/fixture_gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/fixture_gates.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/fixture_metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/gates.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/slip.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/stalls.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/stamina.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/terrain.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/unlock_geometry.csv",
+    "tests/balance/results/act1-adjustment-v03/factor-analysis/xp.csv",
+    "tests/balance/results/act1-adjustment-v03/first_attempt.csv",
+    "tests/balance/results/act1-adjustment-v03/fixture_gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/fixture_gates.csv",
+    "tests/balance/results/act1-adjustment-v03/fixture_metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/ablations.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/bands.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/campaigns.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/diagnostic_fixtures.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/first_attempt.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/fixture_gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/fixture_gates.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/fixture_metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/gates.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/slip.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/stalls.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/stamina.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/terrain.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/unlock_geometry.csv",
+    "tests/balance/results/act1-adjustment-v03/full-analysis/xp.csv",
+    "tests/balance/results/act1-adjustment-v03/gate_telemetry.csv",
+    "tests/balance/results/act1-adjustment-v03/gates.csv",
+    "tests/balance/results/act1-adjustment-v03/metrics.csv",
+    "tests/balance/results/act1-adjustment-v03/slip.csv",
+    "tests/balance/results/act1-adjustment-v03/stalls.csv",
+    "tests/balance/results/act1-adjustment-v03/stamina.csv",
+    "tests/balance/results/act1-adjustment-v03/terrain.csv",
+    "tests/balance/results/act1-adjustment-v03/unlock_geometry.csv",
+    "tests/balance/results/act1-adjustment-v03/xp.csv",
+    "tests/balance/results/analysis/bands.csv",
+    "tests/balance/results/analysis/current_xp_rate_projections_NOT_measured.csv",
+    "tests/balance/results/analysis/current_xp_thresholds.csv",
+    "tests/balance/results/analysis/fall_xp.csv",
+    "tests/balance/results/analysis/first_summit_curve.csv",
+    "tests/balance/results/analysis/growth_thresholds.csv",
+    "tests/balance/results/analysis/metrics.csv",
+    "tests/balance/results/analysis/paired_comparisons.csv",
+    "tests/balance/results/analysis/purchases.csv",
+    "tests/balance/results/analysis/terrain.csv",
+    "tests/balance/results/analysis/xp_curve.csv",
+    "tests/balance/results/analysis/xp_events.csv",
+    "tests/balance/results/current-pilot/analysis/bands.csv",
+    "tests/balance/results/current-pilot/analysis/current_xp_rate_projections_NOT_measured.csv",
+    "tests/balance/results/current-pilot/analysis/current_xp_thresholds.csv",
+    "tests/balance/results/current-pilot/analysis/fall_xp.csv",
+    "tests/balance/results/current-pilot/analysis/first_summit_curve.csv",
+    "tests/balance/results/current-pilot/analysis/growth_thresholds.csv",
+    "tests/balance/results/current-pilot/analysis/metrics.csv",
+    "tests/balance/results/current-pilot/analysis/paired_comparisons.csv",
+    "tests/balance/results/current-pilot/analysis/purchases.csv",
+    "tests/balance/results/current-pilot/analysis/terrain.csv",
+    "tests/balance/results/current-pilot/analysis/xp_curve.csv",
+    "tests/balance/results/current-pilot/analysis/xp_events.csv"
+  ],
+  "asset_catalogs": [
+    "UI design/메인 UI/sisyphus_main_asset_inventory_v1.csv",
+    "assets/MainMenu/Data/sisyphus_main_asset_inventory_v1.csv"
+  ],
+  "missing_mastery_catalogs": [
+    "mastery_asset_mapping_v11.csv",
+    "mastery_node_layout_v11.csv",
+    "mastery_asset_requests_v11.csv"
+  ],
+  "main_menu_catalog_sha256": "97bc950b92cc5c41b7c8a46cf0fb1488b95b090e5eba389f6f4f9cdf8010c7b5",
+  "main_menu_catalog_duplicate_same_bytes": true,
+  "main_menu_inventory_rows": [
+    {
+      "id": "BG-01",
+      "filename": "main_bg_sky.png",
+      "expected_size": "1920x1080",
+      "present_paths": [
+        "assets/MainMenu/Background/main_bg_sky.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "BG-02",
+      "filename": "main_bg_mountains_far.png",
+      "expected_size": "1920x1080",
+      "present_paths": [
+        "assets/MainMenu/Background/main_bg_mountains_far.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "BG-03",
+      "filename": "main_bg_mountains_mid.png",
+      "expected_size": "1920x1080",
+      "present_paths": [
+        "assets/MainMenu/Background/main_bg_mountains_mid.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "BG-04",
+      "filename": "main_bg_ruins.png",
+      "expected_size": "1920x1080",
+      "present_paths": [
+        "assets/MainMenu/Background/main_bg_ruins.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "BG-05",
+      "filename": "main_bg_slope.png",
+      "expected_size": "1920x1080",
+      "present_paths": [
+        "assets/MainMenu/Background/main_bg_slope.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "BG-06",
+      "filename": "main_bg_foreground.png",
+      "expected_size": "1920x1080",
+      "present_paths": [
+        "assets/MainMenu/Background/main_bg_foreground.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "BG-07",
+      "filename": "main_bg_fog_strip.png",
+      "expected_size": "1920x256",
+      "present_paths": [
+        "assets/MainMenu/Background/main_bg_fog_strip.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "CH-01",
+      "filename": "main_sisyphus_rig",
+      "expected_size": "screen≈300x365",
+      "present_paths": [
+        "assets/MainMenu/Character/main_sisyphus_rig.png",
+        "assets/MainMenu/Character/main_sisyphus_rig.json"
+      ],
+      "missing": false
+    },
+    {
+      "id": "CH-02",
+      "filename": "main_sisyphus_idle.anim",
+      "expected_size": "2.4s loop",
+      "present_paths": [
+        "assets/MainMenu/Character/main_sisyphus_idle.anim"
+      ],
+      "missing": false
+    },
+    {
+      "id": "PR-01",
+      "filename": "main_boulder.png",
+      "expected_size": "512x512",
+      "present_paths": [
+        "assets/MainMenu/Character/main_boulder.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "PR-02",
+      "filename": "main_boulder_shadow.png",
+      "expected_size": "512x160",
+      "present_paths": [
+        "assets/MainMenu/Character/main_boulder_shadow.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "PR-03",
+      "filename": "main_foot_contact_shadow.png",
+      "expected_size": "320x128",
+      "present_paths": [
+        "assets/MainMenu/Character/main_foot_contact_shadow.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-01",
+      "filename": "main_logo_sisyphus.svg",
+      "expected_size": "width≈320",
+      "present_paths": [
+        "assets/MainMenu/UI/main_logo_sisyphus.svg"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-02",
+      "filename": "main_btn_primary_*.png",
+      "expected_size": "434x116",
+      "present_paths": [
+        "assets/MainMenu/UI/main_btn_primary_pressed.png",
+        "assets/MainMenu/UI/main_btn_primary_hover.png",
+        "assets/MainMenu/UI/main_btn_primary_disabled.png",
+        "assets/MainMenu/UI/main_btn_primary_base.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-03",
+      "filename": "main_btn_secondary_*.png",
+      "expected_size": "434x92",
+      "present_paths": [
+        "assets/MainMenu/UI/main_btn_secondary_pressed.png",
+        "assets/MainMenu/UI/main_btn_secondary_hover.png",
+        "assets/MainMenu/UI/main_btn_secondary_disabled.png",
+        "assets/MainMenu/UI/main_btn_secondary_base.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-04",
+      "filename": "main_panel_progress.png",
+      "expected_size": "355x545",
+      "present_paths": [
+        "assets/MainMenu/UI/main_panel_progress.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-05",
+      "filename": "main_panel_corner.svg",
+      "expected_size": "24x24",
+      "present_paths": [
+        "assets/MainMenu/UI/main_panel_corner.svg"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-06",
+      "filename": "main_act_emblem_*.png",
+      "expected_size": "61x62",
+      "present_paths": [
+        "assets/MainMenu/UI/main_act_emblem_selected.png",
+        "assets/MainMenu/UI/main_act_emblem_open.png",
+        "assets/MainMenu/UI/main_act_emblem_locked.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-07",
+      "filename": "main_icon_arrow.svg",
+      "expected_size": "32x32",
+      "present_paths": [
+        "assets/MainMenu/UI/main_icon_arrow.svg"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-08",
+      "filename": "main_icon_settings.svg",
+      "expected_size": "32x32",
+      "present_paths": [
+        "assets/MainMenu/UI/main_icon_settings.svg"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-09",
+      "filename": "main_icon_mark.svg",
+      "expected_size": "16x16",
+      "present_paths": [
+        "assets/MainMenu/UI/main_icon_mark.svg"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-10",
+      "filename": "main_notification_marker.png",
+      "expected_size": "24x24",
+      "present_paths": [
+        "assets/MainMenu/UI/main_notification_marker.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "UI-11",
+      "filename": "main_modal_frame.png",
+      "expected_size": "920x840",
+      "present_paths": [
+        "assets/MainMenu/UI/main_modal_frame.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "FX-01",
+      "filename": "main_dust_atlas.png",
+      "expected_size": "512x512",
+      "present_paths": [
+        "assets/MainMenu/FX/main_dust_atlas.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "FX-02",
+      "filename": "main_godray_soft.png",
+      "expected_size": "1024x1024",
+      "present_paths": [
+        "assets/MainMenu/FX/main_godray_soft.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "FX-03",
+      "filename": "main_grain_tile.png",
+      "expected_size": "256x256",
+      "present_paths": [
+        "assets/MainMenu/FX/main_grain_tile.png"
+      ],
+      "missing": false
+    },
+    {
+      "id": "FX-04",
+      "filename": "main_transition_mask.png",
+      "expected_size": "1920x1080",
+      "present_paths": [
+        "assets/MainMenu/FX/main_transition_mask.png"
+      ],
+      "missing": false
+    }
+  ],
+  "missing_main_menu_assets": [],
+  "sephirot_pngs": [
+    {
+      "path": "assets/ui/sephirot/bottom_bar.png",
+      "filename": "bottom_bar.png",
+      "width": 1920,
+      "height": 100,
+      "bytes": 345025,
+      "sha256": "2b5cfb9fd3ab888a9da2a6c14fffd4aa48a0e463880a5d07b43064f3b0748955",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/btn_back.png",
+      "filename": "btn_back.png",
+      "width": 300,
+      "height": 100,
+      "bytes": 58310,
+      "sha256": "8b3280b248225b1639e4c3b7c1d4730b580bb2a2db4be8a6ce6957bcb4ce13a2",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/btn_back_disabled.png",
+      "filename": "btn_back_disabled.png",
+      "width": 300,
+      "height": 100,
+      "bytes": 46753,
+      "sha256": "b42d08cf7749a4fe41e6a3032f02d751a29d6150fd09530540ebd3abdbf5d97f",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/btn_back_hover.png",
+      "filename": "btn_back_hover.png",
+      "width": 300,
+      "height": 100,
+      "bytes": 62131,
+      "sha256": "e82bddab571315eb9ada2a97e60be4f76e3f8c73e76086b7365cc1bd7accd8d4",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/fx_particles.png",
+      "filename": "fx_particles.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 32440,
+      "sha256": "6ca5cf18a848de77edd5a389066b97529aa1d7e6a28aeeba3115edf61ed0573f",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/fx_point_light.png",
+      "filename": "fx_point_light.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 78041,
+      "sha256": "67722ac98b3dde0f10ef8a3f5b2685e07c4f1d0d41b3c1e4d1d040de2041dbc3",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/fx_select.png",
+      "filename": "fx_select.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 115166,
+      "sha256": "69052954551d40a5ef3143e35d862d09e85755195f66bbb5ad2c2f50e10308ef",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/fx_thread_light.png",
+      "filename": "fx_thread_light.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 74302,
+      "sha256": "88d64a5eef98b05858812dfe6dbcc116480d09706a463d65468ca5c0715d25ff",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/node_branch_available.png",
+      "filename": "node_branch_available.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 31729,
+      "sha256": "17796b6241eb2241457c92085c34b0162cdbaf1d9012bde528b801487defe298",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/node_branch_completed.png",
+      "filename": "node_branch_completed.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 34904,
+      "sha256": "0af5dd171c8e6294db2a44b2dcc92ef08f7427448349704f1acadd5607894288",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/node_branch_seal.png",
+      "filename": "node_branch_seal.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 34354,
+      "sha256": "c47afae6f050bad12db0da29ada9fc9996345f6ac92db63d4a69ac8efe286f36",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/node_branch_unlocked.png",
+      "filename": "node_branch_unlocked.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 32918,
+      "sha256": "d30b3bfd422489da113693308c3bc262b3f56ab40467c9bbc132dffae9f70179",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/node_core_available.png",
+      "filename": "node_core_available.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 115769,
+      "sha256": "8041effe452675835d3730b6f3e968ea9ea9ce25c4d2904db5e44e6b701c2341",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/node_core_completed.png",
+      "filename": "node_core_completed.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 125531,
+      "sha256": "46a2ffc0206114020707a76af498d552b68204c515a9c6491586b0fd2317bd66",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/node_core_unlocked.png",
+      "filename": "node_core_unlocked.png",
+      "width": 256,
+      "height": 256,
+      "bytes": 119072,
+      "sha256": "329ae6438f10ad2ab3ce9e04088de10adcd14d126fd2525c32e6687b7045ef50",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/thread_glow.png",
+      "filename": "thread_glow.png",
+      "width": 256,
+      "height": 32,
+      "bytes": 9079,
+      "sha256": "6b8c39e9b406698a2459671b8510cc02cdfdd59c88b96513d032bd012dac1f3d",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/thread_lock.png",
+      "filename": "thread_lock.png",
+      "width": 256,
+      "height": 32,
+      "bytes": 8403,
+      "sha256": "cdcc25a7b92cb5f28d01be178f2435a6484066dae91b0b86adda5ae3e86d3dc3",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/thread_segment.png",
+      "filename": "thread_segment.png",
+      "width": 256,
+      "height": 32,
+      "bytes": 9197,
+      "sha256": "7cb0a33472f07c2c2a8ce2ee9f2a9daeb610092d925c1037edf1ced17172cc53",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    },
+    {
+      "path": "assets/ui/sephirot/top_bar.png",
+      "filename": "top_bar.png",
+      "width": 1920,
+      "height": 120,
+      "bytes": 398270,
+      "sha256": "f10b436804f25d122579c1e677394b15466d8b04a61699bcea2172759a46409e",
+      "group": "sephirot",
+      "baseline_text_reference": "false",
+      "mvp_usage": "not yet selected during PhaseA"
+    }
+  ],
+  "main_menu_png_count": 32,
+  "notes": [
+    "MainMenu CSV status columns still say not-started; filesystem existence is audited independently.",
+    "No mastery-specific CSV found; use replaceable reusable UI slots and explicit fallback mapping, not invented supplied assets.",
+    "19 sephirot PNG filenames are source inventory only; this does not assert that every supplied node state must be loaded.",
+    "PhaseA records baseline textual references, not definitive unused assets: dynamically constructed paths may be used. Final selected/unselected mapping must be generated from actual UI integration."
+  ],
+  "png_inventory": "asset-audit.csv"
+}

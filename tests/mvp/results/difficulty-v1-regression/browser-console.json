@@ -1,0 +1,32 @@
+[
+  {
+    "level": "error",
+    "message": "ERROR: Invalid polygon data, triangulation failed.",
+    "timestamp": "2026-10-27T05:56:51.897Z",
+    "url": "http://127.0.0.1:8767/index.js"
+  },
+  {
+    "level": "error",
+    "message": "   at: canvas_item_add_polygon (servers/rendering/renderer_canvas_cull.cpp:1713)",
+    "timestamp": "2026-10-27T05:56:51.897Z",
+    "url": "http://127.0.0.1:8767/index.js"
+  },
+  {
+    "level": "error",
+    "message": "   GDScript backtrace (most recent call first):",
+    "timestamp": "2026-10-27T05:56:51.897Z",
+    "url": "http://127.0.0.1:8767/index.js"
+  },
+  {
+    "level": "error",
+    "message": "       [0] _draw_terrain (res://scripts/main.gd:637)",
+    "timestamp": "2026-10-27T05:56:51.898Z",
+    "url": "http://127.0.0.1:8767/index.js"
+  },
+  {
+    "level": "error",
+    "message": "       [1] _draw (res://scripts/main.gd:554)",
+    "timestamp": "2026-10-27T05:56:51.898Z",
+    "url": "http://127.0.0.1:8767/index.js"
+  }
+]

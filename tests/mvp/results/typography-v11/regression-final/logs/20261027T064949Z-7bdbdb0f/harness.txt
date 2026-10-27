@@ -1,0 +1,47 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS: recorded held-input replay agrees at 30 and 144 FPS
+PASS: harness uses production 1/120-second integration step
+PASS: novice same terrain and policy RNG seed reproduce every output field
+PASS: novice commands change only on bounded decision cadence
+PASS: novice short time limit is censored rather than counted as a fall
+PASS: novice band metrics partition run exposure, rollback and slip counts
+PASS: novice unreached bands and incomplete passage remain distinct
+PASS: regular same terrain and policy RNG seed reproduce every output field
+PASS: regular commands change only on bounded decision cadence
+PASS: regular short time limit is censored rather than counted as a fall
+PASS: regular band metrics partition run exposure, rollback and slip counts
+PASS: regular unreached bands and incomplete passage remain distinct
+PASS: skilled same terrain and policy RNG seed reproduce every output field
+PASS: skilled commands change only on bounded decision cadence
+PASS: skilled short time limit is censored rather than counted as a fall
+PASS: skilled band metrics partition run exposure, rollback and slip counts
+PASS: skilled unreached bands and incomplete passage remain distinct
+PASS: optimized same terrain and policy RNG seed reproduce every output field
+PASS: optimized commands change only on bounded decision cadence
+PASS: optimized short time limit is censored rather than counted as a fall
+PASS: optimized band metrics partition run exposure, rollback and slip counts
+PASS: optimized unreached bands and incomplete passage remain distinct
+PASS: optimized baseline reaches genuine production summit
+PASS: four first-passage intervals partition completed climb time
+PASS: first unpurchased summit awards exactly 20 markers times 30 XP
+PASS: actual XP event timeline preserves awards, ordering and level progression
+PASS: repeated marker claims cannot duplicate actual XP
+PASS: new run resets run claims while preserving lifetime record bonus
+PASS: actual maximum level31 grants thirty upgrades capped at rank10 per stat
+PASS: actual upgrades spend points without consuming XP or refilling stamina
+PASS: existing +2 percent stat effects cap at +20 percent
+PASS: growth cannot be purchased on an unsafe slope
+PASS: strength isolated fixture modifies only the existing intended stat
+PASS: strength physical fixture creates no invalid economic profile
+PASS: endurance isolated fixture modifies only the existing intended stat
+PASS: endurance physical fixture creates no invalid economic profile
+PASS: recovery isolated fixture modifies only the existing intended stat
+PASS: recovery physical fixture creates no invalid economic profile
+Unknown growth mode or experiment mode
+PASS: unsupported virtual growth mode is rejected before simulation
+PASS: ordinary novice input produces a measured terminal fall
+PASS: runaway cinematic time is excluded from active band and terrain exposure
+PASS: terminal fall belongs to its runaway origin band, with descent separately measured
+PASS: cutoff during runaway remains censored rather than becoming a completed death
+BALANCE HARNESS: 43 checks, 0 failures

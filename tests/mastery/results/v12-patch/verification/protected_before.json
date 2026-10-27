@@ -1,0 +1,13 @@
+{
+  "scripts/mastery_progression.gd": "10e232f3bb1e264f1050a10cb1649fcd8a845dc2a65716b89eee3b0237c36282",
+  "scripts/mastery_effects.gd": "fc8a37f52334046fb0f17ed72ba75d97b826bb4b6244ca8bb887222547017154",
+  "scripts/progression.gd": "23b7112273fa2ee95fae431844dec76bf18995a6a9709ee9f7c44c918d1b27c7",
+  "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+  "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+  "scripts/mvp/save_contract.gd": "c87015799e0b092506af0e5493c0d00437ea5c50cd8ab39af387e7c49f2e4e8a",
+  "scripts/main.gd": "09a958e54323c7ed66bbef3db110a95226e507664cbadaa394b29f23b488d24d",
+  "project.godot": "be4edb70e182475965a038872d1ab00280b539b33a44a8030d43d008b8a507d4",
+  "export_presets.cfg": "e6044104b3e2269483d5d0e73ddd9d3a8ed0193fcb64d3923baced5004616bcb",
+  "main.tscn": "8ca1c65cf1621d4639d68e91009bbdaa7400d89bba41cd3abd67307d1f00c7e7",
+  "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f"
+}

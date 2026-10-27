@@ -1,0 +1,50 @@
+{
+  "recorded_at_utc": "2026-10-27T04:15:38.421238+00:00",
+  "python_tests": [
+    {
+      "command": "python -m unittest discover -s tests/balance -p test_analyze.py -v",
+      "passed": 13,
+      "failed": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests/balance/adjustment_v02 -p test_analyze.py -v",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests/balance/adjustment_v03 -p test_analyze.py -v",
+      "passed": 15,
+      "failed": 0
+    }
+  ],
+  "protected_file_count": 264,
+  "protected_file_mismatches": [],
+  "tracked_diff_at_check": [
+    "tests/balance/.gitattributes"
+  ],
+  "excluded_user_work": [
+    "UI design/",
+    "assets/MainMenu/",
+    "assets/ui/sephirot/"
+  ],
+  "note": "Root observed these commands pass. Engine regression raw stdout and400check evidence is separately stored verification-regressions.json. Final working-tree/staged audit follows experiments.",
+  "python_source_sha256": {
+    "tests\\balance\\analyze.py": "02098222af6f94edb002cebd50e4ce1260aa1613c19b134b02f770aa12a8f00f",
+    "tests\\balance\\test_analyze.py": "af67516bc8c2f223a9270516e62f5c4b5aa3e49a9c97bb8e5031321e158b8c6e",
+    "tests\\balance\\adjustment_v02\\analyze.py": "5906923bb34a271fa5401efbba9989bc82a6e69adfbc4bac6692b5ee656e0f6d",
+    "tests\\balance\\adjustment_v02\\test_analyze.py": "bbc0da1a409bd5fd65dc2cbf57b449c1d60f8b903048e13c16b358f6228ab6b8",
+    "tests\\balance\\adjustment_v03\\analyze.py": "c4144433e380d356cba322dd9a68e17b15c0ae2592866a1635c872f7de40de4b",
+    "tests\\balance\\adjustment_v03\\test_analyze.py": "3c2f95925947179bae93b5c19d1a5b208ffb2f0521423bbbc0e2a6eaa3317eca"
+  },
+  "final_report_sha256": "c599fd1a0e3249541ceaab4431d2d8d750ad281d29b0320bf0e81055a6ace943",
+  "all_main_execution_manifests_complete": true,
+  "main_datasets": [
+    "factors-pilot",
+    "angle-fixtures",
+    "full-pilot",
+    "angle-full",
+    "ablations",
+    "expanded",
+    "campaigns"
+  ]
+}

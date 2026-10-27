@@ -1,0 +1,10 @@
+{
+	"checks": 265,
+	"failures": [],
+	"resolutions": [
+		"1920x1080",
+		"1280x720",
+		"960x540"
+	],
+	"scope": "Control/data binding and layout bounds; rendered browser inspection is separate"
+}

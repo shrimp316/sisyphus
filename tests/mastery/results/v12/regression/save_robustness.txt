@@ -1,0 +1,24 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS: invalid save case0 is rejected with visible explanation
+PASS: invalid save case0 cannot silently start or overwrite
+PASS: invalid save case1 is rejected with visible explanation
+PASS: invalid save case1 cannot silently start or overwrite
+PASS: invalid save case2 is rejected with visible explanation
+PASS: invalid save case2 cannot silently start or overwrite
+PASS: invalid save case3 is rejected with visible explanation
+PASS: invalid save case3 cannot silently start or overwrite
+PASS: failed save keeps session paused with retryable error
+PASS: failed save preserves audio/session for retry
+SAVE ROBUSTNESS: 10 checks, 0 failures
+ERROR: Parse JSON failed. Error at line 0: Expected key
+   at: parse_string (core/io/json.cpp:604)
+   GDScript backtrace (most recent call first):
+       [0] _load_save (res://scripts/main.gd:365)
+       [1] _ready (res://scripts/main.gd:106)
+       [2] run (res://tests/save_robustness_verification.gd:22)
+WARNING: Could not save SISYPHUS run: File not found
+   at: push_warning (core/variant/variant_utility.cpp:1034)
+   GDScript backtrace (most recent call first):
+       [0] _save_and_quit (res://scripts/main.gd:433)
+       [1] run (res://tests/save_robustness_verification.gd:35)

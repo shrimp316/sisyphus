@@ -1,0 +1,304 @@
+{
+  "jobs": [
+    {
+      "id": "legacy-zero-regular",
+      "candidate": "legacy",
+      "build": "zero",
+      "policy": "regular",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-zero-regular",
+      "candidate": "active-slip",
+      "build": "zero",
+      "policy": "regular",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-zero-skilled",
+      "candidate": "legacy",
+      "build": "zero",
+      "policy": "skilled",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-zero-skilled",
+      "candidate": "active-slip",
+      "build": "zero",
+      "policy": "skilled",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-zero-optimized",
+      "candidate": "legacy",
+      "build": "zero",
+      "policy": "optimized",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-zero-optimized",
+      "candidate": "active-slip",
+      "build": "zero",
+      "policy": "optimized",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-zero-hold_D",
+      "candidate": "legacy",
+      "build": "zero",
+      "policy": "hold_D",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-zero-hold_D",
+      "candidate": "active-slip",
+      "build": "zero",
+      "policy": "hold_D",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-balanced18-regular",
+      "candidate": "legacy",
+      "build": "balanced18",
+      "policy": "regular",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-balanced18-regular",
+      "candidate": "active-slip",
+      "build": "balanced18",
+      "policy": "regular",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-balanced18-skilled",
+      "candidate": "legacy",
+      "build": "balanced18",
+      "policy": "skilled",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-balanced18-skilled",
+      "candidate": "active-slip",
+      "build": "balanced18",
+      "policy": "skilled",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-balanced18-optimized",
+      "candidate": "legacy",
+      "build": "balanced18",
+      "policy": "optimized",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-balanced18-optimized",
+      "candidate": "active-slip",
+      "build": "balanced18",
+      "policy": "optimized",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-balanced18-hold_D",
+      "candidate": "legacy",
+      "build": "balanced18",
+      "policy": "hold_D",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-balanced18-hold_D",
+      "candidate": "active-slip",
+      "build": "balanced18",
+      "policy": "hold_D",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-all30-regular",
+      "candidate": "legacy",
+      "build": "all30",
+      "policy": "regular",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-all30-regular",
+      "candidate": "active-slip",
+      "build": "all30",
+      "policy": "regular",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-all30-skilled",
+      "candidate": "legacy",
+      "build": "all30",
+      "policy": "skilled",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-all30-skilled",
+      "candidate": "active-slip",
+      "build": "all30",
+      "policy": "skilled",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-all30-optimized",
+      "candidate": "legacy",
+      "build": "all30",
+      "policy": "optimized",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-all30-optimized",
+      "candidate": "active-slip",
+      "build": "all30",
+      "policy": "optimized",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    },
+    {
+      "id": "legacy-all30-hold_D",
+      "candidate": "legacy",
+      "build": "all30",
+      "policy": "hold_D",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800
+    },
+    {
+      "id": "active-slip-all30-hold_D",
+      "candidate": "active-slip",
+      "build": "all30",
+      "policy": "hold_D",
+      "seeds": [
+        202
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 4,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-climb-active-slip"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "verdict": "approved editorial addendum",
+  "previous_document_sha256": "ae549a296bc9c7c5b497007496824d167ce2d7ed84f9e83a1a773a16b8ca81ae",
+  "new_document_sha256": "3d8f2f03688dd78a7976af91d997cc88c7fac3f06c850395524e84ac048daa76",
+  "only_change_is_disclosed_addendum": true,
+  "new_link": "tests/mvp/results/difficulty-v1-regression/browser-qa.md",
+  "new_link_sha256": "e1fb120190f2eee3dde195e8d4c3cee2510c4a67a669cd09b40fea0279a42cd2",
+  "all_relative_links_resolve": 30,
+  "finding": "Historical non16:9 compression and terrain polygon issue are accurately retained as unresolved observations; no new fix or broader browser stability claim is made.",
+  "prior_approval_file_preserved": true,
+  "tests_rerun": false
+}

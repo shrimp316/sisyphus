@@ -1,0 +1,68 @@
+{
+  "fonts": [
+    {
+      "file": "hahmlet/Hahmlet-Bold.otf",
+      "bytes": 560768,
+      "sha256": "4b83314171c07740758237ebca8cec2f562a919e49285bf7e0734dd7e3bba78f",
+      "font_version": "Version 1.002",
+      "copyright": "Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)"
+    },
+    {
+      "file": "hahmlet/Hahmlet-Medium.otf",
+      "bytes": 547816,
+      "sha256": "13437f1cceef43b74ec6ed14a571f7588d8a56321864c9668d29aeaf40e65cf2",
+      "font_version": "Version 1.002",
+      "copyright": "Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)"
+    },
+    {
+      "file": "hahmlet/Hahmlet-Regular.otf",
+      "bytes": 451608,
+      "sha256": "fe98c86906c382ac4ca99ac2b6e9f44dc2cbf4ccac285f44e9790360242c826e",
+      "font_version": "Version 1.002",
+      "copyright": "Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)"
+    },
+    {
+      "file": "hahmlet/Hahmlet-SemiBold.otf",
+      "bytes": 558480,
+      "sha256": "a0f213f655ba969f7484514f75f5a737c8cc63c9e144643a4a77b0208cece289",
+      "font_version": "Version 1.002",
+      "copyright": "Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)"
+    },
+    {
+      "file": "pretendard/Pretendard-Medium.otf",
+      "bytes": 1584068,
+      "sha256": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0",
+      "font_version": "Version 1.309;Glyphs 3.2 (3225)",
+      "copyright": "Copyright © 2023 Kil Hyung-jin"
+    },
+    {
+      "file": "pretendard/Pretendard-Regular.otf",
+      "bytes": 1574352,
+      "sha256": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+      "font_version": "Version 1.309;Glyphs 3.2 (3225)",
+      "copyright": "Copyright © 2023 Kil Hyung-jin"
+    },
+    {
+      "file": "pretendard/Pretendard-SemiBold.otf",
+      "bytes": 1583704,
+      "sha256": "c89bc43027dc7cde5726e96223376f8eec09302b2fc1f8147fd5b57cfc376118",
+      "font_version": "Version 1.309;Glyphs 3.2 (3225)",
+      "copyright": "Copyright © 2023 Kil Hyung-jin"
+    },
+    {
+      "file": "gfs_didot/GFSDidot-Regular.ttf",
+      "bytes": 191168,
+      "sha256": "4fc784ab824e8866eeef8ad55976b93e7e170fb1b8237fd4f8781b5b4dd297f9",
+      "font_version": "Version 1.0 ",
+      "copyright": "Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 2001. All rights reserved."
+    }
+  ],
+  "total_bytes": 7051964,
+  "upstream_commits": {
+    "hahmlet": "f9c5dac25d88015e9f0953253cec1a71854b7d24",
+    "pretendard": "7aeb0698819be2b4097dae8ec8fe6a795e5cf3ae",
+    "gfs_didot": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0"
+  },
+  "license": "SIL OFL 1.1",
+  "transformed": false
+}

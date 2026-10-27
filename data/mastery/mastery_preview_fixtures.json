@@ -1,0 +1,8 @@
+[
+  {"id":"zero","label":"0 m","current_distance":0,"best":0,"total_xp":0,"current_run_number":1,"first_summit_run_number":-1,"expected_eligible":0},
+  {"id":"250","label":"250 m","current_distance":250,"best":250,"total_xp":150,"current_run_number":1,"first_summit_run_number":-1,"expected_eligible":10},
+  {"id":"500","label":"500 m","current_distance":500,"best":500,"total_xp":300,"current_run_number":1,"first_summit_run_number":-1,"expected_eligible":20},
+  {"id":"750","label":"750 m","current_distance":750,"best":750,"total_xp":450,"current_run_number":1,"first_summit_run_number":-1,"expected_eligible":30},
+  {"id":"first_summit","label":"첫 정상","current_distance":1000,"best":1000,"total_xp":600,"current_run_number":1,"first_summit_run_number":1,"expected_eligible":30},
+  {"id":"next_run","label":"다음 회차","current_distance":0,"best":1000,"total_xp":600,"current_run_number":2,"first_summit_run_number":1,"expected_eligible":35}
+]

@@ -1,0 +1,28 @@
+{
+  "suite": "mvp_integration",
+  "checks": 242,
+  "failures": [],
+  "exit_code": 0,
+  "engine": "Godot 4.5.1 stable official f62fdbde1",
+  "save_path": "user://mvp-integration-20261027-specials-menu-fixed.json",
+  "command": ".tools/godot/Godot_v4.5.1-stable_win64_console.exe --headless --path . --script res://tests/mvp/test_mvp_integration.gd -- --save-path=user://mvp-integration-20261027-specials-menu-fixed.json",
+  "rerun": "Use a fresh user://mvp-integration-*.json filename; the test refuses to overwrite an existing namespace.",
+  "coverage": [
+    "actual scene ready",
+    "new-game confirmation and cancel",
+    "250m fixed-step milestone pause including Slip timer",
+    "EXP nonduplication",
+    "confirmation purchase and moving-slope rejection",
+    "stationary shelf purchase",
+    "physical and one-shot save reload",
+    "actual Runaway to result and ordinary retry growth retention",
+    "all seven prestige phases crash/reload twice",
+    "committed PRESTIGE_COMMIT journal replay idempotence",
+    "two prestige cycles keep EXP x5",
+    "second and third complete climb award exactly 2000 EXP",
+    "actual Continue menu dispatch restores prestige presentation",
+    "SPC01 entire 50m slope/surface range and ledge boundaries",
+    "SPC03 warning threshold and explicit disabled UI special suppression"
+  ],
+  "limits": "Milestone approach and summit arrivals are manually positioned fixtures; this is scene/state-machine integration, not a whole-route climbing or real-player usability test. Ability timers/charges restoration uses a valid serialized fixture; activation is independently tested in test_mastery_physics.gd."
+}

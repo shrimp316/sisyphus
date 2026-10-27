@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "milestone_distance": 50,
+  "run_exp": 20,
+  "record_exp": 10,
+  "malkuth_multiplier": 5,
+  "threads_per_summit": 1,
+  "normal_costs": [
+    30,
+    40,
+    50,
+    70,
+    90,
+    120,
+    150,
+    190,
+    240,
+    300
+  ],
+  "special_costs": [
+    300,
+    400,
+    500,
+    600,
+    800
+  ]
+}

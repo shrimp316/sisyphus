@@ -1,0 +1,14 @@
+{
+	"checked": 1,
+	"failures": 1,
+	"results": [
+		{
+			"error": "Trace missing or outside permitted v03 evidence path",
+			"job_id": "ablation_S190_regular_recovery_none",
+			"kind": "raw",
+			"match": false,
+			"seed": 101.0
+		}
+	],
+	"source": "tests/balance/results/act1-adjustment-v03/portability-verification/windows_traversal.jsonl"
+}

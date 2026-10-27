@@ -1,0 +1,32 @@
+{
+  "basis": "d4ba73bf49501f1be5a7d9c28a81a59025abda3d",
+  "original_png_files": 173,
+  "png_byte_hash_mismatches": [],
+  "legacy_entry_generation_deployment": {
+    "main.tscn": {
+      "lf_normalized_equal": true,
+      "current_sha256": "8ca1c65cf1621d4639d68e91009bbdaa7400d89bba41cd3abd67307d1f00c7e7"
+    },
+    "scripts/main.gd": {
+      "lf_normalized_equal": true,
+      "current_sha256": "f3623c003d3a85a719bcab6659152629db2d61700fc9849c9c67ef7a454ec5b6"
+    },
+    "scripts/mountain_manager.gd": {
+      "lf_normalized_equal": true,
+      "current_sha256": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7"
+    },
+    "scripts/mountain_chunk.gd": {
+      "lf_normalized_equal": true,
+      "current_sha256": "4c783aaad3ce4e335cbb538500e01ff21e959916c6822de067060b105e30b6a3"
+    },
+    ".github/workflows/deploy-web.yml": {
+      "lf_normalized_equal": true,
+      "current_sha256": "19efa1876a98d77233c7e2d78c2317b0c599ff9aef6b4124ce9da6e0e1bc1dec"
+    },
+    "web/shell.html": {
+      "lf_normalized_equal": true,
+      "current_sha256": "7d1515f7f710ca86a4fb7e54939ddcd1516aac89a24e6850cb80c45f61ad4037"
+    }
+  },
+  "note": "Base boulder_controller intentionally gains neutral hooks; its equivalence is separately tested against legacy fixture. Feature-specific project override/MVP export preset are intentional new paths. No claim that every project file is unchanged."
+}

@@ -1,0 +1,16 @@
+{
+  "build_command": "python tests/mvp/build_web.py --qa",
+  "exit_code": 0,
+  "qa_origin": "http://127.0.0.1:8767",
+  "sha256": {
+    "scripts/main.gd": "8d265deb9413cf7bf404f4aab1cf304c0a7e3c70e55161c82596405b356ec73a",
+    "scripts/mvp/mastery_main.gd": "cc376210e26d9870307cb8146fee29965998e16f62fc236907067903c2c57d85",
+    "scripts/boulder_controller.gd": "0f66ac7077be147532861cec688e86561074959ad022cd63182b3ca050e8a376",
+    "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+    "data/mastery/difficulty.json": "311920d01e0f078036a84c0702505dcee1448eaa1d32a0927ca6af3a64d209d9",
+    "web/mvp_shell.html": "abdd59f8a40ac910f46b616ac2ac13db3b3a3117f36f74e4735bdeb9380e853d",
+    "builds/mvp-web/index.html": "c1da363c8fc9cd06016e50810c5dc15d307e8edbfab31b0b2f774f4e78b14b33",
+    "builds/mvp-web/index.pck": "458d137b9b6e2299d552cba56b1499ec8bf8eb9482fedd27a5a9ae090f3c32aa",
+    "builds/mvp-web/index.wasm": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+  }
+}

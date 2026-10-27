@@ -1,0 +1,3 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+{"checks":244,"failures":[],"manual_arrival_fixtures":true,"save_path":"user://mvp-integration-regression-20261027T064949Z-7bdbdb0f.json","suite":"mvp_integration"}

@@ -1,0 +1,19 @@
+{
+  "status": "approved_visual_sample_menu_board_1600x900",
+  "platform": "Windows native OpenGL Compatibility",
+  "captures": 3,
+  "render_metadata_sha256": "97c29c2d376f9a65eef257e805582cece05ba81ae648976fc84d0ee6a004708a",
+  "helper_sha256": "924e96d13cd148512c31ac81913cff2e4615c42026103659f74e18ea32a29804",
+  "images_sha256": {
+    "sample": "b961d84637ee088eddd98cbcbd1054d2dcc279734128536d21c859907a304dc6",
+    "menu": "7d3f560b21bcdd885871437992c226eacc9e9eeb6ff21f472b186baaded43050",
+    "board": "06faef8800962143f932bb42a6b3014e394f3fdfed2dda781d5deae328232dc4"
+  },
+  "findings": [],
+  "observations": [
+    "Korean headings, Greek accents and numeric values visible without missing-glyph boxes in sample.",
+    "Menu controls and right record/wallet panel text fit.",
+    "All35board nodes, heading categories, selected special-node details/cost/unlock labels fit without overlapping text."
+  ],
+  "scope": "Actual-renderer SubViewport captures reviewed visually; artificial profile, not full OS-window behavior. Original1920/1280six captures/reports preserved. Linux not tested."
+}

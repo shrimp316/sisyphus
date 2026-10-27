@@ -1,0 +1,81 @@
+{
+  "source_sha256": "a811ee4dd18557c8085a4d78b5f1e552827396a3622cc373271dce9cdd2767d4",
+  "pairs": [
+    {
+      "policy": "regular_recovery",
+      "seed": 101,
+      "all30_status": "summit",
+      "no_breath_status": "summit",
+      "no_breath_peak": 1000.0,
+      "time_delta_when_both_summit": 4.158333333330006,
+      "all30_environment_recovered": 84.0000000000013,
+      "no_breath_environment_recovered": 79.9999999999994,
+      "all30_inertia_recovered_whole_run": 2.0,
+      "all30_rescue_used": false
+    },
+    {
+      "policy": "regular_recovery",
+      "seed": 202,
+      "all30_status": "summit",
+      "no_breath_status": "summit",
+      "no_breath_peak": 1000.0,
+      "time_delta_when_both_summit": 2.949999999997999,
+      "all30_environment_recovered": 84.0000000000013,
+      "no_breath_environment_recovered": 79.9999999999994,
+      "all30_inertia_recovered_whole_run": 0.0,
+      "all30_rescue_used": false
+    },
+    {
+      "policy": "regular_recovery",
+      "seed": 303,
+      "all30_status": "summit",
+      "no_breath_status": "fall",
+      "no_breath_peak": 939.840047759957,
+      "time_delta_when_both_summit": null,
+      "all30_environment_recovered": 84.0000000000013,
+      "no_breath_environment_recovered": 79.9999999999994,
+      "all30_inertia_recovered_whole_run": 0.0,
+      "all30_rescue_used": false
+    },
+    {
+      "policy": "skilled_recovery",
+      "seed": 101,
+      "all30_status": "summit",
+      "no_breath_status": "summit",
+      "no_breath_peak": 1000.0,
+      "time_delta_when_both_summit": 1.858333333330961,
+      "all30_environment_recovered": 84.0000000000013,
+      "no_breath_environment_recovered": 79.9999999999994,
+      "all30_inertia_recovered_whole_run": 0.0,
+      "all30_rescue_used": false
+    },
+    {
+      "policy": "skilled_recovery",
+      "seed": 202,
+      "all30_status": "summit",
+      "no_breath_status": "summit",
+      "no_breath_peak": 1000.0,
+      "time_delta_when_both_summit": 2.424999999998022,
+      "all30_environment_recovered": 84.0000000000013,
+      "no_breath_environment_recovered": 79.9999999999994,
+      "all30_inertia_recovered_whole_run": 1.76666666666667,
+      "all30_rescue_used": false
+    },
+    {
+      "policy": "skilled_recovery",
+      "seed": 303,
+      "all30_status": "summit",
+      "no_breath_status": "summit",
+      "no_breath_peak": 1000.0,
+      "time_delta_when_both_summit": 1.274999999998954,
+      "all30_environment_recovered": 84.0000000000013,
+      "no_breath_environment_recovered": 79.9999999999994,
+      "all30_inertia_recovered_whole_run": 0.833333333333336,
+      "all30_rescue_used": false
+    }
+  ],
+  "input_hashes_verified": 6,
+  "all30_summits": 6,
+  "no_breath_summits": 5,
+  "scope": "SameSTR10END10; remove all BRE nodes and1280EXP investment. Not equal-budget redistribution or proof BRE is required. Conditional time delta only both-summit pairs."
+}

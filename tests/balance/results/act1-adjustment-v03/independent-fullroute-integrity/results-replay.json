@@ -1,0 +1,35 @@
+{
+	"checked": 4,
+	"failures": 0,
+	"results": [
+		{
+			"job_id": "verify_S190_regular_recovery_matched",
+			"kind": "raw",
+			"match": true,
+			"seed": 101.0,
+			"steps": 75344
+		},
+		{
+			"job_id": "verify_S190_skilled_recovery_matched",
+			"kind": "raw",
+			"match": true,
+			"seed": 101.0,
+			"steps": 75051
+		},
+		{
+			"job_id": "verify_S190_regular_recovery_cooldown0",
+			"kind": "raw",
+			"match": true,
+			"seed": 101.0,
+			"steps": 72400
+		},
+		{
+			"job_id": "verify_S190_skilled_recovery_cooldown0",
+			"kind": "raw",
+			"match": true,
+			"seed": 101.0,
+			"steps": 72762
+		}
+	],
+	"source": "tests/balance/results/act1-adjustment-v03/independent-fullroute-integrity/results.jsonl"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "level": "log",
+    "message": "Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org",
+    "timestamp": "2026-10-27T08:10:28.674Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-10-27T08:10:30.122Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.10, single-threaded, no GDExtension support.",
+    "timestamp": "2026-10-27T08:10:30.543Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "error",
+    "message": "ERROR: Mastery mapping is missing: res://data/mastery/mastery_node_layout_v12.csv",
+    "timestamp": "2026-10-27T08:10:31.122Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "error",
+    "message": "   at: push_error (core/variant/variant_utility.cpp:1024)",
+    "timestamp": "2026-10-27T08:10:31.122Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "error",
+    "message": "   GDScript backtrace (most recent call first):",
+    "timestamp": "2026-10-27T08:10:31.122Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "error",
+    "message": "       [0] load_nodes (res://scripts/mastery/mastery_layout_loader.gd:15)",
+    "timestamp": "2026-10-27T08:10:31.122Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "error",
+    "message": "       [1] _ready (res://scripts/mastery/mastery_screen.gd:49)",
+    "timestamp": "2026-10-27T08:10:31.122Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "error",
+    "message": "       [2] _ready (res://scripts/mastery/mastery_preview_controller.gd:17)",
+    "timestamp": "2026-10-27T08:10:31.122Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_READY nodes=0",
+    "timestamp": "2026-10-27T08:10:31.129Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  },
+  {
+    "level": "log",
+    "message": "MASTERY_PREVIEW_STATE {\"eligible\":0,\"fixture\":\"zero\",\"purchased\":null,\"selected\":\"act1_strength_01\"}",
+    "timestamp": "2026-10-27T08:10:31.129Z",
+    "url": "http://127.0.0.1:8772/index.js"
+  }
+]

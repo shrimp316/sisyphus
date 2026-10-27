@@ -1,0 +1,462 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 전역 클래스를 등록하는 중... (10 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   9% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  18% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  27% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  36% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  45% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  54% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  63% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  72% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  81% ] [90m[1mupdate_scripts_classes[22m | Progression[39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started 액션 스캔 중... (141 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | GFSDidot-Regular.ttf[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Hahmlet-Bold.otf[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | Hahmlet-Medium.otf[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | Hahmlet-Regular.otf[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | Hahmlet-SemiBold.otf[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | Pretendard-Medium.otf[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | Pretendard-Regular.otf[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | Pretendard-SemiBold.otf[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | NotoSansKR.ttf[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | header_architecture.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | slate_bg_main.png[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | slate_outer_frame_overlay.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | sisyphus_idle.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | sisyphus_push_01.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | sisyphus_push_02.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | sisyphus_push_03.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | sisyphus_push_04.png[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | sisyphus_push_05.png[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | sisyphus_push_sheet.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | fx_dust.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | fx_engrave.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | fx_light_ray.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | fx_milestone.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | fx_particles.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | fx_ring_glow.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | fx_special_open.png[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | fx_unlock_flash.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | glow_breath.png[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | glow_endurance.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | glow_strength.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | stone_wall_closed.png[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | stone_wall_left_half.png[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | stone_wall_right_half.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | icon_breath.png[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | icon_endurance.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | icon_strength.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | rune_stone_face_breath.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | rune_stone_face_endurance.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | rune_stone_face_strength.png[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | 03A0.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | 03A1.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | 03A3.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | 03A4.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | 03A5.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | 03A6.png[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | 03A7.png[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | 03A9.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | 039A.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | 039B.png[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | 039C.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | 039D.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | 039F.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | 0391.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | 0392.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | 0393.png[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | 0395.png[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | 0396.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | 0397.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | 0398.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | 0399.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | 03A0.png[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | 03A1.png[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | 03A3.png[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | 03A4.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | 03A5.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | 03A6.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | 03A7.png[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | 03A9.png[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | 039A.png[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | 039B.png[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | 039C.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | 039D.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | 039F.png[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | 0391.png[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | 0392.png[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | 0393.png[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | 0395.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | 0396.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | 0397.png[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | 0398.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | 0399.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | 03A0.png[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | 03A1.png[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | 03A3.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | 03A4.png[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | 03A5.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | 03A6.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | 03A7.png[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | 03A9.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | 039A.png[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | 039B.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | 039C.png[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | 039D.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | 039F.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | 0391.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | 0392.png[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | 0393.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | 0395.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | 0396.png[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | 0397.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | 0398.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | 0399.png[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | arrow_next.png[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | arrow_prev.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | button_purchase_blank.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | header_text_blank_plaque.png[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | connector_active.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | connector_inactive.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | node_base.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | node_locked_full_preview.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | node_ring_bronze.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | state_available.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | state_insufficient_exp.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | state_padlock_symbol.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | state_purchased.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | state_selected.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | state_story_locked.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | track_frame_breath.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | track_frame_endurance.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | track_frame_strength.png[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | omega_plaque.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | detail_panel.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | milestone_frame.png[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | special_panel.png[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | tooltip_frame.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | track_badge_breath.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | track_badge_endurance.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | track_badge_strength.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | track_bottom_trim.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | track_label_blank.png[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | track_panel_common.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | track_top_trim.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | special_node_frame.png[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | special_placeholder_01.png[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | special_placeholder_02.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | special_placeholder_03.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | special_placeholder_04.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | special_placeholder_05.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | special_seal.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | special_seal_cracked.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | mastery_node_layout_v12.csv[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (140 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   1% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   2% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   2% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   3% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   4% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   4% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   5% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   6% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   7% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   7% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   8% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   9% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   9% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  10% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  11% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  12% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  12% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  13% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  14% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  14% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  15% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  16% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  17% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  17% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  18% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  19% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  19% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  20% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  21% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  21% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  22% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  23% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  24% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  24% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  25% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  26% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  26% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  27% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  28% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  29% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  29% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  30% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  31% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  31% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  32% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  33% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  34% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  34% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  35% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  36% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  36% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  37% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  38% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  39% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  39% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  40% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  41% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  41% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  42% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  43% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  43% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  44% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  45% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  46% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  46% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  47% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  48% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  48% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  49% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  50% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  51% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  51% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  52% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  53% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  53% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  54% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  55% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  56% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  56% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  57% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  58% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  58% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  59% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  60% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  60% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  61% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  62% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  63% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  63% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  64% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  65% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  65% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  66% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  67% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  68% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  68% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  69% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  70% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  70% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  71% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  72% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  73% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  73% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  74% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  75% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  75% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  76% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  77% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  78% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  78% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  79% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  80% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  80% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  81% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  82% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  82% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  83% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  84% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  85% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  85% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  86% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  87% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  87% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  88% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  89% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  90% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  90% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  91% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  92% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  92% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  93% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  94% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  95% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  95% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  96% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  97% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  97% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[  98% ] [90m[1mreimport[22m | 다시 가져올 파일을 준비 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 전 작업을 수행 중...[39m[0m
+[   0% ] [90m[1mreimport[22m | NotoSansKR.ttf[39m[0m
+[   0% ] [90m[1mreimport[22m | Pretendard-SemiBold.otf[39m[0m
+[   1% ] [90m[1mreimport[22m | Pretendard-Regular.otf[39m[0m
+[   2% ] [90m[1mreimport[22m | Pretendard-Medium.otf[39m[0m
+[   2% ] [90m[1mreimport[22m | Hahmlet-SemiBold.otf[39m[0m
+[   3% ] [90m[1mreimport[22m | Hahmlet-Regular.otf[39m[0m
+[   4% ] [90m[1mreimport[22m | Hahmlet-Medium.otf[39m[0m
+[   4% ] [90m[1mreimport[22m | Hahmlet-Bold.otf[39m[0m
+[   5% ] [90m[1mreimport[22m | GFSDidot-Regular.ttf[39m[0m
+[   6% ] [90m[1mreimport[22m | NotoSansKR.ttf[39m[0m
+[   7% ] [90m[1mreimport[22m | Pretendard-SemiBold.otf[39m[0m
+[   7% ] [90m[1mreimport[22m | Pretendard-Regular.otf[39m[0m
+[   8% ] [90m[1mreimport[22m | Pretendard-Medium.otf[39m[0m
+[   9% ] [90m[1mreimport[22m | Hahmlet-SemiBold.otf[39m[0m
+[   9% ] [90m[1mreimport[22m | Hahmlet-Regular.otf[39m[0m
+[  10% ] [90m[1mreimport[22m | Hahmlet-Medium.otf[39m[0m
+[  11% ] [90m[1mreimport[22m | Hahmlet-Bold.otf[39m[0m
+[  12% ] [90m[1mreimport[22m | GFSDidot-Regular.ttf[39m[0m
+[  12% ] [90m[1mreimport[22m | 039C.png[39m[0m
+[  13% ] [90m[1mreimport[22m | 039D.png[39m[0m
+[  14% ] [90m[1mreimport[22m | 039F.png[39m[0m
+[  14% ] [90m[1mreimport[22m | 0391.png[39m[0m
+[  15% ] [90m[1mreimport[22m | 0392.png[39m[0m
+[  16% ] [90m[1mreimport[22m | 0393.png[39m[0m
+[  17% ] [90m[1mreimport[22m | 0395.png[39m[0m
+[  17% ] [90m[1mreimport[22m | 0396.png[39m[0m
+[  18% ] [90m[1mreimport[22m | 0397.png[39m[0m
+[  19% ] [90m[1mreimport[22m | 0398.png[39m[0m
+[  19% ] [90m[1mreimport[22m | 0399.png[39m[0m
+[  20% ] [90m[1mreimport[22m | arrow_next.png[39m[0m
+[  21% ] [90m[1mreimport[22m | arrow_prev.png[39m[0m
+[  21% ] [90m[1mreimport[22m | button_purchase_blank.png[39m[0m
+[  22% ] [90m[1mreimport[22m | header_text_blank_plaque.png[39m[0m
+[  23% ] [90m[1mreimport[22m | connector_active.png[39m[0m
+[  24% ] [90m[1mreimport[22m | 039B.png[39m[0m
+[  24% ] [90m[1mreimport[22m | 039A.png[39m[0m
+[  25% ] [90m[1mreimport[22m | 03A9.png[39m[0m
+[  26% ] [90m[1mreimport[22m | 03A7.png[39m[0m
+[  26% ] [90m[1mreimport[22m | 03A6.png[39m[0m
+[  27% ] [90m[1mreimport[22m | 03A5.png[39m[0m
+[  28% ] [90m[1mreimport[22m | 03A4.png[39m[0m
+[  29% ] [90m[1mreimport[22m | 03A3.png[39m[0m
+[  29% ] [90m[1mreimport[22m | 03A1.png[39m[0m
+[  30% ] [90m[1mreimport[22m | 03A0.png[39m[0m
+[  31% ] [90m[1mreimport[22m | 0399.png[39m[0m
+[  31% ] [90m[1mreimport[22m | 0398.png[39m[0m
+[  32% ] [90m[1mreimport[22m | 0397.png[39m[0m
+[  33% ] [90m[1mreimport[22m | 0396.png[39m[0m
+[  34% ] [90m[1mreimport[22m | 0395.png[39m[0m
+[  34% ] [90m[1mreimport[22m | 0393.png[39m[0m
+[  35% ] [90m[1mreimport[22m | special_seal_cracked.png[39m[0m
+[  36% ] [90m[1mreimport[22m | special_seal.png[39m[0m
+[  36% ] [90m[1mreimport[22m | special_placeholder_05.png[39m[0m
+[  37% ] [90m[1mreimport[22m | special_placeholder_04.png[39m[0m
+[  38% ] [90m[1mreimport[22m | special_placeholder_03.png[39m[0m
+[  39% ] [90m[1mreimport[22m | special_placeholder_02.png[39m[0m
+[  39% ] [90m[1mreimport[22m | special_placeholder_01.png[39m[0m
+[  40% ] [90m[1mreimport[22m | special_node_frame.png[39m[0m
+[  41% ] [90m[1mreimport[22m | track_top_trim.png[39m[0m
+[  41% ] [90m[1mreimport[22m | track_panel_common.png[39m[0m
+[  42% ] [90m[1mreimport[22m | track_label_blank.png[39m[0m
+[  43% ] [90m[1mreimport[22m | track_bottom_trim.png[39m[0m
+[  43% ] [90m[1mreimport[22m | track_badge_strength.png[39m[0m
+[  44% ] [90m[1mreimport[22m | track_badge_endurance.png[39m[0m
+[  45% ] [90m[1mreimport[22m | track_badge_breath.png[39m[0m
+[  46% ] [90m[1mreimport[22m | tooltip_frame.png[39m[0m
+[  46% ] [90m[1mreimport[22m | connector_inactive.png[39m[0m
+[  47% ] [90m[1mreimport[22m | node_base.png[39m[0m
+[  48% ] [90m[1mreimport[22m | node_locked_full_preview.png[39m[0m
+[  48% ] [90m[1mreimport[22m | node_ring_bronze.png[39m[0m
+[  49% ] [90m[1mreimport[22m | state_available.png[39m[0m
+[  50% ] [90m[1mreimport[22m | state_insufficient_exp.png[39m[0m
+[  51% ] [90m[1mreimport[22m | state_padlock_symbol.png[39m[0m
+[  51% ] [90m[1mreimport[22m | state_purchased.png[39m[0m
+[  52% ] [90m[1mreimport[22m | state_selected.png[39m[0m
+[  53% ] [90m[1mreimport[22m | state_story_locked.png[39m[0m
+[  53% ] [90m[1mreimport[22m | track_frame_breath.png[39m[0m
+[  54% ] [90m[1mreimport[22m | track_frame_endurance.png[39m[0m
+[  55% ] [90m[1mreimport[22m | track_frame_strength.png[39m[0m
+[  56% ] [90m[1mreimport[22m | omega_plaque.png[39m[0m
+[  56% ] [90m[1mreimport[22m | detail_panel.png[39m[0m
+[  57% ] [90m[1mreimport[22m | milestone_frame.png[39m[0m
+[  58% ] [90m[1mreimport[22m | special_panel.png[39m[0m
+[  58% ] [90m[1mreimport[22m | 03A3.png[39m[0m
+[  59% ] [90m[1mreimport[22m | 03A1.png[39m[0m
+[  60% ] [90m[1mreimport[22m | 03A0.png[39m[0m
+[  60% ] [90m[1mreimport[22m | rune_stone_face_strength.png[39m[0m
+[  61% ] [90m[1mreimport[22m | rune_stone_face_endurance.png[39m[0m
+[  62% ] [90m[1mreimport[22m | rune_stone_face_breath.png[39m[0m
+[  63% ] [90m[1mreimport[22m | icon_strength.png[39m[0m
+[  63% ] [90m[1mreimport[22m | icon_endurance.png[39m[0m
+[  64% ] [90m[1mreimport[22m | icon_breath.png[39m[0m
+[  65% ] [90m[1mreimport[22m | stone_wall_right_half.png[39m[0m
+[  65% ] [90m[1mreimport[22m | stone_wall_left_half.png[39m[0m
+[  66% ] [90m[1mreimport[22m | stone_wall_closed.png[39m[0m
+[  67% ] [90m[1mreimport[22m | glow_strength.png[39m[0m
+[  68% ] [90m[1mreimport[22m | glow_endurance.png[39m[0m
+[  68% ] [90m[1mreimport[22m | glow_breath.png[39m[0m
+[  69% ] [90m[1mreimport[22m | fx_unlock_flash.png[39m[0m
+[  70% ] [90m[1mreimport[22m | header_architecture.png[39m[0m
+[  70% ] [90m[1mreimport[22m | slate_bg_main.png[39m[0m
+[  71% ] [90m[1mreimport[22m | slate_outer_frame_overlay.png[39m[0m
+[  72% ] [90m[1mreimport[22m | sisyphus_idle.png[39m[0m
+[  73% ] [90m[1mreimport[22m | sisyphus_push_01.png[39m[0m
+[  73% ] [90m[1mreimport[22m | sisyphus_push_02.png[39m[0m
+[  74% ] [90m[1mreimport[22m | sisyphus_push_03.png[39m[0m
+[  75% ] [90m[1mreimport[22m | sisyphus_push_04.png[39m[0m
+[  75% ] [90m[1mreimport[22m | sisyphus_push_05.png[39m[0m
+[  76% ] [90m[1mreimport[22m | sisyphus_push_sheet.png[39m[0m
+[  77% ] [90m[1mreimport[22m | fx_dust.png[39m[0m
+[  78% ] [90m[1mreimport[22m | fx_engrave.png[39m[0m
+[  78% ] [90m[1mreimport[22m | fx_light_ray.png[39m[0m
+[  79% ] [90m[1mreimport[22m | fx_milestone.png[39m[0m
+[  80% ] [90m[1mreimport[22m | fx_particles.png[39m[0m
+[  80% ] [90m[1mreimport[22m | fx_ring_glow.png[39m[0m
+[  81% ] [90m[1mreimport[22m | fx_special_open.png[39m[0m
+[  82% ] [90m[1mreimport[22m | 0392.png[39m[0m
+[  82% ] [90m[1mreimport[22m | 0391.png[39m[0m
+[  83% ] [90m[1mreimport[22m | 039F.png[39m[0m
+[  84% ] [90m[1mreimport[22m | 039D.png[39m[0m
+[  85% ] [90m[1mreimport[22m | 039C.png[39m[0m
+[  85% ] [90m[1mreimport[22m | 039B.png[39m[0m
+[  86% ] [90m[1mreimport[22m | 039A.png[39m[0m
+[  87% ] [90m[1mreimport[22m | 03A9.png[39m[0m
+[  87% ] [90m[1mreimport[22m | 03A7.png[39m[0m
+[  88% ] [90m[1mreimport[22m | 03A6.png[39m[0m
+[  89% ] [90m[1mreimport[22m | 03A5.png[39m[0m
+[  90% ] [90m[1mreimport[22m | 03A4.png[39m[0m
+[  90% ] [90m[1mreimport[22m | 03A3.png[39m[0m
+[  91% ] [90m[1mreimport[22m | 03A1.png[39m[0m
+[  92% ] [90m[1mreimport[22m | 03A0.png[39m[0m
+[  92% ] [90m[1mreimport[22m | 0399.png[39m[0m
+[  93% ] [90m[1mreimport[22m | 03A4.png[39m[0m
+[  94% ] [90m[1mreimport[22m | 03A5.png[39m[0m
+[  95% ] [90m[1mreimport[22m | 03A6.png[39m[0m
+[  95% ] [90m[1mreimport[22m | 03A7.png[39m[0m
+[  96% ] [90m[1mreimport[22m | 03A9.png[39m[0m
+[  97% ] [90m[1mreimport[22m | 039A.png[39m[0m
+[  97% ] [90m[1mreimport[22m | 039B.png[39m[0m
+[  98% ] [90m[1mreimport[22m | 039C.png[39m[0m
+[  98% ] [90m[1mreimport[22m | 039C.png[39m[0m
+[  99% ] [90m[1mreimport[22m | 애셋 가져오기 마무리 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 애셋 (다시) 가져오는 중 (140 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 다시 가져오기 후 작업을 수행 중...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 편집기를 불러오는 중 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 편집기 레이아웃을 불러오는 중...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m

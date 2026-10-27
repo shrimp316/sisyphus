@@ -1,0 +1,10 @@
+[gd_resource type="FontVariation" load_steps=5 format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/hahmlet/Hahmlet-Regular.otf" id="base"]
+[ext_resource type="FontFile" path="res://assets/fonts/pretendard/Pretendard-Regular.otf" id="fallback0"]
+[ext_resource type="FontFile" path="res://assets/fonts/gfs_didot/GFSDidot-Regular.ttf" id="fallback1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansKR.ttf" id="fallback2"]
+
+[resource]
+base_font = ExtResource("base")
+fallbacks = Array[Font]([ExtResource("fallback0"), ExtResource("fallback1"), ExtResource("fallback2")])

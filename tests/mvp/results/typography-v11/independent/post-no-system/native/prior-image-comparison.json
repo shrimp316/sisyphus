@@ -1,0 +1,38 @@
+[
+  {
+    "image": "sample-1920.png",
+    "unchanged": true
+  },
+  {
+    "image": "menu-1920.png",
+    "unchanged": true
+  },
+  {
+    "image": "board-1920.png",
+    "unchanged": true
+  },
+  {
+    "image": "sample-1600.png",
+    "unchanged": true
+  },
+  {
+    "image": "menu-1600.png",
+    "unchanged": true
+  },
+  {
+    "image": "board-1600.png",
+    "unchanged": true
+  },
+  {
+    "image": "sample-1280.png",
+    "unchanged": true
+  },
+  {
+    "image": "menu-1280.png",
+    "unchanged": true
+  },
+  {
+    "image": "board-1280.png",
+    "unchanged": true
+  }
+]

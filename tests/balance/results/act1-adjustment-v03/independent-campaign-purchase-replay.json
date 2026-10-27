@@ -1,0 +1,5260 @@
+{
+	"failures": 0,
+	"observations": [
+		{
+			"distance_m": 147.014235379134,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.014235379134,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 90.3333333333513,
+					"total_xp": 60
+				}
+			],
+			"seconds": 90.3333333333513,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481674137778558
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 179.416666666668,
+					"total_xp": 150
+				}
+			],
+			"seconds": 179.416666666668,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.044490554559,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.044490554559,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 1
+					},
+					"seconds": 243.616666666609,
+					"total_xp": 210
+				}
+			],
+			"seconds": 243.616666666609,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.194263538243,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.194263538243,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 336.616666666525,
+					"total_xp": 300
+				}
+			],
+			"seconds": 336.616666666525,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 749.161723930443,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.161723930443,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 459.116666666413,
+					"total_xp": 420
+				}
+			],
+			"seconds": 459.116666666413,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.3446343366607,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 99.3446343366607,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 2
+					},
+					"seconds": 636.39999999964,
+					"total_xp": 530
+				}
+			],
+			"seconds": 636.39999999964,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 345.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 630,
+					"distance_m": 345.98,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 788.599999999612,
+					"total_xp": 630
+				}
+			],
+			"seconds": 788.599999999612,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 699.143481226259,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.143481226259,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 1005.64999999941,
+					"total_xp": 770
+				}
+			],
+			"seconds": 1005.64999999941,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 249.204220961378,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4500,
+					"distance_m": 249.204220961378,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 9,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 8,
+						"strength": 9
+					},
+					"seconds": 7238.78333332889,
+					"total_xp": 4500
+				}
+			],
+			"seconds": 7238.78333332889,
+			"seed": 1257149,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 999.214247722406,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4810,
+					"distance_m": 999.214247722406,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 9,
+					"ranks": {
+						"endurance": 9,
+						"recovery": 8,
+						"strength": 9
+					},
+					"seconds": 7712.53333332846,
+					"total_xp": 4810
+				}
+			],
+			"seconds": 7712.53333332846,
+			"seed": 1257149,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 147.014235379134,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.014235379134,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 90.3333333333513,
+					"total_xp": 60
+				}
+			],
+			"seconds": 90.3333333333513,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481674137778558
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 2
+					},
+					"seconds": 179.416666666668,
+					"total_xp": 150
+				}
+			],
+			"seconds": 179.416666666668,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.070503059912,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.070503059912,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 3
+					},
+					"seconds": 243.616666666609,
+					"total_xp": 210
+				}
+			],
+			"seconds": 243.616666666609,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.237002578372,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.237002578372,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 4
+					},
+					"seconds": 336.616666666525,
+					"total_xp": 300
+				}
+			],
+			"seconds": 336.616666666525,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 749.185455508202,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.185455508202,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 5
+					},
+					"seconds": 458.866666666414,
+					"total_xp": 420
+				}
+			],
+			"seconds": 458.866666666414,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.3680082998964,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 99.3680082998964,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 6
+					},
+					"seconds": 643.374999999633,
+					"total_xp": 530
+				}
+			],
+			"seconds": 643.374999999633,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 345.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 630,
+					"distance_m": 345.98,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 7
+					},
+					"seconds": 795.133333332938,
+					"total_xp": 630
+				}
+			],
+			"seconds": 795.133333332938,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 699.352900329165,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.352900329165,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 8
+					},
+					"seconds": 1012.12499999941,
+					"total_xp": 770
+				}
+			],
+			"seconds": 1012.12499999941,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 197.463025829114,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3100,
+					"distance_m": 197.463025829114,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 10,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 0,
+						"strength": 10
+					},
+					"seconds": 4833.72499999708,
+					"total_xp": 3100
+				}
+			],
+			"seconds": 4833.72499999708,
+			"seed": 838233,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 940.48,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3400,
+					"distance_m": 940.48,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 1,
+						"strength": 10
+					},
+					"seconds": 5290.13333333001,
+					"total_xp": 3400
+				}
+			],
+			"seconds": 5290.13333333001,
+			"seed": 838233,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 147.014235379134,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.014235379134,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 90.3333333333513,
+					"total_xp": 60
+				}
+			],
+			"seconds": 90.3333333333513,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481674137778558
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 179.425000000001,
+					"total_xp": 150
+				}
+			],
+			"seconds": 179.425000000001,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.072471475554,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.072471475554,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 243.616666666609,
+					"total_xp": 210
+				}
+			],
+			"seconds": 243.616666666609,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.17009945753,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.17009945753,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 4,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 336.616666666525,
+					"total_xp": 300
+				}
+			],
+			"seconds": 336.616666666525,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 749.195168169471,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.195168169471,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 5,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 459.616666666413,
+					"total_xp": 420
+				}
+			],
+			"seconds": 459.616666666413,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.3266828889641,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 99.3266828889641,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 6,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 640.041666666303,
+					"total_xp": 530
+				}
+			],
+			"seconds": 640.041666666303,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 345.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 630,
+					"distance_m": 345.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 792.366666666275,
+					"total_xp": 630
+				}
+			],
+			"seconds": 792.366666666275,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 699.163479059958,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.163479059958,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 1009.54166666608,
+					"total_xp": 770
+				}
+			],
+			"seconds": 1009.54166666608,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 347.665418575544,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3100,
+					"distance_m": 347.665418575544,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 10,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 0,
+						"strength": 10
+					},
+					"seconds": 4887.47499999703,
+					"total_xp": 3100
+				}
+			],
+			"seconds": 4887.47499999703,
+			"seed": 838233,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 999.421666842885,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3370,
+					"distance_m": 999.421666842885,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 1,
+						"strength": 10
+					},
+					"seconds": 5299.38333332999,
+					"total_xp": 3370
+				}
+			],
+			"seconds": 5299.38333332999,
+			"seed": 838233,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 147.014235379134,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.014235379134,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 1,
+						"strength": 0
+					},
+					"seconds": 90.3333333333513,
+					"total_xp": 60
+				}
+			],
+			"seconds": 90.3333333333513,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481674137778558
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 2,
+						"strength": 0
+					},
+					"seconds": 179.425000000001,
+					"total_xp": 150
+				}
+			],
+			"seconds": 179.425000000001,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.072471475554,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.072471475554,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 3,
+						"strength": 0
+					},
+					"seconds": 243.616666666609,
+					"total_xp": 210
+				}
+			],
+			"seconds": 243.616666666609,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.17009945753,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.17009945753,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 4,
+						"strength": 0
+					},
+					"seconds": 336.616666666525,
+					"total_xp": 300
+				}
+			],
+			"seconds": 336.616666666525,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 749.195168169471,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.195168169471,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 5,
+						"strength": 0
+					},
+					"seconds": 459.616666666413,
+					"total_xp": 420
+				}
+			],
+			"seconds": 459.616666666413,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.3266828889641,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 99.3266828889641,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 6,
+						"strength": 0
+					},
+					"seconds": 640.13333333297,
+					"total_xp": 530
+				}
+			],
+			"seconds": 640.13333333297,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 345.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 630,
+					"distance_m": 345.98,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 7,
+						"strength": 0
+					},
+					"seconds": 792.458333332942,
+					"total_xp": 630
+				}
+			],
+			"seconds": 792.458333332942,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 699.163479059958,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.163479059958,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 8,
+						"strength": 0
+					},
+					"seconds": 1009.63333333274,
+					"total_xp": 770
+				}
+			],
+			"seconds": 1009.63333333274,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 347.665418575544,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3100,
+					"distance_m": 347.665418575544,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 10,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 10,
+						"strength": 10
+					},
+					"seconds": 4890.02499999703,
+					"total_xp": 3100
+				}
+			],
+			"seconds": 4890.02499999703,
+			"seed": 838233,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 999.281100684762,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3370,
+					"distance_m": 999.281100684762,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 10,
+						"strength": 10
+					},
+					"seconds": 5299.93333332999,
+					"total_xp": 3370
+				}
+			],
+			"seconds": 5299.93333332999,
+			"seed": 838233,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 147.472036230344,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.472036230344,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 92.6083333333531,
+					"total_xp": 60
+				}
+			],
+			"seconds": 92.6083333333531,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 183.591666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.591666666664,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.037834942706,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.037834942706,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 1
+					},
+					"seconds": 247.949999999939,
+					"total_xp": 210
+				}
+			],
+			"seconds": 247.949999999939,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.134808975263,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.134808975263,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 341.749999999854,
+					"total_xp": 300
+				}
+			],
+			"seconds": 341.749999999854,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.1238828399095,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 560,
+					"distance_m": 99.1238828399095,
+					"kind": "endurance",
+					"pending_points": 1,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 660.108333332951,
+					"total_xp": 560
+				},
+				{
+					"cumulative_xp": 560,
+					"distance_m": 99.1238828399095,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 2
+					},
+					"seconds": 660.108333332951,
+					"total_xp": 560
+				}
+			],
+			"seconds": 660.108333332951,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 299.044363857877,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 640,
+					"distance_m": 299.044363857877,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 784.474999999615,
+					"total_xp": 640
+				}
+			],
+			"seconds": 784.474999999615,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 598.834721258078,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 760,
+					"distance_m": 598.834721258078,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 967.583333332782,
+					"total_xp": 760
+				}
+			],
+			"seconds": 967.583333332782,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 147.315854408881,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3460,
+					"distance_m": 147.315854408881,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 7,
+						"strength": 7
+					},
+					"seconds": 5525.55833332988,
+					"total_xp": 3460
+				}
+			],
+			"seconds": 5525.55833332988,
+			"seed": 942962,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 647.478920144615,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3660,
+					"distance_m": 647.478920144615,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 7,
+						"strength": 8
+					},
+					"seconds": 5832.50833332967,
+					"total_xp": 3660
+				}
+			],
+			"seconds": 5832.50833332967,
+			"seed": 942962,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 147.014235379134,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.014235379134,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 90.3333333333513,
+					"total_xp": 60
+				}
+			],
+			"seconds": 90.3333333333513,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481674137778558
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 181.1,
+					"total_xp": 150
+				}
+			],
+			"seconds": 181.1,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.429470605657,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.429470605657,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 1
+					},
+					"seconds": 245.616666666608,
+					"total_xp": 210
+				}
+			],
+			"seconds": 245.616666666608,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.287976182998,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.287976182998,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 337.366666666524,
+					"total_xp": 300
+				}
+			],
+			"seconds": 337.366666666524,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 749.173604910602,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.173604910602,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 459.866666666413,
+					"total_xp": 420
+				}
+			],
+			"seconds": 459.866666666413,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.1406648667267,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 99.1406648667267,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 2
+					},
+					"seconds": 611.049999999663,
+					"total_xp": 530
+				}
+			],
+			"seconds": 611.049999999663,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 345.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 630,
+					"distance_m": 345.98,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 763.099999999635,
+					"total_xp": 630
+				}
+			],
+			"seconds": 763.099999999635,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 699.14352878193,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.14352878193,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 980.049999999437,
+					"total_xp": 770
+				}
+			],
+			"seconds": 980.049999999437,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 197.680604302217,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4250,
+					"distance_m": 197.680604302217,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 8,
+						"strength": 8
+					},
+					"seconds": 6713.64166666268,
+					"total_xp": 4250
+				}
+			],
+			"seconds": 6713.64166666268,
+			"seed": 1257149,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 885.885070200744,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4530,
+					"distance_m": 885.885070200744,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 9,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 8,
+						"strength": 9
+					},
+					"seconds": 7141.07499999564,
+					"total_xp": 4530
+				}
+			],
+			"seconds": 7141.07499999564,
+			"seed": 1257149,
+			"state": "climbing",
+			"velocity": 0.0490199237951195
+		},
+		{
+			"distance_m": 147.014235379134,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.014235379134,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 90.3333333333513,
+					"total_xp": 60
+				}
+			],
+			"seconds": 90.3333333333513,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481674137778558
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 2
+					},
+					"seconds": 181.1,
+					"total_xp": 150
+				}
+			],
+			"seconds": 181.1,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.460379404862,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.460379404862,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 3
+					},
+					"seconds": 245.616666666608,
+					"total_xp": 210
+				}
+			],
+			"seconds": 245.616666666608,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.363981195059,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.363981195059,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 4
+					},
+					"seconds": 337.366666666524,
+					"total_xp": 300
+				}
+			],
+			"seconds": 337.366666666524,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 749.185599261795,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.185599261795,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 5
+					},
+					"seconds": 459.616666666413,
+					"total_xp": 420
+				}
+			],
+			"seconds": 459.616666666413,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.3005670831605,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 99.3005670831605,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 6
+					},
+					"seconds": 610.64166666633,
+					"total_xp": 530
+				}
+			],
+			"seconds": 610.64166666633,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 345.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 630,
+					"distance_m": 345.98,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 7
+					},
+					"seconds": 762.383333332969,
+					"total_xp": 630
+				}
+			],
+			"seconds": 762.383333332969,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 699.357008167003,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.357008167003,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 8
+					},
+					"seconds": 979.391666666105,
+					"total_xp": 770
+				}
+			],
+			"seconds": 979.391666666105,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 449.259871915052,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3370,
+					"distance_m": 449.259871915052,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 1,
+						"strength": 10
+					},
+					"seconds": 5189.34166666359,
+					"total_xp": 3370
+				}
+			],
+			"seconds": 5189.34166666359,
+			"seed": 942962,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 147.014235379134,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.014235379134,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 90.3333333333513,
+					"total_xp": 60
+				}
+			],
+			"seconds": 90.3333333333513,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481674137778558
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 181.075,
+					"total_xp": 150
+				}
+			],
+			"seconds": 181.075,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.163737358855,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.163737358855,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 246.366666666607,
+					"total_xp": 210
+				}
+			],
+			"seconds": 246.366666666607,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.346906456282,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.346906456282,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 4,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 340.116666666522,
+					"total_xp": 300
+				}
+			],
+			"seconds": 340.116666666522,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 749.433961578099,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.433961578099,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 5,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 462.86666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 462.86666666641,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.1566385010888,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 99.1566385010888,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 6,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 616.933333332991,
+					"total_xp": 530
+				}
+			],
+			"seconds": 616.933333332991,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 345.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 630,
+					"distance_m": 345.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 768.791666666296,
+					"total_xp": 630
+				}
+			],
+			"seconds": 768.791666666296,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 699.179187646272,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.179187646272,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 986.683333332765,
+					"total_xp": 770
+				}
+			],
+			"seconds": 986.683333332765,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 97.6679298891554,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 2890,
+					"distance_m": 97.6679298891554,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 9,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 0,
+						"strength": 9
+					},
+					"seconds": 4483.50833333062,
+					"total_xp": 2890
+				}
+			],
+			"seconds": 4483.50833333062,
+			"seed": 838233,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 647.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3110,
+					"distance_m": 647.122857142857,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 10,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 0,
+						"strength": 10
+					},
+					"seconds": 4818.5499999971,
+					"total_xp": 3110
+				}
+			],
+			"seconds": 4818.5499999971,
+			"seed": 838233,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 147.014235379134,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.014235379134,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 1,
+						"strength": 0
+					},
+					"seconds": 90.3333333333513,
+					"total_xp": 60
+				}
+			],
+			"seconds": 90.3333333333513,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481674137778558
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 2,
+						"strength": 0
+					},
+					"seconds": 181.075,
+					"total_xp": 150
+				}
+			],
+			"seconds": 181.075,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.398853422957,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.398853422957,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 3,
+						"strength": 0
+					},
+					"seconds": 245.616666666608,
+					"total_xp": 210
+				}
+			],
+			"seconds": 245.616666666608,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.234053998061,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.234053998061,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 4,
+						"strength": 0
+					},
+					"seconds": 337.366666666524,
+					"total_xp": 300
+				}
+			],
+			"seconds": 337.366666666524,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 749.145295628254,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.145295628254,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 5,
+						"strength": 0
+					},
+					"seconds": 460.116666666413,
+					"total_xp": 420
+				}
+			],
+			"seconds": 460.116666666413,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 147.932220497687,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 520,
+					"distance_m": 147.932220497687,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 6,
+						"strength": 0
+					},
+					"seconds": 639.724999999687,
+					"total_xp": 520
+				}
+			],
+			"seconds": 639.724999999687,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 497.332274787163,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 660,
+					"distance_m": 497.332274787163,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 7,
+						"strength": 0
+					},
+					"seconds": 853.474999999553,
+					"total_xp": 660
+				}
+			],
+			"seconds": 853.474999999553,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 760,
+					"distance_m": 747.122857142857,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 8,
+						"strength": 0
+					},
+					"seconds": 1007.04999999941,
+					"total_xp": 760
+				}
+			],
+			"seconds": 1007.04999999941,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 47.5696524609043,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 5510,
+					"distance_m": 47.5696524609043,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 10,
+						"strength": 10
+					},
+					"seconds": 8734.44999999471,
+					"total_xp": 5510
+				}
+			],
+			"seconds": 8734.44999999471,
+			"seed": 1676065,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 878.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 5850,
+					"distance_m": 878.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 9,
+					"ranks": {
+						"endurance": 9,
+						"recovery": 10,
+						"strength": 10
+					},
+					"seconds": 9234.98333332773,
+					"total_xp": 5850
+				}
+			],
+			"seconds": 9234.98333332773,
+			"seed": 1676065,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 147.430349615171,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 60,
+					"distance_m": 147.430349615171,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 92.4916666666863,
+					"total_xp": 60
+				}
+			],
+			"seconds": 92.4916666666863,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 295.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 184.074999999997,
+					"total_xp": 150
+				}
+			],
+			"seconds": 184.074999999997,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 399.143422834629,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.143422834629,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 1
+					},
+					"seconds": 248.533333333272,
+					"total_xp": 210
+				}
+			],
+			"seconds": 248.533333333272,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.140686813016,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 549.140686813016,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 342.449999999853,
+					"total_xp": 300
+				}
+			],
+			"seconds": 342.449999999853,
+			"seed": 401,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 99.0678809925331,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 500,
+					"distance_m": 99.0678809925331,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 607.316666666333,
+					"total_xp": 500
+				}
+			],
+			"seconds": 607.316666666333,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 147.445004568965,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 520,
+					"distance_m": 147.445004568965,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 2
+					},
+					"seconds": 637.241666666356,
+					"total_xp": 520
+				}
+			],
+			"seconds": 637.241666666356,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 449.040509648812,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 640,
+					"distance_m": 449.040509648812,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 822.799999999581,
+					"total_xp": 640
+				}
+			],
+			"seconds": 822.799999999581,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 760,
+					"distance_m": 747.122857142857,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 1005.56666666608,
+					"total_xp": 760
+				}
+			],
+			"seconds": 1005.56666666608,
+			"seed": 105130,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 245.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3930,
+					"distance_m": 245.98,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 7,
+						"strength": 8
+					},
+					"seconds": 6194.46666666301,
+					"total_xp": 3930
+				}
+			],
+			"seconds": 6194.46666666301,
+			"seed": 1152420,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 947.49011109086,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4220,
+					"distance_m": 947.49011109086,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 8,
+						"strength": 8
+					},
+					"seconds": 6633.44999999594,
+					"total_xp": 4220
+				}
+			],
+			"seconds": 6633.44999999594,
+			"seed": 1152420,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 197.517124725266,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.517124725266,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 122.208333333377,
+					"total_xp": 90
+				}
+			],
+			"seconds": 122.208333333377,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.276993406315,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.276993406315,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 183.616666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.616666666664,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 499.417333275601,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 270,
+					"distance_m": 499.417333275601,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 1
+					},
+					"seconds": 310.116666666549,
+					"total_xp": 270
+				}
+			],
+			"seconds": 310.116666666549,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.682528447605,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.682528447605,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 339.958333333188,
+					"total_xp": 300
+				}
+			],
+			"seconds": 339.958333333188,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.363607013354,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.363607013354,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 462.86666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 462.86666666641,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 97.5397703632782,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 97.5397703632782,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 2
+					},
+					"seconds": 636.458333332972,
+					"total_xp": 530
+				}
+			],
+			"seconds": 636.458333332972,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 397.583777766429,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 650,
+					"distance_m": 397.583777766429,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 815.95833333292,
+					"total_xp": 650
+				}
+			],
+			"seconds": 815.95833333292,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 790,
+					"distance_m": 747.122857142857,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 1028.66666666606,
+					"total_xp": 790
+				}
+			],
+			"seconds": 1028.66666666606,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 549.294693845202,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4240,
+					"distance_m": 549.294693845202,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 8,
+						"strength": 8
+					},
+					"seconds": 6795.59166666245,
+					"total_xp": 4240
+				}
+			],
+			"seconds": 6795.59166666245,
+			"seed": 1152421,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 197.517124725266,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.517124725266,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 122.208333333377,
+					"total_xp": 90
+				}
+			],
+			"seconds": 122.208333333377,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.276993406315,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.276993406315,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 2
+					},
+					"seconds": 183.616666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.616666666664,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 499.34883324808,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 270,
+					"distance_m": 499.34883324808,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 3
+					},
+					"seconds": 310.116666666549,
+					"total_xp": 270
+				}
+			],
+			"seconds": 310.116666666549,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.649771760312,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.649771760312,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 4
+					},
+					"seconds": 339.958333333188,
+					"total_xp": 300
+				}
+			],
+			"seconds": 339.958333333188,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.406953674682,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.406953674682,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 5
+					},
+					"seconds": 462.86666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 462.86666666641,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 97.6586982661145,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 97.6586982661145,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 6
+					},
+					"seconds": 641.274999999634,
+					"total_xp": 530
+				}
+			],
+			"seconds": 641.274999999634,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 397.645559356944,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 650,
+					"distance_m": 397.645559356944,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 7
+					},
+					"seconds": 820.774999999583,
+					"total_xp": 650
+				}
+			],
+			"seconds": 820.774999999583,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 790,
+					"distance_m": 747.122857142857,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 8
+					},
+					"seconds": 1034.31666666606,
+					"total_xp": 790
+				}
+			],
+			"seconds": 1034.31666666606,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4220,
+					"distance_m": 295.98,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 4,
+						"strength": 10
+					},
+					"seconds": 6669.3499999959,
+					"total_xp": 4220
+				}
+			],
+			"seconds": 6669.3499999959,
+			"seed": 1152421,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 999.388905754641,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4510,
+					"distance_m": 999.388905754641,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 5,
+						"strength": 10
+					},
+					"seconds": 7116.15833332883,
+					"total_xp": 4510
+				}
+			],
+			"seconds": 7116.15833332883,
+			"seed": 1152421,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 197.517124725266,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.517124725266,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 122.208333333377,
+					"total_xp": 90
+				}
+			],
+			"seconds": 122.208333333377,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.273447517124,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.273447517124,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 183.866666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.866666666664,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 499.370616783602,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 270,
+					"distance_m": 499.370616783602,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 310.116666666549,
+					"total_xp": 270
+				}
+			],
+			"seconds": 310.116666666549,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.618929531612,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.618929531612,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 4,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 339.958333333188,
+					"total_xp": 300
+				}
+			],
+			"seconds": 339.958333333188,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.269733734575,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.269733734575,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 5,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 463.11666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 463.11666666641,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 97.5408042277372,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 97.5408042277372,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 6,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 637.466666666304,
+					"total_xp": 530
+				}
+			],
+			"seconds": 637.466666666304,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 397.533116722649,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 650,
+					"distance_m": 397.533116722649,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 816.966666666252,
+					"total_xp": 650
+				}
+			],
+			"seconds": 816.966666666252,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 699.234259302407,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.234259302407,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 1004.87499999942,
+					"total_xp": 770
+				}
+			],
+			"seconds": 1004.87499999942,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 549.300986038792,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4240,
+					"distance_m": 549.300986038792,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 4,
+						"strength": 10
+					},
+					"seconds": 6788.49166666246,
+					"total_xp": 4240
+				}
+			],
+			"seconds": 6788.49166666246,
+			"seed": 1152421,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 197.517124725266,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.517124725266,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 1,
+						"strength": 0
+					},
+					"seconds": 122.208333333377,
+					"total_xp": 90
+				}
+			],
+			"seconds": 122.208333333377,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.273644044624,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.273644044624,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 2,
+						"strength": 0
+					},
+					"seconds": 183.616666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.616666666664,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 499.342789831473,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 270,
+					"distance_m": 499.342789831473,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 3,
+						"strength": 0
+					},
+					"seconds": 310.366666666549,
+					"total_xp": 270
+				}
+			],
+			"seconds": 310.366666666549,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.591274077064,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.591274077064,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 4,
+						"strength": 0
+					},
+					"seconds": 340.208333333188,
+					"total_xp": 300
+				}
+			],
+			"seconds": 340.208333333188,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.269081303603,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.269081303603,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 5,
+						"strength": 0
+					},
+					"seconds": 463.11666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 463.11666666641,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 97.5408042277372,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 97.5408042277372,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 6,
+						"strength": 0
+					},
+					"seconds": 636.924999999638,
+					"total_xp": 530
+				}
+			],
+			"seconds": 636.924999999638,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 397.533116722649,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 650,
+					"distance_m": 397.533116722649,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 7,
+						"strength": 0
+					},
+					"seconds": 816.424999999586,
+					"total_xp": 650
+				}
+			],
+			"seconds": 816.424999999586,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 699.234259302407,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 770,
+					"distance_m": 699.234259302407,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 8,
+						"strength": 0
+					},
+					"seconds": 1004.33333333275,
+					"total_xp": 770
+				}
+			],
+			"seconds": 1004.33333333275,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 49.2074502292998,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3680,
+					"distance_m": 49.2074502292998,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 10,
+						"strength": 10
+					},
+					"seconds": 5880.65833332966,
+					"total_xp": 3680
+				}
+			],
+			"seconds": 5880.65833332966,
+			"seed": 1047692,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 649.051639598435,
+			"guard_passed": true,
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3920,
+					"distance_m": 649.051639598435,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 10,
+						"strength": 10
+					},
+					"seconds": 6248.15833332946,
+					"total_xp": 3920
+				}
+			],
+			"seconds": 6248.15833332946,
+			"seed": 1047692,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 197.379988358572,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.379988358572,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 120.841666666709,
+					"total_xp": 90
+				}
+			],
+			"seconds": 120.841666666709,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.202206185549,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.202206185549,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 182.149999999999,
+					"total_xp": 150
+				}
+			],
+			"seconds": 182.149999999999,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 399.085588839181,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.085588839181,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 1
+					},
+					"seconds": 244.683333333275,
+					"total_xp": 210
+				}
+			],
+			"seconds": 244.683333333275,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.452215467427,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.452215467427,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 337.608333333191,
+					"total_xp": 300
+				}
+			],
+			"seconds": 337.608333333191,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.080784705327,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.080784705327,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 460.983333333078,
+					"total_xp": 420
+				}
+			],
+			"seconds": 460.983333333078,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 97.3479405427461,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 560,
+					"distance_m": 97.3479405427461,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 2
+					},
+					"seconds": 660.50833333295,
+					"total_xp": 560
+				}
+			],
+			"seconds": 660.50833333295,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 295.98,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 640,
+					"distance_m": 295.98,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 782.141666666284,
+					"total_xp": 640
+				}
+			],
+			"seconds": 782.141666666284,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 597.907956588533,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 760,
+					"distance_m": 597.907956588533,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 972.466666666111,
+					"total_xp": 760
+				}
+			],
+			"seconds": 972.466666666111,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0474659088058202
+		},
+		{
+			"distance_m": 47.4684464057029,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3420,
+					"distance_m": 47.4684464057029,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 7,
+						"strength": 7
+					},
+					"seconds": 5481.03333332986,
+					"total_xp": 3420
+				}
+			],
+			"seconds": 5481.03333332986,
+			"seed": 942963,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 649.131582725901,
+			"guard_passed": true,
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3660,
+					"distance_m": 649.131582725901,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 7,
+						"strength": 8
+					},
+					"seconds": 5852.20833332966,
+					"total_xp": 3660
+				}
+			],
+			"seconds": 5852.20833332966,
+			"seed": 942963,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 197.659894045044,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.659894045044,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 122.458333333377,
+					"total_xp": 90
+				}
+			],
+			"seconds": 122.458333333377,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.28358834432,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.28358834432,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 183.866666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.866666666664,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 499.224970302033,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 270,
+					"distance_m": 499.224970302033,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 1
+					},
+					"seconds": 310.116666666549,
+					"total_xp": 270
+				}
+			],
+			"seconds": 310.116666666549,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.490668894043,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.490668894043,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 339.958333333188,
+					"total_xp": 300
+				}
+			],
+			"seconds": 339.958333333188,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.372928011875,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.372928011875,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 462.86666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 462.86666666641,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 149.253006379789,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 520,
+					"distance_m": 149.253006379789,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 2
+					},
+					"seconds": 640.433333333021,
+					"total_xp": 520
+				}
+			],
+			"seconds": 640.433333333021,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 497.367831815929,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 660,
+					"distance_m": 497.367831815929,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 848.524999999557,
+					"total_xp": 660
+				}
+			],
+			"seconds": 848.524999999557,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 760,
+					"distance_m": 747.122857142857,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 999.77499999942,
+					"total_xp": 760
+				}
+			],
+			"seconds": 999.77499999942,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 149.32429132881,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3910,
+					"distance_m": 149.32429132881,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 7,
+						"strength": 8
+					},
+					"seconds": 6116.02499999635,
+					"total_xp": 3910
+				}
+			],
+			"seconds": 6116.02499999635,
+			"seed": 1152421,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 878.25993738826,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 4210,
+					"distance_m": 878.25993738826,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 8,
+						"strength": 8
+					},
+					"seconds": 6564.424999996,
+					"total_xp": 4210
+				}
+			],
+			"seconds": 6564.424999996,
+			"seed": 1152421,
+			"state": "climbing",
+			"velocity": 0.048596104398529
+		},
+		{
+			"distance_m": 197.659894045044,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.659894045044,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 122.458333333377,
+					"total_xp": 90
+				}
+			],
+			"seconds": 122.458333333377,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.28358834432,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.28358834432,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 2
+					},
+					"seconds": 183.866666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.866666666664,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 499.142154917685,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 270,
+					"distance_m": 499.142154917685,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 3
+					},
+					"seconds": 309.616666666549,
+					"total_xp": 270
+				}
+			],
+			"seconds": 309.616666666549,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.443093429917,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.443093429917,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 4
+					},
+					"seconds": 339.458333333189,
+					"total_xp": 300
+				}
+			],
+			"seconds": 339.458333333189,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.369871047122,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.369871047122,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 5
+					},
+					"seconds": 462.61666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 462.61666666641,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 97.4882776379068,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 530,
+					"distance_m": 97.4882776379068,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 6
+					},
+					"seconds": 607.724999999665,
+					"total_xp": 530
+				}
+			],
+			"seconds": 607.724999999665,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 397.732754908872,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 650,
+					"distance_m": 397.732754908872,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 7
+					},
+					"seconds": 787.224999999613,
+					"total_xp": 650
+				}
+			],
+			"seconds": 787.224999999613,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 790,
+					"distance_m": 747.122857142857,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 8
+					},
+					"seconds": 1000.91666666609,
+					"total_xp": 790
+				}
+			],
+			"seconds": 1000.91666666609,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 97.5639330101404,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 2890,
+					"distance_m": 97.5639330101404,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 9,
+					"ranks": {
+						"endurance": 9,
+						"recovery": 0,
+						"strength": 10
+					},
+					"seconds": 4416.29166666402,
+					"total_xp": 2890
+				}
+			],
+			"seconds": 4416.29166666402,
+			"seed": 838234,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 647.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3110,
+					"distance_m": 647.122857142857,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 10,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 0,
+						"strength": 10
+					},
+					"seconds": 4753.21666666383,
+					"total_xp": 3110
+				}
+			],
+			"seconds": 4753.21666666383,
+			"seed": 838234,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 197.659894045044,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.659894045044,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 122.458333333377,
+					"total_xp": 90
+				}
+			],
+			"seconds": 122.458333333377,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.267856091548,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.267856091548,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 183.866666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.866666666664,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 499.092688367596,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 270,
+					"distance_m": 499.092688367596,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 309.11666666655,
+					"total_xp": 270
+				}
+			],
+			"seconds": 309.11666666655,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.341172613187,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.341172613187,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 4,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 338.958333333189,
+					"total_xp": 300
+				}
+			],
+			"seconds": 338.958333333189,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.318432469436,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.318432469436,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 5,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 462.86666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 462.86666666641,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 149.349781701392,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 520,
+					"distance_m": 149.349781701392,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 6,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 643.158333333018,
+					"total_xp": 520
+				}
+			],
+			"seconds": 643.158333333018,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 497.641174451161,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 660,
+					"distance_m": 497.641174451161,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 851.999999999554,
+					"total_xp": 660
+				}
+			],
+			"seconds": 851.999999999554,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 760,
+					"distance_m": 747.122857142857,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 0,
+						"strength": 0
+					},
+					"seconds": 1003.73333333275,
+					"total_xp": 760
+				}
+			],
+			"seconds": 1003.73333333275,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 245.98,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 2610,
+					"distance_m": 245.98,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 0,
+						"strength": 8
+					},
+					"seconds": 3998.89999999768,
+					"total_xp": 2610
+				}
+			],
+			"seconds": 3998.89999999768,
+			"seed": 733505,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 888.715013028142,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 2870,
+					"distance_m": 888.715013028142,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 9,
+					"ranks": {
+						"endurance": 10,
+						"recovery": 0,
+						"strength": 9
+					},
+					"seconds": 4394.64999999732,
+					"total_xp": 2870
+				}
+			],
+			"seconds": 4394.64999999732,
+			"seed": 733505,
+			"state": "climbing",
+			"velocity": 0.049999999999972
+		},
+		{
+			"distance_m": 197.659894045044,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.659894045044,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 1,
+						"strength": 0
+					},
+					"seconds": 122.458333333377,
+					"total_xp": 90
+				}
+			],
+			"seconds": 122.458333333377,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.267856091548,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.267856091548,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 2,
+						"strength": 0
+					},
+					"seconds": 183.866666666664,
+					"total_xp": 150
+				}
+			],
+			"seconds": 183.866666666664,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 499.092688367596,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 270,
+					"distance_m": 499.092688367596,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 3,
+						"strength": 0
+					},
+					"seconds": 309.11666666655,
+					"total_xp": 270
+				}
+			],
+			"seconds": 309.11666666655,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.341172613187,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.341172613187,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 4,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 4,
+						"strength": 0
+					},
+					"seconds": 338.958333333189,
+					"total_xp": 300
+				}
+			],
+			"seconds": 338.958333333189,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.318432469436,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.318432469436,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 5,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 5,
+						"strength": 0
+					},
+					"seconds": 462.86666666641,
+					"total_xp": 420
+				}
+			],
+			"seconds": 462.86666666641,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 149.349781701392,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 520,
+					"distance_m": 149.349781701392,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 6,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 6,
+						"strength": 0
+					},
+					"seconds": 639.266666666355,
+					"total_xp": 520
+				}
+			],
+			"seconds": 639.266666666355,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 497.641174451161,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 660,
+					"distance_m": 497.641174451161,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 7,
+						"strength": 0
+					},
+					"seconds": 848.108333332891,
+					"total_xp": 660
+				}
+			],
+			"seconds": 848.108333332891,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 760,
+					"distance_m": 747.122857142857,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 8,
+						"strength": 0
+					},
+					"seconds": 999.841666666086,
+					"total_xp": 760
+				}
+			],
+			"seconds": 999.841666666086,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 199.29599742593,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 5510,
+					"distance_m": 199.29599742593,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 8,
+					"ranks": {
+						"endurance": 8,
+						"recovery": 10,
+						"strength": 10
+					},
+					"seconds": 8792.87499999479,
+					"total_xp": 5510
+				}
+			],
+			"seconds": 8792.87499999479,
+			"seed": 1676066,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 197.320497819046,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 90,
+					"distance_m": 197.320497819046,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 0,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 120.841666666709,
+					"total_xp": 90
+				}
+			],
+			"seconds": 120.841666666709,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 299.162555694688,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 150,
+					"distance_m": 299.162555694688,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 0,
+						"strength": 1
+					},
+					"seconds": 182.266666666665,
+					"total_xp": 150
+				}
+			],
+			"seconds": 182.266666666665,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 399.134439017351,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 210,
+					"distance_m": 399.134439017351,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 1,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 1
+					},
+					"seconds": 244.916666666608,
+					"total_xp": 210
+				}
+			],
+			"seconds": 244.916666666608,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 547.505846307398,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 300,
+					"distance_m": 547.505846307398,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 1,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 338.074999999857,
+					"total_xp": 300
+				}
+			],
+			"seconds": 338.074999999857,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 749.033796025372,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 420,
+					"distance_m": 749.033796025372,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 1,
+						"strength": 2
+					},
+					"seconds": 461.566666666411,
+					"total_xp": 420
+				}
+			],
+			"seconds": 461.566666666411,
+			"seed": 402,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 149.120387609248,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 520,
+					"distance_m": 149.120387609248,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 2,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 2
+					},
+					"seconds": 636.491666666358,
+					"total_xp": 520
+				}
+			],
+			"seconds": 636.491666666358,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		},
+		{
+			"distance_m": 497.510834186474,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 660,
+					"distance_m": 497.510834186474,
+					"kind": "strength",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 2,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 851.799999999554,
+					"total_xp": 660
+				}
+			],
+			"seconds": 851.799999999554,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": 0.0490372752075386
+		},
+		{
+			"distance_m": 747.122857142857,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 760,
+					"distance_m": 747.122857142857,
+					"kind": "endurance",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 3,
+					"ranks": {
+						"endurance": 3,
+						"recovery": 2,
+						"strength": 3
+					},
+					"seconds": 1006.61666666608,
+					"total_xp": 760
+				}
+			],
+			"seconds": 1006.61666666608,
+			"seed": 105131,
+			"state": "climbing",
+			"velocity": -0.05
+		},
+		{
+			"distance_m": 449.220081282946,
+			"guard_passed": true,
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"on_shelf": true,
+			"purchases": [
+				{
+					"cumulative_xp": 3370,
+					"distance_m": 449.220081282946,
+					"kind": "recovery",
+					"pending_points": 0,
+					"points_spent": 1,
+					"rank": 7,
+					"ranks": {
+						"endurance": 7,
+						"recovery": 7,
+						"strength": 7
+					},
+					"seconds": 5235.47499999688,
+					"total_xp": 3370
+				}
+			],
+			"seconds": 5235.47499999688,
+			"seed": 942963,
+			"state": "climbing",
+			"velocity": 0.0481666666667036
+		}
+	],
+	"purchase_events": 194,
+	"scope": "Actual raw-input replays of first, second and terminal attempts in all20campaigns. Conditions observed immediately before each existing purchase() call; other attempts are covered by JSON continuity/geometry/XP audit."
+}

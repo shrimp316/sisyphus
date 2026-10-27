@@ -1,0 +1,427 @@
+{
+	"checked": 60,
+	"failures": 0,
+	"results": [
+		{
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 68884
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 69221
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 1257149.0,
+			"steps": 75186
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 69721
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 70342
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 838233.0,
+			"steps": 74806
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 69321
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 69399
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 838233.0,
+			"steps": 75036
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 69332
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 69209
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 838233.0,
+			"steps": 74806
+		},
+		{
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 71719
+		},
+		{
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 72136
+		},
+		{
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 942962.0,
+			"steps": 75283
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 65812
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 65673
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 1257149.0,
+			"steps": 74088
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 65793
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 65326
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 942962.0,
+			"steps": 74205
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 66488
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 66312
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 838233.0,
+			"steps": 74072
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 65612
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 65439
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 1676065.0,
+			"steps": 73927
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 401.0,
+			"steps": 65342
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 105130.0,
+			"steps": 65662
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 1152420.0,
+			"steps": 74822
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 69120
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 68051
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 1152421.0,
+			"steps": 75304
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 69728
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 69482
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 1152421.0,
+			"steps": 75309
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 69241
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 68964
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 1152421.0,
+			"steps": 75309
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 69176
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 68874
+		},
+		{
+			"job_id": "campaign_S190_regular_recovery_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 1047692.0,
+			"steps": 74934
+		},
+		{
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 72012
+		},
+		{
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 72818
+		},
+		{
+			"job_id": "campaign_S190_skilled_recovery_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 942963.0,
+			"steps": 75467
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 65618
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 64914
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 1152421.0,
+			"steps": 75228
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 65642
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 64653
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_strength",
+			"kind": "raw",
+			"match": true,
+			"seed": 838234.0,
+			"steps": 74477
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 65975
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 65337
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_endurance",
+			"kind": "raw",
+			"match": true,
+			"seed": 733505.0,
+			"steps": 73619
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 65508
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 64661
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_regular_recovery",
+			"kind": "raw",
+			"match": true,
+			"seed": 1676066.0,
+			"steps": 74070
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 402.0,
+			"steps": 65147
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 105131.0,
+			"steps": 66512
+		},
+		{
+			"job_id": "campaign_A39_L127_B10_FAST_skilled_balanced",
+			"kind": "raw",
+			"match": true,
+			"seed": 942963.0,
+			"steps": 75480
+		}
+	],
+	"source": "tests/balance/results/act1-adjustment-v03/independent-campaign-selected.jsonl"
+}

@@ -1,0 +1,10 @@
+{
+	"checks": 14,
+	"display": "headless",
+	"engine": "4.5.1-stable (official)",
+	"failures": [],
+	"fixture": "res://.tools/mastery-v12-save-2909494",
+	"passed": true,
+	"scope": "Real legacy Main v4 fixture round trip and safe-upgrade path; no user save or browser storage accessed",
+	"suite": "save_compatibility"
+}

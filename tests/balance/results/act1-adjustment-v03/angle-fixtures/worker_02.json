@@ -1,0 +1,5141 @@
+{
+  "schema_version": 3,
+  "phase": "legacy_policy_angle_followup",
+  "notes": [
+    "Hypothesis after17settingfactorstudy:39degrees allows upgraded normal sweetforce to resist grade inlowstaminatier; .6Slipgain isolates avoidable Slip failures.",
+    "Compare finite recovery rate7 vs40 at the same10base stamina allowance; no new character stat; quota duration is environmental.",
+    "Any no-growth claim requires generalizedanglecertificate, not oldG123proof reuse."
+  ],
+  "jobs": [
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_zero",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_zero",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_optimized_zero",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_recovery_zero",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_recovery_zero",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_balanced24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_balanced24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_optimized_balanced24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_recovery_balanced24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_recovery_balanced24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_strength24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_strength24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_optimized_strength24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_recovery_strength24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_recovery_strength24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_endurance24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_endurance24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_optimized_endurance24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_recovery_endurance24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_recovery_endurance24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_recovery24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_recovery24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_optimized_recovery24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_recovery_recovery24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_recovery_recovery24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_high30",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_high30",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_optimized_high30",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_regular_recovery_high30",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L114_B0_skilled_recovery_high30",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L114_B0",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 864,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.0,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 864,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 864,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_zero",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_zero",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_optimized_zero",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_recovery_zero",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_recovery_zero",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_balanced24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_balanced24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_optimized_balanced24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_recovery_balanced24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_recovery_balanced24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_strength24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_strength24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_optimized_strength24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_recovery_strength24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_recovery_strength24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_endurance24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_endurance24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_optimized_endurance24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_recovery_endurance24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_recovery_endurance24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_recovery24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_recovery24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_optimized_recovery24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_recovery_recovery24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_recovery_recovery24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_high30",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_high30",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_optimized_high30",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_regular_recovery_high30",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_skilled_recovery_high30",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 1.4285714285714286,
+            "recovery_rate": 7,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_zero",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_zero",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_optimized_zero",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_recovery_zero",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_recovery_zero",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 0,
+        "endurance": 0,
+        "recovery": 0
+      },
+      "growth_id": "zero",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_balanced24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_balanced24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_optimized_balanced24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_recovery_balanced24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_recovery_balanced24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 8,
+        "endurance": 8,
+        "recovery": 8
+      },
+      "growth_id": "balanced24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_strength24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_strength24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_optimized_strength24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_recovery_strength24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_recovery_strength24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 7,
+        "recovery": 7
+      },
+      "growth_id": "strength24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_endurance24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_endurance24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_optimized_endurance24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_recovery_endurance24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_recovery_endurance24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 10,
+        "recovery": 7
+      },
+      "growth_id": "endurance24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_recovery24",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_recovery24",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_optimized_recovery24",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_recovery_recovery24",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_recovery_recovery24",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 7,
+        "endurance": 7,
+        "recovery": 10
+      },
+      "growth_id": "recovery24",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_high30",
+      "mode": "single",
+      "policy": "regular",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_high30",
+      "mode": "single",
+      "policy": "skilled",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_optimized_high30",
+      "mode": "single",
+      "policy": "optimized",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_regular_recovery_high30",
+      "mode": "single",
+      "policy": "regular_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    },
+    {
+      "id": "angle_fixture_A39_L127_B10_FAST_skilled_recovery_high30",
+      "mode": "single",
+      "policy": "skilled_recovery",
+      "growth_mode": "actual",
+      "level": 0,
+      "ranks": {
+        "strength": 10,
+        "endurance": 10,
+        "recovery": 10
+      },
+      "growth_id": "high30",
+      "strategy": "balanced",
+      "candidate": {
+        "id": "A39_L127_B10_FAST",
+        "gates": [
+          {
+            "id": "late_gate",
+            "start_m": 750,
+            "end_m": 877,
+            "angle_degrees": 39,
+            "surface": "STONE",
+            "dry": true,
+            "drain_scale": 1,
+            "slip_gain_scale": 0.6,
+            "slip_decay_scale": 1,
+            "recovery_seconds_budget": 0.25,
+            "recovery_rate": 40,
+            "recovery_min_stamina": 1
+          }
+        ],
+        "connection_layout": [
+          {
+            "start_m": 877,
+            "end_m": 900,
+            "shelf": true,
+            "angle_degrees": 0,
+            "surface": "STONE",
+            "dry": true
+          }
+        ]
+      },
+      "seeds": [
+        303
+      ],
+      "generation": 6,
+      "weather": "",
+      "max_run_seconds": 400,
+      "diagnostic_fixture": true,
+      "entry_fixture": {
+        "distance_m": 750,
+        "velocity": 1.8,
+        "stamina_fraction": 1
+      },
+      "stop_after_m": 877,
+      "experiment_case": "gate_fixture"
+    }
+  ]
+}

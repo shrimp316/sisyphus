@@ -1,0 +1,763 @@
+{
+	"candidate": {
+		"gates": [
+			{
+				"angle_degrees": 45.0,
+				"drain_scale": 1.0,
+				"end_m": 905.0,
+				"id": "proof_gate",
+				"recovery_min_stamina": 1.0,
+				"recovery_rate": 7.0,
+				"recovery_seconds_budget": 20.0,
+				"slip_gain_scale": 0.6,
+				"start_m": 650.0,
+				"surface": "STONE"
+			}
+		]
+	},
+	"interpretation": "Matched strength/endurance, policy and gate; only existing recovery rate rank differs. Initial entry fixture; not full-route/policy population evidence. min_stamina0 variants explicitly outside certificate.",
+	"source_sha256": "30a312b144383be64fc6fe35b8ad107ebba9a90672d9dda941f9ef8018279944",
+	"trials": [
+		{
+			"cadence_seconds": 0.25,
+			"final_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "proof_gate",
+				"cleared_ledges": {
+
+				},
+				"distance": 861.208212073232,
+				"elapsed": 155.458333333356,
+				"falling_active": true,
+				"gate_ledger": {
+					"proof_gate": {
+						"amount_upper_bound_at_entry": 140.0,
+						"brace_seconds": 0.0,
+						"eligible_last_step": false,
+						"entries": 1,
+						"entry_history": [
+							{
+								"distance_m": 650.0,
+								"remaining_seconds": 20.0,
+								"seconds": 0.00833333333333333,
+								"stamina": 114.0,
+								"velocity": 1.8
+							}
+						],
+						"entry_recovery_multiplier": 1.0,
+						"entry_seconds": 0.00833333333333333,
+						"entry_stamina": 114.0,
+						"entry_velocity": 1.8,
+						"exert_seconds": 21.2083333333328,
+						"exhaustion_episodes": 1,
+						"exit_seconds": null,
+						"exit_stamina": null,
+						"id": "proof_gate",
+						"minimum_stamina": 0.0,
+						"passed": false,
+						"push_seconds": 103.500000000028,
+						"recovered_amount": 140.000000000007,
+						"recovery_events": 81,
+						"released_seconds": 30.7499999999989,
+						"runaways": 1,
+						"seconds_budget": 20.0,
+						"seconds_remaining": 0.0,
+						"seconds_used": 20.0,
+						"slips": 0
+					}
+				},
+				"partial_falls": 0,
+				"peak": 865.392746341426,
+				"runaway_elapsed": 0.0,
+				"slip": 17.7397904761904,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00194630517653
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "",
+				"cleared_ledges": {
+
+				},
+				"distance": 650.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"gate_ledger": {
+
+				},
+				"partial_falls": 0,
+				"peak": 650.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 114.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"passed": false,
+			"peak_gain": 215.392746341426,
+			"policy": "Synthetic held-cadence threshold fixture witness; release iff S<threshold*capacity and velocity>.9, otherwise push/exert iff velocity<1; not calibrated regular/skilled, no mutation after initial fixture.",
+			"ranks": [
+				7,
+				7,
+				0
+			],
+			"recovery_min_stamina": 1.0,
+			"seconds": 155.458333333356,
+			"stamina_rest_threshold": 0.5
+		},
+		{
+			"cadence_seconds": 0.116666666666667,
+			"final_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "proof_gate",
+				"cleared_ledges": {
+
+				},
+				"distance": 870.812900798334,
+				"elapsed": 163.566666666682,
+				"falling_active": true,
+				"gate_ledger": {
+					"proof_gate": {
+						"amount_upper_bound_at_entry": 140.0,
+						"brace_seconds": 0.0,
+						"eligible_last_step": false,
+						"entries": 1,
+						"entry_history": [
+							{
+								"distance_m": 650.0,
+								"remaining_seconds": 20.0,
+								"seconds": 0.00833333333333333,
+								"stamina": 114.0,
+								"velocity": 1.8
+							}
+						],
+						"entry_recovery_multiplier": 1.0,
+						"entry_seconds": 0.00833333333333333,
+						"entry_stamina": 114.0,
+						"entry_velocity": 1.8,
+						"exert_seconds": 16.333333333333,
+						"exhaustion_episodes": 1,
+						"exit_seconds": null,
+						"exit_stamina": null,
+						"id": "proof_gate",
+						"minimum_stamina": 0.0,
+						"passed": false,
+						"push_seconds": 115.966666666705,
+						"recovered_amount": 140.000000000007,
+						"recovery_events": 172,
+						"released_seconds": 31.2666666666655,
+						"runaways": 1,
+						"seconds_budget": 20.0,
+						"seconds_remaining": 0.0,
+						"seconds_used": 20.0,
+						"slips": 0
+					}
+				},
+				"partial_falls": 0,
+				"peak": 875.001593800202,
+				"runaway_elapsed": 0.0,
+				"slip": 16.2090666666667,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00393774920605
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "",
+				"cleared_ledges": {
+
+				},
+				"distance": 650.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"gate_ledger": {
+
+				},
+				"partial_falls": 0,
+				"peak": 650.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 114.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"passed": false,
+			"peak_gain": 225.001593800202,
+			"policy": "Synthetic held-cadence threshold fixture witness; release iff S<threshold*capacity and velocity>.9, otherwise push/exert iff velocity<1; not calibrated regular/skilled, no mutation after initial fixture.",
+			"ranks": [
+				7,
+				7,
+				0
+			],
+			"recovery_min_stamina": 1.0,
+			"seconds": 163.566666666682,
+			"stamina_rest_threshold": 0.5
+		},
+		{
+			"cadence_seconds": 0.25,
+			"final_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "proof_gate",
+				"cleared_ledges": {
+
+				},
+				"distance": 894.637880589935,
+				"elapsed": 176.525000000004,
+				"falling_active": true,
+				"gate_ledger": {
+					"proof_gate": {
+						"amount_upper_bound_at_entry": 159.6,
+						"brace_seconds": 0.0,
+						"eligible_last_step": false,
+						"entries": 1,
+						"entry_history": [
+							{
+								"distance_m": 650.0,
+								"remaining_seconds": 20.0,
+								"seconds": 0.00833333333333333,
+								"stamina": 114.0,
+								"velocity": 1.8
+							}
+						],
+						"entry_recovery_multiplier": 1.14,
+						"entry_seconds": 0.00833333333333333,
+						"entry_stamina": 114.0,
+						"entry_velocity": 1.8,
+						"exert_seconds": 16.0249999999997,
+						"exhaustion_episodes": 1,
+						"exit_seconds": null,
+						"exit_stamina": null,
+						"id": "proof_gate",
+						"minimum_stamina": 0.0,
+						"passed": false,
+						"push_seconds": 129.500000000047,
+						"recovered_amount": 159.600000000003,
+						"recovery_events": 81,
+						"released_seconds": 30.9999999999989,
+						"runaways": 1,
+						"seconds_budget": 20.0,
+						"seconds_remaining": 0.0,
+						"seconds_used": 20.0,
+						"slips": 0
+					}
+				},
+				"partial_falls": 0,
+				"peak": 898.851033563335,
+				"runaway_elapsed": 0.0,
+				"slip": 17.7082857142857,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.01563175949982
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "",
+				"cleared_ledges": {
+
+				},
+				"distance": 650.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"gate_ledger": {
+
+				},
+				"partial_falls": 0,
+				"peak": 650.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 114.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"passed": false,
+			"peak_gain": 248.851033563335,
+			"policy": "Synthetic held-cadence threshold fixture witness; release iff S<threshold*capacity and velocity>.9, otherwise push/exert iff velocity<1; not calibrated regular/skilled, no mutation after initial fixture.",
+			"ranks": [
+				7,
+				7,
+				7
+			],
+			"recovery_min_stamina": 1.0,
+			"seconds": 176.525000000004,
+			"stamina_rest_threshold": 0.5
+		},
+		{
+			"cadence_seconds": 0.116666666666667,
+			"final_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "proof_gate",
+				"cleared_ledges": {
+
+				},
+				"distance": 892.762340972192,
+				"elapsed": 175.116666666672,
+				"falling_active": true,
+				"gate_ledger": {
+					"proof_gate": {
+						"amount_upper_bound_at_entry": 159.6,
+						"brace_seconds": 0.0,
+						"eligible_last_step": false,
+						"entries": 1,
+						"entry_history": [
+							{
+								"distance_m": 650.0,
+								"remaining_seconds": 20.0,
+								"seconds": 0.00833333333333333,
+								"stamina": 114.0,
+								"velocity": 1.8
+							}
+						],
+						"entry_recovery_multiplier": 1.14,
+						"entry_seconds": 0.00833333333333333,
+						"entry_stamina": 114.0,
+						"entry_velocity": 1.8,
+						"exert_seconds": 16.333333333333,
+						"exhaustion_episodes": 1,
+						"exit_seconds": null,
+						"exit_stamina": null,
+						"id": "proof_gate",
+						"minimum_stamina": 0.0,
+						"passed": false,
+						"push_seconds": 127.516666666714,
+						"recovered_amount": 159.600000000003,
+						"recovery_events": 172,
+						"released_seconds": 31.2666666666655,
+						"runaways": 1,
+						"seconds_budget": 20.0,
+						"seconds_remaining": 0.0,
+						"seconds_used": 20.0,
+						"slips": 0
+					}
+				},
+				"partial_falls": 0,
+				"peak": 896.956379004657,
+				"runaway_elapsed": 0.0,
+				"slip": 16.1340761904762,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00649314232001
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "",
+				"cleared_ledges": {
+
+				},
+				"distance": 650.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"gate_ledger": {
+
+				},
+				"partial_falls": 0,
+				"peak": 650.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 114.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"passed": false,
+			"peak_gain": 246.956379004657,
+			"policy": "Synthetic held-cadence threshold fixture witness; release iff S<threshold*capacity and velocity>.9, otherwise push/exert iff velocity<1; not calibrated regular/skilled, no mutation after initial fixture.",
+			"ranks": [
+				7,
+				7,
+				7
+			],
+			"recovery_min_stamina": 1.0,
+			"seconds": 175.116666666672,
+			"stamina_rest_threshold": 0.5
+		},
+		{
+			"cadence_seconds": 0.25,
+			"final_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "proof_gate",
+				"cleared_ledges": {
+
+				},
+				"distance": 905.004019750206,
+				"elapsed": 173.766666666673,
+				"falling_active": false,
+				"gate_ledger": {
+					"proof_gate": {
+						"amount_upper_bound_at_entry": 168.0,
+						"brace_seconds": 0.0,
+						"eligible_last_step": false,
+						"entries": 1,
+						"entry_history": [
+							{
+								"distance_m": 650.0,
+								"remaining_seconds": 20.0,
+								"seconds": 0.00833333333333333,
+								"stamina": 114.0,
+								"velocity": 1.8
+							}
+						],
+						"entry_recovery_multiplier": 1.2,
+						"entry_seconds": 0.00833333333333333,
+						"entry_stamina": 114.0,
+						"entry_velocity": 1.8,
+						"exert_seconds": 10.5166666666667,
+						"exhaustion_episodes": 0,
+						"exit_seconds": 173.766666666673,
+						"exit_stamina": 13.3461666666529,
+						"exit_velocity": 0.601152113152207,
+						"id": "proof_gate",
+						"minimum_stamina": 13.3461666666529,
+						"passed": true,
+						"push_seconds": 133.750000000043,
+						"recovered_amount": 167.999999999994,
+						"recovery_events": 81,
+						"released_seconds": 29.499999999999,
+						"runaways": 0,
+						"seconds_budget": 20.0,
+						"seconds_remaining": 0.0,
+						"seconds_used": 20.0,
+						"slips": 0
+					}
+				},
+				"partial_falls": 0,
+				"peak": 905.004019750206,
+				"runaway_elapsed": 0.0,
+				"slip": 16.8999428571433,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 13.3461666666529,
+				"state": "climbing",
+				"velocity": 0.601152113152207
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "",
+				"cleared_ledges": {
+
+				},
+				"distance": 650.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"gate_ledger": {
+
+				},
+				"partial_falls": 0,
+				"peak": 650.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 114.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"passed": true,
+			"peak_gain": 255.004019750206,
+			"policy": "Synthetic held-cadence threshold fixture witness; release iff S<threshold*capacity and velocity>.9, otherwise push/exert iff velocity<1; not calibrated regular/skilled, no mutation after initial fixture.",
+			"ranks": [
+				7,
+				7,
+				10
+			],
+			"recovery_min_stamina": 1.0,
+			"seconds": 173.766666666673,
+			"stamina_rest_threshold": 0.5
+		},
+		{
+			"cadence_seconds": 0.116666666666667,
+			"final_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "proof_gate",
+				"cleared_ledges": {
+
+				},
+				"distance": 905.004333729429,
+				"elapsed": 175.516666666671,
+				"falling_active": false,
+				"gate_ledger": {
+					"proof_gate": {
+						"amount_upper_bound_at_entry": 168.0,
+						"brace_seconds": 0.0,
+						"eligible_last_step": false,
+						"entries": 1,
+						"entry_history": [
+							{
+								"distance_m": 650.0,
+								"remaining_seconds": 20.0,
+								"seconds": 0.00833333333333333,
+								"stamina": 114.0,
+								"velocity": 1.8
+							}
+						],
+						"entry_recovery_multiplier": 1.2,
+						"entry_seconds": 0.00833333333333333,
+						"entry_stamina": 114.0,
+						"entry_velocity": 1.8,
+						"exert_seconds": 12.5333333333333,
+						"exhaustion_episodes": 0,
+						"exit_seconds": 175.516666666671,
+						"exit_stamina": 5.75566666665159,
+						"exit_velocity": 0.770303486922816,
+						"id": "proof_gate",
+						"minimum_stamina": 5.75566666665159,
+						"passed": true,
+						"push_seconds": 132.416666666711,
+						"recovered_amount": 167.999999999994,
+						"recovery_events": 172,
+						"released_seconds": 30.5666666666656,
+						"runaways": 0,
+						"seconds_budget": 20.0,
+						"seconds_remaining": 0.0,
+						"seconds_used": 20.0,
+						"slips": 0
+					}
+				},
+				"partial_falls": 0,
+				"peak": 905.004333729429,
+				"runaway_elapsed": 0.0,
+				"slip": 21.5856761904766,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 5.75566666665159,
+				"state": "climbing",
+				"velocity": 0.770303486922816
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "",
+				"cleared_ledges": {
+
+				},
+				"distance": 650.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"gate_ledger": {
+
+				},
+				"partial_falls": 0,
+				"peak": 650.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 114.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"passed": true,
+			"peak_gain": 255.004333729429,
+			"policy": "Synthetic held-cadence threshold fixture witness; release iff S<threshold*capacity and velocity>.9, otherwise push/exert iff velocity<1; not calibrated regular/skilled, no mutation after initial fixture.",
+			"ranks": [
+				7,
+				7,
+				10
+			],
+			"recovery_min_stamina": 1.0,
+			"seconds": 175.516666666671,
+			"stamina_rest_threshold": 0.5
+		},
+		{
+			"cadence_seconds": 0.25,
+			"certificate_status": "not_covered: zero stamina refill permitted",
+			"final_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "proof_gate",
+				"cleared_ledges": {
+
+				},
+				"distance": 804.236776186645,
+				"elapsed": 119.841666666708,
+				"falling_active": true,
+				"gate_ledger": {
+					"proof_gate": {
+						"amount_upper_bound_at_entry": 140.0,
+						"brace_seconds": 0.0,
+						"eligible_last_step": false,
+						"entries": 1,
+						"entry_history": [
+							{
+								"distance_m": 650.0,
+								"remaining_seconds": 20.0,
+								"seconds": 0.00833333333333333,
+								"stamina": 100.0,
+								"velocity": 1.8
+							}
+						],
+						"entry_recovery_multiplier": 1.0,
+						"entry_seconds": 0.00833333333333333,
+						"entry_stamina": 100.0,
+						"entry_velocity": 1.8,
+						"exert_seconds": 34.0916666666654,
+						"exhaustion_episodes": 1,
+						"exit_seconds": null,
+						"exit_stamina": null,
+						"id": "proof_gate",
+						"minimum_stamina": 0.0,
+						"passed": false,
+						"push_seconds": 58.7499999999973,
+						"recovered_amount": 140.000000000007,
+						"recovery_events": 81,
+						"released_seconds": 26.9999999999991,
+						"runaways": 1,
+						"seconds_budget": 20.0,
+						"seconds_remaining": 0.0,
+						"seconds_used": 20.0,
+						"slips": 0
+					}
+				},
+				"partial_falls": 0,
+				"peak": 808.431659093603,
+				"runaway_elapsed": 0.0,
+				"slip": 36.4461714285699,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 0.0,
+				"state": "runaway",
+				"velocity": -4.00689706638051
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "",
+				"cleared_ledges": {
+
+				},
+				"distance": 650.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"gate_ledger": {
+
+				},
+				"partial_falls": 0,
+				"peak": 650.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 100.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"passed": false,
+			"peak_gain": 158.431659093603,
+			"policy": "Synthetic held-cadence threshold fixture witness; release iff S<threshold*capacity and velocity>.9, otherwise push/exert iff velocity<1; not calibrated regular/skilled, no mutation after initial fixture.",
+			"ranks": [
+				0,
+				0,
+				0
+			],
+			"recovery_min_stamina": 0.0,
+			"seconds": 119.841666666708,
+			"stamina_rest_threshold": 0.5
+		},
+		{
+			"cadence_seconds": 0.25,
+			"certificate_status": "not_covered: zero stamina refill permitted",
+			"final_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "proof_gate",
+				"cleared_ledges": {
+
+				},
+				"distance": 905.004019750206,
+				"elapsed": 173.766666666673,
+				"falling_active": false,
+				"gate_ledger": {
+					"proof_gate": {
+						"amount_upper_bound_at_entry": 168.0,
+						"brace_seconds": 0.0,
+						"eligible_last_step": false,
+						"entries": 1,
+						"entry_history": [
+							{
+								"distance_m": 650.0,
+								"remaining_seconds": 20.0,
+								"seconds": 0.00833333333333333,
+								"stamina": 114.0,
+								"velocity": 1.8
+							}
+						],
+						"entry_recovery_multiplier": 1.2,
+						"entry_seconds": 0.00833333333333333,
+						"entry_stamina": 114.0,
+						"entry_velocity": 1.8,
+						"exert_seconds": 10.5166666666667,
+						"exhaustion_episodes": 0,
+						"exit_seconds": 173.766666666673,
+						"exit_stamina": 13.3461666666529,
+						"exit_velocity": 0.601152113152207,
+						"id": "proof_gate",
+						"minimum_stamina": 13.3461666666529,
+						"passed": true,
+						"push_seconds": 133.750000000043,
+						"recovered_amount": 167.999999999994,
+						"recovery_events": 81,
+						"released_seconds": 29.499999999999,
+						"runaways": 0,
+						"seconds_budget": 20.0,
+						"seconds_remaining": 0.0,
+						"seconds_used": 20.0,
+						"slips": 0
+					}
+				},
+				"partial_falls": 0,
+				"peak": 905.004019750206,
+				"runaway_elapsed": 0.0,
+				"slip": 16.8999428571433,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 13.3461666666529,
+				"state": "climbing",
+				"velocity": 0.601152113152207
+			},
+			"initial_state": {
+				"accumulator": 0.0,
+				"active_gate_id": "",
+				"cleared_ledges": {
+
+				},
+				"distance": 650.0,
+				"elapsed": 0.0,
+				"falling_active": false,
+				"gate_ledger": {
+
+				},
+				"partial_falls": 0,
+				"peak": 650.0,
+				"runaway_elapsed": 0.0,
+				"slip": 0.0,
+				"slip_remaining": 0.0,
+				"slips": 0,
+				"stamina": 114.0,
+				"state": "climbing",
+				"velocity": 1.8
+			},
+			"passed": true,
+			"peak_gain": 255.004019750206,
+			"policy": "Synthetic held-cadence threshold fixture witness; release iff S<threshold*capacity and velocity>.9, otherwise push/exert iff velocity<1; not calibrated regular/skilled, no mutation after initial fixture.",
+			"ranks": [
+				7,
+				7,
+				10
+			],
+			"recovery_min_stamina": 0.0,
+			"seconds": 173.766666666673,
+			"stamina_rest_threshold": 0.5
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"checks": 20,
+	"failures": [],
+	"passed": true,
+	"scope": "Standalone mock preview defaults after adding MVP-specific hooks; no game save."
+}

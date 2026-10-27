@@ -1,0 +1,87 @@
+{
+  "schema_version": 3,
+  "note": "Synthetic test agents, not calibrated human cohorts. Decisions are held until the next cadence tick; errors use an independent RNG. Only optimized sees exact force/ledge thresholds and acts at 120 Hz.",
+  "policies": {
+    "novice": {
+      "decision_seconds": 0.55,
+      "error_probability": 0.09,
+      "brace_velocity": -1.7,
+      "exert_stamina_fraction": 0.08,
+      "slip_limit": 96,
+      "shelter_recover_to": 0.65,
+      "shelter_enter_below": 0.55,
+      "target_speed": 1.65,
+      "ledge_lookahead_m": 0.0,
+      "unrealistic": false
+    },
+    "regular": {
+      "decision_seconds": 0.25,
+      "error_probability": 0.025,
+      "brace_velocity": -0.6,
+      "exert_stamina_fraction": 0.4,
+      "slip_limit": 65,
+      "shelter_recover_to": 0.96,
+      "shelter_enter_below": 0.93,
+      "target_speed": 0.85,
+      "ledge_lookahead_m": 1.0,
+      "unrealistic": false
+    },
+    "skilled": {
+      "decision_seconds": 0.12,
+      "error_probability": 0.008,
+      "brace_velocity": -0.12,
+      "exert_stamina_fraction": 0.22,
+      "slip_limit": 48,
+      "shelter_recover_to": 0.99,
+      "shelter_enter_below": 0.96,
+      "target_speed": 0.95,
+      "ledge_lookahead_m": 1.2,
+      "unrealistic": false
+    },
+    "optimized": {
+      "decision_seconds": 0.008333333333333333,
+      "error_probability": 0,
+      "brace_velocity": -0.01,
+      "exert_stamina_fraction": 0.05,
+      "slip_limit": 85,
+      "shelter_recover_to": 0.999,
+      "shelter_enter_below": 0.98,
+      "target_speed": 1.15,
+      "ledge_lookahead_m": 0.12,
+      "unrealistic": true
+    },
+    "regular_recovery": {
+      "decision_seconds": 0.25,
+      "error_probability": 0.025,
+      "brace_velocity": -0.6,
+      "exert_stamina_fraction": 0.4,
+      "slip_limit": 65,
+      "shelter_recover_to": 0.96,
+      "shelter_enter_below": 0.93,
+      "target_speed": 0.85,
+      "ledge_lookahead_m": 1.0,
+      "unrealistic": false,
+      "recovery_stamina_threshold": 0.5,
+      "recovery_release_velocity": 0.9,
+      "recovery_exert_velocity": 1.0,
+      "recovery_retry_seconds": 2.0
+    },
+    "skilled_recovery": {
+      "decision_seconds": 0.12,
+      "error_probability": 0.008,
+      "brace_velocity": -0.12,
+      "exert_stamina_fraction": 0.22,
+      "slip_limit": 48,
+      "shelter_recover_to": 0.99,
+      "shelter_enter_below": 0.96,
+      "target_speed": 0.95,
+      "ledge_lookahead_m": 1.2,
+      "unrealistic": false,
+      "recovery_stamina_threshold": 0.5,
+      "recovery_release_velocity": 0.9,
+      "recovery_exert_velocity": 1.0,
+      "recovery_retry_seconds": 2.0
+    }
+  },
+  "recovery_policy_note": "Separate test policies: existing cadence/error rates, only current stamina fraction, velocity, shelf and past rest state; no gate/quota/force/future access."
+}

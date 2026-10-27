@@ -1,0 +1,21 @@
+{
+  "rows": [
+    {
+      "status": "summit",
+      "source": "tests\\balance\\results\\act1-adjustment-v03\\ablations\\results.jsonl",
+      "source_sha256": "8519a925d3214f335bd42839968199fcef6136544fbb4378e5b4702847c179e1",
+      "original_reference": "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\balance\\results\\act1-adjustment-v03\\ablations/input-traces/ablation_S190_regular_recovery_none-seed101-run1-12f03a0953a7.bin.gz",
+      "relocated_reference": "Z:\\nonexistent_old_checkout\\tests\\balance\\results\\act1-adjustment-v03\\ablations\\input-traces\\ablation_S190_regular_recovery_none-seed101-run1-12f03a0953a7.bin.gz",
+      "input_sha256": "19fbb8e620fef9f38f9df18d781577e18b94d76b6fcd7682a0431d5bbd8ab689"
+    },
+    {
+      "status": "fall",
+      "source": "tests\\balance\\results\\act1-adjustment-v03\\ablations\\results.jsonl",
+      "source_sha256": "8519a925d3214f335bd42839968199fcef6136544fbb4378e5b4702847c179e1",
+      "original_reference": "C:\\Users\\PMS\\Documents\\ChatGPT\\\uc2dc\uc9c0\ud504\\tests\\balance\\results\\act1-adjustment-v03\\ablations/input-traces/ablation_S190_regular_recovery_strength-seed101-run1-12f03a0953a7.bin.gz",
+      "relocated_reference": "Z:\\nonexistent_old_checkout\\tests\\balance\\results\\act1-adjustment-v03\\ablations\\input-traces\\ablation_S190_regular_recovery_strength-seed101-run1-12f03a0953a7.bin.gz",
+      "input_sha256": "64b9520f57ae9939d999d429b6b11a4ed49d02443fd8d04dcc073bbd510ee6a6"
+    }
+  ],
+  "original_records_modified": false
+}

@@ -1,0 +1,118 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS: v3 an unattended stationary stone remains still on flat ground
+PASS: v3 steeper ground rolls an unattended stone farther and faster downhill
+PASS: v3 downhill movement continues accelerating under gravity
+PASS: v3 releasing push first slows uphill momentum without snapping direction
+PASS: v3 pressing Shift push during rollback cannot instantly reverse the stone
+PASS: v3 Space brakes a rolling stone more effectively than forcing it uphill
+PASS: v3 established rollback visibly weakens transmitted pushing force
+PASS: v3 gravity remains active and unchanged under rest, push and brace
+PASS: v3 new Slip immediately loses uphill momentum and cancels thrust
+PASS: v3 Slip applies a meaningful one-time stamina loss and retains the 0.7s lock
+PASS: v3 held input does not repeat the Slip impulse or stamina penalty
+PASS: v3 Slip blocks held push through its full remaining lock without retriggering
+PASS: v3 held input resumes normally only after Slip expiry
+PASS: v3 Space retains priority and actively brakes during Slip
+PASS: v3 Slip cost can exhaust a low-stamina climber without going negative
+PASS: v3 exhaustion still denies free braking or thrust during Slip
+PASS: v3 a Slip impulse near the limit does not immediately manufacture runaway
+PASS: v3 the capped Slip impulse cannot improve an already faster rollback
+PASS: v3 ordinary gravity can still cross the runaway boundary
+PASS: v3 Space cannot rescue already runaway speed -4.0
+PASS: v3 Space cannot rescue already runaway speed -4.1
+PASS: v3 saving just after Slip cannot duplicate its penalty on restored fractional steps
+PASS: v3 30 and144 FPS agree through Slip impulse, lock, Space and resumed pushing
+PASS: v4 an unattended stationary stone remains still on flat ground
+PASS: v4 steeper ground rolls an unattended stone farther and faster downhill
+PASS: v4 downhill movement continues accelerating under gravity
+PASS: v4 releasing push first slows uphill momentum without snapping direction
+PASS: v4 pressing Shift push during rollback cannot instantly reverse the stone
+PASS: v4 Space brakes a rolling stone more effectively than forcing it uphill
+PASS: v4 established rollback visibly weakens transmitted pushing force
+PASS: v4 gravity remains active and unchanged under rest, push and brace
+PASS: v4 new Slip immediately loses uphill momentum and cancels thrust
+PASS: v4 Slip applies a meaningful one-time stamina loss and retains the 0.7s lock
+PASS: v4 held input does not repeat the Slip impulse or stamina penalty
+PASS: v4 Slip blocks held push through its full remaining lock without retriggering
+PASS: v4 held input resumes normally only after Slip expiry
+PASS: v4 Space retains priority and actively brakes during Slip
+PASS: v4 Slip cost can exhaust a low-stamina climber without going negative
+PASS: v4 exhaustion still denies free braking or thrust during Slip
+PASS: v4 a Slip impulse near the limit does not immediately manufacture runaway
+PASS: v4 the capped Slip impulse cannot improve an already faster rollback
+PASS: v4 ordinary gravity can still cross the runaway boundary
+PASS: v4 Space cannot rescue already runaway speed -4.0
+PASS: v4 Space cannot rescue already runaway speed -4.1
+PASS: v4 saving just after Slip cannot duplicate its penalty on restored fractional steps
+PASS: v4 30 and144 FPS agree through Slip impulse, lock, Space and resumed pushing
+PASS: v5 an unattended stationary stone remains still on flat ground
+PASS: v5 steeper ground rolls an unattended stone farther and faster downhill
+PASS: v5 downhill movement continues accelerating under gravity
+PASS: v5 releasing push first slows uphill momentum without snapping direction
+PASS: v5 pressing Shift push during rollback cannot instantly reverse the stone
+PASS: v5 Space brakes a rolling stone more effectively than forcing it uphill
+PASS: v5 established rollback visibly weakens transmitted pushing force
+PASS: v5 gravity remains active and unchanged under rest, push and brace
+PASS: v5 new Slip immediately loses uphill momentum and cancels thrust
+PASS: v5 Slip applies a meaningful one-time stamina loss and retains the 0.7s lock
+PASS: v5 held input does not repeat the Slip impulse or stamina penalty
+PASS: v5 Slip blocks held push through its full remaining lock without retriggering
+PASS: v5 held input resumes normally only after Slip expiry
+PASS: v5 Space retains priority and actively brakes during Slip
+PASS: v5 Slip cost can exhaust a low-stamina climber without going negative
+PASS: v5 exhaustion still denies free braking or thrust during Slip
+PASS: v5 a Slip impulse near the limit does not immediately manufacture runaway
+PASS: v5 the capped Slip impulse cannot improve an already faster rollback
+PASS: v5 ordinary gravity can still cross the runaway boundary
+PASS: v5 Space cannot rescue already runaway speed -4.0
+PASS: v5 Space cannot rescue already runaway speed -4.1
+PASS: v5 saving just after Slip cannot duplicate its penalty on restored fractional steps
+PASS: v5 30 and144 FPS agree through Slip impulse, lock, Space and resumed pushing
+PASS: v6 an unattended stationary stone remains still on flat ground
+PASS: v6 steeper ground rolls an unattended stone farther and faster downhill
+PASS: v6 downhill movement continues accelerating under gravity
+PASS: v6 releasing push first slows uphill momentum without snapping direction
+PASS: v6 pressing Shift push during rollback cannot instantly reverse the stone
+PASS: v6 Space brakes a rolling stone more effectively than forcing it uphill
+PASS: v6 established rollback visibly weakens transmitted pushing force
+PASS: v6 gravity remains active and unchanged under rest, push and brace
+PASS: v6 new Slip immediately loses uphill momentum and cancels thrust
+PASS: v6 Slip applies a meaningful one-time stamina loss and retains the 0.7s lock
+PASS: v6 held input does not repeat the Slip impulse or stamina penalty
+PASS: v6 Slip blocks held push through its full remaining lock without retriggering
+PASS: v6 held input resumes normally only after Slip expiry
+PASS: v6 Space retains priority and actively brakes during Slip
+PASS: v6 Slip cost can exhaust a low-stamina climber without going negative
+PASS: v6 exhaustion still denies free braking or thrust during Slip
+PASS: v6 a Slip impulse near the limit does not immediately manufacture runaway
+PASS: v6 the capped Slip impulse cannot improve an already faster rollback
+PASS: v6 ordinary gravity can still cross the runaway boundary
+PASS: v6 Space cannot rescue already runaway speed -4.0
+PASS: v6 Space cannot rescue already runaway speed -4.1
+PASS: v6 saving just after Slip cannot duplicate its penalty on restored fractional steps
+PASS: v6 30 and144 FPS agree through Slip impulse, lock, Space and resumed pushing
+PASS: 48 generation6 seeds gain more summit elevation than the same generation5 seed
+PASS: generation6 is deterministic and keeps prior authored chunk order, materials and weather
+PASS: generation6 preserves1000m route,42m climbs,8m shelves and10 spaced supports
+PASS: generation6 dry and rainy slopes respect material-specific recoverable ceilings
+PASS: generation6 rendered slopes agree with physical inclines
+PASS: generation1 world snapshots retain their own geometry on reload
+PASS: generation2 world snapshots retain their own geometry on reload
+PASS: generation3 world snapshots retain their own geometry on reload
+PASS: generation4 world snapshots retain their own geometry on reload
+PASS: generation5 world snapshots retain their own geometry on reload
+PASS: generation6 world snapshots retain their own geometry on reload
+PASS: explicitclear weather is selected for all16 seeds
+PASS: explicitclear weather reproduces identical geometry for the same seed
+PASS: explicitclear weather does not reroll authored chunk order or material
+PASS: explicitclear weather constrains wet-stone and rainy exposed-rock slopes before construction
+PASS: forcing already selectedclear weather preserves the entire natural world
+PASS: switching toclear adjusts geometry where weather-specific caps differ
+PASS: explicitrain weather is selected for all16 seeds
+PASS: explicitrain weather reproduces identical geometry for the same seed
+PASS: explicitrain weather does not reroll authored chunk order or material
+PASS: explicitrain weather constrains wet-stone and rainy exposed-rock slopes before construction
+PASS: forcing already selectedrain weather preserves the entire natural world
+PASS: switching torain adjusts geometry where weather-specific caps differ
+PHYSICS BALANCE: 115 checks, 0 failures

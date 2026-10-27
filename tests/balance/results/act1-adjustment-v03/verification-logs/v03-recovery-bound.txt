@@ -1,0 +1,39 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PROBE [0, 0, 0] cadence0.25 threshold0.5 passedfalse peak119.877692922158
+PROBE [0, 0, 0] cadence0.25 threshold0.65 passedfalse peak110.640174588167
+PROBE [0, 0, 0] cadence0.25 threshold0.8 passedfalse peak102.894204775017
+PROBE [0, 0, 0] cadence0.12 threshold0.5 passedfalse peak128.848917283577
+PROBE [0, 0, 0] cadence0.12 threshold0.65 passedfalse peak126.544907293037
+PROBE [0, 0, 0] cadence0.12 threshold0.8 passedfalse peak116.923116523583
+PROBE [8, 8, 8] cadence0.25 threshold0.5 passedfalse peak182.527001170973
+PROBE [8, 8, 8] cadence0.25 threshold0.65 passedfalse peak176.763891407894
+PROBE [8, 8, 8] cadence0.25 threshold0.8 passedfalse peak167.134536120183
+PROBE [8, 8, 8] cadence0.12 threshold0.5 passedfalse peak184.957890782912
+PROBE [8, 8, 8] cadence0.12 threshold0.65 passedfalse peak178.324208951759
+PROBE [8, 8, 8] cadence0.12 threshold0.8 passedfalse peak169.155749088114
+PROBE [10, 8, 0] cadence0.25 threshold0.5 passedfalse peak175.602061839144
+PROBE [10, 8, 0] cadence0.25 threshold0.65 passedfalse peak167.154881439958
+PROBE [10, 8, 0] cadence0.25 threshold0.8 passedfalse peak159.344335668318
+PROBE [10, 8, 0] cadence0.12 threshold0.5 passedfalse peak174.139246129849
+PROBE [10, 8, 0] cadence0.12 threshold0.65 passedfalse peak168.426110365391
+PROBE [10, 8, 0] cadence0.12 threshold0.8 passedfalse peak159.816377844307
+PROBE [8, 10, 0] cadence0.25 threshold0.5 passedfalse peak171.632555577761
+PROBE [8, 10, 0] cadence0.25 threshold0.65 passedfalse peak163.793428870061
+PROBE [8, 10, 0] cadence0.25 threshold0.8 passedfalse peak154.272686432353
+PROBE [8, 10, 0] cadence0.12 threshold0.5 passedfalse peak171.525282018604
+PROBE [8, 10, 0] cadence0.12 threshold0.65 passedfalse peak165.116035547863
+PROBE [8, 10, 0] cadence0.12 threshold0.8 passedfalse peak153.647687127415
+PROBE [7, 7, 10] cadence0.25 threshold0.5 passedfalse peak182.913821202364
+PROBE [7, 7, 10] cadence0.25 threshold0.65 passedfalse peak175.000415507094
+PROBE [7, 7, 10] cadence0.25 threshold0.8 passedfalse peak166.643518819733
+PROBE [7, 7, 10] cadence0.12 threshold0.5 passedfalse peak182.546613693283
+PROBE [7, 7, 10] cadence0.12 threshold0.65 passedfalse peak176.067949806264
+PROBE [7, 7, 10] cadence0.12 threshold0.8 passedfalse peak166.828310933873
+PROBE [10, 10, 10] cadence0.25 threshold0.5 passedtrue peak190.002581983389
+PROBE [10, 10, 10] cadence0.25 threshold0.65 passedfalse peak187.154901079309
+PROBE [10, 10, 10] cadence0.25 threshold0.8 passedfalse peak178.186422609813
+PROBE [10, 10, 10] cadence0.12 threshold0.5 passedtrue peak190.00187550311
+PROBE [10, 10, 10] cadence0.12 threshold0.65 passedtrue peak190.00604207572
+PROBE [10, 10, 10] cadence0.12 threshold0.8 passedfalse peak184.22873939742
+V03 BOUND GRID 5376 checks, 0 failures

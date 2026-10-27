@@ -1,0 +1,39 @@
+{
+  "policy_variant_sources_sha256": {
+    "tests/mvp/difficulty_aware_v3_experiment.gd": "d9c34c6d4f0de7b9c08798d0cf92f4632ad31cc473965cc8e59c1e0cfdc6bbc7",
+    "tests/mvp/difficulty_aware_coast_experiment.gd": "f2b74509f093eea984a182e17b8f7411574ecaeeb8acad057c42e427caa3f484",
+    "tests/mvp/difficulty_aware_v3_policies.json": "42d5cf498731f7276fc1e6e158ea8a71ccbcbe911689a0ff1f84111baede0da4"
+  },
+  "jobs": [
+    {
+      "id": "aware-v3-normal3-all30-regular_aware_coast",
+      "candidate": "aware-v3-normal3",
+      "build": "all30",
+      "policy": "regular_aware_coast",
+      "seeds": [
+        101
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 3,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-active-normal3"
+      }
+    },
+    {
+      "id": "aware-v3-normal3-all30-skilled_aware_coast",
+      "candidate": "aware-v3-normal3",
+      "build": "all30",
+      "policy": "skilled_aware_coast",
+      "seeds": [
+        101
+      ],
+      "max_seconds": 1800,
+      "overrides": {
+        "normal_drain_scale": 3,
+        "normal_push_decay_scale": 0,
+        "profile_id": "mvp-active-normal3"
+      }
+    }
+  ]
+}

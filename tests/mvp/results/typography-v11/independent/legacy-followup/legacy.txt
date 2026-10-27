@@ -1,0 +1,3 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+{"checks":121,"failures":[],"scope":"headless font metrics and center helper; visual pixel comparison and Web are separate","suite":"legacy_typography"}

@@ -1,0 +1,21 @@
+{
+	"checks": 930,
+	"counts": {
+		"breath": 10,
+		"endurance": 10,
+		"special": 5,
+		"strength": 10
+	},
+	"display": "headless",
+	"engine": "4.5.1-stable (official)",
+	"failures": [],
+	"inscriptions": {
+		"breath": "ΤΑΧΕΙΑΠΝΟΗ",
+		"endurance": "ΜΕΓΑΛΗΡΩΜΗ",
+		"strength": "ΒΙΑΚΑΙΩΣΙΣ"
+	},
+	"nodes": 35,
+	"passed": true,
+	"scope": "Godot CSV loader, imported PNGs, 90 normal node-state mappings and 12 preserved act-track cores",
+	"suite": "data_validation"
+}

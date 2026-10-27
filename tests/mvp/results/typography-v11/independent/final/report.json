@@ -1,0 +1,140 @@
+{
+  "source_before": {
+    "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+    "scripts/mvp/design_canvas.gd": "faaad1c59c6a5a43d7661794844ee39ff048c1a9b59754353ce630daa28d6ec7",
+    "scripts/mvp/main_menu.gd": "be72cb13f4afc4f20e8a34c06bc360753964548b6cb373478a398d8c1567fdaa",
+    "scripts/mvp/mastery_board.gd": "a8c72a6611d6d8919e2bacbd8a324221d7bd44324bc453ef5d6236aa0cd97f63",
+    "scripts/mvp/mastery_main.gd": "0ce796a9635e96363dd60c29ca564a7f4496e165de444cd9c82270559c190139",
+    "scripts/mvp/mastery_node.gd": "6f4458a5f076c11332057e61c97d61be56d70614224027e696897751754654ad",
+    "scripts/mvp/save_contract.gd": "c87015799e0b092506af0e5493c0d00437ea5c50cd8ab39af387e7c49f2e4e8a",
+    "scripts/mvp/typography.gd": "260142f1bdb3d35aaf6526dbc082bc79089f179eb2323b2ee061282de31ff702",
+    "scripts/mvp/ui_theme.gd": "9667ba2145322b0e82f637333fd84442dc69cd26021ff5f68aad68daabf42c63",
+    "ui/themes/sisyphus_theme.tres": "4ce784caf783fc98f7a933520c3aa2f707b688754776ad39311032a2e89069fa",
+    "ui/themes/typography/body.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "ui/themes/typography/greek.tres": "aa9e3aae05ae2cbc884a05f7a26890e814ea220030811b5b27614d13989fcebb",
+    "ui/themes/typography/hud.tres": "3b4a52e430f3135e4b35e941cd7fa2ddada190c15589ced2765f8d70ee6a155b",
+    "ui/themes/typography/menu.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/narrative.tres": "b1e6520ba4acf35d5143b5ce1df56382fa4f4d26892d4b859fcea0ad45f09d85",
+    "ui/themes/typography/node.tres": "7e2c5a10fc7ae96fb04cb35766f140a88690b84f28077a6557aa81e738801cf5",
+    "ui/themes/typography/section.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/title.tres": "76f5044dc027eb692c073deae0b14b3285a8481be8d97a573397a4c2786912ab",
+    "ui/themes/typography/tooltip.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "project.godot": "be4edb70e182475965a038872d1ab00280b539b33a44a8030d43d008b8a507d4",
+    "tests/mvp/test_typography_fonts.gd": "ef9d59b2f3d274bab64f48e662fe790ad790fa5310a6ffc968744b9e11ee1668",
+    "tests/mvp/test_typography_layout.gd": "5787780f780d2f16b4a7ae4406d5587199d2bd85092e529508f88b47c9e91b9c"
+  },
+  "suites": [
+    {
+      "name": "typography_fonts",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_typography_fonts.gd"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 937,
+        "failures": [],
+        "scope": "font coverage and theme configuration; visual shaping and platform rendering require screenshots",
+        "suite": "typography_fonts"
+      },
+      "log_sha256": "86d5cfb60a651e50ddbda5489a9581170d0ae3826c141ffb08405ae81a80997a",
+      "unexpected_errors": false
+    },
+    {
+      "name": "typography_layout",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_typography_layout.gd"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 970,
+        "failures": [],
+        "resolutions": [
+          "1920x1080",
+          "1600x900",
+          "1280x720"
+        ],
+        "scope": "1920 design canvas uniformly scaled; bindings and font metrics, not screenshots or OS-specific rendering",
+        "suite": "typography_layout"
+      },
+      "log_sha256": "4ae08f273a52a2987cd4fdb02025ad91e6e866ecd91fb34d313104f2c1d1438e",
+      "unexpected_errors": false
+    },
+    {
+      "name": "mvp_ui",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_mvp_ui.gd"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 265,
+        "failures": 0
+      },
+      "log_sha256": "a0161a438e2866b1d02fb21abc60726b970091957fc9c0426df250b6a849e9c6",
+      "unexpected_errors": false
+    },
+    {
+      "name": "mvp_integration",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/mvp/test_mvp_integration.gd",
+        "--",
+        "--save-path=user://mvp-integration-typography-final2-702e1fd43f22498bba167f2bedf331e8.json"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "checks": 243,
+        "failures": [],
+        "manual_arrival_fixtures": true,
+        "save_path": "user://mvp-integration-typography-final2-702e1fd43f22498bba167f2bedf331e8.json",
+        "suite": "mvp_integration"
+      },
+      "log_sha256": "85c41bae2453ebeabf5e9ecdc30e6a40b5634f061b35599f57c85a8cfb1b3ed1",
+      "unexpected_errors": false
+    }
+  ],
+  "previous_ui_bytes_preserved": true,
+  "source_after": {
+    "scripts/mvp/climb_boulder.gd": "d38a69dcfc8a69f56d0f14d65681d82675e4da38466303af08e3f5ea5c7da30f",
+    "scripts/mvp/design_canvas.gd": "faaad1c59c6a5a43d7661794844ee39ff048c1a9b59754353ce630daa28d6ec7",
+    "scripts/mvp/main_menu.gd": "be72cb13f4afc4f20e8a34c06bc360753964548b6cb373478a398d8c1567fdaa",
+    "scripts/mvp/mastery_board.gd": "a8c72a6611d6d8919e2bacbd8a324221d7bd44324bc453ef5d6236aa0cd97f63",
+    "scripts/mvp/mastery_main.gd": "0ce796a9635e96363dd60c29ca564a7f4496e165de444cd9c82270559c190139",
+    "scripts/mvp/mastery_node.gd": "6f4458a5f076c11332057e61c97d61be56d70614224027e696897751754654ad",
+    "scripts/mvp/save_contract.gd": "c87015799e0b092506af0e5493c0d00437ea5c50cd8ab39af387e7c49f2e4e8a",
+    "scripts/mvp/typography.gd": "260142f1bdb3d35aaf6526dbc082bc79089f179eb2323b2ee061282de31ff702",
+    "scripts/mvp/ui_theme.gd": "9667ba2145322b0e82f637333fd84442dc69cd26021ff5f68aad68daabf42c63",
+    "ui/themes/sisyphus_theme.tres": "4ce784caf783fc98f7a933520c3aa2f707b688754776ad39311032a2e89069fa",
+    "ui/themes/typography/body.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "ui/themes/typography/greek.tres": "aa9e3aae05ae2cbc884a05f7a26890e814ea220030811b5b27614d13989fcebb",
+    "ui/themes/typography/hud.tres": "3b4a52e430f3135e4b35e941cd7fa2ddada190c15589ced2765f8d70ee6a155b",
+    "ui/themes/typography/menu.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/narrative.tres": "b1e6520ba4acf35d5143b5ce1df56382fa4f4d26892d4b859fcea0ad45f09d85",
+    "ui/themes/typography/node.tres": "7e2c5a10fc7ae96fb04cb35766f140a88690b84f28077a6557aa81e738801cf5",
+    "ui/themes/typography/section.tres": "146dc18f2c2e9bdd42b8263cc6716159b6f939ec9594c0b34f4403219dbaa0fc",
+    "ui/themes/typography/title.tres": "76f5044dc027eb692c073deae0b14b3285a8481be8d97a573397a4c2786912ab",
+    "ui/themes/typography/tooltip.tres": "c82021146316588c21eb6e3df5cfaa91de8c5f7fdecf492e130b735c59148b3f",
+    "project.godot": "be4edb70e182475965a038872d1ab00280b539b33a44a8030d43d008b8a507d4",
+    "tests/mvp/test_typography_fonts.gd": "ef9d59b2f3d274bab64f48e662fe790ad790fa5310a6ffc968744b9e11ee1668",
+    "tests/mvp/test_typography_layout.gd": "5787780f780d2f16b4a7ae4406d5587199d2bd85092e529508f88b47c9e91b9c"
+  },
+  "changed_sources": []
+}

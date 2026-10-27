@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-27T04:18:41.863792+00:00",
+  "branch": "codex/web-play",
+  "staged_v03_blob_byte_checks": 1969,
+  "staged_blob_mismatches": [],
+  "git_diff_cached_check_exit": 0,
+  "protected_files": 264,
+  "protected_mismatches": [],
+  "scope": [
+    "tests/balance/.gitattributes",
+    "tests/balance/adjustment_v03/",
+    "tests/balance/results/act1-adjustment-v03/"
+  ],
+  "excluded_user_paths": [
+    "UI design/",
+    "assets/MainMenu/",
+    "assets/ui/sephirot/"
+  ],
+  "main_push_forbidden": true,
+  "final_report_sha256": "c599fd1a0e3249541ceaab4431d2d8d750ad281d29b0320bf0e81055a6ace943",
+  "note": "Precommit index audit; this audit file is added after the stated blob count. No force push or main update authorized."
+}

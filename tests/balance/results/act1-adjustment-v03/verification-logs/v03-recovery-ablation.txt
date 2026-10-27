@@ -1,0 +1,10 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+ABLATION recovery0 cadence0.25 passfalse peak215.392746341426
+ABLATION recovery0 cadence0.12 passfalse peak225.001593800202
+ABLATION recovery7 cadence0.25 passfalse peak248.851033563335
+ABLATION recovery7 cadence0.12 passfalse peak246.956379004657
+ABLATION recovery10 cadence0.25 passtrue peak255.004019750206
+ABLATION recovery10 cadence0.12 passtrue peak255.004333729429
+MIN0 [0, 0, 0] passfalse peak158.431659093603
+MIN0 [7, 7, 10] passtrue peak255.004019750206

@@ -1,0 +1,24 @@
+{
+  "url": "http://127.0.0.1:8773/index.html",
+  "started": "2026-10-27T10:48:47.096Z",
+  "finished": "2026-10-27T10:52:16.834Z",
+  "browser": "Codex in-app browser",
+  "viewport_capture": [
+    1265,
+    712
+  ],
+  "checks": [
+    "final export startup",
+    "main menu -> 35-node tablet",
+    "0m read-only state, actual MVP definitions and EXP",
+    "Tab/Return selects STR02",
+    "Escape returns to menu, continue remains disabled",
+    "reopen tablet"
+  ],
+  "console_errors_or_warnings": [],
+  "passed": true,
+  "limits": [
+    "Browser purchase and in-climb Tab not tested in this smoke; covered by native actual host tests",
+    "No Linux or other browsers tested"
+  ]
+}

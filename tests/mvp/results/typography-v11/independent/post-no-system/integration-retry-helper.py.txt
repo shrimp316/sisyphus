@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,subprocess,uuid,hashlib
+r=Path.cwd();o=r/'tests/mvp/results/typography-v11/independent/post-no-system';p=o/'report.json';before=p.read_bytes();(o/'initial-report.json').write_bytes(before);data=json.loads(before)
+cmd=[str(r/'.tools/godot/Godot_v4.5.1-stable_win64_console.exe'),'--headless','--path',str(r),'--script','tests/mvp/test_mvp_integration.gd','--','--save-path=user://mvp-integration-typography-no-system-'+uuid.uuid4().hex+'.json']
+x=subprocess.run(cmd,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=300);(o/'integration-retry.txt').write_bytes(x.stdout);s=x.stdout.decode('utf-8','replace');summary=[json.loads(l) for l in s.splitlines() if l.startswith('{')]
+data['integration_invocation_rejection']=data['suites'].pop();data['integration_invocation_rejection']['reason']='Verifier used an isolated but non-approved filename prefix; harness rejected before running. Preserved initial report and log; corrected to required mvp-integration- prefix.'
+data['suites'].append({'name':'integration','command':cmd,'exit_code':x.returncode,'summary':summary,'unexpected_errors':[l for l in s.splitlines() if l.startswith(('ERROR:','SCRIPT ERROR:','FAIL:'))],'log_sha256':hashlib.sha256(x.stdout).hexdigest()})
+data['source_after']={p:hashlib.sha256((r/p).read_bytes()).hexdigest() for p in data['source_before']};data['changed_sources']=[p for p,h in data['source_before'].items() if data['source_after'][p]!=h]
+p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps(data['suites'][-1],ensure_ascii=False))

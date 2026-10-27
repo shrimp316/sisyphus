@@ -1,0 +1,42 @@
+{
+  "tested_staged_tree": "7798aa48250aa7bedd4848f16b81153fa428baf2",
+  "method": "git archive of staged tree into isolated directory; only existing Godot engine/export templates supplied externally",
+  "checks": {
+    "live_headless": 912,
+    "preview_smoke": 20
+  },
+  "passed": true,
+  "final_import_exit": 0,
+  "mvp_web_exit": 0,
+  "production_web_exit": 0,
+  "final_error_count": 0,
+  "notes": [
+    "First fresh import logs missing generated font caches before importing them; exit0; second import error-free",
+    "Initial production export used an incorrect relative output destination and exited1; absolute destination rerun exit0",
+    "Only reports changed after tested staged tree",
+    "Full earlier verification includes 3264 Godot checks plus149 asset checks"
+  ],
+  "log_hashes": {
+    "mastery-patch-clean-import.txt": {
+      "sha256": "a69c58221d8614f293b0d5f72618e83815da1bc3ec615af7fbd763d67e15a50a"
+    },
+    "mastery-patch-clean-import-final.txt": {
+      "sha256": "580afad11f3555f4450f3c50dfcf71f48c829cc6aee4981e733ef8b13b3c1844"
+    },
+    "mastery-clean-live_headless.txt": {
+      "sha256": "38a39b16930164f15c4147434383d7a5bde24a3e76b6a2d5278010e8a8a53dfa"
+    },
+    "mastery-clean-preview_smoke.txt": {
+      "sha256": "95574ae851859e5bf306361fa7b3b596a2975f535ac86a17a4c41a55b2c7267c"
+    },
+    "mastery-clean-mvp_web.txt": {
+      "sha256": "e8a3626c64f7012a4169b3b460ae0ccd13a05ab4bd3b82723119f1c89c15fd20"
+    },
+    "mastery-clean-production-web.txt": {
+      "sha256": "7126b7bd2debdc1cee51ff0c499b78dc102b2c88f106fde49bb0227e91a13e0d"
+    },
+    "mastery-clean-production-web-final.txt": {
+      "sha256": "3656744fb2fb6f97a55d4f935ceef25c853f224dd7a806812eed0e8973bebda0"
+    }
+  }
+}

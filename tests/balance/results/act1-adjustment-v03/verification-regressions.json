@@ -1,0 +1,143 @@
+{
+  "engine": "Godot4.5.1",
+  "total_checks": 400,
+  "all_passed": true,
+  "suites": [
+    {
+      "name": "physics",
+      "checks": 115,
+      "passed": true,
+      "exit_code": 0,
+      "script": "tests/physics_balance_verification.gd",
+      "script_sha256": "e7d40b723ee170b8c55ac441fb6b4e39f22cbc03dc49db4a154a3272cb629812",
+      "source_unchanged": true,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/physics_balance_verification.gd"
+      ],
+      "raw_log": "verification-logs/physics.txt",
+      "raw_log_sha256": "e296a20ced3f652d46cd27576494d78f1b6e015a79d22b15a584465f7a71c544"
+    },
+    {
+      "name": "stamina",
+      "checks": 124,
+      "passed": true,
+      "exit_code": 0,
+      "script": "tests/stamina_brace_verification.gd",
+      "script_sha256": "94ce701c037228184e75a8e91ebb61e39ef0f91d1971c8d6d80d2cc15460a56e",
+      "source_unchanged": true,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/stamina_brace_verification.gd"
+      ],
+      "raw_log": "verification-logs/stamina.txt",
+      "raw_log_sha256": "c70dfdea8c80ad20cfe589203828133bdb389771d36f6d98f32b81d50ab9c1e0"
+    },
+    {
+      "name": "progression",
+      "checks": 50,
+      "passed": true,
+      "exit_code": 0,
+      "script": "tests/progression_verification.gd",
+      "script_sha256": "5abc65163223b1cd0d73d8b303ffdd45fcc1534013ddc4ccdc866f3771ededdd",
+      "source_unchanged": true,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/progression_verification.gd"
+      ],
+      "raw_log": "verification-logs/progression.txt",
+      "raw_log_sha256": "3a19c45266a3e226d3ae8571356af493ae81662b22937ab2d8e01d4195408c9a"
+    },
+    {
+      "name": "web",
+      "checks": 24,
+      "passed": true,
+      "exit_code": 0,
+      "script": "tests/web_compatibility_tests.gd",
+      "script_sha256": "b2339eba972a9a05b16845758452c846e9643ed0806609ece1b50b0aa90a374e",
+      "source_unchanged": true,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/web_compatibility_tests.gd"
+      ],
+      "raw_log": "verification-logs/web.txt",
+      "raw_log_sha256": "0259150fb1201da7e03cead5248b6104e25cdd23f8d2173852e3c5a308bea802"
+    },
+    {
+      "name": "v02_quick",
+      "checks": 23,
+      "passed": true,
+      "exit_code": 0,
+      "script": "tests/v02_verification.gd",
+      "script_sha256": "2dbae194db69051930f6e910d37c4b6e4bb1ea01c76101f8d575fd659c23b3ab",
+      "source_unchanged": true,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/v02_verification.gd",
+        "--",
+        "--quick"
+      ],
+      "raw_log": "verification-logs/v02_quick.txt",
+      "raw_log_sha256": "65190622f796403bb64d8fe82dd63a854026a49d9028efcdc93917141823af87"
+    },
+    {
+      "name": "harness",
+      "checks": 43,
+      "passed": true,
+      "exit_code": 0,
+      "script": "tests/balance/verify_harness.gd",
+      "script_sha256": "9af7f50c0be32167108dbc2f2d9fd891c825a9294372dda69d255bf14d9033b6",
+      "source_unchanged": true,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/balance/verify_harness.gd"
+      ],
+      "raw_log": "verification-logs/harness.txt",
+      "raw_log_sha256": "753d58c27465ba3eea5f1963855bb9454f853189ada78fd9214680505981471a"
+    },
+    {
+      "name": "instrumentation",
+      "checks": 21,
+      "passed": true,
+      "exit_code": 0,
+      "script": "tests/balance/adjustment_v02/verify_instrumentation.gd",
+      "script_sha256": "2021b92dc4165898b45a7ab66e075030b246c41863a60ec9f3fdd67532dbaa28",
+      "source_unchanged": true,
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프",
+        "--script",
+        "tests/balance/adjustment_v02/verify_instrumentation.gd"
+      ],
+      "raw_log": "verification-logs/instrumentation.txt",
+      "raw_log_sha256": "48b9c9dbefdc3f27247cce2705f60eba35117f6ac0ce22eea7ba92c88b394f2d"
+    }
+  ],
+  "scope": "Fresh v03-era rerun of 336 existing production regressions +43 existing harness +21 v02 instrumentation checks. V03 runtime514 and proof/fixture diagnostics reported separately. Test save fixtures remain unique .tools/progression-* and .tools/web-compat-* paths; real user saves untouched."
+}

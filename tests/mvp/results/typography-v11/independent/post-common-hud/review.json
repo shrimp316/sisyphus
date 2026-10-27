@@ -1,0 +1,23 @@
+{
+  "verdict": "common HUD code and targeted regression approved; strict OS fallback requirement remains pending import change",
+  "reviewed_sources": {
+    "scripts/main.gd": "d941b85bc9ca1114e4da937d028a3bfebf96d3e856b0e11ad0cfc286575df16b",
+    "scripts/mvp/mastery_main.gd": "6faedf6b9fd71a74c9da8ebbe8858fff7c471f6cb7226c44358ad5fde50f4764",
+    "scripts/mvp/typography.gd": "260142f1bdb3d35aaf6526dbc082bc79089f179eb2323b2ee061282de31ff702",
+    "tests/web_compatibility_tests.gd": "551cb09c4b714044e4c0d0c435972453eb413b53b32ca16eb1fd96970f2de967",
+    "tests/mvp/test_typography_fonts.gd": "ef9d59b2f3d274bab64f48e662fe790ad790fa5310a6ffc968744b9e11ee1668"
+  },
+  "checks": {
+    "web_compatibility": 24,
+    "typography_fonts": 937
+  },
+  "unexpected_failures": 0,
+  "notes": [
+    "Legacy main and MVP inherit the same bundled HUD loader; no desktop SystemFont branch remains.",
+    "Changed web assertion matches the intentional new resource selection; other storage and lifecycle checks remain intact.",
+    "This Windows headless suite simulates browser persistence; actual browser rendering is a separate check.",
+    "Exactly two deliberate malformed-JSON diagnostics occurred, expected by the existing suite.",
+    "All nine imported FontFile resources still permit system fallback at this reviewed revision; parent acknowledged and plans a separate import correction."
+  ],
+  "production_edits_by_reviewer": false
+}

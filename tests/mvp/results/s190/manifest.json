@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "main_runs": 72,
+  "entry_fixtures": 36,
+  "fixed_build_full_routes": 36,
+  "additional_breath_ablation_full_routes": 6,
+  "raw_input_hashes_verified": 78,
+  "selected_fresh_start_raw_replays": 4,
+  "verification_checks": 15,
+  "verification_failures": 0,
+  "source_sha256_at_completion": {
+    "data/mastery/balance.json": "668924b889a36d5ff0b026155662728cd46a0a8c4ae3487159737d8032238043",
+    "data/mastery/feature_flags.json": "b2cbaf055361f803cea05be04e98053accba8c733c052b08e179ea791a5796e3",
+    "data/mastery/nodes.json": "5bd8387945a3cb8a40dedf39b19fd255692814b57354049bb31ada43ab350cc3",
+    "scripts/boulder_controller.gd": "41fa6ac31c0fa077d1c40dcfa33c17e769666b2d7a56075e337feb8ee8d7f189",
+    "scripts/mastery_boulder.gd": "f9340b98996351e4819d525815e50e19bbce621838470c0f5853b06b3f18fee0",
+    "scripts/mastery_effects.gd": "fc8a37f52334046fb0f17ed72ba75d97b826bb4b6244ca8bb887222547017154",
+    "scripts/mastery_progression.gd": "10e232f3bb1e264f1050a10cb1649fcd8a845dc2a65716b89eee3b0237c36282",
+    "tests/balance/adjustment_v03/policies.json": "0f28b2405a736fcbc9e7eb26539a615eeecb40947f40fb646cc896e0806a0f6b",
+    "tests/balance/adjustment_v03/simulator.gd": "e2ef198919f286d03eb20d02618fcc26bd16534762d93d34baa2ede86e5a25f0",
+    "tests/mvp/s190_boulder.gd": "0d5ab49766f4e73af6fdaa17f6c1579be035dcaedccb5c3228d02c725bf6e16c",
+    "tests/mvp/s190_experiment.gd": "dbd84b0fb97a4ecd9aa5e3edc623521b0e1223cf30a9b5f94e91b6de3fd92590",
+    "tests/mvp/s190_terrain.gd": "52e9251920a9a3f2354f5305d35cf9f20f4c2795a1de00e956e573e7da1b52af",
+    "scripts/mountain_manager.gd": "a2dd60925d9f98cb0b88c483d3ab90fa0c12372213666cadb1c989963375adc7",
+    "scripts/mountain_chunk.gd": "4c783aaad3ce4e335cbb538500e01ff21e959916c6822de067060b105e30b6a3",
+    "tests/balance/simulator.gd": "488c0664254a0b8d9d728dbfadd78a6eefe4ae4a4218699b812a3490b7a25eda",
+    "tests/balance/adjustment_v02/simulator.gd": "ea48c5f2c8cc6ce7e07f03aa102103455486ce2e2b5e3c37b2f01f5f9ab309f2",
+    "tests/balance/adjustment_v02/terrain.gd": "cbd97ab112d3968fed78db7e1a5f894b551e84250159713344396b599f15be34",
+    "tests/balance/adjustment_v03/terrain.gd": "5b1328a982d5a13d13b32dced6fdbb64a7d638e0879b64ae6ff86ef74f99c675",
+    "tests/mvp/s190_ablation.gd": "3efbe267d40f5f4ca63841fb3d523f7f222cf9203e6a73502b04d2e4278909d0",
+    "tests/mvp/s190_verify.gd": "4eaef58c640d6c88418488cc30d2ee6623df0cf9d78476ccbc784bae7be506f8",
+    "tests/mvp/analyze_s190.py": "ccf227c597246aeb08178c3d86fe660a78cb9b928bfbb5667bf55262205b3656"
+  },
+  "recorded_start_hashes_unchanged": true,
+  "head_at_completion": "422137050519f0901acefafe0261084885982111",
+  "source_review": "Independent simulator_executor reviewed the3experiment runtime helpers: no blocking issue; fresh starts only, no test environmental quota checkpoint restore claim.",
+  "first_verification_attempt_note": "One malformed probe was placed at750m withzero velocity; it legitimately backed out of the gate onto the outside shelf and recovered. Probe moved to800m to test interior min1. First-attempt result retained; experimental run source and78 measured runs unchanged.",
+  "limits": [
+    "Two synthetic recovery-aware policies,3clear-weather seeds; not human cohorts.",
+    "Build funding uses actual wallet award/purchase APIs but artificial distance-award setup.",
+    "Equal18node builds have unequal EXP costs; no budget-optimality claim.",
+    "No reused all-input impossibility certificate for new mastery recovery.",
+    "All runsstartfresh; only physicsandabilityoutput are serialized in ordinary snapshots,notenvironmentquota."
+  ],
+  "post_run_flags_archive": {
+    "path": "feature-flags-at-run.json",
+    "sha256": "b2cbaf055361f803cea05be04e98053accba8c733c052b08e179ea791a5796e3",
+    "note": "SPC flags were subsequently enabled after independent effect/UI checks. This exact CRLF archive matches run-start metadata; no SPC node was purchased in these experiments, so all measured modifiers remain the recorded normal-node modifiers."
+  }
+}

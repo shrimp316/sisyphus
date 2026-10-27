@@ -1,0 +1,14 @@
+{
+  "baseline_head": "8385f031700dc509068edb468f7361d2ca397968",
+  "current_head": "8385f031700dc509068edb468f7361d2ca397968",
+  "branch": "feat/mastery-tablet-ui-v12",
+  "protected_tracked_file_count": 3882,
+  "protected_tracked_files_changed": [],
+  "build_source_count": 20,
+  "build_source_mismatches": [],
+  "new_file_count": 110,
+  "local_document_links_checked": 148,
+  "broken_links": [],
+  "browser_pass": true,
+  "pass": true
+}
