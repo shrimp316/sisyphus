@@ -31,10 +31,10 @@
     "BRE08": true,
     "BRE09": true,
     "BRE10": true,
-    "SPC01": false,
-    "SPC02": false,
-    "SPC03": false,
-    "SPC04": false,
-    "SPC05": false
+    "SPC01": true,
+    "SPC02": true,
+    "SPC03": true,
+    "SPC04": true,
+    "SPC05": true
   }
 }

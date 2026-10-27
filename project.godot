@@ -4,6 +4,7 @@ config_version=5
 [application]
 config/name="SISYPHUS"
 run/main_scene="res://main.tscn"
+run/main_scene.mastery_mvp="res://scenes/mvp/main_mvp.tscn"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/description="A stone, a mountain, and another beginning."
 

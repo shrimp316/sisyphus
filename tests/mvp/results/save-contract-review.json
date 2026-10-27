@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS for payload validation scope",
+  "sources_sha256": {
+    "scripts/mvp/save_contract.gd": "c87015799e0b092506af0e5493c0d00437ea5c50cd8ab39af387e7c49f2e4e8a",
+    "tests/mvp/test_save_contract.gd": "d784810a2002551c2d71cea875e413de943ed97fb91f005d0e583ee3b64a349f"
+  },
+  "independent_checks": 167,
+  "failures": 0,
+  "log": "save-contract-independent.txt",
+  "reviewed": [
+    "Exact top-level keys and numeric/type limits",
+    "Validation before applying live state",
+    "World snapshot shape before existing factory parsing",
+    "Controller ability ranges and canonical shelf identifiers",
+    "Profile ability summary agrees with controller",
+    "Prestige phase/committed token/milestone consistency",
+    "Modal milestone owns10eligible nodes"
+  ],
+  "not_covered": [
+    "Atomic filesystem writes",
+    "Browser storage mirroring and reload",
+    "Live UI transitions and paused physics"
+  ]
+}

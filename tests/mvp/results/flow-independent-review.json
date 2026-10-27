@@ -1,0 +1,34 @@
+{
+  "verdict": "PASS for reviewed automated flow; browser review remains separate",
+  "source_sha256": {
+    "scripts/mvp/mastery_main.gd": "05230b64e863bb424c10dcd15e7056dc8d28aea94297e718a101101e6720d73d",
+    "scripts/mvp/save_contract.gd": "c87015799e0b092506af0e5493c0d00437ea5c50cd8ab39af387e7c49f2e4e8a",
+    "scripts/mastery_progression.gd": "10e232f3bb1e264f1050a10cb1649fcd8a845dc2a65716b89eee3b0237c36282",
+    "scripts/mastery_boulder.gd": "f9340b98996351e4819d525815e50e19bbce621838470c0f5853b06b3f18fee0",
+    "scripts/mastery_effects.gd": "fc8a37f52334046fb0f17ed72ba75d97b826bb4b6244ca8bb887222547017154",
+    "data/mastery/feature_flags.json": "63ed6680338f3f32bd27c64de8a052c1a6aaab0f880ae3318acd09ebfc625b9c",
+    "tests/mvp/test_mvp_integration.gd": "a120e08bfb336226c2e57cd41a39a3e24e1128efe1d2f46ed998952f21b9dd3f",
+    "tests/mvp/test_storage_faults.gd": "b8574251317f71736684d783e02bfa3027174d3890fc0af0f10627cb4c0dd6b5"
+  },
+  "integration_independent_checks": 242,
+  "storage_fault_checks": 18,
+  "final_flags_profile_checks": 113,
+  "final_flags_save_checks": 109,
+  "failures": 0,
+  "fixed_review_findings": [
+    "Prestige phase can resume through actual Continue menu dispatch",
+    "Storage failure stops remaining fixed steps in the same frame",
+    "Invalid save is shown on the new UI overlay instead of hidden behind CanvasLayer",
+    "M preference persistence and backup success guards reviewed"
+  ],
+  "not_claimed": [
+    "Browser rendered UI and actual browser refresh transaction boundaries",
+    "Physics-climbed summit in scene integration; arrivals are fixtures"
+  ],
+  "logs": [
+    "integration-final-independent.txt",
+    "storage-faults.txt",
+    "mastery-progression-final-independent.txt",
+    "mastery-save-final-independent.txt"
+  ]
+}

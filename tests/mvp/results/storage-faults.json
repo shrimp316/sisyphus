@@ -1,0 +1,6 @@
+{
+	"checks": 18,
+	"failures": [],
+	"save_path": "user://mvp-fault-independent-c1de3be1af10d22c03971de9.json",
+	"scope": "Real file writes with injected ERR_CANT_CREATE before mutation of disk; native backend only. Summit arrival is a fixture. Browser quota/storage errors are a separate verification."
+}
