@@ -1,0 +1,30 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+PASS: 30 v1/v2 continuation states match actual pre-v0.2 golden recordings
+PASS: sweet speed gives10percent force and20percent stamina efficiency
+PASS: sweet speed reduces gross slip gain10percent
+PASS: highspeed reduces control and increases gross slip40percent
+PASS: starting fromrest needs25percent greater opposing-force threshold
+PASS: zero stamina disables active pushing without recovering while input is held
+PASS: mud resistance increases atlow speed
+PASS: groove catches partialfall without ending run
+PASS: velocity-4.0 cannot be rescued bybrace or groove
+PASS: velocity-4.1 cannot be rescued bybrace or groove
+PASS: within-step runaway boundary takes precedence over crossedgroove
+PASS: weak input fails ledge crossing
+PASS: timed strongpush crosses ledge
+PASS: v3 JSON roundtrip preserves ledgeclear and groove definitions
+PASS: v3 restored fractional-step state continues identically
+PASS: retreat rearms previously clearedledge
+PASS: reapproaching ledge afterretreat requires strength again
+PASS: 96v3seeds obey chunk/surface/difficulty/restgap constraints
+PASS: rain wetness islocalized ratherthan mountainwide
+DEBUG CONTROLLED {"distance":98.0,"elapsed":90.0166666666844,"max_slip":43.031047619048,"min_stamina":78.0560000000032,"partial_falls":0,"peak":98.0,"slips":0,"state":"summit"}
+PASS: base-stat controlled strategy can complete debugcourse
+DEBUG ALLSHIFT {"distance":56.9747743055555,"elapsed":299.999999999891,"max_slip":97.3439999999989,"min_stamina":0.0,"partial_falls":0,"peak":56.9994964657479,"slips":0,"state":"climbing"}
+PASS: holdingShift has observable slip/stamina cost versus controlledpace
+NORMAL42 clear {"distance":1000.0,"elapsed":917.79999999933,"max_slip":0.0,"min_stamina":68.6998511494796,"partial_falls":0,"peak":1000.0,"slips":0,"state":"summit"}
+PASS: base-stat controlled climb reaches normal summit seed42 clear
+NORMAL42 rain {"distance":1000.0,"elapsed":917.441666665997,"max_slip":6.56987881960186,"min_stamina":72.2361034683369,"partial_falls":0,"peak":1000.0,"slips":0,"state":"summit"}
+PASS: base-stat controlled climb reaches normal summit seed42 rain
+V0.2 INDEPENDENT: 23 checks, 0 failures

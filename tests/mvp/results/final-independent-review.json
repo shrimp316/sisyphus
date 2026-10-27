@@ -1,0 +1,36 @@
+{
+  "reviewer": "independent verifier; not production/runner/browser author",
+  "reviewed_at_utc": "2026-10-27T05:28:04.169081+00:00",
+  "status": "approved_with_documented_scope",
+  "blocking_findings": [],
+  "evidence_sha256": {
+    "docs/mvp/verification.md": "14e1edb6ace5e7d397757d291b58b621f4ae7f9b702e9dac98477081b7182018",
+    "tests/mvp/run_checks.py": "84fcc7286ffcd1fc3aacf81f7d32bbf7829467dbe8b45cc2a9e51b2eada04011",
+    "tests/mvp/build_web.py": "3e5bc54bd5a6f492e2817ca4d9fe08fbe2fa3ee8423aa2f218ae41639e7d84f9",
+    "tests/mvp/results/final-regression.json": "e45f54d984efa47d782fbff5999a1750c3192e722898816daef7c45034bc6347",
+    "tests/mvp/results/browser/manifest.json": "f702d509454c09938b671ac570db590e11161e5e146294c5493b4e2a61aa9c3c",
+    "tests/mvp/results/browser/README.md": "b3caff5c073c5bad9940bf3dae5555da0c2234d78185cf167ef2ce24d58cf898",
+    "tests/mvp/results/browser/save-after-reloads.json": "0ce41a82541630eabbd35772e58013b4bf1efc1f35f83ae09d0306dd0a25dacc",
+    "tests/mvp/results/clean-export.json": "3095266a57b5e06a4ac82a36eab8e53a4cafd6216d317f5e54e02ce8887c3321",
+    "tests/mvp/results/original-preservation.json": "c0b95ef1242f6f61d35a72f109fed2379b4f39f9932f7aa413b76a29044c65f7",
+    "tests/mvp/results/build-helper.json": "56a5de826d0b60d86837150695d90c2e76dfe7f41dbe4fb4623627d0e8480d4f"
+  },
+  "current_source_count": 115,
+  "current_source_hashes_match": true,
+  "regression_checks": 1463,
+  "archival_source_guard_expected_rejections": 1,
+  "archival_checks_not_counted": 21,
+  "export_pack_checks_separate": 32,
+  "browser_evidence_file_hashes_match": true,
+  "browser_operator": "parent agent; verifier reviewed recorded evidence and two representative images",
+  "runner_review": "Strict error diagnostics, expected source guard refusal, source snapshots including root main.tscn and terrain .tres verified. No blocking defect found.",
+  "build_helper_review": "Code reviewed; subsequently parent executed python tests/mvp/build_web.py --qa completely: exit 0, no unexpected errors, all three license files present, no deployment. Evidence reviewed in build-helper.json.",
+  "scope_limits": [
+    "960 viewport emulation plus OS fullscreen quadrant rendering remains observed and unresolved; not accepted as passing",
+    "No Safari/Firefox/mobile or browser storage-quota/OS-power-loss test",
+    "Synthetic milestone/prestige entry fixtures are not human natural summit evidence",
+    "S190 purchased-build preparation is artificial funding, not an actual growth campaign",
+    "No production site deployment approval"
+  ],
+  "document_links_resolve": true
+}

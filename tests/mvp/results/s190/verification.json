@@ -1,0 +1,6 @@
+{
+	"checks": 15,
+	"failures": [],
+	"raw_replays": 4,
+	"scope": "Fresh-start replays only. Test environmental opportunity is not serialized by ordinary controller snapshot, so mid-gate checkpoint restore is not claimed."
+}

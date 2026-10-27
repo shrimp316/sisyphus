@@ -1,0 +1,4 @@
+# Preserve measured inputs, source fixtures and evidence byte-for-byte.
+/results/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/fixtures/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+/s190*.gd -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

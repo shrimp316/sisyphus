@@ -1,0 +1,8 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+route-no_breath-regular_recovery-101 summit peak=1000.0
+route-no_breath-regular_recovery-202 summit peak=1000.0
+route-no_breath-regular_recovery-303 fall peak=939.840047759957
+route-no_breath-skilled_recovery-101 summit peak=1000.0
+route-no_breath-skilled_recovery-202 summit peak=1000.0
+route-no_breath-skilled_recovery-303 summit peak=1000.0

@@ -1,0 +1,164 @@
+{
+  "source_commit": "e94e1d5f2c768cccf2cdc13878d8fede09f6888c",
+  "clean_directory": "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean",
+  "archive_sha256": "9b7fb53ec9e8e1a1979d4d980da3ac9e803ea4d77a72e4ca650258a7081846af",
+  "shell_override": {
+    "source": "web/mvp_shell.html",
+    "sha256": "abdd59f8a40ac910f46b616ac2ac13db3b3a3117f36f74e4735bdeb9380e853d",
+    "diff_from_commit": "diff --git a/web/mvp_shell.html b/web/mvp_shell.html\nindex 6cb1080..d0b488d 100644\n--- a/web/mvp_shell.html\n+++ b/web/mvp_shell.html\n@@ -17,8 +17,8 @@\n     main { width: min(1440px, 100%); margin: 0 auto; }\n     #stage { position: relative; aspect-ratio: 16 / 9; background: #14212a; overflow: hidden; }\n     #stage:fullscreen { width: 100vw; height: 100vh; aspect-ratio: auto; display: flex; align-items: center; justify-content: center; }\n-    #stage:fullscreen canvas { width: min(100vw, 177.7778vh); height: min(100vh, 56.25vw); }\n-    canvas { display: block; width: 100%; height: 100%; outline: none; }\n+    #stage:fullscreen canvas { width: min(100vw, 177.7778vh) !important; height: min(100vh, 56.25vw) !important; }\n+    canvas { display: block; width: 100% !important; height: 100% !important; outline: none; }\n     #loading { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; padding: 24px; background: #14212a; }\n     #loading[hidden] { display: none; }\n     .eyebrow { color: #d8b678; letter-spacing: .3em; font-size: 13px; }\n@@ -117,4 +117,3 @@\n   </script>\n </body>\n </html>\n-\n"
+  },
+  "templates_sha256": {
+    "web_nothreads_debug.zip": "db624373952bdbffef4476b248fb70e89a483b525ac6de4438bee31ca2924728",
+    "web_nothreads_release.zip": "7f6c5efc9952f6f02509adfb92298161c0152a1f6a81c0bf9b9f4f913676e9c8"
+  },
+  "commands": [
+    {
+      "name": "import",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 28.304,
+      "log": "tests\\mvp\\results\\clean-export-logs\\import.txt",
+      "log_sha256": "40dc1cc4c19af323b879ce82c4a0f6fdbf6298e8664d169ae347d370624ae334"
+    },
+    {
+      "name": "export",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean",
+        "--export-debug",
+        "MVP Web",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean\\builds\\mvp-web\\index.html"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 17.493,
+      "log": "tests\\mvp\\results\\clean-export-logs\\export.txt",
+      "log_sha256": "94e54aca55d0b9feebc9f1b467368c513525851b8b608d2f8d30cbf787195011"
+    },
+    {
+      "name": "exported_pack_runtime",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean\\.tools\\empty-runtime",
+        "--main-pack",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean\\builds\\mvp-web\\index.pck",
+        "--script",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\clean_pack_smoke.gd",
+        "--",
+        "--save-path=C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean\\.tools\\empty-runtime\\isolated-save.json",
+        "--report-path=C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\tests\\mvp\\results\\clean-export-logs\\pack-runtime.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.752,
+      "log": "tests\\mvp\\results\\clean-export-logs\\pack-runtime.txt",
+      "log_sha256": "dd2b62a3c1064dac21a46c47630eb8d06433174a56fa0f22bb9528c7e8595740"
+    },
+    {
+      "name": "pack_default_entry_without_test_script",
+      "command": [
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\godot\\Godot_v4.5.1-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean\\.tools\\empty-runtime",
+        "--main-pack",
+        "C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean\\builds\\mvp-web\\index.pck",
+        "--quit-after",
+        "10",
+        "--",
+        "--save-path=C:\\Users\\PMS\\Documents\\ChatGPT\\시지프\\.tools\\mvp-final-clean\\.tools\\empty-runtime\\default-entry-isolated.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.753,
+      "log": "tests\\mvp\\results\\clean-export-logs\\pack-default-entry.txt",
+      "log_sha256": "7fce11019bc285c51061f1ab778a1a772b8989fd120b8add21d6124bf8af570a"
+    }
+  ],
+  "checks": {
+    "untracked_invalid_animation_absent": true,
+    "catalog_paths_present": true,
+    "mastery_json_files_present": true,
+    "default_entry_without_test_script": true,
+    "no_error_lines": true,
+    "shell_override_still_matches_working_tree": true
+  },
+  "artifacts": {
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 7187,
+      "sha256": "a0912abcd8977f9062fffe2b7d5ede4d2b25e30fe38a0e439933eabbb05c799a"
+    },
+    "index.js": {
+      "bytes": 272262,
+      "sha256": "123651c35cbaaad10f02630aa8eeb46ad3c488d75eb1ddba5e234e5e3d531ce8"
+    },
+    "index.pck": {
+      "bytes": 30382424,
+      "sha256": "e8199129505e6f2d7e64447ed3bb26404c431af2b8b195cb3b68cdc4ad0cfe64"
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.wasm": {
+      "bytes": 36145869,
+      "sha256": "91952c4fcdc3a407b2cc97ca953591c8df136019da983d75b29d456ca736038d"
+    }
+  },
+  "status": "passed",
+  "runtime_smoke": {
+    "assets_catalog": {
+      "boulder": "res://assets/MainMenu/Character/main_boulder.png",
+      "boulder_shadow": "res://assets/MainMenu/Character/main_boulder_shadow.png",
+      "far": "res://assets/MainMenu/Background/main_bg_mountains_far.png",
+      "foreground": "res://assets/MainMenu/Background/main_bg_foreground.png",
+      "mid": "res://assets/MainMenu/Background/main_bg_mountains_mid.png",
+      "node_branch": "res://assets/ui/sephirot/node_branch_available.png",
+      "node_core": "res://assets/ui/sephirot/node_core_completed.png",
+      "primary_base": "res://assets/MainMenu/UI/main_btn_primary_base.png",
+      "primary_disabled": "res://assets/MainMenu/UI/main_btn_primary_disabled.png",
+      "primary_hover": "res://assets/MainMenu/UI/main_btn_primary_hover.png",
+      "primary_pressed": "res://assets/MainMenu/UI/main_btn_primary_pressed.png",
+      "progress_panel": "res://assets/MainMenu/UI/main_panel_progress.png",
+      "ruins": "res://assets/MainMenu/Background/main_bg_ruins.png",
+      "secondary_base": "res://assets/MainMenu/UI/main_btn_secondary_base.png",
+      "secondary_disabled": "res://assets/MainMenu/UI/main_btn_secondary_disabled.png",
+      "secondary_hover": "res://assets/MainMenu/UI/main_btn_secondary_hover.png",
+      "secondary_pressed": "res://assets/MainMenu/UI/main_btn_secondary_pressed.png",
+      "sisyphus": "res://assets/MainMenu/Character/main_sisyphus_rig.png",
+      "sky": "res://assets/MainMenu/Background/main_bg_sky.png",
+      "slope": "res://assets/MainMenu/Background/main_bg_slope.png"
+    },
+    "checks": 32,
+    "failures": [],
+    "font": "res://assets/fonts/NotoSansKR.ttf",
+    "resource_root": "",
+    "scope": "Exported Web PCK executed by native headless Godot from an empty directory; no source-tree fallback. Browser rendering is validated separately."
+  },
+  "log_errors": {
+    "import": [],
+    "export": [],
+    "exported_pack_runtime": [],
+    "pack_default_entry_without_test_script": []
+  },
+  "completed_at_utc": "2026-10-27T05:25:39.885994+00:00",
+  "runtime_helper_sha256": "513ad1a6df87b1b6079e15103c8f9a2537f3e3f8d1a1ca5b53e9a7f833c963fc",
+  "runtime_helper_source": "extends SceneTree\nvar failures: Array[String] = []\nvar checks: int = 0\nvar report_path: String = \"\"\nfunc _initialize() -> void:\n for arg: String in OS.get_cmdline_user_args():\n  if arg.begins_with(\"--report-path=\"): report_path=arg.trim_prefix(\"--report-path=\")\n call_deferred(\"run\")\nfunc check(value: bool, label: String) -> void:\n checks+=1\n if not value: failures.append(label)\nfunc run() -> void:\n check(OS.has_feature(\"mastery_mvp\"),\"exported MVP feature active\")\n check(str(ProjectSettings.get_setting_with_override(\"application/run/main_scene\"))==\"res://scenes/mvp/main_mvp.tscn\",\"exported default MVP scene override\")\n var assets: Variant=JSON.parse_string(FileAccess.get_file_as_string(\"res://data/ui/mvp_assets.json\"))\n check(assets is Dictionary,\"asset catalog JSON\")\n if assets is Dictionary:\n  for id: String in assets:\n   check(load(assets[id]) is Texture2D,\"texture \"+id)\n check(load(\"res://assets/fonts/NotoSansKR.ttf\") is FontFile,\"Korean font\")\n for name: String in [\"nodes\",\"balance\",\"feature_flags\"]:\n  check(JSON.parse_string(FileAccess.get_file_as_string(\"res://data/mastery/\"+name+\".json\")) is Dictionary,\"mastery JSON \"+name)\n var profile_script=load(\"res://scripts/mastery_progression.gd\")\n var profile=profile_script.new()\n check(profile.definitions.size()==35,\"35 definitions in exported profile\")\n var scene=load(\"res://scenes/mvp/main_mvp.tscn\")\n check(scene is PackedScene,\"MVP main scene\")\n var main=scene.instantiate()\n root.add_child(main)\n await process_frame\n check(main.menu!=null and main.board!=null and main.boulder!=null,\"MVP runtime ready\")\n main.board.refresh(main.mastery,false)\n check(main.board.slots.size()==35,\"35 runtime UI slots\")\n check(main.menu.controls.size()==6,\"6 menu controls\")\n var report={\"checks\":checks,\"failures\":failures,\"resource_root\":ProjectSettings.globalize_path(\"res://\"),\"scope\":\"Exported Web PCK executed by native headless Godot from an empty directory; no source-tree fallback. Browser rendering is validated separately.\",\"assets_catalog\":assets,\"font\":\"res://assets/fonts/NotoSansKR.ttf\"}\n var file=FileAccess.open(report_path,FileAccess.WRITE)\n file.store_string(JSON.stringify(report,\"\\t\"))\n print(JSON.stringify(report))\n main.free()\n await process_frame\n quit(0 if failures.is_empty() else 1)\n"
+}

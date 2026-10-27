@@ -1,0 +1,3 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+{"checks":242,"failures":[],"manual_arrival_fixtures":true,"save_path":"user://mvp-integration-final-independent-42074db50a8347dfb68e1c200a482d79.json","suite":"mvp_integration"}

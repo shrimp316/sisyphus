@@ -1,0 +1,23 @@
+{
+  "scope": "Manual browser UI and synthetic save transition QA; not human completion",
+  "engine": "Godot 4.5.1 debug Web",
+  "url": "http://127.0.0.1:8766/index.html",
+  "files": {
+    "after-prestige-menu.png": "0138ad5e168e07333d6ea3f6e2e978c4be80489885b66a31d99371e7f693c4b4",
+    "board-1920.png": "0fe5d3516f8ba1600b9559134dde301a69e008e484e508a123860b52714e650f",
+    "board-960-fullpage-final.png": "b5b2530dc977c25ad07ba22cb1abf21a1518f02a8e139c5b49b8d377961e1ecd",
+    "board-960.png": "721249de8a2898fdf23dea6c18f64e19d1a6c7a9cadf4189e710b672bbc9bfef",
+    "board-fullscreen-native.png": "4fbd5c1e9f21c85941d09b31f305b18964af178aeaaf8823a6c1b6c9382bad73",
+    "menu-1920.png": "ef0335dfeee64e8923db37be49a9d7055a38748cb3585972872f71151438cb7b",
+    "purchase-1920.png": "ac01babe667537e644b906c6ce1821e5c73a225de978b6c8c37c4b8429589f29",
+    "README.md": "b3caff5c073c5bad9940bf3dae5555da0c2234d78185cf167ef2ce24d58cf898",
+    "save-after-reloads.json": "0ce41a82541630eabbd35772e58013b4bf1efc1f35f83ae09d0306dd0a25dacc",
+    "save-inspection.png": "9879e4213cc67025342aea8450ff9930b25e71cd0188418cd25205c76318b088",
+    "sephirot.png": "5675ed07744d0c0db335a0e6d04f42af322af04c56f0616c525943c2ad2c3e22",
+    "viewport-emulation-fullscreen-limitation.png": "3fe88c02349591fb6f5c009a8556cc38909c05fab77f7b8d9789f34235bb7bd4"
+  },
+  "limitations": [
+    "960x540 viewport emulation combined with OS fullscreen renders in quadrant; native 1920 fullscreen and ordinary 960 window separately verified",
+    "No Safari, Firefox, mobile or Web storage quota injection"
+  ]
+}

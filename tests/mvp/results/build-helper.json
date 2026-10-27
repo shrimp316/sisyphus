@@ -1,0 +1,12 @@
+{
+  "command": "python tests/mvp/build_web.py --qa",
+  "exit_code": 0,
+  "unexpected_errors": [],
+  "licenses": {
+    "GODOT-LICENSE.txt": true,
+    "GODOT-COPYRIGHT.txt": true,
+    "FONT-LICENSE.txt": true
+  },
+  "shell_sha256": "abdd59f8a40ac910f46b616ac2ac13db3b3a3117f36f74e4735bdeb9380e853d",
+  "deployment_performed": false
+}

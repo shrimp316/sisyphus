@@ -17,8 +17,8 @@
     main { width: min(1440px, 100%); margin: 0 auto; }
     #stage { position: relative; aspect-ratio: 16 / 9; background: #14212a; overflow: hidden; }
     #stage:fullscreen { width: 100vw; height: 100vh; aspect-ratio: auto; display: flex; align-items: center; justify-content: center; }
-    #stage:fullscreen canvas { width: min(100vw, 177.7778vh); height: min(100vh, 56.25vw); }
-    canvas { display: block; width: 100%; height: 100%; outline: none; }
+    #stage:fullscreen canvas { width: min(100vw, 177.7778vh) !important; height: min(100vh, 56.25vw) !important; }
+    canvas { display: block; width: 100% !important; height: 100% !important; outline: none; }
     #loading { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; padding: 24px; background: #14212a; }
     #loading[hidden] { display: none; }
     .eyebrow { color: #d8b678; letter-spacing: .3em; font-size: 13px; }
@@ -117,4 +117,3 @@
   </script>
 </body>
 </html>
-

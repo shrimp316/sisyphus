@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MountainChunk" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/mountain_chunk.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "zone_1_soil"
+zone_index = 0
+length = 50.0
+climb_length = 30.0
+start_angle = 8.0
+end_angle = 8.0
+surface_type = "SOIL"
+difficulty = 1
+tags = PackedStringArray("authored", "rest_shelf", "zone_1")
+v02_surface_type = "MUD"
+wet_ranges = Array[Vector2]([Vector2(10, 16)])
+
